@@ -1,0 +1,11 @@
+[project]
+name = "arxiv-scraper"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "arxiv>=2.2.0",
+    "pyyaml>=6.0.2",
+    "regex>=2024.11.6",
+]

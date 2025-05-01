@@ -1,0 +1,31 @@
+# config.yaml
+
+start_date: "2024-01-01"
+max_results: 100
+
+categories:
+  foundation_model:
+    queries:
+      - ["foundation model", "remote sensing"]
+      - ["foundation model", "geospatial"]
+  
+  remote_sensing:
+    queries:
+      - ["remote sensing", "deep learning"]
+
+  ocean:
+    queries:
+      - ["ocean", "deep learning"]
+      - ["ocean", "surface currents"]
+
+  ship_trajectories:
+    queries:
+      - ["ship trajectories", "deep learning"]
+      - ["vessel tracking", "AIS"]
+      - ["fishing", "vessel"]
+
+  fish_plankton:
+    queries:
+      - ["chlorophyll", "satellite"]
+      - ["species distribution model"]
+

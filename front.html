@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arXiv Papers Explorer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans tracking-tight leading-tight text-gray-900">
+
+  <div class="container mx-auto p-6">
+
+    <!-- Header Section: Title, Latest Article Date, and Total Articles -->
+    <div class="flex flex-col items-center text-center mb-8">
+      <h1 class="text-4xl font-semibold text-gray-900">arXiv Papers Explorer</h1>
+      <div class="text-lg text-gray-600 mt-2">
+        <span id="latestDate"></span>
+      </div>
+    </div>
+
+    <!-- Tag Filters -->
+    <div id="tagFilters" class="flex flex-wrap gap-4 justify-center mb-6">
+      <!-- Tags will be injected here -->
+    </div>
+
+    <!-- Search bar -->
+    <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mb-6">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search papers..."
+        class="w-full sm:w-64 p-3 rounded-md border border-gray-300 shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 transition duration-300"
+      />
+      <div class="text-lg text-gray-600">
+        <span id="counter"></span>
+      </div>
+    </div>
+
+    <!-- Papers list -->
+    <div id="papersList" class="space-y-6 mb-6">
+      <!-- Papers will be injected here -->
+    </div>
+
+    <!-- Pagination -->
+    <div id="pagination" class="flex justify-center gap-4 mb-6">
+      <button id="prevPage" class="px-6 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 hidden">Previous</button>
+      <span id="pageInfo" class="text-lg text-gray-600">Page 1</span>
+      <button id="nextPage" class="px-6 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 hidden">Next</button>
+    </div>
+  </div>
+
+  <script>
+    const papersUrl = 'output/papers_with_specificities.json';  // Path to your papers JSON
+    const categoryCountsUrl = 'output/category_counts.json';  // Path to category counts
+    let papers = [];
+    let selectedTags = new Set();
+    let searchTerm = '';
+    let categoryCounts = {};
+    let currentPage = 1;
+    const papersPerPage = 5;
+
+    const availableTags = {
+      "ocean": "🌊 Ocean",
+      "remote_sensing": "🛰️ Remote Sensing",
+      "foundation_model": "🏛️ Foundation Models",
+      "ship_trajectories": "🚢 Ship Trajectories",
+      "fish_plankton": "🐟 Fish"
+    };
+
+    async function fetchData() {
+      // Fetch both papers and category counts
+      const papersRes = await fetch(papersUrl);
+      const countsRes = await fetch(categoryCountsUrl);
+
+      papers = await papersRes.json();
+      categoryCounts = await countsRes.json();
+
+      renderTags();
+      renderLatestDate();
+      renderPapers();
+    }
+
+    function renderTags() {
+      const container = document.getElementById('tagFilters');
+      container.innerHTML = '';
+
+      for (const [tag, label] of Object.entries(availableTags)) {
+        const count = categoryCounts[tag] || 0;
+
+        const button = document.createElement('button');
+        button.className = 'tag-btn px-5 py-2 rounded-md bg-gray-200 hover:bg-gray-300 text-gray-700 shadow-sm transition duration-200';
+        button.innerText = `${label} (${count})`;
+        button.dataset.tag = tag;
+
+        button.addEventListener('click', () => {
+          if (selectedTags.has(tag)) {
+            selectedTags.delete(tag);
+            button.classList.remove('bg-blue-400', 'text-white');
+            button.classList.add('bg-gray-200', 'text-gray-700');
+          } else {
+            selectedTags.add(tag);
+            button.classList.remove('bg-gray-200', 'text-gray-700');
+            button.classList.add('bg-blue-400', 'text-white');
+          }
+          renderPapers();
+        });
+
+        container.appendChild(button);
+      }
+    }
+
+    function renderLatestDate() {
+      const latestDateDiv = document.getElementById('latestDate');
+      if (papers.length > 0) {
+        const latestPaper = papers[0];  // First item should be the latest one
+        latestDateDiv.innerText = `Latest Article Date: ${latestPaper.published}`;
+      }
+    }
+
+    function renderPapers() {
+      const list = document.getElementById('papersList');
+      const counter = document.getElementById('counter');
+      const pageInfo = document.getElementById('pageInfo');
+      list.innerHTML = '';
+
+      let filtered = papers.filter(paper => {
+        const hasAnyTag = selectedTags.size === 0 || Array.from(selectedTags).some(tag => paper.categories.includes(tag));
+        const matchesSearch = paper.title.toLowerCase().includes(searchTerm) ||
+                               paper.abstract.toLowerCase().includes(searchTerm);
+
+        return hasAnyTag && matchesSearch;
+      });
+
+      counter.innerText = `${filtered.length} paper(s) found`;
+
+      // Pagination logic
+      const totalPages = Math.ceil(filtered.length / papersPerPage);
+      const startIndex = (currentPage - 1) * papersPerPage;
+      const endIndex = Math.min(startIndex + papersPerPage, filtered.length);
+      const currentPagePapers = filtered.slice(startIndex, endIndex);
+
+      for (const paper of currentPagePapers) {
+        const card = document.createElement('div');
+        card.className = 'bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 ease-in-out';
+
+        const firstAuthor = paper.authors.length > 0 ? paper.authors[0] : "Unknown Author";
+
+        // Truncated abstract logic
+        const truncatedAbstract = paper.abstract.slice(0, 200) + (paper.abstract.length > 200 ? '...' : '');
+
+        // Render the paper card
+        card.innerHTML = `
+          <a href="${paper.url}" target="_blank" class="text-xl font-semibold text-blue-600 hover:underline">
+            ${paper.title}
+          </a>
+          <div class="text-sm text-gray-500 mt-2">${firstAuthor} — ${paper.published}</div>
+          <p class="text-sm text-gray-700 mt-4">
+            <span class="abstract-text">${truncatedAbstract}</span>
+            <span class="full-abstract hidden">${paper.abstract}</span>
+          </p>
+          <button class="show-more text-blue-600 mt-2">Show More</button>
+          
+          <div class="flex flex-wrap gap-2 mt-4">
+            ${paper.categories.map(cat => `
+              <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded-full">${availableTags[cat] || cat}</span>
+            `).join('')}
+            
+            ${paper.applications && paper.applications.length > 0 ? `
+                ${paper.applications.map(app => `
+                  <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded-full">${app}</span>
+                `).join('')}
+            ` : ''}
+            
+            ${paper.architectures && paper.architectures.length > 0 ? `
+                ${paper.architectures.map(arch => `
+                  <span class="inline-block bg-yellow-100 text-yellow-800 text-xs font-semibold px-2 py-1 rounded-full">${arch}</span>
+                `).join('')}
+            ` : ''}
+          </div>
+        `;
+
+        // Handle Show More / Show Less
+        const showMoreButton = card.querySelector('.show-more');
+        showMoreButton.addEventListener('click', (e) => {
+          const abstractText = card.querySelector('.abstract-text');
+          const fullAbstract = card.querySelector('.full-abstract');
+          const isHidden = fullAbstract.classList.contains('hidden');
+
+          if (isHidden) {
+            abstractText.classList.add('hidden');
+            fullAbstract.classList.remove('hidden');
+            showMoreButton.innerText = 'Show Less';
+          } else {
+            abstractText.classList.remove('hidden');
+            fullAbstract.classList.add('hidden');
+            showMoreButton.innerText = 'Show More';
+          }
+        });
+
+        list.appendChild(card);
+      }
+
+      // Pagination Controls
+      document.getElementById('prevPage').classList.toggle('hidden', currentPage === 1);
+      document.getElementById('nextPage').classList.toggle('hidden', currentPage === totalPages);
+      pageInfo.innerText = `Page ${currentPage} of ${totalPages}`;
+    }
+
+    function changePage(increment) {
+      currentPage += increment;
+      renderPapers();
+    }
+
+    document.getElementById('searchInput').addEventListener('input', (e) => {
+      searchTerm = e.target.value.trim().toLowerCase();
+      renderPapers();
+    });
+
+    // Event listeners for pagination buttons
+    document.getElementById('prevPage').addEventListener('click', () => changePage(-1));
+    document.getElementById('nextPage').addEventListener('click', () => changePage(1));
+
+    fetchData();
+  </script>
+
+</body>
+</html>

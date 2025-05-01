@@ -1,0 +1,44 @@
+2025-05-01 20:55:55,590 [INFO] Scraping from date: 2024-01-01
+2025-05-01 20:55:55,590 [INFO] Searching category: foundation_model
+2025-05-01 20:55:55,590 [INFO] Running query: "foundation model" AND "remote sensing"
+2025-05-01 20:55:55,591 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22foundation+model%22+AND+%22remote+sensing%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-05-01 20:55:57,317 [INFO] Got first page: 100 of 140 total results
+2025-05-01 20:55:57,320 [INFO] Running query: "foundation model" AND "geospatial"
+2025-05-01 20:55:57,320 [INFO] Sleeping: 2.902817 seconds
+2025-05-01 20:56:00,228 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22foundation+model%22+AND+%22geospatial%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-05-01 20:56:00,960 [INFO] Got first page: 54 of 54 total results
+2025-05-01 20:56:00,962 [INFO] Searching category: remote_sensing
+2025-05-01 20:56:00,963 [INFO] Running query: "remote sensing" AND "deep learning"
+2025-05-01 20:56:00,963 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22remote+sensing%22+AND+%22deep+learning%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-05-01 20:56:02,325 [INFO] Got first page: 100 of 911 total results
+2025-05-01 20:56:02,328 [INFO] Searching category: ocean
+2025-05-01 20:56:02,328 [INFO] Running query: "ocean" AND "deep learning"
+2025-05-01 20:56:02,328 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22ocean%22+AND+%22deep+learning%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-05-01 20:56:03,564 [INFO] Got first page: 100 of 479 total results
+2025-05-01 20:56:03,567 [INFO] Running query: "ocean" AND "surface currents"
+2025-05-01 20:56:03,567 [INFO] Sleeping: 2.908804 seconds
+2025-05-01 20:56:06,481 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22ocean%22+AND+%22surface+currents%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-05-01 20:56:07,311 [INFO] Got first page: 53 of 53 total results
+2025-05-01 20:56:07,313 [INFO] Searching category: ship_trajectories
+2025-05-01 20:56:07,313 [INFO] Running query: "ship trajectories" AND "deep learning"
+2025-05-01 20:56:07,313 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22ship+trajectories%22+AND+%22deep+learning%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-05-01 20:56:07,863 [INFO] Got first page: 3 of 3 total results
+2025-05-01 20:56:07,864 [INFO] Running query: "vessel tracking" AND "AIS"
+2025-05-01 20:56:07,864 [INFO] Sleeping: 2.989337 seconds
+2025-05-01 20:56:10,858 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22vessel+tracking%22+AND+%22AIS%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-05-01 20:56:11,150 [INFO] Got first page: 9 of 9 total results
+2025-05-01 20:56:11,151 [INFO] Running query: "fishing" AND "vessel"
+2025-05-01 20:56:11,151 [INFO] Sleeping: 2.983236 seconds
+2025-05-01 20:56:14,139 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22fishing%22+AND+%22vessel%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-05-01 20:56:14,785 [INFO] Got first page: 45 of 45 total results
+2025-05-01 20:56:14,787 [INFO] Searching category: fish_plankton
+2025-05-01 20:56:14,787 [INFO] Running query: "chlorophyll" AND "satellite"
+2025-05-01 20:56:14,787 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22chlorophyll%22+AND+%22satellite%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-05-01 20:56:15,481 [INFO] Got first page: 15 of 15 total results
+2025-05-01 20:56:15,482 [INFO] Running query: "species distribution model"
+2025-05-01 20:56:15,482 [INFO] Sleeping: 2.976915 seconds
+2025-05-01 20:56:18,464 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22species+distribution+model%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-05-01 20:56:19,320 [INFO] Got first page: 80 of 80 total results
+2025-05-01 20:56:19,323 [INFO] Total unique papers after deduplication: 372
+2025-05-01 20:56:19,410 [INFO] Saved all papers to output/papers_with_specificities.json
+2025-05-01 20:56:19,410 [INFO] Done.

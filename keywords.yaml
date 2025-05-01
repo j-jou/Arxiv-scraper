@@ -1,0 +1,39 @@
+architectures:
+  - CNN, Convolutional Neural Network
+  - JEPA
+  - UNET, U-Net
+  - ResNet
+  - VGG
+  - Transformer, ViT
+  - LSTM
+  - GAN, adversarial network
+  - Autoencoder, VAE
+  - Deep Neural Network
+  - Attention-based models
+  - RNN
+  - LLM, Large Language Model, RAG
+  - LVM, VLM, Vision-Language Model
+  - CLIP
+  - Diffusion Models
+  - GNN, Graph Neural Networks
+  - PINN, Physics-Informed, Physics Informed
+  - CapsNet, Capsule Network
+  - SDM, Species Distribution Model, Species Distribution Modeling
+
+applications:
+  - Segmentation
+  - Detection
+  - Classification
+  - Recognition
+  - Regression
+  - Image Generation
+  - Style Transfer
+  - Super-Resolution
+  - Forecast, forecasting, prediction
+  - Nowcast
+  - Reinforcement Learning
+  - Anomaly Detection
+  - Time Series Analysis
+  - Tracking
+  - Image Inpainting
+
