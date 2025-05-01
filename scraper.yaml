@@ -1,0 +1,28 @@
+name: Run scraper every 7 days
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # tous les dimanches à minuit
+  workflow_dispatch:     # permet de le lancer manuellement aussi
+
+jobs:
+  run-scraper:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install uv
+        run: pip install uv
+
+      - name: Install project dependencies
+        run: uv pip install .
+
+      - name: Run scraper
+        run: python scraper.py --start-date $(date -d "8 days ago" +%F)
