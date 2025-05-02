@@ -26,8 +26,8 @@
     "published": "2025-04-28",
     "abstract": "By mapping sites at large scales using remotely sensed data, archaeologists\ncan generate unique insights into long-term demographic trends, inter-regional\nsocial networks, and past adaptations to climate change. Remote sensing surveys\ncomplement field-based approaches, and their reach can be especially great when\ncombined with deep learning and computer vision techniques. However,\nconventional supervised deep learning methods face challenges in annotating\nfine-grained archaeological features at scale. While recent vision foundation\nmodels have shown remarkable success in learning large-scale remote sensing\ndata with minimal annotations, most off-the-shelf solutions are designed for\nRGB images rather than multi-spectral satellite imagery, such as the 8-band\ndata used in our study. In this paper, we introduce DeepAndes, a\ntransformer-based vision foundation model trained on three million\nmulti-spectral satellite images, specifically tailored for Andean archaeology.\nDeepAndes incorporates a customized DINOv2 self-supervised learning algorithm\noptimized for 8-band multi-spectral imagery, marking the first foundation model\ndesigned explicitly for the Andes region. We evaluate its image understanding\nperformance through imbalanced image classification, image instance retrieval,\nand pixel-level semantic segmentation tasks. Our experiments show that\nDeepAndes achieves superior F1 scores, mean average precision, and Dice scores\nin few-shot learning scenarios, significantly outperforming models trained from\nscratch or pre-trained on smaller datasets. This underscores the effectiveness\nof large-scale self-supervised pre-training in archaeological remote sensing.\nCodes will be available on https://github.com/geopacha/DeepAndes.",
     "categories": [
-      "remote_sensing",
-      "foundation_model"
+      "foundation_model",
+      "remote_sensing"
     ],
     "architectures": [
       "Transformer"
@@ -53,7 +53,8 @@
     "published": "2025-04-27",
     "abstract": "Spectral imaging offers promising applications across diverse domains,\nincluding medicine and urban scene understanding, and is already established as\na critical modality in remote sensing. However, variability in channel\ndimensionality and captured wavelengths among spectral cameras impede the\ndevelopment of AI-driven methodologies, leading to camera-specific models with\nlimited generalizability and inadequate cross-camera applicability. To address\nthis bottleneck, we introduce $\\textbf{CARL}$, a model for\n$\\textbf{C}$amera-$\\textbf{A}$gnostic $\\textbf{R}$epresentation\n$\\textbf{L}$earning across RGB, multispectral, and hyperspectral imaging\nmodalities. To enable the conversion of a spectral image with any channel\ndimensionality to a camera-agnostic embedding, we introduce wavelength\npositional encoding and a self-attention-cross-attention mechanism to compress\nspectral information into learned query representations. Spectral-spatial\npre-training is achieved with a novel spectral self-supervised JEPA-inspired\nstrategy tailored to CARL. Large-scale experiments across the domains of\nmedical imaging, autonomous driving, and satellite imaging demonstrate our\nmodel's unique robustness to spectral heterogeneity, outperforming on datasets\nwith simulated and real-world cross-camera spectral variations. The scalability\nand versatility of the proposed approach position our model as a backbone for\nfuture spectral foundation models.",
     "categories": [
-      "foundation_model"
+      "foundation_model",
+      "remote_sensing"
     ],
     "architectures": [
       "JEPA"
@@ -70,7 +71,8 @@
     "published": "2025-04-26",
     "abstract": "We propose PyViT-FUSE, a foundation model for earth observation data\nexplicitly designed to handle multi-modal imagery by learning to fuse an\narbitrary number of mixed-resolution input bands into a single representation\nthrough an attention mechanism. The learned patch tokens are further processed\nby a stack of vision transformers with a novel pyramidal structure. We train\nthe model on a globally sampled dataset in a self-supervised manner, leveraging\ncore concepts of the SwAV algorithm. We show the interpretability of the fusion\nmechanism by visualization of the attention scores and the models applicability\nto downstream tasks.",
     "categories": [
-      "foundation_model"
+      "foundation_model",
+      "remote_sensing"
     ],
     "architectures": [
       "Transformer"
@@ -130,7 +132,8 @@
     "published": "2025-04-24",
     "abstract": "Foundation models have garnered increasing attention for representation\nlearning in remote sensing, primarily adopting approaches that have\ndemonstrated success in computer vision with minimal domain-specific\nmodification. However, the development and application of foundation models in\nthis field are still burgeoning, as there are a variety of competing approaches\nthat each come with significant benefits and drawbacks. This paper examines\nthese approaches along with their roots in the computer vision field in order\nto characterize potential advantages and pitfalls while outlining future\ndirections to further improve remote sensing-specific foundation models. We\ndiscuss the quality of the learned representations and methods to alleviate the\nneed for massive compute resources. We place emphasis on the multi-sensor\naspect of Earth observations, and the extent to which existing approaches\nleverage multiple sensors in training foundation models in relation to\nmulti-modal foundation models. Finally, we identify opportunities for further\nharnessing the vast amounts of unlabeled, seasonal, and multi-sensor remote\nsensing observations.",
     "categories": [
-      "foundation_model"
+      "foundation_model",
+      "remote_sensing"
     ],
     "architectures": [],
     "applications": []
@@ -8058,6 +8061,383 @@
     "architectures": [
       "SDM"
     ],
+    "applications": []
+  },
+  {
+    "title": "Vision Mamba in Remote Sensing: A Comprehensive Survey of Techniques, Applications and Outlook",
+    "url": "http://arxiv.org/abs/2505.00630v1",
+    "authors": [
+      "Muyi Bao",
+      "Shuchang Lyu",
+      "Zhaoyang Xu",
+      "Huiyu Zhou",
+      "Jinchang Ren",
+      "Shiming Xiang",
+      "Xiangtai Li",
+      "Guangliang Cheng"
+    ],
+    "published": "2025-05-01",
+    "abstract": "Deep learning has profoundly transformed remote sensing, yet prevailing\narchitectures like Convolutional Neural Networks (CNNs) and Vision Transformers\n(ViTs) remain constrained by critical trade-offs: CNNs suffer from limited\nreceptive fields, while ViTs grapple with quadratic computational complexity,\nhindering their scalability for high-resolution remote sensing data. State\nSpace Models (SSMs), particularly the recently proposed Mamba architecture,\nhave emerged as a paradigm-shifting solution, combining linear computational\nscaling with global context modeling. This survey presents a comprehensive\nreview of Mamba-based methodologies in remote sensing, systematically analyzing\nabout 120 studies to construct a holistic taxonomy of innovations and\napplications. Our contributions are structured across five dimensions: (i)\nfoundational principles of vision Mamba architectures, (ii) micro-architectural\nadvancements such as adaptive scan strategies and hybrid SSM formulations,\n(iii) macro-architectural integrations, including CNN-Transformer-Mamba hybrids\nand frequency-domain adaptations, (iv) rigorous benchmarking against\nstate-of-the-art methods in multiple application tasks, such as object\ndetection, semantic segmentation, change detection, etc. and (v) critical\nanalysis of unresolved challenges with actionable future directions. By\nbridging the gap between SSM theory and remote sensing practice, this survey\nestablishes Mamba as a transformative framework for remote sensing analysis. To\nour knowledge, this paper is the first systematic review of Mamba architectures\nin remote sensing. Our work provides a structured foundation for advancing\nresearch in remote sensing systems through SSM-based methods. We curate an\nopen-source repository\n(https://github.com/BaoBao0926/Awesome-Mamba-in-Remote-Sensing) to foster\ncommunity-driven advancements.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": [
+      "Segmentation",
+      "Detection"
+    ]
+  },
+  {
+    "title": "Field-scale soil moisture estimated from Sentinel-1 SAR data using a knowledge-guided deep learning approach",
+    "url": "http://arxiv.org/abs/2505.00265v1",
+    "authors": [
+      "Yi Yu",
+      "Patrick Filippi",
+      "Thomas F. A. Bishop"
+    ],
+    "published": "2025-05-01",
+    "abstract": "Soil moisture (SM) estimation from active microwave data remains challenging\ndue to the complex interactions between radar backscatter and surface\ncharacteristics. While the water cloud model (WCM) provides a semi-physical\napproach for understanding these interactions, its empirical component often\nlimits performance across diverse agricultural landscapes. This research\npresents preliminary efforts for developing a knowledge-guided deep learning\napproach, which integrates WCM principles into a long short-term memory (LSTM)\nmodel, to estimate field SM using Sentinel-1 Synthetic Aperture Radar (SAR)\ndata. Our proposed approach leverages LSTM's capacity to capture spatiotemporal\ndependencies while maintaining physical consistency through a modified\ndual-component loss function, including a WCM-based semi-physical component and\na boundary condition regularisation. The proposed approach is built upon the\nsoil backscatter coefficients isolated from the total backscatter, together\nwith Landsat-resolution vegetation information and surface characteristics. A\nfour-fold spatial cross-validation was performed against in-situ SM data to\nassess the model performance. Results showed the proposed approach reduced SM\nretrieval uncertainties by 0.02 m$^3$/m$^3$ and achieved correlation\ncoefficients (R) of up to 0.64 in areas with varying vegetation cover and\nsurface conditions, demonstrating the potential to address the\nover-simplification in WCM.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "LSTM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "ClassWise-CRF: Category-Specific Fusion for Enhanced Semantic Segmentation of Remote Sensing Imagery",
+    "url": "http://arxiv.org/abs/2504.21491v1",
+    "authors": [
+      "Qinfeng Zhu",
+      "Yunxi Jiang",
+      "Lei Fan"
+    ],
+    "published": "2025-04-30",
+    "abstract": "We propose a result-level category-specific fusion architecture called\nClassWise-CRF. This architecture employs a two-stage process: first, it selects\nexpert networks that perform well in specific categories from a pool of\ncandidate networks using a greedy algorithm; second, it integrates the\nsegmentation predictions of these selected networks by adaptively weighting\ntheir contributions based on their segmentation performance in each category.\nInspired by Conditional Random Field (CRF), the ClassWise-CRF architecture\ntreats the segmentation predictions from multiple networks as confidence vector\nfields. It leverages segmentation metrics (such as Intersection over Union)\nfrom the validation set as priors and employs an exponential weighting strategy\nto fuse the category-specific confidence scores predicted by each network. This\nfusion method dynamically adjusts the weights of each network for different\ncategories, achieving category-specific optimization. Building on this, the\narchitecture further optimizes the fused results using unary and pairwise\npotentials in CRF to ensure spatial consistency and boundary accuracy. To\nvalidate the effectiveness of ClassWise-CRF, we conducted experiments on two\nremote sensing datasets, LoveDA and Vaihingen, using eight classic and advanced\nsemantic segmentation networks. The results show that the ClassWise-CRF\narchitecture significantly improves segmentation performance: on the LoveDA\ndataset, the mean Intersection over Union (mIoU) metric increased by 1.00% on\nthe validation set and by 0.68% on the test set; on the Vaihingen dataset, the\nmIoU improved by 0.87% on the validation set and by 0.91% on the test set.\nThese results fully demonstrate the effectiveness and generality of the\nClassWise-CRF architecture in semantic segmentation of remote sensing images.\nThe full code is available at https://github.com/zhuqinfeng1999/ClassWise-CRF.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Geolocating Earth Imagery from ISS: Integrating Machine Learning with Astronaut Photography for Enhanced Geographic Mapping",
+    "url": "http://arxiv.org/abs/2504.21194v1",
+    "authors": [
+      "Vedika Srivastava",
+      "Hemant Kumar Singh",
+      "Jaisal Singh"
+    ],
+    "published": "2025-04-29",
+    "abstract": "This paper presents a novel approach to geolocating images captured from the\nInternational Space Station (ISS) using advanced machine learning algorithms.\nDespite having precise ISS coordinates, the specific Earth locations depicted\nin astronaut-taken photographs often remain unidentified. Our research\naddresses this gap by employing three distinct image processing pipelines: a\nNeural Network based approach, a SIFT based method, and GPT-4 model. Each\npipeline is tailored to process high-resolution ISS imagery, identifying both\nnatural and man-made geographical features. Through extensive evaluation on a\ndiverse dataset of over 140 ISS images, our methods demonstrate significant\npromise in automated geolocation with varied levels of success. The NN approach\nshowed a high success rate in accurately matching geographical features, while\nthe SIFT pipeline excelled in processing zoomed-in images. GPT-4 model provided\nenriched geographical descriptions alongside location predictions. This\nresearch contributes to the fields of remote sensing and Earth observation by\nenhancing the accuracy and efficiency of geolocating space-based imagery,\nthereby aiding environmental monitoring and global mapping efforts.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Monitoring digestate application on agricultural crops using Sentinel-2 Satellite imagery",
+    "url": "http://arxiv.org/abs/2504.19996v1",
+    "authors": [
+      "Andreas Kalogeras",
+      "Dimitrios Bormpoudakis",
+      "Iason Tsardanidis",
+      "Dimitra A. Loka",
+      "Charalampos Kontoes"
+    ],
+    "published": "2025-04-28",
+    "abstract": "The widespread use of Exogenous Organic Matter in agriculture necessitates\nmonitoring to assess its effects on soil and crop health. This study evaluates\noptical Sentinel-2 satellite imagery for detecting digestate application, a\npractice that enhances soil fertility but poses environmental risks like\nmicroplastic contamination and nitrogen losses. In the first instance,\nSentinel-2 satellite image time series (SITS) analysis of specific indices\n(EOMI, NDVI, EVI) was used to characterize EOM's spectral behavior after\napplication on the soils of four different crop types in Thessaly, Greece.\nFurthermore, Machine Learning (ML) models (namely Random Forest, k-NN, Gradient\nBoosting and a Feed-Forward Neural Network), were used to investigate digestate\npresence detection, achieving F1-scores up to 0.85. The findings highlight the\npotential of combining remote sensing and ML for scalable and cost-effective\nmonitoring of EOM applications, supporting precision agriculture and\nsustainability.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Mapping of Weed Management Methods in Orchards using Sentinel-2 and PlanetScope Data",
+    "url": "http://arxiv.org/abs/2504.19991v1",
+    "authors": [
+      "Ioannis Kontogiorgakis",
+      "Iason Tsardanidis",
+      "Dimitrios Bormpoudakis",
+      "Ilias Tsoumas",
+      "Dimitra A. Loka",
+      "Christos Noulas",
+      "Alexandros Tsitouras",
+      "Charalampos Kontoes"
+    ],
+    "published": "2025-04-28",
+    "abstract": "Effective weed management is crucial for improving agricultural productivity,\nas weeds compete with crops for vital resources like nutrients and water.\nAccurate maps of weed management methods are essential for policymakers to\nassess farmer practices, evaluate impacts on vegetation health, biodiversity,\nand climate, as well as ensure compliance with policies and subsidies. However,\nmonitoring weed management methods is challenging as commonly rely on on-ground\nfield surveys, which are often costly, time-consuming and subject to delays. In\norder to tackle this problem, we leverage Earth Observation (EO) data and\nMachine Learning (ML). Specifically, we developed an ML approach for mapping\nfour distinct weed management methods (Mowing, Tillage, Chemical-spraying, and\nNo practice) in orchards using satellite image time series (SITS) data from two\ndifferent sources: Sentinel-2 (S2) and PlanetScope (PS). The findings\ndemonstrate the potential of ML-driven remote sensing to enhance the efficiency\nand accuracy of weed management mapping in orchards.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Dual-Branch Residual Network for Cross-Domain Few-Shot Hyperspectral Image Classification with Refined Prototype",
+    "url": "http://arxiv.org/abs/2504.19074v1",
+    "authors": [
+      "Anyong Qin",
+      "Chaoqi Yuan",
+      "Qiang Li",
+      "Feng Yang",
+      "Tiecheng Song",
+      "Chenqiang Gao"
+    ],
+    "published": "2025-04-27",
+    "abstract": "Convolutional neural networks (CNNs) are effective for hyperspectral image\n(HSI) classification, but their 3D convolutional structures introduce high\ncomputational costs and limited generalization in few-shot scenarios. Domain\nshifts caused by sensor differences and environmental variations further hinder\ncross-dataset adaptability. Metric-based few-shot learning (FSL) prototype\nnetworks mitigate this problem, yet their performance is sensitive to prototype\nquality, especially with limited samples. To overcome these challenges, a\ndual-branch residual network that integrates spatial and spectral features via\nparallel branches is proposed in this letter. Additionally, more robust refined\nprototypes are obtained through a regulation term. Furthermore, a kernel\nprobability matching strategy aligns source and target domain features,\nalleviating domain shift. Experiments on four publicly available HSI datasets\nillustrate that the proposal achieves superior performance compared to other\nmethods.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Evaluating AI-Driven Automated Map Digitization in QGIS",
+    "url": "http://arxiv.org/abs/2504.18777v1",
+    "authors": [
+      "Diana Febrita"
+    ],
+    "published": "2025-04-26",
+    "abstract": "Map digitization is an important process that converts maps into digital\nformats that can be used for further analysis. This process typically requires\na deep human involvement because of the need for interpretation and\ndecision-making when translating complex features. With the advancement of\nartificial intelligence, there is an alternative to conducting map digitization\nwith the help of machine learning techniques. Deepness, or Deep Neural Remote\nSensing, is an advanced AI-driven tool designed and integrated as a plugin in\nQGIS application. This research focuses on assessing the effectiveness of\nDeepness in automated digitization. This study analyses AI-generated\ndigitization results from Google Earth imagery and compares them with digitized\noutputs from OpenStreetMap (OSM) to evaluate performance.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Enhancing Tropical Cyclone Path Forecasting with an Improved Transformer Network",
+    "url": "http://arxiv.org/abs/2505.00495v1",
+    "authors": [
+      "Nguyen Van Thanh",
+      "Nguyen Dang Huynh",
+      "Nguyen Ngoc Tan",
+      "Nguyen Thai Minh",
+      "Nguyen Nam Hoang"
+    ],
+    "published": "2025-05-01",
+    "abstract": "A storm is a type of extreme weather. Therefore, forecasting the path of a\nstorm is extremely important for protecting human life and property. However,\nstorm forecasting is very challenging because storm trajectories frequently\nchange. In this study, we propose an improved deep learning method using a\nTransformer network to predict the movement trajectory of a storm over the next\n6 hours. The storm data used to train the model was obtained from the National\nOceanic and Atmospheric Administration (NOAA) [1]. Simulation results show that\nthe proposed method is more accurate than traditional methods. Moreover, the\nproposed method is faster and more cost-effective",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "AI-Enhanced Automatic Design of Efficient Underwater Gliders",
+    "url": "http://arxiv.org/abs/2505.00222v1",
+    "authors": [
+      "Peter Yichen Chen",
+      "Pingchuan Ma",
+      "Niklas Hagemann",
+      "John Romanishin",
+      "Wei Wang",
+      "Daniela Rus",
+      "Wojciech Matusik"
+    ],
+    "published": "2025-04-30",
+    "abstract": "The development of novel autonomous underwater gliders has been hindered by\nlimited shape diversity, primarily due to the reliance on traditional design\ntools that depend heavily on manual trial and error. Building an automated\ndesign framework is challenging due to the complexities of representing glider\nshapes and the high computational costs associated with modeling complex\nsolid-fluid interactions. In this work, we introduce an AI-enhanced automated\ncomputational framework designed to overcome these limitations by enabling the\ncreation of underwater robots with non-trivial hull shapes. Our approach\ninvolves an algorithm that co-optimizes both shape and control signals,\nutilizing a reduced-order geometry representation and a differentiable\nneural-network-based fluid surrogate model. This end-to-end design workflow\nfacilitates rapid iteration and evaluation of hydrodynamic performance, leading\nto the discovery of optimal and complex hull shapes across various control\nsettings. We validate our method through wind tunnel experiments and swimming\npool gliding tests, demonstrating that our computationally designed gliders\nsurpass manually designed counterparts in terms of energy efficiency. By\naddressing challenges in efficient shape representation and neural fluid\nsurrogate models, our work paves the way for the development of highly\nefficient underwater gliders, with implications for long-range ocean\nexploration and environmental monitoring.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Turning Up the Heat: Assessing 2-m Temperature Forecast Errors in AI Weather Prediction Models During Heat Waves",
+    "url": "http://arxiv.org/abs/2504.21195v1",
+    "authors": [
+      "Kelsey E. Ennis",
+      "Elizabeth A. Barnes",
+      "Marybeth C. Arcodia",
+      "Martin A. Fernandez",
+      "Eric D. Maloney"
+    ],
+    "published": "2025-04-29",
+    "abstract": "Extreme heat is the deadliest weather-related hazard in the United States.\nFurthermore, it is increasing in intensity, frequency, and duration, making\nskillful forecasts vital to protecting life and property. Traditional numerical\nweather prediction (NWP) models struggle with extreme heat for medium-range and\nsubseasonal-to-seasonal (S2S) timescales. Meanwhile, artificial\nintelligence-based weather prediction (AIWP) models are progressing rapidly.\nHowever, it is largely unknown how well AIWP models forecast extremes,\nespecially for medium-range and S2S timescales. This study investigates 2-m\ntemperature forecasts for 60 heat waves across the four boreal seasons and over\nfour CONUS regions at lead times up to 20 days, using two AIWP models (Google\nGraphCast and Pangu-Weather) and one traditional NWP model (NOAA United\nForecast System Global Ensemble Forecast System (UFS GEFS)). First, case study\nanalyses show that both AIWP models and the UFS GEFS exhibit consistent cold\nbiases on regional scales in the 5-10 days of lead time before heat wave onset.\nGraphCast is the more skillful AIWP model, outperforming UFS GEFS and\nPangu-Weather in most locations. Next, the two AIWP models are isolated and\nanalyzed across all heat waves and seasons, with events split among the model's\ntesting (2018-2023) and training (1979-2017) periods. There are cold biases\nbefore and during the heat waves in both models and all seasons, except\nPangu-Weather in winter, which exhibits a mean warm bias before heat wave\nonset. Overall, results offer encouragement that AIWP models may be useful for\nmedium-range and S2S predictability of extreme heat.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Machine Learning (ML)-Physics Fusion Model Outperforms Both Physics-Only and ML-Only Models in Typhoon Predictions",
+    "url": "http://arxiv.org/abs/2504.20852v1",
+    "authors": [
+      "Zeyi Niu",
+      "Wei Huang",
+      "Hao Li",
+      "Xuliang Fan",
+      "Yuhua Yang",
+      "Mengqi Yang",
+      "Bo Qin"
+    ],
+    "published": "2025-04-29",
+    "abstract": "Data-driven machine learning (ML) models, such as FuXi, exhibit notable\nlimitations in forecasting typhoon intensity and structure. This study presents\na comprehensive evaluation of FuXi-SHTM, a hybrid ML-physics model, using all\n2024 western North Pacific typhoon cases. The FuXi-SHTM hybrid demonstrates\nclear improvements in both track and intensity forecasts compared to the\nstandalone SHTM, FuXi, and ECMWF HRES models. Compared to FuXi alone, FuXi-SHTM\nreduces typhoon track forecast errors by 16.5% and 5.2% at lead times of 72 h\nand 120 h, respectively, and reduces intensity forecast errors by 59.7% and\n47.6%. Furthermore, FuXi-SHTM simulates cloud structures more realistically\ncompared to SHTM, and achieves superior representation of the 10-m wind fields\nin both intensity and spatial structure compared to FuXi and SHTM. Increasing\nthe resolution of FuXi-SHTM from 9 km to 3 km further enhances intensity\nforecasts, highlighting the critical role of the resolution of the physical\nmodel in advancing hybrid forecasting capabilities.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Quantifying the Influence of Climate on Storm Activity Using Machine Learning",
+    "url": "http://arxiv.org/abs/2504.20521v1",
+    "authors": [
+      "Or Hadas",
+      "Yohai Kaspi"
+    ],
+    "published": "2025-04-29",
+    "abstract": "Extratropical storms shape midlatitude weather and vary due to both the\nslowly evolving climate and the rapid changes in synoptic conditions. While the\ninfluence of each factor has been studied extensively, their relative\nimportance remains unclear. Here, we quantify the climate's relative importance\nin both mean storm activity and individual storm development using 84 years of\nERA-5 data and Convolutional Neural Networks (CNN). We find that the\nconstructed CNN model predicts more than 90% of the variability in the mean\nstorm activity. However, a similar model predicts up to a third of the\nvariability in individual storm features, such as intensity, growth time, and\nstorm trajectory, showing their variability is dominated by synoptic\nconditions. Isolating present-day climate change yields a signal-to-noise ratio\n(SNR) of about 0.16% for storm-intensity attribution, whereas the SNR for heat\nanomalies is ~50 times higher, highlighting that focusing on variables more\ndirectly tied to warming provides a clearer attribution pathway.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Testing the Limit of Atmospheric Predictability with a Machine Learning Weather Model",
+    "url": "http://arxiv.org/abs/2504.20238v1",
+    "authors": [
+      "P. Trent Vonich",
+      "Gregory J. Hakim"
+    ],
+    "published": "2025-04-28",
+    "abstract": "Atmospheric predictability research has long held that the limit of skillful\ndeterministic weather forecasts is about 14 days. We challenge this limit using\nGraphCast, a machine-learning weather model, by optimizing forecast initial\nconditions using gradient-based techniques for twice-daily forecasts spanning\n2020. This approach yields an average error reduction of 86% at 10 days, with\nskill lasting beyond 30 days. Mean optimal initial-condition perturbations\nreveal large-scale, spatially coherent corrections to ERA5, primarily\nreflecting an intensification of the Hadley circulation. Forecasts using\nGraphCast-optimal initial conditions in the Pangu-Weather model achieve a 21%\nerror reduction, peaking at 4 days, indicating that analysis corrections\nreflect a combination of both model bias and a reduction in analysis error.\nThese results demonstrate that, given accurate initial conditions, skillful\ndeterministic forecasts are consistently achievable far beyond two weeks,\nchallenging long-standing assumptions about the limits of atmospheric\npredictability.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "A Physically Driven Long Short Term Memory Model for Estimating Snow Water Equivalent over the Continental United States",
+    "url": "http://arxiv.org/abs/2504.20129v1",
+    "authors": [
+      "Arun M. Saranathan",
+      "Mahmoud Saeedimoghaddam",
+      "Brandon Smith",
+      "Deepthi Raghunandan",
+      "Grey Nearing",
+      "Craig Pelissier"
+    ],
+    "published": "2025-04-28",
+    "abstract": "Snow is an essential input for various land surface models. Seasonal snow\nestimates are available as snow water equivalent (SWE) from process-based\nreanalysis products or locally from in situ measurements. While the reanalysis\nproducts are computationally expensive and available at only fixed spatial and\ntemporal resolutions, the in situ measurements are highly localized and sparse.\nTo address these issues and enable the analysis of the effect of a large suite\nof physical, morphological, and geological conditions on the presence and\namount of snow, we build a Long Short-Term Memory (LSTM) network, which is able\nto estimate the SWE based on time series input of the various\nphysical/meteorological factors as well static spatial/morphological factors.\nSpecifically, this model breaks down the SWE estimation into two separate\ntasks: (i) a classification task that indicates the presence/absence of snow on\na specific day and (ii) a regression task that indicates the height of the SWE\non a specific day in the case of snow presence. The model is trained using\nphysical/in situ SWE measurements from the SNOw TELemetry (SNOTEL) snow pillows\nin the western United States. We will show that trained LSTM models have a\nclassification accuracy of $\\geq 93\\%$ for the presence of snow and a\ncoefficient of correlation of $\\sim 0.9$ concerning their SWE estimates. We\nwill also demonstrate that the models can generalize both spatially and\ntemporally to previously unseen data.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "LSTM"
+    ],
+    "applications": [
+      "Classification",
+      "Regression"
+    ]
+  },
+  {
+    "title": "Digital Twin-based Out-of-Distribution Detection in Autonomous Vessels",
+    "url": "http://arxiv.org/abs/2504.19816v1",
+    "authors": [
+      "Erblin Isaku",
+      "Hassan Sartaj",
+      "Shaukat Ali"
+    ],
+    "published": "2025-04-28",
+    "abstract": "An autonomous vessel (AV) is a complex cyber-physical system (CPS) with\nsoftware enabling many key functionalities, e.g., navigation software enables\nan AV to autonomously or semi-autonomously follow a path to its destination.\nDigital twins of such AVs enable advanced functionalities such as running\nwhat-if scenarios, performing predictive maintenance, and enabling fault\ndiagnosis. Due to technological improvements, real-time analyses using\ncontinuous data from vessels' real-time operations have become increasingly\npossible. However, the literature has little explored developing advanced\nanalyses in real-time data in AVs with digital twins built with machine\nlearning techniques. To this end, we present a novel digital twin-based\napproach (ODDIT) to detect future out-of-distribution (OOD) states of an AV\nbefore reaching them, enabling proactive intervention. Such states may indicate\nanomalies requiring attention (e.g., manual correction by the ship master) and\nassist testers in scenario-centered testing. The digital twin consists of two\nmachine-learning models predicting future vessel states and whether the\npredicted state will be OOD. We evaluated ODDIT with five vessels across\nwaypoint and zigzag maneuvering under simulated conditions, including sensor\nand actuator noise and environmental disturbances i.e., ocean current. ODDIT\nachieved high accuracy in detecting OOD states, with AUROC and TNR@TPR95 scores\nreaching 99\\% across multiple vessels.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "ClimaEmpact: Domain-Aligned Small Language Models and Datasets for Extreme Weather Analytics",
+    "url": "http://arxiv.org/abs/2504.19066v1",
+    "authors": [
+      "Deeksha Varshney",
+      "Keane Ong",
+      "Rui Mao",
+      "Erik Cambria",
+      "Gianmarco Mengaldo"
+    ],
+    "published": "2025-04-27",
+    "abstract": "Accurate assessments of extreme weather events are vital for research and\npolicy, yet localized and granular data remain scarce in many parts of the\nworld. This data gap limits our ability to analyze potential outcomes and\nimplications of extreme weather events, hindering effective decision-making.\nLarge Language Models (LLMs) can process vast amounts of unstructured text\ndata, extract meaningful insights, and generate detailed assessments by\nsynthesizing information from multiple sources. Furthermore, LLMs can\nseamlessly transfer their general language understanding to smaller models,\nenabling these models to retain key knowledge while being fine-tuned for\nspecific tasks. In this paper, we propose Extreme Weather Reasoning-Aware\nAlignment (EWRA), a method that enhances small language models (SLMs) by\nincorporating structured reasoning paths derived from LLMs, and\nExtremeWeatherNews, a large dataset of extreme weather event-related news\narticles. EWRA and ExtremeWeatherNews together form the overall framework,\nClimaEmpact, that focuses on addressing three critical extreme-weather tasks:\ncategorization of tangible vulnerabilities/impacts, topic labeling, and emotion\nanalysis. By aligning SLMs with advanced reasoning strategies on\nExtremeWeatherNews (and its derived dataset ExtremeAlign used specifically for\nSLM alignment), EWRA improves the SLMs' ability to generate well-grounded and\ndomain-specific responses for extreme weather analytics. Our results show that\nthe approach proposed guides SLMs to output domain-aligned responses,\nsurpassing the performance of task-specific models and offering enhanced\nreal-world applicability for extreme weather analytics.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Exploring the Potential of Latent Embeddings for Sea Ice Characterization using ICESat-2 Data",
+    "url": "http://arxiv.org/abs/2504.18668v1",
+    "authors": [
+      "Daehyeon Han",
+      "Morteza Karimzadeh"
+    ],
+    "published": "2025-04-25",
+    "abstract": "The Ice, Cloud, and Elevation Satellite-2 (ICESat-2) provides high-resolution\nmeasurements of sea ice height. Recent studies have developed machine learning\nmethods on ICESat-2 data, primarily focusing on surface type classification.\nHowever, the heavy reliance on manually collected labels requires significant\ntime and effort for supervised learning, as it involves cross-referencing track\nmeasurements with overlapping background optical imagery. Additionally, the\ncoincidence of ICESat-2 tracks with background images is relatively rare due to\nthe different overpass patterns and atmospheric conditions. To address these\nlimitations, this study explores the potential of unsupervised autoencoder on\nunlabeled data to derive latent embeddings. We develop autoencoder models based\non Long Short-Term Memory (LSTM) and Convolutional Neural Networks (CNN) to\nreconstruct topographic sequences from ICESat-2 and derive embeddings. We then\napply Uniform Manifold Approximation and Projection (UMAP) to reduce dimensions\nand visualize the embeddings. Our results show that embeddings from\nautoencoders preserve the overall structure but generate relatively more\ncompact clusters compared to the original ICESat-2 data, indicating the\npotential of embeddings to lessen the number of required labels samples.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "CNN",
+      "LSTM",
+      "Autoencoder"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Unveiling 3D Ocean Biogeochemical Provinces: A Machine Learning Approach for Systematic Clustering and Validation",
+    "url": "http://arxiv.org/abs/2504.18181v1",
+    "authors": [
+      "Yvonne Jenniges",
+      "Maike Sonnewald",
+      "Sebastian Maneth",
+      "Are Olsen",
+      "Boris P. Koch"
+    ],
+    "published": "2025-04-25",
+    "abstract": "Defining ocean regions and water masses helps to understand marine processes\nand can serve downstream-tasks such as defining marine protected areas.\nHowever, such definitions are often a result of subjective decisions\npotentially producing misleading, unreproducible results. Here, the aim was to\nobjectively define regions of the North Atlantic. For this, a data-driven,\nsystematic machine learning approach was applied to generate and validate ocean\nclusters employing external, internal and relative validation techniques. About\n300 million measured salinity, temperature, and oxygen, nitrate, phosphate and\nsilicate concentration values served as input for various clustering methods\n(KMeans, agglomerative Ward, and Density-Based Spatial Clustering of\nApplications with Noise (DBSCAN)). Uniform Manifold Approximation and\nProjection (UMAP) emphasised (dis-)similarities in the data while reducing\ndimensionality. Based on a systematic validation of the considered clustering\nmethods and their hyperparameters, the results showed that UMAP-DBSCAN best\nrepresented the data. To address stochastic variability, 100 UMAP-DBSCAN\nclustering runs were conducted and aggregated using Native Emergent Manifold\nInterrogation (NEMI), producing a final set of 321 clusters. Reproducibility\nwas evaluated by calculating the ensemble overlap (88.81 +- 1.8%) and the mean\ngrid cell-wise uncertainty estimated by NEMI (15.49 +- 20%). The presented\nclustering results agreed very well with common water mass definitions. This\nstudy revealed a more detailed regionalization compared to previous concepts\nsuch as the Longhurst provinces. The applied method is objective, efficient and\nreproducible and will support future research focusing on biogeochemical\ndifferences and changes in oceanic regions.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
     "applications": []
   }
 ]
