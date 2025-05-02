@@ -1,43 +1,5 @@
 [
   {
-    "title": "DeepAndes: A Self-Supervised Vision Foundation Model for Multi-Spectral Remote Sensing Imagery of the Andes",
-    "url": "http://arxiv.org/abs/2504.20303v1",
-    "authors": [
-      "Junlin Guo",
-      "James R. Zimmer-Dauphinee",
-      "Jordan M. Nieusma",
-      "Siqi Lu",
-      "Quan Liu",
-      "Ruining Deng",
-      "Can Cui",
-      "Jialin Yue",
-      "Yizhe Lin",
-      "Tianyuan Yao",
-      "Juming Xiong",
-      "Junchao Zhu",
-      "Chongyu Qu",
-      "Yuechen Yang",
-      "Mitchell Wilkes",
-      "Xiao Wang",
-      "Parker VanValkenburgh",
-      "Steven A. Wernke",
-      "Yuankai Huo"
-    ],
-    "published": "2025-04-28",
-    "abstract": "By mapping sites at large scales using remotely sensed data, archaeologists\ncan generate unique insights into long-term demographic trends, inter-regional\nsocial networks, and past adaptations to climate change. Remote sensing surveys\ncomplement field-based approaches, and their reach can be especially great when\ncombined with deep learning and computer vision techniques. However,\nconventional supervised deep learning methods face challenges in annotating\nfine-grained archaeological features at scale. While recent vision foundation\nmodels have shown remarkable success in learning large-scale remote sensing\ndata with minimal annotations, most off-the-shelf solutions are designed for\nRGB images rather than multi-spectral satellite imagery, such as the 8-band\ndata used in our study. In this paper, we introduce DeepAndes, a\ntransformer-based vision foundation model trained on three million\nmulti-spectral satellite images, specifically tailored for Andean archaeology.\nDeepAndes incorporates a customized DINOv2 self-supervised learning algorithm\noptimized for 8-band multi-spectral imagery, marking the first foundation model\ndesigned explicitly for the Andes region. We evaluate its image understanding\nperformance through imbalanced image classification, image instance retrieval,\nand pixel-level semantic segmentation tasks. Our experiments show that\nDeepAndes achieves superior F1 scores, mean average precision, and Dice scores\nin few-shot learning scenarios, significantly outperforming models trained from\nscratch or pre-trained on smaller datasets. This underscores the effectiveness\nof large-scale self-supervised pre-training in archaeological remote sensing.\nCodes will be available on https://github.com/geopacha/DeepAndes.",
-    "categories": [
-      "foundation_model",
-      "remote_sensing"
-    ],
-    "architectures": [
-      "Transformer"
-    ],
-    "applications": [
-      "Segmentation",
-      "Classification"
-    ]
-  },
-  {
     "title": "CARL: Camera-Agnostic Representation Learning for Spectral Image Analysis",
     "url": "http://arxiv.org/abs/2504.19223v1",
     "authors": [
