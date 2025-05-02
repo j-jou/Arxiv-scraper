@@ -12,15 +12,18 @@ categories:
   remote_sensing:
     queries:
       - ["remote sensing", "deep learning"]
+      - ["remote sensing", "machine learning"]
 
   ocean:
     queries:
       - ["ocean", "deep learning"]
+      - ["ocean", "machine learning"]
       - ["ocean", "surface currents"]
 
   ship_trajectories:
     queries:
       - ["ship trajectories", "deep learning"]
+      - ["ship trajectories", "machine learning"]
       - ["vessel tracking", "AIS"]
       - ["fishing", "vessel"]
 
