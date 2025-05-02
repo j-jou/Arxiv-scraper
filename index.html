@@ -85,7 +85,7 @@
       container.innerHTML = '';
 
       for (const [tag, label] of Object.entries(availableTags)) {
-        const count = categoryCounts[tag] || 0;
+        const count = categoryCounts.category_counts?.[tag] || 0;
 
         const button = document.createElement('button');
         button.className = 'tag-btn px-5 py-2 rounded-md bg-gray-200 hover:bg-gray-300 text-gray-700 shadow-sm transition duration-200';
