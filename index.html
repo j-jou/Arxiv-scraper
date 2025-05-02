@@ -111,10 +111,10 @@
 
     function renderLatestDate() {
       const latestDateDiv = document.getElementById('latestDate');
-      if (papers.length > 0) {
-        const latestPaper = papers[0];  // First item should be the latest one
-        latestDateDiv.innerText = `Latest Article Date: ${latestPaper.published}`;
-      }
+      const scrapeDate = categoryCounts.scrape_date || 'inconnue';
+      const newCount = categoryCounts.new_papers || 0;
+
+      latestDateDiv.innerText = `Last updated : ${scrapeDate} — New articles : ${newCount}`;
     }
 
     function renderPapers() {

@@ -9,6 +9,7 @@ import collections
 import regex
 import random
 import argparse
+from datetime import datetime as dt
 
 # Setup logging
 logging.basicConfig(
@@ -181,6 +182,8 @@ def main():
     else:
         existing_papers = []
 
+    nb_existing_papers = len(existing_papers)
+
     parser = argparse.ArgumentParser()
     parser.add_argument("--start-date", type=str, help="Start date in YYYY-MM-DD format or relative like -7d")
     args = parser.parse_args()
@@ -236,9 +239,16 @@ def main():
 
     logger.info(f"Saved all papers to {output_path}")
 
+    # Save the category counts and date of scrape
+    nb_new_papers = len(unique_papers) - nb_existing_papers
     category_counts = count_categories(unique_papers)
+    category_summary = {
+        "scrape_date": dt.now().strftime("%Y-%m-%d"),
+        "new_papers": nb_new_papers,
+        "category_counts": category_counts
+        }
     with open(output_dir / "category_counts.json", "w", encoding="utf-8") as f:
-        json.dump(category_counts, f, indent=2)
+        json.dump(category_summary, f, indent=2)
 
     logger.info("Done.")
 
