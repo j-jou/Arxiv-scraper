@@ -15,8 +15,8 @@
     "published": "2025-04-27",
     "abstract": "Spectral imaging offers promising applications across diverse domains,\nincluding medicine and urban scene understanding, and is already established as\na critical modality in remote sensing. However, variability in channel\ndimensionality and captured wavelengths among spectral cameras impede the\ndevelopment of AI-driven methodologies, leading to camera-specific models with\nlimited generalizability and inadequate cross-camera applicability. To address\nthis bottleneck, we introduce $\\textbf{CARL}$, a model for\n$\\textbf{C}$amera-$\\textbf{A}$gnostic $\\textbf{R}$epresentation\n$\\textbf{L}$earning across RGB, multispectral, and hyperspectral imaging\nmodalities. To enable the conversion of a spectral image with any channel\ndimensionality to a camera-agnostic embedding, we introduce wavelength\npositional encoding and a self-attention-cross-attention mechanism to compress\nspectral information into learned query representations. Spectral-spatial\npre-training is achieved with a novel spectral self-supervised JEPA-inspired\nstrategy tailored to CARL. Large-scale experiments across the domains of\nmedical imaging, autonomous driving, and satellite imaging demonstrate our\nmodel's unique robustness to spectral heterogeneity, outperforming on datasets\nwith simulated and real-world cross-camera spectral variations. The scalability\nand versatility of the proposed approach position our model as a backbone for\nfuture spectral foundation models.",
     "categories": [
-      "remote_sensing",
-      "foundation_model"
+      "foundation_model",
+      "remote_sensing"
     ],
     "architectures": [
       "JEPA"
@@ -33,8 +33,8 @@
     "published": "2025-04-26",
     "abstract": "We propose PyViT-FUSE, a foundation model for earth observation data\nexplicitly designed to handle multi-modal imagery by learning to fuse an\narbitrary number of mixed-resolution input bands into a single representation\nthrough an attention mechanism. The learned patch tokens are further processed\nby a stack of vision transformers with a novel pyramidal structure. We train\nthe model on a globally sampled dataset in a self-supervised manner, leveraging\ncore concepts of the SwAV algorithm. We show the interpretability of the fusion\nmechanism by visualization of the attention scores and the models applicability\nto downstream tasks.",
     "categories": [
-      "remote_sensing",
-      "foundation_model"
+      "foundation_model",
+      "remote_sensing"
     ],
     "architectures": [
       "Transformer"
@@ -8429,8 +8429,8 @@
     "published": "2025-04-28",
     "abstract": "By mapping sites at large scales using remotely sensed data, archaeologists\ncan generate unique insights into long-term demographic trends, inter-regional\nsocial networks, and past adaptations to climate change. Remote sensing surveys\ncomplement field-based approaches, and their reach can be especially great when\ncombined with deep learning and computer vision techniques. However,\nconventional supervised deep learning methods face challenges in annotating\nfine-grained archaeological features at scale. While recent vision foundation\nmodels have shown remarkable success in learning large-scale remote sensing\ndata with minimal annotations, most off-the-shelf solutions are designed for\nRGB images rather than multi-spectral satellite imagery, such as the 8-band\ndata used in our study. In this paper, we introduce DeepAndes, a\ntransformer-based vision foundation model trained on three million\nmulti-spectral satellite images, specifically tailored for Andean archaeology.\nDeepAndes incorporates a customized DINOv2 self-supervised learning algorithm\noptimized for 8-band multi-spectral imagery, marking the first foundation model\ndesigned explicitly for the Andes region. We evaluate its image understanding\nperformance through imbalanced image classification, image instance retrieval,\nand pixel-level semantic segmentation tasks. Our experiments show that\nDeepAndes achieves superior F1 scores, mean average precision, and Dice scores\nin few-shot learning scenarios, significantly outperforming models trained from\nscratch or pre-trained on smaller datasets. This underscores the effectiveness\nof large-scale self-supervised pre-training in archaeological remote sensing.\nCodes will be available on https://github.com/geopacha/DeepAndes.",
     "categories": [
-      "remote_sensing",
-      "foundation_model"
+      "foundation_model",
+      "remote_sensing"
     ],
     "architectures": [
       "Transformer"
