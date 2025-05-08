@@ -8,6 +8,7 @@ categories:
     queries:
       - ["foundation model", "remote sensing"]
       - ["foundation model", "geospatial"]
+      - ["foundation model", "ocean"]
   
   remote_sensing:
     queries:
@@ -19,6 +20,7 @@ categories:
       - ["ocean", "deep learning"]
       - ["ocean", "machine learning"]
       - ["ocean", "surface currents"]
+      - ["foundation model", "ocean"]
 
   ship_trajectories:
     queries:
