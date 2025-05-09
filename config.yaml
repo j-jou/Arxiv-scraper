@@ -9,6 +9,7 @@ categories:
       - ["foundation model", "remote sensing"]
       - ["foundation model", "geospatial"]
       - ["foundation model", "ocean"]
+      - ["geospatial", "embedding"]
   
   remote_sensing:
     queries:
