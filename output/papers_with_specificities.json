@@ -8737,5 +8737,343 @@
     ],
     "architectures": [],
     "applications": []
+  },
+  {
+    "title": "TiMo: Spatiotemporal Foundation Model for Satellite Image Time Series",
+    "url": "http://arxiv.org/abs/2505.08723v1",
+    "authors": [
+      "Xiaolei Qin",
+      "Di Wang",
+      "Jing Zhang",
+      "Fengxiang Wang",
+      "Xin Su",
+      "Bo Du",
+      "Liangpei Zhang"
+    ],
+    "published": "2025-05-13",
+    "abstract": "Satellite image time series (SITS) provide continuous observations of the\nEarth's surface, making them essential for applications such as environmental\nmanagement and disaster assessment. However, existing spatiotemporal foundation\nmodels rely on plain vision transformers, which encode entire temporal\nsequences without explicitly capturing multiscale spatiotemporal relationships\nbetween land objects. This limitation hinders their effectiveness in downstream\ntasks. To overcome this challenge, we propose TiMo, a novel hierarchical vision\ntransformer foundation model tailored for SITS analysis. At its core, we\nintroduce a spatiotemporal gyroscope attention mechanism that dynamically\ncaptures evolving multiscale patterns across both time and space. For\npre-training, we curate MillionST, a large-scale dataset of one million images\nfrom 100,000 geographic locations, each captured across 10 temporal phases over\nfive years, encompassing diverse geospatial changes and seasonal variations.\nLeveraging this dataset, we adapt masked image modeling to pre-train TiMo,\nenabling it to effectively learn and encode generalizable spatiotemporal\nrepresentations.Extensive experiments across multiple spatiotemporal\ntasks-including deforestation monitoring, land cover segmentation, crop type\nclassification, and flood detection-demonstrate TiMo's superiority over\nstate-of-the-art methods. Code, model, and dataset will be released at\nhttps://github.com/MiliLab/TiMo.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Segmentation",
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Climate in a Bottle: Towards a Generative Foundation Model for the Kilometer-Scale Global Atmosphere",
+    "url": "http://arxiv.org/abs/2505.06474v1",
+    "authors": [
+      "Noah D. Brenowitz",
+      "Tao Ge",
+      "Akshay Subramaniam",
+      "Aayush Gupta",
+      "David M. Hall",
+      "Morteza Mardani",
+      "Arash Vahdat",
+      "Karthik Kashinath",
+      "Michael S. Pritchard"
+    ],
+    "published": "2025-05-10",
+    "abstract": "AI emulators offer a path to compressing, boosting limited ensembles, and\nimproving the latency of interacting with petabyte-scale climate prediction\ndata. However, prevailing auto-regressive paradigms offer limited flexibility,\nand are challenging to train on climate time horizons due to drifts,\ninstabilities and component-coupling challenges. Conditionally generative\nmodels offer an appealing alternative. In this context we demonstrate a\ngenerative diffusion-based framework -- Climate in a Bottle (cBottle) -- for\nemulating global km-scale climate simulations and reanalysis on the equal-area\nHEALPix grid. cBottle consists of two model stages: a globally-trained\ncoarse-resolution image generator that generates 100km (50k-pixel) fields given\nmonthly average sea surface temperatures and solar conditioning, followed by a\nlocally-trained 16x super-resolution stage that generates 5km (12.5M-pixel)\nfields; global super-resolution is made affordable using an overlapping\npatch-based multi-diffusion. Overall, cBottle shows promise as an emulator\nacross a battery of climate model diagnostics, including diurnal-to-seasonal\nscale variability, large-scale modes of variability, tropical cyclone\nstatistics, and trends of climate change and weather extremes. Moreover,\ncBottle is a step towards a foundation model, by bridging multiple data\nmodalities (reanalysis and simulation) with corresponding utility beyond\nemulation to tasks such as zero-shot bias correction, climate downscaling, and\nchannel in-filling.",
+    "categories": [
+      "ocean",
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Super-Resolution",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "ORL-LDM: Offline Reinforcement Learning Guided Latent Diffusion Model Super-Resolution Reconstruction",
+    "url": "http://arxiv.org/abs/2505.10027v1",
+    "authors": [
+      "Shijie Lyu"
+    ],
+    "published": "2025-05-15",
+    "abstract": "With the rapid advancement of remote sensing technology, super-resolution\nimage reconstruction is of great research and practical significance. Existing\ndeep learning methods have made progress but still face limitations in handling\ncomplex scenes and preserving image details. This paper proposes a\nreinforcement learning-based latent diffusion model (LDM) fine-tuning method\nfor remote sensing image super-resolution. The method constructs a\nreinforcement learning environment with states, actions, and rewards,\noptimizing decision objectives through proximal policy optimization (PPO)\nduring the reverse denoising process of the LDM model. Experiments on the\nRESISC45 dataset show significant improvements over the baseline model in PSNR,\nSSIM, and LPIPS, with PSNR increasing by 3-4dB, SSIM improving by 0.08-0.11,\nand LPIPS reducing by 0.06-0.10, particularly in structured and complex natural\nscenes. The results demonstrate the method's effectiveness in enhancing\nsuper-resolution quality and adaptability across scenes.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Super-Resolution",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Knowledge-Informed Deep Learning for Irrigation Type Mapping from Remote Sensing",
+    "url": "http://arxiv.org/abs/2505.08302v1",
+    "authors": [
+      "Oishee Bintey Hoque",
+      "Nibir Chandra Mandal",
+      "Abhijin Adiga",
+      "Samarth Swarup",
+      "Sayjro Kossi Nouwakpo",
+      "Amanda Wilson",
+      "Madhav Marathe"
+    ],
+    "published": "2025-05-13",
+    "abstract": "Accurate mapping of irrigation methods is crucial for sustainable\nagricultural practices and food systems. However, existing models that rely\nsolely on spectral features from satellite imagery are ineffective due to the\ncomplexity of agricultural landscapes and limited training data, making this a\nchallenging problem. We present Knowledge-Informed Irrigation Mapping (KIIM), a\nnovel Swin-Transformer based approach that uses (i) a specialized projection\nmatrix to encode crop to irrigation probability, (ii) a spatial attention map\nto identify agricultural lands from non-agricultural lands, (iii)\nbi-directional cross-attention to focus complementary information from\ndifferent modalities, and (iv) a weighted ensemble for combining predictions\nfrom images and crop information. Our experimentation on five states in the US\nshows up to 22.9\\% (IoU) improvement over baseline with a 71.4% (IoU)\nimprovement for hard-to-classify drip irrigation. In addition, we propose a\ntwo-phase transfer learning approach to enhance cross-state irrigation mapping,\nachieving a 51% IoU boost in a state with limited labeled data. The ability to\nachieve baseline performance with only 40% of the training data highlights its\nefficiency, reducing the dependency on extensive manual labeling efforts and\nmaking large-scale, automated irrigation mapping more feasible and\ncost-effective.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Enhancing Monocular Height Estimation via Sparse LiDAR-Guided Correction",
+    "url": "http://arxiv.org/abs/2505.06905v1",
+    "authors": [
+      "Jian Song",
+      "Hongruixuan Chen",
+      "Naoto Yokoya"
+    ],
+    "published": "2025-05-11",
+    "abstract": "Monocular height estimation (MHE) from very-high-resolution (VHR) remote\nsensing imagery via deep learning is notoriously challenging due to the lack of\nsufficient structural information. Conventional digital elevation models\n(DEMs), typically derived from airborne LiDAR or multi-view stereo, remain\ncostly and geographically limited. Recently, models trained on synthetic data\nand refined through domain adaptation have shown remarkable performance in MHE,\nyet it remains unclear how these models make predictions or how reliable they\ntruly are. In this paper, we investigate a state-of-the-art MHE model trained\npurely on synthetic data to explore where the model looks when making height\npredictions. Through systematic analyses, we find that the model relies heavily\non shadow cues, a factor that can lead to overestimation or underestimation of\nheights when shadows deviate from expected norms. Furthermore, the inherent\ndifficulty of evaluating regression tasks with the human eye underscores\nadditional limitations of purely synthetic training. To address these issues,\nwe propose a novel correction pipeline that integrates sparse, imperfect global\nLiDAR measurements (ICESat-2) with deep-learning outputs to improve local\naccuracy and achieve spatially consistent corrections. Our method comprises two\nstages: pre-processing raw ICESat-2 data, followed by a random forest-based\napproach to densely refine height estimates. Experiments in three\nrepresentative urban regions -- Saint-Omer, Tokyo, and Sao Paulo -- reveal\nsubstantial error reductions, with mean absolute error (MAE) decreased by\n22.8\\%, 6.9\\%, and 4.9\\%, respectively. These findings highlight the critical\nrole of shadow awareness in synthetic data-driven models and demonstrate how\nfusing imperfect real-world LiDAR data can bolster the robustness of MHE,\npaving the way for more reliable and scalable 3D mapping solutions.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Regression",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Predicting butterfly species presence from satellite imagery using soft contrastive regularisation",
+    "url": "http://arxiv.org/abs/2505.09306v1",
+    "authors": [
+      "Thijs L van der Plas",
+      "Stephen Law",
+      "Michael JO Pocock"
+    ],
+    "published": "2025-05-14",
+    "abstract": "The growing demand for scalable biodiversity monitoring methods has fuelled\ninterest in remote sensing data, due to its widespread availability and\nextensive coverage. Traditionally, the application of remote sensing to\nbiodiversity research has focused on mapping and monitoring habitats, but with\nincreasing availability of large-scale citizen-science wildlife observation\ndata, recent methods have started to explore predicting multi-species presence\ndirectly from satellite images. This paper presents a new data set for\npredicting butterfly species presence from satellite data in the United\nKingdom. We experimentally optimise a Resnet-based model to predict\nmulti-species presence from 4-band satellite images, and find that this model\nespecially outperforms the mean rate baseline for locations with high species\nbiodiversity. To improve performance, we develop a soft, supervised contrastive\nregularisation loss that is tailored to probabilistic labels (such as\nspecies-presence data), and demonstrate that this improves prediction accuracy.\nIn summary, our new data set and contrastive regularisation method contribute\nto the open challenge of accurately predicting species biodiversity from remote\nsensing data, which is key for efficient biodiversity monitoring.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "ResNet"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "FedRS-Bench: Realistic Federated Learning Datasets and Benchmarks in Remote Sensing",
+    "url": "http://arxiv.org/abs/2505.08325v1",
+    "authors": [
+      "Haodong Zhao",
+      "Peng Peng",
+      "Chiyu Chen",
+      "Linqing Huang",
+      "Gongshen Liu"
+    ],
+    "published": "2025-05-13",
+    "abstract": "Remote sensing (RS) images are usually produced at an unprecedented scale,\nyet they are geographically and institutionally distributed, making centralized\nmodel training challenging due to data-sharing restrictions and privacy\nconcerns. Federated learning (FL) offers a solution by enabling collaborative\nmodel training across decentralized RS data sources without exposing raw data.\nHowever, there lacks a realistic federated dataset and benchmark in RS. Prior\nworks typically rely on manually partitioned single dataset, which fail to\ncapture the heterogeneity and scale of real-world RS data, and often use\ninconsistent experimental setups, hindering fair comparison. To address this\ngap, we propose a realistic federated RS dataset, termed FedRS. FedRS consists\nof eight datasets that cover various sensors and resolutions and builds 135\nclients, which is representative of realistic operational scenarios. Data for\neach client come from the same source, exhibiting authentic federated\nproperties such as skewed label distributions, imbalanced client data volumes,\nand domain heterogeneity across clients. These characteristics reflect\npractical challenges in federated RS and support evaluation of FL methods at\nscale. Based on FedRS, we implement 10 baseline FL algorithms and evaluation\nmetrics to construct the comprehensive FedRS-Bench. The experimental results\ndemonstrate that FL can consistently improve model performance over training on\nisolated data silos, while revealing performance trade-offs of different\nmethods under varying client heterogeneity and availability conditions. We hope\nFedRS-Bench will accelerate research on large-scale, realistic FL in RS by\nproviding a standardized, rich testbed and facilitating fair comparisons across\nfuture works. The source codes and dataset are available at\nhttps://fedrs-bench.github.io/.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "TUM2TWIN: Introducing the Large-Scale Multimodal Urban Digital Twin Benchmark Dataset",
+    "url": "http://arxiv.org/abs/2505.07396v2",
+    "authors": [
+      "Olaf Wysocki",
+      "Benedikt Schwab",
+      "Manoj Kumar Biswanath",
+      "Michael Greza",
+      "Qilin Zhang",
+      "Jingwei Zhu",
+      "Thomas Froech",
+      "Medhini Heeramaglore",
+      "Ihab Hijazi",
+      "Khaoula Kanna",
+      "Mathias Pechinger",
+      "Zhaiyu Chen",
+      "Yao Sun",
+      "Alejandro Rueda Segura",
+      "Ziyang Xu",
+      "Omar AbdelGafar",
+      "Mansour Mehranfar",
+      "Chandan Yeshwanth",
+      "Yueh-Cheng Liu",
+      "Hadi Yazdi",
+      "Jiapan Wang",
+      "Stefan Auer",
+      "Katharina Anders",
+      "Klaus Bogenberger",
+      "Andre Borrmann",
+      "Angela Dai",
+      "Ludwig Hoegner",
+      "Christoph Holst",
+      "Thomas H. Kolbe",
+      "Ferdinand Ludwig",
+      "Matthias Nie\u00dfner",
+      "Frank Petzold",
+      "Xiao Xiang Zhu",
+      "Boris Jutzi"
+    ],
+    "published": "2025-05-12",
+    "abstract": "Urban Digital Twins (UDTs) have become essential for managing cities and\nintegrating complex, heterogeneous data from diverse sources. Creating UDTs\ninvolves challenges at multiple process stages, including acquiring accurate 3D\nsource data, reconstructing high-fidelity 3D models, maintaining models'\nupdates, and ensuring seamless interoperability to downstream tasks. Current\ndatasets are usually limited to one part of the processing chain, hampering\ncomprehensive UDTs validation. To address these challenges, we introduce the\nfirst comprehensive multimodal Urban Digital Twin benchmark dataset: TUM2TWIN.\nThis dataset includes georeferenced, semantically aligned 3D models and\nnetworks along with various terrestrial, mobile, aerial, and satellite\nobservations boasting 32 data subsets over roughly 100,000 $m^2$ and currently\n767 GB of data. By ensuring georeferenced indoor-outdoor acquisition, high\naccuracy, and multimodal data integration, the benchmark supports robust\nanalysis of sensors and the development of advanced reconstruction methods.\nAdditionally, we explore downstream tasks demonstrating the potential of\nTUM2TWIN, including novel view synthesis of NeRF and Gaussian Splatting, solar\npotential analysis, point cloud semantic segmentation, and LoD3 building\nreconstruction. We are convinced this contribution lays a foundation for\novercoming current limitations in UDT creation, fostering new research\ndirections and practical solutions for smarter, data-driven urban environments.\nThe project is available under: https://tum2t.win",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "Online Feedback Efficient Active Target Discovery in Partially Observable Environments",
+    "url": "http://arxiv.org/abs/2505.06535v1",
+    "authors": [
+      "Anindya Sarkar",
+      "Binglin Ji",
+      "Yevgeniy Vorobeychik"
+    ],
+    "published": "2025-05-10",
+    "abstract": "In various scientific and engineering domains, where data acquisition is\ncostly, such as in medical imaging, environmental monitoring, or remote\nsensing, strategic sampling from unobserved regions, guided by prior\nobservations, is essential to maximize target discovery within a limited\nsampling budget. In this work, we introduce Diffusion-guided Active Target\nDiscovery (DiffATD), a novel method that leverages diffusion dynamics for\nactive target discovery. DiffATD maintains a belief distribution over each\nunobserved state in the environment, using this distribution to dynamically\nbalance exploration-exploitation. Exploration reduces uncertainty by sampling\nregions with the highest expected entropy, while exploitation targets areas\nwith the highest likelihood of discovering the target, indicated by the belief\ndistribution and an incrementally trained reward model designed to learn the\ncharacteristics of the target. DiffATD enables efficient target discovery in a\npartially observable environment within a fixed sampling budget, all without\nrelying on any prior supervised training. Furthermore, DiffATD offers\ninterpretability, unlike existing black-box policies that require extensive\nsupervised training. Through extensive experiments and ablation studies across\ndiverse domains, including medical imaging and remote sensing, we show that\nDiffATD performs significantly better than baselines and competitively with\nsupervised methods that operate under full environmental observability.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "LanTu: Dynamics-Enhanced Deep Learning for Eddy-Resolving Ocean Forecasting",
+    "url": "http://arxiv.org/abs/2505.10191v1",
+    "authors": [
+      "Qingyu Zheng",
+      "Qi Shao",
+      "Guijun Han",
+      "Wei Li",
+      "Hong Li",
+      "Xuan Wang"
+    ],
+    "published": "2025-05-15",
+    "abstract": "Mesoscale eddies dominate the spatiotemporal multiscale variability of the\nocean, and their impact on the energy cascade of the global ocean cannot be\nignored. Eddy-resolving ocean forecasting is providing more reliable protection\nfor fisheries and navigational safety, but also presents significant scientific\nchallenges and high computational costs for traditional numerical models.\nArtificial intelligence (AI)-based weather and ocean forecasting systems are\nbecoming powerful tools that balance forecast performance with computational\nefficiency. However, the complex multiscale features in the ocean dynamical\nsystem make AI models still face many challenges in mesoscale eddy forecasting\n(especially regional modelling). Here, we develop LanTu, a regional\neddy-resolving ocean forecasting system based on dynamics-enhanced deep\nlearning. We incorporate cross-scale interactions into LanTu and construct\nmultiscale physical constraint for optimising LanTu guided by knowledge of eddy\ndynamics in order to improve the forecasting skill of LanTu for mesoscale\nevolution. The results show that LanTu outperforms the existing advanced\noperational numerical ocean forecasting system (NOFS) and AI-based ocean\nforecasting system (AI-OFS) in temperature, salinity, sea level anomaly and\ncurrent prediction, with a lead time of more than 10 days. Our study highlights\nthat dynamics-enhanced deep learning (LanTu) can be a powerful paradigm for\neddy-resolving ocean forecasting.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "An AI-driven framework for the prediction of personalised health response to air pollution",
+    "url": "http://arxiv.org/abs/2505.10556v1",
+    "authors": [
+      "Nazanin Zounemat Kermani",
+      "Sadjad Naderi",
+      "Claire H. Dilliway",
+      "Claire E. Heaney",
+      "Shrreya Behll",
+      "Boyang Chen",
+      "Hisham Abubakar-Waziri",
+      "Alexandra E. Porter",
+      "Marc Chadeau-Hyam",
+      "Fangxin Fang",
+      "Ian M. Adcock",
+      "Kian Fan Chung",
+      "Christopher C. Pain"
+    ],
+    "published": "2025-05-15",
+    "abstract": "Air pollution poses a significant threat to public health, causing or\nexacerbating many respiratory and cardiovascular diseases. In addition, climate\nchange is bringing about more extreme weather events such as wildfires and\nheatwaves, which can increase levels of pollution and worsen the effects of\npollution exposure. Recent advances in personal sensing have transformed the\ncollection of behavioural and physiological data, leading to the potential for\nnew improvements in healthcare. We wish to capitalise on this data, alongside\nnew capabilities in AI for making time series predictions, in order to monitor\nand predict health outcomes for an individual. Thus, we present a novel\nworkflow for predicting personalised health responses to pollution by\nintegrating physiological data from wearable fitness devices with real-time\nenvironmental exposures. The data is collected from various sources in a secure\nand ethical manner, and is used to train an AI model to predict individual\nhealth responses to pollution exposure within a cloud-based, modular framework.\nWe demonstrate that the AI model -- an Adversarial Autoencoder neural network\nin this case -- accurately reconstructs time-dependent health signals and\ncaptures nonlinear responses to pollution. Transfer learning is applied using\ndata from a personal smartwatch, which increases the generalisation abilities\nof the AI model and illustrates the adaptability of the approach to real-world,\nuser-generated data.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Autoencoder"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Score-based diffusion nowcasting of GOES imagery",
+    "url": "http://arxiv.org/abs/2505.10432v1",
+    "authors": [
+      "Randy J. Chase",
+      "Katherine Haynes",
+      "Lander Ver Hoef",
+      "Imme Ebert-Uphoff"
+    ],
+    "published": "2025-05-15",
+    "abstract": "Clouds and precipitation are important for understanding weather and climate.\nSimulating clouds and precipitation with traditional numerical weather\nprediction is challenging because of the sub-grid parameterizations required.\nMachine learning has been explored for forecasting clouds and precipitation,\nbut early machine learning methods often created blurry forecasts. In this\npaper we explore a newer method, named score-based diffusion, to nowcast (zero\nto three hour forecast) clouds and precipitation. We discuss the background and\nintuition of score-based diffusion models - thus providing a starting point for\nthe community - while exploring the methodology's use for nowcasting\ngeostationary infrared imagery. We experiment with three main types of\ndiffusion models: a standard score-based diffusion model (Diff); a residual\ncorrection diffusion model (CorrDiff); and a latent diffusion model (LDM). Our\nresults show that the diffusion models are able to not only advect existing\nclouds, but also generate and decay clouds, including convective initiation.\nThese results are surprising because the forecasts are initiated with only the\npast 20 mins of infrared satellite imagery. A case study qualitatively shows\nthe preservation of high resolution features longer into the forecast than a\nconventional mean-squared error trained U-Net. The best of the three diffusion\nmodels tested was the CorrDiff approach, outperforming all other diffusion\nmodels, the traditional U-Net, and a persistence forecast by one to two kelvin\non root mean squared error. The diffusion models also enable out-of-the-box\nensemble generation, which shows skillful calibration, with the spread of the\nensemble correlating well to the error.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "UNET",
+      "Diffusion Models"
+    ],
+    "applications": [
+      "Forecast",
+      "Nowcast"
+    ]
+  },
+  {
+    "title": "Generating Full-field Evolution of Physical Dynamics from Irregular Sparse Observations",
+    "url": "http://arxiv.org/abs/2505.09284v1",
+    "authors": [
+      "Panqi Chen",
+      "Yifan Sun",
+      "Lei Cheng",
+      "Yang Yang",
+      "Weichang Li",
+      "Yang Liu",
+      "Weiqing Liu",
+      "Jiang Bian",
+      "Shikai Fang"
+    ],
+    "published": "2025-05-14",
+    "abstract": "Modeling and reconstructing multidimensional physical dynamics from sparse\nand off-grid observations presents a fundamental challenge in scientific\nresearch. Recently, diffusion-based generative modeling shows promising\npotential for physical simulation. However, current approaches typically\noperate on on-grid data with preset spatiotemporal resolution, but struggle\nwith the sparsely observed and continuous nature of real-world physical\ndynamics. To fill the gaps, we present SDIFT, Sequential DIffusion in\nFunctional Tucker space, a novel framework that generates full-field evolution\nof physical dynamics from irregular sparse observations. SDIFT leverages the\nfunctional Tucker model as the latent space representer with proven universal\napproximation property, and represents observations as latent functions and\nTucker core sequences. We then construct a sequential diffusion model with\ntemporally augmented UNet in the functional Tucker space, denoising noise drawn\nfrom a Gaussian process to generate the sequence of core tensors.\n  At the posterior sampling stage, we propose a Message-Passing Posterior\nSampling mechanism, enabling conditional generation of the entire sequence\nguided by observations at limited time steps. We validate SDIFT on three\nphysical systems spanning astronomical (supernova explosions, light-year\nscale), environmental (ocean sound speed fields, kilometer scale), and\nmolecular (organic liquid, millimeter scale) domains, demonstrating significant\nimprovements in both reconstruction accuracy and computational efficiency\ncompared to state-of-the-art approaches.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Reinforcement Learning (RL) Meets Urban Climate Modeling: Investigating the Efficacy and Impacts of RL-Based HVAC Control",
+    "url": "http://arxiv.org/abs/2505.07045v1",
+    "authors": [
+      "Junjie Yu",
+      "John S. Schreck",
+      "David John Gagne",
+      "Keith W. Oleson",
+      "Jie Li",
+      "Yongtu Liang",
+      "Qi Liao",
+      "Mingfei Sun",
+      "David O. Topping",
+      "Zhonghua Zheng"
+    ],
+    "published": "2025-05-11",
+    "abstract": "Reinforcement learning (RL)-based heating, ventilation, and air conditioning\n(HVAC) control has emerged as a promising technology for reducing building\nenergy consumption while maintaining indoor thermal comfort. However, the\nefficacy of such strategies is influenced by the background climate and their\nimplementation may potentially alter both the indoor climate and local urban\nclimate. This study proposes an integrated framework combining RL with an urban\nclimate model that incorporates a building energy model, aiming to evaluate the\nefficacy of RL-based HVAC control across different background climates, impacts\nof RL strategies on indoor climate and local urban climate, and the\ntransferability of RL strategies across cities. Our findings reveal that the\nreward (defined as a weighted combination of energy consumption and thermal\ncomfort) and the impacts of RL strategies on indoor climate and local urban\nclimate exhibit marked variability across cities with different background\nclimates. The sensitivity of reward weights and the transferability of RL\nstrategies are also strongly influenced by the background climate. Cities in\nhot climates tend to achieve higher rewards across most reward weight\nconfigurations that balance energy consumption and thermal comfort, and those\ncities with more varying atmospheric temperatures demonstrate greater RL\nstrategy transferability. These findings underscore the importance of\nthoroughly evaluating RL-based HVAC control strategies in diverse climatic\ncontexts. This study also provides a new insight that city-to-city learning\nwill potentially aid the deployment of RL-based HVAC control.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Reinforcement Learning"
+    ]
   }
 ]
