@@ -9075,5 +9075,470 @@
     "applications": [
       "Reinforcement Learning"
     ]
+  },
+  {
+    "title": "REOBench: Benchmarking Robustness of Earth Observation Foundation Models",
+    "url": "http://arxiv.org/abs/2505.16793v1",
+    "authors": [
+      "Xiang Li",
+      "Yong Tao",
+      "Siyuan Zhang",
+      "Siwei Liu",
+      "Zhitong Xiong",
+      "Chunbo Luo",
+      "Lu Liu",
+      "Mykola Pechenizkiy",
+      "Xiao Xiang Zhu",
+      "Tianjin Huang"
+    ],
+    "published": "2025-05-22",
+    "abstract": "Earth observation foundation models have shown strong generalization across\nmultiple Earth observation tasks, but their robustness under real-world\nperturbations remains underexplored. To bridge this gap, we introduce REOBench,\nthe first comprehensive benchmark for evaluating the robustness of Earth\nobservation foundation models across six tasks and twelve types of image\ncorruptions, including both appearance-based and geometric perturbations. To\nensure realistic and fine-grained evaluation, our benchmark focuses on\nhigh-resolution optical remote sensing images, which are widely used in\ncritical applications such as urban planning and disaster response. We conduct\na systematic evaluation of a broad range of models trained using masked image\nmodeling, contrastive learning, and vision-language pre-training paradigms. Our\nresults reveal that (1) existing Earth observation foundation models experience\nsignificant performance degradation when exposed to input corruptions. (2) The\nseverity of degradation varies across tasks, model architectures, backbone\nsizes, and types of corruption, with performance drop varying from less than 1%\nto over 20%. (3) Vision-language models show enhanced robustness, particularly\nin multimodal tasks. REOBench underscores the vulnerability of current Earth\nobservation foundation models to real-world corruptions and provides actionable\ninsights for developing more robust and reliable models.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "TextureSAM: Towards a Texture Aware Foundation Model for Segmentation",
+    "url": "http://arxiv.org/abs/2505.16540v1",
+    "authors": [
+      "Inbal Cohen",
+      "Boaz Meivar",
+      "Peihan Tu",
+      "Shai Avidan",
+      "Gal Oren"
+    ],
+    "published": "2025-05-22",
+    "abstract": "Segment Anything Models (SAM) have achieved remarkable success in object\nsegmentation tasks across diverse datasets. However, these models are\npredominantly trained on large-scale semantic segmentation datasets, which\nintroduce a bias toward object shape rather than texture cues in the image.\nThis limitation is critical in domains such as medical imaging, material\nclassification, and remote sensing, where texture changes define object\nboundaries. In this study, we investigate SAM's bias toward semantics over\ntextures and introduce a new texture-aware foundation model, TextureSAM, which\nperforms superior segmentation in texture-dominant scenarios. To achieve this,\nwe employ a novel fine-tuning approach that incorporates texture augmentation\ntechniques, incrementally modifying training images to emphasize texture\nfeatures. By leveraging a novel texture-alternation of the ADE20K dataset, we\nguide TextureSAM to prioritize texture-defined regions, thereby mitigating the\ninherent shape bias present in the original SAM model. Our extensive\nexperiments demonstrate that TextureSAM significantly outperforms SAM-2 on both\nnatural (+0.2 mIoU) and synthetic (+0.18 mIoU) texture-based segmentation\ndatasets. The code and texture-augmented dataset will be publicly available.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Parameter-Efficient Fine-Tuning of Multispectral Foundation Models for Hyperspectral Image Classification",
+    "url": "http://arxiv.org/abs/2505.15334v1",
+    "authors": [
+      "Bernardin Ligan",
+      "Khalide Jbilou",
+      "Fahd Kalloubi",
+      "Ahmed Ratnani"
+    ],
+    "published": "2025-05-21",
+    "abstract": "Foundation models have achieved great success across diverse domains,\nincluding remote sensing (RS), thanks to their versatility and strong\ngeneralization abilities. However, most RS foundation models are designed for\nmultispectral data, while hyperspectral imagery (HSI) - with its hundreds of\nspectral bands - remains less explored. Fine-tuning such models for downstream\ntasks is also challenging, often demanding considerable memory and storage. In\nthis paper, we propose an efficient framework to fine-tune SpectralGPT, a\nmultispectral foundation model, for hyperspectral image classification (HSIC).\nWe explore several Parameter-Efficient Fine-Tuning (PEFT) methods, including\nLow-Rank Adaptation (LoRA), Kronecker-based adaptation (KronA), Low-Rank\nKronecker (LoKr), and the recent LoRA+, which uses distinct learning rates for\nlow-rank adapters scaled by a factor lambda. Inspired by LoRA+, we introduce\nKronA+, which applies a similar mechanism to the Kronecker matrices. We\nevaluate our approach on five datasets from different sensors, showing\ncompetitive performance with state-of-the-art HSI models. Our full fine-tuning\n(FFT) setup for SpectralGPT even outperforms a dedicated hyperspectral\nfoundation model on some datasets while requiring only a quarter of the\ntraining epochs. Under the same number of epochs, KronA+ reaches similar\nperformance with far fewer trainable parameters - just 0.056 percent - and adds\nonly approximately 0.2 megabytes of storage, making it the most effective PEFT\nmethod tested.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "From Pixels to Images: Deep Learning Advances in Remote Sensing Image Semantic Segmentation",
+    "url": "http://arxiv.org/abs/2505.15147v1",
+    "authors": [
+      "Quanwei Liu",
+      "Tao Huang",
+      "Yanni Dong",
+      "Jiaqi Yang",
+      "Wei Xiang"
+    ],
+    "published": "2025-05-21",
+    "abstract": "Remote sensing images (RSIs) capture both natural and human-induced changes\non the Earth's surface, serving as essential data for environmental monitoring,\nurban planning, and resource management. Semantic segmentation (SS) of RSIs\nenables the fine-grained interpretation of surface features, making it a\ncritical task in remote sensing analysis. With the increasing diversity and\nvolume of RSIs collected by sensors on various platforms, traditional\nprocessing methods struggle to maintain efficiency and accuracy. In response,\ndeep learning (DL) has emerged as a transformative approach, enabling\nsubstantial advances in remote sensing image semantic segmentation (RSISS) by\nautomating feature extraction and improving segmentation accuracy across\ndiverse modalities. This paper revisits the evolution of DL-based RSISS by\ncategorizing existing approaches into four stages: the early pixel-based\nmethods, the prevailing patch-based and tile-based techniques, and the emerging\nimage-based strategies enabled by foundation models. We analyze these\ndevelopments from the perspective of feature extraction and learning\nstrategies, revealing the field's progression from pixel-level to tile-level\nand from unimodal to multimodal segmentation. Furthermore, we conduct a\ncomprehensive evaluation of nearly 40 advanced techniques on a unified dataset\nto quantitatively characterize their performance and applicability. This review\noffers a holistic view of DL-based SS for RS, highlighting key advancements,\ncomparative insights, and open challenges to guide future research.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "Vision-Language Modeling Meets Remote Sensing: Models, Datasets and Perspectives",
+    "url": "http://arxiv.org/abs/2505.14361v1",
+    "authors": [
+      "Xingxing Weng",
+      "Chao Pang",
+      "Gui-Song Xia"
+    ],
+    "published": "2025-05-20",
+    "abstract": "Vision-language modeling (VLM) aims to bridge the information gap between\nimages and natural language. Under the new paradigm of first pre-training on\nmassive image-text pairs and then fine-tuning on task-specific data, VLM in the\nremote sensing domain has made significant progress. The resulting models\nbenefit from the absorption of extensive general knowledge and demonstrate\nstrong performance across a variety of remote sensing data analysis tasks.\nMoreover, they are capable of interacting with users in a conversational\nmanner. In this paper, we aim to provide the remote sensing community with a\ntimely and comprehensive review of the developments in VLM using the two-stage\nparadigm. Specifically, we first cover a taxonomy of VLM in remote sensing:\ncontrastive learning, visual instruction tuning, and text-conditioned image\ngeneration. For each category, we detail the commonly used network architecture\nand pre-training objectives. Second, we conduct a thorough review of existing\nworks, examining foundation models and task-specific adaptation methods in\ncontrastive-based VLM, architectural upgrades, training strategies and model\ncapabilities in instruction-based VLM, as well as generative foundation models\nwith their representative downstream applications. Third, we summarize datasets\nused for VLM pre-training, fine-tuning, and evaluation, with an analysis of\ntheir construction methodologies (including image sources and caption\ngeneration) and key properties, such as scale and task adaptability. Finally,\nwe conclude this survey with insights and discussions on future research\ndirections: cross-modal representation alignment, vague requirement\ncomprehension, explanation-driven model reliability, continually scalable model\ncapabilities, and large-scale datasets featuring richer modalities and greater\nchallenges.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Generalizable Multispectral Land Cover Classification via Frequency-Aware Mixture of Low-Rank Token Experts",
+    "url": "http://arxiv.org/abs/2505.14088v1",
+    "authors": [
+      "Xi Chen",
+      "Shen Yan",
+      "Juelin Zhu",
+      "Chen Chen",
+      "Yu Liu",
+      "Maojun Zhang"
+    ],
+    "published": "2025-05-20",
+    "abstract": "We introduce Land-MoE, a novel approach for multispectral land cover\nclassification (MLCC). Spectral shift, which emerges from disparities in\nsensors and geospatial conditions, poses a significant challenge in this\ndomain. Existing methods predominantly rely on domain adaptation and\ngeneralization strategies, often utilizing small-scale models that exhibit\nlimited performance. In contrast, Land-MoE addresses these issues by\nhierarchically inserting a Frequency-aware Mixture of Low-rank Token Experts,\nto fine-tune Vision Foundation Models (VFMs) in a parameter-efficient manner.\nSpecifically, Land-MoE comprises two key modules: the mixture of low-rank token\nexperts (MoLTE) and frequency-aware filters (FAF). MoLTE leverages\nrank-differentiated tokens to generate diverse feature adjustments for\nindividual instances within multispectral images. By dynamically combining\nlearnable low-rank token experts of varying ranks, it enhances the robustness\nagainst spectral shifts. Meanwhile, FAF conducts frequency-domain modulation on\nthe refined features. This process enables the model to effectively capture\nfrequency band information that is strongly correlated with semantic essence,\nwhile simultaneously suppressing frequency noise irrelevant to the task.\nComprehensive experiments on MLCC tasks involving cross-sensor and\ncross-geospatial setups demonstrate that Land-MoE outperforms existing methods\nby a large margin. Additionally, the proposed approach has also achieved\nstate-of-the-art performance in domain generalization semantic segmentation\ntasks of RGB remote sensing images.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Classification"
+    ]
+  },
+  {
+    "title": "EarthSynth: Generating Informative Earth Observation with Diffusion Models",
+    "url": "http://arxiv.org/abs/2505.12108v1",
+    "authors": [
+      "Jiancheng Pan",
+      "Shiye Lei",
+      "Yuqian Fu",
+      "Jiahao Li",
+      "Yanxing Liu",
+      "Yuze Sun",
+      "Xiao He",
+      "Long Peng",
+      "Xiaomeng Huang",
+      "Bo Zhao"
+    ],
+    "published": "2025-05-17",
+    "abstract": "Remote sensing image (RSI) interpretation typically faces challenges due to\nthe scarcity of labeled data, which limits the performance of RSI\ninterpretation tasks. To tackle this challenge, we propose EarthSynth, a\ndiffusion-based generative foundation model that enables synthesizing\nmulti-category, cross-satellite labeled Earth observation for downstream RSI\ninterpretation tasks. To the best of our knowledge, EarthSynth is the first to\nexplore multi-task generation for remote sensing. EarthSynth, trained on the\nEarthSynth-180K dataset, employs the Counterfactual Composition training\nstrategy to improve training data diversity and enhance category control.\nFurthermore, a rule-based method of R-Filter is proposed to filter more\ninformative synthetic data for downstream tasks. We evaluate our EarthSynth on\nscene classification, object detection, and semantic segmentation in open-world\nscenarios, offering a practical solution for advancing RSI interpretation.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Data Augmentation and Resolution Enhancement using GANs and Diffusion Models for Tree Segmentation",
+    "url": "http://arxiv.org/abs/2505.15077v1",
+    "authors": [
+      "Alessandro dos Santos Ferreira",
+      "Ana Paula Marques Ramos",
+      "Jos\u00e9 Marcato Junior",
+      "Wesley Nunes Gon\u00e7alves"
+    ],
+    "published": "2025-05-21",
+    "abstract": "Urban forests play a key role in enhancing environmental quality and\nsupporting biodiversity in cities. Mapping and monitoring these green spaces\nare crucial for urban planning and conservation, yet accurately detecting trees\nis challenging due to complex landscapes and the variability in image\nresolution caused by different satellite sensors or UAV flight altitudes. While\ndeep learning architectures have shown promise in addressing these challenges,\ntheir effectiveness remains strongly dependent on the availability of large and\nmanually labeled datasets, which are often expensive and difficult to obtain in\nsufficient quantity. In this work, we propose a novel pipeline that integrates\ndomain adaptation with GANs and Diffusion models to enhance the quality of\nlow-resolution aerial images. Our proposed pipeline enhances low-resolution\nimagery while preserving semantic content, enabling effective tree segmentation\nwithout requiring large volumes of manually annotated data. Leveraging models\nsuch as pix2pix, Real-ESRGAN, Latent Diffusion, and Stable Diffusion, we\ngenerate realistic and structurally consistent synthetic samples that expand\nthe training dataset and unify scale across domains. This approach not only\nimproves the robustness of segmentation models across different acquisition\nconditions but also provides a scalable and replicable solution for remote\nsensing scenarios with scarce annotation resources. Experimental results\ndemonstrated an improvement of over 50% in IoU for low-resolution images,\nhighlighting the effectiveness of our method compared to traditional pipelines.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "GAN",
+      "Diffusion Models"
+    ],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "Cross-modal feature fusion for robust point cloud registration with ambiguous geometry",
+    "url": "http://arxiv.org/abs/2505.13088v1",
+    "authors": [
+      "Zhaoyi Wang",
+      "Shengyu Huang",
+      "Jemil Avers Butt",
+      "Yuanzhou Cai",
+      "Matej Varga",
+      "Andreas Wieser"
+    ],
+    "published": "2025-05-19",
+    "abstract": "Point cloud registration has seen significant advancements with the\napplication of deep learning techniques. However, existing approaches often\noverlook the potential of integrating radiometric information from RGB images.\nThis limitation reduces their effectiveness in aligning point clouds pairs,\nespecially in regions where geometric data alone is insufficient. When used\neffectively, radiometric information can enhance the registration process by\nproviding context that is missing from purely geometric data. In this paper, we\npropose CoFF, a novel Cross-modal Feature Fusion method that utilizes both\npoint cloud geometry and RGB images for pairwise point cloud registration.\nAssuming that the co-registration between point clouds and RGB images is\navailable, CoFF explicitly addresses the challenges where geometric information\nalone is unclear, such as in regions with symmetric similarity or planar\nstructures, through a two-stage fusion of 3D point cloud features and 2D image\nfeatures. It incorporates a cross-modal feature fusion module that assigns\npixel-wise image features to 3D input point clouds to enhance learned 3D point\nfeatures, and integrates patch-wise image features with superpoint features to\nimprove the quality of coarse matching. This is followed by a coarse-to-fine\nmatching module that accurately establishes correspondences using the fused\nfeatures. We extensively evaluate CoFF on four common datasets: 3DMatch,\n3DLoMatch, IndoorLRS, and the recently released ScanNet++ datasets. In\naddition, we assess CoFF on specific subset datasets containing geometrically\nambiguous cases. Our experimental results demonstrate that CoFF achieves\nstate-of-the-art registration performance across all benchmarks, including\nremarkable registration recalls of 95.9% and 81.6% on the widely-used 3DMatch\nand 3DLoMatch datasets, respectively...(Truncated to fit arXiv abstract length)",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Temporal-Spectral-Spatial Unified Remote Sensing Dense Prediction",
+    "url": "http://arxiv.org/abs/2505.12280v1",
+    "authors": [
+      "Sijie Zhao",
+      "Feng Liu",
+      "Xueliang Zhang",
+      "Hao Chen",
+      "Pengfeng Xiao",
+      "Lei Bai"
+    ],
+    "published": "2025-05-18",
+    "abstract": "The proliferation of diverse remote sensing data has spurred advancements in\ndense prediction tasks, yet significant challenges remain in handling data\nheterogeneity. Remote sensing imagery exhibits substantial variability across\ntemporal, spectral, and spatial (TSS) dimensions, complicating unified data\nprocessing. Current deep learning models for dense prediction tasks, such as\nsemantic segmentation and change detection, are typically tailored to specific\ninput-output configurations. Consequently, variations in data dimensionality or\ntask requirements often lead to significant performance degradation or model\nincompatibility, necessitating costly retraining or fine-tuning efforts for\ndifferent application scenarios. This paper introduces the\nTemporal-Spectral-Spatial Unified Network (TSSUN), a novel architecture\ndesigned for unified representation and modeling of remote sensing data across\ndiverse TSS characteristics and task types. TSSUN employs a\nTemporal-Spectral-Spatial Unified Strategy that leverages meta-information to\ndecouple and standardize input representations from varied temporal, spectral,\nand spatial configurations, and similarly unifies output structures for\ndifferent dense prediction tasks and class numbers. Furthermore, a Local-Global\nWindow Attention mechanism is proposed to efficiently capture both local\ncontextual details and global dependencies, enhancing the model's adaptability\nand feature extraction capabilities. Extensive experiments on multiple datasets\ndemonstrate that a single TSSUN model effectively adapts to heterogeneous\ninputs and unifies various dense prediction tasks. The proposed approach\nconsistently achieves or surpasses state-of-the-art performance, highlighting\nits robustness and generalizability for complex remote sensing applications\nwithout requiring task-specific modifications.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "MT-CYP-Net: Multi-Task Network for Pixel-Level Crop Yield Prediction Under Very Few Samples",
+    "url": "http://arxiv.org/abs/2505.12069v1",
+    "authors": [
+      "Shenzhou Liu",
+      "Di Wang",
+      "Haonan Guo",
+      "Chengxi Han",
+      "Wenzhi Zeng"
+    ],
+    "published": "2025-05-17",
+    "abstract": "Accurate and fine-grained crop yield prediction plays a crucial role in\nadvancing global agriculture. However, the accuracy of pixel-level yield\nestimation based on satellite remote sensing data has been constrained by the\nscarcity of ground truth data. To address this challenge, we propose a novel\napproach called the Multi-Task Crop Yield Prediction Network (MT-CYP-Net). This\nframework introduces an effective multi-task feature-sharing strategy, where\nfeatures extracted from a shared backbone network are simultaneously utilized\nby both crop yield prediction decoders and crop classification decoders with\nthe ability to fuse information between them. This design allows MT-CYP-Net to\nbe trained with extremely sparse crop yield point labels and crop type labels,\nwhile still generating detailed pixel-level crop yield maps. Concretely, we\ncollected 1,859 yield point labels along with corresponding crop type labels\nand satellite images from eight farms in Heilongjiang Province, China, in 2023,\ncovering soybean, maize, and rice crops, and constructed a sparse crop yield\nlabel dataset. MT-CYP-Net is compared with three classical machine learning and\ndeep learning benchmark methods in this dataset. Experimental results not only\nindicate the superiority of MT-CYP-Net compared to previous methods on multiple\ntypes of crops but also demonstrate the potential of deep networks on precise\npixel-level crop yield prediction, especially with limited data labels.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Beluga Whale Detection from Satellite Imagery with Point Labels",
+    "url": "http://arxiv.org/abs/2505.12066v1",
+    "authors": [
+      "Yijie Zheng",
+      "Jinxuan Yang",
+      "Yu Chen",
+      "Yaxuan Wang",
+      "Yihang Lu",
+      "Guoqing Li"
+    ],
+    "published": "2025-05-17",
+    "abstract": "Very high-resolution (VHR) satellite imagery has emerged as a powerful tool\nfor monitoring marine animals on a large scale. However, existing deep\nlearning-based whale detection methods usually require manually created,\nhigh-quality bounding box annotations, which are labor-intensive to produce.\nMoreover, existing studies often exclude ``uncertain whales'', individuals that\nhave ambiguous appearances in satellite imagery, limiting the applicability of\nthese models in real-world scenarios. To address these limitations, this study\nintroduces an automated pipeline for detecting beluga whales and harp seals in\nVHR satellite imagery. The pipeline leverages point annotations and the Segment\nAnything Model (SAM) to generate precise bounding box annotations, which are\nused to train YOLOv8 for multiclass detection of certain whales, uncertain\nwhales, and harp seals. Experimental results demonstrated that SAM-generated\nannotations significantly improved detection performance, achieving higher\n$\\text{F}_\\text{1}$-scores compared to traditional buffer-based annotations.\nYOLOv8 trained on SAM-labeled boxes achieved an overall\n$\\text{F}_\\text{1}$-score of 72.2% for whales overall and 70.3% for harp seals,\nwith superior performance in dense scenes. The proposed approach not only\nreduces the manual effort required for annotation but also enhances the\ndetection of uncertain whales, offering a more comprehensive solution for\nmarine animal monitoring. This method holds great potential for extending to\nother species, habitats, and remote sensing platforms, as well as for\nestimating whale biometrics, thereby advancing ecological monitoring and\nconservation efforts. The codes for our label and detection pipeline are\npublicly available at http://github.com/voyagerxvoyagerx/beluga-seeker .",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "CL-CaGAN: Capsule differential adversarial continuous learning for cross-domain hyperspectral anomaly detection",
+    "url": "http://arxiv.org/abs/2505.11793v1",
+    "authors": [
+      "Jianing Wang",
+      "Siying Guo",
+      "Zheng Hua",
+      "Runhu Huang",
+      "Jinyu Hu",
+      "Maoguo Gong"
+    ],
+    "published": "2025-05-17",
+    "abstract": "Anomaly detection (AD) has attracted remarkable attention in hyperspectral\nimage (HSI) processing fields, and most existing deep learning (DL)-based\nalgorithms indicate dramatic potential for detecting anomaly samples through\nspecific training process under current scenario. However, the limited prior\ninformation and the catastrophic forgetting problem indicate crucial challenges\nfor existing DL structure in open scenarios cross-domain detection. In order to\nimprove the detection performance, a novel continual learning-based capsule\ndifferential generative adversarial network (CL-CaGAN) is proposed to elevate\nthe cross-scenario learning performance for facilitating the real application\nof DL-based structure in hyperspectral AD (HAD) task. First, a modified capsule\nstructure with adversarial learning network is constructed to estimate the\nbackground distribution for surmounting the deficiency of prior information. To\nmitigate the catastrophic forgetting phenomenon, clustering-based sample replay\nstrategy and a designed extra self-distillation regularization are integrated\nfor merging the history and future knowledge in continual AD task, while the\ndiscriminative learning ability from previous detection scenario to current\nscenario is retained by the elaborately designed structure with continual\nlearning (CL) strategy. In addition, the differentiable enhancement is enforced\nto augment the generation performance of the training data. This further\nstabilizes the training process with better convergence and efficiently\nconsolidates the reconstruction ability of background samples. To verify the\neffectiveness of our proposed CL-CaGAN, we conduct experiments on several real\nHSIs, and the results indicate that the proposed CL-CaGAN demonstrates higher\ndetection performance and continuous learning capacity for mitigating the\ncatastrophic forgetting under cross-domain scenarios.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "GAN"
+    ],
+    "applications": [
+      "Detection",
+      "Anomaly Detection"
+    ]
+  },
+  {
+    "title": "Assessing wildfire susceptibility in Iran: Leveraging machine learning for geospatial analysis of climatic and anthropogenic factors",
+    "url": "http://arxiv.org/abs/2505.14122v1",
+    "authors": [
+      "Ehsan Masoudian",
+      "Ali Mirzaei",
+      "Hossein Bagheri"
+    ],
+    "published": "2025-05-20",
+    "abstract": "This study investigates the multifaceted factors influencing wildfire risk in\nIran, focusing on the interplay between climatic conditions and human\nactivities. Utilizing advanced remote sensing, geospatial information system\n(GIS) processing techniques such as cloud computing, and machine learning\nalgorithms, this research analyzed the impact of climatic parameters,\ntopographic features, and human-related factors on wildfire susceptibility\nassessment and prediction in Iran. Multiple scenarios were developed for this\npurpose based on the data sampling strategy. The findings revealed that\nclimatic elements such as soil moisture, temperature, and humidity\nsignificantly contribute to wildfire susceptibility, while human\nactivities-particularly population density and proximity to powerlines-also\nplayed a crucial role. Furthermore, the seasonal impact of each parameter was\nseparately assessed during warm and cold seasons. The results indicated that\nhuman-related factors, rather than climatic variables, had a more prominent\ninfluence during the seasonal analyses. This research provided new insights\ninto wildfire dynamics in Iran by generating high-resolution wildfire\nsusceptibility maps using advanced machine learning classifiers. The generated\nmaps identified high risk areas, particularly in the central Zagros region, the\nnortheastern Hyrcanian Forest, and the northern Arasbaran forest, highlighting\nthe urgent need for effective fire management strategies.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "LOD1 3D City Model from LiDAR: The Impact of Segmentation Accuracy on Quality of Urban 3D Modeling and Morphology Extraction",
+    "url": "http://arxiv.org/abs/2505.14747v1",
+    "authors": [
+      "Fatemeh Chajaei",
+      "Hossein Bagheri"
+    ],
+    "published": "2025-05-20",
+    "abstract": "Three-dimensional reconstruction of buildings, particularly at Level of\nDetail 1 (LOD1), plays a crucial role in various applications such as urban\nplanning, urban environmental studies, and designing optimized transportation\nnetworks. This study focuses on assessing the potential of LiDAR data for\naccurate 3D building reconstruction at LOD1 and extracting morphological\nfeatures from these models. Four deep semantic segmentation models, U-Net,\nAttention U-Net, U-Net3+, and DeepLabV3+, were used, applying transfer learning\nto extract building footprints from LiDAR data. The results showed that U-Net3+\nand Attention U-Net outperformed the others, achieving IoU scores of 0.833 and\n0.814, respectively. Various statistical measures, including maximum, range,\nmode, median, and the 90th percentile, were used to estimate building heights,\nresulting in the generation of 3D models at LOD1. As the main contribution of\nthe research, the impact of segmentation accuracy on the quality of 3D building\nmodeling and the accuracy of morphological features like building area and\nexternal wall surface area was investigated. The results showed that the\naccuracy of building identification (segmentation performance) significantly\naffects the 3D model quality and the estimation of morphological features,\ndepending on the height calculation method. Overall, the UNet3+ method,\nutilizing the 90th percentile and median measures, leads to accurate height\nestimation of buildings and the extraction of morphological features.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "Continuous Domain Generalization",
+    "url": "http://arxiv.org/abs/2505.13519v1",
+    "authors": [
+      "Zekun Cai",
+      "Yiheng Yao",
+      "Guangji Bai",
+      "Renhe Jiang",
+      "Xuan Song",
+      "Ryosuke Shibasaki",
+      "Liang Zhao"
+    ],
+    "published": "2025-05-17",
+    "abstract": "Real-world data distributions often shift continuously across multiple latent\nfactors such as time, geography, and socioeconomic context. However, existing\ndomain generalization approaches typically treat domains as discrete or\nevolving along a single axis (e.g., time), which fails to capture the complex,\nmulti-dimensional nature of real-world variation. This paper introduces the\ntask of Continuous Domain Generalization (CDG), which aims to generalize\npredictive models to unseen domains defined by arbitrary combinations of\ncontinuous variation descriptors. We present a principled framework grounded in\ngeometric and algebraic theory, showing that optimal model parameters across\ndomains lie on a low-dimensional manifold. To model this structure, we propose\na Neural Lie Transport Operator (NeuralLTO), which enables structured parameter\ntransitions by enforcing geometric continuity and algebraic consistency. To\nhandle noisy or incomplete domain descriptors, we introduce a gating mechanism\nto suppress irrelevant dimensions and a local chart-based strategy for robust\ngeneralization. Extensive experiments on synthetic and real-world\ndatasets-including remote sensing, scientific documents, and traffic\nforecasting-demonstrate that our method significantly outperforms existing\nbaselines in generalization accuracy and robustness under descriptor\nimperfections.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "A Deep Learning Framework for Two-Dimensional, Multi-Frequency Propagation Factor Estimation",
+    "url": "http://arxiv.org/abs/2505.15802v1",
+    "authors": [
+      "Sarah E. Wessinger",
+      "Leslie N. Smith",
+      "Jacob Gull",
+      "Jonathan Gehman",
+      "Zachary Beever",
+      "Andrew J. Kammerer"
+    ],
+    "published": "2025-05-21",
+    "abstract": "Accurately estimating the refractive environment over multiple frequencies\nwithin the marine atmospheric boundary layer is crucial for the effective\ndeployment of radar technologies. Traditional parabolic equation simulations,\nwhile effective, can be computationally expensive and time-intensive, limiting\ntheir practical application. This communication explores a novel approach using\ndeep neural networks to estimate the pattern propagation factor, a critical\nparameter for characterizing environmental impacts on signal propagation.\nImage-to-image translation generators designed to ingest modified refractivity\ndata and generate predictions of pattern propagation factors over the same\ndomain were developed. Findings demonstrate that deep neural networks can be\ntrained to analyze multiple frequencies and reasonably predict the pattern\npropagation factor, offering an alternative to traditional methods.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Deep Neural Network"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "AquaSignal: An Integrated Framework for Robust Underwater Acoustic Analysis",
+    "url": "http://arxiv.org/abs/2505.14285v1",
+    "authors": [
+      "Eirini Panteli",
+      "Paulo E. Santos",
+      "Nabil Humphrey"
+    ],
+    "published": "2025-05-20",
+    "abstract": "This paper presents AquaSignal, a modular and scalable pipeline for\npreprocessing, denoising, classification, and novelty detection of underwater\nacoustic signals. Designed to operate effectively in noisy and dynamic marine\nenvironments, AquaSignal integrates state-of-the-art deep learning\narchitectures to enhance the reliability and accuracy of acoustic signal\nanalysis. The system is evaluated on a combined dataset from the Deepship and\nOcean Networks Canada (ONC) benchmarks, providing a diverse set of real-world\nunderwater scenarios. AquaSignal employs a U-Net architecture for denoising, a\nResNet18 convolutional neural network for classifying known acoustic events,\nand an AutoEncoder-based model for unsupervised detection of novel or anomalous\nsignals. To our knowledge, this is the first comprehensive study to apply and\nevaluate this combination of techniques on maritime vessel acoustic data.\nExperimental results show that AquaSignal improves signal clarity and task\nperformance, achieving 71% classification accuracy and 91% accuracy in novelty\ndetection. Despite slightly lower classification performance compared to some\nstate-of-the-art models, differences in data partitioning strategies limit\ndirect comparisons. Overall, AquaSignal demonstrates strong potential for\nreal-time underwater acoustic monitoring in scientific, environmental, and\nmaritime domains.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "CNN",
+      "UNET",
+      "Autoencoder"
+    ],
+    "applications": [
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Terrain-aware Deep Learning for Wind Energy Applications: From Kilometer-scale Forecasts to Fine Wind Fields",
+    "url": "http://arxiv.org/abs/2505.12732v1",
+    "authors": [
+      "Chensen Lin",
+      "Ruian Tie",
+      "Shihong Yi",
+      "Xiaohui Zhong",
+      "Hao Li"
+    ],
+    "published": "2025-05-19",
+    "abstract": "High-resolution wind information is essential for wind energy planning and\npower forecasting, particularly in regions with complex terrain. However, most\nAI-based weather forecasting models operate at kilometer-scale resolution,\nconstrained by the reanalysis datasets they are trained on. Here we introduce\nFuXi-CFD, an AI-based downscaling framework designed to generate detailed\nthree-dimensional wind fields at 30-meter horizontal resolution, using only\ncoarse-resolution atmospheric inputs. The model is trained on a large-scale\ndataset generated via computational fluid dynamics (CFD), encompassing a wide\nrange of terrain types, surface roughness, and inflow conditions. Remarkably,\nFuXi-CFD predicts full 3D wind structures -- including vertical wind and\nturbulent kinetic energy -- based solely on horizontal wind input at 10 meters\nabove ground, the typical output of AI-based forecast systems. It achieves\nCFD-comparable accuracy while reducing inference time from hours to seconds. By\nbridging the resolution gap between regional forecasts and site-specific wind\ndynamics, FuXi-CFD offers a scalable and operationally efficient solution to\nsupport the growing demands of renewable energy deployment.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Improving the Predictability of the Madden-Julian Oscillation at Subseasonal Scales with Gaussian Process Models",
+    "url": "http://arxiv.org/abs/2505.15934v1",
+    "authors": [
+      "Haoyuan Chen",
+      "Emil Constantinescu",
+      "Vishwas Rao",
+      "Cristiana Stan"
+    ],
+    "published": "2025-05-21",
+    "abstract": "The Madden--Julian Oscillation (MJO) is an influential climate phenomenon\nthat plays a vital role in modulating global weather patterns. In spite of the\nimprovement in MJO predictions made by machine learning algorithms, such as\nneural networks, most of them cannot provide the uncertainty levels in the MJO\nforecasts directly. To address this problem, we develop a nonparametric\nstrategy based on Gaussian process (GP) models. We calibrate GPs using\nempirical correlations and we propose a posteriori covariance correction.\nNumerical experiments demonstrate that our model has better prediction skills\nthan the ANN models for the first five lead days. Additionally, our posteriori\ncovariance correction extends the probabilistic coverage by more than three\nweeks.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "A Multi-Tiered Bayesian Network Coastal Compound Flood Analysis Framework",
+    "url": "http://arxiv.org/abs/2505.15520v1",
+    "authors": [
+      "Ziyue Liu",
+      "Meredith L. Carr",
+      "Norberto C. Nadal-Caraballo",
+      "Luke A. Aucoin",
+      "Madison C. Yawn",
+      "Michelle T. Bensi"
+    ],
+    "published": "2025-05-21",
+    "abstract": "Coastal compound floods (CCFs) are triggered by the interaction of multiple\nmechanisms, such as storm surges, storm rainfall, tides, and river flow. These\nevents can bring significant damage to communities, and there is an increasing\ndemand for accurate and efficient probabilistic analyses of CCFs to support\nrisk assessments and decision-making. In this study, a multi-tiered Bayesian\nnetwork (BN) CCF analysis framework is established. In this framework, multiple\ntiers of BN models with different complexities are designed for application\nwith varying levels of data availability and computational resources. A case\nstudy is conducted in New Orleans, LA, to demonstrate this framework. In the\nTier-1 BN model, storm surges and river flow are incorporated based on\nhydrodynamic simulations. A seasonality node is used to capture the dependence\nbetween concurrent river flow and tropical cyclone (TC) parameters. In the\nTier-2 BN model, joint distribution models of TC parameters are built for\nseparate TC intensity categories. TC-induced rainfall is modeled as input to\nhydraulic simulations. In the Tier-3 BN model, potential variations of\nmeteorological conditions are incorporated by quantifying their effects on TC\nactivity and coastal water level. Flood antecedent conditions are also\nincorporated to more completely represent the conditions contributing to flood\nseverity. In this case study, a series of joint distribution, numerical,\nmachine learning, and experimental models are used to compute conditional\nprobability tables needed for BNs. A series of probabilistic analyses is\nperformed based on these BN models, including CCF hazard curve construction and\nCCF deaggregation. The results of the analysis demonstrate the promise of this\nframework in performing CCF hazard analysis under varying levels of resource\navailability.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "The Computation of Generalized Embeddings for Underwater Acoustic Target Recognition using Contrastive Learning",
+    "url": "http://arxiv.org/abs/2505.12904v1",
+    "authors": [
+      "Hilde I. Hummel",
+      "Arwin Gansekoele",
+      "Sandjai Bhulai",
+      "Rob van der Mei"
+    ],
+    "published": "2025-05-19",
+    "abstract": "The increasing level of sound pollution in marine environments poses an\nincreased threat to ocean health, making it crucial to monitor underwater\nnoise. By monitoring this noise, the sources responsible for this pollution can\nbe mapped. Monitoring is performed by passively listening to these sounds. This\ngenerates a large amount of data records, capturing a mix of sound sources such\nas ship activities and marine mammal vocalizations. Although machine learning\noffers a promising solution for automatic sound classification, current\nstate-of-the-art methods implement supervised learning. This requires a large\namount of high-quality labeled data that is not publicly available. In\ncontrast, a massive amount of lower-quality unlabeled data is publicly\navailable, offering the opportunity to explore unsupervised learning\ntechniques. This research explores this possibility by implementing an\nunsupervised Contrastive Learning approach. Here, a Conformer-based encoder is\noptimized by the so-called Variance-Invariance-Covariance Regularization loss\nfunction on these lower-quality unlabeled data and the translation to the\nlabeled data is made. Through classification tasks involving recognizing ship\ntypes and marine mammal vocalizations, our method demonstrates to produce\nrobust and generalized embeddings. This shows to potential of unsupervised\nmethods for various automatic underwater acoustic analysis tasks.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
   }
 ]
