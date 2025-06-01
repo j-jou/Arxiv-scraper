@@ -9540,5 +9540,271 @@
     "applications": [
       "Classification"
     ]
+  },
+  {
+    "title": "GeoLLaVA-8K: Scaling Remote-Sensing Multimodal Large Language Models to 8K Resolution",
+    "url": "http://arxiv.org/abs/2505.21375v1",
+    "authors": [
+      "Fengxiang Wang",
+      "Mingshuo Chen",
+      "Yueying Li",
+      "Di Wang",
+      "Haotian Wang",
+      "Zonghao Guo",
+      "Zefan Wang",
+      "Boqi Shan",
+      "Long Lan",
+      "Yulin Wang",
+      "Hongzhen Wang",
+      "Wenjing Yang",
+      "Bo Du",
+      "Jing Zhang"
+    ],
+    "published": "2025-05-27",
+    "abstract": "Ultra-high-resolution (UHR) remote sensing (RS) imagery offers valuable data\nfor Earth observation but pose challenges for existing multimodal foundation\nmodels due to two key bottlenecks: (1) limited availability of UHR training\ndata, and (2) token explosion caused by the large image size. To address data\nscarcity, we introduce SuperRS-VQA (avg. 8,376$\\times$8,376) and HighRS-VQA\n(avg. 2,000$\\times$1,912), the highest-resolution vision-language datasets in\nRS to date, covering 22 real-world dialogue tasks. To mitigate token explosion,\nour pilot studies reveal significant redundancy in RS images: crucial\ninformation is concentrated in a small subset of object-centric tokens, while\npruning background tokens (e.g., ocean or forest) can even improve performance.\nMotivated by these findings, we propose two strategies: Background Token\nPruning and Anchored Token Selection, to reduce the memory footprint while\npreserving key semantics.Integrating these techniques, we introduce\nGeoLLaVA-8K, the first RS-focused multimodal large language model capable of\nhandling inputs up to 8K$\\times$8K resolution, built on the LLaVA framework.\nTrained on SuperRS-VQA and HighRS-VQA, GeoLLaVA-8K sets a new state-of-the-art\non the XLRS-Bench.",
+    "categories": [
+      "ocean",
+      "foundation_model"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "AgriFM: A Multi-source Temporal Remote Sensing Foundation Model for Crop Mapping",
+    "url": "http://arxiv.org/abs/2505.21357v2",
+    "authors": [
+      "Wenyuan Li",
+      "Shunlin Liang",
+      "Keyan Chen",
+      "Yongzhe Chen",
+      "Han Ma",
+      "Jianglei Xu",
+      "Yichuan Ma",
+      "Shikang Guan",
+      "Husheng Fang",
+      "Zhenwei Shi"
+    ],
+    "published": "2025-05-27",
+    "abstract": "Accurate crop mapping fundamentally relies on modeling multi-scale\nspatiotemporal patterns, where spatial scales range from individual field\ntextures to landscape-level context, and temporal scales capture both\nshort-term phenological transitions and full growing-season dynamics.\nTransformer-based remote sensing foundation models (RSFMs) offer promising\npotential for crop mapping due to their innate ability for unified\nspatiotemporal processing. However, current RSFMs remain suboptimal for crop\nmapping: they either employ fixed spatiotemporal windows that ignore the\nmulti-scale nature of crop systems or completely disregard temporal information\nby focusing solely on spatial patterns. To bridge these gaps, we present\nAgriFM, a multi-source remote sensing foundation model specifically designed\nfor agricultural crop mapping. Our approach begins by establishing the\nnecessity of simultaneous hierarchical spatiotemporal feature extraction,\nleading to the development of a modified Video Swin Transformer architecture\nwhere temporal down-sampling is synchronized with spatial scaling operations.\nThis modified backbone enables efficient unified processing of long time-series\nsatellite inputs. AgriFM leverages temporally rich data streams from three\nsatellite sources including MODIS, Landsat-8/9 and Sentinel-2, and is\npre-trained on a global representative dataset comprising over 25 million image\nsamples supervised by land cover products. The resulting framework incorporates\na versatile decoder architecture that dynamically fuses these learned\nspatiotemporal representations, supporting diverse downstream tasks.\nComprehensive evaluations demonstrate AgriFM's superior performance over\nconventional deep learning approaches and state-of-the-art general-purpose\nRSFMs across all downstream tasks. Codes will be available at\nhttps://github.com/flyakon/AgriFM.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "A Contrastive Learning Foundation Model Based on Perfectly Aligned Sample Pairs for Remote Sensing Images",
+    "url": "http://arxiv.org/abs/2505.19447v1",
+    "authors": [
+      "Hengtong Shen",
+      "Haiyan Gu",
+      "Haitao Li",
+      "Yi Yang",
+      "Agen qiu"
+    ],
+    "published": "2025-05-26",
+    "abstract": "Self-Supervised Learning (SSL) enables us to pre-train foundation models\nwithout costly labeled data. Among SSL methods, Contrastive Learning (CL)\nmethods are better at obtaining accurate semantic representations in noise\ninterference. However, due to the significant domain gap, while CL methods have\nachieved great success in many computer vision tasks, they still require\nspecific adaptation for Remote Sensing (RS) images. To this end, we present a\nnovel self-supervised method called PerA, which produces all-purpose RS\nfeatures through semantically Perfectly Aligned sample pairs. Specifically,\nPerA obtains features from sampled views by applying spatially disjoint masks\nto augmented images rather than random cropping. With disjoint masks, we divide\npatches from different views into different parts that are semantically aligned\nbut inconsistent in appearance. Our framework provides high-quality features by\nensuring consistency between teacher and student and predicting learnable mask\ntokens. Compared to previous contrastive methods, our method demonstrates\nhigher memory efficiency and can be trained with larger batches due to its\nsparse inputs. We also collect an unlabeled pre-training dataset, which\ncontains about 5 million RS images. We conducted experiments on multiple\ndownstream task datasets and achieved performance comparable to previous\nstate-of-the-art methods with a limited model scale, which verified the\nsuperiority of our method. We hope this work will contribute to practical\nremote sensing interpretation works.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Bridging Classical and Modern Computer Vision: PerceptiveNet for Tree Crown Semantic Segmentation",
+    "url": "http://arxiv.org/abs/2505.23597v1",
+    "authors": [
+      "Georgios Voulgaris"
+    ],
+    "published": "2025-05-29",
+    "abstract": "The accurate semantic segmentation of tree crowns within remotely sensed data\nis crucial for scientific endeavours such as forest management, biodiversity\nstudies, and carbon sequestration quantification. However, precise segmentation\nremains challenging due to complexities in the forest canopy, including\nshadows, intricate backgrounds, scale variations, and subtle spectral\ndifferences among tree species. Compared to the traditional methods, Deep\nLearning models improve accuracy by extracting informative and discriminative\nfeatures, but often fall short in capturing the aforementioned complexities.\n  To address these challenges, we propose PerceptiveNet, a novel model\nincorporating a Logarithmic Gabor-parameterised convolutional layer with\ntrainable filter parameters, alongside a backbone that extracts salient\nfeatures while capturing extensive context and spatial information through a\nwider receptive field. We investigate the impact of Log-Gabor, Gabor, and\nstandard convolutional layers on semantic segmentation performance through\nextensive experimentation. Additionally, we conduct an ablation study to assess\nthe contributions of individual layers and their combinations to overall model\nperformance, and we evaluate PerceptiveNet as a backbone within a novel hybrid\nCNN-Transformer model. Our results outperform state-of-the-art models,\ndemonstrating significant performance improvements on a tree crown dataset\nwhile generalising across domains, including two benchmark aerial scene\nsemantic segmentation datasets with varying complexities.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "Collaborative Learning for Unsupervised Multimodal Remote Sensing Image Registration: Integrating Self-Supervision and MIM-Guided Diffusion-Based Image Translation",
+    "url": "http://arxiv.org/abs/2505.22000v1",
+    "authors": [
+      "Xiaochen Wei",
+      "Weiwei Guo",
+      "Wenxian Yu"
+    ],
+    "published": "2025-05-28",
+    "abstract": "The substantial modality-induced variations in radiometric, texture, and\nstructural characteristics pose significant challenges for the accurate\nregistration of multimodal images. While supervised deep learning methods have\ndemonstrated strong performance, they often rely on large-scale annotated\ndatasets, limiting their practical application. Traditional unsupervised\nmethods usually optimize registration by minimizing differences in feature\nrepresentations, yet often fail to robustly capture geometric discrepancies,\nparticularly under substantial spatial and radiometric variations, thus\nhindering convergence stability. To address these challenges, we propose a\nCollaborative Learning framework for Unsupervised Multimodal Image\nRegistration, named CoLReg, which reformulates unsupervised registration\nlearning into a collaborative training paradigm comprising three components:\n(1) a cross-modal image translation network, MIMGCD, which employs a learnable\nMaximum Index Map (MIM) guided conditional diffusion model to synthesize\nmodality-consistent image pairs; (2) a self-supervised intermediate\nregistration network which learns to estimate geometric transformations using\naccurate displacement labels derived from MIMGCD outputs; (3) a distilled\ncross-modal registration network trained with pseudo-label predicted by the\nintermediate network. The three networks are jointly optimized through an\nalternating training strategy wherein each network enhances the performance of\nthe others. This mutual collaboration progressively reduces modality\ndiscrepancies, enhances the quality of pseudo-labels, and improves registration\naccuracy. Extensive experimental results on multiple datasets demonstrate that\nour ColReg achieves competitive or superior performance compared to\nstate-of-the-art unsupervised approaches and even surpasses several supervised\nbaselines.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Kernel Space Diffusion Model for Efficient Remote Sensing Pansharpening",
+    "url": "http://arxiv.org/abs/2505.18991v1",
+    "authors": [
+      "Hancong Jin",
+      "Zihan Cao",
+      "Liangjian Deng"
+    ],
+    "published": "2025-05-25",
+    "abstract": "Pansharpening is a fundamental task in remote sensing that integrates\nhigh-resolution panchromatic imagery (PAN) with low-resolution multispectral\nimagery (LRMS) to produce an enhanced image with both high spatial and spectral\nresolution. Despite significant progress in deep learning-based approaches,\nexisting methods often fail to capture the global priors inherent in remote\nsensing data distributions. Diffusion-based models have recently emerged as\npromising solutions due to their powerful distribution mapping capabilities;\nhowever, they suffer from significant inference latency, which limits their\npractical applicability. In this work, we propose the Kernel Space Diffusion\nModel (KSDiff), a novel approach that leverages diffusion processes in a latent\nspace to generate convolutional kernels enriched with global contextual\ninformation, thereby improving pansharpening quality while enabling faster\ninference. Specifically, KSDiff constructs these kernels through the\nintegration of a low-rank core tensor generator and a unified factor generator,\norchestrated by a structure-aware multi-head attention mechanism. We further\nintroduce a two-stage training strategy tailored for pansharpening, enabling\nKSDiff to serve as a framework for enhancing existing pansharpening\narchitectures. Experiments on three widely used datasets, including\nWorldView-3, GaoFen-2, and QuickBird, demonstrate the superior performance of\nKSDiff both qualitatively and quantitatively. Code will be released upon\npossible acceptance.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Performance and Generalizability Impacts of Incorporating Geolocation into Deep Learning for Dynamic PM2.5 Estimation",
+    "url": "http://arxiv.org/abs/2505.18461v1",
+    "authors": [
+      "Morteza Karimzadeh",
+      "Zhongying Wang",
+      "James L. Crooks"
+    ],
+    "published": "2025-05-24",
+    "abstract": "Deep learning models have demonstrated success in geospatial applications,\nyet quantifying the role of geolocation information in enhancing model\nperformance and geographic generalizability remains underexplored. A new\ngeneration of location encoders have emerged with the goal of capturing\nattributes present at any given location for downstream use in predictive\nmodeling. Being a nascent area of research, their evaluation has remained\nlargely limited to static tasks such as species distributions or average\ntemperature mapping. In this paper, we discuss and quantify the impact of\nincorporating geolocation into deep learning for a real-world application\ndomain that is characteristically dynamic (with fast temporal change) and\nspatially heterogeneous at high resolutions: estimating surface-level daily\nPM2.5 levels using remotely sensed and ground-level data. We build on a\nrecently published deep learning-based PM2.5 estimation model that achieves\nstate-of-the-art performance on data observed in the contiguous United States.\nWe examine three approaches for incorporating geolocation: excluding\ngeolocation as a baseline, using raw geographic coordinates, and leveraging\npretrained location encoders. We evaluate each approach under within-region\n(WR) and out-of-region (OoR) evaluation scenarios. Aggregate performance\nmetrics indicate that while na\\\"ive incorporation of raw geographic coordinates\nimproves within-region performance by retaining the interpolative value of\ngeographic location, it can hinder generalizability across regions. In\ncontrast, pretrained location encoders like GeoCLIP enhance predictive\nperformance and geographic generalizability for both WR and OoR scenarios.\nHowever, qualitative analysis reveals artifact patterns caused by high-degree\nbasis functions and sparse upstream samples in certain areas, and ablation\nresults indicate varying performance among location encoders...",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Align-DA: Align Score-based Atmospheric Data Assimilation with Multiple Preferences",
+    "url": "http://arxiv.org/abs/2505.22008v1",
+    "authors": [
+      "Jing-An Sun",
+      "Hang Fan",
+      "Junchao Gong",
+      "Ben Fei",
+      "Kun Chen",
+      "Fenghua Ling",
+      "Wenlong Zhang",
+      "Wanghan Xu",
+      "Li Yan",
+      "Pierre Gentine",
+      "Lei Bai"
+    ],
+    "published": "2025-05-28",
+    "abstract": "Data assimilation (DA) aims to estimate the full state of a dynamical system\nby combining partial and noisy observations with a prior model forecast,\ncommonly referred to as the background. In atmospheric applications, this\nproblem is fundamentally ill-posed due to the sparsity of observations relative\nto the high-dimensional state space. Traditional methods address this challenge\nby simplifying background priors to regularize the solution, which are\nempirical and require continual tuning for application. Inspired by alignment\ntechniques in text-to-image diffusion models, we propose Align-DA, which\nformulates DA as a generative process and uses reward signals to guide\nbackground priors, replacing manual tuning with data-driven alignment.\nSpecifically, we train a score-based model in the latent space to approximate\nthe background-conditioned prior, and align it using three complementary reward\nsignals for DA: (1) assimilation accuracy, (2) forecast skill initialized from\nthe assimilated state, and (3) physical adherence of the analysis fields.\nExperiments with multiple reward signals demonstrate consistent improvements in\nanalysis quality across different evaluation metrics and observation-guidance\nstrategies. These results show that preference alignment, implemented as a soft\nconstraint, can automatically adapt complex background priors tailored to DA,\noffering a promising new direction for advancing the field.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Diffusion Models"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Localized Weather Prediction Using Kolmogorov-Arnold Network-Based Models and Deep RNNs",
+    "url": "http://arxiv.org/abs/2505.22686v1",
+    "authors": [
+      "Ange-Clement Akazan",
+      "Verlon Roel Mbingui",
+      "Gnankan Landry Regis N'guessan",
+      "Issa Karambal"
+    ],
+    "published": "2025-05-27",
+    "abstract": "Weather forecasting is crucial for managing risks and economic planning,\nparticularly in tropical Africa, where extreme events severely impact\nlivelihoods. Yet, existing forecasting methods often struggle with the region's\ncomplex, non-linear weather patterns. This study benchmarks deep recurrent\nneural networks such as $\\texttt{LSTM, GRU, BiLSTM, BiGRU}$, and\nKolmogorov-Arnold-based models $(\\texttt{KAN} and \\texttt{TKAN})$ for daily\nforecasting of temperature, precipitation, and pressure in two tropical cities:\nAbidjan, Cote d'Ivoire (Ivory Coast) and Kigali (Rwanda). We further introduce\ntwo customized variants of $ \\texttt{TKAN}$ that replace its original\n$\\texttt{SiLU}$ activation function with $ \\texttt{GeLU}$ and \\texttt{MiSH},\nrespectively. Using station-level meteorological data spanning from 2010 to\n2024, we evaluate all the models on standard regression metrics. $\\texttt{KAN}$\nachieves temperature prediction ($R^2=0.9986$ in Abidjan, $0.9998$ in Kigali,\n$\\texttt{MSE} < 0.0014~^\\circ C ^2$), while $\\texttt{TKAN}$ variants minimize\nabsolute errors for precipitation forecasting in low-rainfall regimes. The\ncustomized $\\texttt{TKAN}$ models demonstrate improvements over the standard\n$\\texttt{TKAN}$ across both datasets. Classical \\texttt{RNNs} remain highly\ncompetitive for atmospheric pressure ($R^2 \\approx 0.83{-}0.86$), outperforming\n$\\texttt{KAN}$-based models in this task. These results highlight the potential\nof spline-based neural architectures for efficient and data-efficient\nforecasting.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "LSTM",
+      "RNN"
+    ],
+    "applications": [
+      "Regression",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "NeuralOM: Neural Ocean Model for Subseasonal-to-Seasonal Simulation",
+    "url": "http://arxiv.org/abs/2505.21020v1",
+    "authors": [
+      "Yuan Gao",
+      "Ruiqi Shu",
+      "Hao Wu",
+      "Fan Xu",
+      "Yanfei Xiang",
+      "Ruijian Gou",
+      "Qingsong Wen",
+      "Xian Wu",
+      "Xiaomeng Huang"
+    ],
+    "published": "2025-05-27",
+    "abstract": "Accurate Subseasonal-to-Seasonal (S2S) ocean simulation is critically\nimportant for marine research, yet remains challenging due to its substantial\nthermal inertia and extended time delay. Machine learning (ML)-based models\nhave demonstrated significant advancements in simulation accuracy and\ncomputational efficiency compared to traditional numerical methods.\nNevertheless, a significant limitation of current ML models for S2S ocean\nsimulation is their inadequate incorporation of physical consistency and the\nslow-changing properties of the ocean system. In this work, we propose a neural\nocean model (NeuralOM) for S2S ocean simulation with a multi-scale interactive\ngraph neural network to emulate diverse physical phenomena associated with\nocean systems effectively. Specifically, we propose a multi-stage framework\ntailored to model the ocean's slowly changing nature. Additionally, we\nintroduce a multi-scale interactive messaging module to capture complex\ndynamical behaviors, such as gradient changes and multiplicative coupling\nrelationships inherent in ocean dynamics. Extensive experimental evaluations\nconfirm that our proposed NeuralOM outperforms state-of-the-art models in S2S\nand extreme event simulation. The codes are available at\nhttps://github.com/YuanGao-YG/NeuralOM.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Automated data curation for self-supervised learning in underwater acoustic analysis",
+    "url": "http://arxiv.org/abs/2505.20066v1",
+    "authors": [
+      "Hilde I Hummel",
+      "Sandjai Bhulai",
+      "Burooj Ghani",
+      "Rob van der Mei"
+    ],
+    "published": "2025-05-26",
+    "abstract": "The sustainability of the ocean ecosystem is threatened by increased levels\nof sound pollution, making monitoring crucial to understand its variability and\nimpact. Passive acoustic monitoring (PAM) systems collect a large amount of\nunderwater sound recordings, but the large volume of data makes manual analysis\nimpossible, creating the need for automation. Although machine learning offers\na potential solution, most underwater acoustic recordings are unlabeled.\nSelf-supervised learning models have demonstrated success in learning from\nlarge-scale unlabeled data in various domains like computer vision, Natural\nLanguage Processing, and audio. However, these models require large, diverse,\nand balanced datasets for training in order to generalize well. To address\nthis, a fully automated self-supervised data curation pipeline is proposed to\ncreate a diverse and balanced dataset from raw PAM data. It integrates\nAutomatic Identification System (AIS) data with recordings from various\nhydrophones in the U.S. waters. Using hierarchical k-means clustering, the raw\naudio data is sampled and then combined with AIS samples to create a balanced\nand diverse dataset. The resulting curated dataset enables the development of\nself-supervised learning models, facilitating various tasks such as monitoring\nmarine mammals and assessing sound pollution.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Accelerated Bayesian calibration and uncertainty quantification of RANS turbulence model parameters for stratified atmospheric boundary layer flows",
+    "url": "http://arxiv.org/abs/2505.18756v1",
+    "authors": [
+      "E. Y. Shin",
+      "M. F. Howland"
+    ],
+    "published": "2025-05-24",
+    "abstract": "In operational weather models, the effects of turbulence in the atmospheric\nboundary layer (ABL) on the resolved flow are modeled using turbulence\nparameterizations. These parameterizations typically use a predetermined set of\nmodel parameters that are tuned to limited data from canonical flows. Using\nthese fixed parameters results in deterministic predictions that neglect\nuncertainty in the unresolved turbulence processes. In this study, we perform a\nmachine learning-accelerated Bayesian inversion of a single-column model of the\nABL. This approach is used to calibrate and quantify uncertainty in model\nparameters of Reynolds-averaged Navier-Stokes turbulence models. Following\nverification of the uncertainty quantification methodology, we learn the\nparameters and their uncertainties in two different turbulence models\nconditioned on scale-resolving large-eddy simulation data over a range of ABL\nstabilities. We show how Bayesian inversion of a numerical model improves flow\npredictions by investigating the underlying mean momentum budgets. Further, we\nshow that uncertainty quantification based on neutral surface layer data\nrecovers the relationships between parameters derived from theoretical\nmodeling, but that learning the parameters based on stable ABL data or data\nfrom outside the surface layer can lead to different relationships than neutral\nsurface layer theory. Systematic uncertainty reduction methods reveal that (1)\nsampling wind speed up to the ABL height can reduce uncertainty in key model\nparameters by up to 84%, and (2) assimilating fluid flow quantities beyond\nfirst-order moment statistics can further reduce uncertainty in ways that wind\nspeed assimilation alone cannot achieve. The parameters learned using Bayesian\nuncertainty quantification generally yield lower error than standard\ndeterministic parameters in out-of-sample tests and provide uncertainty\nintervals on predictions.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "A validated coupled three-dimensional hydrodynamic and spectral wind-wave model for the western north Atlantic Ocean",
+    "url": "http://arxiv.org/abs/2505.18803v1",
+    "authors": [
+      "Maria Venolia",
+      "Reza Marsooli",
+      "Jaime R. Calzada"
+    ],
+    "published": "2025-05-24",
+    "abstract": "Wind-wave and ocean current interactions affect critical coastal and oceanic\nprocesses, yet modeling these interactions presents significant challenges. The\nwestern North Atlantic Ocean provides an ideal test environment for coupled\nhydrodynamics and wind wave models, thanks to its energetic surface currents\nsuch as the Gulf Stream. This study evaluates a high-resolution coupled SCHISM\nWWM III model, utilizing NOAA's 'STOFS-3D-Atlantic' computational mesh, while\nincorporating three-dimensional baroclinic dynamics to account for density\nstratification effects. We evaluate the model's calculated water level and\ntidal predictions against NOAA tide gauge measurements during December 2016.\nThe coupled model demonstrates robust skills in reproducing tidal constituents,\nnon-tidal components, and total water level predictions along the U.S. East and\nGulf of Mexico Coasts. In addition, we systematically evaluate three wave\nphysics parameterizations (Ardhuin, Makin and Stam, and Cycle Three) in the\nspectral wave model to quantify their effects on the modeled wave\ncharacteristics. This validated modeling framework enhances our ability to\nunderstand and predict complex coastal and oceanic processes, offering\nsignificant applications for coastal management, maritime operations, and\nclimate adaptation planning throughout the western North Atlantic region.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
   }
 ]
