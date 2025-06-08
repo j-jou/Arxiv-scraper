@@ -9806,5 +9806,295 @@
     "applications": [
       "Forecast"
     ]
+  },
+  {
+    "title": "Cross-Modal Urban Sensing: Evaluating Sound-Vision Alignment Across Street-Level and Aerial Imagery",
+    "url": "http://arxiv.org/abs/2506.03388v1",
+    "authors": [
+      "Pengyu Chen",
+      "Xiao Huang",
+      "Teng Fei",
+      "Sicheng Wang"
+    ],
+    "published": "2025-06-03",
+    "abstract": "Environmental soundscapes convey substantial ecological and social\ninformation regarding urban environments; however, their potential remains\nlargely untapped in large-scale geographic analysis. In this study, we\ninvestigate the extent to which urban sounds correspond with visual scenes by\ncomparing various visual representation strategies in capturing acoustic\nsemantics. We employ a multimodal approach that integrates geo-referenced sound\nrecordings with both street-level and remote sensing imagery across three major\nglobal cities: London, New York, and Tokyo. Utilizing the AST model for audio,\nalong with CLIP and RemoteCLIP for imagery, as well as CLIPSeg and Seg-Earth OV\nfor semantic segmentation, we extract embeddings and class-level features to\nevaluate cross-modal similarity. The results indicate that street view\nembeddings demonstrate stronger alignment with environmental sounds compared to\nsegmentation outputs, whereas remote sensing segmentation is more effective in\ninterpreting ecological categories through a Biophony--Geophony--Anthrophony\n(BGA) framework. These findings imply that embedding-based models offer\nsuperior semantic alignment, while segmentation-based methods provide\ninterpretable links between visual structure and acoustic ecology. This work\nadvances the burgeoning field of multimodal urban sensing by offering novel\nperspectives for incorporating sound into geospatial analysis.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "CLIP"
+    ],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "Pan-Arctic Permafrost Landform and Human-built Infrastructure Feature Detection with Vision Transformers and Location Embeddings",
+    "url": "http://arxiv.org/abs/2506.02868v1",
+    "authors": [
+      "Amal S. Perera",
+      "David Fernandez",
+      "Chandi Witharana",
+      "Elias Manos",
+      "Michael Pimenta",
+      "Anna K. Liljedahl",
+      "Ingmar Nitze",
+      "Yili Yang",
+      "Todd Nicholson",
+      "Chia-Yu Hsu",
+      "Wenwen Li",
+      "Guido Grosse"
+    ],
+    "published": "2025-06-03",
+    "abstract": "Accurate mapping of permafrost landforms, thaw disturbances, and human-built\ninfrastructure at pan-Arctic scale using sub-meter satellite imagery is\nincreasingly critical. Handling petabyte-scale image data requires\nhigh-performance computing and robust feature detection models. While\nconvolutional neural network (CNN)-based deep learning approaches are widely\nused for remote sensing (RS),similar to the success in transformer based large\nlanguage models, Vision Transformers (ViTs) offer advantages in capturing\nlong-range dependencies and global context via attention mechanisms. ViTs\nsupport pretraining via self-supervised learning-addressing the common\nlimitation of labeled data in Arctic feature detection and outperform CNNs on\nbenchmark datasets. Arctic also poses challenges for model generalization,\nespecially when features with the same semantic class exhibit diverse spectral\ncharacteristics. To address these issues for Arctic feature detection, we\nintegrate geospatial location embeddings into ViTs to improve adaptation across\nregions. This work investigates: (1) the suitability of pre-trained ViTs as\nfeature extractors for high-resolution Arctic remote sensing tasks, and (2) the\nbenefit of combining image and location embeddings. Using previously published\ndatasets for Arctic feature detection, we evaluate our models on three\ntasks-detecting ice-wedge polygons (IWP), retrogressive thaw slumps (RTS), and\nhuman-built infrastructure. We empirically explore multiple configurations to\nfuse image embeddings and location embeddings. Results show that ViTs with\nlocation embeddings outperform prior CNN-based models on two of the three tasks\nincluding F1 score increase from 0.84 to 0.92 for RTS detection, demonstrating\nthe potential of transformer-based models with spatial awareness for Arctic RS\napplications.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "MobCLIP: Learning General-purpose Geospatial Representation at Scale",
+    "url": "http://arxiv.org/abs/2506.01297v3",
+    "authors": [
+      "Ya Wen",
+      "Jixuan Cai",
+      "Qiyao Ma",
+      "Linyan Li",
+      "Xinhua Chen",
+      "Chris Webster",
+      "Yulun Zhou"
+    ],
+    "published": "2025-06-02",
+    "abstract": "Representation learning of geospatial locations remains a core challenge in\nachieving general geospatial intelligence. Current embedding methods often lack\nversatility, limiting their utility across diverse tasks in both human and\nnatural domains. We present MobCLIP, the first nationwide general-purpose\nlocation encoder, integrating an unprecedented diversity of data modalities\nthrough effective and scalable multimodal fusion. Adopting a novel CLIP-based\narchitecture, our framework aligns 100M+ POIs, nationwide remote sensing\nimagery, and structured demographic statistics with a billion-edge mobility\ngraph. By tokenizing spatial locations into grid cells inspired by Vision\nTransformers, we establish a unified representation space bridging mobility\npatterns and multimodal features. To rigorously evaluate the general-purpose\neffectiveness of MobCLIP, we construct a benchmark dataset composed of 11\ndownstream prediction tasks across social, economic, and natural domains.\nExperiments show that MobCLIP, with four input modalities and a compact\n128-dimensional representation space, achieves significantly superior\ngeneral-purpose predictive performances than state-of-the-art models by an\naverage of 35%. Thanks to the effective integration of human-centric\nmodalities, the performance gain is particularly profound in human-centric\ntasks, such as energy consumption (+260%), offline retail consumption amount\n(+98%), and crime cases (+95%) predictions. Echoing LLM scaling laws, we\nfurther demonstrate the scaling behavior in geospatial representation learning.\nWe open-source code and pretrained models at:\nhttps://github.com/ylzhouchris/MobCLIP.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer",
+      "LLM",
+      "CLIP"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Enhancing Monocular Height Estimation via Weak Supervision from Imperfect Labels",
+    "url": "http://arxiv.org/abs/2506.02534v1",
+    "authors": [
+      "Sining Chen",
+      "Yilei Shi",
+      "Xiao Xiang Zhu"
+    ],
+    "published": "2025-06-03",
+    "abstract": "Monocular height estimation is considered the most efficient and\ncost-effective means of 3D perception in remote sensing, and it has attracted\nmuch attention since the emergence of deep learning. While training neural\nnetworks requires a large amount of data, data with perfect labels are scarce\nand only available within developed regions. The trained models therefore lack\ngeneralizability, which limits the potential for large-scale application of\nexisting methods. We tackle this problem for the first time, by introducing\ndata with imperfect labels into training pixel-wise height estimation networks,\nincluding labels that are incomplete, inexact, and inaccurate compared to\nhigh-quality labels. We propose an ensemble-based pipeline compatible with any\nmonocular height estimation network. Taking the challenges of noisy labels,\ndomain shift, and long-tailed distribution of height values into consideration,\nwe carefully design the architecture and loss functions to leverage the\ninformation concealed in imperfect labels using weak supervision through\nbalanced soft losses and ordinal constraints. We conduct extensive experiments\non two datasets with different resolutions, DFC23 (0.5 to 1 m) and GBH (3 m).\nThe results indicate that the proposed pipeline outperforms baselines by\nachieving more balanced performance across various domains, leading to\nimprovements of average root mean square errors up to 22.94 %, and 18.62 % on\nDFC23 and GBH, respectively. The efficacy of each design component is validated\nthrough ablation studies. Code is available at\nhttps://github.com/zhu-xlab/weakim2h.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Image Restoration Learning via Noisy Supervision in the Fourier Domain",
+    "url": "http://arxiv.org/abs/2506.00564v1",
+    "authors": [
+      "Haosen Liu",
+      "Jiahao Liu",
+      "Shan Tan",
+      "Edmund Y. Lam"
+    ],
+    "published": "2025-05-31",
+    "abstract": "Noisy supervision refers to supervising image restoration learning with noisy\ntargets. It can alleviate the data collection burden and enhance the practical\napplicability of deep learning techniques. However, existing methods suffer\nfrom two key drawbacks. Firstly, they are ineffective in handling spatially\ncorrelated noise commonly observed in practical applications such as low-light\nimaging and remote sensing. Secondly, they rely on pixel-wise loss functions\nthat only provide limited supervision information. This work addresses these\nchallenges by leveraging the Fourier domain. We highlight that the Fourier\ncoefficients of spatially correlated noise exhibit sparsity and independence,\nmaking them easier to handle. Additionally, Fourier coefficients contain global\ninformation, enabling more significant supervision. Motivated by these\ninsights, we propose to establish noisy supervision in the Fourier domain. We\nfirst prove that Fourier coefficients of a wide range of noise converge in\ndistribution to the Gaussian distribution. Exploiting this statistical\nproperty, we establish the equivalence between using noisy targets and clean\ntargets in the Fourier domain. This leads to a unified learning framework\napplicable to various image restoration tasks, diverse network architectures,\nand different noise models. Extensive experiments validate the outstanding\nperformance of this framework in terms of both quantitative indices and\nperceptual quality.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "FPGA-Enabled Machine Learning Applications in Earth Observation: A Systematic Review",
+    "url": "http://arxiv.org/abs/2506.03938v1",
+    "authors": [
+      "C\u00e9dric L\u00e9onard",
+      "Dirk Stober",
+      "Martin Schulz"
+    ],
+    "published": "2025-06-04",
+    "abstract": "New UAV technologies and the NewSpace era are transforming Earth Observation\nmissions and data acquisition. Numerous small platforms generate large data\nvolume, straining bandwidth and requiring onboard decision-making to transmit\nhigh-quality information in time. While Machine Learning allows real-time\nautonomous processing, FPGAs balance performance with adaptability to\nmission-specific requirements, enabling onboard deployment. This review\nsystematically analyzes 66 experiments deploying ML models on FPGAs for Remote\nSensing applications. We introduce two distinct taxonomies to capture both\nefficient model architectures and FPGA implementation strategies. For\ntransparency and reproducibility, we follow PRISMA 2020 guidelines and share\nall data and code at https://github.com/CedricLeon/Survey_RS-ML-FPGA.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Validating remotely sensed biomass estimates with forest inventory data in the western US",
+    "url": "http://arxiv.org/abs/2506.03120v1",
+    "authors": [
+      "Xiuyu Cao",
+      "Joseph O. Sexton",
+      "Panshi Wang",
+      "Dimitrios Gounaridis",
+      "Neil H. Carter",
+      "Kai Zhu"
+    ],
+    "published": "2025-06-03",
+    "abstract": "Monitoring aboveground biomass (AGB) and its density (AGBD) at high\nresolution is essential for carbon accounting and ecosystem management. While\nNASA's spaceborne Global Ecosystem Dynamics Investigation (GEDI) LiDAR mission\nprovides globally distributed reference measurements for AGBD estimation, the\nmajority of commercial remote sensing products based on GEDI remain without\nrigorous or independent validation. Here, we present an independent regional\nvalidation of an AGBD dataset offered by terraPulse, Inc., based on independent\nreference data from the US Forest Service Forest Inventory and Analysis (FIA)\nprogram. Aggregated to 64,000-hectare hexagons and US counties across the US\nstates of Utah, Nevada, and Washington, we found very strong agreement between\nterraPulse and FIA estimates. At the hexagon scale, we report R2 = 0.88, RMSE =\n26.68 Mg/ha, and a correlation coefficient (r) of 0.94. At the county scale,\nagreement improves to R2 = 0.90, RMSE =32.62 Mg/ha, slope = 1.07, and r = 0.95.\nSpatial and statistical analyses indicated that terraPulse AGBD values tended\nto exceed FIA estimates in non-forest areas, likely due to FIA's limited\nsampling of non-forest vegetation. The terraPulse AGBD estimates also exhibited\nlower values in high-biomass forests, likely due to saturation effects in its\noptical remote-sensing covariates. This study advances operational carbon\nmonitoring by delivering a scalable framework for comprehensive AGBD validation\nusing independent FIA data, as well as a benchmark validation of a new\ncommercial dataset for global biomass monitoring.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Zero-Shot Tree Detection and Segmentation from Aerial Forest Imagery",
+    "url": "http://arxiv.org/abs/2506.03114v1",
+    "authors": [
+      "Michelle Chen",
+      "David Russell",
+      "Amritha Pallavoor",
+      "Derek Young",
+      "Jane Wu"
+    ],
+    "published": "2025-06-03",
+    "abstract": "Large-scale delineation of individual trees from remote sensing imagery is\ncrucial to the advancement of ecological research, particularly as climate\nchange and other environmental factors rapidly transform forest landscapes\nacross the world. Current RGB tree segmentation methods rely on training\nspecialized machine learning models with labeled tree datasets. While these\nlearning-based approaches can outperform manual data collection when accurate,\nthe existing models still depend on training data that's hard to scale. In this\npaper, we investigate the efficacy of using a state-of-the-art image\nsegmentation model, Segment Anything Model 2 (SAM2), in a zero-shot manner for\nindividual tree detection and segmentation. We evaluate a pretrained SAM2 model\non two tasks in this domain: (1) zero-shot segmentation and (2) zero-shot\ntransfer by using predictions from an existing tree detection model as prompts.\nOur results suggest that SAM2 not only has impressive generalization\ncapabilities, but also can form a natural synergy with specialized methods\ntrained on in-domain labeled data. We find that applying large pretrained\nmodels to problems in remote sensing is a promising avenue for future progress.\nWe make our code available at:\nhttps://github.com/open-forest-observatory/tree-detection-framework.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Improving Post-Processing for Quantitative Precipitation Forecasting Using Deep Learning: Learning Precipitation Physics from High-Resolution Observations",
+    "url": "http://arxiv.org/abs/2506.03842v1",
+    "authors": [
+      "ChangJae Lee",
+      "Heecheol Yang",
+      "Byeonggwon Kim"
+    ],
+    "published": "2025-06-04",
+    "abstract": "Accurate quantitative precipitation forecasting (QPF) remains one of the main\nchallenges in numerical weather prediction (NWP), primarily due to the\ndifficulty of representing the full complexity of atmospheric microphysics\nthrough parameterization schemes. This study introduces a deep learning-based\npost-processing model, DL-QPF, which diagnoses precipitation fields from\nmeteorological forecasts by learning directly from high-resolution radar\nestimates precipitation. The DL-QPF model is constructed using a\nPatch-conditional Generative Adversarial Network (Patch-cGAN) architecture\ncombined with a U-Net generator and a discriminator. The generator learns\nmeteorological features relevant to precipitation, while the adversarial loss\nfrom the discriminator encourages the generation of realistic rainfall patterns\nand distributions. Training is performed on three years of warm-season data\nover the Korean Peninsula, with input variables derived from ECMWF's Integrated\nForecasting System High-Resolution forecast (IFS-HRES). Model verification is\nconducted against multiple reference models, including global (IFS-HRES, KIM),\nregional (KIM-Regional, KIM-LENS), and AI-based (GraphCast) forecasts.\nVerification across multiple rainfall thresholds shows that DL-QPF achieves a\nfrequency bias near one and superior success ratios. Particularly for heavy and\nintense rainfall events, DL-QPF outperforms both conventional NWP and an AI\nmodel, demonstrating improved skill in capturing high-intensity precipitation.\nThis study highlights the potential of observational data-driven deep learning\napproaches in post-processing QPF. By directly learning from observations,\nDL-QPF reduces systematic biases and enhances the realism of forecasted\nrainfall distributions. These results demonstrate the model's potential to\nenhance QPF realism.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "UNET",
+      "GAN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Probabilistic measures afford fair comparisons of AIWP and NWP model output",
+    "url": "http://arxiv.org/abs/2506.03744v1",
+    "authors": [
+      "Tilmann Gneiting",
+      "Tobias Biegert",
+      "Kristof Kraus",
+      "Eva-Maria Walz",
+      "Alexander I. Jordan",
+      "Sebastian Lerch"
+    ],
+    "published": "2025-06-04",
+    "abstract": "We introduce a new measure for fair and meaningful comparisons of\nsingle-valued output from artificial intelligence based weather prediction\n(AIWP) and numerical weather prediction (NWP) models, called potential\ncontinuous ranked probability score (PC). In a nutshell, we subject the\ndeterministic backbone of physics-based and data-driven models post hoc to the\nsame statistical postprocessing technique, namely, isotonic distributional\nregression (IDR). Then we find PC as the mean continuous ranked probability\nscore (CRPS) of the postprocessed probabilistic forecasts. The nonnegative PC\nmeasure quantifies potential predictive performance and is invariant under\nstrictly increasing transformations of the model output. PC attains its most\ndesirable value of zero if, and only if, the weather outcome Y is a fixed,\nnon-decreasing function of the model output X. The PC measure is recorded in\nthe unit of the outcome, has an upper bound of one half times the mean absolute\ndifference between outcomes, and serves as a proxy for the mean CRPS of\nreal-time, operational probabilistic products. When applied to WeatherBench 2\ndata, our approach demonstrates that the data-driven GraphCast model\noutperforms the leading, physics-based European Centre for Medium Range Weather\nForecasts (ECMWF) high-resolution (HRES) model. Furthermore, the PC measure for\nthe HRES model aligns exceptionally well with the mean CRPS of the operational\nECMWF ensemble. Across application domains, our approach affords comparisons of\nsingle-valued forecasts in settings where the pre-specification of a loss\nfunction -- which is the usual, and principally superior, procedure in forecast\ncontests, administrative, and benchmarks settings -- places competitors on\nunequal footings.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Regression",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "FuXi-Ocean: A Global Ocean Forecasting System with Sub-Daily Resolution",
+    "url": "http://arxiv.org/abs/2506.03210v1",
+    "authors": [
+      "Qiusheng Huang",
+      "Yuan Niu",
+      "Xiaohui Zhong",
+      "Anboyu Guo",
+      "Lei Chen",
+      "Dianjun Zhang",
+      "Xuefeng Zhang",
+      "Hao Li"
+    ],
+    "published": "2025-06-03",
+    "abstract": "Accurate, high-resolution ocean forecasting is crucial for maritime\noperations and environmental monitoring. While traditional numerical models are\ncapable of producing sub-daily, eddy-resolving forecasts, they are\ncomputationally intensive and face challenges in maintaining accuracy at fine\nspatial and temporal scales. In contrast, recent data-driven approaches offer\nimproved computational efficiency and emerging potential, yet typically operate\nat daily resolution and struggle with sub-daily predictions due to error\naccumulation over time. We introduce FuXi-Ocean, the first data-driven global\nocean forecasting model achieving six-hourly predictions at eddy-resolving\n1/12{\\deg} spatial resolution, reaching depths of up to 1500 meters. The model\narchitecture integrates a context-aware feature extraction module with a\npredictive network employing stacked attention blocks. The core innovation is\nthe Mixture-of-Time (MoT) module, which adaptively integrates predictions from\nmultiple temporal contexts by learning variable-specific reliability ,\nmitigating cumulative errors in sequential forecasting. Through comprehensive\nexperimental evaluation, FuXi-Ocean demonstrates superior skill in predicting\nkey variables, including temperature, salinity, and currents, across multiple\ndepths.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Using Diffusion Models to do Data Assimilation",
+    "url": "http://arxiv.org/abs/2506.02249v1",
+    "authors": [
+      "Daniel Hodyss",
+      "Matthias Morzfeld"
+    ],
+    "published": "2025-06-02",
+    "abstract": "The recent surge in machine learning (ML) methods for geophysical modeling\nhas raised the question of how these same ML methods might be applied to data\nassimilation (DA). We focus on diffusion modeling (a form of generative\nartificial intelligence) and on systems that can perform the entire DA, rather\nthan on ML-based tools that are used within an otherwise conventional DA\nsystem. We explain that there are (at least) three different types of\ndiffusion-based DA systems and we show in detail that the three systems differ\nin the type of posterior distribution they target for sampling. The different\nposterior distributions correspond to different priors and\\slash or\nlikelihoods, which in turn results in different types of training data sets,\ndifferent computational requirements and different qualities of their state\nestimates. We discuss the implications of these findings for the use of\ndiffusion modeling in DA.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "ROC Curves for Spatial Point Patterns and Presence-Absence Data",
+    "url": "http://arxiv.org/abs/2506.03414v1",
+    "authors": [
+      "Adrian Baddeley",
+      "Ege Rubak",
+      "Suman Rakshit",
+      "Gopalan Nair"
+    ],
+    "published": "2025-06-03",
+    "abstract": "Receiver Operating Characteristic (ROC) curves have recently been used to\nevaluate the performance of models for spatial presence-absence or\npresence-only data. Applications include species distribution modelling and\nmineral prospectivity analysis. We clarify the interpretation of the ROC curve\nin this context. Contrary to statements in the literature, ROC does not measure\ngoodness-of-fit of a spatial model, and its interpretation as a measure of\npredictive ability is weak; it is a measure of ranking ability, insensitive to\nthe precise form of the model. To gain insight we draw connections between ROC\nand existing statistical techniques for spatial point pattern data. The area\nunder the ROC curve (AUC) is related to hypothesis tests of the null hypothesis\nthat the explanatory variables have no effect. The shape of the ROC curve has a\ndiagnostic interpretation. This suggests several new techniques, which extend\nthe scope of application of ROC curves for spatial data, to support variable\nselection and model selection, analysis of segregation between different types\nof points, adjustment for a baseline, and analysis of spatial case-control\ndata. The new techniques are illustrated with several real example datasets.\nOpen source R code implementing the techniques is available in the development\nversion of our package spatstat [Baddeley and Turner, 2005, Baddeley et al.,\n2015] and will be included in the next public release.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Modelling benthic animals in space and time using Bayesian Point Process with cross validation: the case of Holoturians",
+    "url": "http://arxiv.org/abs/2506.01763v2",
+    "authors": [
+      "Daniele Poggio",
+      "Gian Mario Sangiovanni",
+      "Gianluca Mastrantonio",
+      "Giovanna Jona Lasinio",
+      "Edoardo Casoli",
+      "Stefano Moro",
+      "Daniele Ventura"
+    ],
+    "published": "2025-06-02",
+    "abstract": "Understanding the spatial distribution of Holothurians is an essential task\nfor ecosystem monitoring and sustainable management, particularly in the\nMediterranean habitats. However, species distribution modeling is often\ncomplicated by the presence-only nature of the data and heterogeneous sampling\ndesigns. This study develops a spatio-temporal framework based on Log-Gaussian\nCox Processes to analyze Holothurians' positions collected across nine survey\ncampaigns conducted from 2022 to 2024 near Giglio Island, Italy. The surveys\ncombined high-resolution photogrammetry with diver-based visual censuses,\nleading to varying detection probabilities across habitats, especially within\nPosidonia oceanica meadows. We adopt a model with a shared spatial Gaussian\nprocess component to accommodate this complexity, accounting for habitat\nstructure, environmental covariates, and temporal variability. Model estimation\nis performed using Integrated Nested Laplace Approximation. We evaluate the\npredictive performances of alternative model specifications through a novel\nk-fold cross-validation strategy for point processes, using the Continuous\nRanked Probability Score. Our approach provides a flexible and computationally\nefficient framework for integrating heterogeneous presence-only data in marine\necology and comparing the predictive ability of alternative models.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [
+      "SDM"
+    ],
+    "applications": [
+      "Detection"
+    ]
   }
 ]
