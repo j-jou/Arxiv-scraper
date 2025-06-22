@@ -10387,5 +10387,217 @@
     "applications": [
       "Forecast"
     ]
+  },
+  {
+    "title": "From Points to Places: Towards Human Mobility-Driven Spatiotemporal Foundation Models via Understanding Places",
+    "url": "http://arxiv.org/abs/2506.14570v1",
+    "authors": [
+      "Mohammad Hashemi",
+      "Andreas Zufle"
+    ],
+    "published": "2025-06-17",
+    "abstract": "Capturing human mobility is essential for modeling how people interact with\nand move through physical spaces, reflecting social behavior, access to\nresources, and dynamic spatial patterns. To support scalable and transferable\nanalysis across diverse geographies and contexts, there is a need for a\ngeneralizable foundation model for spatiotemporal data. While foundation models\nhave transformed language and vision, they remain limited in handling the\nunique challenges posed by the spatial, temporal, and semantic complexity of\nmobility data. This vision paper advocates for a new class of spatial\nfoundation models that integrate geolocation semantics with human mobility\nacross multiple scales. Central to our vision is a shift from modeling discrete\npoints of interest to understanding places: dynamic, context-rich regions\nshaped by human behavior and mobility that may comprise many places of\ninterest. We identify key gaps in adaptability, scalability, and multi-granular\nreasoning, and propose research directions focused on modeling places and\nenabling efficient learning. Our goal is to guide the development of scalable,\ncontext-aware models for next-generation geospatial intelligence. These models\nunlock powerful applications ranging from personalized place discovery and\nlogistics optimization to urban planning, ultimately enabling smarter and more\nresponsive spatial decision-making.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "CAMS: A CityGPT-Powered Agentic Framework for Urban Human Mobility Simulation",
+    "url": "http://arxiv.org/abs/2506.13599v1",
+    "authors": [
+      "Yuwei Du",
+      "Jie Feng",
+      "Jian Yuan",
+      "Yong Li"
+    ],
+    "published": "2025-06-16",
+    "abstract": "Human mobility simulation plays a crucial role in various real-world\napplications. Recently, to address the limitations of traditional data-driven\napproaches, researchers have explored leveraging the commonsense knowledge and\nreasoning capabilities of large language models (LLMs) to accelerate human\nmobility simulation. However, these methods suffer from several critical\nshortcomings, including inadequate modeling of urban spaces and poor\nintegration with both individual mobility patterns and collective mobility\ndistributions. To address these challenges, we propose \\textbf{C}ityGPT-Powered\n\\textbf{A}gentic framework for \\textbf{M}obility \\textbf{S}imulation\n(\\textbf{CAMS}), an agentic framework that leverages the language based urban\nfoundation model to simulate human mobility in urban space. \\textbf{CAMS}\ncomprises three core modules, including MobExtractor to extract template\nmobility patterns and synthesize new ones based on user profiles, GeoGenerator\nto generate anchor points considering collective knowledge and generate\ncandidate urban geospatial knowledge using an enhanced version of CityGPT,\nTrajEnhancer to retrieve spatial knowledge based on mobility patterns and\ngenerate trajectories with real trajectory preference alignment via DPO.\nExperiments on real-world datasets show that \\textbf{CAMS} achieves superior\nperformance without relying on externally provided geospatial information.\nMoreover, by holistically modeling both individual mobility patterns and\ncollective mobility constraints, \\textbf{CAMS} generates more realistic and\nplausible trajectories. In general, \\textbf{CAMS} establishes a new paradigm\nthat integrates the agentic framework with urban-knowledgeable LLMs for human\nmobility simulation.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Scaling-Up the Pretraining of the Earth Observation Foundation Model PhilEO to the MajorTOM Dataset",
+    "url": "http://arxiv.org/abs/2506.14765v1",
+    "authors": [
+      "Nikolaos Dionelis",
+      "Jente Bosmans",
+      "Riccardo Musto",
+      "Giancarlo Paoletti",
+      "Simone Sarti",
+      "Giacomo Cascarano",
+      "Casper Fibaek",
+      "Luke Camilleri",
+      "Bertrand Le Saux",
+      "Nicolas Long\u00e9p\u00e9"
+    ],
+    "published": "2025-06-17",
+    "abstract": "Today, Earth Observation (EO) satellites generate massive volumes of data,\nwith the Copernicus Sentinel-2 constellation alone producing approximately\n1.6TB per day. To fully exploit this information, it is essential to pretrain\nEO Foundation Models (FMs) on large unlabeled datasets, enabling efficient\nfine-tuning for several different downstream tasks with minimal labeled data.\nIn this work, we present the scaling-up of our recently proposed EO Foundation\nModel, PhilEO Geo-Aware U-Net, on the unlabeled 23TB dataset MajorTOM, which\ncovers the vast majority of the Earth's surface, as well as on the specialized\nsubset FastTOM 2TB that does not include oceans and ice. We develop and study\nvarious PhilEO model variants with different numbers of parameters and\narchitectures. Finally, we fine-tune the models on the PhilEO Bench for road\ndensity estimation, building density pixel-wise regression, and land cover\nsemantic segmentation, and we evaluate the performance. Our results demonstrate\nthat for all n-shots for road density regression, the PhilEO 44M MajorTOM 23TB\nmodel outperforms PhilEO Globe 0.5TB 44M. We also show that for most n-shots\nfor road density estimation and building density regression, PhilEO 200M\nFastTOM outperforms all the other models. The effectiveness of both dataset and\nmodel scaling is validated using the PhilEO Bench. We also study the impact of\narchitecture scaling, transitioning from U-Net Convolutional Neural Networks\n(CNN) to Vision Transformers (ViT).",
+    "categories": [
+      "foundation_model",
+      "ocean"
+    ],
+    "architectures": [
+      "CNN",
+      "UNET",
+      "Transformer"
+    ],
+    "applications": [
+      "Segmentation",
+      "Regression"
+    ]
+  },
+  {
+    "title": "Mapping Farmed Landscapes from Remote Sensing",
+    "url": "http://arxiv.org/abs/2506.13993v1",
+    "authors": [
+      "Michelangelo Conserva",
+      "Alex Wilson",
+      "Charlotte Stanton",
+      "Vishal Batchu",
+      "Varun Gulshan"
+    ],
+    "published": "2025-06-16",
+    "abstract": "Effective management of agricultural landscapes is critical for meeting\nglobal biodiversity targets, but efforts are hampered by the absence of\ndetailed, large-scale ecological maps. To address this, we introduce\nFarmscapes, the first large-scale (covering most of England), high-resolution\n(25cm) map of rural landscape features, including ecologically vital elements\nlike hedgerows, woodlands, and stone walls. This map was generated using a deep\nlearning segmentation model trained on a novel, dataset of 942 manually\nannotated tiles derived from aerial imagery. Our model accurately identifies\nkey habitats, achieving high f1-scores for woodland (96\\%) and farmed land\n(95\\%), and demonstrates strong capability in segmenting linear features, with\nan F1-score of 72\\% for hedgerows. By releasing the England-wide map on Google\nEarth Engine, we provide a powerful, open-access tool for ecologists and\npolicymakers. This work enables data-driven planning for habitat restoration,\nsupports the monitoring of initiatives like the EU Biodiversity Strategy, and\nlays the foundation for advanced analysis of landscape connectivity.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "UAV Object Detection and Positioning in a Mining Industrial Metaverse with Custom Geo-Referenced Data",
+    "url": "http://arxiv.org/abs/2506.13505v1",
+    "authors": [
+      "Vasiliki Balaska",
+      "Ioannis Tsampikos Papapetros",
+      "Katerina Maria Oikonomou",
+      "Loukas Bampis",
+      "Antonios Gasteratos"
+    ],
+    "published": "2025-06-16",
+    "abstract": "The mining sector increasingly adopts digital tools to improve operational\nefficiency, safety, and data-driven decision-making. One of the key challenges\nremains the reliable acquisition of high-resolution, geo-referenced spatial\ninformation to support core activities such as extraction planning and on-site\nmonitoring. This work presents an integrated system architecture that combines\nUAV-based sensing, LiDAR terrain modeling, and deep learning-based object\ndetection to generate spatially accurate information for open-pit mining\nenvironments. The proposed pipeline includes geo-referencing, 3D\nreconstruction, and object localization, enabling structured spatial outputs to\nbe integrated into an industrial digital twin platform. Unlike traditional\nstatic surveying methods, the system offers higher coverage and automation\npotential, with modular components suitable for deployment in real-world\nindustrial contexts. While the current implementation operates in post-flight\nbatch mode, it lays the foundation for real-time extensions. The system\ncontributes to the development of AI-enhanced remote sensing in mining by\ndemonstrating a scalable and field-validated geospatial data workflow that\nsupports situational awareness and infrastructure safety.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Demonstrating Superresolution in Radar Range Estimation Using a Denoising Autoencoder",
+    "url": "http://arxiv.org/abs/2506.14906v1",
+    "authors": [
+      "Robert Czupryniak",
+      "Abhishek Chakraborty",
+      "Andrew N. Jordan",
+      "John C. Howell"
+    ],
+    "published": "2025-06-17",
+    "abstract": "We apply machine learning methods to demonstrate range superresolution in\nremote sensing radar detection. Specifically, we implement a denoising\nautoencoder to estimate the distance between two equal intensity scatterers in\nthe subwavelength regime. The machine learning models are trained on waveforms\nsubject to a bandlimit constraint such that ranges much smaller than the\ninverse bandlimit are optimized in their precision. The autoencoder achieves\neffective dimensionality reduction, with the bottleneck layer exhibiting a\nstrong and consistent correlation with the true scatterer separation. We\nconfirm reproducibility across different training sessions and network\ninitializations by analyzing the scaled encoder outputs and their robustness to\nnoise. We investigate the behavior of the bottleneck layer for the following\ntypes of pulses: a traditional sinc pulse, a bandlimited triangle-type pulse,\nand a theoretically near-optimal pulse created from a spherical Bessel function\nbasis. The Bessel signal performs best, followed by the triangle wave, with the\nsinc signal performing worst, highlighting the crucial role of signal design in\nthe success of machine-learning-based range resolution.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Autoencoder"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Projecting U.S. coastal storm surge risks and impacts with deep learning",
+    "url": "http://arxiv.org/abs/2506.13963v1",
+    "authors": [
+      "Julian R. Rice",
+      "Karthik Balaguru",
+      "Fadia Ticona Rollano",
+      "John Wilson",
+      "Brent Daniel",
+      "David Judi",
+      "Ning Sun",
+      "L. Ruby Leung"
+    ],
+    "published": "2025-06-16",
+    "abstract": "Storm surge is one of the deadliest hazards posed by tropical cyclones (TCs),\nyet assessing its current and future risk is difficult due to the phenomenon's\nrarity and physical complexity. Recent advances in artificial intelligence\napplications to natural hazard modeling suggest a new avenue for addressing\nthis problem. We utilize a deep learning storm surge model to efficiently\nestimate coastal surge risk in the United States from 900,000 synthetic TC\nevents, accounting for projected changes in TC behavior and sea levels. The\nderived historical 100-year surge (the event with a 1% yearly exceedance\nprobability) agrees well with historical observations and other modeling\ntechniques. When coupled with an inundation model, we find that heightened TC\nintensities and sea levels by the end of the century result in a 50% increase\nin population at risk. Key findings include markedly heightened risk in\nFlorida, and critical thresholds identified in Georgia and South Carolina.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Towards NoahMP-AI: Enhancing Land Surface Model Prediction with Deep Learning",
+    "url": "http://arxiv.org/abs/2506.12919v1",
+    "authors": [
+      "Mahmoud Mbarak",
+      "Manmeet Singh",
+      "Naveen Sudharsan",
+      "Zong-Liang Yang"
+    ],
+    "published": "2025-06-15",
+    "abstract": "Accurate soil moisture prediction during extreme events remains a critical\nchallenge for Earth system modeling, with profound implications for drought\nmonitoring, flood forecasting, and climate adaptation strategies. While land\nsurface models (LSMs) provide physically-based predictions, they exhibit\nsystematic biases during extreme conditions when their parameterizations\noperate outside calibrated ranges. Here we present NoahMP-AI, a physics-guided\ndeep learning framework that addresses this challenge by leveraging the\ncomplete Noah-MP land surface model as a comprehensive physics-based feature\ngenerator while using machine learning to correct systematic biases against\nsatellite observations. We employ a 3D U-Net architecture that processes\nNoah-MP outputs (soil moisture, latent heat flux, and sensible heat flux) to\npredict SMAP-validated soil moisture across two contrasting extreme events: a\nprolonged drought (March-September 2022) and Hurricane Beryl (July 2024) over\nTexas. Our results demonstrate substantial improvements over standalone Noah-MP\npredictions, with R-squared values improving from -0.57 to 0.46 during drought\nconditions, while maintaining physical consistency and spatial coherence. The\nframework's ability to preserve Noah-MP's physical relationships while learning\nobservation-based corrections represents a significant advance in hybrid Earth\nsystem modeling. This work establishes both a practical tool for operational\nforecasting and a benchmark for investigating the optimal integration of\nphysics-based understanding with data-driven learning in environmental\nprediction systems.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "AI-Informed Model Analogs for Subseasonal-to-Seasonal Prediction",
+    "url": "http://arxiv.org/abs/2506.14022v1",
+    "authors": [
+      "Jacob B. Landsberg",
+      "Elizabeth A. Barnes",
+      "Matthew Newman"
+    ],
+    "published": "2025-06-16",
+    "abstract": "Subseasonal-to-seasonal forecasting is crucial for public health, disaster\npreparedness, and agriculture, and yet it remains a particularly challenging\ntimescale to predict. We explore the use of an interpretable AI-informed model\nanalog forecasting approach, previously employed on longer timescales, to\nimprove S2S predictions. Using an artificial neural network, we learn a mask of\nweights to optimize analog selection and showcase its versatility across three\nvaried prediction tasks: 1) classification of Week 3-4 Southern California\nsummer temperatures; 2) regional regression of Month 1 midwestern U.S. summer\ntemperatures; and 3) classification of Month 1-2 North Atlantic wintertime\nupper atmospheric winds. The AI-informed analogs outperform traditional analog\nforecasting approaches, as well as climatology and persistence baselines, for\ndeterministic and probabilistic skill metrics on both climate model and\nreanalysis data. We find the analog ensembles built using the AI-informed\napproach also produce better predictions of temperature extremes and improve\nrepresentation of forecast uncertainty. Finally, by using an interpretable-AI\nframework, we analyze the learned masks of weights to better understand S2S\nsources of predictability.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification",
+      "Regression",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Digging deeper: deep joint species distribution modeling reveals environmental drivers of Earthworm Communities",
+    "url": "http://arxiv.org/abs/2506.13568v1",
+    "authors": [
+      "Sara Si-moussi",
+      "Wilfried Thuiller",
+      "Esther Galbrun",
+      "Thibaud Deca\u00ebns",
+      "Sylvain G\u00e9rard",
+      "Daniel F. March\u00e1n",
+      "Claire Marsden",
+      "Yvan Capowiez",
+      "Micka\u00ebl Hedde"
+    ],
+    "published": "2025-06-16",
+    "abstract": "Earthworms are key drivers of soil function, influencing organic matter\nturnover, nutrient cycling, and soil structure. Understanding the environmental\ncontrols on their distribution is essential for predicting the impacts of land\nuse and climate change on soil ecosystems. While local studies have identified\nabiotic drivers of earthworm communities, broad-scale spatial patterns remain\nunderexplored.\n  We developed a multi-species, multi-task deep learning model to jointly\npredict the distribution of 77 earthworm species across metropolitan France,\nusing historical (1960-1970) and contemporary (1990-2020) records. The model\nintegrates climate, soil, and land cover variables to estimate habitat\nsuitability. We applied SHapley Additive exPlanations (SHAP) to identify key\nenvironmental drivers and used species clustering to reveal ecological response\ngroups.\n  The joint model achieved high predictive performance (TSS >= 0.7) and\nimproved predictions for rare species compared to traditional species\ndistribution models. Shared feature extraction across species allowed for more\nrobust identification of common and contrasting environmental responses.\nPrecipitation variability, temperature seasonality, and land cover emerged as\ndominant predictors of earthworm distribution. Species clustering revealed\ndistinct ecological strategies tied to climatic and land use gradients.\n  Our study advances both the methodological and ecological understanding of\nsoil biodiversity. We demonstrate the utility of interpretable deep learning\napproaches for large-scale soil fauna modeling and provide new insights into\nearthworm habitat specialization. These findings support improved soil\nbiodiversity monitoring and conservation planning in the face of global\nenvironmental change.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
   }
 ]
