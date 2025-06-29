@@ -10599,5 +10599,289 @@
     "applications": [
       "Forecast"
     ]
+  },
+  {
+    "title": "TESSERA: Temporal Embeddings of Surface Spectra for Earth Representation and Analysis",
+    "url": "http://arxiv.org/abs/2506.20380v1",
+    "authors": [
+      "Zhengpeng Feng",
+      "Sadiq Jaffer",
+      "Jovana Knezevic",
+      "Silja Sormunen",
+      "Robin Young",
+      "Madeline Lisaius",
+      "Markus Immitzer",
+      "James Ball",
+      "Clement Atzberger",
+      "David A. Coomes",
+      "Anil Madhavapeddy",
+      "Andrew Blake",
+      "Srinivasan Keshav"
+    ],
+    "published": "2025-06-25",
+    "abstract": "Satellite remote sensing (RS) enables a wide array of downstream Earth\nobservation (EO) applications, including climate modeling, carbon accounting,\nand strategies for conservation and sustainable land use. We present TESSERA, a\nnovel Remote Sensing Foundation Model (RSFM) that uses Self-Supervised Learning\n(SSL) to generate global, robust representations at 10m scale from pixel-level\nsatellite time series data. TESSERA combines information from only optical and\nSAR data streams using two parallel Transformer-based encoders: one dedicated\nto Sentinel-1 SAR polarizations and another to Sentinel-2 MSI data (10 selected\nspectral bands) to create representations that are then fused using a\nmultilayer perceptron (MLP), resulting in a global representation map covering\nthe years 2017 to 2024. Our precomputed representations set a new\nstate-of-the-art performance benchmark and our open-source approach\ndemocratizes access to high-performance, high-resolution representations. We\nbenchmark the performance of TESSERA in five diverse tasks, comparing our work\nwith state-of-the-art task-specific models and other foundation models. Our\nresults show that TESSERA outperforms both traditional RS baselines and the\nleading geospatial foundation models in these diverse downstream tasks.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Towards Scalable and Generalizable Earth Observation Data Mining via Foundation Model Composition",
+    "url": "http://arxiv.org/abs/2506.20174v2",
+    "authors": [
+      "Man Duc Chuc"
+    ],
+    "published": "2025-06-25",
+    "abstract": "Foundation models are rapidly transforming Earth Observation data mining by\nenabling generalizable and scalable solutions for key tasks such as scene\nclassification and semantic segmentation. While most efforts in the geospatial\ndomain have focused on developing large models trained from scratch using\nmassive Earth Observation datasets, an alternative strategy that remains\nunderexplored is the reuse and combination of existing pretrained models. In\nthis study, we investigate whether foundation models pretrained on remote\nsensing and general vision datasets can be effectively combined to improve\nperformance across a diverse set of key Earth Observation tasks. Using the\nGEO-Bench benchmark, we evaluate several prominent models, including Prithvi,\nHiera, and DOFA, on eleven datasets covering a range of spatial resolutions,\nsensor modalities, and task types. The results show that feature-level\nensembling of smaller pretrained models can match or exceed the performance of\nmuch larger models, while requiring less training time and computational\nresources. Moreover, the study highlights the potential of applying knowledge\ndistillation to transfer the strengths of ensembles into more compact models,\noffering a practical path for deploying foundation models in real-world Earth\nObservation applications.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Classification"
+    ]
+  },
+  {
+    "title": "SMARTIES: Spectrum-Aware Multi-Sensor Auto-Encoder for Remote Sensing Images",
+    "url": "http://arxiv.org/abs/2506.19585v1",
+    "authors": [
+      "Gencer Sumbul",
+      "Chang Xu",
+      "Emanuele Dalsasso",
+      "Devis Tuia"
+    ],
+    "published": "2025-06-24",
+    "abstract": "From optical sensors to microwave radars, leveraging the complementary\nstrengths of remote sensing (RS) sensors is crucial for achieving dense\nspatio-temporal monitoring of our planet. In contrast, recent deep learning\nmodels, whether task-specific or foundational, are often specific to single\nsensors or to fixed combinations: adapting such models to different sensory\ninputs requires both architectural changes and re-training, limiting\nscalability and generalization across multiple RS sensors. On the contrary, a\nsingle model able to modulate its feature representations to accept diverse\nsensors as input would pave the way to agile and flexible multi-sensor RS data\nprocessing. To address this, we introduce SMARTIES, a generic and versatile\nfoundation model lifting sensor-specific/dependent efforts and enabling\nscalability and generalization to diverse RS sensors: SMARTIES projects data\nfrom heterogeneous sensors into a shared spectrum-aware space, enabling the use\nof arbitrary combinations of bands both for training and inference. To obtain\nsensor-agnostic representations, we train a single, unified transformer model\nreconstructing masked multi-sensor data with cross-sensor token mixup. On both\nsingle- and multi-modal tasks across diverse sensors, SMARTIES outperforms\nprevious models that rely on sensor-specific pretraining. Our code and\npretrained models are available at https://gsumbul.github.io/SMARTIES.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Pushing Trade-Off Boundaries: Compact yet Effective Remote Sensing Change Detection",
+    "url": "http://arxiv.org/abs/2506.21109v1",
+    "authors": [
+      "Luosheng Xu",
+      "Dalin Zhang",
+      "Zhaohui Song"
+    ],
+    "published": "2025-06-26",
+    "abstract": "Remote sensing change detection is essential for monitoring urban expansion,\ndisaster assessment, and resource management, offering timely, accurate, and\nlarge-scale insights into dynamic landscape transformations. While deep\nlearning has revolutionized change detection, the increasing complexity and\ncomputational demands of modern models have not necessarily translated into\nsignificant accuracy gains. Instead of following this trend, this study\nexplores a more efficient approach, focusing on lightweight models that\nmaintain high accuracy while minimizing resource consumption, which is an\nessential requirement for on-satellite processing. To this end, we propose\nFlickCD, which means quick flick then get great results, pushing the boundaries\nof the performance-resource trade-off. FlickCD introduces an Enhanced\nDifference Module (EDM) to amplify critical feature differences between\ntemporal phases while suppressing irrelevant variations such as lighting and\nweather changes, thereby reducing computational costs in the subsequent change\ndecoder. Additionally, the FlickCD decoder incorporates Local-Global Fusion\nBlocks, leveraging Shifted Window Self-Attention (SWSA) and Enhanced Global\nSelf-Attention (EGSA) to efficiently capture semantic information at multiple\nscales, preserving both coarse- and fine-grained changes. Extensive experiments\non four benchmark datasets demonstrate that FlickCD reduces computational and\nstorage overheads by more than an order of magnitude while achieving\nstate-of-the-art (SOTA) performance or incurring only a minor (<1\\% F1)\naccuracy trade-off. The implementation code is publicly available at\nhttps://github.com/xulsh8/FlickCD.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Photon Absorption Remote Sensing (PARS): Comprehensive Absorption Imaging Enabling Label-Free Biomolecule Characterization and Mapping",
+    "url": "http://arxiv.org/abs/2506.20069v1",
+    "authors": [
+      "Benjamin R. Ecclestone",
+      "James A. Tummon Simmons",
+      "James E. D. Tweel",
+      "Deepak Dinakaran",
+      "Parsin Haji Reza"
+    ],
+    "published": "2025-06-25",
+    "abstract": "Label-free optical absorption microscopy techniques continue to evolve as\npromising tools for label-free histopathological imaging of cells and tissues.\nHowever, critical challenges relating to specificity and contrast, as compared\nto current gold-standard methods continue to hamper adoption. This work\nintroduces Photon Absorption Remote Sensing (PARS), a new absorption microscope\nmodality, which simultaneously captures the dominant de-excitation processes\nfollowing an absorption event. In PARS, radiative (auto-fluorescence) and\nnon-radiative (photothermal and photoacoustic) relaxation processes are\ncollected simultaneously, providing enhanced specificity to a range of\nbiomolecules. As an example, a multiwavelength PARS system featuring UV (266\nnm) and visible (532 nm) excitation is applied to imaging human skin, and\nmurine brain tissue samples. It is shown that PARS can directly characterize,\ndifferentiate, and unmix, clinically relevant biomolecules inside complex\ntissues samples using established statistical processing methods. Gaussian\nmixture models (GMM) are used to characterize clinically relevant biomolecules\n(e.g., white, and gray matter) based on their PARS signals, while non-negative\nleast squares (NNLS) is applied to map the biomolecule abundance in murine\nbrain tissues, without stained ground truth images or deep-learning methods.\nPARS unmixing and abundance estimates are directly validated and compared\nagainst chemically stained ground truth images, and deep learning based-image\ntransforms. Overall, it is found that the PARS unique and rich contrast may\nprovide comprehensive, and otherwise inaccessible, label-free characterization\nof molecular pathology, representing a new source of data to develop AI and\nmachine learning methods for diagnostics and visualization.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Video Compression for Spatiotemporal Earth System Data",
+    "url": "http://arxiv.org/abs/2506.19656v1",
+    "authors": [
+      "Oscar J. Pellicer-Valero",
+      "Cesar Aybar",
+      "Gustau Camps Valls"
+    ],
+    "published": "2025-06-24",
+    "abstract": "Large-scale Earth system datasets, from high-resolution remote sensing\nimagery to spatiotemporal climate model outputs, exhibit characteristics\nanalogous to those of standard videos. Their inherent spatial, temporal, and\nspectral redundancies can thus be readily exploited by established video\ncompression techniques. Here, we present xarrayvideo, a Python library for\ncompressing multichannel spatiotemporal datasets by encoding them as videos.\nOur approach achieves compression ratios of up to 250x while maintaining high\nfidelity by leveraging standard, well-optimized video codecs through ffmpeg. We\ndemonstrate the library's effectiveness on four real-world multichannel\nspatiotemporal datasets: DynamicEarthNet (very high resolution Planet images),\nDeepExtremeCubes (high resolution Sentinel-2 images), ERA5 (weather reanalysis\ndata), and the SimpleS2 dataset (high resolution multichannel Sentinel-2\nimages), achieving Peak Signal-to-Noise Ratios (PSNRs) of 55.86, 40.60, 46.58,\nand 43.23 dB at 0.1 bits per pixel per band (bpppb) and 65.91, 54.28, 62.90,\nand 55.04 dB at 1 bpppb. We are redistributing two of these datasets,\nDeepExtremeCubes (2.3 Tb) and DynamicEarthNet (525 Gb), in the\nmachine-learning-ready and cloud-ready TACO format through HuggingFace at\nsignificantly reduced sizes (270 Gb and 8.5 Gb, respectively) without\ncompromising quality (PSNR 55.77-56.65 and 60.15). No performance loss is\nobserved when the compressed versions of these datasets are used in their\nrespective deep learning-based downstream tasks (next step reflectance\nprediction and landcover segmentation). In conclusion, xarrayvideo presents an\nefficient solution for handling the rapidly growing size of Earth observation\ndatasets, making advanced compression techniques accessible and practical to\nthe Earth science community. The library is available for use at\nhttps://github.com/IPL-UV/xarrayvideo",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "MambaOutRS: A Hybrid CNN-Fourier Architecture for Remote Sensing Image Classification",
+    "url": "http://arxiv.org/abs/2506.19561v1",
+    "authors": [
+      "Minjong Cheon",
+      "Changbae Mun"
+    ],
+    "published": "2025-06-24",
+    "abstract": "Recent advances in deep learning for vision tasks have seen the rise of State\nSpace Models (SSMs) like Mamba, celebrated for their linear scalability.\nHowever, their adaptation to 2D visual data often necessitates complex\nmodifications that may diminish efficiency. In this paper, we introduce\nMambaOutRS, a novel hybrid convolutional architecture for remote sensing image\nclassification that re-evaluates the necessity of recurrent SSMs. MambaOutRS\nbuilds upon stacked Gated CNN blocks for local feature extraction and\nintroduces a novel Fourier Filter Gate (FFG) module that operates in the\nfrequency domain to capture global contextual information efficiently. Our\narchitecture employs a four-stage hierarchical design and was extensively\nevaluated on challenging remote sensing datasets: UC Merced, AID,\nNWPU-RESISC45, and EuroSAT. MambaOutRS consistently achieved state-of-the-art\n(SOTA) performance across these benchmarks. Notably, our MambaOutRS-t variant\n(24.0M parameters) attained the highest F1-scores of 98.41\\% on UC Merced and\n95.99\\% on AID, significantly outperforming existing baselines, including\nlarger transformer models and Mamba-based architectures, despite using\nconsiderably fewer parameters. An ablation study conclusively demonstrates the\ncritical role of the Fourier Filter Gate in enhancing the model's ability to\ncapture global spatial patterns, leading to robust and accurate classification.\nThese results strongly suggest that the complexities of recurrent SSMs can be\neffectively superseded by a judicious combination of gated convolutions for\nspatial mixing and frequency-based gates for spectral global context. Thus,\nMambaOutRS provides a compelling and efficient paradigm for developing\nhigh-performance deep learning models in remote sensing and other vision\ndomains, particularly where computational efficiency is paramount.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Vision Transformer-Based Time-Series Image Reconstruction for Cloud-Filling Applications",
+    "url": "http://arxiv.org/abs/2506.19591v1",
+    "authors": [
+      "Lujun Li",
+      "Yiqun Wang",
+      "Radu State"
+    ],
+    "published": "2025-06-24",
+    "abstract": "Cloud cover in multispectral imagery (MSI) poses significant challenges for\nearly season crop mapping, as it leads to missing or corrupted spectral\ninformation. Synthetic aperture radar (SAR) data, which is not affected by\ncloud interference, offers a complementary solution, but lack sufficient\nspectral detail for precise crop mapping. To address this, we propose a novel\nframework, Time-series MSI Image Reconstruction using Vision Transformer (ViT),\nto reconstruct MSI data in cloud-covered regions by leveraging the temporal\ncoherence of MSI and the complementary information from SAR from the attention\nmechanism. Comprehensive experiments, using rigorous reconstruction evaluation\nmetrics, demonstrate that Time-series ViT framework significantly outperforms\nbaselines that use non-time-series MSI and SAR or time-series MSI without SAR,\neffectively enhancing MSI image reconstruction in cloud-covered regions.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Resampling Augmentation for Time Series Contrastive Learning: Application to Remote Sensing",
+    "url": "http://arxiv.org/abs/2506.18587v1",
+    "authors": [
+      "Antoine Saget",
+      "Baptiste Lafabregue",
+      "Antoine Cornu\u00e9jols",
+      "Pierre Gan\u00e7arski"
+    ],
+    "published": "2025-06-23",
+    "abstract": "Given the abundance of unlabeled Satellite Image Time Series (SITS) and the\nscarcity of labeled data, contrastive self-supervised pretraining emerges as a\nnatural tool to leverage this vast quantity of unlabeled data. However,\ndesigning effective data augmentations for contrastive learning remains\nchallenging for time series. We introduce a novel resampling-based augmentation\nstrategy that generates positive pairs by upsampling time series and extracting\ndisjoint subsequences while preserving temporal coverage. We validate our\napproach on multiple agricultural classification benchmarks using Sentinel-2\nimagery, showing that it outperforms common alternatives such as jittering,\nresizing, and masking. Further, we achieve state-of-the-art performance on the\nS2-Agri100 dataset without employing spatial information or temporal encodings,\nsurpassing more complex masked-based SSL frameworks. Our method offers a\nsimple, yet effective, contrastive learning augmentation for remote sensing\ntime series.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Extreme Learning Machines for Exoplanet Simulations: A Faster, Lightweight Alternative to Deep Learning",
+    "url": "http://arxiv.org/abs/2506.19679v1",
+    "authors": [
+      "Tara P. A. Tahseen",
+      "Lu\u00eds F. Sim\u00f5es",
+      "Kai Hou Yip",
+      "Nikolaos Nikolaou",
+      "Jo\u00e3o M. Mendon\u00e7a",
+      "Ingo P. Waldmann"
+    ],
+    "published": "2025-06-24",
+    "abstract": "Increasing resolution and coverage of astrophysical and climate data\nnecessitates increasingly sophisticated models, often pushing the limits of\ncomputational feasibility. While emulation methods can reduce calculation\ncosts, the neural architectures typically used--optimised via gradient\ndescent--are themselves computationally expensive to train, particularly in\nterms of data generation requirements. This paper investigates the utility of\nthe Extreme Learning Machine (ELM) as a lightweight, non-gradient-based machine\nlearning algorithm for accelerating complex physical models.\n  We evaluate ELM surrogate models in two test cases with different data\nstructures: (i) sequentially-structured data, and (ii) image-structured data.\nFor test case (i), where the number of samples $N$ >> the dimensionality of\ninput data $d$, ELMs achieve remarkable efficiency, offering a 100,000$\\times$\nfaster training time and a 40$\\times$ faster prediction speed compared to a\nBi-Directional Recurrent Neural Network (BIRNN), whilst improving upon BIRNN\ntest performance. For test case (ii), characterised by $d >> N$ and image-based\ninputs, a single ELM was insufficient, but an ensemble of 50 individual ELM\npredictors achieves comparable accuracy to a benchmark Convolutional Neural\nNetwork (CNN), with a 16.4$\\times$ reduction in training time, though costing a\n6.9$\\times$ increase in prediction time. We find different sample efficiency\ncharacteristics between the test cases: in test case (i) individual ELMs\ndemonstrate superior sample efficiency, requiring only 0.28% of the training\ndataset compared to the benchmark BIRNN, while in test case (ii) the ensemble\napproach requires 78% of the data used by the CNN to achieve comparable\nresults--representing a trade-off between sample efficiency and model\ncomplexity.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "A deep-learning model for predicting daily PM2.5 concentration in response to emission reduction",
+    "url": "http://arxiv.org/abs/2506.18018v1",
+    "authors": [
+      "Shigan Liu",
+      "Guannan Geng",
+      "Yanfei Xiang",
+      "Hejun Hu",
+      "Xiaodong Liu",
+      "Xiaomeng Huang",
+      "Qiang Zhang"
+    ],
+    "published": "2025-06-22",
+    "abstract": "Air pollution remains a leading global health threat, with fine particulate\nmatter (PM2.5) contributing to millions of premature deaths annually. Chemical\ntransport models (CTMs) are essential tools for evaluating how emission\ncontrols improve air quality and save lives, but they are computationally\nintensive. Reduced form models accelerate simulations but sacrifice\nspatial-temporal granularity, accuracy, and flexibility. Here we present\nCleanAir, a deep-learning-based model developed as an efficient alternative to\nCTMs in simulating daily PM2.5 and its chemical compositions in response to\nprecursor emission reductions at 36 km resolution, which could predict PM2.5\nconcentration for a full year within 10 seconds on a single GPU, a speed five\norders of magnitude faster. Built on a Residual Symmetric 3D U-Net architecture\nand trained on more than 2,400 emission reduction scenarios generated by a\nwell-validated Community Multiscale Air Quality (CMAQ) model, CleanAir\ngeneralizes well across unseen meteorological years and emission patterns. It\nproduces results comparable to CMAQ in both absolute concentrations and\nemission-induced changes, enabling efficient, full-coverage simulations across\nshort-term interventions and long-term planning horizons. This advance empowers\nresearchers and policymakers to rapidly evaluate a wide range of air quality\nstrategies and assess the associated health impacts, thereby supporting more\nresponsive and informed environmental decision-making.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Causal Operator Discovery in Partial Differential Equations via Counterfactual Physics-Informed Neural Networks",
+    "url": "http://arxiv.org/abs/2506.20181v1",
+    "authors": [
+      "Ronald Katende"
+    ],
+    "published": "2025-06-25",
+    "abstract": "We develop a principled framework for discovering causal structure in partial\ndifferential equations (PDEs) using physics-informed neural networks and\ncounterfactual perturbations. Unlike classical residual minimization or sparse\nregression methods, our approach quantifies operator-level necessity through\nfunctional interventions on the governing dynamics. We introduce causal\nsensitivity indices and structural deviation metrics to assess the influence of\ncandidate differential operators within neural surrogates. Theoretically, we\nprove exact recovery of the causal operator support under restricted isometry\nor mutual coherence conditions, with residual bounds guaranteeing\nidentifiability. Empirically, we validate the framework on both synthetic and\nreal-world datasets across climate dynamics, tumor diffusion, and ocean flows.\nOur method consistently recovers governing operators even under noise,\nredundancy, and data scarcity, outperforming standard PINNs and DeepONets in\nstructural fidelity. This work positions causal PDE discovery as a tractable\nand interpretable inference task grounded in structural causal models and\nvariational residual analysis.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "PINN"
+    ],
+    "applications": [
+      "Regression"
+    ]
+  },
+  {
+    "title": "Elucidated Rolling Diffusion Models for Probabilistic Weather Forecasting",
+    "url": "http://arxiv.org/abs/2506.20024v1",
+    "authors": [
+      "Salva R\u00fchling Cachay",
+      "Miika Aittala",
+      "Karsten Kreis",
+      "Noah Brenowitz",
+      "Arash Vahdat",
+      "Morteza Mardani",
+      "Rose Yu"
+    ],
+    "published": "2025-06-24",
+    "abstract": "Diffusion models are a powerful tool for probabilistic forecasting, yet most\napplications in high-dimensional chaotic systems predict future snapshots\none-by-one. This common approach struggles to model complex temporal\ndependencies and fails to explicitly account for the progressive growth of\nuncertainty inherent to such systems. While rolling diffusion frameworks, which\napply increasing noise to forecasts at longer lead times, have been proposed to\naddress this, their integration with state-of-the-art, high-fidelity diffusion\ntechniques remains a significant challenge. We tackle this problem by\nintroducing Elucidated Rolling Diffusion Models (ERDM), the first framework to\nsuccessfully unify a rolling forecast structure with the principled, performant\ndesign of Elucidated Diffusion Models (EDM). To do this, we adapt the core EDM\ncomponents-its noise schedule, network preconditioning, and Heun sampler-to the\nrolling forecast setting. The success of this integration is driven by three\nkey contributions: (i) a novel loss weighting scheme that focuses model\ncapacity on the mid-range forecast horizons where determinism gives way to\nstochasticity; (ii) an efficient initialization strategy using a pre-trained\nEDM for the initial window; and (iii) a bespoke hybrid sequence architecture\nfor robust spatiotemporal feature extraction under progressive denoising. On 2D\nNavier-Stokes simulations and ERA5 global weather forecasting at 1.5^\\circ\nresolution, ERDM consistently outperforms key diffusion-based baselines,\nincluding conditional autoregressive EDM. ERDM offers a flexible and powerful\ngeneral framework for tackling diffusion-based sequence generation problems\nwhere modeling escalating uncertainty is paramount. Code is available at:\nhttps://github.com/salvaRC/erdm",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Diffusion Models"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Bayesian Multiobject Tracking With Neural-Enhanced Motion and Measurement Models",
+    "url": "http://arxiv.org/abs/2506.18124v1",
+    "authors": [
+      "Shaoxiu Wei",
+      "Mingchao Liang",
+      "Florian Meyer"
+    ],
+    "published": "2025-06-22",
+    "abstract": "Multiobject tracking (MOT) is an important task in applications including\nautonomous driving, ocean sciences, and aerospace surveillance. Traditional MOT\nmethods are model-based and combine sequential Bayesian estimation with data\nassociation and an object birth model. More recent methods are fully\ndata-driven and rely on the training of neural networks. Both approaches offer\ndistinct advantages in specific settings. In particular, model-based methods\nare generally applicable across a wide range of scenarios, whereas data-driven\nMOT achieves superior performance in scenarios where abundant labeled data for\ntraining is available. A natural thought is whether a general framework can\nintegrate the two approaches. This paper introduces a hybrid method that\nutilizes neural networks to enhance specific aspects of the statistical model\nin Bayesian MOT that have been identified as overly simplistic. By doing so,\nthe performance of the prediction and update steps of Bayesian MOT is improved.\nTo ensure tractable computation, our framework uses belief propagation to avoid\nhigh-dimensional operations combined with sequential Monte Carlo methods to\nperform low-dimensional operations efficiently. The resulting method combines\nthe flexibility and robustness of model-based approaches with the capability to\nlearn complex information from data of neural networks. We evaluate the\nperformance of the proposed method based on the nuScenes autonomous driving\ndataset and demonstrate that it has state-of-the-art performance",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast",
+      "Tracking"
+    ]
   }
 ]
