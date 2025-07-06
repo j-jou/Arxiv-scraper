@@ -10883,5 +10883,257 @@
       "Forecast",
       "Tracking"
     ]
+  },
+  {
+    "title": "CGEarthEye:A High-Resolution Remote Sensing Vision Foundation Model Based on the Jilin-1 Satellite Constellation",
+    "url": "http://arxiv.org/abs/2507.00356v1",
+    "authors": [
+      "Zhiwei Yi",
+      "Xin Cheng",
+      "Jingyu Ma",
+      "Ruifei Zhu",
+      "Junwei Tian",
+      "Yuanxiu Zhou",
+      "Xinge Zhao",
+      "Hongzhe Li"
+    ],
+    "published": "2025-07-01",
+    "abstract": "Deep learning methods have significantly advanced the development of\nintelligent rinterpretation in remote sensing (RS), with foundational model\nresearch based on large-scale pre-training paradigms rapidly reshaping various\ndomains of Earth Observation (EO). However, compared to the open accessibility\nand high spatiotemporal coverage of medium-resolution data, the limited\nacquisition channels for ultra-high-resolution optical RS imagery have\nconstrained the progress of high-resolution remote sensing vision foundation\nmodels (RSVFM). As the world's largest sub-meter-level commercial RS satellite\nconstellation, the Jilin-1 constellation possesses abundant sub-meter-level\nimage resources. This study proposes CGEarthEye, a RSVFM framework specifically\ndesigned for Jilin-1 satellite characteristics, comprising five backbones with\ndifferent parameter scales with totaling 2.1 billion parameters. To enhance the\nrepresentational capacity of the foundation model, we developed JLSSD, the\nfirst 15-million-scale multi-temporal self-supervised learning (SSL) dataset\nfeaturing global coverage with quarterly temporal sampling within a single\nyear, constructed through multi-level representation clustering and sampling\nstrategies. The framework integrates seasonal contrast, augmentation-based\ncontrast, and masked patch token contrastive strategies for pre-training.\nComprehensive evaluations across 10 benchmark datasets covering four typical RS\ntasks demonstrate that the CGEarthEye consistently achieves state-of-the-art\n(SOTA) performance. Further analysis reveals CGEarthEye's superior\ncharacteristics in feature visualization, model convergence, parameter\nefficiency, and practical mapping applications. This study anticipates that the\nexceptional representation capabilities of CGEarthEye will facilitate broader\nand more efficient applications of Jilin-1 data in traditional EO application.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "SSL4SAR: Self-Supervised Learning for Glacier Calving Front Extraction from SAR Imagery",
+    "url": "http://arxiv.org/abs/2507.01747v1",
+    "authors": [
+      "Nora Gourmelon",
+      "Marcel Dreier",
+      "Martin Mayr",
+      "Thorsten Seehaus",
+      "Dakota Pyles",
+      "Matthias Braun",
+      "Andreas Maier",
+      "Vincent Christlein"
+    ],
+    "published": "2025-07-02",
+    "abstract": "Glaciers are losing ice mass at unprecedented rates, increasing the need for\naccurate, year-round monitoring to understand frontal ablation, particularly\nthe factors driving the calving process. Deep learning models can extract\ncalving front positions from Synthetic Aperture Radar imagery to track seasonal\nice losses at the calving fronts of marine- and lake-terminating glaciers. The\ncurrent state-of-the-art model relies on ImageNet-pretrained weights. However,\nthey are suboptimal due to the domain shift between the natural images in\nImageNet and the specialized characteristics of remote sensing imagery, in\nparticular for Synthetic Aperture Radar imagery. To address this challenge, we\npropose two novel self-supervised multimodal pretraining techniques that\nleverage SSL4SAR, a new unlabeled dataset comprising 9,563 Sentinel-1 and 14\nSentinel-2 images of Arctic glaciers, with one optical image per glacier in the\ndataset. Additionally, we introduce a novel hybrid model architecture that\ncombines a Swin Transformer encoder with a residual Convolutional Neural\nNetwork (CNN) decoder. When pretrained on SSL4SAR, this model achieves a mean\ndistance error of 293 m on the \"CAlving Fronts and where to Find thEm\" (CaFFe)\nbenchmark dataset, outperforming the prior best model by 67 m. Evaluating an\nensemble of the proposed model on a multi-annotator study of the benchmark\ndataset reveals a mean distance error of 75 m, approaching the human\nperformance of 38 m. This advancement enables precise monitoring of seasonal\nchanges in glacier calving fronts.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Integrating Traditional and Deep Learning Methods to Detect Tree Crowns in Satellite Images",
+    "url": "http://arxiv.org/abs/2507.01502v1",
+    "authors": [
+      "Ozan Durgut",
+      "Beril Kallfelz-Sirmacek",
+      "Cem Unsalan"
+    ],
+    "published": "2025-07-02",
+    "abstract": "Global warming, loss of biodiversity, and air pollution are among the most\nsignificant problems facing Earth. One of the primary challenges in addressing\nthese issues is the lack of monitoring forests to protect them. To tackle this\nproblem, it is important to leverage remote sensing and computer vision methods\nto automate monitoring applications. Hence, automatic tree crown detection\nalgorithms emerged based on traditional and deep learning methods. In this\nstudy, we first introduce two different tree crown detection methods based on\nthese approaches. Then, we form a novel rule-based approach that integrates\nthese two methods to enhance robustness and accuracy of tree crown detection\nresults. While traditional methods are employed for feature extraction and\nsegmentation of forested areas, deep learning methods are used to detect tree\ncrowns in our method. With the proposed rule-based approach, we post-process\nthese results, aiming to increase the number of detected tree crowns through\nneighboring trees and localized operations. We compare the obtained results\nwith the proposed method in terms of the number of detected tree crowns and\nreport the advantages, disadvantages, and areas for improvement of the obtained\noutcomes.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection"
+    ]
+  },
+  {
+    "title": "Landslide Detection and Mapping Using Deep Learning Across Multi-Source Satellite Data and Geographic Regions",
+    "url": "http://arxiv.org/abs/2507.01123v1",
+    "authors": [
+      "Rahul A. Burange",
+      "Harsh K. Shinde",
+      "Omkar Mutyalwar"
+    ],
+    "published": "2025-07-01",
+    "abstract": "Landslides pose severe threats to infrastructure, economies, and human lives,\nnecessitating accurate detection and predictive mapping across diverse\ngeographic regions. With advancements in deep learning and remote sensing,\nautomated landslide detection has become increasingly effective. This study\npresents a comprehensive approach integrating multi-source satellite imagery\nand deep learning models to enhance landslide identification and prediction. We\nleverage Sentinel-2 multispectral data and ALOS PALSAR-derived slope and\nDigital Elevation Model (DEM) layers to capture critical environmental features\ninfluencing landslide occurrences. Various geospatial analysis techniques are\nemployed to assess the impact of terra in characteristics, vegetation cover,\nand rainfall on detection accuracy. Additionally, we evaluate the performance\nof multiple stateof-the-art deep learning segmentation models, including U-Net,\nDeepLabV3+, and Res-Net, to determine their effectiveness in landslide\ndetection. The proposed framework contributes to the development of reliable\nearly warning systems, improved disaster risk management, and sustainable\nland-use planning. Our findings provide valuable insights into the potential of\ndeep learning and multi-source remote sensing in creating robust, scalable, and\ntransferable landslide prediction models.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": [
+      "Segmentation",
+      "Detection",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Utilizing a Novel Deep Learning Method for Scene Categorization in Remote Sensing Data",
+    "url": "http://arxiv.org/abs/2506.22939v1",
+    "authors": [
+      "Ghufran A. Omran",
+      "Wassan Saad Abduljabbar Hayale",
+      "Ahmad AbdulQadir AlRababah",
+      "Israa Ibraheem Al-Barazanchi",
+      "Ravi Sekhar",
+      "Pritesh Shah",
+      "Sushma Parihar",
+      "Harshavardhan Reddy Penubadi"
+    ],
+    "published": "2025-06-28",
+    "abstract": "Scene categorization (SC) in remotely acquired images is an important subject\nwith broad consequences in different fields, including catastrophe control,\necological observation, architecture for cities, and more. Nevertheless, its\nseveral apps, reaching a high degree of accuracy in SC from distant observation\ndata has demonstrated to be difficult. This is because traditional conventional\ndeep learning models require large databases with high variety and high levels\nof noise to capture important visual features. To address these problems, this\ninvestigation file introduces an innovative technique referred to as the\nCuttlefish Optimized Bidirectional Recurrent Neural Network (CO- BRNN) for type\nof scenes in remote sensing data. The investigation compares the execution of\nCO-BRNN with current techniques, including Multilayer Perceptron- Convolutional\nNeural Network (MLP-CNN), Convolutional Neural Network-Long Short Term Memory\n(CNN-LSTM), and Long Short Term Memory-Conditional Random Field (LSTM-CRF),\nGraph-Based (GB), Multilabel Image Retrieval Model (MIRM-CF), Convolutional\nNeural Networks Data Augmentation (CNN-DA). The results demonstrate that\nCO-BRNN attained the maximum accuracy of 97%, followed by LSTM-CRF with 90%,\nMLP-CNN with 85%, and CNN-LSTM with 80%. The study highlights the significance\nof physical confirmation to ensure the efficiency of satellite data.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "LSTM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "AI and Remote Sensing for Resilient and Sustainable Built Environments: A Review of Current Methods, Open Data and Future Directions",
+    "url": "http://arxiv.org/abs/2507.01547v1",
+    "authors": [
+      "Ubada El Joulani",
+      "Tatiana Kalganova",
+      "Stergios-Aristoteles Mitoulis",
+      "Sotirios Argyroudis"
+    ],
+    "published": "2025-07-02",
+    "abstract": "Critical infrastructure, such as transport networks, underpins economic\ngrowth by enabling mobility and trade. However, ageing assets, climate change\nimpacts (e.g., extreme weather, rising sea levels), and hybrid threats ranging\nfrom natural disasters to cyber attacks and conflicts pose growing risks to\ntheir resilience and functionality. This review paper explores how emerging\ndigital technologies, specifically Artificial Intelligence (AI), can enhance\ndamage assessment and monitoring of transport infrastructure. A systematic\nliterature review examines existing AI models and datasets for assessing damage\nin roads, bridges, and other critical infrastructure impacted by natural\ndisasters. Special focus is given to the unique challenges and opportunities\nassociated with bridge damage detection due to their structural complexity and\ncritical role in connectivity. The integration of SAR (Synthetic Aperture\nRadar) data with AI models is also discussed, with the review revealing a\ncritical research gap: a scarcity of studies applying AI models to SAR data for\ncomprehensive bridge damage assessment. Therefore, this review aims to identify\nthe research gaps and provide foundations for AI-driven solutions for assessing\nand monitoring critical transport infrastructures.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Advancements in Weed Mapping: A Systematic Review",
+    "url": "http://arxiv.org/abs/2507.01269v1",
+    "authors": [
+      "Mohammad Jahanbakht",
+      "Alex Olsen",
+      "Ross Marchant",
+      "Emilie Fillols",
+      "Mostafa Rahimi Azghadi"
+    ],
+    "published": "2025-07-02",
+    "abstract": "Weed mapping plays a critical role in precision management by providing\naccurate and timely data on weed distribution, enabling targeted control and\nreduced herbicide use. This minimizes environmental impacts, supports\nsustainable land management, and improves outcomes across agricultural and\nnatural environments. Recent advances in weed mapping leverage ground-vehicle\nRed Green Blue (RGB) cameras, satellite and drone-based remote sensing combined\nwith sensors such as spectral, Near Infra-Red (NIR), and thermal cameras. The\nresulting data are processed using advanced techniques including big data\nanalytics and machine learning, significantly improving the spatial and\ntemporal resolution of weed maps and enabling site-specific management\ndecisions. Despite a growing body of research in this domain, there is a lack\nof comprehensive literature reviews specifically focused on weed mapping. In\nparticular, the absence of a structured analysis spanning the entire mapping\npipeline, from data acquisition to processing techniques and mapping tools,\nlimits progress in the field. This review addresses these gaps by\nsystematically examining state-of-the-art methods in data acquisition (sensor\nand platform technologies), data processing (including annotation and\nmodelling), and mapping techniques (such as spatiotemporal analysis and\ndecision support tools). Following PRISMA guidelines, we critically evaluate\nand synthesize key findings from the literature to provide a holistic\nunderstanding of the weed mapping landscape. This review serves as a\nfoundational reference to guide future research and support the development of\nefficient, scalable, and sustainable weed management systems.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Metadata, Wavelet, and Time Aware Diffusion Models for Satellite Image Super Resolution",
+    "url": "http://arxiv.org/abs/2506.23566v1",
+    "authors": [
+      "Luigi Sigillo",
+      "Renato Giamba",
+      "Danilo Comminiello"
+    ],
+    "published": "2025-06-30",
+    "abstract": "The acquisition of high-resolution satellite imagery is often constrained by\nthe spatial and temporal limitations of satellite sensors, as well as the high\ncosts associated with frequent observations. These challenges hinder\napplications such as environmental monitoring, disaster response, and\nagricultural management, which require fine-grained and high-resolution data.\nIn this paper, we propose MWT-Diff, an innovative framework for satellite image\nsuper-resolution (SR) that combines latent diffusion models with wavelet\ntransforms to address these challenges. At the core of the framework is a novel\nmetadata-, wavelet-, and time-aware encoder (MWT-Encoder), which generates\nembeddings that capture metadata attributes, multi-scale frequency information,\nand temporal relationships. The embedded feature representations steer the\nhierarchical diffusion dynamics, through which the model progressively\nreconstructs high-resolution satellite imagery from low-resolution inputs. This\nprocess preserves critical spatial characteristics including textural patterns,\nboundary discontinuities, and high-frequency spectral components essential for\ndetailed remote sensing analysis. The comparative analysis of MWT-Diff across\nmultiple datasets demonstrated favorable performance compared to recent\napproaches, as measured by standard perceptual quality metrics including FID\nand LPIPS.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Diffusion Models"
+    ],
+    "applications": [
+      "Super-Resolution"
+    ]
+  },
+  {
+    "title": "Can We Predict the Unpredictable? Leveraging DisasterNet-LLM for Multimodal Disaster Classification",
+    "url": "http://arxiv.org/abs/2506.23462v1",
+    "authors": [
+      "Manaswi Kulahara",
+      "Gautam Siddharth Kashyap",
+      "Nipun Joshi",
+      "Arpita Soni"
+    ],
+    "published": "2025-06-30",
+    "abstract": "Effective disaster management requires timely and accurate insights, yet\ntraditional methods struggle to integrate multimodal data such as images,\nweather records, and textual reports. To address this, we propose\nDisasterNet-LLM, a specialized Large Language Model (LLM) designed for\ncomprehensive disaster analysis. By leveraging advanced pretraining,\ncross-modal attention mechanisms, and adaptive transformers, DisasterNet-LLM\nexcels in disaster classification. Experimental results demonstrate its\nsuperiority over state-of-the-art models, achieving higher accuracy of 89.5%,\nan F1 score of 88.0%, AUC of 0.92%, and BERTScore of 0.88% in multimodal\ndisaster classification tasks.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer",
+      "LLM"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Accurate Mediterranean Sea forecasting via graph-based deep learning",
+    "url": "http://arxiv.org/abs/2506.23900v1",
+    "authors": [
+      "Daniel Holmberg",
+      "Emanuela Clementi",
+      "Italo Epicoco",
+      "Teemu Roos"
+    ],
+    "published": "2025-06-30",
+    "abstract": "Accurate ocean forecasting systems are essential for understanding marine\ndynamics, which play a crucial role in sectors such as shipping, aquaculture,\nenvironmental monitoring, and coastal risk management. Traditional numerical\nsolvers, while effective, are computationally expensive and time-consuming.\nRecent advancements in machine learning have revolutionized weather\nforecasting, offering fast and energy-efficient alternatives. Building on these\nadvancements, we introduce SeaCast, a neural network designed for\nhigh-resolution regional ocean forecasting. SeaCast employs a graph-based\nframework to effectively handle the complex geometry of ocean grids and\nintegrates external forcing data tailored to the regional ocean context. Our\napproach is validated through experiments at a high horizontal resolution using\nthe operational numerical forecasting system of the Mediterranean Sea, along\nwith both numerical and data-driven atmospheric forcings. Results demonstrate\nthat SeaCast consistently outperforms the operational model in forecast skill,\nmarking a significant advancement in regional ocean prediction.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Efficient Kilometer-Scale Precipitation Downscaling with Conditional Wavelet Diffusion",
+    "url": "http://arxiv.org/abs/2507.01354v1",
+    "authors": [
+      "Chugang Yi",
+      "Minghan Yu",
+      "Weikang Qian",
+      "Yixin Wen",
+      "Haizhao Yang"
+    ],
+    "published": "2025-07-02",
+    "abstract": "Effective hydrological modeling and extreme weather analysis demand\nprecipitation data at a kilometer-scale resolution, which is significantly\nfiner than the 10 km scale offered by standard global products like IMERG. To\naddress this, we propose the Wavelet Diffusion Model (WDM), a generative\nframework that achieves 10x spatial super-resolution (downscaling to 1 km) and\ndelivers a 9x inference speedup over pixel-based diffusion models. WDM is a\nconditional diffusion model that learns the learns the complex structure of\nprecipitation from MRMS radar data directly in the wavelet domain. By focusing\non high-frequency wavelet coefficients, it generates exceptionally realistic\nand detailed 1-km precipitation fields. This wavelet-based approach produces\nvisually superior results with fewer artifacts than pixel-space models, and\ndelivers a significant gains in sampling efficiency. Our results demonstrate\nthat WDM provides a robust solution to the dual challenges of accuracy and\nspeed in geoscience super-resolution, paving the way for more reliable\nhydrological forecasts.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Diffusion Models"
+    ],
+    "applications": [
+      "Super-Resolution",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Guided Unconditional and Conditional Generative Models for Super-Resolution and Inference of Quasi-Geostrophic Turbulence",
+    "url": "http://arxiv.org/abs/2507.00719v1",
+    "authors": [
+      "Anantha Narayanan Suresh Babu",
+      "Akhil Sadam",
+      "Pierre F. J. Lermusiaux"
+    ],
+    "published": "2025-07-01",
+    "abstract": "Typically, numerical simulations of the ocean, weather, and climate are\ncoarse, and observations are sparse and gappy. In this work, we apply four\ngenerative diffusion modeling approaches to super-resolution and inference of\nforced two-dimensional quasi-geostrophic turbulence on the beta-plane from\ncoarse, sparse, and gappy observations. Two guided approaches minimally adapt a\npre-trained unconditional model: SDEdit modifies the initial condition, and\nDiffusion Posterior Sampling (DPS) modifies the reverse diffusion process\nscore. The other two conditional approaches, a vanilla variant and\nclassifier-free guidance, require training with paired high-resolution and\nobservation data. We consider eight test cases spanning: two regimes, eddy and\nanisotropic-jet turbulence; two Reynolds numbers, 10^3 and 10^4; and two\nobservation types, 4x coarse-resolution fields and coarse, sparse and gappy\nobservations. Our comprehensive skill metrics include norms of the\nreconstructed vorticity fields, turbulence statistical quantities, and\nquantification of the super-resolved probabilistic ensembles and their errors.\nWe also study the sensitivity to tuning parameters such as guidance strength.\nResults show that SDEdit generates unphysical fields, while DPS generates\nreasonable reconstructions at low computational cost but with smoothed\nfine-scale features. Both conditional approaches require re-training, but they\nreconstruct missing fine-scale features, are cycle-consistent with\nobservations, and possess the correct statistics such as energy spectra.\nFurther, their mean model errors are highly correlated with and predictable\nfrom their ensemble standard deviations. Results highlight the trade-offs\nbetween ease of implementation, fidelity (sharpness), and cycle-consistency of\nthe diffusion models, and offer practical guidance for deployment in\ngeophysical inverse problems.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Diffusion Models"
+    ],
+    "applications": [
+      "Super-Resolution"
+    ]
   }
 ]
