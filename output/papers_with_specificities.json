@@ -11135,5 +11135,258 @@
     "applications": [
       "Super-Resolution"
     ]
+  },
+  {
+    "title": "MAPEX: Modality-Aware Pruning of Experts for Remote Sensing Foundation Models",
+    "url": "http://arxiv.org/abs/2507.07527v1",
+    "authors": [
+      "Joelle Hanna",
+      "Linus Scheibenreif",
+      "Damian Borth"
+    ],
+    "published": "2025-07-10",
+    "abstract": "Remote sensing data is commonly used for tasks such as flood mapping,\nwildfire detection, or land-use studies. For each task, scientists carefully\nchoose appropriate modalities or leverage data from purpose-built instruments.\nRecent work on remote sensing foundation models pre-trains computer vision\nmodels on large amounts of remote sensing data. These large-scale models tend\nto focus on specific modalities, often optical RGB or multispectral data. For\nmany important applications, this introduces a mismatch between the application\nmodalities and the pre-training data. Moreover, the large size of foundation\nmodels makes them expensive and difficult to fine-tune on typically small\ndatasets for each task. We address this mismatch with MAPEX, a remote sensing\nfoundation model based on mixture-of-modality experts. MAPEX is pre-trained on\nmulti-modal remote sensing data with a novel modality-conditioned token routing\nmechanism that elicits modality-specific experts. To apply the model on a\nspecific task, we propose a modality aware pruning technique, which only\nretains experts specialized for the task modalities. This yields efficient\nmodality-specific models while simplifying fine-tuning and deployment for the\nmodalities of interest. We experimentally validate MAPEX on diverse remote\nsensing datasets and show strong performance compared to fully supervised\ntraining and state-of-the-art remote sensing foundation models. Code is\navailable at https://github.com/HSG-AIML/MAPEX.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "RSRefSeg 2: Decoupling Referring Remote Sensing Image Segmentation with Foundation Models",
+    "url": "http://arxiv.org/abs/2507.06231v1",
+    "authors": [
+      "Keyan Chen",
+      "Chenyang Liu",
+      "Bowen Chen",
+      "Jiafan Zhang",
+      "Zhengxia Zou",
+      "Zhenwei Shi"
+    ],
+    "published": "2025-07-08",
+    "abstract": "Referring Remote Sensing Image Segmentation provides a flexible and\nfine-grained framework for remote sensing scene analysis via vision-language\ncollaborative interpretation. Current approaches predominantly utilize a\nthree-stage pipeline encompassing dual-modal encoding, cross-modal interaction,\nand pixel decoding. These methods demonstrate significant limitations in\nmanaging complex semantic relationships and achieving precise cross-modal\nalignment, largely due to their coupled processing mechanism that conflates\ntarget localization with boundary delineation. This architectural coupling\namplifies error propagation under semantic ambiguity while restricting model\ngeneralizability and interpretability. To address these issues, we propose\nRSRefSeg 2, a decoupling paradigm that reformulates the conventional workflow\ninto a collaborative dual-stage framework: coarse localization followed by fine\nsegmentation. RSRefSeg 2 integrates CLIP's cross-modal alignment strength with\nSAM's segmentation generalizability through strategic foundation model\ncollaboration. Specifically, CLIP is employed as the dual-modal encoder to\nactivate target features within its pre-aligned semantic space and generate\nlocalization prompts. To mitigate CLIP's misactivation challenges in\nmulti-entity scenarios described by referring texts, a cascaded second-order\nprompter is devised, which enhances precision through implicit reasoning via\ndecomposition of text embeddings into complementary semantic subspaces. These\noptimized semantic prompts subsequently direct the SAM to generate pixel-level\nrefined masks, thereby completing the semantic transmission pipeline. Extensive\nexperiments (RefSegRS, RRSIS-D, and RISBench) demonstrate that RSRefSeg 2\nsurpasses contemporary methods in segmentation accuracy (+~3% gIoU) and complex\nsemantic interpretation. Code is available at:\nhttps://github.com/KyanChen/RSRefSeg2.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "CLIP"
+    ],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "From General to Specialized: The Need for Foundational Models in Agriculture",
+    "url": "http://arxiv.org/abs/2507.05390v1",
+    "authors": [
+      "Vishal Nedungadi",
+      "Xingguo Xiong",
+      "Aike Potze",
+      "Ron Van Bree",
+      "Tao Lin",
+      "Marc Ru\u00dfwurm",
+      "Ioannis N. Athanasiadis"
+    ],
+    "published": "2025-07-07",
+    "abstract": "Food security remains a global concern as population grows and climate change\nintensifies, demanding innovative solutions for sustainable agricultural\nproductivity. Recent advances in foundation models have demonstrated remarkable\nperformance in remote sensing and climate sciences, and therefore offer new\nopportunities for agricultural monitoring. However, their application in\nchallenges related to agriculture-such as crop type mapping, crop phenology\nestimation, and crop yield estimation-remains under-explored. In this work, we\nquantitatively evaluate existing foundational models to assess their\neffectivity for a representative set of agricultural tasks. From an\nagricultural domain perspective, we describe a requirements framework for an\nideal agricultural foundation model (CropFM). We then survey and compare\nexisting general-purpose foundational models in this framework and empirically\nevaluate two exemplary of them in three representative agriculture specific\ntasks. Finally, we highlight the need for a dedicated foundational model\ntailored specifically to agriculture.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Time2Agri: Temporal Pretext Tasks for Agricultural Monitoring",
+    "url": "http://arxiv.org/abs/2507.04366v1",
+    "authors": [
+      "Moti Rattan Gupta",
+      "Anupam Sobti"
+    ],
+    "published": "2025-07-06",
+    "abstract": "Self Supervised Learning(SSL) has emerged as a prominent paradigm for\nlabel-efficient learning, and has been widely utilized by remote sensing\nfoundation models(RSFMs). Recent RSFMs including SatMAE, DoFA, primarily rely\non masked autoencoding(MAE), contrastive learning or some combination of them.\nHowever, these pretext tasks often overlook the unique temporal characteristics\nof agricultural landscape, namely nature's cycle. Motivated by this gap, we\npropose three novel agriculture-specific pretext tasks, namely Time-Difference\nPrediction(TD), Temporal Frequency Prediction(FP), and Future-Frame\nPrediction(FF). Comprehensive evaluation on SICKLE dataset shows FF achieves\n69.6% IoU on crop mapping and FP reduces yield prediction error to 30.7% MAPE,\noutperforming all baselines, and TD remains competitive on most tasks. Further,\nwe also scale FF to the national scale of India, achieving 54.2% IoU\noutperforming all baselines on field boundary delineation on FTW India dataset.",
+    "categories": [
+      "foundation_model",
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "GRIT: Graph Transformer For Internal Ice Layer Thickness Prediction",
+    "url": "http://arxiv.org/abs/2507.07388v1",
+    "authors": [
+      "Zesheng Liu",
+      "Maryam Rahnemoonfar"
+    ],
+    "published": "2025-07-10",
+    "abstract": "Gaining a deeper understanding of the thickness and variability of internal\nice layers in Radar imagery is essential in monitoring the snow accumulation,\nbetter evaluating ice dynamics processes, and minimizing uncertainties in\nclimate models. Radar sensors, capable of penetrating ice, capture detailed\nradargram images of internal ice layers. In this work, we introduce GRIT, graph\ntransformer for ice layer thickness. GRIT integrates an inductive geometric\ngraph learning framework with an attention mechanism, designed to map the\nrelationships between shallow and deeper ice layers. Compared to baseline graph\nneural networks, GRIT demonstrates consistently lower prediction errors. These\nresults highlight the attention mechanism's effectiveness in capturing temporal\nchanges across ice layers, while the graph transformer combines the strengths\nof transformers for learning long-range dependencies with graph neural networks\nfor capturing spatial patterns, enabling robust modeling of complex\nspatiotemporal dynamics.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer",
+      "GNN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "GreenHyperSpectra: A multi-source hyperspectral dataset for global vegetation trait prediction",
+    "url": "http://arxiv.org/abs/2507.06806v1",
+    "authors": [
+      "Eya Cherif",
+      "Arthur Ouaknine",
+      "Luke A. Brown",
+      "Phuong D. Dao",
+      "Kyle R. Kovach",
+      "Bing Lu",
+      "Daniel Mederer",
+      "Hannes Feilhauer",
+      "Teja Kattenborn",
+      "David Rolnick"
+    ],
+    "published": "2025-07-09",
+    "abstract": "Plant traits such as leaf carbon content and leaf mass are essential\nvariables in the study of biodiversity and climate change. However,\nconventional field sampling cannot feasibly cover trait variation at\necologically meaningful spatial scales. Machine learning represents a valuable\nsolution for plant trait prediction across ecosystems, leveraging hyperspectral\ndata from remote sensing. Nevertheless, trait prediction from hyperspectral\ndata is challenged by label scarcity and substantial domain shifts (\\eg across\nsensors, ecological distributions), requiring robust cross-domain methods.\nHere, we present GreenHyperSpectra, a pretraining dataset encompassing\nreal-world cross-sensor and cross-ecosystem samples designed to benchmark trait\nprediction with semi- and self-supervised methods. We adopt an evaluation\nframework encompassing in-distribution and out-of-distribution scenarios. We\nsuccessfully leverage GreenHyperSpectra to pretrain label-efficient\nmulti-output regression models that outperform the state-of-the-art supervised\nbaseline. Our empirical analyses demonstrate substantial improvements in\nlearning spectral representations for trait prediction, establishing a\ncomprehensive methodological framework to catalyze research at the intersection\nof representation learning and plant functional traits assessment. All code and\ndata are available at: https://github.com/echerif18/HyspectraSSL.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Regression",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Efficient SAR Vessel Detection for FPGA-Based On-Satellite Sensing",
+    "url": "http://arxiv.org/abs/2507.04842v1",
+    "authors": [
+      "Colin Laganier",
+      "Liam Fletcher",
+      "Elim Kwan",
+      "Richard Walters",
+      "Victoria Nockles"
+    ],
+    "published": "2025-07-07",
+    "abstract": "Rapid analysis of satellite data is vital for many remote sensing\napplications, from disaster response to environmental monitoring, but is\nbecoming harder to achieve with the increasing volumes of data generated by\nmodern satellites. On-satellite machine learning (ML) offers a potential\nsolution, by reducing latency associated with transmission of these large data\nvolumes to ground stations, but state-of-the-art models are often too large or\npower-hungry for satellite deployment. Vessel detection using Synthetic\nAperture Radar (SAR) is a critical time-sensitive task for maritime security\nthat exemplifies this challenge. SAR vessel detection has previously been\ndemonstrated only by ML models that either are too large for satellite\ndeployment, have not been developed for sufficiently low-power hardware, or\nhave only been developed and tested on small SAR datasets that do not\nsufficiently represent the real-world task. Here we address this issue by\ndeveloping and deploying a new efficient and highly performant SAR vessel\ndetection model, using a customised YOLOv8 architecture specifically optimized\nfor FPGA-based processing within common satellite power constraints (<10W). We\ntrain and evaluate our model on the largest and most diverse open SAR vessel\ndataset, xView3-SAR, and deploy it on a Kria KV260 MPSoC. We show that our\nFPGA-based model has detection and classification performance only ~2% and 3%\nlower than values from state-of-the-art GPU-based models, despite being two to\nthree orders of magnitude smaller in size. This work demonstrates small yet\nhighly performant ML models for time-critical SAR analysis, paving the way for\nmore autonomous, responsive, and scalable Earth observation systems.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Generative Lagrangian data assimilation for ocean dynamics under extreme sparsity",
+    "url": "http://arxiv.org/abs/2507.06479v1",
+    "authors": [
+      "Niloofar Asefi",
+      "Leonard Lupin-Jimenez",
+      "Tianning Wu",
+      "Ruoying He",
+      "Ashesh Chattopadhyay"
+    ],
+    "published": "2025-07-09",
+    "abstract": "Reconstructing ocean dynamics from observational data is fundamentally\nlimited by the sparse, irregular, and Lagrangian nature of spatial sampling,\nparticularly in subsurface and remote regions. This sparsity poses significant\nchallenges for forecasting key phenomena such as eddy shedding and rogue waves.\nTraditional data assimilation methods and deep learning models often struggle\nto recover mesoscale turbulence under such constraints. We leverage a deep\nlearning framework that combines neural operators with denoising diffusion\nprobabilistic models (DDPMs) to reconstruct high-resolution ocean states from\nextremely sparse Lagrangian observations. By conditioning the generative model\non neural operator outputs, the framework accurately captures small-scale,\nhigh-wavenumber dynamics even at $99\\%$ sparsity (for synthetic data) and\n$99.9\\%$ sparsity (for real satellite observations). We validate our method on\nbenchmark systems, synthetic float observations, and real satellite data,\ndemonstrating robust performance under severe spatial sampling limitations as\ncompared to other deep learning baselines.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Machine Learning in Acoustics: A Review and Open-Source Repository",
+    "url": "http://arxiv.org/abs/2507.04419v1",
+    "authors": [
+      "Ryan A. McCarthy",
+      "You Zhang",
+      "Samuel A. Verburg",
+      "William F. Jenkins",
+      "Peter Gerstoft"
+    ],
+    "published": "2025-07-06",
+    "abstract": "Acoustic data provide scientific and engineering insights in fields ranging\nfrom bioacoustics and communications to ocean and earth sciences. In this\nreview, we survey recent advances and the transformative potential of machine\nlearning (ML) in acoustics, including deep learning (DL). Using the Python\nhigh-level programming language, we demonstrate a broad collection of ML\ntechniques to detect and find patterns for classification, regression, and\ngeneration in acoustics data automatically. We have ML examples including\nacoustic data classification, generative modeling for spatial audio, and\nphysics-informed neural networks. This work includes AcousticsML, a set of\npractical Jupyter notebook examples on GitHub demonstrating ML benefits and\nencouraging researchers and practitioners to apply reproducible data-driven\napproaches to acoustic challenges.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "PINN"
+    ],
+    "applications": [
+      "Classification",
+      "Regression"
+    ]
+  },
+  {
+    "title": "HRRRCast: a data-driven emulator for regional weather forecasting at convection allowing scales",
+    "url": "http://arxiv.org/abs/2507.05658v1",
+    "authors": [
+      "Daniel Abdi",
+      "Isidora Jankov",
+      "Paul Madden",
+      "Vanderlei Vargas",
+      "Timothy A. Smith",
+      "Sergey Frolov",
+      "Montgomery Flora",
+      "Corey Potvin"
+    ],
+    "published": "2025-07-08",
+    "abstract": "The High-Resolution Rapid Refresh (HRRR) model is a convection-allowing model\nused in operational weather forecasting across the contiguous United States\n(CONUS). To provide a computationally efficient alternative, we introduce\nHRRRCast, a data-driven emulator built with advanced machine learning\ntechniques. HRRRCast includes two architectures: a ResNet-based model (ResHRRR)\nand a Graph Neural Network-based model (GraphHRRR). ResHRRR uses convolutional\nneural networks enhanced with squeeze-and-excitation blocks and Feature-wise\nLinear Modulation, and supports probabilistic forecasting via the Denoising\nDiffusion Implicit Model (DDIM). To better handle longer lead times, we train a\nsingle model to predict multiple lead times (1h, 3h, and 6h), then use a greedy\nrollout strategy during inference. When evaluated on composite reflectivity\nover the full CONUS domain using ensembles of 3 to 10 members, ResHRRR\noutperforms HRRR forecast at light rainfall threshold (20 dBZ) and achieves\ncompetitive performance at moderate thresholds (30 dBZ). Our work advances the\nStormCast model of Pathak et al. [21] by: a) training on the full CONUS domain,\nb) using multiple lead times to improve long-range skill, c) training on\nanalysis data instead of the +1h post-analysis data inadvertently used in\nStormCast, and d) incorporating future GFS states as inputs, enabling\ndownscaling that improves long-lead accuracy. Grid-, neighborhood-, and\nobject-based metrics confirm better storm placement, lower frequency bias, and\nhigher success ratios than HRRR. HRRRCast ensemble forecasts also maintain\nsharper spatial detail, with power spectra more closely matching HRRR analysis.\nWhile GraphHRRR underperforms in its current form, it lays groundwork for\nfuture graph-based forecasting. HRRRCast represents a step toward efficient,\ndata-driven regional weather prediction with competitive accuracy and ensemble\ncapability.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "ResNet"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Site-Specific Parameterization of Ocean Spectra for Power Estimates of Wave Energy Converters",
+    "url": "http://arxiv.org/abs/2507.05440v1",
+    "authors": [
+      "Rafael Baez Ramirez",
+      "Ethan J. Sloan",
+      "Carlos Alejandro Michel\u00e9n Str\u00f6fer"
+    ],
+    "published": "2025-07-07",
+    "abstract": "Estimating the mean annual power of a wave energy converter (WEC) through the\nmethod of bins relies on a parametric representation of all possible sea\nstates. In practice, two-parameter spectra based on significant wave height and\nenergy period are ubiquitous. Two-parameter spectra have been shown\ninsufficient in capturing the range of spectral shapes that can occur in an\nactual ocean environment. Furthermore, through sensitivity analysis, these\ntwo-parameters have been shown to be insufficient for predicting power\nperformance of WECs. Four parameter spectra, which expand the parameter space\nto include two additional shape parameters have been shown sufficient in\ncapturing sea state variance, but their effect on mean power estimates has not\nbeen presented. This work directly looks at the effects of incorporating\n4-parameter spectra into annual power estimates compared to using the\ntraditional 2-parameter spectra. We use two different 4-parameter spectra: one\nfrom the literature and a novel machine learning-based autoencoder, presented\nhere. Both are shown to improve the information retained when parameterizing\nspectra. The site-specific autoencoder performs consistently the best across\ntwo case studies of mean annual power prediction, achieving an error around 1%\nin each instance. The 2-parameter spectra resulted in less consistent\npredictive performance, with errors of -8% and 1% in the two case studies. For\nthe case study where all three models performed well, it is shown that the low\nerror in the 2-parameter model is attributable to a symmetrical distribution of\nlarge errors whereas both 4-parameter spectra result in relatively low errors\nthroughout the parametric space. These results highlight the need for more\nsophisticated resource characterization methods for estimating the power\nperformance of WECs and suggest site-specific machine learning-based spectra\nare an adequate option.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Autoencoder"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Interpretable Machine Learning for Urban Heat Mitigation: Attribution and Weighting of Multi-Scale Drivers",
+    "url": "http://arxiv.org/abs/2507.04802v1",
+    "authors": [
+      "David Tschan",
+      "Zhi Wang",
+      "Jan Carmeliet",
+      "Yongling Zhao"
+    ],
+    "published": "2025-07-07",
+    "abstract": "Urban heat islands (UHIs) are often accentuated during heat waves (HWs) and\npose a public health risk. Mitigating UHIs requires urban planners to first\nestimate how urban heat is influenced by different land use types (LUTs) and\ndrivers across scales - from synoptic-scale climatic background processes to\nsmall-scale urban- and scale-bridging features. This study proposes to classify\nthese drivers into driving (D), urban (U), and local (L) features,\nrespectively. To increase interpretability and enhance computation efficiency,\na LUT-distinguishing machine learning approach is proposed as a fast emulator\nfor Weather Research and Forecasting model coupled to a Single-Layer Urban\nCanopy Model (WRF-SLUCM) to predict ground- (TSK) and 2-meter air temperature\n(T2). Using random forests (RFs) with extreme gradient boosting (XGB) trained\non WRF-SLUCM output over Zurich, Switzerland, during heatwave (HW) periods in\n2017 and 2019, this study proposes LUT-based (LB) models that categorize\nfeatures by scales and practical controllability, allowing optional categorical\nweighting. This approach enables category-specific feature ranking and\nsensitivity estimation of T2 and TSK to most important small-scale drivers -\nmost notably surface emissivity, albedo, and leaf area index (LAI). Models\nemploying the LB framework are statistically significantly more accurate than\nmodels that do not, with higher performance when more HW data is included in\ntraining. With RF-XGB robustly performing optimal with unit weights, the method\nsubstantially increase interpretability. Despite the needs to reduce\nstatistical uncertainties and testing the method on other cities, the proposed\napproach offers urban planners a direct framework for feasibility-centered UHI\nmitigation assessment.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
   }
 ]
