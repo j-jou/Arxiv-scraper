@@ -11388,5 +11388,418 @@
     "applications": [
       "Forecast"
     ]
+  },
+  {
+    "title": "Continental scale habitat modelling with artificial intelligence and multimodal earth observation",
+    "url": "http://arxiv.org/abs/2507.09732v1",
+    "authors": [
+      "Sara Si-Moussi",
+      "Stephan Hennekens",
+      "Sander Mucher",
+      "Stan Los",
+      "Wilfried Thuiller"
+    ],
+    "published": "2025-07-13",
+    "abstract": "Habitats integrate the abiotic conditions and biophysical structures that\nsupport biodiversity and sustain nature's contributions to people. As these\necosystems face mounting pressure from human activities, accurate,\nhigh-resolution habitat maps are essential for effective conservation and\nrestoration. Yet current maps often fall short in thematic or spatial\nresolution because they must (1) model several mutually exclusive habitat types\nthat co-occur across landscapes and (2) cope with severe class imbalance that\ncomplicate multi-class training. Here, we evaluated how high-resolution remote\nsensing (RS) data and Artificial Intelligence (AI) tools can improve habitat\nclassification over large geographic extents at fine thematic resolution. Using\nvegetation plots from the European Vegetation Archive, we modelled Level 3\nEUNIS habitats across Europe and assessed multiple modelling strategies against\nindependent validation datasets. Strategies that exploited the hierarchical\nnature of habitat nomenclatures resolved classification ambiguities, especially\nin fragmented landscapes. Integrating multi-spectral (MSI) and synthetic\naperture radar (SAR) imagery, particularly through Earth Observation Foundation\nmodels, enhanced within-formation discrimination and overall performance.\nFinally, ensemble machine learning that corrects class imbalance boosted\naccuracy further. Our methodological framework is transferable beyond Europe\nand adaptable to other classification systems. Future research should advance\ntemporal modelling of dynamic habitats, extend to habitat segmentation and\nquality assessment, and exploit next-generation EO data paired with\nhigher-quality in-situ observations.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Prompt Engineering in Segment Anything Model: Methodologies, Applications, and Emerging Challenges",
+    "url": "http://arxiv.org/abs/2507.09562v1",
+    "authors": [
+      "Yidong Jiang"
+    ],
+    "published": "2025-07-13",
+    "abstract": "The Segment Anything Model (SAM) has revolutionized image segmentation\nthrough its innovative prompt-based approach, yet the critical role of prompt\nengineering in its success remains underexplored. This paper presents the first\ncomprehensive survey focusing specifically on prompt engineering techniques for\nSAM and its variants. We systematically organize and analyze the rapidly\ngrowing body of work in this emerging field, covering fundamental\nmethodologies, practical applications, and key challenges. Our review reveals\nhow prompt engineering has evolved from simple geometric inputs to\nsophisticated multimodal approaches, enabling SAM's adaptation across diverse\ndomains including medical imaging and remote sensing. We identify unique\nchallenges in prompt optimization and discuss promising research directions.\nThis survey fills an important gap in the literature by providing a structured\nframework for understanding and advancing prompt engineering in foundation\nmodels for segmentation.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "XiChen: An observation-scalable fully AI-driven global weather forecasting system with 4D variational knowledge",
+    "url": "http://arxiv.org/abs/2507.09202v1",
+    "authors": [
+      "Wuxin Wang",
+      "Weicheng Ni",
+      "Lilan Huang",
+      "Tao Hao",
+      "Ben Fei",
+      "Shuo Ma",
+      "Taikang Yuan",
+      "Yanlai Zhao",
+      "Kefeng Deng",
+      "Xiaoyong Li",
+      "Boheng Duan",
+      "Lei Bai",
+      "Kaijun Ren"
+    ],
+    "published": "2025-07-12",
+    "abstract": "Recent advancements in Artificial Intelligence (AI) demonstrate significant\npotential to revolutionize weather forecasting. However, most AI-driven models\nrely on Numerical Weather Prediction (NWP) systems for initial condition\npreparation, which often consumes hours on supercomputers. Here we introduce\nXiChen, the first observation-scalable fully AI-driven global weather\nforecasting system, whose entire pipeline, from Data Assimilation (DA) to\nmedium-range forecasting, can be accomplished within only 17 seconds. XiChen is\nbuilt upon a foundation model that is pre-trained for weather forecasting.\nMeanwhile, this model is subsequently fine-tuned to serve as both observation\noperators and DA models, thereby scalably assimilating conventional and raw\nsatellite observations. Furthermore, the integration of four-dimensional\nvariational knowledge ensures that XiChen's DA and medium-range forecasting\naccuracy rivals that of operational NWP systems, amazingly achieving a skillful\nforecasting lead time exceeding 8.25 days. These findings demonstrate that\nXiChen holds strong potential toward fully AI-driven weather forecasting\nindependent of NWP systems.",
+    "categories": [
+      "ocean",
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "SCORE: Scene Context Matters in Open-Vocabulary Remote Sensing Instance Segmentation",
+    "url": "http://arxiv.org/abs/2507.12857v1",
+    "authors": [
+      "Shiqi Huang",
+      "Shuting He",
+      "Huaiyuan Qin",
+      "Bihan Wen"
+    ],
+    "published": "2025-07-17",
+    "abstract": "Most existing remote sensing instance segmentation approaches are designed\nfor close-vocabulary prediction, limiting their ability to recognize novel\ncategories or generalize across datasets. This restricts their applicability in\ndiverse Earth observation scenarios. To address this, we introduce\nopen-vocabulary (OV) learning for remote sensing instance segmentation. While\ncurrent OV segmentation models perform well on natural image datasets, their\ndirect application to remote sensing faces challenges such as diverse\nlandscapes, seasonal variations, and the presence of small or ambiguous objects\nin aerial imagery. To overcome these challenges, we propose $\\textbf{SCORE}$\n($\\textbf{S}$cene $\\textbf{C}$ontext matters in $\\textbf{O}$pen-vocabulary\n$\\textbf{RE}$mote sensing instance segmentation), a framework that integrates\nmulti-granularity scene context, i.e., regional context and global context, to\nenhance both visual and textual representations. Specifically, we introduce\nRegion-Aware Integration, which refines class embeddings with regional context\nto improve object distinguishability. Additionally, we propose Global Context\nAdaptation, which enriches naive text embeddings with remote sensing global\ncontext, creating a more adaptable and expressive linguistic latent space for\nthe classifier. We establish new benchmarks for OV remote sensing instance\nsegmentation across diverse datasets. Experimental results demonstrate that,\nour proposed method achieves SOTA performance, which provides a robust solution\nfor large-scale, real-world geospatial analysis. Our code is available at\nhttps://github.com/HuangShiqi128/SCORE.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "A Deep-Learning Framework for Land-Sliding Classification from Remote Sensing Image",
+    "url": "http://arxiv.org/abs/2507.12939v1",
+    "authors": [
+      "Hieu Tang",
+      "Truong Vo",
+      "Dong Pham",
+      "Toan Nguyen",
+      "Lam Pham",
+      "Truong Nguyen"
+    ],
+    "published": "2025-07-17",
+    "abstract": "The use of satellite imagery combined with deep learning to support automatic\nlandslide detection is becoming increasingly widespread. However, selecting an\nappropriate deep learning architecture to optimize performance while avoiding\noverfitting remains a critical challenge. To address these issues, we propose a\ndeep-learning based framework for landslide detection from remote sensing image\nin this paper. The proposed framework presents an effective combination of the\nonline an offline data augmentation to tackle the imbalanced data, a backbone\nEfficientNet\\_Large deep learning model for extracting robust embedding\nfeatures, and a post-processing SVM classifier to balance and enhance the\nclassification performance. The proposed model achieved an F1-score of 0.8938\non the public test set of the Zindi challenge.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Precision Spatio-Temporal Feature Fusion for Robust Remote Sensing Change Detection",
+    "url": "http://arxiv.org/abs/2507.11523v1",
+    "authors": [
+      "Buddhi Wijenayake",
+      "Athulya Ratnayake",
+      "Praveen Sumanasekara",
+      "Nichula Wasalathilaka",
+      "Mathivathanan Piratheepan",
+      "Roshan Godaliyadda",
+      "Mervyn Ekanayake",
+      "Vijitha Herath"
+    ],
+    "published": "2025-07-15",
+    "abstract": "Remote sensing change detection is vital for monitoring environmental and\nurban transformations but faces challenges like manual feature extraction and\nsensitivity to noise. Traditional methods and early deep learning models, such\nas convolutional neural networks (CNNs), struggle to capture long-range\ndependencies and global context essential for accurate change detection in\ncomplex scenes. While Transformer-based models mitigate these issues, their\ncomputational complexity limits their applicability in high-resolution remote\nsensing. Building upon ChangeMamba architecture, which leverages state space\nmodels for efficient global context modeling, this paper proposes precision\nfusion blocks to capture channel-wise temporal variations and per-pixel\ndifferences for fine-grained change detection. An enhanced decoder pipeline,\nincorporating lightweight channel reduction mechanisms, preserves local details\nwith minimal computational cost. Additionally, an optimized loss function\ncombining Cross Entropy, Dice and Lovasz objectives addresses class imbalance\nand boosts Intersection-over-Union (IoU). Evaluations on SYSU-CD, LEVIR-CD+,\nand WHU-CD datasets demonstrate superior precision, recall, F1 score, IoU, and\noverall accuracy compared to state-of-the-art methods, highlighting the\napproach's robustness for remote sensing change detection. For complete\ntransparency, the codes and pretrained models are accessible at\nhttps://github.com/Buddhi19/MambaCD.git",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "RMAU-NET: A Residual-Multihead-Attention U-Net Architecture for Landslide Segmentation and Detection from Remote Sensing Images",
+    "url": "http://arxiv.org/abs/2507.11143v1",
+    "authors": [
+      "Lam Pham",
+      "Cam Le",
+      "Hieu Tang",
+      "Khang Truong",
+      "Truong Nguyen",
+      "Jasmin Lampert",
+      "Alexander Schindler",
+      "Martin Boyer",
+      "Son Phan"
+    ],
+    "published": "2025-07-15",
+    "abstract": "In recent years, landslide disasters have reported frequently due to the\nextreme weather events of droughts, floods , storms, or the consequence of\nhuman activities such as deforestation, excessive exploitation of natural\nresources. However, automatically observing landslide is challenging due to the\nextremely large observing area and the rugged topography such as mountain or\nhighland. This motivates us to propose an end-to-end deep-learning-based model\nwhich explores the remote sensing images for automatically observing landslide\nevents. By considering remote sensing images as the input data, we can obtain\nfree resource, observe large and rough terrains by time. To explore the remote\nsensing images, we proposed a novel neural network architecture which is for\ntwo tasks of landslide detection and landslide segmentation. We evaluated our\nproposed model on three different benchmark datasets of LandSlide4Sense, Bijie,\nand Nepal. By conducting extensive experiments, we achieve F1 scores of 98.23,\n93.83 for the landslide detection task on LandSlide4Sense, Bijie datasets; mIoU\nscores of 63.74, 76.88 on the segmentation tasks regarding LandSlide4Sense,\nNepal datasets. These experimental results prove potential to integrate our\nproposed model into real-life landslide observation systems.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection"
+    ]
+  },
+  {
+    "title": "Improving Remote Sensing Classification using Topological Data Analysis and Convolutional Neural Networks",
+    "url": "http://arxiv.org/abs/2507.10381v1",
+    "authors": [
+      "Aaryam Sharma"
+    ],
+    "published": "2025-07-14",
+    "abstract": "Topological data analysis (TDA) is a relatively new field that is gaining\nrapid adoption due to its robustness and ability to effectively describe\ncomplex datasets by quantifying geometric information. In imaging contexts, TDA\ntypically models data as filtered cubical complexes from which we can extract\ndiscriminative features using persistence homology. Meanwhile, convolutional\nneural networks (CNNs) have been shown to be biased towards texture based local\nfeatures. To address this limitation, we propose a TDA feature engineering\npipeline and a simple method to integrate topological features with deep\nlearning models on remote sensing classification. Our method improves the\nperformance of a ResNet18 model on the EuroSAT dataset by 1.44% achieving\n99.33% accuracy, which surpasses all previously reported single-model\naccuracies, including those with larger architectures, such as ResNet50 (2x\nlarger) and XL Vision Transformers (197x larger). We additionally show that our\nmethod's accuracy is 1.82% higher than our ResNet18 baseline on the RESISC45\ndataset. To our knowledge, this is the first application of TDA features in\nsatellite scene classification with deep learning. This demonstrates that TDA\nfeatures can be integrated with deep learning models, even on datasets without\nexplicit topological structures, thereby increasing the applicability of TDA. A\nclean implementation of our method will be made publicly available upon\npublication.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "DRPCA-Net: Make Robust PCA Great Again for Infrared Small Target Detection",
+    "url": "http://arxiv.org/abs/2507.09541v1",
+    "authors": [
+      "Zihao Xiong",
+      "Fei Zhou",
+      "Fengyi Wu",
+      "Shuai Yuan",
+      "Maixia Fu",
+      "Zhenming Peng",
+      "Jian Yang",
+      "Yimian Dai"
+    ],
+    "published": "2025-07-13",
+    "abstract": "Infrared small target detection plays a vital role in remote sensing,\nindustrial monitoring, and various civilian applications. Despite recent\nprogress powered by deep learning, many end-to-end convolutional models tend to\npursue performance by stacking increasingly complex architectures, often at the\nexpense of interpretability, parameter efficiency, and generalization. These\nmodels typically overlook the intrinsic sparsity prior of infrared small\ntargets--an essential cue that can be explicitly modeled for both performance\nand efficiency gains. To address this, we revisit the model-based paradigm of\nRobust Principal Component Analysis (RPCA) and propose Dynamic RPCA Network\n(DRPCA-Net), a novel deep unfolding network that integrates the sparsity-aware\nprior into a learnable architecture. Unlike conventional deep unfolding methods\nthat rely on static, globally learned parameters, DRPCA-Net introduces a\ndynamic unfolding mechanism via a lightweight hypernetwork. This design enables\nthe model to adaptively generate iteration-wise parameters conditioned on the\ninput scene, thereby enhancing its robustness and generalization across diverse\nbackgrounds. Furthermore, we design a Dynamic Residual Group (DRG) module to\nbetter capture contextual variations within the background, leading to more\naccurate low-rank estimation and improved separation of small targets.\nExtensive experiments on multiple public infrared datasets demonstrate that\nDRPCA-Net significantly outperforms existing state-of-the-art methods in\ndetection accuracy. Code is available at https://github.com/GrokCV/DRPCA-Net.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "RS-TinyNet: Stage-wise Feature Fusion Network for Detecting Tiny Objects in Remote Sensing Images",
+    "url": "http://arxiv.org/abs/2507.13120v1",
+    "authors": [
+      "Xiaozheng Jiang",
+      "Wei Zhang",
+      "Xuerui Mao"
+    ],
+    "published": "2025-07-17",
+    "abstract": "Detecting tiny objects in remote sensing (RS) imagery has been a\nlong-standing challenge due to their extremely limited spatial information,\nweak feature representations, and dense distributions across complex\nbackgrounds. Despite numerous efforts devoted, mainstream detectors still\nunderperform in such scenarios. To bridge this gap, we introduce RS-TinyNet, a\nmulti-stage feature fusion and enhancement model explicitly tailored for RS\ntiny object detection in various RS scenarios. RS-TinyNet comes with two novel\ndesigns: tiny object saliency modeling and feature integrity reconstruction.\nGuided by these principles, we design three step-wise feature enhancement\nmodules. Among them, the multi-dimensional collaborative attention (MDCA)\nmodule employs multi-dimensional attention to enhance the saliency of tiny\nobjects. Additionally, the auxiliary reversible branch (ARB) and a progressive\nfusion detection head (PFDH) module are introduced to preserve information flow\nand fuse multi-level features to bridge semantic gaps and retain structural\ndetail. Comprehensive experiments on public RS dataset AI-TOD show that our\nRS-TinyNet surpasses existing state-of-the-art (SOTA) detectors by 4.0% AP and\n6.5% AP75. Evaluations on DIOR benchmark dataset further validate its superior\ndetection performance in diverse RS scenarios. These results demonstrate that\nthe proposed multi-stage feature fusion strategy offers an effective and\npractical solution for tiny object detection in complex RS environments.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Best Practices for Large-Scale, Pixel-Wise Crop Mapping and Transfer Learning Workflows",
+    "url": "http://arxiv.org/abs/2507.12590v1",
+    "authors": [
+      "Judy Long",
+      "Tao Liu",
+      "Sean Alexander Woznicki",
+      "Miljana Markovi\u0107",
+      "Oskar Marko",
+      "Molly Sears"
+    ],
+    "published": "2025-07-16",
+    "abstract": "Crop mapping involves identifying and classifying crop types using spatial\ndata, primarily derived from remote sensing imagery. This study presents the\nfirst comprehensive review of large-scale, pixel-wise crop mapping workflows,\nencompassing both conventional supervised methods and emerging transfer\nlearning approaches. To identify the optimal supervised crop mapping workflows,\nwe conducted systematic experiments, comparing six widely adopted satellite\nimage-based preprocessing methods, alongside eleven supervised pixel-wise\nclassification models. Additionally, we assessed the synergistic impact of\nvaried training sample sizes and variable combinations. Moreover, we identified\noptimal transfer learning techniques for different magnitudes of domain shift.\nThe evaluation of best methods was conducted across five diverse agricultural\nsites. Landsat 8 served as the primary satellite data source. Labels come from\nCDL trusted pixels and field surveys.\n  Our findings reveal three key insights. First, fine-scale interval\npreprocessing paired with Transformer models consistently delivered optimal\nperformance for both supervised and transferable workflows. RF offered rapid\ntraining and competitive performance in conventional supervised learning and\ndirect transfer to similar domains. Second, transfer learning techniques\nenhanced workflow adaptability, with UDA being effective for homogeneous crop\nclasses while fine-tuning remains robust across diverse scenarios. Finally,\nworkflow choice depends heavily on the availability of labeled samples. With a\nsufficient sample size, supervised training typically delivers more accurate\nand generalizable results. Below a certain threshold, transfer learning that\nmatches the level of domain shift is a viable alternative to achieve crop\nmapping. Repository:\nBest-Practices-for-Large-Scale-Pixel-Wise-Crop-Mapping-and-Transfer-Learning-Workflows",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "RAPNet: A Receptive-Field Adaptive Convolutional Neural Network for Pansharpening",
+    "url": "http://arxiv.org/abs/2507.10461v1",
+    "authors": [
+      "Tao Tang",
+      "Chengxu Yang"
+    ],
+    "published": "2025-07-14",
+    "abstract": "Pansharpening refers to the process of integrating a high resolution\npanchromatic (PAN) image with a lower resolution multispectral (MS) image to\ngenerate a fused product, which is pivotal in remote sensing. Despite the\neffectiveness of CNNs in addressing this challenge, they are inherently\nconstrained by the uniform application of convolutional kernels across all\nspatial positions, overlooking local content variations. To overcome this\nissue, we introduce RAPNet, a new architecture that leverages content-adaptive\nconvolution. At its core, RAPNet employs the Receptive-field Adaptive\nPansharpening Convolution (RAPConv), designed to produce spatially adaptive\nkernels responsive to local feature context, thereby enhancing the precision of\nspatial detail extraction. Additionally, the network integrates the\nPansharpening Dynamic Feature Fusion (PAN-DFF) module, which incorporates an\nattention mechanism to achieve an optimal balance between spatial detail\nenhancement and spectral fidelity. Comprehensive evaluations on publicly\navailable datasets confirm that RAPNet delivers superior performance compared\nto existing approaches, as demonstrated by both quantitative metrics and\nqualitative assessments. Ablation analyses further substantiate the\neffectiveness of the proposed adaptive components.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": []
+  },
+  {
+    "title": "A Transfer Learning-Based Method for Water Body Segmentation in Remote Sensing Imagery: A Case Study of the Zhada Tulin Area",
+    "url": "http://arxiv.org/abs/2507.10084v1",
+    "authors": [
+      "Haonan Chen",
+      "Xin Tong"
+    ],
+    "published": "2025-07-14",
+    "abstract": "To address the prevalent challenges of domain shift and small sample sizes in\nremote sensing image water body segmentation, this study proposes and validates\na two-stage transfer learning strategy based on the SegFormer model. The\napproach begins by training a foundational segmentation model on a diverse\nsource domain, where it achieves an Intersection over Union (IoU) of 68.80% on\nits validation set, followed by fine-tuning on data from the distinct target\ndomain. Focusing on the Zhada Tulin area in Tibet -- a region characterized by\nhighly complex topography and spectral features -- the experimental results\ndemonstrate that this strategy significantly boosts the IoU for the water body\nsegmentation task from 25.50% (for direct transfer) to 64.84%. This not only\neffectively resolves the model performance degradation caused by domain\ndiscrepancy but also provides an effective technical paradigm for\nhigh-precision thematic information extraction in data-scarce and\nenvironmentally unique remote sensing scenarios.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "A Multimodal Data Fusion Generative Adversarial Network for Real Time Underwater Sound Speed Field Construction",
+    "url": "http://arxiv.org/abs/2507.11812v1",
+    "authors": [
+      "Wei Huang",
+      "Yuqiang Huang",
+      "Yanan Wu",
+      "Tianhe Xu",
+      "Junting Wang",
+      "Hao Zhang"
+    ],
+    "published": "2025-07-16",
+    "abstract": "Sound speed profiles (SSPs) are essential parameters underwater that affects\nthe propagation mode of underwater signals and has a critical impact on the\nenergy efficiency of underwater acoustic communication and accuracy of\nunderwater acoustic positioning. Traditionally, SSPs can be obtained by\nmatching field processing (MFP), compressive sensing (CS), and deep learning\n(DL) methods. However, existing methods mainly rely on on-site underwater sonar\nobservation data, which put forward strict requirements on the deployment of\nsonar observation systems. To achieve high-precision estimation of sound\nvelocity distribution in a given sea area without on-site underwater data\nmeasurement, we propose a multi-modal data-fusion generative adversarial\nnetwork model with residual attention block (MDF-RAGAN) for SSP construction.\nTo improve the model's ability for capturing global spatial feature\ncorrelations, we embedded the attention mechanisms, and use residual modules\nfor deeply capturing small disturbances in the deep ocean sound velocity\ndistribution caused by changes of SST. Experimental results on real open\ndataset show that the proposed model outperforms other state-of-the-art\nmethods, which achieves an accuracy with an error of less than 0.3m/s.\nSpecifically, MDF-RAGAN not only outperforms convolutional neural network (CNN)\nand spatial interpolation (SITP) by nearly a factor of two, but also achieves\nabout 65.8\\% root mean square error (RMSE) reduction compared to mean profile,\nwhich fully reflects the enhancement of overall profile matching by\nmulti-source fusion and cross-modal attention.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": []
+  },
+  {
+    "title": "FourCastNet 3: A geometric approach to probabilistic machine-learning weather forecasting at scale",
+    "url": "http://arxiv.org/abs/2507.12144v1",
+    "authors": [
+      "Boris Bonev",
+      "Thorsten Kurth",
+      "Ankur Mahesh",
+      "Mauro Bisson",
+      "Jean Kossaifi",
+      "Karthik Kashinath",
+      "Anima Anandkumar",
+      "William D. Collins",
+      "Michael S. Pritchard",
+      "Alexander Keller"
+    ],
+    "published": "2025-07-16",
+    "abstract": "FourCastNet 3 advances global weather modeling by implementing a scalable,\ngeometric machine learning (ML) approach to probabilistic ensemble forecasting.\nThe approach is designed to respect spherical geometry and to accurately model\nthe spatially correlated probabilistic nature of the problem, resulting in\nstable spectra and realistic dynamics across multiple scales. FourCastNet 3\ndelivers forecasting accuracy that surpasses leading conventional ensemble\nmodels and rivals the best diffusion-based methods, while producing forecasts 8\nto 60 times faster than these approaches. In contrast to other ML approaches,\nFourCastNet 3 demonstrates excellent probabilistic calibration and retains\nrealistic spectra, even at extended lead times of up to 60 days. All of these\nadvances are realized using a purely convolutional neural network architecture\ntailored for spherical geometry. Scalable and efficient large-scale training on\n1024 GPUs and more is enabled by a novel training paradigm for combined model-\nand data-parallelism, inspired by domain decomposition methods in classical\nnumerical models. Additionally, FourCastNet 3 enables rapid inference on a\nsingle GPU, producing a 90-day global forecast at 0.25{\\deg}, 6-hourly\nresolution in under 20 seconds. Its computational efficiency, medium-range\nprobabilistic skill, spectral fidelity, and rollout stability at subseasonal\ntimescales make it a strong candidate for improving meteorological forecasting\nand early warning systems through large ensemble predictions.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Modernizing CNN-based Weather Forecast Model towards Higher Computational Efficiency",
+    "url": "http://arxiv.org/abs/2507.10893v1",
+    "authors": [
+      "Minjong Cheon",
+      "Eunhan Goo",
+      "Su-Hyeon Shin",
+      "Muhammad Ahmed",
+      "Hyungjun Kim"
+    ],
+    "published": "2025-07-15",
+    "abstract": "Recently, AI-based weather forecast models have achieved impressive advances.\nThese models have reached accuracy levels comparable to traditional NWP\nsystems, marking a significant milestone in data-driven weather prediction.\nHowever, they mostly leverage Transformer-based architectures, which often\nleads to high training complexity and resource demands due to the massive\nparameter sizes. In this study, we introduce a modernized CNN-based model for\nglobal weather forecasting that delivers competitive accuracy while\nsignificantly reducing computational requirements. To present a systematic\nmodernization roadmap, we highlight key architectural enhancements across\nmultiple design scales from an earlier CNN-based approach. KAI-a incorporates a\nscale-invariant architecture and InceptionNeXt-based blocks within a\ngeophysically-aware design, tailored to the structure of Earth system data.\nTrained on the ERA5 daily dataset with 67 atmospheric variables, the model\ncontains about 7 million parameters and completes training in just 12 hours on\na single NVIDIA L40s GPU. Our evaluation shows that KAI-a matches the\nperformance of state-of-the-art models in medium-range weather forecasting,\nwhile offering a significantly lightweight design. Furthermore, case studies on\nthe 2018 European heatwave and the East Asian summer monsoon demonstrate\nKAI-a's robust skill in capturing extreme events, reinforcing its practical\nutility.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Capturing Unseen Spatial Extremes Through Knowledge-Informed Generative Modeling",
+    "url": "http://arxiv.org/abs/2507.09211v1",
+    "authors": [
+      "Xinyue Liu",
+      "Xiao Peng",
+      "Shuyue Yan",
+      "Yuntian Chen",
+      "Dongxiao Zhang",
+      "Zhixiao Niu",
+      "Hui-Min Wang",
+      "Xiaogang He"
+    ],
+    "published": "2025-07-12",
+    "abstract": "Observed records of climate extremes provide an incomplete picture of risk,\nmissing \"unseen\" extremes that exceed historical bounds. In parallel,\nneglecting spatial dependence undervalues the risk of synchronized hazards that\namplify impacts. To address these challenges, we develop DeepX-GAN\n(Dependence-Enhanced Embedding for Physical eXtremes - Generative Adversarial\nNetwork), a knowledge-informed deep generative model designed to better capture\nthe spatial structure of rare extremes. The zero-shot generalizability of\nDeepX-GAN enables simulation of unseen extremes that fall outside historical\nexperience yet remain statistically plausible. We define two types of unseen\nextremes: \"checkmate\" extremes that directly hit targets, and \"stalemate\"\nextremes that narrowly miss. These unrealized scenarios expose latent risks in\nfragile systems and may reinforce a false sense of resilience if overlooked.\nNear misses, in particular, can prompt either proactive adaptation or dangerous\ncomplacency, depending on how they are interpreted. Applying DeepX-GAN to the\nMiddle East and North Africa (MENA), we find that these unseen extremes\ndisproportionately affect regions with high vulnerability and low socioeconomic\nreadiness, but differ in urgency and interpretation. Future warming could\nexpand and redistribute these unseen extremes, with emerging exposure hotspots\nin Indo-Pakistan and Central Africa. This distributional shift highlights\ncritical blind spots in conventional hazard planning and underscores the need\nto develop spatially adaptive policies that anticipate emergent risk hotspots\nrather than simply extrapolating from historical patterns.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "GAN"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Investigating the Robustness of Extreme Precipitation Super-Resolution Across Climates",
+    "url": "http://arxiv.org/abs/2507.09166v1",
+    "authors": [
+      "Louise Largeau",
+      "Erwan Koch",
+      "David Leutwyler",
+      "Gregoire Mariethoz",
+      "Valerie Chavez-Demoulin",
+      "Tom Beucler"
+    ],
+    "published": "2025-07-12",
+    "abstract": "The coarse spatial resolution of gridded climate models, such as general\ncirculation models, limits their direct use in projecting socially relevant\nvariables like extreme precipitation. Most downscaling methods estimate the\nconditional distributions of extremes by generating large ensembles,\ncomplicating the assessment of robustness under distributional shifts, such as\nthose induced by climate change. To better understand and potentially improve\nrobustness, we propose super-resolving the parameters of the target variable's\nprobability distribution directly using analytically tractable mappings. Within\na perfect-model framework over Switzerland, we demonstrate that vector\ngeneralized linear and additive models can super-resolve the generalized\nextreme value distribution of summer hourly precipitation extremes from coarse\nprecipitation fields and topography. We introduce the notion of a \"robustness\ngap\", defined as the difference in predictive error between present-trained and\nfuture-trained models, and use it to diagnose how model structure affects the\ngeneralization of each quantile to a pseudo-global warming scenario. By\nevaluating multiple model configurations, we also identify an upper limit on\nthe super-resolution factor based on the spatial auto- and cross-correlation of\nprecipitation and elevation, beyond which coarse precipitation loses predictive\nvalue. Our framework is broadly applicable to variables governed by parametric\ndistributions and offers a model-agnostic diagnostic for understanding when and\nwhy empirical downscaling generalizes to climate change and extremes.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Super-Resolution"
+    ]
+  },
+  {
+    "title": "Uncovering symmetric and asymmetric species associations from community and environmental data",
+    "url": "http://arxiv.org/abs/2507.09317v1",
+    "authors": [
+      "Sara Si-Moussi",
+      "Esther Galbrun",
+      "Mickael Hedde",
+      "Giovanni Poggiato",
+      "Matthias Rohr",
+      "Wilfried Thuiller"
+    ],
+    "published": "2025-07-12",
+    "abstract": "There is no much doubt that biotic interactions shape community assembly and\nultimately the spatial co-variations between species. There is a hope that the\nsignal of these biotic interactions can be observed and retrieved by\ninvestigating the spatial associations between species while accounting for the\ndirect effects of the environment. By definition, biotic interactions can be\nboth symmetric and asymmetric. Yet, most models that attempt to retrieve\nspecies associations from co-occurrence or co-abundance data internally assume\nsymmetric relationships between species. Here, we propose and validate a\nmachine-learning framework able to retrieve bidirectional associations by\nanalyzing species community and environmental data.\n  Our framework (1) models pairwise species associations as directed influences\nfrom a source to a target species, parameterized with two species-specific\nlatent embeddings: the effect of the source species on the community, and the\nresponse of the target species to the community; and (2) jointly fits these\nassociations within a multi-species conditional generative model with different\nmodes of interactions between environmental drivers and biotic associations.\nUsing both simulated and empirical data, we demonstrate the ability of our\nframework to recover known asymmetric and symmetric associations and highlight\nthe properties of the learned association networks. By comparing our approach\nto other existing models such as joint species distribution models and\nprobabilistic graphical models, we show its superior capacity at retrieving\nsymmetric and asymmetric interactions. The framework is intuitive, modular and\nbroadly applicable across various taxonomic groups.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [
+      "SDM"
+    ],
+    "applications": []
   }
 ]
