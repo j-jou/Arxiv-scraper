@@ -11801,5 +11801,228 @@
       "SDM"
     ],
     "applications": []
+  },
+  {
+    "title": "Enhancing Remote Sensing Vision-Language Models Through MLLM and LLM-Based High-Quality Image-Text Dataset Generation",
+    "url": "http://arxiv.org/abs/2507.16716v1",
+    "authors": [
+      "Yiguo He",
+      "Junjie Zhu",
+      "Yiying Li",
+      "Xiaoyu Zhang",
+      "Chunping Qiu",
+      "Jun Wang",
+      "Qiangjuan Huang",
+      "Ke Yang"
+    ],
+    "published": "2025-07-22",
+    "abstract": "The application of Vision-language foundation models (VLFMs) to remote\nsensing (RS) imagery has garnered significant attention due to their superior\ncapability in various downstream tasks. A key challenge lies in the scarcity of\nhigh-quality, large-scale, image-text paired training data. Recently, several\nworks introduced extensive image-text datasets for RS and trained their VLFMs.\nHowever, due to the rudimentary methods used for generating captions, the\nquality of datasets is suboptimal, requiring larger volumes of training data,\nwhile only yielding modest performance improvements. In this paper, we propose\na two-stage method named MpGI(Multi-Perspective Generation and Integration) for\ngenerating high-quality text captions for RS images. Firstly, we generate\ndistinct and detailed descriptions from different perspectives using\nRule-MLLM(Multimodal Large Language Model) Relay Generation and MLLMs\ngeneration methods. Next, we utilize Large Language Models (LLMs) to integrate\nthese diverse descriptions into comprehensive captions, capturing details from\nmultiple perspectives. Finally, we have created the HQRS-IT-210K dataset,\nincluding about 210,000 RS images and 1.3 million captions. We fine-tuned two\nVLFMs using our dataset: CLIP, a discriminative model, and CoCa, an\nimage-to-text generative model. This process resulted in our proposed HQRS-CLIP\nand RS-CoCa models. Experimental results demonstrate that HQRS-CLIP surpassed\nthe previous SOTA RS CLIP model in various downstream tasks while using only\n4.2\\% of the training data. RS-CoCa outperforms other advanced approaches\nacross benchmark datasets and can generate captions for RS images that rival or\neven exceed manual annotations. Dataset, pre-trained models, and codes will be\nreleased at https://github.com/YiguoHe/HQRS-210K-and-HQRS-CLIP.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "LLM",
+      "CLIP"
+    ],
+    "applications": []
+  },
+  {
+    "title": "A Comprehensive Review of Diffusion Models in Smart Agriculture: Progress, Applications, and Challenges",
+    "url": "http://arxiv.org/abs/2507.18376v1",
+    "authors": [
+      "Xing Hua",
+      "Haodong Chen",
+      "Qianqian Duan",
+      "Danfeng Hong",
+      "Ruijiao Li",
+      "Huiliang Shang",
+      "Linghua Jiang",
+      "Haima Yang",
+      "Dawei Zhang"
+    ],
+    "published": "2025-07-24",
+    "abstract": "With the global population growing and arable land resources becoming\nincreasingly scarce,smart agriculture and precision agriculture have emerged as\nkey directions for the future ofagricultural development.Artificial\nintelligence (AI) technologies, particularly deep learning models, have found\nwidespread applications in areas such as crop monitoring and pest detection. As\nan emerging generative model, diffusion models have shown significant promise\nin tasks like agricultural image processing, data augmentation, and remote\nsensing. Compared to traditional generative adversarial networks (GANs),\ndiffusion models offer superior training stability and generation quality,\neffectively addressing challenges such as limited agricultural data and\nimbalanced image samples. This paper reviews the latest advancements in the\napplication of diffusion models in agriculture, focusing on their potential in\ncrop pest and disease detection, remote sensing image enhancement, crop growth\nprediction, and agricultural resource management. Experimental results\ndemonstrate that diffusion models significantly improve model accuracy and\nrobustness in data augmentation, image generation, and denoising, especially in\ncomplex environments. Despite challenges related to computational efficiency\nand generalization capabilities, diffusion models are expected to play an\nincreasingly important role in smart and precision agriculture as technology\nadvances, providing substantial support for the sustainable development of\nglobal agriculture.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "GAN",
+      "Diffusion Models"
+    ],
+    "applications": [
+      "Detection",
+      "Image Generation",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Synthetic Data Matters: Re-training with Geo-typical Synthetic Labels for Building Detection",
+    "url": "http://arxiv.org/abs/2507.16657v1",
+    "authors": [
+      "Shuang Song",
+      "Yang Tang",
+      "Rongjun Qin"
+    ],
+    "published": "2025-07-22",
+    "abstract": "Deep learning has significantly advanced building segmentation in remote\nsensing, yet models struggle to generalize on data of diverse geographic\nregions due to variations in city layouts and the distribution of building\ntypes, sizes and locations. However, the amount of time-consuming annotated\ndata for capturing worldwide diversity may never catch up with the demands of\nincreasingly data-hungry models. Thus, we propose a novel approach: re-training\nmodels at test time using synthetic data tailored to the target region's city\nlayout. This method generates geo-typical synthetic data that closely\nreplicates the urban structure of a target area by leveraging geospatial data\nsuch as street network from OpenStreetMap. Using procedural modeling and\nphysics-based rendering, very high-resolution synthetic images are created,\nincorporating domain randomization in building shapes, materials, and\nenvironmental illumination. This enables the generation of virtually unlimited\ntraining samples that maintain the essential characteristics of the target\nenvironment. To overcome synthetic-to-real domain gaps, our approach integrates\ngeo-typical data into an adversarial domain adaptation framework for building\nsegmentation. Experiments demonstrate significant performance enhancements,\nwith median improvements of up to 12%, depending on the domain gap. This\nscalable and cost-effective method blends partial geographic knowledge with\nsynthetic imagery, providing a promising solution to the \"model collapse\" issue\nin purely synthetic datasets. It offers a practical pathway to improving\ngeneralization in remote sensing building segmentation without extensive\nreal-world annotations.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "MONITRS: Multimodal Observations of Natural Incidents Through Remote Sensing",
+    "url": "http://arxiv.org/abs/2507.16228v1",
+    "authors": [
+      "Shreelekha Revankar",
+      "Utkarsh Mall",
+      "Cheng Perng Phoo",
+      "Kavita Bala",
+      "Bharath Hariharan"
+    ],
+    "published": "2025-07-22",
+    "abstract": "Natural disasters cause devastating damage to communities and infrastructure\nevery year. Effective disaster response is hampered by the difficulty of\naccessing affected areas during and after events. Remote sensing has allowed us\nto monitor natural disasters in a remote way. More recently there have been\nadvances in computer vision and deep learning that help automate satellite\nimagery analysis, However, they remain limited by their narrow focus on\nspecific disaster types, reliance on manual expert interpretation, and lack of\ndatasets with sufficient temporal granularity or natural language annotations\nfor tracking disaster progression. We present MONITRS, a novel multimodal\ndataset of more than 10,000 FEMA disaster events with temporal satellite\nimagery and natural language annotations from news articles, accompanied by\ngeotagged locations, and question-answer pairs. We demonstrate that fine-tuning\nexisting MLLMs on our dataset yields significant performance improvements for\ndisaster monitoring tasks, establishing a new benchmark for machine\nlearning-assisted disaster response systems. Code can be found at:\nhttps://github.com/ShreelekhaR/MONITRS",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Tracking"
+    ]
+  },
+  {
+    "title": "Post-Disaster Affected Area Segmentation with a Vision Transformer (ViT)-based EVAP Model using Sentinel-2 and Formosat-5 Imagery",
+    "url": "http://arxiv.org/abs/2507.16849v1",
+    "authors": [
+      "Yi-Shan Chu",
+      "Hsuan-Cheng Wei"
+    ],
+    "published": "2025-07-21",
+    "abstract": "We propose a vision transformer (ViT)-based deep learning framework to refine\ndisaster-affected area segmentation from remote sensing imagery, aiming to\nsupport and enhance the Emergent Value Added Product (EVAP) developed by the\nTaiwan Space Agency (TASA). The process starts with a small set of manually\nannotated regions. We then apply principal component analysis (PCA)-based\nfeature space analysis and construct a confidence index (CI) to expand these\nlabels, producing a weakly supervised training set. These expanded labels are\nthen used to train ViT-based encoder-decoder models with multi-band inputs from\nSentinel-2 and Formosat-5 imagery. Our architecture supports multiple decoder\nvariants and multi-stage loss strategies to improve performance under limited\nsupervision. During the evaluation, model predictions are compared with\nhigher-resolution EVAP output to assess spatial coherence and segmentation\nconsistency. Case studies on the 2022 Poyang Lake drought and the 2023 Rhodes\nwildfire demonstrate that our framework improves the smoothness and reliability\nof segmentation results, offering a scalable approach for disaster mapping when\naccurate ground truth is unavailable.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Segmentation",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Comparison of Segmentation Methods in Remote Sensing for Land Use Land Cover",
+    "url": "http://arxiv.org/abs/2507.18099v1",
+    "authors": [
+      "Naman Srivastava",
+      "Joel D Joy",
+      "Yash Dixit",
+      "Swarup E",
+      "Rakshit Ramesh"
+    ],
+    "published": "2025-07-24",
+    "abstract": "Land Use Land Cover (LULC) mapping is essential for urban and resource\nplanning, and is one of the key elements in developing smart and sustainable\ncities.This study evaluates advanced LULC mapping techniques, focusing on\nLook-Up Table (LUT)-based Atmospheric Correction applied to Cartosat\nMultispectral (MX) sensor images, followed by supervised and semi-supervised\nlearning models for LULC prediction. We explore DeeplabV3+ and Cross-Pseudo\nSupervision (CPS). The CPS model is further refined with dynamic weighting,\nenhancing pseudo-label reliability during training. This comprehensive approach\nanalyses the accuracy and utility of LULC mapping techniques for various urban\nplanning applications. A case study of Hyderabad, India, illustrates\nsignificant land use changes due to rapid urbanization. By analyzing Cartosat\nMX images over time, we highlight shifts such as urban sprawl, shrinking green\nspaces, and expanding industrial areas. This demonstrates the practical utility\nof these techniques for urban planners and policymakers.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Multiscale Neural PDE Surrogates for Prediction and Downscaling: Application to Ocean Currents",
+    "url": "http://arxiv.org/abs/2507.18067v1",
+    "authors": [
+      "Abdessamad El-Kabid",
+      "Loubna Benabbou",
+      "Redouane Lguensat",
+      "Alex Hern\u00e1ndez-Garc\u00eda"
+    ],
+    "published": "2025-07-24",
+    "abstract": "Accurate modeling of physical systems governed by partial differential\nequations is a central challenge in scientific computing. In oceanography,\nhigh-resolution current data are critical for coastal management, environmental\nmonitoring, and maritime safety. However, available satellite products, such as\nCopernicus data for sea water velocity at ~0.08 degrees spatial resolution and\nglobal ocean models, often lack the spatial granularity required for detailed\nlocal analyses. In this work, we (a) introduce a supervised deep learning\nframework based on neural operators for solving PDEs and providing arbitrary\nresolution solutions, and (b) propose downscaling models with an application to\nCopernicus ocean current data. Additionally, our method can model surrogate\nPDEs and predict solutions at arbitrary resolution, regardless of the input\nresolution. We evaluated our model on real-world Copernicus ocean current data\nand synthetic Navier-Stokes simulation datasets.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Bayesian Deep Learning for Convective Initiation Nowcasting Uncertainty Estimation",
+    "url": "http://arxiv.org/abs/2507.16219v1",
+    "authors": [
+      "Da Fan",
+      "David John Gagne II",
+      "Steven J. Greybush",
+      "Eugene E. Clothiaux",
+      "John S. Schreck",
+      "Chaopeng Shen"
+    ],
+    "published": "2025-07-22",
+    "abstract": "This study evaluated the probability and uncertainty forecasts of five\nrecently proposed Bayesian deep learning methods relative to a deterministic\nresidual neural network (ResNet) baseline for 0-1 h convective initiation (CI)\nnowcasting using GOES-16 satellite infrared observations. Uncertainty was\nassessed by how well probabilistic forecasts were calibrated and how well\nuncertainty separated forecasts with large and small errors. Most of the\nBayesian deep learning methods produced probabilistic forecasts that\noutperformed the deterministic ResNet, with one, the initial-weights ensemble +\nMonte Carlo (MC) dropout, an ensemble of deterministic ResNets with different\ninitial weights to start training and dropout activated during inference,\nproducing the most skillful and well-calibrated forecasts. The initial-weights\nensemble + MC dropout benefited from generating multiple solutions that more\nthoroughly sampled the hypothesis space. The Bayesian ResNet ensemble was the\nonly one that performed worse than the deterministic ResNet at longer lead\ntimes, likely due to the challenge of optimizing a larger number of parameters.\nTo address this issue, the Bayesian-MOPED (MOdel Priors with Empirical Bayes\nusing Deep neural network) ResNet ensemble was adopted, and it enhanced\nforecast skill by constraining the hypothesis search near the deterministic\nResNet hypothesis. All Bayesian methods demonstrated well-calibrated\nuncertainty and effectively separated cases with large and small errors. In\ncase studies, the initial-weights ensemble + MC dropout demonstrated better\nforecast skill than the Bayesian-MOPED ensemble and the deterministic ResNet on\nselected CI events in clear-sky regions. However, the initial-weights ensemble\n+ MC dropout exhibited poorer generalization in clear-sky and anvil cloud\nregions without CI occurrence compared to the deterministic ResNet and\nBayesian-MOPED ensemble.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "ResNet",
+      "Deep Neural Network"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "A comparison of stretched-grid and limited-area modelling for data-driven regional weather forecasting",
+    "url": "http://arxiv.org/abs/2507.18378v1",
+    "authors": [
+      "Jasper S. Wijnands",
+      "Michiel Van Ginderachter",
+      "Bastien Fran\u00e7ois",
+      "Sophie Buurman",
+      "Piet Termonia",
+      "Dieter Van den Bleeken"
+    ],
+    "published": "2025-07-24",
+    "abstract": "Regional machine learning weather prediction (MLWP) models based on graph\nneural networks have recently demonstrated remarkable predictive accuracy,\noutperforming numerical weather prediction models at lower computational costs.\nIn particular, limited-area model (LAM) and stretched-grid model (SGM)\napproaches have emerged for generating high-resolution regional forecasts,\nbased on initial conditions from a regional (re)analysis. While LAM uses\nlateral boundaries from an external global model, SGM incorporates a global\ndomain at lower resolution. This study aims to understand how the differences\nin model design impact relative performance and potential applications.\nSpecifically, the strengths and weaknesses of these two approaches are\nidentified for generating deterministic regional forecasts over Europe. Using\nthe Anemoi framework, models of both types are built by minimally adapting a\nshared architecture and trained using global and regional reanalyses in a\nnear-identical setup. Several inference experiments have been conducted to\nexplore their relative performance and highlight key differences. Results show\nthat both LAM and SGM are competitive deterministic MLWP models with generally\naccurate and comparable forecasting performance over the regional domain.\nVarious differences were identified in the performance of the models across\napplications. LAM is able to successfully exploit high-quality boundary\nforcings to make predictions within the regional domain and is suitable in\ncontexts where global data is difficult to acquire. SGM is fully self-contained\nfor easier operationalisation, can take advantage of more training data and\nsignificantly surpasses LAM in terms of (temporal) generalisability. Our paper\ncan serve as a starting point for meteorological institutes to guide their\nchoice between LAM and SGM in developing an operational data-driven forecasting\nsystem.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "EarthLink: A Self-Evolving AI Agent for Climate Science",
+    "url": "http://arxiv.org/abs/2507.17311v2",
+    "authors": [
+      "Zijie Guo",
+      "Jiong Wang",
+      "Xiaoyu Yue",
+      "Wangxu Wei",
+      "Zhe Jiang",
+      "Wanghan Xu",
+      "Ben Fei",
+      "Wenlong Zhang",
+      "Xinyu Gu",
+      "Lijing Cheng",
+      "Jing-Jia Luo",
+      "Chao Li",
+      "Yaqiang Wang",
+      "Tao Chen",
+      "Wanli Ouyang",
+      "Fenghua Ling",
+      "Lei Bai"
+    ],
+    "published": "2025-07-23",
+    "abstract": "Modern Earth science is at an inflection point. The vast, fragmented, and\ncomplex nature of Earth system data, coupled with increasingly sophisticated\nanalytical demands, creates a significant bottleneck for rapid scientific\ndiscovery. Here we introduce EarthLink, the first AI agent designed as an\ninteractive copilot for Earth scientists. It automates the end-to-end research\nworkflow, from planning and code generation to multi-scenario analysis. Unlike\nstatic diagnostic tools, EarthLink can learn from user interaction,\ncontinuously refining its capabilities through a dynamic feedback loop. We\nvalidated its performance on a number of core scientific tasks of climate\nchange, ranging from model-observation comparisons to the diagnosis of complex\nphenomena. In a multi-expert evaluation, EarthLink produced scientifically\nsound analyses and demonstrated an analytical competency that was rated as\ncomparable to specific aspects of a human junior researcher's workflow.\nAdditionally, its transparent, auditable workflows and natural language\ninterface empower scientists to shift from laborious manual execution to\nstrategic oversight and hypothesis generation. EarthLink marks a pivotal step\ntowards an efficient, trustworthy, and collaborative paradigm for Earth system\nresearch in an era of accelerating global change. The system is accessible at\nour website https://earthlink.intern-ai.org.cn.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
   }
 ]
