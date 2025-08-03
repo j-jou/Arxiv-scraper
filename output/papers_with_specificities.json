@@ -12024,5 +12024,217 @@
     ],
     "architectures": [],
     "applications": []
+  },
+  {
+    "title": "MergeSAM: Unsupervised change detection of remote sensing images based on the Segment Anything Model",
+    "url": "http://arxiv.org/abs/2507.22675v1",
+    "authors": [
+      "Meiqi Hu",
+      "Lingzhi Lu",
+      "Chengxi Han",
+      "Xiaoping Liu"
+    ],
+    "published": "2025-07-30",
+    "abstract": "Recently, large foundation models trained on vast datasets have demonstrated\nexceptional capabilities in feature extraction and general feature\nrepresentation. The ongoing advancements in deep learning-driven large models\nhave shown great promise in accelerating unsupervised change detection methods,\nthereby enhancing the practical applicability of change detection technologies.\nBuilding on this progress, this paper introduces MergeSAM, an innovative\nunsupervised change detection method for high-resolution remote sensing\nimagery, based on the Segment Anything Model (SAM). Two novel strategies,\nMaskMatching and MaskSplitting, are designed to address real-world complexities\nsuch as object splitting, merging, and other intricate changes. The proposed\nmethod fully leverages SAM's object segmentation capabilities to construct\nmultitemporal masks that capture complex changes, embedding the spatial\nstructure of land cover into the change detection process.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection"
+    ]
+  },
+  {
+    "title": "RingMo-Agent: A Unified Remote Sensing Foundation Model for Multi-Platform and Multi-Modal Reasoning",
+    "url": "http://arxiv.org/abs/2507.20776v1",
+    "authors": [
+      "Huiyang Hu",
+      "Peijin Wang",
+      "Yingchao Feng",
+      "Kaiwen Wei",
+      "Wenxin Yin",
+      "Wenhui Diao",
+      "Mengyu Wang",
+      "Hanbo Bi",
+      "Kaiyue Kang",
+      "Tong Ling",
+      "Kun Fu",
+      "Xian Sun"
+    ],
+    "published": "2025-07-28",
+    "abstract": "Remote sensing (RS) images from multiple modalities and platforms exhibit\ndiverse details due to differences in sensor characteristics and imaging\nperspectives. Existing vision-language research in RS largely relies on\nrelatively homogeneous data sources. Moreover, they still remain limited to\nconventional visual perception tasks such as classification or captioning. As a\nresult, these methods fail to serve as a unified and standalone framework\ncapable of effectively handling RS imagery from diverse sources in real-world\napplications. To address these issues, we propose RingMo-Agent, a model\ndesigned to handle multi-modal and multi-platform data that performs perception\nand reasoning tasks based on user textual instructions. Compared with existing\nmodels, RingMo-Agent 1) is supported by a large-scale vision-language dataset\nnamed RS-VL3M, comprising over 3 million image-text pairs, spanning optical,\nSAR, and infrared (IR) modalities collected from both satellite and UAV\nplatforms, covering perception and challenging reasoning tasks; 2) learns\nmodality adaptive representations by incorporating separated embedding layers\nto construct isolated features for heterogeneous modalities and reduce\ncross-modal interference; 3) unifies task modeling by introducing task-specific\ntokens and employing a token-based high-dimensional hidden state decoding\nmechanism designed for long-horizon spatial tasks. Extensive experiments on\nvarious RS vision-language tasks demonstrate that RingMo-Agent not only proves\neffective in both visual understanding and sophisticated analytical tasks, but\nalso exhibits strong generalizability across different platforms and sensing\nmodalities.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data",
+    "url": "http://arxiv.org/abs/2507.22291v1",
+    "authors": [
+      "Christopher F. Brown",
+      "Michal R. Kazmierski",
+      "Valerie J. Pasquarella",
+      "William J. Rucklidge",
+      "Masha Samsikova",
+      "Chenhui Zhang",
+      "Evan Shelhamer",
+      "Estefania Lahera",
+      "Olivia Wiles",
+      "Simon Ilyushchenko",
+      "Noel Gorelick",
+      "Lihui Lydia Zhang",
+      "Sophia Alj",
+      "Emily Schechter",
+      "Sean Askay",
+      "Oliver Guinan",
+      "Rebecca Moore",
+      "Alexis Boukouvalas",
+      "Pushmeet Kohli"
+    ],
+    "published": "2025-07-29",
+    "abstract": "Unprecedented volumes of Earth observation data are continually collected\naround the world, but high-quality labels remain scarce given the effort\nrequired to make physical measurements and observations. This has led to\nconsiderable investment in bespoke modeling efforts translating sparse labels\ninto maps. Here we introduce AlphaEarth Foundations, an embedding field model\nyielding a highly general, geospatial representation that assimilates spatial,\ntemporal, and measurement contexts across multiple sources, enabling accurate\nand efficient production of maps and monitoring systems from local to global\nscales. The embeddings generated by AlphaEarth Foundations are the only to\nconsistently outperform all previous featurization approaches tested on a\ndiverse set of mapping evaluations without re-training. We will release a\ndataset of global, annual, analysis-ready embedding field layers from 2017\nthrough 2024.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "SCANet: Split Coordinate Attention Network for Building Footprint Extraction",
+    "url": "http://arxiv.org/abs/2507.20809v1",
+    "authors": [
+      "Chunshi Wang",
+      "Bin Zhao",
+      "Shuxue Ding"
+    ],
+    "published": "2025-07-28",
+    "abstract": "Building footprint extraction holds immense significance in remote sensing\nimage analysis and has great value in urban planning, land use, environmental\nprotection and disaster assessment. Despite the progress made by conventional\nand deep learning approaches in this field, they continue to encounter\nsignificant challenges. This paper introduces a novel plug-and-play attention\nmodule, Split Coordinate Attention (SCA), which ingeniously captures spatially\nremote interactions by employing two spatial range of pooling kernels,\nstrategically encoding each channel along x and y planes, and separately\nperforms a series of split operations for each feature group, thus enabling\nmore efficient semantic feature extraction. By inserting into a 2D CNN to form\nan effective SCANet, our SCANet outperforms recent SOTA methods on the public\nWuhan University (WHU) Building Dataset and Massachusetts Building Dataset in\nterms of various metrics. Particularly SCANet achieves the best IoU, 91.61% and\n75.49% for the two datasets. Our code is available at\nhttps://github.com/AiEson/SCANet",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Lightweight Remote Sensing Scene Classification on Edge Devices via Knowledge Distillation and Early-exit",
+    "url": "http://arxiv.org/abs/2507.20623v1",
+    "authors": [
+      "Yang Zhao",
+      "Shusheng Li",
+      "Xueshang Feng"
+    ],
+    "published": "2025-07-28",
+    "abstract": "As the development of lightweight deep learning algorithms, various deep\nneural network (DNN) models have been proposed for the remote sensing scene\nclassification (RSSC) application. However, it is still challenging for these\nRSSC models to achieve optimal performance among model accuracy, inference\nlatency, and energy consumption on resource-constrained edge devices. In this\npaper, we propose a lightweight RSSC framework, which includes a distilled\nglobal filter network (GFNet) model and an early-exit mechanism designed for\nedge devices to achieve state-of-the-art performance. Specifically, we first\napply frequency domain distillation on the GFNet model to reduce model size.\nThen we design a dynamic early-exit model tailored for DNN models on edge\ndevices to further improve model inference efficiency. We evaluate our E3C\nmodel on three edge devices across four datasets. Extensive experimental\nresults show that it achieves an average of 1.3x speedup on model inference and\nover 40% improvement on energy efficiency, while maintaining high\nclassification accuracy.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "FuseTen: A Generative Model for Daily 10 m Land Surface Temperature Estimation from Spatio-Temporal Satellite Observations",
+    "url": "http://arxiv.org/abs/2507.23154v1",
+    "authors": [
+      "Sofiane Bouaziz",
+      "Adel Hafiane",
+      "Raphael Canals",
+      "Rachid Nedjai"
+    ],
+    "published": "2025-07-30",
+    "abstract": "Urban heatwaves, droughts, and land degradation are pressing and growing\nchallenges in the context of climate change. A valuable approach to studying\nthem requires accurate spatio-temporal information on land surface conditions.\nOne of the most important variables for assessing and understanding these\nphenomena is Land Surface Temperature (LST), which is derived from satellites\nand provides essential information about the thermal state of the Earth's\nsurface. However, satellite platforms inherently face a trade-off between\nspatial and temporal resolutions. To bridge this gap, we propose FuseTen, a\nnovel generative framework that produces daily LST observations at a fine 10 m\nspatial resolution by fusing spatio-temporal observations derived from\nSentinel-2, Landsat 8, and Terra MODIS. FuseTen employs a generative\narchitecture trained using an averaging-based supervision strategy grounded in\nphysical principles. It incorporates attention and normalization modules within\nthe fusion process and uses a PatchGAN discriminator to enforce realism.\nExperiments across multiple dates show that FuseTen outperforms linear\nbaselines, with an average 32.06% improvement in quantitative metrics and\n31.42% in visual fidelity. To the best of our knowledge, this is the first\nnon-linear method to generate daily LST estimates at such fine spatial\nresolution.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "SpecBPP: A Self-Supervised Learning Approach for Hyperspectral Representation and Soil Organic Carbon Estimation",
+    "url": "http://arxiv.org/abs/2507.19781v1",
+    "authors": [
+      "Daniel La'ah Ayuba",
+      "Jean-Yves Guillemaut",
+      "Belen Marti-Cardona",
+      "Oscar Mendez Maldonado"
+    ],
+    "published": "2025-07-26",
+    "abstract": "Self-supervised learning has revolutionized representation learning in vision\nand language, but remains underexplored for hyperspectral imagery (HSI), where\nthe sequential structure of spectral bands offers unique opportunities. In this\nwork, we propose Spectral Band Permutation Prediction (SpecBPP), a novel\nself-supervised learning framework that leverages the inherent spectral\ncontinuity in HSI. Instead of reconstructing masked bands, SpecBPP challenges a\nmodel to recover the correct order of shuffled spectral segments, encouraging\nglobal spectral understanding. We implement a curriculum-based training\nstrategy that progressively increases permutation difficulty to manage the\nfactorial complexity of the permutation space. Applied to Soil Organic Carbon\n(SOC) estimation using EnMAP satellite data, our method achieves\nstate-of-the-art results, outperforming both masked autoencoder (MAE) and\njoint-embedding predictive (JEPA) baselines. Fine-tuned on limited labeled\nsamples, our model yields an $R^2$ of 0.9456, RMSE of 1.1053%, and RPD of 4.19,\nsignificantly surpassing traditional and self-supervised benchmarks. Our\nresults demonstrate that spectral order prediction is a powerful pretext task\nfor hyperspectral understanding, opening new avenues for scientific\nrepresentation learning in remote sensing and beyond.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "JEPA",
+      "Autoencoder"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Discrete Gaussian Vector Fields On Meshes",
+    "url": "http://arxiv.org/abs/2507.20024v1",
+    "authors": [
+      "Michael Gillan",
+      "Stefan Siegert",
+      "Ben Youngman"
+    ],
+    "published": "2025-07-26",
+    "abstract": "Though the underlying fields associated with vector-valued environmental data\nare continuous, observations themselves are discrete. For example, climate\nmodels typically output grid-based representations of wind fields or ocean\ncurrents, and these are often downscaled to a discrete set of points. By\ntreating the area of interest as a two-dimensional manifold that can be\nrepresented as a triangular mesh and embedded in Euclidean space, this work\nshows that discrete intrinsic Gaussian processes for vector-valued data can be\ndeveloped from discrete differential operators defined with respect to a mesh.\nThese Gaussian processes account for the geometry and curvature of the manifold\nwhilst also providing a flexible and practical formulation that can be readily\napplied to any two-dimensional mesh. We show that these models can capture\nharmonic flows, incorporate boundary conditions, and model non-stationary data.\nFinally, we apply these models to downscaling stationary and non-stationary\ngridded wind data on the globe, and to inference of ocean currents from sparse\nobservations in bounded domains.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "A Machine Learning Framework for Predicting Microphysical Properties of Ice Crystals from Cloud Particle Imagery",
+    "url": "http://arxiv.org/abs/2507.19759v1",
+    "authors": [
+      "Joseph Ko",
+      "Jerry Harrington",
+      "Kara Sulia",
+      "Vanessa Przybylo",
+      "Marcus van Lier-Walqui",
+      "Kara Lamb"
+    ],
+    "published": "2025-07-26",
+    "abstract": "The microphysical properties of ice crystals are important because they\nsignificantly alter the radiative properties and spatiotemporal distributions\nof clouds, which in turn strongly affect Earth's climate. However, it is\nchallenging to measure key properties of ice crystals, such as mass or\nmorphological features. Here, we present a framework for predicting\nthree-dimensional (3D) microphysical properties of ice crystals from in situ\ntwo-dimensional (2D) imagery. First, we computationally generate synthetic ice\ncrystals using 3D modeling software along with geometric parameters estimated\nfrom the 2021 Ice Cryo-Encapsulation Balloon (ICEBall) field campaign. Then, we\nuse synthetic crystals to train machine learning (ML) models to predict\neffective density ($\\rho_{e}$), effective surface area ($A_e$), and number of\nbullets ($N_b$) from synthetic rosette imagery. When tested on unseen synthetic\nimages, we find that our ML models can predict microphysical properties with\nhigh accuracy. For $\\rho_{e}$ and $A_e$, respectively, our best-performing\nsingle view models achieved $R^2$ values of 0.99 and 0.98. For $N_b$, our best\nsingle view model achieved a balanced accuracy and F1 score of 0.91. We also\nquantify the marginal prediction improvements from incorporating a second view.\nA stereo view ResNet-18 model reduced RMSE by 40% for both $\\rho_e$ and $A_e$,\nrelative to a single view ResNet-18 model. For $N_b$, we find that a stereo\nview ResNet-18 model improved the F1 score by 8%. This work provides a novel\nML-driven framework for estimating ice microphysical properties from in situ\nimagery, which will allow for downstream constraints on microphysical\nparameterizations, such as the mass-size relationship.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "ResNet"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Integrating Activity Predictions in Knowledge Graphs",
+    "url": "http://arxiv.org/abs/2507.19733v1",
+    "authors": [
+      "Alec Sculley",
+      "Cameron Stockton",
+      "Forrest Hare"
+    ],
+    "published": "2025-07-26",
+    "abstract": "We argue that ontology-structured knowledge graphs can play a crucial role in\ngenerating predictions about future events. By leveraging the semantic\nframework provided by Basic Formal Ontology (BFO) and Common Core Ontologies\n(CCO), we demonstrate how data such as the movements of a fishing vessel can be\norganized in and retrieved from a knowledge graph. These query results are then\nused to create Markov chain models, allowing us to predict future states based\non the vessel's history. To fully support this process, we introduce the term\n`spatiotemporal instant' to complete the necessary structural semantics.\nAdditionally, we critique the prevailing ontological model of probability,\nwhich conflates probability with likelihood and relies on the problematic\nconcept of modal measurements: measurements of future entities. We propose an\nalternative view, where probabilities are treated as being about process\nprofiles, which better captures the dynamics of real world phenomena. Finally,\nwe demonstrate how our Markov chain based probability calculations can be\nseamlessly integrated back into the knowledge graph, enabling further analysis\nand decision-making. Keywords: predictive analytics, ontology, Markov chains,\nprobability, Basic Formal Ontology (BFO), knowledge graphs, SPARQL.",
+    "categories": [
+      "ship_trajectories"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
   }
 ]
