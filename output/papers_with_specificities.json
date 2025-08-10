@@ -12236,5 +12236,319 @@
     "applications": [
       "Forecast"
     ]
+  },
+  {
+    "title": "SAM2-UNeXT: An Improved High-Resolution Baseline for Adapting Foundation Models to Downstream Segmentation Tasks",
+    "url": "http://arxiv.org/abs/2508.03566v1",
+    "authors": [
+      "Xinyu Xiong",
+      "Zihuang Wu",
+      "Lei Zhang",
+      "Lei Lu",
+      "Ming Li",
+      "Guanbin Li"
+    ],
+    "published": "2025-08-05",
+    "abstract": "Recent studies have highlighted the potential of adapting the Segment\nAnything Model (SAM) for various downstream tasks. However, constructing a more\npowerful and generalizable encoder to further enhance performance remains an\nopen challenge. In this work, we propose SAM2-UNeXT, an advanced framework that\nbuilds upon the core principles of SAM2-UNet while extending the\nrepresentational capacity of SAM2 through the integration of an auxiliary\nDINOv2 encoder. By incorporating a dual-resolution strategy and a dense glue\nlayer, our approach enables more accurate segmentation with a simple\narchitecture, relaxing the need for complex decoder designs. Extensive\nexperiments conducted on four benchmarks, including dichotomous image\nsegmentation, camouflaged object detection, marine animal segmentation, and\nremote sensing saliency detection, demonstrate the superior performance of our\nproposed method. The code is available at\nhttps://github.com/WZH0120/SAM2-UNeXT.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": [
+      "Segmentation",
+      "Detection"
+    ]
+  },
+  {
+    "title": "SpectralX: Parameter-efficient Domain Generalization for Spectral Remote Sensing Foundation Models",
+    "url": "http://arxiv.org/abs/2508.01731v1",
+    "authors": [
+      "Yuxiang Zhang",
+      "Wei Li",
+      "Mengmeng Zhang",
+      "Jiawei Han",
+      "Ran Tao",
+      "Shunlin Liang"
+    ],
+    "published": "2025-08-03",
+    "abstract": "Recent advances in Remote Sensing Foundation Models (RSFMs) have led to\nsignificant breakthroughs in the field. While many RSFMs have been pretrained\nwith massive optical imagery, more multispectral/hyperspectral data remain lack\nof the corresponding foundation models. To leverage the advantages of spectral\nimagery in earth observation, we explore whether existing RSFMs can be\neffectively adapted to process diverse spectral modalities without requiring\nextensive spectral pretraining. In response to this challenge, we proposed\nSpectralX, an innovative parameter-efficient fine-tuning framework that adapt\nexisting RSFMs as backbone while introducing a two-stage training approach to\nhandle various spectral inputs, thereby significantly improving domain\ngeneralization performance. In the first stage, we employ a\nmasked-reconstruction task and design a specialized Hyper Tokenizer (HyperT) to\nextract attribute tokens from both spatial and spectral dimensions.\nSimultaneously, we develop an Attribute-oriented Mixture of Adapter (AoMoA)\nthat dynamically aggregates multi-attribute expert knowledge while performing\nlayer-wise fine-tuning. With semantic segmentation as downstream task in the\nsecond stage, we insert an Attribute-refined Adapter (Are-adapter) into the\nfirst stage framework. By iteratively querying low-level semantic features with\nhigh-level representations, the model learns to focus on task-beneficial\nattributes, enabling customized adjustment of RSFMs. Following this two-phase\nadaptation process, SpectralX is capable of interpreting spectral imagery from\nnew regions or seasons. The codes will be available from the website:\nhttps://github.com/YuxiangZhang-BIT.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "Wavelet-Guided Dual-Frequency Encoding for Remote Sensing Change Detection",
+    "url": "http://arxiv.org/abs/2508.05271v1",
+    "authors": [
+      "Xiaoyang Zhang",
+      "Guodong Fan",
+      "Guang-Yong Chen",
+      "Zhen Hua",
+      "Jinjiang Li",
+      "Min Gan",
+      "C. L. Philip Chen"
+    ],
+    "published": "2025-08-07",
+    "abstract": "Change detection in remote sensing imagery plays a vital role in various\nengineering applications, such as natural disaster monitoring, urban expansion\ntracking, and infrastructure management. Despite the remarkable progress of\ndeep learning in recent years, most existing methods still rely on\nspatial-domain modeling, where the limited diversity of feature representations\nhinders the detection of subtle change regions. We observe that\nfrequency-domain feature modeling particularly in the wavelet domain an amplify\nfine-grained differences in frequency components, enhancing the perception of\nedge changes that are challenging to capture in the spatial domain. Thus, we\npropose a method called Wavelet-Guided Dual-Frequency Encoding (WGDF).\nSpecifically, we first apply Discrete Wavelet Transform (DWT) to decompose the\ninput images into high-frequency and low-frequency components, which are used\nto model local details and global structures, respectively. In the\nhigh-frequency branch, we design a Dual-Frequency Feature Enhancement (DFFE)\nmodule to strengthen edge detail representation and introduce a\nFrequency-Domain Interactive Difference (FDID) module to enhance the modeling\nof fine-grained changes. In the low-frequency branch, we exploit Transformers\nto capture global semantic relationships and employ a Progressive Contextual\nDifference Module (PCDM) to progressively refine change regions, enabling\nprecise structural semantic characterization. Finally, the high- and\nlow-frequency features are synergistically fused to unify local sensitivity\nwith global discriminability. Extensive experiments on multiple remote sensing\ndatasets demonstrate that WGDF significantly alleviates edge ambiguity and\nachieves superior detection accuracy and robustness compared to\nstate-of-the-art methods. The code will be available at\nhttps://github.com/boshizhang123/WGDF.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Detection",
+      "Tracking"
+    ]
+  },
+  {
+    "title": "Deep learning framework for crater detection and identification on the Moon and Mars",
+    "url": "http://arxiv.org/abs/2508.03920v1",
+    "authors": [
+      "Yihan Ma",
+      "Zeyang Yu",
+      "Rohitash Chandra"
+    ],
+    "published": "2025-08-05",
+    "abstract": "Impact craters are among the most prominent geomorphological features on\nplanetary surfaces and are of substantial significance in planetary science\nresearch. Their spatial distribution and morphological characteristics provide\ncritical information on planetary surface composition, geological history, and\nimpact processes. In recent years, the rapid advancement of deep learning\nmodels has fostered significant interest in automated crater detection. In this\npaper, we apply advancements in deep learning models for impact crater\ndetection and identification. We use novel models, including Convolutional\nNeural Networks (CNNs) and variants such as YOLO and ResNet. We present a\nframework that features a two-stage approach where the first stage features\ncrater identification using simple classic CNN, ResNet-50 and YOLO. In the\nsecond stage, our framework employs YOLO-based detection for crater\nlocalisation. Therefore, we detect and identify different types of craters and\npresent a summary report with remote sensing data for a selected region. We\nconsider selected regions for craters and identification from Mars and the Moon\nbased on remote sensing data. Our results indicate that YOLO demonstrates the\nmost balanced crater detection performance, while ResNet-50 excels in\nidentifying large craters with high precision.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "ResNet"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "U-PINet: End-to-End Hierarchical Physics-Informed Learning With Sparse Graph Coupling for 3D EM Scattering Modeling",
+    "url": "http://arxiv.org/abs/2508.03774v1",
+    "authors": [
+      "Rui Zhu",
+      "Yuexing Peng",
+      "Peng Wang",
+      "George C. Alexandropoulos",
+      "Wenbo Wang",
+      "Wei Xiang"
+    ],
+    "published": "2025-08-05",
+    "abstract": "Electromagnetic (EM) scattering modeling is critical for radar remote\nsensing, however, its inherent complexity introduces significant computational\nchallenges. Traditional numerical solvers offer high accuracy, but suffer from\nscalability issues and substantial computational costs. Pure data-driven deep\nlearning approaches, while efficient, lack physical constraints embedding\nduring training and require extensive labeled data, limiting their\napplicability and generalization. To overcome these limitations, we propose a\nU-shaped Physics-Informed Network (U-PINet), the first fully\ndeep-learning-based, physics-informed hierarchical framework for computational\nEM designed to ensure physical consistency while maximizing computational\nefficiency. Motivated by the hierarchical decomposition strategy in EM solvers\nand the inherent sparsity of local EM coupling, the U-PINet models the\ndecomposition and coupling of near- and far-field interactions through a\nmultiscale processing neural network architecture, while employing a\nphysics-inspired sparse graph representation to efficiently model both self-\nand mutual- coupling among mesh elements of complex $3$-Dimensional (3D)\nobjects. This principled approach enables end-to-end multiscale EM scattering\nmodeling with improved efficiency, generalization, and physical consistency.\nExperimental results showcase that the U-PINet accurately predicts surface\ncurrent distributions, achieving close agreement with traditional solver, while\nsignificantly reducing computational time and outperforming conventional deep\nlearning baselines in both accuracy and robustness. Furthermore, our\nevaluations on radar cross section prediction tasks confirm the feasibility of\nthe U-PINet for downstream EM scattering applications.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "PINN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "MGCR-Net:Multimodal Graph-Conditioned Vision-Language Reconstruction Network for Remote Sensing Change Detection",
+    "url": "http://arxiv.org/abs/2508.01555v1",
+    "authors": [
+      "Chengming Wang",
+      "Guodong Fan",
+      "Jinjiang Li",
+      "Min Gan",
+      "C. L. Philip Chen"
+    ],
+    "published": "2025-08-03",
+    "abstract": "With the advancement of remote sensing satellite technology and the rapid\nprogress of deep learning, remote sensing change detection (RSCD) has become a\nkey technique for regional monitoring. Traditional change detection (CD)\nmethods and deep learning-based approaches have made significant contributions\nto change analysis and detection, however, many outstanding methods still face\nlimitations in the exploration and application of multimodal data. To address\nthis, we propose the multimodal graph-conditioned vision-language\nreconstruction network (MGCR-Net) to further explore the semantic interaction\ncapabilities of multimodal data. Multimodal large language models (MLLM) have\nattracted widespread attention for their outstanding performance in computer\nvision, particularly due to their powerful visual-language understanding and\ndialogic interaction capabilities. Specifically, we design a MLLM-based\noptimization strategy to generate multimodal textual data from the original CD\nimages, which serve as textual input to MGCR. Visual and textual features are\nextracted through a dual encoder framework. For the first time in the RSCD\ntask, we introduce a multimodal graph-conditioned vision-language\nreconstruction mechanism, which is integrated with graph attention to construct\na semantic graph-conditioned reconstruction module (SGCM), this module\ngenerates vision-language (VL) tokens through graph-based conditions and\nenables cross-dimensional interaction between visual and textual features via\nmultihead attention. The reconstructed VL features are then deeply fused using\nthe language vision transformer (LViT), achieving fine-grained feature\nalignment and high-level semantic interaction. Experimental results on four\npublic datasets demonstrate that MGCR achieves superior performance compared to\nmainstream CD methods. Our code is available on\nhttps://github.com/cn-xvkong/MGCR",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer",
+      "LLM"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "CGCCE-Net:Change-Guided Cross Correlation Enhancement Network for Remote Sensing Building Change Detection",
+    "url": "http://arxiv.org/abs/2508.01549v1",
+    "authors": [
+      "ChengMing Wang"
+    ],
+    "published": "2025-08-03",
+    "abstract": "Change detection encompasses a variety of task types, and the goal of\nbuilding change detection (BCD) tasks is to accurately locate buildings and\ndistinguish changed building areas. In recent years, various deep\nlearning-based BCD methods have achieved significant success in detecting\ndifference regions by using different change information enhancement\ntechniques, effectively improving the precision of BCD tasks. To address the\nissue of BCD with special colors, we propose the change-guided cross\ncorrelation enhancement network (CGCCE-Net). We design the change-guided\nresidual refinement (CGRR) Branch, which focuses on extending shallow texture\nfeatures to multiple scale features obtained from PVT, enabling early attention\nand acquisition of special colors. Then, channel spatial attention is used in\nthe deep features to achieve independent information enhancement. Additionally,\nwe construct the global cross correlation module (GCCM) to facilitate semantic\ninformation interaction between bi-temporal images, establishing building and\ntarget recognition relationships between different images. Further semantic\nfeature enhancement is achieved through the semantic cognitive enhancement\nmodule (SCEM), and finally, the cross fusion decoder (CFD) is used for change\ninformation fusion and image reconstruction. Extensive experiments on three\npublic datasets demonstrate that our CGCCE-Net outperforms mainstream BCD\nmethods with outstanding performance.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Recognition"
+    ]
+  },
+  {
+    "title": "Evaluation and Analysis of Deep Neural Transformers and Convolutional Neural Networks on Modern Remote Sensing Datasets",
+    "url": "http://arxiv.org/abs/2508.02871v1",
+    "authors": [
+      "J. Alex Hurt",
+      "Trevor M. Bajkowski",
+      "Grant J. Scott",
+      "Curt H. Davis"
+    ],
+    "published": "2025-08-04",
+    "abstract": "In 2012, AlexNet established deep convolutional neural networks (DCNNs) as\nthe state-of-the-art in CV, as these networks soon led in visual tasks for many\ndomains, including remote sensing. With the publication of Visual Transformers,\nwe are witnessing the second modern leap in computational vision, and as such,\nit is imperative to understand how various transformer-based neural networks\nperform on satellite imagery. While transformers have shown high levels of\nperformance in natural language processing and CV applications, they have yet\nto be compared on a large scale to modern remote sensing data. In this paper,\nwe explore the use of transformer-based neural networks for object detection in\nhigh-resolution electro-optical satellite imagery, demonstrating\nstate-of-the-art performance on a variety of publicly available benchmark data\nsets. We compare eleven distinct bounding-box detection and localization\nalgorithms in this study, of which seven were published since 2020, and all\neleven since 2015. The performance of five transformer-based architectures is\ncompared with six convolutional networks on three state-of-the-art opensource\nhigh-resolution remote sensing imagery datasets ranging in size and complexity.\nFollowing the training and evaluation of thirty-three deep neural models, we\nthen discuss and analyze model performance across various feature extraction\nmethodologies and detection algorithms.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Less is More: AMBER-AFNO -- a New Benchmark for Lightweight 3D Medical Image Segmentation",
+    "url": "http://arxiv.org/abs/2508.01941v1",
+    "authors": [
+      "Andrea Dosi",
+      "Semanto Mondal",
+      "Rajib Chandra Ghosh",
+      "Massimo Brescia",
+      "Giuseppe Longo"
+    ],
+    "published": "2025-08-03",
+    "abstract": "This work presents the results of a methodological transfer from remote\nsensing to healthcare, adapting AMBER -- a transformer-based model originally\ndesigned for multiband images, such as hyperspectral data -- to the task of 3D\nmedical datacube segmentation. In this study, we use the AMBER architecture\nwith Adaptive Fourier Neural Operators (AFNO) in place of the multi-head\nself-attention mechanism. While existing models rely on various forms of\nattention to capture global context, AMBER-AFNO achieves this through\nfrequency-domain mixing, enabling a drastic reduction in model complexity. This\ndesign reduces the number of trainable parameters by over 80% compared to\nUNETR++, while maintaining a FLOPs count comparable to other state-of-the-art\narchitectures. Model performance is evaluated on two benchmark 3D medical\ndatasets -- ACDC and Synapse -- using standard metrics such as Dice Similarity\nCoefficient (DSC) and Hausdorff Distance (HD), demonstrating that AMBER-AFNO\nachieves competitive or superior accuracy with significant gains in training\nefficiency, inference speed, and memory usage.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "Bridging ocean wave physics and deep learning: Physics-informed neural operators for nonlinear wavefield reconstruction in real-time",
+    "url": "http://arxiv.org/abs/2508.03315v1",
+    "authors": [
+      "Svenja Ehlers",
+      "Merten Stender",
+      "Norbert Hoffmann"
+    ],
+    "published": "2025-08-05",
+    "abstract": "Accurate real-time prediction of phase-resolved ocean wave fields remains a\ncritical yet largely unsolved problem, primarily due to the absence of\npractical data assimilation methods for reconstructing initial conditions from\nsparse or indirect wave measurements. While recent advances in supervised deep\nlearning have shown potential for this purpose, they require large labelled\ndatasets of ground truth wave data, which are infeasible to obtain in\nreal-world scenarios. To overcome this limitation, we propose a\nPhysics-Informed Neural Operator (PINO) framework for reconstructing spatially\nand temporally phase-resolved, nonlinear ocean wave fields from sparse\nmeasurements, without the need for ground truth data during training. This is\nachieved by embedding residuals of the free surface boundary conditions of\nocean gravity waves into the loss function of the PINO, constraining the\nsolution space in a soft manner. After training, we validate our approach using\nhighly realistic synthetic wave data and demonstrate the accurate\nreconstruction of nonlinear wave fields from both buoy time series and radar\nsnapshots. Our results indicate that PINOs enable accurate, real-time\nreconstruction and generalize robustly across a wide range of wave conditions,\nthereby paving the way for operational, data-driven wave reconstruction and\nprediction in realistic marine environments.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "PINN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Marine Chlorophyll Prediction and Driver Analysis based on LSTM-RF Hybrid Models",
+    "url": "http://arxiv.org/abs/2508.05260v1",
+    "authors": [
+      "Zhouyao Qian",
+      "Yang Chen",
+      "Baodian Li",
+      "Shuyi Zhang",
+      "Zhen Tian",
+      "Gongsen Wang",
+      "Tianyue Gu",
+      "Xinyu Zhou",
+      "Huilin Chen",
+      "Xinyi Li",
+      "Hao Zhu",
+      "Shuyao Zhang",
+      "Zongheng Li",
+      "Siyuan Wang"
+    ],
+    "published": "2025-08-07",
+    "abstract": "Marine chlorophyll concentration is an important indicator of ecosystem\nhealth and carbon cycle strength, and its accurate prediction is crucial for\nred tide warning and ecological response. In this paper, we propose a LSTM-RF\nhybrid model that combines the advantages of LSTM and RF, which solves the\ndeficiencies of a single model in time-series modelling and nonlinear feature\nportrayal. Trained with multi-source ocean data(temperature, salinity,\ndissolved oxygen, etc.), the experimental results show that the LSTM-RF model\nhas an R^2 of 0.5386, an MSE of 0.005806, and an MAE of 0.057147 on the test\nset, which is significantly better than using LSTM (R^2 = 0.0208) and RF (R^2\n=0.4934) alone , respectively. The standardised treatment and sliding window\napproach improved the prediction accuracy of the model and provided an\ninnovative solution for high-frequency prediction of marine ecological\nvariables.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "LSTM"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Operational convection-permitting COSMO/ICON ensemble predictions at observation sites (CIENS)",
+    "url": "http://arxiv.org/abs/2508.03845v1",
+    "authors": [
+      "Sebastian Lerch",
+      "Benedikt Schulz",
+      "Reinhold Hess",
+      "Annette M\u00f6ller",
+      "Cristina Primo",
+      "Sebastian Trepte",
+      "Susanne Theis"
+    ],
+    "published": "2025-08-05",
+    "abstract": "We present the CIENS dataset, which contains ensemble weather forecasts from\nthe operational convection-permitting numerical weather prediction model of the\nGerman Weather Service. It comprises forecasts for 55 meteorological variables\nmapped to the locations of synoptic stations, as well as additional spatially\naggregated forecasts from surrounding grid points, available for a subset of\nthese variables. Forecasts are available at hourly lead times from 0 to 21\nhours for two daily model runs initialized at 00 and 12 UTC, covering the\nperiod from December 2010 to June 2023. Additionally, the dataset provides\nstation observations for six key variables at 170 locations across Germany:\npressure, temperature, hourly precipitation accumulation, wind speed, wind\ndirection, and wind gusts. Since the forecast are mapped to the observed\nlocations, the data is delivered in a convenient format for analysis. The CIENS\ndataset complements the growing collection of benchmark datasets for weather\nand climate modeling. A key distinguishing feature is its long temporal extent,\nwhich encompasses multiple updates to the underlying numerical weather\nprediction model and thus supports investigations into how forecasting methods\ncan account for such changes. In addition to detailing the design and contents\nof the CIENS dataset, we outline potential applications in ensemble\npost-processing, forecast verification, and related research areas. A use case\nfocused on ensemble post-processing illustrates the benefits of incorporating\nthe rich set of available model predictors into machine learning-based\nforecasting models.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Synthetic medical data generation: state of the art and application to trauma mechanism classification",
+    "url": "http://arxiv.org/abs/2508.02771v1",
+    "authors": [
+      "Oc\u00e9ane Doremus",
+      "Ariel Guerra-Adames",
+      "Marta Avalos-Fernandez",
+      "Vianney Jouhet",
+      "C\u00e9dric Gil-Jardin\u00e9",
+      "Emmanuel Lagarde"
+    ],
+    "published": "2025-08-04",
+    "abstract": "Faced with the challenges of patient confidentiality and scientific\nreproducibility, research on machine learning for health is turning towards the\nconception of synthetic medical databases. This article presents a brief\noverview of state-of-the-art machine learning methods for generating synthetic\ntabular and textual data, focusing their application to the automatic\nclassification of trauma mechanisms, followed by our proposed methodology for\ngenerating high-quality, synthetic medical records combining tabular and\nunstructured text data.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "NICE^k Metrics: Unified and Multidimensional Framework for Evaluating Deterministic Solar Forecasting Accuracy",
+    "url": "http://arxiv.org/abs/2508.01457v1",
+    "authors": [
+      "Cyril Voyant",
+      "Milan Despotovic",
+      "Luis Garcia-Gutierrez",
+      "Rodrigo Amaro e Silva",
+      "Philippe Lauret",
+      "Ted Soubdhan",
+      "Nadjem Bailek"
+    ],
+    "published": "2025-08-02",
+    "abstract": "Accurate solar energy output prediction is key for integrating renewables\ninto grids, maintaining stability, and improving energy management. However,\nstandard error metrics such as Root Mean Squared Error (RMSE), Mean Absolute\nError (MAE), and Skill Scores (SS) fail to capture the multidimensional nature\nof solar irradiance forecasting. These metrics lack sensitivity to\nforecastability, rely on arbitrary baselines (e.g., clear-sky models), and are\npoorly suited for operational use.\n  To address this, we introduce the NICEk framework (Normalized Informed\nComparison of Errors, with k = 1, 2, 3, Sigma), offering a robust and\ninterpretable evaluation of forecasting models. Each NICEk score corresponds to\nan Lk norm: NICE1 targets average errors, NICE2 emphasizes large deviations,\nNICE3 highlights outliers, and NICESigma combines all.\n  Using Monte Carlo simulations and data from 68 stations in the Spanish SIAR\nnetwork, we evaluated methods including autoregressive models, extreme\nlearning, and smart persistence. Theoretical and empirical results align when\nassumptions hold (e.g., R^2 ~ 1.0 for NICE2). Most importantly, NICESigma\nconsistently shows higher discriminative power (p < 0.05), outperforming\ntraditional metrics (p > 0.05).\n  The NICEk metrics exhibit stronger statistical significance (e.g., p-values\nfrom 10^-6 to 0.004 across horizons) and greater generalizability. They offer a\nunified and operational alternative to standard error metrics in deterministic\nsolar forecasting.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
   }
 ]
