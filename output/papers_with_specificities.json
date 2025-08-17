@@ -12550,5 +12550,217 @@
     "applications": [
       "Forecast"
     ]
+  },
+  {
+    "title": "Adapting SAM via Cross-Entropy Masking for Class Imbalance in Remote Sensing Change Detection",
+    "url": "http://arxiv.org/abs/2508.10568v1",
+    "authors": [
+      "Humza Naveed",
+      "Xina Zeng",
+      "Mitch Bryson",
+      "Nagita Mehrseresht"
+    ],
+    "published": "2025-08-14",
+    "abstract": "Foundational models have achieved significant success in diverse domains of\ncomputer vision. They learn general representations that are easily\ntransferable to tasks not seen during training. One such foundational model is\nSegment anything model (SAM), which can accurately segment objects in images.\nWe propose adapting the SAM encoder via fine-tuning for remote sensing change\ndetection (RSCD) along with spatial-temporal feature enhancement (STFE) and\nmulti-scale decoder fusion (MSDF) to detect changes robustly at multiple\nscales. Additionally, we propose a novel cross-entropy masking (CEM) loss to\nhandle high class imbalance in change detection datasets. Our method\noutperforms state-of-the-art (SOTA) methods on four change detection datasets,\nLevir-CD, WHU-CD, CLCD, and S2Looking. We achieved 2.5% F1-score improvement on\na large complex S2Looking dataset. The code is available at:\nhttps://github.com/humza909/SAM-CEM-CD",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "HyperKD: Distilling Cross-Spectral Knowledge in Masked Autoencoders via Inverse Domain Shift with Spatial-Aware Masking and Specialized Loss",
+    "url": "http://arxiv.org/abs/2508.09453v1",
+    "authors": [
+      "Abdul Matin",
+      "Tanjim Bin Faruk",
+      "Shrideep Pallickara",
+      "Sangmi Lee Pallickara"
+    ],
+    "published": "2025-08-13",
+    "abstract": "The proliferation of foundation models, pretrained on large-scale unlabeled\ndatasets, has emerged as an effective approach in creating adaptable and\nreusable architectures that can be leveraged for various downstream tasks using\nsatellite observations. However, their direct application to hyperspectral\nremote sensing remains challenging due to inherent spectral disparities and the\nscarcity of available observations. In this work, we present HyperKD, a novel\nknowledge distillation framework that enables transferring learned\nrepresentations from a teacher model into a student model for effective\ndevelopment of a foundation model on hyperspectral images. Unlike typical\nknowledge distillation frameworks, which use a complex teacher to guide a\nsimpler student, HyperKD enables an inverse form of knowledge transfer across\ndifferent types of spectral data, guided by a simpler teacher model. Building\nupon a Masked Autoencoder, HyperKD distills knowledge from the Prithvi\nfoundational model into a student tailored for EnMAP hyperspectral imagery.\nHyperKD addresses the inverse domain adaptation problem with spectral gaps by\nintroducing a feature-based strategy that includes spectral range-based channel\nalignment, spatial feature-guided masking, and an enhanced loss function\ntailored for hyperspectral images. HyperKD bridges the substantial spectral\ndomain gap, enabling the effective use of pretrained foundation models for\ngeospatial applications. Extensive experiments show that HyperKD significantly\nimproves representation learning in MAEs, leading to enhanced reconstruction\nfidelity and more robust performance on downstream tasks such as land cover\nclassification, crop type identification, and soil organic carbon prediction,\nunderpinning the potential of knowledge distillation frameworks in remote\nsensing analytics with hyperspectral imagery.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [
+      "Autoencoder"
+    ],
+    "applications": [
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "TerraMAE: Learning Spatial-Spectral Representations from Hyperspectral Earth Observation Data via Adaptive Masked Autoencoders",
+    "url": "http://arxiv.org/abs/2508.07020v1",
+    "authors": [
+      "Tanjim Bin Faruk",
+      "Abdul Matin",
+      "Shrideep Pallickara",
+      "Sangmi Lee Pallickara"
+    ],
+    "published": "2025-08-09",
+    "abstract": "Hyperspectral satellite imagery offers sub-30 m views of Earth in hundreds of\ncontiguous spectral bands, enabling fine-grained mapping of soils, crops, and\nland cover. While self-supervised Masked Autoencoders excel on RGB and low-band\nmultispectral data, they struggle to exploit the intricate spatial-spectral\ncorrelations in 200+ band hyperspectral images. We introduce TerraMAE, a novel\nHSI encoding framework specifically designed to learn highly representative\nspatial-spectral embeddings for diverse geospatial analyses. TerraMAE features\nan adaptive channel grouping strategy, based on statistical reflectance\nproperties to capture spectral similarities, and an enhanced reconstruction\nloss function that incorporates spatial and spectral quality metrics. We\ndemonstrate TerraMAE's effectiveness through superior spatial-spectral\ninformation preservation in high-fidelity image reconstruction. Furthermore, we\nvalidate its practical utility and the quality of its learned representations\nthrough strong performance on three key downstream geospatial tasks: crop\nidentification, land cover classification, and soil texture prediction.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Autoencoder"
+    ],
+    "applications": [
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Topological Invariant-Based Iris Identification via Digital Homology and Machine Learning",
+    "url": "http://arxiv.org/abs/2508.09555v1",
+    "authors": [
+      "Ahmet \u00d6ztel",
+      "\u0130smet Karaca"
+    ],
+    "published": "2025-08-13",
+    "abstract": "Objective - This study presents a biometric identification method based on\ntopological invariants from 2D iris images, representing iris texture via\nformally defined digital homology and evaluating classification performance.\n  Methods - Each normalized iris image (48x482 pixels) is divided into grids\n(e.g., 6x54 or 3x27). For each subregion, we compute Betti0, Betti1, and their\nratio using a recent algorithm for homology groups in 2D digital images. The\nresulting invariants form a feature matrix used with logistic regression, KNN,\nand SVM (with PCA and 100 randomized repetitions). A convolutional neural\nnetwork (CNN) is trained on raw images for comparison.\n  Results - Logistic regression achieved 97.78 +/- 0.82% accuracy,\noutperforming CNN (96.44 +/- 1.32%) and other feature-based models. The\ntopological features showed high accuracy with low variance.\n  Conclusion - This is the first use of topological invariants from formal\ndigital homology for iris recognition. The method offers a compact,\ninterpretable, and accurate alternative to deep learning, useful when\nexplainability or limited data is important. Beyond iris recognition, it can\napply to other biometrics, medical imaging, materials science, remote sensing,\nand interpretable AI. It runs efficiently on CPU-only systems and produces\nrobust, explainable features valuable for security-critical domains.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": [
+      "Classification",
+      "Recognition",
+      "Regression"
+    ]
+  },
+  {
+    "title": "Can Multitask Learning Enhance Model Explainability?",
+    "url": "http://arxiv.org/abs/2508.06966v1",
+    "authors": [
+      "Hiba Najjar",
+      "Bushra Alshbib",
+      "Andreas Dengel"
+    ],
+    "published": "2025-08-09",
+    "abstract": "Remote sensing provides satellite data in diverse types and formats. The\nusage of multimodal learning networks exploits this diversity to improve model\nperformance, except that the complexity of such networks comes at the expense\nof their interpretability. In this study, we explore how modalities can be\nleveraged through multitask learning to intrinsically explain model behavior.\nIn particular, instead of additional inputs, we use certain modalities as\nadditional targets to be predicted along with the main task. The success of\nthis approach relies on the rich information content of satellite data, which\nremains as input modalities. We show how this modeling context provides\nnumerous benefits: (1) in case of data scarcity, the additional modalities do\nnot need to be collected for model inference at deployment, (2) the model\nperformance remains comparable to the multimodal baseline performance, and in\nsome cases achieves better scores, (3) prediction errors in the main task can\nbe explained via the model behavior in the auxiliary task(s). We demonstrate\nthe efficiency of our approach on three datasets, including segmentation,\nclassification, and regression tasks. Code available at\ngit.opendfki.de/hiba.najjar/mtl_explainability/.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Classification",
+      "Regression",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Leveraging GNN to Enhance MEF Method in Predicting ENSO",
+    "url": "http://arxiv.org/abs/2508.07410v1",
+    "authors": [
+      "Saghar Ganji",
+      "Mohammad Naisipour"
+    ],
+    "published": "2025-08-10",
+    "abstract": "Reliable long-lead forecasting of the El Nino Southern Oscillation (ENSO)\nremains a long-standing challenge in climate science. The previously developed\nMultimodal ENSO Forecast (MEF) model uses 80 ensemble predictions by two\nindependent deep learning modules: a 3D Convolutional Neural Network (3D-CNN)\nand a time-series module. In their approach, outputs of the two modules are\ncombined using a weighting strategy wherein one is prioritized over the other\nas a function of global performance. Separate weighting or testing of\nindividual ensemble members did not occur, however, which may have limited the\nmodel to optimize the use of high-performing but spread-out forecasts. In this\nstudy, we propose a better framework that employs graph-based analysis to\ndirectly model similarity between all 80 members of the ensemble. By\nconstructing an undirected graph whose vertices are ensemble outputs and whose\nweights on edges measure similarity (via RMSE and correlation), we identify and\ncluster structurally similar and accurate predictions. From which we obtain an\noptimized subset of 20 members using community detection methods. The final\nprediction is then obtained by averaging this optimized subset. This method\nimproves the forecast skill through noise removal and emphasis on ensemble\ncoherence. Interestingly, our graph-based selection shows robust statistical\ncharacteristics among top performers, offering new ensemble behavior insights.\nIn addition, we observe that while the GNN-based approach does not always\noutperform the baseline MEF under every scenario, it produces more stable and\nconsistent outputs, particularly in compound long-lead situations. The approach\nis model-agnostic too, suggesting that it can be applied directly to other\nforecasting models with gargantuan ensemble outputs, such as statistical,\nphysical, or hybrid models.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "CNN",
+      "GNN"
+    ],
+    "applications": [
+      "Detection",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Machine Learning for Cloud Detection in IASI Measurements: A Data-Driven SVM Approach with Physical Constraints",
+    "url": "http://arxiv.org/abs/2508.10120v1",
+    "authors": [
+      "Chiara Zugarini",
+      "Cristina Sgattoni",
+      "Luca Sgheri"
+    ],
+    "published": "2025-08-13",
+    "abstract": "Cloud detection is essential for atmospheric retrievals, climate studies, and\nweather forecasting. We analyze infrared radiances from the Infrared\nAtmospheric Sounding Interferometer (IASI) onboard Meteorological Operational\n(MetOp) satellites to classify scenes as clear or cloudy.\n  We apply the Support Vector Machine (SVM) approach, based on kernel methods\nfor non-separable data. In this study, the method is implemented for Cloud\nIdentification (CISVM) to classify the test set using radiances or brightness\ntemperatures, with dimensionality reduction through Principal Component\nAnalysis (PCA) and cloud-sensitive channel selection to focus on the most\ninformative features. Our best configuration achieves 88.30 percent agreement\nwith reference labels and shows strong consistency with cloud masks from the\nModerate Resolution Imaging Spectroradiometer (MODIS), with the largest\ndiscrepancies in polar regions due to sensor differences.\n  These results demonstrate that CISVM is a robust, flexible, and efficient\nmethod for automated cloud classification from infrared radiances, suitable for\noperational retrievals and future missions such as Far infrared Outgoing\nRadiation Understanding and Monitoring (FORUM), the ninth European Space Agency\nEarth Explorer Mission.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Knowledge-guided machine learning for disentangling Pacific sea surface temperature variability across timescales",
+    "url": "http://arxiv.org/abs/2508.08490v1",
+    "authors": [
+      "Kyle J. C. Hall",
+      "Maria J. Molina",
+      "Emily F. Wisinski",
+      "Gerald A. Meehl",
+      "Antonietta Capotondi"
+    ],
+    "published": "2025-08-11",
+    "abstract": "Global weather patterns and regimes are heavily influenced by the dominant\nmodes of Pacific sea surface temperature (SST) variability, including the El\nNi\\~no-Southern Oscillation (ENSO), Tropical Pacific Decadal Variability\n(TPDV), North Pacific Meridional Mode (NPMM), and the Pacific Decadal\nOscillation (PDO). However, separating these modes of variability remains\nchallenging due to their spatial overlap and possible nonlinear coupling, which\nviolates the assumptions of traditional linear methods. We develop a\nKnowledge-Guided AutoEncoder (KGAE) that uses spectral constraints to identify\nphysically interpretable modes, without the need for predefined temporal\nfilters or thresholds. The KGAE separates ENSO-like modes on 2- and 3-7-year\ntimescales and a decadal mode with characteristics reminiscent of the PDO and\nthe NPMM, each with distinct spatial patterns. We demonstrate that the decadal\nmode modulates ENSO diversity (central Pacific versus eastern Pacific), and\nthat a quasibiennial mode leads and follows the interannual mode, suggesting a\nrole in ENSO onset and decay. When applied to climate model output, KGAEs\nreveal model-specific biases in ENSO diversity and seasonal timing. Finally,\nresidual training isolates a primarily equatorial decadal mode, which may be a\ncomponent of TPDV-related decadal variability, likely originating from\nadvection linked to upwelling near the Gal\\'apagos Islands and the South\nEquatorial Current. Our results highlight how machine learning can uncover\nphysically meaningful modes of Earth system variability and improve the\nrepresentation and evaluation of variability across models and timescales.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Autoencoder"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Nonparametric Reaction Coordinate Optimization with Histories: A Framework for Rare Event Dynamics",
+    "url": "http://arxiv.org/abs/2508.07326v1",
+    "authors": [
+      "Polina V. Banushkina",
+      "Sergei V. Krivov"
+    ],
+    "published": "2025-08-10",
+    "abstract": "Rare but critical events in complex systems, such as protein folding,\nchemical reactions, disease progression, and extreme weather or climate\nphenomena, are governed by complex, high-dimensional, stochastic dynamics.\nIdentifying an optimal reaction coordinate (RC) that accurately captures the\nprogress of these dynamics is crucial for understanding and simulating such\nprocesses. This work introduces a nonparametric RC optimization framework that\nincorporates trajectory histories, enabling robust analysis even for irregular\nor incomplete data. The power of the method is demonstrated through\nincreasingly challenging analyses of protein folding dynamics, where it\nprovides accurate committor estimates that pass a stringent validation test and\nyield high-resolution free energy profiles. Its generality is further\nillustrated through applications to dynamics in phase space, a conceptual ocean\ncirculation model, and a longitudinal clinical dataset. These results\ndemonstrate that rare event dynamics can be accurately characterized without\nexhaustive sampling of the configuration space, establishing a general,\nflexible, and robust framework for analyzing complex dynamical systems and\nlongitudinal datasets.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Taking the Garbage Out of Data-Driven Prediction Across Climate Timescales",
+    "url": "http://arxiv.org/abs/2508.07062v1",
+    "authors": [
+      "Jason C. Furtado",
+      "Maria J. Molina",
+      "Marybeth C. Arcodia",
+      "Weston Anderson",
+      "Tom Beucler",
+      "John A. Callahan",
+      "Laura M. Ciasto",
+      "Vittorio A. Gensini",
+      "Michelle L'Heureux",
+      "Kathleen Pegion",
+      "Jhayron S. P\u00e9rez-Carrasquilla",
+      "Maike Sonnewald",
+      "Ken Takahashi",
+      "Baoqiang Xiang",
+      "Brian G. Zimmerman"
+    ],
+    "published": "2025-08-09",
+    "abstract": "Artificial intelligence (AI) -- and specifically machine learning (ML) --\napplications for climate prediction across timescales are proliferating\nquickly. The emergence of these methods prompts a revisit to the impact of data\npreprocessing, a topic familiar to the climate community, as more traditional\nstatistical models work with relatively small sample sizes. Indeed, the skill\nand confidence in the forecasts produced by data-driven models are directly\ninfluenced by the quality of the datasets and how they are treated during model\ndevelopment, thus yielding the colloquialism \"garbage in, garbage out.\" As\nsuch, this article establishes protocols for the proper preprocessing of input\ndata for AI/ML models designed for climate prediction (i.e., subseasonal to\ndecadal and longer). The three aims are to: (1) educate researchers,\ndevelopers, and end users on the effects that preprocessing has on climate\npredictions; (2) provide recommended practices for data preprocessing for such\napplications; and (3) empower end users to decipher whether the models they are\nusing are properly designed for their objectives. Specific topics covered in\nthis article include the creation of (standardized) anomalies, dealing with\nnon-stationarity and the spatiotemporally correlated nature of climate data,\nand handling of extreme values and variables with potentially complex\ndistributions. Case studies will illustrate how using different preprocessing\ntechniques can produce different predictions from the same model, which can\ncreate confusion and decrease confidence in the overall process. Ultimately,\nimplementing the recommended practices set forth in this article will enhance\nthe robustness and transparency of AI/ML in climate prediction studies.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
   }
 ]

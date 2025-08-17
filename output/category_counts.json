@@ -1,10 +1,10 @@
 {
-  "scrape_date": "2025-08-10",
-  "new_papers": 14,
+  "scrape_date": "2025-08-17",
+  "new_papers": 10,
   "category_counts": {
-    "remote_sensing": 199,
-    "foundation_model": 170,
-    "ocean": 188,
+    "remote_sensing": 202,
+    "foundation_model": 173,
+    "ocean": 193,
     "ship_trajectories": 16,
     "fish_plankton": 38
   }
