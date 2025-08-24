@@ -12762,5 +12762,178 @@
     "applications": [
       "Forecast"
     ]
+  },
+  {
+    "title": "S5: Scalable Semi-Supervised Semantic Segmentation in Remote Sensing",
+    "url": "http://arxiv.org/abs/2508.12409v1",
+    "authors": [
+      "Liang Lv",
+      "Di Wang",
+      "Jing Zhang",
+      "Lefei Zhang"
+    ],
+    "published": "2025-08-17",
+    "abstract": "Semi-supervised semantic segmentation (S4) has advanced remote sensing (RS)\nanalysis by leveraging unlabeled data through pseudo-labeling and consistency\nlearning. However, existing S4 studies often rely on small-scale datasets and\nmodels, limiting their practical applicability. To address this, we propose S5,\nthe first scalable framework for semi-supervised semantic segmentation in RS,\nwhich unlocks the potential of vast unlabeled Earth observation data typically\nunderutilized due to costly pixel-level annotations. Built upon existing\nlarge-scale RS datasets, S5 introduces a data selection strategy that\nintegrates entropy-based filtering and diversity expansion, resulting in the\nRS4P-1M dataset. Using this dataset, we systematically scales S4 methods by\npre-training RS foundation models (RSFMs) of varying sizes on this extensive\ncorpus, significantly boosting their performance on land cover segmentation and\nobject detection tasks. Furthermore, during fine-tuning, we incorporate a\nMixture-of-Experts (MoE)-based multi-dataset fine-tuning approach, which\nenables efficient adaptation to multiple RS benchmarks with fewer parameters.\nThis approach improves the generalization and versatility of RSFMs across\ndiverse RS benchmarks. The resulting RSFMs achieve state-of-the-art performance\nacross all benchmarks, underscoring the viability of scaling semi-supervised\nlearning for RS applications. All datasets, code, and models will be released\nat https://github.com/MiliLab/S5",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection"
+    ]
+  },
+  {
+    "title": "\"Does the cafe entrance look accessible? Where is the door?\" Towards Geospatial AI Agents for Visual Inquiries",
+    "url": "http://arxiv.org/abs/2508.15752v1",
+    "authors": [
+      "Jon E. Froehlich",
+      "Jared Hwang",
+      "Zeyu Wang",
+      "John S. O'Meara",
+      "Xia Su",
+      "William Huang",
+      "Yang Zhang",
+      "Alex Fiannaca",
+      "Philip Nelson",
+      "Shaun Kane"
+    ],
+    "published": "2025-08-21",
+    "abstract": "Interactive digital maps have revolutionized how people travel and learn\nabout the world; however, they rely on pre-existing structured data in GIS\ndatabases (e.g., road networks, POI indices), limiting their ability to address\ngeo-visual questions related to what the world looks like. We introduce our\nvision for Geo-Visual Agents--multimodal AI agents capable of understanding and\nresponding to nuanced visual-spatial inquiries about the world by analyzing\nlarge-scale repositories of geospatial images, including streetscapes (e.g.,\nGoogle Street View), place-based photos (e.g., TripAdvisor, Yelp), and aerial\nimagery (e.g., satellite photos) combined with traditional GIS data sources. We\ndefine our vision, describe sensing and interaction approaches, provide three\nexemplars, and enumerate key challenges and opportunities for future work.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "CuMoLoS-MAE: A Masked Autoencoder for Remote Sensing Data Reconstruction",
+    "url": "http://arxiv.org/abs/2508.14957v1",
+    "authors": [
+      "Anurup Naskar",
+      "Nathanael Zhixin Wong",
+      "Sara Shamekh"
+    ],
+    "published": "2025-08-20",
+    "abstract": "Accurate atmospheric profiles from remote sensing instruments such as Doppler\nLidar, Radar, and radiometers are frequently corrupted by low-SNR (Signal to\nNoise Ratio) gates, range folding, and spurious discontinuities. Traditional\ngap filling blurs fine-scale structures, whereas deep models lack confidence\nestimates. We present CuMoLoS-MAE, a Curriculum-Guided Monte Carlo Stochastic\nEnsemble Masked Autoencoder designed to (i) restore fine-scale features such as\nupdraft and downdraft cores, shear lines, and small vortices, (ii) learn a\ndata-driven prior over atmospheric fields, and (iii) quantify pixel-wise\nuncertainty. During training, CuMoLoS-MAE employs a mask-ratio curriculum that\nforces a ViT decoder to reconstruct from progressively sparser context. At\ninference, we approximate the posterior predictive by Monte Carlo over random\nmask realisations, evaluating the MAE multiple times and aggregating the\noutputs to obtain the posterior predictive mean reconstruction together with a\nfinely resolved per-pixel uncertainty map. Together with high-fidelity\nreconstruction, this novel deep learning-based workflow enables enhanced\nconvection diagnostics, supports real-time data assimilation, and improves\nlong-term climate reanalysis.",
+    "categories": [
+      "ocean",
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer",
+      "Autoencoder"
+    ],
+    "applications": []
+  },
+  {
+    "title": "A Comprehensive Review of Agricultural Parcel and Boundary Delineation from Remote Sensing Images: Recent Progress and Future Perspectives",
+    "url": "http://arxiv.org/abs/2508.14558v1",
+    "authors": [
+      "Juepeng Zheng",
+      "Zi Ye",
+      "Yibin Wen",
+      "Jianxi Huang",
+      "Zhiwei Zhang",
+      "Qingmei Li",
+      "Qiong Hu",
+      "Baodong Xu",
+      "Lingyuan Zhao",
+      "Haohuan Fu"
+    ],
+    "published": "2025-08-20",
+    "abstract": "Powered by advances in multiple remote sensing sensors, the production of\nhigh spatial resolution images provides great potential to achieve\ncost-efficient and high-accuracy agricultural inventory and analysis in an\nautomated way. Lots of studies that aim at providing an inventory of the level\nof each agricultural parcel have generated many methods for Agricultural Parcel\nand Boundary Delineation (APBD). This review covers APBD methods for detecting\nand delineating agricultural parcels and systematically reviews the past and\npresent of APBD-related research applied to remote sensing images. With the\ngoal to provide a clear knowledge map of existing APBD efforts, we conduct a\ncomprehensive review of recent APBD papers to build a meta-data analysis,\nincluding the algorithm, the study site, the crop type, the sensor type, the\nevaluation method, etc. We categorize the methods into three classes: (1)\ntraditional image processing methods (including pixel-based, edge-based and\nregion-based); (2) traditional machine learning methods (such as random forest,\ndecision tree); and (3) deep learning-based methods. With deep\nlearning-oriented approaches contributing to a majority, we further discuss\ndeep learning-based methods like semantic segmentation-based, object\ndetection-based and Transformer-based methods. In addition, we discuss five\nAPBD-related issues to further comprehend the APBD domain using remote sensing\ndata, such as multi-sensor data in APBD task, comparisons between single-task\nlearning and multi-task learning in the APBD domain, comparisons among\ndifferent algorithms and different APBD tasks, etc. Finally, this review\nproposes some APBD-related applications and a few exciting prospects and\npotential hot topics in future APBD research. We hope this review help\nresearchers who involved in APBD domain to keep track of its development and\ntendency.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Segmentation",
+      "Detection"
+    ]
+  },
+  {
+    "title": "Generative AI models enable efficient and physically consistent sea-ice simulations",
+    "url": "http://arxiv.org/abs/2508.14984v1",
+    "authors": [
+      "Tobias Sebastian Finn",
+      "Marc Bocquet",
+      "Pierre Rampal",
+      "Charlotte Durand",
+      "Flavia Porro",
+      "Alban Farchi",
+      "Alberto Carrassi"
+    ],
+    "published": "2025-08-20",
+    "abstract": "Sea ice is governed by highly complex, scale-invariant, and anisotropic\nprocesses that are challenging to represent in Earth system models. While\nadvanced numerical models have improved our understanding of the sea-ice\ndynamics, their computational costs often limit their application in ensemble\nforecasting and climate simulations. Here, we introduce GenSIM, the first\ngenerative AI-based pan-Arctic model that predicts the evolution of all\nrelevant key properties, including concentration, thickness, and drift, in a\n12-hour window with improved accuracy over deterministic predictions and high\ncomputational efficiency, while remaining physically consistent. Trained on a\nlong simulation from a state-of-the-art sea-ice--ocean system, GenSIM robustly\nreproduces statistics as observed in numerical models and observations,\nexhibiting brittle-like short-term dynamics while also depicting the long-term\nsea-ice decline. Driven solely by atmospheric forcings, we attribute GenSIM's\nemergent extrapolation capabilities to patterns that reflect the long-term\nimpact of the ocean: it seemingly has learned an internal ocean emulator. This\nability to infer slowly evolving climate-relevant dynamics from short-term\npredictions underlines the large potential of generative models to generalise\nfor unseen climates and to encode hidden physics.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "FedRAIN-Lite: Federated Reinforcement Algorithms for Improving Idealised Numerical Weather and Climate Models",
+    "url": "http://arxiv.org/abs/2508.14315v1",
+    "authors": [
+      "Pritthijit Nath",
+      "Sebastian Schemm",
+      "Henry Moss",
+      "Peter Haynes",
+      "Emily Shuckburgh",
+      "Mark Webb"
+    ],
+    "published": "2025-08-19",
+    "abstract": "Sub-grid parameterisations in climate models are traditionally static and\ntuned offline, limiting adaptability to evolving states. This work introduces\nFedRAIN-Lite, a federated reinforcement learning (FedRL) framework that mirrors\nthe spatial decomposition used in general circulation models (GCMs) by\nassigning agents to latitude bands, enabling local parameter learning with\nperiodic global aggregation. Using a hierarchy of simplified energy-balance\nclimate models, from a single-agent baseline (ebm-v1) to multi-agent ensemble\n(ebm-v2) and GCM-like (ebm-v3) setups, we benchmark three RL algorithms under\ndifferent FedRL configurations. Results show that Deep Deterministic Policy\nGradient (DDPG) consistently outperforms both static and single-agent\nbaselines, with faster convergence and lower area-weighted RMSE in tropical and\nmid-latitude zones across both ebm-v2 and ebm-v3 setups. DDPG's ability to\ntransfer across hyperparameters and low computational cost make it well-suited\nfor geographically adaptive parameter learning. This capability offers a\nscalable pathway towards high-complexity GCMs and provides a prototype for\nphysically aligned, online-learning climate models that can evolve with a\nchanging climate. Code accessible at\nhttps://github.com/p3jitnath/climate-rl-fedrl.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Outlier Detection of Poisson-Distributed Targets Using a Seabed Sensor Network",
+    "url": "http://arxiv.org/abs/2508.13099v1",
+    "authors": [
+      "Mingyu Kim",
+      "Daniel Stilwell",
+      "Jorge Jimenez"
+    ],
+    "published": "2025-08-18",
+    "abstract": "This paper presents a framework for classifying and detecting spatial\ncommission outliers in maritime environments using seabed acoustic sensor\nnetworks and log Gaussian Cox processes (LGCPs). By modeling target arrivals as\na mixture of normal and outlier processes, we estimate the probability that a\nnewly observed event is an outlier. We propose a second-order approximation of\nthis probability that incorporates both the mean and variance of the normal\nintensity function, providing improved classification accuracy compared to\nmean-only approaches. We analytically show that our method yields a tighter\nbound to the true probability using Jensen's inequality. To enhance detection,\nwe integrate a real-time, near-optimal sensor placement strategy that\ndynamically adjusts sensor locations based on the evolving outlier intensity.\nThe proposed framework is validated using real ship traffic data near Norfolk,\nVirginia, where numerical results demonstrate the effectiveness of our approach\nin improving both classification performance and outlier detection through\nsensor deployment.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Exploring Multimodal AI Reasoning for Meteorological Forecasting from Skew-T Diagrams",
+    "url": "http://arxiv.org/abs/2508.12198v1",
+    "authors": [
+      "ChangJae Lee",
+      "Heecheol Yang",
+      "Jonghak Choi"
+    ],
+    "published": "2025-08-17",
+    "abstract": "Forecasting from atmospheric soundings is a fundamental task in operational\nmeteorology, often requiring structured visual reasoning over Skew-T log-P\ndiagrams by human forecasters. While recent advances in Vision-Language Models\n(VLMs) have shown promise in other scientific domains, their application to\nmeteorological diagram interpretation remains largely unexplored. In this\nstudy, we present a lightweight AI assistant that interprets Skew-T diagrams\nusing a small language model (LM) and a small VLM fine-tuned to emulate human\nforecasters. Using a curriculum learning framework, we first train the models\nto identify key atmospheric features from diagrams through visual question\nanswering, followed by chain-of-thought reasoning tasks that estimate\nprecipitation probability based on the derived visual groundings. Model inputs\ninclude either textual summaries or generated Skew-T diagrams derived from\noperational Numerical Weather Prediction (NWP) forecasts, paired with\nthree-hour precipitation observations from South Korea's Auto Weather Stations\nnetwork. Evaluation results demonstrate that the fine-tuned VLM achieves skill\ncomparable to an operational NWP model, despite relying solely on static\natmospheric profiles. Ablation studies reveal that visual grounding and\nreasoning supervision are critical for performance, while attention map\nanalysis confirms that the model learns to focus on relevant meteorological\nfeatures. These findings highlight the potential of compact, interpretable\nmultimodal models to support weather forecasting tasks. The approach offers a\ncomputationally efficient alternative to large-scale systems, and future work\ncould extend it to more complex applications.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": [
+      "Forecast"
+    ]
   }
 ]
