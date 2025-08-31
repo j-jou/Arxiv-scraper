@@ -12935,5 +12935,217 @@
     "applications": [
       "Forecast"
     ]
+  },
+  {
+    "title": "Olive Tree Satellite Image Segmentation Based On SAM and Multi-Phase Refinement",
+    "url": "http://arxiv.org/abs/2508.20954v1",
+    "authors": [
+      "Amir Jmal",
+      "Chaima Chtourou",
+      "Mahdi Louati",
+      "Abdelaziz Kallel",
+      "Houda Khmila"
+    ],
+    "published": "2025-08-28",
+    "abstract": "In the context of proven climate change, maintaining olive biodiversity\nthrough early anomaly detection and treatment using remote sensing technology\nis crucial, offering effective management solutions. This paper presents an\ninnovative approach to olive tree segmentation from satellite images. By\nleveraging foundational models and advanced segmentation techniques, the study\nintegrates the Segment Anything Model (SAM) to accurately identify and segment\nolive trees in agricultural plots. The methodology includes SAM segmentation\nand corrections based on trees alignement in the field and a learanble\nconstraint about the shape and the size. Our approach achieved a 98\\% accuracy\nrate, significantly surpassing the initial SAM performance of 82\\%.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection",
+      "Anomaly Detection"
+    ]
+  },
+  {
+    "title": "Deep Pre-trained Time Series Features for Tree Species Classification in the Dutch Forest Inventory",
+    "url": "http://arxiv.org/abs/2508.18829v1",
+    "authors": [
+      "Takayuki Ishikawa",
+      "Carmelo Bonannella",
+      "Bas J. W. Lerink",
+      "Marc Ru\u00dfwurm"
+    ],
+    "published": "2025-08-26",
+    "abstract": "National Forest Inventory (NFI)s serve as the primary source of forest\ninformation, providing crucial tree species distribution data. However,\nmaintaining these inventories requires labor-intensive on-site campaigns.\nRemote sensing approaches, particularly when combined with machine learning,\noffer opportunities to update NFIs more frequently and at larger scales. While\nthe use of Satellite Image Time Series has proven effective for distinguishing\ntree species through seasonal canopy reflectance patterns, current approaches\nrely primarily on Random Forest classifiers with hand-designed features and\nphenology-based metrics. Using deep features from an available pre-trained\nremote sensing foundation models offers a complementary strategy. These\npre-trained models leverage unannotated global data and are meant to used for\ngeneral-purpose applications and can then be efficiently fine-tuned with\nsmaller labeled datasets for specific classification tasks. This work\nsystematically investigates how deep features improve tree species\nclassification accuracy in the Netherlands with few annotated data. Data-wise,\nwe extracted time-series data from Sentinel-1, Sentinel-2 and ERA5 satellites\ndata and SRTM data using Google Earth Engine. Our results demonstrate that\nfine-tuning a publicly available remote sensing time series foundation model\noutperforms the current state-of-the-art in NFI classification in the\nNetherlands by a large margin of up to 10% across all datasets. This\ndemonstrates that classic hand-defined harmonic features are too simple for\nthis task and highlights the potential of using deep AI features for\ndata-limited application like NFI classification. By leveraging openly\navailable satellite data and pre-trained models, this approach significantly\nimproves classification accuracy compared to traditional methods and can\neffectively complement existing forest inventory processes.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Annotation-Free Open-Vocabulary Segmentation for Remote-Sensing Images",
+    "url": "http://arxiv.org/abs/2508.18067v1",
+    "authors": [
+      "Kaiyu Li",
+      "Xiangyong Cao",
+      "Ruixun Liu",
+      "Shihong Wang",
+      "Zixuan Jiang",
+      "Zhi Wang",
+      "Deyu Meng"
+    ],
+    "published": "2025-08-25",
+    "abstract": "Semantic segmentation of remote sensing (RS) images is pivotal for\ncomprehensive Earth observation, but the demand for interpreting new object\ncategories, coupled with the high expense of manual annotation, poses\nsignificant challenges. Although open-vocabulary semantic segmentation (OVSS)\noffers a promising solution, existing frameworks designed for natural images\nare insufficient for the unique complexities of RS data. They struggle with\nvast scale variations and fine-grained details, and their adaptation often\nrelies on extensive, costly annotations. To address this critical gap, this\npaper introduces SegEarth-OV, the first framework for annotation-free\nopen-vocabulary segmentation of RS images. Specifically, we propose SimFeatUp,\na universal upsampler that robustly restores high-resolution spatial details\nfrom coarse features, correcting distorted target shapes without any\ntask-specific post-training. We also present a simple yet effective Global Bias\nAlleviation operation to subtract the inherent global context from patch\nfeatures, significantly enhancing local semantic fidelity. These components\nempower SegEarth-OV to effectively harness the rich semantics of pre-trained\nVLMs, making OVSS possible in optical RS contexts. Furthermore, to extend the\nframework's universality to other challenging RS modalities like SAR images,\nwhere large-scale VLMs are unavailable and expensive to create, we introduce\nAlignEarth, which is a distillation-based strategy and can efficiently transfer\nsemantic knowledge from an optical VLM encoder to an SAR encoder, bypassing the\nneed to build SAR foundation models from scratch and enabling universal OVSS\nacross diverse sensor types. Extensive experiments on both optical and SAR\ndatasets validate that SegEarth-OV can achieve dramatic improvements over the\nSOTA methods, establishing a robust foundation for annotation-free and\nopen-world Earth observation.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "GRASP: Geospatial pixel Reasoning viA Structured Policy learning",
+    "url": "http://arxiv.org/abs/2508.17102v1",
+    "authors": [
+      "Chengjie Jiang",
+      "Yunqi Zhou",
+      "Jiafeng Yan",
+      "Jing Li"
+    ],
+    "published": "2025-08-23",
+    "abstract": "Geospatial pixel reasoning is a nascent remote-sensing task that aims to\ngenerate segmentation masks directly from natural-language instructions.\nPrevailing MLLM-based systems co-train a language model and a mask decoder with\ndense pixel supervision, which is expensive and often weak on out-of-domain\n(OOD) data. We introduce GRASP, a structured policy-learning framework. In our\ndesign, a multimodal large language model first emits task-relevant bounding\nboxes and positive points from a vision-language instruction. These outputs are\nthen passed to a pre-trained segmentation model, which consumes them as prompts\nto generate the final mask. Instead of supervised fine-tuning, we optimize the\nsystem purely with reinforcement learning: the model is trained solely with\nGRPO, guided by format rewards and accuracy rewards computed on boxes and\npoints (no mask supervision). This leverages strong priors in foundation\nmodels, minimizes trainable parameters, and enables learning from inexpensive\nannotations. We additionally curate GRASP-1k, which contains\nreasoning-intensive queries, detailed reasoning traces, and fine-grained\nsegmentation annotations. Evaluations on both in-domain and out-of-domain test\nsets show state-of-the-art results: about 4% improvement in-domain and up to\n54% on OOD benchmarks. The experiment results evidence our model's robust\ngeneralization and demonstrate that complex geospatial segmentation behaviors\ncan be learned via RL from weak spatial cues. Code and the dataset will be\nreleased open-source.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Segmentation",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Geo2Vec: Shape- and Distance-Aware Neural Representation of Geospatial Entities",
+    "url": "http://arxiv.org/abs/2508.19305v1",
+    "authors": [
+      "Chen Chu",
+      "Cyrus Shahabi"
+    ],
+    "published": "2025-08-26",
+    "abstract": "Spatial representation learning is essential for GeoAI applications such as\nurban analytics, enabling the encoding of shapes, locations, and spatial\nrelationships (topological and distance-based) of geo-entities like points,\npolylines, and polygons. Existing methods either target a single geo-entity\ntype or, like Poly2Vec, decompose entities into simpler components to enable\nFourier transformation, introducing high computational cost. Moreover, since\nthe transformed space lacks geometric alignment, these methods rely on uniform,\nnon-adaptive sampling, which blurs fine-grained features like edges and\nboundaries. To address these limitations, we introduce Geo2Vec, a novel method\ninspired by signed distance fields (SDF) that operates directly in the original\nspace. Geo2Vec adaptively samples points and encodes their signed distances\n(positive outside, negative inside), capturing geometry without decomposition.\nA neural network trained to approximate the SDF produces compact,\ngeometry-aware, and unified representations for all geo-entity types.\nAdditionally, we propose a rotation-invariant positional encoding to model\nhigh-frequency spatial variations and construct a structured and robust\nembedding space for downstream GeoAI models. Empirical results show that\nGeo2Vec consistently outperforms existing methods in representing shape and\nlocation, capturing topological and distance relationships, and achieving\ngreater efficiency in real-world GeoAI applications. Code and Data can be found\nat: https://github.com/chuchen2017/GeoNeuralRepresentation.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "The point is the mask: scaling coral reef segmentation with weak supervision",
+    "url": "http://arxiv.org/abs/2508.18958v1",
+    "authors": [
+      "Matteo Contini",
+      "Victor Illien",
+      "Sylvain Poulain",
+      "Serge Bernard",
+      "Julien Barde",
+      "Sylvain Bonhommeau",
+      "Alexis Joly"
+    ],
+    "published": "2025-08-26",
+    "abstract": "Monitoring coral reefs at large spatial scales remains an open challenge,\nessential for assessing ecosystem health and informing conservation efforts.\nWhile drone-based aerial imagery offers broad spatial coverage, its limited\nresolution makes it difficult to reliably distinguish fine-scale classes, such\nas coral morphotypes. At the same time, obtaining pixel-level annotations over\nlarge spatial extents is costly and labor-intensive, limiting the scalability\nof deep learning-based segmentation methods for aerial imagery. We present a\nmulti-scale weakly supervised semantic segmentation framework that addresses\nthis challenge by transferring fine-scale ecological information from\nunderwater imagery to aerial data. Our method enables large-scale coral reef\nmapping from drone imagery with minimal manual annotation, combining\nclassification-based supervision, spatial interpolation and self-distillation\ntechniques. We demonstrate the efficacy of the approach, enabling large-area\nsegmentation of coral morphotypes and demonstrating flexibility for integrating\nnew classes. This study presents a scalable, cost-effective methodology for\nhigh-resolution reef monitoring, combining low-cost data collection, weakly\nsupervised deep learning and multi-scale remote sensing.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Feature-Space Planes Searcher: A Universal Domain Adaptation Framework for Interpretability and Computational Efficiency",
+    "url": "http://arxiv.org/abs/2508.18693v1",
+    "authors": [
+      "Zhitong Cheng",
+      "Yiran Jiang",
+      "Yulong Ge",
+      "Yufeng Li",
+      "Zhongheng Qin",
+      "Rongzhi Lin",
+      "Jianwei Ma"
+    ],
+    "published": "2025-08-26",
+    "abstract": "Domain shift, characterized by degraded model performance during transition\nfrom labeled source domains to unlabeled target domains, poses a persistent\nchallenge for deploying deep learning systems. Current unsupervised domain\nadaptation (UDA) methods predominantly rely on fine-tuning feature extractors -\nan approach limited by inefficiency, reduced interpretability, and poor\nscalability to modern architectures.\n  Our analysis reveals that models pretrained on large-scale data exhibit\ndomain-invariant geometric patterns in their feature space, characterized by\nintra-class clustering and inter-class separation, thereby preserving\ntransferable discriminative structures. These findings indicate that domain\nshifts primarily manifest as boundary misalignment rather than feature\ndegradation.\n  Unlike fine-tuning entire pre-trained models - which risks introducing\nunpredictable feature distortions - we propose the Feature-space Planes\nSearcher (FPS): a novel domain adaptation framework that optimizes decision\nboundaries by leveraging these geometric patterns while keeping the feature\nencoder frozen. This streamlined approach enables interpretative analysis of\nadaptation while substantially reducing memory and computational costs through\noffline feature extraction, permitting full-dataset optimization in a single\ncomputation cycle.\n  Evaluations on public benchmarks demonstrate that FPS achieves competitive or\nsuperior performance to state-of-the-art methods. FPS scales efficiently with\nmultimodal large models and shows versatility across diverse domains including\nprotein structure prediction, remote sensing classification, and earthquake\ndetection. We anticipate FPS will provide a simple, effective, and\ngeneralizable paradigm for transfer learning, particularly in domain adaptation\ntasks. .",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Inferring geometry and material properties from Mueller matrices with machine learning",
+    "url": "http://arxiv.org/abs/2508.19713v1",
+    "authors": [
+      "Lars Doorenbos",
+      "C. H. Lucas Patty",
+      "Raphael Sznitman",
+      "Pablo M\u00e1rquez-Neila"
+    ],
+    "published": "2025-08-27",
+    "abstract": "Mueller matrices (MMs) encode information on geometry and material\nproperties, but recovering both simultaneously is an ill-posed problem. We\nexplore whether MMs contain sufficient information to infer surface geometry\nand material properties with machine learning. We use a dataset of spheres of\nvarious isotropic materials, with MMs captured over the full angular domain at\nfive visible wavelengths (450-650 nm). We train machine learning models to\npredict material properties and surface normals using only these MMs as input.\nWe demonstrate that, even when the material type is unknown, surface normals\ncan be predicted and object geometry reconstructed. Moreover, MMs allow models\nto identify material types correctly. Further analyses show that diagonal\nelements are key for material characterization, and off-diagonal elements are\ndecisive for normal estimation.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Global Forecasting of Tropical Cyclone Intensity Using Neural Weather Models",
+    "url": "http://arxiv.org/abs/2508.17903v2",
+    "authors": [
+      "Milton Gomez",
+      "Louis Poulain--Auzeau",
+      "Alexis Berne",
+      "Tom Beucler"
+    ],
+    "published": "2025-08-25",
+    "abstract": "Numerical Weather Prediction (NWP) models that integrate coupled physical\nequations forward in time are the traditional tools for simulating atmospheric\nprocesses and forecasting weather. With recent advancements in deep learning,\nNeural Weather Models (NeWMs) have emerged as competent medium-range NWP\nemulators, with performances that compare favorably to state-of-the-art NWP\nmodels. However, they are commonly trained on reanalyses with limited spatial\nresolution (e.g., 0.25{\\deg} horizontal grid spacing), which smooths out key\nfeatures of weather systems. For example, tropical cyclones (TCs)-among the\nmost impactful weather events due to their devastating effects on human\nactivities-are challenging to forecast, as extrema like wind gusts, used as\nproxies for TC intensity, are smoothed in deterministic forecasts at 0.25{\\deg}\nresolution. To address this, we use our best observational estimates of wind\ngusts and minimum sea level pressure to train a hierarchy of post-processing\nmodels on NeWM outputs. Applied to Pangu-Weather and FourCastNet v2, the\npost-processing models produce accurate and reliable forecasts of TC intensity\nup to five days ahead. Our post-processing algorithm is tracking-independent,\npreventing full misses, and we demonstrate that even linear models extract\npredictive information from NeWM outputs beyond what is encoded in their\ninitial conditions. While spatial masking improves probabilistic forecast\nconsistency, we do not find clear advantages of convolutional architectures\nover simple multilayer perceptrons for our NeWM post-processing purposes.\nOverall, by combining the efficiency of NeWMs with a lightweight,\ntracking-independent post-processing framework, our approach improves the\naccessibility of global TC intensity forecasts, marking a step toward their\ndemocratization.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast",
+      "Tracking"
+    ]
+  },
+  {
+    "title": "Huracan: A skillful end-to-end data-driven system for ensemble data assimilation and weather prediction",
+    "url": "http://arxiv.org/abs/2508.18486v1",
+    "authors": [
+      "Zekun Ni",
+      "Jonathan Weyn",
+      "Hang Zhang",
+      "Yanfei Xiang",
+      "Jiang Bian",
+      "Weixin Jin",
+      "Kit Thambiratnam",
+      "Qi Zhang",
+      "Haiyu Dong",
+      "Hongyu Sun"
+    ],
+    "published": "2025-08-25",
+    "abstract": "Over the past few years, machine learning-based data-driven weather\nprediction has been transforming operational weather forecasting by providing\nmore accurate forecasts while using a mere fraction of computing power compared\nto traditional numerical weather prediction (NWP). However, those models still\nrely on initial conditions from NWP, putting an upper limit on their forecast\nabilities. A few end-to-end systems have since been proposed, but they have yet\nto match the forecast skill of state-of-the-art NWP competitors. In this work,\nwe propose Huracan, an observation-driven weather forecasting system which\ncombines an ensemble data assimilation model with a forecast model to produce\nhighly accurate forecasts relying only on observations as inputs. Huracan is\nnot only the first to provide ensemble initial conditions and end-to-end\nensemble weather forecasts, but also the first end-to-end system to achieve an\naccuracy comparable with that of ECMWF ENS, the state-of-the-art NWP\ncompetitor, despite using a smaller amount of available observation data.\nNotably, Huracan matches or exceeds the continuous ranked probability score of\nECMWF ENS on 75.4% of the variable and lead time combinations. Our work is a\nmajor step forward in end-to-end data-driven weather prediction and opens up\nopportunities for further improving and revolutionizing operational weather\nforecasting.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
   }
 ]
