@@ -13147,5 +13147,417 @@
     "applications": [
       "Forecast"
     ]
+  },
+  {
+    "title": "Finetuning AI Foundation Models to Develop Subgrid-Scale Parameterizations: A Case Study on Atmospheric Gravity Waves",
+    "url": "http://arxiv.org/abs/2509.03816v1",
+    "authors": [
+      "Aman Gupta",
+      "Aditi Sheshadri",
+      "Sujit Roy",
+      "Johannes Schmude",
+      "Vishal Gaur",
+      "Wei Ji Leong",
+      "Manil Maskey",
+      "Rahul Ramachandran"
+    ],
+    "published": "2025-09-04",
+    "abstract": "Global climate models parameterize a range of atmospheric-oceanic processes\nlike gravity waves, clouds, moist convection, and turbulence that cannot be\nsufficiently resolved. These subgrid-scale closures for unresolved processes\nare a leading source of model uncertainty. Here, we present a new approach to\ndeveloping machine learning parameterizations of small-scale climate processes\nby fine-tuning a pre-trained AI foundation model (FM). FMs are largely\nunexplored in climate research. A pre-trained encoder-decoder from a 2.3\nbillion parameter FM (NASA and IBM Research's Prithvi WxC) -- which contains a\nlatent probabilistic representation of atmospheric evolution -- is fine-tuned\n(or reused) to create a deep learning parameterization for atmospheric gravity\nwaves (GWs). The parameterization captures GW effects for a coarse-resolution\nclimate model by learning the fluxes from an atmospheric reanalysis with 10\ntimes finer resolution. A comparison of monthly averages and instantaneous\nevolution with a machine learning model baseline (an Attention U-Net) reveals\nsuperior predictive performance of the FM parameterization throughout the\natmosphere, even in regions excluded from pre-training. This performance boost\nis quantified using the Hellinger distance, which is 0.11 for the baseline and\n0.06 for the fine-tuned model. Our findings emphasize the versatility and\nreusability of FMs, which could be used to accomplish a range of atmosphere-\nand climate-related applications, leading the way for the creation of\nobservations-driven and physically accurate parameterizations for more\nearth-system processes.",
+    "categories": [
+      "foundation_model",
+      "ocean"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Towards Interpretable Geo-localization: a Concept-Aware Global Image-GPS Alignment Framework",
+    "url": "http://arxiv.org/abs/2509.01910v1",
+    "authors": [
+      "Furong Jia",
+      "Lanxin Liu",
+      "Ce Hou",
+      "Fan Zhang",
+      "Xinyan Liu",
+      "Yu Liu"
+    ],
+    "published": "2025-09-02",
+    "abstract": "Worldwide geo-localization involves determining the exact geographic location\nof images captured globally, typically guided by geographic cues such as\nclimate, landmarks, and architectural styles. Despite advancements in\ngeo-localization models like GeoCLIP, which leverages images and location\nalignment via contrastive learning for accurate predictions, the\ninterpretability of these models remains insufficiently explored. Current\nconcept-based interpretability methods fail to align effectively with\nGeo-alignment image-location embedding objectives, resulting in suboptimal\ninterpretability and performance. To address this gap, we propose a novel\nframework integrating global geo-localization with concept bottlenecks. Our\nmethod inserts a Concept-Aware Alignment Module that jointly projects image and\nlocation embeddings onto a shared bank of geographic concepts (e.g., tropical\nclimate, mountain, cathedral) and minimizes a concept-level loss, enhancing\nalignment in a concept-specific subspace and enabling robust interpretability.\nTo our knowledge, this is the first work to introduce interpretability into\ngeo-localization. Extensive experiments demonstrate that our approach surpasses\nGeoCLIP in geo-localization accuracy and boosts performance across diverse\ngeospatial prediction tasks, revealing richer semantic insights into geographic\ndecision-making processes.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Multimodal Feature Fusion Network with Text Difference Enhancement for Remote Sensing Change Detection",
+    "url": "http://arxiv.org/abs/2509.03961v1",
+    "authors": [
+      "Yijun Zhou",
+      "Yikui Zhai",
+      "Zilu Ying",
+      "Tingfeng Xian",
+      "Wenlve Zhou",
+      "Zhiheng Zhou",
+      "Xiaolin Tian",
+      "Xudong Jia",
+      "Hongsheng Zhang",
+      "C. L. Philip Chen"
+    ],
+    "published": "2025-09-04",
+    "abstract": "Although deep learning has advanced remote sensing change detection (RSCD),\nmost methods rely solely on image modality, limiting feature representation,\nchange pattern modeling, and generalization especially under illumination and\nnoise disturbances. To address this, we propose MMChange, a multimodal RSCD\nmethod that combines image and text modalities to enhance accuracy and\nrobustness. An Image Feature Refinement (IFR) module is introduced to highlight\nkey regions and suppress environmental noise. To overcome the semantic\nlimitations of image features, we employ a vision language model (VLM) to\ngenerate semantic descriptions of bitemporal images. A Textual Difference\nEnhancement (TDE) module then captures fine grained semantic shifts, guiding\nthe model toward meaningful changes. To bridge the heterogeneity between\nmodalities, we design an Image Text Feature Fusion (ITFF) module that enables\ndeep cross modal integration. Extensive experiments on LEVIRCD, WHUCD, and\nSYSUCD demonstrate that MMChange consistently surpasses state of the art\nmethods across multiple metrics, validating its effectiveness for multimodal\nRSCD. Code is available at: https://github.com/yikuizhai/MMChange.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Transformer-Guided Content-Adaptive Graph Learning for Hyperspectral Unmixing",
+    "url": "http://arxiv.org/abs/2509.03376v1",
+    "authors": [
+      "Hui Chen",
+      "Liangyu Liu",
+      "Xianchao Xiu",
+      "Wanquan Liu"
+    ],
+    "published": "2025-09-03",
+    "abstract": "Hyperspectral unmixing (HU) targets to decompose each mixed pixel in remote\nsensing images into a set of endmembers and their corresponding abundances.\nDespite significant progress in this field using deep learning, most methods\nfail to simultaneously characterize global dependencies and local consistency,\nmaking it difficult to preserve both long-range interactions and boundary\ndetails. This letter proposes a novel transformer-guided content-adaptive graph\nunmixing framework (T-CAGU), which overcomes these challenges by employing a\ntransformer to capture global dependencies and introducing a content-adaptive\ngraph neural network to enhance local relationships. Unlike previous work,\nT-CAGU integrates multiple propagation orders to dynamically learn the graph\nstructure, ensuring robustness against noise. Furthermore, T-CAGU leverages a\ngraph residual mechanism to preserve global information and stabilize training.\nExperimental results demonstrate its superiority over the state-of-the-art\nmethods. Our code is available at https://github.com/xianchaoxiu/T-CAGU.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Information transmission: Inferring change area from change moment in time series remote sensing images",
+    "url": "http://arxiv.org/abs/2509.03112v1",
+    "authors": [
+      "Jialu Li",
+      "Chen Wu",
+      "Meiqi Hu"
+    ],
+    "published": "2025-09-03",
+    "abstract": "Time series change detection is a critical task for exploring ecosystem\ndynamics using time series remote sensing images, because it can simultaneously\nindicate where and when change occur. While deep learning has shown excellent\nperformance in this domain, it continues to approach change area detection and\nchange moment identification as distinct tasks. Given that change area can be\ninferred from change moment, we propose a time series change detection network,\nnamed CAIM-Net (Change Area Inference from Moment Network), to ensure\nconsistency between change area and change moment results. CAIM-Net infers\nchange area from change moment based on the intrinsic relationship between time\nseries analysis and spatial change detection. The CAIM-Net comprises three key\nsteps: Difference Extraction and Enhancement, Coarse Change Moment Extraction,\nand Fine Change Moment Extraction and Change Area Inference. In the Difference\nExtraction and Enhancement, a lightweight encoder with batch dimension stacking\nis designed to rapidly extract difference features. Subsequently, boundary\nenhancement convolution is applied to amplify these difference features. In the\nCoarse Change Moment Extraction, the enhanced difference features from the\nfirst step are used to spatiotemporal correlation analysis, and then two\ndistinct methods are employed to determine coarse change moments. In the Fine\nChange Moment Extraction and Change Area Inference, a multiscale temporal Class\nActivation Mapping (CAM) module first increases the weight of the\nchange-occurring moment from coarse change moments. Then the weighted change\nmoment is used to infer change area based on the fact that pixels with the\nchange moment must have undergone a change.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "HydroVision: Predicting Optically Active Parameters in Surface Water Using Computer Vision",
+    "url": "http://arxiv.org/abs/2509.01882v2",
+    "authors": [
+      "Shubham Laxmikant Deshmukh",
+      "Matthew Wilchek",
+      "Feras A. Batarseh"
+    ],
+    "published": "2025-09-02",
+    "abstract": "Ongoing advancements in computer vision, particularly in pattern recognition\nand scene classification, have enabled new applications in environmental\nmonitoring. Deep learning now offers non-contact methods for assessing water\nquality and detecting contamination, both critical for disaster response and\npublic health protection. This work introduces HydroVision, a deep\nlearning-based scene classification framework that estimates optically active\nwater quality parameters including Chlorophyll-Alpha, Chlorophylls, Colored\nDissolved Organic Matter (CDOM), Phycocyanins, Suspended Sediments, and\nTurbidity from standard Red-Green-Blue (RGB) images of surface water.\nHydroVision supports early detection of contamination trends and strengthens\nmonitoring by regulatory agencies during external environmental stressors,\nindustrial activities, and force majeure events. The model is trained on more\nthan 500,000 seasonally varied images collected from the United States\nGeological Survey Hydrologic Imagery Visualization and Information System\nbetween 2022 and 2024. This approach leverages widely available RGB imagery as\na scalable, cost-effective alternative to traditional multispectral and\nhyperspectral remote sensing. Four state-of-the-art convolutional neural\nnetworks (VGG-16, ResNet50, MobileNetV2, DenseNet121) and a Vision Transformer\nare evaluated through transfer learning to identify the best-performing\narchitecture. DenseNet121 achieves the highest validation performance, with an\nR2 score of 0.89 in predicting CDOM, demonstrating the framework's promise for\nreal-world water quality monitoring across diverse conditions. While the\ncurrent model is optimized for well-lit imagery, future work will focus on\nimproving robustness under low-light and obstructed scenarios to expand its\noperational utility.",
+    "categories": [
+      "remote_sensing",
+      "ocean"
+    ],
+    "architectures": [
+      "VGG",
+      "Transformer"
+    ],
+    "applications": [
+      "Detection",
+      "Classification",
+      "Recognition"
+    ]
+  },
+  {
+    "title": "SegAssess: Panoramic quality mapping for robust and transferable unsupervised segmentation assessment",
+    "url": "http://arxiv.org/abs/2509.01183v1",
+    "authors": [
+      "Bingnan Yang",
+      "Mi Zhang",
+      "Zhili Zhang",
+      "Zhan Zhang",
+      "Yuanxin Zhao",
+      "Xiangyun Hu",
+      "Jianya Gong"
+    ],
+    "published": "2025-09-01",
+    "abstract": "High-quality image segmentation is fundamental to pixel-level geospatial\nanalysis in remote sensing, necessitating robust segmentation quality\nassessment (SQA), particularly in unsupervised settings lacking ground truth.\nAlthough recent deep learning (DL) based unsupervised SQA methods show\npotential, they often suffer from coarse evaluation granularity, incomplete\nassessments, and poor transferability. To overcome these limitations, this\npaper introduces Panoramic Quality Mapping (PQM) as a new paradigm for\ncomprehensive, pixel-wise SQA, and presents SegAssess, a novel deep learning\nframework realizing this approach. SegAssess distinctively formulates SQA as a\nfine-grained, four-class panoramic segmentation task, classifying pixels within\na segmentation mask under evaluation into true positive (TP), false positive\n(FP), true negative (TN), and false negative (FN) categories, thereby\ngenerating a complete quality map. Leveraging an enhanced Segment Anything\nModel (SAM) architecture, SegAssess uniquely employs the input mask as a prompt\nfor effective feature integration via cross-attention. Key innovations include\nan Edge Guided Compaction (EGC) branch with an Aggregated Semantic Filter (ASF)\nmodule to refine predictions near challenging object edges, and an Augmented\nMixup Sampling (AMS) training strategy integrating multi-source masks to\nsignificantly boost cross-domain robustness and zero-shot transferability.\nComprehensive experiments across 32 datasets derived from 6 sources demonstrate\nthat SegAssess achieves state-of-the-art (SOTA) performance and exhibits\nremarkable zero-shot transferability to unseen masks, establishing PQM via\nSegAssess as a robust and transferable solution for unsupervised SQA. The code\nis available at https://github.com/Yangbn97/SegAssess.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "CSFMamba: Cross State Fusion Mamba Operator for Multimodal Remote Sensing Image Classification",
+    "url": "http://arxiv.org/abs/2509.00677v1",
+    "authors": [
+      "Qingyu Wang",
+      "Xue Jiang",
+      "Guozheng Xu"
+    ],
+    "published": "2025-08-31",
+    "abstract": "Multimodal fusion has made great progress in the field of remote sensing\nimage classification due to its ability to exploit the complementary\nspatial-spectral information. Deep learning methods such as CNN and Transformer\nhave been widely used in these domains. State Space Models recently highlighted\nthat prior methods suffer from quadratic computational complexity. As a result,\nmodeling longer-range dependencies of spatial-spectral features imposes an\noverwhelming burden on the network. Mamba solves this problem by incorporating\ntime-varying parameters into ordinary SSM and performing hardware optimization,\nbut it cannot perform feature fusion directly. In order to make full use of\nMamba's low computational burden and explore the potential of internal\nstructure in multimodal feature fusion, we propose Cross State Fusion Mamba\n(CSFMamba) Network. Specifically, we first design the preprocessing module of\nremote sensing image information for the needs of Mamba structure, and combine\nit with CNN to extract multi-layer features. Secondly, a cross-state module\nbased on Mamba operator is creatively designed to fully fuse the feature of the\ntwo modalities. The advantages of Mamba and CNN are combined by designing a\nmore powerful backbone. We capture the fusion relationship between HSI and\nLiDAR modalities with stronger full-image understanding. The experimental\nresults on two datasets of MUUFL and Houston2018 show that the proposed method\noutperforms the experimental results of Transformer under the premise of\nreducing the network training burden.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "DGL-RSIS: Decoupling Global Spatial Context and Local Class Semantics for Training-Free Remote Sensing Image Segmentation",
+    "url": "http://arxiv.org/abs/2509.00598v1",
+    "authors": [
+      "Boyi Li",
+      "Ce Zhang",
+      "Richard M. Timmerman",
+      "Wenxuan Bao"
+    ],
+    "published": "2025-08-30",
+    "abstract": "The emergence of vision language models (VLMs) has bridged vision and\nlanguage, enabling joint multimodal understanding beyond traditional\nvisual-only deep learning models. However, transferring VLMs from the natural\nimage domain to remote sensing (RS) segmentation remains challenging due to the\nlimited category diversity in RS datasets and the domain gap between natural\nand RS imagery. Here, we propose a training-free framework, DGL-RSIS, that\ndecouples visual and textual inputs, performing visual-language alignment at\nboth the local semantic and global contextual levels through tailored\nstrategies. Specifically, we first introduce a global-local decoupling (GLD)\nmodule, where text inputs are divided into local class nouns and global\nmodifiers using natural language processing (NLP) techniques; image inputs are\npartitioned into a set of class-agnostic mask proposals via unsupervised mask\nproposal networks. Second, visual and textual features are aligned at local\nscale, through a novel context-aware cropping strategy for extracting image\npatches with proper boundaries and introducing RS-specific knowledge to enrich\nthe text inputs. By matching the enhanced text features with mask-guided visual\nfeatures, we enable the mask classification, supporting open-vocabulary\nsemantic segmentation (OVSS). Third, at the global scale, we propose a\nCross-Scale Grad-CAM module to refine Grad-CAM maps using contextual\ninformation from global modifiers. A subsequent mask selection module\nintegrates pixel-level Grad-CAM activations into the mask-level segmentation\noutput, such that accurate and interpretable alignment can be realized across\nglobal and local dimensions for referring expression segmentation (RES).",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": [
+      "Segmentation",
+      "Classification"
+    ]
+  },
+  {
+    "title": "DAOVI: Distortion-Aware Omnidirectional Video Inpainting",
+    "url": "http://arxiv.org/abs/2509.00396v1",
+    "authors": [
+      "Ryosuke Seshimo",
+      "Mariko Isogawa"
+    ],
+    "published": "2025-08-30",
+    "abstract": "Omnidirectional videos that capture the entire surroundings are employed in a\nvariety of fields such as VR applications and remote sensing. However, their\nwide field of view often causes unwanted objects to appear in the videos. This\nproblem can be addressed by video inpainting, which enables the natural removal\nof such objects while preserving both spatial and temporal consistency.\nNevertheless, most existing methods assume processing ordinary videos with a\nnarrow field of view and do not tackle the distortion in equirectangular\nprojection of omnidirectional videos. To address this issue, this paper\nproposes a novel deep learning model for omnidirectional video inpainting,\ncalled Distortion-Aware Omnidirectional Video Inpainting (DAOVI). DAOVI\nintroduces a module that evaluates temporal motion information in the image\nspace considering geodesic distance, as well as a depth-aware feature\npropagation module in the feature space that is designed to address the\ngeometric distortion inherent to omnidirectional videos. The experimental\nresults demonstrate that our proposed method outperforms existing methods both\nquantitatively and qualitatively.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Real-Time Instrument Planning and Perception for Novel Measurements of Dynamic Phenomena",
+    "url": "http://arxiv.org/abs/2509.03500v1",
+    "authors": [
+      "Itai Zilberstein",
+      "Alberto Candela",
+      "Steve Chien"
+    ],
+    "published": "2025-09-03",
+    "abstract": "Advancements in onboard computing mean remote sensing agents can employ\nstate-of-the-art computer vision and machine learning at the edge. These\ncapabilities can be leveraged to unlock new rare, transient, and pinpoint\nmeasurements of dynamic science phenomena. In this paper, we present an\nautomated workflow that synthesizes the detection of these dynamic events in\nlook-ahead satellite imagery with autonomous trajectory planning for a\nfollow-up high-resolution sensor to obtain pinpoint measurements. We apply this\nworkflow to the use case of observing volcanic plumes. We analyze\nclassification approaches including traditional machine learning algorithms and\nconvolutional neural networks. We present several trajectory planning\nalgorithms that track the morphological features of a plume and integrate these\nalgorithms with the classifiers. We show through simulation an order of\nmagnitude increase in the utility return of the high-resolution instrument\ncompared to baselines while maintaining efficient runtimes.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": [
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Invariant Features for Global Crop Type Classification",
+    "url": "http://arxiv.org/abs/2509.03497v2",
+    "authors": [
+      "Xin-Yi Tong",
+      "Sherrie Wang"
+    ],
+    "published": "2025-09-03",
+    "abstract": "Accurately obtaining crop type and its spatial distribution at a global scale\nis critical for food security, agricultural policy-making, and sustainable\ndevelopment. Remote sensing offers an efficient solution for large-scale crop\nclassification, but the limited availability of reliable ground samples in many\nregions constrains applicability across geographic areas. To address\nperformance declines under geospatial shifts, this study identifies remote\nsensing features that are invariant to geographic variation and proposes\nstrategies to enhance cross-regional generalization. We construct CropGlobe, a\nglobal crop type dataset with 300,000 pixel-level samples from eight countries\nacross five continents, covering six major food and industrial crops (corn,\nsoybeans, rice, wheat, sugarcane, cotton). With broad geographic coverage,\nCropGlobe enables a systematic evaluation under cross-country, cross-continent,\nand cross-hemisphere transfer. We compare the transferability of temporal\nmulti-spectral features (Sentinel-2-based 1D/2D median features and harmonic\ncoefficients) and hyperspectral features (from EMIT). To improve generalization\nunder spectral and phenological shifts, we design CropNet, a lightweight and\nrobust CNN tailored for pixel-level crop classification, coupled with temporal\ndata augmentation (time shift, time scale, and magnitude warping) that\nsimulates realistic cross-regional phenology. Experiments show that 2D median\ntemporal features from Sentinel-2 consistently exhibit the strongest invariance\nacross all transfer scenarios, and augmentation further improves robustness,\nparticularly when training data diversity is limited. Overall, the work\nidentifies more invariant feature representations that enhance geographic\ntransferability and suggests a promising path toward scalable, low-cost crop\ntype applications across globally diverse regions.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "From Image Denoisers to Regularizing Imaging Inverse Problems: An Overview",
+    "url": "http://arxiv.org/abs/2509.03475v1",
+    "authors": [
+      "Hong Ye Tan",
+      "Subhadip Mukherjee",
+      "Junqi Tang"
+    ],
+    "published": "2025-09-03",
+    "abstract": "Inverse problems lie at the heart of modern imaging science, with broad\napplications in areas such as medical imaging, remote sensing, and microscopy.\nRecent years have witnessed a paradigm shift in solving imaging inverse\nproblems, where data-driven regularizers are used increasingly, leading to\nremarkably high-fidelity reconstruction. A particularly notable approach for\ndata-driven regularization is to use learned image denoisers as implicit priors\nin iterative image reconstruction algorithms. This survey presents a\ncomprehensive overview of this powerful and emerging class of algorithms,\ncommonly referred to as plug-and-play (PnP) methods. We begin by providing a\nbrief background on image denoising and inverse problems, followed by a short\nreview of traditional regularization strategies. We then explore how proximal\nsplitting algorithms, such as the alternating direction method of multipliers\n(ADMM) and proximal gradient descent (PGD), can naturally accommodate learned\ndenoisers in place of proximal operators, and under what conditions such\nreplacements preserve convergence. The role of Tweedie's formula in connecting\noptimal Gaussian denoisers and score estimation is discussed, which lays the\nfoundation for regularization-by-denoising (RED) and more recent\ndiffusion-based posterior sampling methods. We discuss theoretical advances\nregarding the convergence of PnP algorithms, both within the RED and proximal\nsettings, emphasizing the structural assumptions that the denoiser must satisfy\nfor convergence, such as non-expansiveness, Lipschitz continuity, and local\nhomogeneity. We also address practical considerations in algorithm design,\nincluding choices of denoiser architecture and acceleration strategies.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "LUCIE-3D: A three-dimensional climate emulator for forced responses",
+    "url": "http://arxiv.org/abs/2509.02061v1",
+    "authors": [
+      "Haiwen Guan",
+      "Troy Arcomano",
+      "Ashesh Chattopadhyay",
+      "Romit Maulik"
+    ],
+    "published": "2025-09-02",
+    "abstract": "We introduce LUCIE-3D, a lightweight three-dimensional climate emulator\ndesigned to capture the vertical structure of the atmosphere, respond to\nclimate change forcings, and maintain computational efficiency with long-term\nstability. Building on the original LUCIE-2D framework, LUCIE-3D employs a\nSpherical Fourier Neural Operator (SFNO) backbone and is trained on 30 years of\nERA5 reanalysis data spanning eight vertical {\\sigma}-levels. The model\nincorporates atmospheric CO2 as a forcing variable and optionally integrates\nprescribed sea surface temperature (SST) to simulate coupled ocean--atmosphere\ndynamics. Results demonstrate that LUCIE-3D successfully reproduces\nclimatological means, variability, and long-term climate change signals,\nincluding surface warming and stratospheric cooling under increasing CO2\nconcentrations. The model further captures key dynamical processes such as\nequatorial Kelvin waves, the Madden--Julian Oscillation, and annular modes,\nwhile showing credible behavior in the statistics of extreme events. Despite\nrequiring longer training than its 2D predecessor, LUCIE-3D remains efficient,\ntraining in under five hours on four GPUs. Its combination of stability,\nphysical consistency, and accessibility makes it a valuable tool for rapid\nexperimentation, ablation studies, and the exploration of coupled climate\ndynamics, with potential applications extending to paleoclimate research and\nfuture Earth system emulation.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "An Observations-focused Assessment of Global AI Weather Prediction Models During the South Asian Monsoon",
+    "url": "http://arxiv.org/abs/2509.01879v1",
+    "authors": [
+      "Aman Gupta",
+      "Aditi Sheshadri",
+      "Dhruv Suri"
+    ],
+    "published": "2025-09-02",
+    "abstract": "Seven state-of-the-art AI weather models (FourCastNet, FourCastNet-SFNO,\nPangu-Weather, GraphCast, Aurora, AIFS, and GenCast) are evaluated against\nobservational data during the South Asian Monsoon. The models are tested on\ntemperature, winds, global kinetic energy spectrum, regional precipitation,\ncloud cover, cyclone trajectory prediction, and hyperlocal predictions around\nextreme weather events. The models forecast large-scale dynamics with\nreasonable accuracy, but fall short on key metrics critical to Monsoon-time\nweather prediction. The models exhibit substantially higher errors when\ncompared against ground-based weather station data than against reanalysis or\nconventional forecasts. The AI weather prediction models show key differences\nin mesoscale kinetic energy and extreme precipitation during the Monsoon, and\npredict markedly different Monsoon-time cyclone trajectories over the Indian\nsubcontinent, raising questions about their readiness for operational\napplications. Our analysis finds that ECMWF's deterministic AIFS model offers\nthe most reliable performance and usability, with GraphCast and GenCast being\nclose seconds.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "AT Loss: Advanced Torrential Loss Function for Precipitation Forecasting",
+    "url": "http://arxiv.org/abs/2509.01348v1",
+    "authors": [
+      "Jaeho Choi",
+      "Hyeri Kim",
+      "Kwang-Ho Kim",
+      "Jaesung Lee"
+    ],
+    "published": "2025-09-01",
+    "abstract": "Accurate precipitation forecasting is becoming increasingly important in the\ncontext of climate change. In response, machine learning-based approaches have\nrecently gained attention as an emerging alternative to traditional methods\nsuch as numerical weather prediction and climate models. Nonetheless, many\nrecent approaches still rely on off-the-shelf loss functions, and even the more\nadvanced ones merely involve optimization processes based on the critical\nsuccess index (CSI). The problem, however, is that CSI may become ineffective\nduring extended dry periods when precipitation remains below the threshold,\nrendering it less than ideal as a criterion for optimization. To address this\nlimitation, we introduce a simple penalty expression and reinterpret it as a\nquadratic unconstrained binary optimization (QUBO) formulation. Ultimately, the\nresulting QUBO formulation is relaxed into a differentiable advanced torrential\n(AT) loss function through an approximation process. The proposed AT loss\ndemonstrates its superiority through the Lipschitz constant, forecast\nperformance evaluations, consistency experiments, and ablation studies with the\noperational model.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Imputing Missing Long-Term Spatiotemporal Multivariate Atmospheric Data with CNN-Transformer Machine Learning",
+    "url": "http://arxiv.org/abs/2509.01141v1",
+    "authors": [
+      "Jiahui Hu",
+      "Wenjun Dong",
+      "Alan Z. Liu"
+    ],
+    "published": "2025-09-01",
+    "abstract": "Continuous physical domains are important for scientific investigations of\ndynamical processes in the atmosphere. However, missing data arising from\noperational constraints and adverse environmental conditions pose significant\nchallenges to accurate analysis and modeling. To address this limitation, we\npropose a novel hybrid Convolutional Neural Network (CNN) Transformer machine\nlearning model for multivariable atmospheric data imputation, termed CT-MVP.\nThis framework integrates CNNs for local feature extraction with transformers\nfor capturing long-range dependencies across time and altitude. The model is\ntrained and evaluated on a testbed using the Specified Dynamics Whole\nAtmosphere Community Climate Model with thermosphere and ionosphere extension\n(SD-WACCM-X) dataset spanning 13 years, which provides continuous global\ncoverage of atmospheric variables, including temperature and zonal and\nmeridional winds. This setup ensures that the ML approach can be rigorously\nassessed under diverse data-gap conditions. The hybrid framework enables\neffective reconstruction of missing values in high-dimensional atmospheric\ndatasets, with comparative evaluations against traditional methods and a simple\ntransformer. The results demonstrate that CT-MVP achieves superior performance\ncompared with traditional approaches, particularly in cases involving extended\nperiods of missing data, and slightly outperforms a simple transformer with the\nsame hyper-parameters.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "AI-driven Dispensing of Coral Reseeding Devices for Broad-scale Restoration of the Great Barrier Reef",
+    "url": "http://arxiv.org/abs/2509.01019v1",
+    "authors": [
+      "Scarlett Raine",
+      "Benjamin Moshirian",
+      "Tobias Fischer"
+    ],
+    "published": "2025-08-31",
+    "abstract": "Coral reefs are on the brink of collapse, with climate change, ocean\nacidification, and pollution leading to a projected 70-90% loss of coral\nspecies within the next decade. Restoration efforts are crucial, but their\nsuccess hinges on introducing automation to upscale efforts. We present\nautomated deployment of coral re-seeding devices powered by artificial\nintelligence, computer vision, and robotics. Specifically, we perform automated\nsubstrate classification, enabling detection of areas of the seafloor suitable\nfor coral growth, thus significantly reducing reliance on human experts and\nincreasing the range and efficiency of restoration. Real-world testing of the\nalgorithms on the Great Barrier Reef leads to deployment accuracy of 77.8%,\nsub-image patch classification of 89.1%, and real-time model inference at 5.5\nframes per second. Further, we present and publicly contribute a large\ncollection of annotated substrate image data to foster future research in this\narea.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "IndiaWeatherBench: A Dataset and Benchmark for Data-Driven Regional Weather Forecasting over India",
+    "url": "http://arxiv.org/abs/2509.00653v1",
+    "authors": [
+      "Tung Nguyen",
+      "Harkanwar Singh",
+      "Nilay Naharas",
+      "Lucas Bandarkar",
+      "Aditya Grover"
+    ],
+    "published": "2025-08-31",
+    "abstract": "Regional weather forecasting is a critical problem for localized climate\nadaptation, disaster mitigation, and sustainable development. While machine\nlearning has shown impressive progress in global weather forecasting, regional\nforecasting remains comparatively underexplored. Existing efforts often use\ndifferent datasets and experimental setups, limiting fair comparison and\nreproducibility. We introduce IndiaWeatherBench, a comprehensive benchmark for\ndata-driven regional weather forecasting focused on the Indian subcontinent.\nIndiaWeatherBench provides a curated dataset built from high-resolution\nregional reanalysis products, along with a suite of deterministic and\nprobabilistic metrics to facilitate consistent training and evaluation. To\nestablish strong baselines, we implement and evaluate a range of models across\ndiverse architectures, including UNets, Transformers, and Graph-based networks,\nas well as different boundary conditioning strategies and training objectives.\nWhile focused on India, IndiaWeatherBench is easily extensible to other\ngeographic regions. We open-source all raw and preprocessed datasets, model\nimplementations, and evaluation pipelines to promote accessibility and future\ndevelopment. We hope IndiaWeatherBench will serve as a foundation for advancing\nregional weather forecasting research. Code is available at\nhttps://github.com/tung-nd/IndiaWeatherBench.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "UNET",
+      "Transformer"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Forecasting the Ionosphere from Sparse GNSS Data with Temporal-Fusion Transformers",
+    "url": "http://arxiv.org/abs/2509.00631v1",
+    "authors": [
+      "Giacomo Acciarini",
+      "Simone Mestici",
+      "Halil Kelebek",
+      "Linnea Wolniewicz",
+      "Michael Vergalla",
+      "Madhulika Guhathakurta",
+      "Umaa Rebbapragada",
+      "Bala Poduval",
+      "At\u0131l\u0131m G\u00fcne\u015f Baydin",
+      "Frank Soboczenski"
+    ],
+    "published": "2025-08-30",
+    "abstract": "The ionosphere critically influences Global Navigation Satellite Systems\n(GNSS), satellite communications, and Low Earth Orbit (LEO) operations, yet\naccurate prediction of its variability remains challenging due to nonlinear\ncouplings between solar, geomagnetic, and thermospheric drivers. Total Electron\nContent (TEC), a key ionospheric parameter, is derived from GNSS observations,\nbut its reliable forecasting is limited by the sparse nature of global\nmeasurements and the limited accuracy of empirical models, especially during\nstrong space weather conditions. In this work, we present a machine learning\nframework for ionospheric TEC forecasting that leverages Temporal Fusion\nTransformers (TFT) to predict sparse ionosphere data. Our approach accommodates\nheterogeneous input sources, including solar irradiance, geomagnetic indices,\nand GNSS-derived vertical TEC, and applies preprocessing and temporal alignment\nstrategies. Experiments spanning 2010-2025 demonstrate that the model achieves\nrobust predictions up to 24 hours ahead, with root mean square errors as low as\n3.33 TECU. Results highlight that solar EUV irradiance provides the strongest\npredictive signals. Beyond forecasting accuracy, the framework offers\ninterpretability through attention-based analysis, supporting both operational\napplications and scientific discovery. To encourage reproducibility and\ncommunity-driven development, we release the full implementation as the\nopen-source toolkit \\texttt{ionopy}.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Forecast"
+    ]
   }
 ]
