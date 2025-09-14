@@ -13559,5 +13559,283 @@
     "applications": [
       "Forecast"
     ]
+  },
+  {
+    "title": "PeftCD: Leveraging Vision Foundation Models with Parameter-Efficient Fine-Tuning for Remote Sensing Change Detection",
+    "url": "http://arxiv.org/abs/2509.09572v1",
+    "authors": [
+      "Sijun Dong",
+      "Yuxuan Hu",
+      "LiBo Wang",
+      "Geng Chen",
+      "Xiaoliang Meng"
+    ],
+    "published": "2025-09-11",
+    "abstract": "To tackle the prevalence of pseudo changes, the scarcity of labeled samples,\nand the difficulty of cross-domain generalization in multi-temporal and\nmulti-source remote sensing imagery, we propose PeftCD, a change detection\nframework built upon Vision Foundation Models (VFMs) with Parameter-Efficient\nFine-Tuning (PEFT). At its core, PeftCD employs a weight-sharing Siamese\nencoder derived from a VFM, into which LoRA and Adapter modules are seamlessly\nintegrated. This design enables highly efficient task adaptation by training\nonly a minimal set of additional parameters. To fully unlock the potential of\nVFMs, we investigate two leading backbones: the Segment Anything Model v2\n(SAM2), renowned for its strong segmentation priors, and DINOv3, a\nstate-of-the-art self-supervised representation learner. The framework is\ncomplemented by a deliberately lightweight decoder, ensuring the focus remains\non the powerful feature representations from the backbones. Extensive\nexperiments demonstrate that PeftCD achieves state-of-the-art performance\nacross multiple public datasets, including SYSU-CD (IoU 73.81%), WHUCD\n(92.05%), MSRSCD (64.07%), MLCD (76.89%), CDD (97.01%), S2Looking (52.25%) and\nLEVIR-CD (85.62%), with notably precise boundary delineation and strong\nsuppression of pseudo-changes. In summary, PeftCD presents an optimal balance\nof accuracy, efficiency, and generalization. It offers a powerful and scalable\nparadigm for adapting large-scale VFMs to real-world remote sensing change\ndetection applications. The code and pretrained models will be released at\nhttps://github.com/dyzy41/PeftCD.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection"
+    ]
+  },
+  {
+    "title": "An Open Benchmark Dataset for GeoAI Foundation Models for Oil Palm Mapping in Indonesia",
+    "url": "http://arxiv.org/abs/2509.08303v1",
+    "authors": [
+      "M. Warizmi Wafiq",
+      "Peter Cutter",
+      "Ate Poortinga",
+      "Daniel Marc G. dela Torre",
+      "Karis Tenneson",
+      "Vanna Teck",
+      "Enikoe Bihari",
+      "Chanarun Saisaward",
+      "Weraphong Suaruang",
+      "Andrea McMahon",
+      "Andi Vika Faradiba Muin",
+      "Karno B. Batiran",
+      "Chairil A",
+      "Nurul Qomar",
+      "Arya Arismaya Metananda",
+      "David Ganz",
+      "David Saah"
+    ],
+    "published": "2025-09-10",
+    "abstract": "Oil palm cultivation remains one of the leading causes of deforestation in\nIndonesia. To better track and address this challenge, detailed and reliable\nmapping is needed to support sustainability efforts and emerging regulatory\nframeworks. We present an open-access geospatial dataset of oil palm\nplantations and related land cover types in Indonesia, produced through expert\nlabeling of high-resolution satellite imagery from 2020 to 2024. The dataset\nprovides polygon-based, wall-to-wall annotations across a range of\nagro-ecological zones and includes a hierarchical typology that distinguishes\noil palm planting stages as well as similar perennial crops. Quality was\nensured through multi-interpreter consensus and field validation. The dataset\nwas created using wall-to-wall digitization over large grids, making it\nsuitable for training and benchmarking both conventional convolutional neural\nnetworks and newer geospatial foundation models. Released under a CC-BY\nlicense, it fills a key gap in training data for remote sensing and aims to\nimprove the accuracy of land cover types mapping. By supporting transparent\nmonitoring of oil palm expansion, the resource contributes to global\ndeforestation reduction goals and follows FAIR data principles.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "An U-Net-Based Deep Neural Network for Cloud Shadow and Sun-Glint Correction of Unmanned Aerial System (UAS) Imagery",
+    "url": "http://arxiv.org/abs/2509.08949v1",
+    "authors": [
+      "Yibin Wang",
+      "Wondimagegn Beshah",
+      "Padmanava Dash",
+      "Haifeng Wang"
+    ],
+    "published": "2025-09-10",
+    "abstract": "The use of unmanned aerial systems (UASs) has increased tremendously in the\ncurrent decade. They have significantly advanced remote sensing with the\ncapability to deploy and image the terrain as per required spatial, spectral,\ntemporal, and radiometric resolutions for various remote sensing applications.\nOne of the major advantages of UAS imagery is that images can be acquired in\ncloudy conditions by flying the UAS under the clouds. The limitation to the\ntechnology is that the imagery is often sullied by cloud shadows. Images taken\nover water are additionally affected by sun glint. These are two pose serious\nissues for estimating water quality parameters from the UAS images. This study\nproposes a novel machine learning approach first to identify and extract\nregions with cloud shadows and sun glint and separate such regions from\nnon-obstructed clear sky regions and sun-glint unaffected regions. The data was\nextracted from the images at pixel level to train an U-Net based deep learning\nmodel and best settings for model training was identified based on the various\nevaluation metrics from test cases. Using this evaluation, a high-quality image\ncorrection model was determined, which was used to recover the cloud shadow and\nsun glint areas in the images.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Kriging prior Regression: A Case for Kriging-Based Spatial Features with TabPFN in Soil Mapping",
+    "url": "http://arxiv.org/abs/2509.09408v1",
+    "authors": [
+      "Jonas Schmidinger",
+      "Viacheslav Barkov",
+      "Sebastian Vogel",
+      "Martin Atzmueller",
+      "Gerard B M Heuvelink"
+    ],
+    "published": "2025-09-11",
+    "abstract": "Machine learning and geostatistics are two fundamentally different frameworks\nfor predicting and spatially mapping soil properties. Geostatistics leverages\nthe spatial structure of soil properties, while machine learning captures the\nrelationship between available environmental features and soil properties. We\npropose a hybrid framework that enriches ML with spatial context through\nengineering of 'spatial lag' features from ordinary kriging. We call this\napproach 'kriging prior regression' (KpR), as it follows the inverse logic of\nregression kriging. To evaluate this approach, we assessed both the point and\nprobabilistic prediction performance of KpR, using the TabPFN model across six\nfieldscale datasets from LimeSoDa. These datasets included soil organic carbon,\nclay content, and pH, along with features derived from remote sensing and\nin-situ proximal soil sensing. KpR with TabPFN demonstrated reliable\nuncertainty estimates and more accurate predictions in comparison to several\nother spatial techniques (e.g., regression/residual kriging with TabPFN), as\nwell as to established non-spatial machine learning algorithms (e.g., random\nforest). Most notably, it significantly improved the average R2 by around 30%\ncompared to machine learning algorithms without spatial context. This\nimprovement was due to the strong prediction performance of the TabPFN\nalgorithm itself and the complementary spatial information provided by KpR\nfeatures. TabPFN is particularly effective for prediction tasks with small\nsample sizes, common in precision agriculture, whereas KpR can compensate for\nweak relationships between sensing features and soil properties when proximal\nsoil sensing data are limited. Hence, we conclude that KpR with TabPFN is a\nvery robust and versatile modelling framework for digital soil mapping in\nprecision agriculture.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Regression",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "A Benchmark Dataset for Satellite-Based Estimation and Detection of Rain",
+    "url": "http://arxiv.org/abs/2509.08816v2",
+    "authors": [
+      "Simon Pfreundschuh",
+      "Malarvizhi Arulraj",
+      "Ali Behrangi",
+      "Linda Bogerd",
+      "Alan James Peixoto Calheiros",
+      "Daniele Casella",
+      "Neda Dolatabadi",
+      "Clement Guilloteau",
+      "Jie Gong",
+      "Christian D. Kummerow",
+      "Pierre Kirstetter",
+      "Gyuwon Lee",
+      "Maximilian Maahn",
+      "Lisa Milani",
+      "Giulia Panegrossi",
+      "Rayana Palharini",
+      "Veljko Petkovi\u0107",
+      "Soorok Ryu",
+      "Paolo San\u00f2",
+      "Jackson Tan"
+    ],
+    "published": "2025-09-10",
+    "abstract": "Accurately tracking the global distribution and evolution of precipitation is\nessential for both research and operational meteorology. Satellite observations\nremain the only means of achieving consistent, global-scale precipitation\nmonitoring. While machine learning has long been applied to satellite-based\nprecipitation retrieval, the absence of a standardized benchmark dataset has\nhindered fair comparisons between methods and limited progress in algorithm\ndevelopment.\n  To address this gap, the International Precipitation Working Group has\ndeveloped SatRain, the first AI-ready benchmark dataset for satellite-based\ndetection and estimation of rain, snow, graupel, and hail. SatRain includes\nmulti-sensor satellite observations representative of the major platforms\ncurrently used in precipitation remote sensing, paired with high-quality\nreference estimates from ground-based radars corrected using rain gauge\nmeasurements. It offers a standardized evaluation protocol to enable robust and\nreproducible comparisons across machine learning approaches.\n  In addition to supporting algorithm evaluation, the diversity of sensors and\ninclusion of time-resolved geostationary observations make SatRain a valuable\nfoundation for developing next-generation AI models to deliver more accurate,\ndetailed, and globally consistent precipitation estimates.",
+    "categories": [
+      "remote_sensing",
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Tracking"
+    ]
+  },
+  {
+    "title": "Self-supervised Learning for Hyperspectral Images of Trees",
+    "url": "http://arxiv.org/abs/2509.05630v1",
+    "authors": [
+      "Moqsadur Rahman",
+      "Saurav Kumar",
+      "Santosh S. Palmate",
+      "M. Shahriar Hossain"
+    ],
+    "published": "2025-09-06",
+    "abstract": "Aerial remote sensing using multispectral and RGB imagers has provided a\ncritical impetus to precision agriculture. Analysis of the hyperspectral images\nwith limited or no labels is challenging. This paper focuses on self-supervised\nlearning to create neural network embeddings reflecting vegetation properties\nof trees from aerial hyperspectral images of crop fields. Experimental results\ndemonstrate that a constructed tree representation, using a vegetation\nproperty-related embedding space, performs better in downstream machine\nlearning tasks compared to the direct use of hyperspectral vegetation\nproperties as tree representations.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Conditioning on PDE Parameters to Generalise Deep Learning Emulation of Stochastic and Chaotic Dynamics",
+    "url": "http://arxiv.org/abs/2509.09599v1",
+    "authors": [
+      "Ira J. S. Shokar",
+      "Rich R. Kerswell",
+      "Peter H. Haynes"
+    ],
+    "published": "2025-09-11",
+    "abstract": "We present a deep learning emulator for stochastic and chaotic\nspatio-temporal systems, explicitly conditioned on the parameter values of the\nunderlying partial differential equations (PDEs). Our approach involves\npre-training the model on a single parameter domain, followed by fine-tuning on\na smaller, yet diverse dataset, enabling generalisation across a broad range of\nparameter values. By incorporating local attention mechanisms, the network is\ncapable of handling varying domain sizes and resolutions. This enables\ncomputationally efficient pre-training on smaller domains while requiring only\na small additional dataset to learn how to generalise to larger domain sizes.\nWe demonstrate the model's capabilities on the chaotic Kuramoto-Sivashinsky\nequation and stochastically-forced beta-plane turbulence, showcasing its\nability to capture phenomena at interpolated parameter values. The emulator\nprovides significant computational speed-ups over conventional numerical\nintegration, facilitating efficient exploration of parameter space, while a\nprobabilistic variant of the emulator provides uncertainty quantification,\nallowing for the statistical study of rare events.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Learning What Matters: Causal Time Series Modeling for Arctic Sea Ice Prediction",
+    "url": "http://arxiv.org/abs/2509.09128v1",
+    "authors": [
+      "Emam Hossain",
+      "Md Osman Gani"
+    ],
+    "published": "2025-09-11",
+    "abstract": "Conventional machine learning and deep learning models typically rely on\ncorrelation-based learning, which often fails to distinguish genuine causal\nrelationships from spurious associations, limiting their robustness,\ninterpretability, and ability to generalize. To overcome these limitations, we\nintroduce a causality-aware deep learning framework that integrates\nMultivariate Granger Causality (MVGC) and PCMCI+ for causal feature selection\nwithin a hybrid neural architecture. Leveraging 43 years (1979-2021) of Arctic\nSea Ice Extent (SIE) data and associated ocean-atmospheric variables at daily\nand monthly resolutions, the proposed method identifies causally influential\npredictors, prioritizes direct causes of SIE dynamics, reduces unnecessary\nfeatures, and enhances computational efficiency. Experimental results show that\nincorporating causal inputs leads to improved prediction accuracy and\ninterpretability across varying lead times. While demonstrated on Arctic SIE\nforecasting, the framework is broadly applicable to other dynamic,\nhigh-dimensional domains, offering a scalable approach that advances both the\ntheoretical foundations and practical performance of causality-informed\npredictive modeling.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Distillation of CNN Ensemble Results for Enhanced Long-Term Prediction of the ENSO Phenomenon",
+    "url": "http://arxiv.org/abs/2509.06227v1",
+    "authors": [
+      "Saghar Ganji",
+      "Mohammad Naisipour",
+      "Alireza Hassani",
+      "Arash Adib"
+    ],
+    "published": "2025-09-07",
+    "abstract": "The accurate long-term forecasting of the El Nino Southern Oscillation (ENSO)\nis still one of the biggest challenges in climate science. While it is true\nthat short-to medium-range performance has been improved significantly using\nthe advances in deep learning, statistical dynamical hybrids, most operational\nsystems still use the simple mean of all ensemble members, implicitly assuming\nequal skill across members. In this study, we demonstrate, through a strictly\na-posteriori evaluation , for any large enough ensemble of ENSO forecasts,\nthere is a subset of members whose skill is substantially higher than that of\nthe ensemble mean. Using a state-of-the-art ENSO forecast system\ncross-validated against the 1986-2017 observed Nino3.4 index, we identify two\nTop-5 subsets one ranked on lowest Root Mean Square Error (RMSE) and another on\nhighest Pearson correlation. Generally across all leads, these outstanding\nmembers show higher correlation and lower RMSE, with the advantage rising\nenormously with lead time. Whereas at short leads (1 month) raises the mean\ncorrelation by about +0.02 (+1.7%) and lowers the RMSE by around 0.14 {\\deg}C\nor by 23.3% compared to the All-40 mean, at extreme leads (23 months) the\ncorrelation is raised by +0.43 (+172%) and RMSE by 0.18 {\\deg}C or by 22.5%\ndecrease. The enhancements are largest during crucial ENSO transition periods\nsuch as SON and DJF, when accurate amplitude and phase forecasting is of\ngreatest socio-economic benefit, and furthermore season-dependent e.g.,\nmid-year months such as JJA and MJJ have incredibly large RMSE reductions. This\nstudy provides a solid foundation for further investigations to identify\nreliable clues for detecting high-quality ensemble members, thereby enhancing\nforecasting skill.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "MoWE : A Mixture of Weather Experts",
+    "url": "http://arxiv.org/abs/2509.09052v1",
+    "authors": [
+      "Dibyajyoti Chakraborty",
+      "Romit Maulik",
+      "Peter Harrington",
+      "Dallas Foster",
+      "Mohammad Amin Nabian",
+      "Sanjay Choudhry"
+    ],
+    "published": "2025-09-10",
+    "abstract": "Data-driven weather models have recently achieved state-of-the-art\nperformance, yet progress has plateaued in recent years. This paper introduces\na Mixture of Experts (MoWE) approach as a novel paradigm to overcome these\nlimitations, not by creating a new forecaster, but by optimally combining the\noutputs of existing models. The MoWE model is trained with significantly lower\ncomputational resources than the individual experts. Our model employs a Vision\nTransformer-based gating network that dynamically learns to weight the\ncontributions of multiple \"expert\" models at each grid point, conditioned on\nforecast lead time. This approach creates a synthesized deterministic forecast\nthat is more accurate than any individual component in terms of Root Mean\nSquared Error (RMSE). Our results demonstrate the effectiveness of this method,\nachieving up to a 10% lower RMSE than the best-performing AI weather model on a\n2-day forecast horizon, significantly outperforming individual experts as well\nas a simple average across experts. This work presents a computationally\nefficient and scalable strategy to push the state of the art in data-driven\nweather prediction by making the most out of leading high-quality forecast\nmodels.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Using machine learning to downscale coarse-resolution environmental variables for understanding the spatial frequency of convective storms",
+    "url": "http://arxiv.org/abs/2509.08802v1",
+    "authors": [
+      "Hungjui Yu",
+      "Lander Ver Hoef",
+      "Kristen L. Rasmussen",
+      "Imme Ebert-Uphoff"
+    ],
+    "published": "2025-09-10",
+    "abstract": "Global climate models (GCMs), typically run at ~100-km resolution, capture\nlarge-scale environmental conditions but cannot resolve convection and cloud\nprocesses at kilometer scales. Convection-permitting models offer\nhigher-resolution simulations that explicitly simulate convection but are\ncomputationally expensive and impractical for large ensemble runs. This study\nexplores machine learning (ML) as a bridge between these approaches. We train\nsimple, pixel-based neural networks to predict convective storm frequency from\nenvironmental variables produced by a regional convection-permitting model. The\nML models achieve promising results, with structural similarity index measure\n(SSIM) values exceeding 0.8, capturing the diurnal cycle and orographic\nconvection without explicit temporal or spatial coordinates as input. Model\nperformance declines when fewer input features are used or specific regions are\nexcluded, underscoring the role of diverse physical mechanisms in convective\nactivity. These findings highlight ML potential as a computationally efficient\ntool for representing convection and as a means of scientific discovery,\noffering insights into convective processes. Unlike convolutional neural\nnetworks, which depend on spatial structure and grid size, the pixel-based\nmodel treats each grid point independently, enabling value-to-value prediction\nwithout spatial context. This design enhances adaptability to resolution\nchanges and supports generalization to unseen environmental regimes, making it\nparticularly suited for linking environmental conditions to convective features\nand for application across diverse model grids or climate scenarios.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Seasonal forecasting using the GenCast probabilistic machine learning model",
+    "url": "http://arxiv.org/abs/2509.06457v1",
+    "authors": [
+      "Bobby Antonio",
+      "Kristian Strommen",
+      "Hannah M. Christensen"
+    ],
+    "published": "2025-09-08",
+    "abstract": "Machine-learnt weather prediction (MLWP) models are now well established as\nbeing competitive with conventional numerical weather prediction (NWP) models\nin the medium range. However, there is still much uncertainty as to how this\nperformance extends to longer timescales, where interactions with slower\ncomponents of the earth system become important. We take GenCast, a\nstate-of-the-art probabilistic MLWP model, and apply it to the task of seasonal\nforecasting with prescribed sea surface temperature (SST), by providing\nanomalies persisted over climatology (GenCast-Persisted) or forcing with\nobservations (GenCast-Forced). The forecasts are compared to the European\nCentre for Medium-Range Weather Forecasts seasonal forecasting system, SEAS5.\nOur results indicate that, despite being trained at short timescales,\nGenCast-Persisted produces much of the correct precipitation patterns in\nresponse to El Ni\\~{n}o and La Ni\\~{n}a events, with several erroneous patterns\nin GenCast-Persisted corrected with GenCast-Forced. The uncertainty in\nprecipitation response, as represented by the ensemble, compares favourably to\nSEAS5. Whilst SEAS5 achieves superior skill in the tropics for 2-metre\ntemperature and mean sea level pressure (MSLP), GenCast-Persisted achieves\nsignificantly higher skill in some areas in higher latitudes, including\nmountainous areas, with notable improvements for MSLP in particular; this is\nreflected in a higher correlation with the observed NAO index. Reliability\ndiagrams indicate that GenCast-Persisted is overconfident compared to SEAS5,\nwhilst GenCast-Forced produces well-calibrated seasonal 2-metre temperature\npredictions. These results provide an indication of the potential of MLWP\nmodels similar to GenCast for the `full' seasonal forecasting problem, where\nthe atmospheric model is coupled to ocean, land and cryosphere models.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "A Zero-Inflated Spatio-Temporal Model for Integrating Fishery-Dependent and Independent Data under Preferential Sampling",
+    "url": "http://arxiv.org/abs/2509.09336v1",
+    "authors": [
+      "Daniela Silva",
+      "Raquel Menezes",
+      "Gon\u00e7alo Ara\u00fajo",
+      "Ana Machado",
+      "Renato Rosa",
+      "Ana Moreno",
+      "Alexandra Silva",
+      "Susana Garrido"
+    ],
+    "published": "2025-09-11",
+    "abstract": "Sustainable management of marine ecosystems is vital for maintaining healthy\nfishery resources, and benefits from advanced scientific tools to accurately\nassess species distribution patterns. In fisheries science, two primary data\nsources are used: fishery-independent data (FID), collected through systematic\nsurveys, and fishery-dependent data (FDD), obtained from commercial fishing\nactivities. While these sources provide complementary information, their\ndistinct sampling schemes - systematic for FID and preferential for FDD - pose\nsignificant integration challenges. This study introduces a novel\nspatio-temporal model that integrates FID and FDD, addressing challenges\nassociated with zero-inflation and preferential sampling (PS) common in\necological data. The model employs a six-layer structure to differentiate\nbetween presence-absence and biomass observations, offering a robust framework\nfor ecological studies affected by PS biases. Simulation results demonstrate\nthe model's accuracy in parameter estimation across diverse PS scenarios and\nits ability to detect preferential signals. Application to the study of the\ndistribution patterns of the European sardine populations along the southern\nPortuguese continental shelf illustrates the model's effectiveness in\nintegrating diverse data sources and incorporating environmental and\nvessel-specific covariates. The model reveals spatio-temporal variability in\nsardine presence and biomass, providing actionable insights for fisheries\nmanagement. Beyond ecology, this framework offers broad applicability to data\nintegration challenges in other disciplines.",
+    "categories": [
+      "ship_trajectories"
+    ],
+    "architectures": [],
+    "applications": []
   }
 ]
