@@ -13837,5 +13837,207 @@
     ],
     "architectures": [],
     "applications": []
+  },
+  {
+    "title": "CSMoE: An Efficient Remote Sensing Foundation Model with Soft Mixture-of-Experts",
+    "url": "http://arxiv.org/abs/2509.14104v1",
+    "authors": [
+      "Leonard Hackel",
+      "Tom Burgert",
+      "Beg\u00fcm Demir"
+    ],
+    "published": "2025-09-17",
+    "abstract": "Self-supervised learning through masked autoencoders has attracted great\nattention for remote sensing (RS) foundation model (FM) development, enabling\nimproved representation learning across diverse sensors and downstream tasks.\nHowever, existing RS FMs often either suffer from substantial computational\ncomplexity during both training and inference or exhibit limited\nrepresentational capacity. These issues restrict their practical applicability\nin RS. To address this limitation, we propose an adaptation for enhancing the\nefficiency of RS FMs by integrating the Soft mixture-of-experts (MoE) mechanism\ninto the FM. The integration of Soft MoEs into the FM allows modality-specific\nexpert specialization alongside shared cross-sensor representation learning. To\ndemonstrate the effectiveness of our adaptation, we apply it on the\nCross-Sensor Masked Autoencoder (CSMAE) model, resulting in the Cross-Sensor\nMixture-of-Experts (CSMoE) model. In addition, we introduce a thematic-climatic\ndescriptor-driven sampling strategy for the construction of a representative\nand diverse training set to train our CSMoE model. Extensive experiments on\nscene classification, semantic segmentation, and content-based image retrieval\ndemonstrate that our adaptation yields a reduction in computational\nrequirements while maintaining or improving representational performance.\nCompared to state-of-the-art RS FMs, CSMoE achieves a superior trade-off\nbetween representational capacity, accuracy, and computational efficiency. On\naverage, CSMoE achieves more than twice the computational efficiency of\nexisting RS FMs, while maintaining competitive performance across all\nexperiments. These results show the effectiveness of the proposed adaptation\nfor creating computationally efficient RS FMs. The code for the model, the\ntraining set creation, and the model weights will be available at\nhttps://git.tu-berlin.de/rsim/csmoe.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Autoencoder"
+    ],
+    "applications": [
+      "Segmentation",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Curriculum Multi-Task Self-Supervision Improves Lightweight Architectures for Onboard Satellite Hyperspectral Image Segmentation",
+    "url": "http://arxiv.org/abs/2509.13229v1",
+    "authors": [
+      "Hugo Carlesso",
+      "Josiane Mothe",
+      "Radu Tudor Ionescu"
+    ],
+    "published": "2025-09-16",
+    "abstract": "Hyperspectral imaging (HSI) captures detailed spectral signatures across\nhundreds of contiguous bands per pixel, being indispensable for remote sensing\napplications such as land-cover classification, change detection, and\nenvironmental monitoring. Due to the high dimensionality of HSI data and the\nslow rate of data transfer in satellite-based systems, compact and efficient\nmodels are required to support onboard processing and minimize the transmission\nof redundant or low-value data, e.g. cloud-covered areas. To this end, we\nintroduce a novel curriculum multi-task self-supervised learning (CMTSSL)\nframework designed for lightweight architectures for HSI analysis. CMTSSL\nintegrates masked image modeling with decoupled spatial and spectral jigsaw\npuzzle solving, guided by a curriculum learning strategy that progressively\nincreases data complexity during self-supervision. This enables the encoder to\njointly capture fine-grained spectral continuity, spatial structure, and global\nsemantic features. Unlike prior dual-task SSL methods, CMTSSL simultaneously\naddresses spatial and spectral reasoning within a unified and computationally\nefficient design, being particularly suitable for training lightweight models\nfor onboard satellite deployment. We validate our approach on four public\nbenchmark datasets, demonstrating consistent gains in downstream segmentation\ntasks, using architectures that are over 16,000x lighter than some\nstate-of-the-art models. These results highlight the potential of CMTSSL in\ngeneralizable representation learning with lightweight architectures for\nreal-world HSI applications. Our code is publicly available at\nhttps://github.com/hugocarlesso/CMTSSL.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Landcover classification and change detection using remote sensing and machine learning: a case study of Western Fiji",
+    "url": "http://arxiv.org/abs/2509.13388v1",
+    "authors": [
+      "Yadvendra Gurjar",
+      "Ruoni Wan",
+      "Ehsan Farahbakhsh",
+      "Rohitash Chandra"
+    ],
+    "published": "2025-09-16",
+    "abstract": "As a developing country, Fiji is facing rapid urbanisation, which is visible\nin the massive development projects that include housing, roads, and civil\nworks. In this study, we present machine learning and remote sensing frameworks\nto compare land use and land cover change from 2013 to 2024 in Nadi, Fiji. The\nultimate goal of this study is to provide technical support in land cover/land\nuse modelling and change detection. We used Landsat-8 satellite image for the\nstudy region and created our training dataset with labels for supervised\nmachine learning. We used Google Earth Engine and unsupervised machine learning\nvia k-means clustering to generate the land cover map. We used convolutional\nneural networks to classify the selected regions' land cover types. We present\na visualisation of change detection, highlighting urban area changes over time\nto monitor changes in the map.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Vessel Detection and Localization Using Distributed Acoustic Sensing in Submarine Optical Fiber Cables",
+    "url": "http://arxiv.org/abs/2509.11614v2",
+    "authors": [
+      "Erick Eduardo Ramirez-Torres",
+      "Javier Macias-Guarasa",
+      "Daniel Pizarro-Perez",
+      "Javier Tejedor",
+      "Sira Elena Palazuelos-Cagigas",
+      "Pedro J. Vidal-Moreno",
+      "Sonia Martin-Lopez",
+      "Miguel Gonzalez-Herraez",
+      "Roel Vanthillo"
+    ],
+    "published": "2025-09-15",
+    "abstract": "Submarine cables play a critical role in global internet connectivity, energy\ntransmission, and communication but remain vulnerable to accidental damage and\nsabotage. Recent incidents in the Baltic Sea highlighted the need for enhanced\nmonitoring to protect this vital infrastructure. Traditional vessel detection\nmethods, such as synthetic aperture radar, video surveillance, and\nmultispectral satellite imagery, face limitations in real-time processing,\nadverse weather conditions, and coverage range. This paper explores Distributed\nAcoustic Sensing (DAS) as an alternative by repurposing submarine\ntelecommunication cables as large-scale acoustic sensor arrays. DAS offers\ncontinuous real-time monitoring, operates independently of cooperative systems\nlike the \"Automatic Identification System\" (AIS), being largely unaffected by\nlighting or weather conditions. However, existing research on DAS for vessel\ntracking is limited in scale and lacks validation under real-world conditions.\nTo address these gaps, a general and systematic methodology is presented for\nvessel detection and distance estimation using DAS. Advanced machine learning\nmodels are applied to improve detection and localization accuracy in dynamic\nmaritime environments. The approach is evaluated over a continuous ten-day\nperiod, covering diverse ship and operational conditions, representing one of\nthe largest-scale DAS-based vessel monitoring studies to date, and for which we\nrelease the full evaluation dataset. Results demonstrate DAS as a practical\ntool for maritime surveillance, with an overall F1-score of over 90% in vessel\ndetection, and a mean average error of 141 m for vessel distance estimation,\nbridging the gap between experimental research and real-world deployment.",
+    "categories": [
+      "remote_sensing",
+      "ship_trajectories"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Tracking"
+    ]
+  },
+  {
+    "title": "Artificial neural networks ensemble methodology to predict significant wave height",
+    "url": "http://arxiv.org/abs/2509.14020v1",
+    "authors": [
+      "Felipe Crivellaro Minuzzi",
+      "Leandro Farina"
+    ],
+    "published": "2025-09-17",
+    "abstract": "The forecast of wave variables are important for several applications that\ndepend on a better description of the ocean state. Due to the chaotic behaviour\nof the differential equations which model this problem, a well know strategy to\novercome the difficulties is basically to run several simulations, by for\ninstance, varying the initial condition, and averaging the result of each of\nthese, creating an ensemble. Moreover, in the last few years, considering the\namount of available data and the computational power increase, machine learning\nalgorithms have been applied as surrogate to traditional numerical models,\nyielding comparative or better results. In this work, we present a methodology\nto create an ensemble of different artificial neural networks architectures,\nnamely, MLP, RNN, LSTM, CNN and a hybrid CNN-LSTM, which aims to predict\nsignificant wave height on six different locations in the Brazilian coast. The\nnetworks are trained using NOAA's numerical reforecast data and target the\nresidual between observational data and the numerical model output. A new\nstrategy to create the training and target datasets is demonstrated. Results\nshow that our framework is capable of producing high efficient forecast, with\nan average accuracy of $80\\%$, that can achieve up to $88\\%$ in the best case\nscenario, which means $5\\%$ reduction in error metrics if compared to NOAA's\nnumerical model, and a increasingly reduction of computational cost.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "CNN",
+      "LSTM",
+      "RNN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "SamudrACE: Fast and Accurate Coupled Climate Modeling with 3D Ocean and Atmosphere Emulators",
+    "url": "http://arxiv.org/abs/2509.12490v1",
+    "authors": [
+      "James P. C. Duncan",
+      "Elynn Wu",
+      "Surya Dheeshjith",
+      "Adam Subel",
+      "Troy Arcomano",
+      "Spencer K. Clark",
+      "Brian Henn",
+      "Anna Kwa",
+      "Jeremy McGibbon",
+      "W. Andre Perkins",
+      "William Gregory",
+      "Carlos Fernandez-Granda",
+      "Julius Busecke",
+      "Oliver Watt-Meyer",
+      "William J. Hurlin",
+      "Alistair Adcroft",
+      "Laure Zanna",
+      "Christopher Bretherton"
+    ],
+    "published": "2025-09-15",
+    "abstract": "Traditional numerical global climate models simulate the full Earth system by\nexchanging boundary conditions between separate simulators of the atmosphere,\nocean, sea ice, land surface, and other geophysical processes. This paradigm\nallows for distributed development of individual components within a common\nframework, unified by a coupler that handles translation between realms via\nspatial or temporal alignment and flux exchange. Following a similar approach\nadapted for machine learning-based emulators, we present SamudrACE: a coupled\nglobal climate model emulator which produces centuries-long simulations at\n1-degree horizontal, 6-hourly atmospheric, and 5-daily oceanic resolution, with\n145 2D fields spanning 8 atmospheric and 19 oceanic vertical levels, plus sea\nice, surface, and top-of-atmosphere variables. SamudrACE is highly stable and\nhas low climate biases comparable to those of its components with prescribed\nboundary forcing, with realistic variability in coupled climate phenomena such\nas ENSO that is not possible to simulate in uncoupled mode.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Multi-Model Synthetic Training for Mission-Critical Small Language Models",
+    "url": "http://arxiv.org/abs/2509.13047v1",
+    "authors": [
+      "Nolan Platt",
+      "Pragyansmita Nayak"
+    ],
+    "published": "2025-09-16",
+    "abstract": "Large Language Models (LLMs) have demonstrated remarkable capabilities across\nmany domains, yet their application to specialized fields remains constrained\nby the scarcity and complexity of domain-specific training data. We present a\nnovel approach that achieves a 261x cost reduction for maritime intelligence by\nusing LLMs as one-time teachers rather than using them directly for inference.\nOur method transforms 3.2 billion Automatic Identification System (AIS) vessel\ntracking records into 21,543 synthetic question and answer pairs through\nmulti-model generation (GPT-4o and o3-mini), preventing overfitting and\nensuring accurate reasoning. The resulting fine-tuned Qwen2.5-7B model achieves\n75% accuracy on maritime tasks, while being substantially cheaper than using a\nlarger model for inference. We show that smaller, cheaper models -- when fine\ntuned properly -- can provide similar accuracy compared to larger models that\nare prohibitively expensive. Our work contributes to the growing field of\nsynthetic dataset generation for specialized AI applications and presents a\nhighly reproducible framework for domains where manual annotation is\ninfeasible. Beyond expanding research in the growing field of specialized small\nlanguage models, our approach has immediate applications in maritime safety,\nsecurity operations, and vessel traffic management systems in various\nindustries.",
+    "categories": [
+      "ship_trajectories"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Tracking"
+    ]
+  },
+  {
+    "title": "Branched Broomrape Detection in Tomato Farms Using Satellite Imagery and Time-Series Analysis",
+    "url": "http://arxiv.org/abs/2509.10804v1",
+    "authors": [
+      "Mohammadreza Narimani",
+      "Alireza Pourreza",
+      "Ali Moghimi",
+      "Parastoo Farajpoor",
+      "Hamid Jafarbiglu",
+      "Mohsen Mesgaran"
+    ],
+    "published": "2025-09-13",
+    "abstract": "Branched broomrape (Phelipanche ramosa (L.) Pomel) is a chlorophyll-deficient\nparasitic plant that threatens tomato production by extracting nutrients from\nthe host, with reported yield losses up to 80 percent. Its mostly subterranean\nlife cycle and prolific seed production (more than 200,000 seeds per plant,\nviable for up to 20 years) make early detection essential. We present an\nend-to-end pipeline that uses Sentinel-2 imagery and time-series analysis to\nidentify broomrape-infested tomato fields in California. Regions of interest\nwere defined from farmer-reported infestations, and images with less than 10\npercent cloud cover were retained. We processed 12 spectral bands and\nsun-sensor geometry, computed 20 vegetation indices (e.g., NDVI, NDMI), and\nderived five plant traits (Leaf Area Index, Leaf Chlorophyll Content, Canopy\nChlorophyll Content, Fraction of Absorbed Photosynthetically Active Radiation,\nand Fractional Vegetation Cover) using a neural network calibrated with\nground-truth and synthetic data. Trends in Canopy Chlorophyll Content\ndelineated transplanting-to-harvest periods, and phenology was aligned using\ngrowing degree days. Vegetation pixels were segmented and used to train a Long\nShort-Term Memory (LSTM) network on 18,874 pixels across 48 growing-degree-day\ntime points. The model achieved 88 percent training accuracy and 87 percent\ntest accuracy, with precision 0.86, recall 0.92, and F1 0.89. Permutation\nfeature importance ranked NDMI, Canopy Chlorophyll Content, FAPAR, and a\nchlorophyll red-edge index as most informative, consistent with the\nphysiological effects of infestation. Results show the promise of\nsatellite-driven time-series modeling for scalable detection of parasitic\nstress in tomato farms.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [
+      "LSTM"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Modelling species distributions using remote sensing predictors: Comparing Dynamic Habitat Index and LULC",
+    "url": "http://arxiv.org/abs/2509.14862v1",
+    "authors": [
+      "Ma\u00efri Souza Oliveira",
+      "Cl\u00e9mentine Pr\u00e9au",
+      "Samuel Alleaume",
+      "Maxime Lenormand",
+      "Sandra Luque"
+    ],
+    "published": "2025-09-18",
+    "abstract": "This study compares the predictive capacity of the Dynamic Habitat Index\n(DHI) - a remote sensing (RS)-based measure of habitat productivity and\nvariability - against traditional land-use/land-cover (LULC) metrics in species\ndistribution modelling (SDM) applications. RS and LULC-based SDMs were built\nusing distribution data for eleven bird, amphibian, and mammal species in\n\\^Ile-de-France. Predictor variables were derived from Sentinel-2 RS data and\nLULC classifications, with the latter incorporating Euclidean distance to\nhabitat types. Ensemble SDMs were built using nine algorithms and evaluated\nwith the Continuous Boyce Index (CBI) and a calibrated AUC. Habitat suitability\nscores and their binary transformations were assessed using niche overlap\nindices (Schoener, Warren, and Spearman rank correlation coefficient). Both RS\nand LULC approaches exhibited similar predictive accuracy overall. After\nbinarisation however, the resulting niche maps diverged significantly. While\nLULC-based models exhibited spatial constraints (habitat suitability decreased\nas distance from recorded occurrences increased), RS-based models, which used\ncontinuous data, were not affected by geographic bias or distance effects.\nThese results underscore the need to account for spatial biases in LULC-based\nSDMs. The DHI may offer a more spatially neutral alternative, making it a\npromising predictor for modelling species niches at regional scales.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [
+      "SDM"
+    ],
+    "applications": [
+      "Classification"
+    ]
   }
 ]
