@@ -14039,5 +14039,567 @@
     "applications": [
       "Classification"
     ]
+  },
+  {
+    "title": "A Sentinel-3 foundation model for ocean colour",
+    "url": "http://arxiv.org/abs/2509.21273v1",
+    "authors": [
+      "Geoffrey Dawson",
+      "Remy Vandaele",
+      "Andrew Taylor",
+      "David Moffat",
+      "Helen Tamura-Wicks",
+      "Sarah Jackson",
+      "Rosie Lickorish",
+      "Paolo Fraccaro",
+      "Hywel Williams",
+      "Chunbo Luo",
+      "Anne Jones"
+    ],
+    "published": "2025-09-25",
+    "abstract": "Artificial Intelligence (AI) Foundation models (FMs), pre-trained on massive\nunlabelled datasets, have the potential to drastically change AI applications\nin ocean science, where labelled data are often sparse and expensive to\ncollect. In this work, we describe a new foundation model using the Prithvi-EO\nVision Transformer architecture which has been pre-trained to reconstruct data\nfrom the Sentinel-3 Ocean and Land Colour Instrument (OLCI). We evaluate the\nmodel by fine-tuning on two downstream marine earth observation tasks. We first\nassess model performance compared to current baseline models used to quantify\nchlorophyll concentration. We then evaluate the FMs ability to refine remote\nsensing-based estimates of ocean primary production. Our results demonstrate\nthe utility of self-trained FMs for marine monitoring, in particular for making\nuse of small amounts of high quality labelled data and in capturing detailed\nspatial patterns of ocean colour whilst matching point observations. We\nconclude that this new generation of geospatial AI models has the potential to\nprovide more robust, data-driven insights into ocean ecosystems and their role\nin global climate processes.",
+    "categories": [
+      "ocean",
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "RSVG-ZeroOV: Exploring a Training-Free Framework for Zero-Shot Open-Vocabulary Visual Grounding in Remote Sensing Images",
+    "url": "http://arxiv.org/abs/2509.18711v1",
+    "authors": [
+      "Ke Li",
+      "Di Wang",
+      "Ting Wang",
+      "Fuyu Dong",
+      "Yiming Zhang",
+      "Luyao Zhang",
+      "Xiangyu Wang",
+      "Shaofeng Li",
+      "Quan Wang"
+    ],
+    "published": "2025-09-23",
+    "abstract": "Remote sensing visual grounding (RSVG) aims to localize objects in remote\nsensing images based on free-form natural language expressions. Existing\napproaches are typically constrained to closed-set vocabularies, limiting their\napplicability in open-world scenarios. While recent attempts to leverage\ngeneric foundation models for open-vocabulary RSVG, they overly rely on\nexpensive high-quality datasets and time-consuming fine-tuning. To address\nthese limitations, we propose \\textbf{RSVG-ZeroOV}, a training-free framework\nthat aims to explore the potential of frozen generic foundation models for\nzero-shot open-vocabulary RSVG. Specifically, RSVG-ZeroOV comprises three key\nstages: (i) Overview: We utilize a vision-language model (VLM) to obtain\ncross-attention\\footnote[1]{In this paper, although decoder-only VLMs use\nself-attention over all tokens, we refer to the image-text interaction part as\ncross-attention to distinguish it from pure visual self-attention.}maps that\ncapture semantic correlations between text queries and visual regions. (ii)\nFocus: By leveraging the fine-grained modeling priors of a diffusion model\n(DM), we fill in gaps in structural and shape information of objects, which are\noften overlooked by VLM. (iii) Evolve: A simple yet effective attention\nevolution module is introduced to suppress irrelevant activations, yielding\npurified segmentation masks over the referred objects. Without cumbersome\ntask-specific training, RSVG-ZeroOV offers an efficient and scalable solution.\nExtensive experiments demonstrate that the proposed framework consistently\noutperforms existing weakly-supervised and zero-shot methods.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "Visual Instruction Pretraining for Domain-Specific Foundation Models",
+    "url": "http://arxiv.org/abs/2509.17562v2",
+    "authors": [
+      "Yuxuan Li",
+      "Yicheng Zhang",
+      "Wenhao Tang",
+      "Yimian Dai",
+      "Ming-Ming Cheng",
+      "Xiang Li",
+      "Jian Yang"
+    ],
+    "published": "2025-09-22",
+    "abstract": "Modern computer vision is converging on a closed loop in which perception,\nreasoning and generation mutually reinforce each other. However, this loop\nremains incomplete: the top-down influence of high-level reasoning on the\nfoundational learning of low-level perceptual features is not yet\nunderexplored. This paper addresses this gap by proposing a new paradigm for\npretraining foundation models in downstream domains. We introduce Visual\ninsTruction Pretraining (ViTP), a novel approach that directly leverages\nreasoning to enhance perception. ViTP embeds a Vision Transformer (ViT)\nbackbone within a Vision-Language Model and pretrains it end-to-end using a\nrich corpus of visual instruction data curated from target downstream domains.\nViTP is powered by our proposed Visual Robustness Learning (VRL), which compels\nthe ViT to learn robust and domain-relevant features from a sparse set of\nvisual tokens. Extensive experiments on 16 challenging remote sensing and\nmedical imaging benchmarks demonstrate that ViTP establishes new\nstate-of-the-art performance across a diverse range of downstream tasks. The\ncode is available at https://github.com/zcablii/ViTP.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer",
+      "LVM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Detection and Simulation of Urban Heat Islands Using a Fine-Tuned Geospatial Foundation Model",
+    "url": "http://arxiv.org/abs/2509.16617v1",
+    "authors": [
+      "David Kreismann"
+    ],
+    "published": "2025-09-20",
+    "abstract": "As urbanization and climate change progress, urban heat island effects are\nbecoming more frequent and severe. To formulate effective mitigation plans,\ncities require detailed air temperature data. However, predictive analytics\nmethods based on conventional machine learning models and limited data\ninfrastructure often provide inaccurate predictions, especially in underserved\nareas. In this context, geospatial foundation models trained on unstructured\nglobal data demonstrate strong generalization and require minimal fine-tuning,\noffering an alternative for predictions where traditional approaches are\nlimited. This study fine-tunes a geospatial foundation model to predict urban\nland surface temperatures under future climate scenarios and explores its\nresponse to land cover changes using simulated vegetation strategies. The\nfine-tuned model achieved pixel-wise downscaling errors below 1.74 {\\deg}C and\naligned with ground truth patterns, demonstrating an extrapolation capacity up\nto 3.62 {\\deg}C.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "SwinMamba: A hybrid local-global mamba framework for enhancing semantic segmentation of remotely sensed images",
+    "url": "http://arxiv.org/abs/2509.20918v1",
+    "authors": [
+      "Qinfeng Zhu",
+      "Han Li",
+      "Liang He",
+      "Lei Fan"
+    ],
+    "published": "2025-09-25",
+    "abstract": "Semantic segmentation of remote sensing imagery is a fundamental task in\ncomputer vision, supporting a wide range of applications such as land use\nclassification, urban planning, and environmental monitoring. However, this\ntask is often challenged by the high spatial resolution, complex scene\nstructures, and diverse object scales present in remote sensing data. To\naddress these challenges, various deep learning architectures have been\nproposed, including convolutional neural networks, Vision Transformers, and the\nrecently introduced Vision Mamba. Vision Mamba features a global receptive\nfield and low computational complexity, demonstrating both efficiency and\neffectiveness in image segmentation. However, its reliance on global scanning\ntends to overlook critical local features, such as textures and edges, which\nare essential for achieving accurate segmentation in remote sensing contexts.\nTo tackle this limitation, we propose SwinMamba, a novel framework inspired by\nthe Swin Transformer. SwinMamba integrates localized Mamba-style scanning\nwithin shifted windows with a global receptive field, to enhance the model's\nperception of both local and global features. Specifically, the first two\nstages of SwinMamba perform local scanning to capture fine-grained details,\nwhile its subsequent two stages leverage global scanning to fuse broader\ncontextual information. In our model, the use of overlapping shifted windows\nenhances inter-region information exchange, facilitating more robust feature\nintegration across the entire image. Extensive experiments on the LoveDA and\nISPRS Potsdam datasets demonstrate that SwinMamba outperforms state-of-the-art\nmethods, underscoring its effectiveness and potential as a superior solution\nfor semantic segmentation of remotely sensed imagery.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": [
+      "Segmentation",
+      "Classification"
+    ]
+  },
+  {
+    "title": "ImageNet-trained CNNs are not biased towards texture: Revisiting feature reliance through controlled suppression",
+    "url": "http://arxiv.org/abs/2509.20234v1",
+    "authors": [
+      "Tom Burgert",
+      "Oliver Stoll",
+      "Paolo Rota",
+      "Beg\u00fcm Demir"
+    ],
+    "published": "2025-09-24",
+    "abstract": "The hypothesis that Convolutional Neural Networks (CNNs) are inherently\ntexture-biased has shaped much of the discourse on feature use in deep\nlearning. We revisit this hypothesis by examining limitations in the\ncue-conflict experiment by Geirhos et al. To address these limitations, we\npropose a domain-agnostic framework that quantifies feature reliance through\nsystematic suppression of shape, texture, and color cues, avoiding the\nconfounds of forced-choice conflicts. By evaluating humans and neural networks\nunder controlled suppression conditions, we find that CNNs are not inherently\ntexture-biased but predominantly rely on local shape features. Nonetheless,\nthis reliance can be substantially mitigated through modern training strategies\nor architectures (ConvNeXt, ViTs). We further extend the analysis across\ncomputer vision, medical imaging, and remote sensing, revealing that reliance\npatterns differ systematically: computer vision models prioritize shape,\nmedical imaging models emphasize color, and remote sensing models exhibit a\nstronger reliance towards texture. Code is available at\nhttps://github.com/tomburgert/feature-reliance.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Optimal Transport Based Hyperspectral Unmixing for Highly Mixed Observations",
+    "url": "http://arxiv.org/abs/2509.20417v1",
+    "authors": [
+      "D. Doutsas",
+      "B. Figliuzzi"
+    ],
+    "published": "2025-09-24",
+    "abstract": "We propose a novel approach based on optimal transport (OT) for tackling the\nproblem of highly mixed data in blind hyperspectral unmixing. Our method\nconstrains the distribution of the estimated abundance matrix to resemble a\ntargeted Dirichlet distribution more closely. The novelty lies in using OT to\nmeasure the discrepancy between the targeted and true abundance distributions,\nwhich we incorporate as a regularization term in our optimization problem. We\ndemonstrate the efficiency of our method through a case study involving an\nunsupervised deep learning approach. Our experiments show that the proposed\napproach allows for a better estimation of the endmembers in the presence of\nhighly mixed data, while displaying robustness to the choice of target\nabundance distribution.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Deep Learning for Clouds and Cloud Shadow Segmentation in Methane Satellite and Airborne Imaging Spectroscopy",
+    "url": "http://arxiv.org/abs/2509.19665v1",
+    "authors": [
+      "Manuel Perez-Carrasco",
+      "Maya Nasr",
+      "Sebastien Roche",
+      "Chris Chan Miller",
+      "Zhan Zhang",
+      "Core Francisco Park",
+      "Eleanor Walker",
+      "Cecilia Garraffo",
+      "Douglas Finkbeiner",
+      "Ritesh Gautam",
+      "Steven Wofsy"
+    ],
+    "published": "2025-09-24",
+    "abstract": "Effective cloud and cloud shadow detection is a critical prerequisite for\naccurate retrieval of concentrations of atmospheric methane or other trace\ngases in hyperspectral remote sensing. This challenge is especially pertinent\nfor MethaneSAT and for its airborne companion mission, MethaneAIR. In this\nstudy, we use machine learning methods to address the cloud and cloud shadow\ndetection problem for sensors with these high spatial resolutions instruments.\nCloud and cloud shadows in remote sensing data need to be effectively screened\nout as they bias methane retrievals in remote sensing imagery and impact the\nquantification of emissions. We deploy and evaluate conventional techniques\nincluding Iterative Logistic Regression (ILR) and Multilayer Perceptron (MLP),\nwith advanced deep learning architectures, namely UNet and a Spectral Channel\nAttention Network (SCAN) method. Our results show that conventional methods\nstruggle with spatial coherence and boundary definition, affecting the\ndetection of clouds and cloud shadows. Deep learning models substantially\nimprove detection quality: UNet performs best in preserving spatial structure,\nwhile SCAN excels at capturing fine boundary details. Notably, SCAN surpasses\nUNet on MethaneSAT data, underscoring the benefits of incorporating spectral\nattention for satellite specific features. This in depth assessment of various\ndisparate machine learning techniques demonstrates the strengths and\neffectiveness of advanced deep learning architectures in providing robust,\nscalable solutions for clouds and cloud shadow screening towards enhancing\nmethane emission quantification capacity of existing and next generation\nhyperspectral missions. Our data and code is publicly available at\nhttps://doi.org/10.7910/DVN/IKLZOJ",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": [
+      "Detection",
+      "Regression"
+    ]
+  },
+  {
+    "title": "Zero-Shot Multi-Spectral Learning: Reimagining a Generalist Multimodal Gemini 2.5 Model for Remote Sensing Applications",
+    "url": "http://arxiv.org/abs/2509.19087v1",
+    "authors": [
+      "Ganesh Mallya",
+      "Yotam Gigi",
+      "Dahun Kim",
+      "Maxim Neumann",
+      "Genady Beryozkin",
+      "Tomer Shekel",
+      "Anelia Angelova"
+    ],
+    "published": "2025-09-23",
+    "abstract": "Multi-spectral imagery plays a crucial role in diverse Remote Sensing\napplications including land-use classification, environmental monitoring and\nurban planning. These images are widely adopted because their additional\nspectral bands correlate strongly with physical materials on the ground, such\nas ice, water, and vegetation. This allows for more accurate identification,\nand their public availability from missions, such as Sentinel-2 and Landsat,\nonly adds to their value. Currently, the automatic analysis of such data is\npredominantly managed through machine learning models specifically trained for\nmulti-spectral input, which are costly to train and support. Furthermore,\nalthough providing a lot of utility for Remote Sensing, such additional inputs\ncannot be used with powerful generalist large multimodal models, which are\ncapable of solving many visual problems, but are not able to understand\nspecialized multi-spectral signals.\n  To address this, we propose a training-free approach which introduces new\nmulti-spectral data in a Zero-Shot-only mode, as inputs to generalist\nmultimodal models, trained on RGB-only inputs. Our approach leverages the\nmultimodal models' understanding of the visual space, and proposes to adapt to\ninputs to that space, and to inject domain-specific information as instructions\ninto the model. We exemplify this idea with the Gemini2.5 model and observe\nstrong Zero-Shot performance gains of the approach on popular Remote Sensing\nbenchmarks for land cover and land use classification and demonstrate the easy\nadaptability of Gemini2.5 to new inputs. These results highlight the potential\nfor geospatial professionals, working with non-standard specialized inputs, to\neasily leverage powerful multimodal models, such as Gemini2.5, to accelerate\ntheir work, benefiting from their rich reasoning and contextual capabilities,\ngrounded in the specialized sensor data.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Can multimodal representation learning by alignment preserve modality-specific information?",
+    "url": "http://arxiv.org/abs/2509.17943v1",
+    "authors": [
+      "Romain Thoreau",
+      "Jessie Levillain",
+      "Dawa Derksen"
+    ],
+    "published": "2025-09-22",
+    "abstract": "Combining multimodal data is a key issue in a wide range of machine learning\ntasks, including many remote sensing problems. In Earth observation, early\nmultimodal data fusion methods were based on specific neural network\narchitectures and supervised learning. Ever since, the scarcity of labeled data\nhas motivated self-supervised learning techniques. State-of-the-art multimodal\nrepresentation learning techniques leverage the spatial alignment between\nsatellite data from different modalities acquired over the same geographic area\nin order to foster a semantic alignment in the latent space. In this paper, we\ninvestigate how this methods can preserve task-relevant information that is not\nshared across modalities. First, we show, under simplifying assumptions, when\nalignment strategies fundamentally lead to an information loss. Then, we\nsupport our theoretical insight through numerical experiments in more realistic\nsettings. With those theoretical and empirical evidences, we hope to support\nnew developments in contrastive learning for the combination of multimodal\nsatellite data. Our code and data is publicly available at\nhttps://github.com/Romain3Ch216/alg_maclean_25.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Remote Sensing-Oriented World Model",
+    "url": "http://arxiv.org/abs/2509.17808v1",
+    "authors": [
+      "Yuxi Lu",
+      "Biao Wu",
+      "Zhidong Li",
+      "Kunqi Li",
+      "Chenya Huang",
+      "Huacan Wang",
+      "Qizhen Lan",
+      "Ronghao Chen",
+      "Ling Chen",
+      "Bin Liang"
+    ],
+    "published": "2025-09-22",
+    "abstract": "World models have shown potential in artificial intelligence by predicting\nand reasoning about world states beyond direct observations. However, existing\napproaches are predominantly evaluated in synthetic environments or constrained\nscene settings, limiting their validation in real-world contexts with broad\nspatial coverage and complex semantics. Meanwhile, remote sensing applications\nurgently require spatial reasoning capabilities for disaster response and urban\nplanning. This paper bridges these gaps by introducing the first framework for\nworld modeling in remote sensing. We formulate remote sensing world modeling as\ndirection-conditioned spatial extrapolation, where models generate semantically\nconsistent adjacent image tiles given a central observation and directional\ninstruction. To enable rigorous evaluation, we develop RSWISE (Remote Sensing\nWorld-Image Spatial Evaluation), a benchmark containing 1,600 evaluation tasks\nacross four scenarios: general, flood, urban, and rural. RSWISE combines visual\nfidelity assessment with instruction compliance evaluation using GPT-4o as a\nsemantic judge, ensuring models genuinely perform spatial reasoning rather than\nsimple replication. Afterwards, we present RemoteBAGEL, a unified multimodal\nmodel fine-tuned on remote sensing data for spatial extrapolation tasks.\nExtensive experiments demonstrate that RemoteBAGEL consistently outperforms\nstate-of-the-art baselines on RSWISE.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Guided and Unguided Conditional Diffusion Mechanisms for Structured and Semantically-Aware 3D Point Cloud Generation",
+    "url": "http://arxiv.org/abs/2509.17206v1",
+    "authors": [
+      "Gunner Stone",
+      "Sushmita Sarker",
+      "Alireza Tavakkoli"
+    ],
+    "published": "2025-09-21",
+    "abstract": "Generating realistic 3D point clouds is a fundamental problem in computer\nvision with applications in remote sensing, robotics, and digital object\nmodeling. Existing generative approaches primarily capture geometry, and when\nsemantics are considered, they are typically imposed post hoc through external\nsegmentation or clustering rather than integrated into the generative process\nitself. We propose a diffusion-based framework that embeds per-point semantic\nconditioning directly within generation. Each point is associated with a\nconditional variable corresponding to its semantic label, which guides the\ndiffusion dynamics and enables the joint synthesis of geometry and semantics.\nThis design produces point clouds that are both structurally coherent and\nsegmentation-aware, with object parts explicitly represented during synthesis.\nThrough a comparative analysis of guided and unguided diffusion processes, we\ndemonstrate the significant impact of conditional variables on diffusion\ndynamics and generation quality. Extensive experiments validate the efficacy of\nour approach, producing detailed and accurate 3D point clouds tailored to\nspecific parts and features.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "An AutoML Framework using AutoGluonTS for Forecasting Seasonal Extreme Temperatures",
+    "url": "http://arxiv.org/abs/2509.17734v1",
+    "authors": [
+      "Pablo Rodr\u00edguez-Bocca",
+      "Guillermo Pereira",
+      "Diego Kiedanski",
+      "Soledad Collazo",
+      "Sebasti\u00e1n Basterrech",
+      "Gerardo Rubino"
+    ],
+    "published": "2025-09-22",
+    "abstract": "In recent years, great progress has been made in the field of forecasting\nmeteorological variables. Recently, deep learning architectures have made a\nmajor breakthrough in forecasting the daily average temperature over a ten-day\nhorizon. However, advances in forecasting events related to the maximum\ntemperature over short horizons remain a challenge for the community. A problem\nthat is even more complex consists in making predictions of the maximum daily\ntemperatures in the short, medium, and long term. In this work, we focus on\nforecasting events related to the maximum daily temperature over medium-term\nperiods (90 days). Therefore, instead of addressing the problem from a\nmeteorological point of view, this article tackles it from a climatological\npoint of view. Due to the complexity of this problem, a common approach is to\nframe the study as a temporal classification problem with the classes: maximum\ntemperature \"above normal\", \"normal\" or \"below normal\". From a practical point\nof view, we created a large historical dataset (from 1981 to 2018) collecting\ninformation from weather stations located in South America. In addition, we\nalso integrated exogenous information from the Pacific, Atlantic, and Indian\nOcean basins. We applied the AutoGluonTS platform to solve the above-mentioned\nproblem. This AutoML tool shows competitive forecasting performance with\nrespect to large operational platforms dedicated to tackling this\nclimatological problem; but with a \"relatively\" low computational cost in terms\nof time and resources.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Data-Driven Reconstruction of Significant Wave Heights from Sparse Observations",
+    "url": "http://arxiv.org/abs/2509.19384v1",
+    "authors": [
+      "Hongyuan Shi",
+      "Yilin Zhai",
+      "Ping Dong",
+      "Zaijin You",
+      "Chao Zhan",
+      "Qing Wang"
+    ],
+    "published": "2025-09-21",
+    "abstract": "Reconstructing high-resolution regional significant wave height fields from\nsparse and uneven buoy observations remains a core challenge for ocean\nmonitoring and risk-aware operations. We introduce AUWave, a hybrid deep\nlearning framework that fuses a station-wise sequence encoder (MLP) with a\nmulti-scale U-Net enhanced by a bottleneck self-attention layer to recover\n32$\\times$32 regional SWH fields. A systematic Bayesian hyperparameter search\nwith Optuna identifies the learning rate as the dominant driver of\ngeneralization, followed by the scheduler decay and the latent dimension. Using\nNDBC buoy observations and ERA5 reanalysis over the Hawaii region, AUWave\nattains a minimum validation loss of 0.043285 and a slightly right-skewed RMSE\ndistribution. Spatial errors are lowest near observation sites and increase\nwith distance, reflecting identifiability limits under sparse sampling.\nSensitivity experiments show that AUWave consistently outperforms a\nrepresentative baseline in data-richer configurations, while the baseline is\nonly marginally competitive in the most underdetermined single-buoy cases. The\narchitecture's multi-scale and attention components translate into accuracy\ngains when minimal but non-trivial spatial anchoring is available. Error maps\nand buoy ablations reveal key anchor stations whose removal disproportionately\ndegrades performance, offering actionable guidance for network design. AUWave\nprovides a scalable pathway for gap filling, high-resolution priors for data\nassimilation, and contingency reconstruction.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": []
+  },
+  {
+    "title": "mloz: A Highly Efficient Machine Learning-Based Ozone Parameterization for Climate Sensitivity Simulations",
+    "url": "http://arxiv.org/abs/2509.20422v1",
+    "authors": [
+      "Yiling Ma",
+      "Nathan Luke Abraham",
+      "Stefan Versick",
+      "Roland Ruhnke",
+      "Andrea Schneidereit",
+      "Ulrike Niemeier",
+      "Felix Back",
+      "Peter Braesicke",
+      "Peer Nowack"
+    ],
+    "published": "2025-09-24",
+    "abstract": "Atmospheric ozone is a crucial absorber of solar radiation and an important\ngreenhouse gas. However, most climate models participating in the Coupled Model\nIntercomparison Project (CMIP) still lack an interactive representation of\nozone due to the high computational costs of atmospheric chemistry schemes.\nHere, we introduce a machine learning parameterization (mloz) to interactively\nmodel daily ozone variability and trends across the troposphere and\nstratosphere in standard climate sensitivity simulations, including two-way\ninteractions of ozone with the Quasi-Biennial Oscillation. We demonstrate its\nhigh fidelity on decadal timescales and its flexible use online across two\ndifferent climate models -- the UK Earth System Model (UKESM) and the German\nICOsahedral Nonhydrostatic (ICON) model. With atmospheric temperature profile\ninformation as the only input, mloz produces stable ozone predictions around 31\ntimes faster than the chemistry scheme in UKESM, contributing less than 4\npercent of the respective total climate model runtimes. In particular, we also\ndemonstrate its transferability to different climate models without chemistry\nschemes by transferring the parameterization from UKESM to ICON. This\nhighlights the potential for widespread adoption in CMIP-level climate models\nthat lack interactive chemistry for future climate change assessments,\nparticularly when focusing on climate sensitivity simulations, where ozone\ntrends and variability are known to significantly modulate atmospheric feedback\nprocesses.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Discovering strategies for coastal resilience with AI-based prediction and optimization",
+    "url": "http://arxiv.org/abs/2509.19263v1",
+    "authors": [
+      "Jared Markowitz",
+      "Alexander New",
+      "Jennifer Sleeman",
+      "Chace Ashcraft",
+      "Jay Brett",
+      "Gary Collins",
+      "Stella In",
+      "Nathaniel Winstead"
+    ],
+    "published": "2025-09-23",
+    "abstract": "Tropical storms cause extensive property damage and loss of life, making them\none of the most destructive types of natural hazards. The development of\npredictive models that identify interventions effective at mitigating storm\nimpacts has considerable potential to reduce these adverse outcomes. In this\nstudy, we use an artificial intelligence (AI)-driven approach for optimizing\nintervention schemes that improve resilience to coastal flooding. We combine\nthree different AI models to optimize the selection of intervention types,\nsites, and scales in order to minimize the expected cost of flooding damage in\na given region, including the cost of installing and maintaining interventions.\nOur approach combines data-driven generation of storm surge fields, surrogate\nmodeling of intervention impacts, and the solving of a continuous-armed bandit\nproblem. We applied this methodology to optimize the selection of sea wall and\noyster reef interventions near Tyndall Air Force Base (AFB) in Florida, an area\nthat was catastrophically impacted by Hurricane Michael. Our analysis predicts\nthat intervention optimization could be used to potentially save billions of\ndollars in storm damage, far outpacing greedy or non-optimal solutions.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Improving Credit Card Fraud Detection through Transformer-Enhanced GAN Oversampling",
+    "url": "http://arxiv.org/abs/2509.19032v2",
+    "authors": [
+      "Kashaf Ul Emaan"
+    ],
+    "published": "2025-09-23",
+    "abstract": "Detection of credit card fraud is an acute issue of financial security\nbecause transaction datasets are highly lopsided, with fraud cases being only a\ndrop in the ocean. Balancing datasets using the most popular methods of\ntraditional oversampling such as the Synthetic Minority Oversampling Technique\n(SMOTE) generally create simplistic synthetic samples that are not readily\napplicable to complex fraud patterns. Recent industry advances that include\nConditional Tabular Generative Adversarial Networks (CTGAN) and Tabular\nVariational Autoencoders (TVAE) have demonstrated increased efficiency in\ntabular synthesis, yet all these models still exhibit issues with\nhigh-dimensional dependence modelling. Now we will present our hybrid approach\nwhere we use a Generative Adversarial Network (GAN) with a Transformer encoder\nblock to produce realistic fraudulent transactions samples. The GAN\narchitecture allows training realistic generators adversarial, and the\nTransformer allows the model to learn rich feature interactions by\nself-attention. Such a hybrid strategy overcomes the limitations of SMOTE,\nCTGAN, and TVAE by producing a variety of high-quality synthetic minority\nclasses samples. We test our algorithm on the publicly-available Credit Card\nFraud Detection dataset and compare it to conventional and generative\nresampling strategies with a variety of classifiers, such as Logistic\nRegression (LR), Random Forest (RF), Extreme Gradient Boosting (XGBoost), and\nSupport Vector Machine (SVM). Findings indicate that our Transformer-based GAN\nshows substantial gains in Recall, F1-score and Area Under the Receiver\nOperating Characteristic Curve (AUC), which indicates that it is effective in\novercoming the severe class imbalance inherent in the task of fraud detection.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Transformer",
+      "GAN",
+      "Autoencoder"
+    ],
+    "applications": [
+      "Detection",
+      "Regression"
+    ]
+  },
+  {
+    "title": "An update to ECMWF's machine-learned weather forecast model AIFS",
+    "url": "http://arxiv.org/abs/2509.18994v1",
+    "authors": [
+      "Gabriel Moldovan",
+      "Ewan Pinnington",
+      "Ana Prieto Nemesio",
+      "Simon Lang",
+      "Zied Ben Bouall\u00e8gue",
+      "Jesper Dramsch",
+      "Mihai Alexe",
+      "Mario Santa Cruz",
+      "Sara Hahner",
+      "Harrison Cook",
+      "Helen Theissen",
+      "Mariana Clare",
+      "Cathal O'Brien",
+      "Jan Polster",
+      "Linus Magnusson",
+      "Gert Mertes",
+      "Florian Pinault",
+      "Baudouin Raoult",
+      "Patricia de Rosnay",
+      "Richard Forbes",
+      "Matthew Chantry"
+    ],
+    "published": "2025-09-23",
+    "abstract": "We present an update to ECMWF's machine-learned weather forecasting model\nAIFS Single with several key improvements. The model now incorporates physical\nconsistency constraints through bounding layers, an updated training schedule,\nand an expanded set of variables. The physical constraints substantially\nimprove precipitation forecasts and the new variables show a high level of\nskill. Upper-air headline scores also show improvement over the previous AIFS\nversion. The AIFS has been fully operational at ECMWF since the 25th of\nFebruary 2025.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Training-Free Data Assimilation with GenCast",
+    "url": "http://arxiv.org/abs/2509.18811v1",
+    "authors": [
+      "Thomas Savary",
+      "Fran\u00e7ois Rozet",
+      "Gilles Louppe"
+    ],
+    "published": "2025-09-23",
+    "abstract": "Data assimilation is widely used in many disciplines such as meteorology,\noceanography, and robotics to estimate the state of a dynamical system from\nnoisy observations. In this work, we propose a lightweight and general method\nto perform data assimilation using diffusion models pre-trained for emulating\ndynamical systems. Our method builds on particle filters, a class of data\nassimilation algorithms, and does not require any further training. As a\nguiding example throughout this work, we illustrate our methodology on GenCast,\na diffusion-based model that generates global ensemble weather forecasts.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Diffusion Models"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Climate-Adaptive and Cascade-Constrained Machine Learning Prediction for Sea Surface Height under Greenhouse Warming",
+    "url": "http://arxiv.org/abs/2509.18741v1",
+    "authors": [
+      "Tianmu Zheng",
+      "Ru Chen",
+      "Xin Su",
+      "Gang Huang",
+      "Bingzheng Yan"
+    ],
+    "published": "2025-09-23",
+    "abstract": "Machine learning (ML) has achieved remarkable success in climate and marine\nscience. Given that greenhouse warming fundamentally reshapes ocean conditions\nsuch as stratification, circulation patterns and eddy activity, evaluating the\nclimate adaptability of the ML model is crucial. While physical constraints\nhave been shown to enhance the performance of ML models, kinetic energy (KE)\ncascade has not been used as a constraint despite its importance in regulating\nmulti-scale ocean motions. Here we develop two sea surface height (SSH)\nprediction models (with and without KE cascade constraint) and quantify their\nclimate adaptability at the Kuroshio Extension. Our results demonstrate that\nboth models exhibit only slight performance degradation under greenhouse\nwarming conditions. Incorporating the KE cascade as a physical constraint\nsignificantly improve the model performance, reducing eddy kinetic energy\nerrors by 14.7% in the present climate and 15.9% under greenhouse warming. This\nwork presents the first application of the kinetic energy (KE) cascade as a\nphysical constraint for ML based ocean state prediction and demonstrates its\nrobust adaptability across climates, offering guidance for the further\ndevelopment of global ML models for both present and future conditions.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Efficient Breast and Ovarian Cancer Classification via ViT-Based Preprocessing and Transfer Learning",
+    "url": "http://arxiv.org/abs/2509.18553v1",
+    "authors": [
+      "Richa Rawat",
+      "Faisal Ahmed"
+    ],
+    "published": "2025-09-23",
+    "abstract": "Cancer is one of the leading health challenges for women, specifically breast\nand ovarian cancer. Early detection can help improve the survival rate through\ntimely intervention and treatment. Traditional methods of detecting cancer\ninvolve manually examining mammograms, CT scans, ultrasounds, and other imaging\ntypes. However, this makes the process labor-intensive and requires the\nexpertise of trained pathologists. Hence, making it both time-consuming and\nresource-intensive. In this paper, we introduce a novel vision transformer\n(ViT)-based method for detecting and classifying breast and ovarian cancer. We\nuse a pre-trained ViT-Base-Patch16-224 model, which is fine-tuned for both\nbinary and multi-class classification tasks using publicly available\nhistopathological image datasets. Further, we use a preprocessing pipeline that\nconverts raw histophological images into standardized PyTorch tensors, which\nare compatible with the ViT architecture and also help improve the model\nperformance. We evaluated the performance of our model on two benchmark\ndatasets: the BreakHis dataset for binary classification and the UBC-OCEAN\ndataset for five-class classification without any data augmentation. Our model\nsurpasses existing CNN, ViT, and topological data analysis-based approaches in\nbinary classification. For multi-class classification, it is evaluated against\nrecent topological methods and demonstrates superior performance. Our study\nhighlights the effectiveness of Vision Transformer-based transfer learning\ncombined with efficient preprocessing in oncological diagnostics.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": [
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Technical overview and architecture of the FastNet Machine Learning weather prediction model, version 1.0",
+    "url": "http://arxiv.org/abs/2509.17658v1",
+    "authors": [
+      "Eric G. Daub",
+      "Tom Dunstan",
+      "Thusal Bennett",
+      "Matthew Burnand",
+      "James Chappell",
+      "Alejandro Coca-Castro",
+      "Noushin Eftekhari",
+      "J. Scott Hosking",
+      "Manvendra Janmaijaya",
+      "Jon Lillis",
+      "David Salvador-Jasin",
+      "Nathan Simpson",
+      "Oliver T Strickson",
+      "Ryan Sze-Yin Chan",
+      "Mohamad Elmasri",
+      "Lydia Allegranza France",
+      "Sam Madge",
+      "James Robinson",
+      "Adam A. Scaife",
+      "David Walters",
+      "Peter Yatsyshin",
+      "Theo McCaie",
+      "Levan Bokeria",
+      "Hannah Brown",
+      "Tom Dodds",
+      "David Llewellyn-Jones",
+      "Sophia Moreton",
+      "Tom Potter",
+      "Iain Stenson",
+      "Louisa van Zeeland",
+      "Karina Bett-Williams",
+      "Kirstine Ida Dale"
+    ],
+    "published": "2025-09-22",
+    "abstract": "We present FastNet version 1.0, a data-driven medium range numerical weather\nprediction (NWP) model based on a Graph Neural Network architecture, developed\njointly between the Alan Turing Institute and the Met Office. FastNet uses an\nencode-process-decode structure to produce deterministic global weather\npredictions out to 10 days. The architecture is independent of spatial\nresolution and we have trained models at 1$^{\\circ}$ and 0.25$^{\\circ}$\nresolution, with a six hour time step. FastNet uses a multi-level mesh in the\nprocessor, which is able to capture both short-range and long-range patterns in\nthe spatial structure of the atmosphere. The model is pre-trained on ECMWF's\nERA5 reanalysis data and then fine-tuned on additional autoregressive rollout\nsteps, which improves accuracy over longer time horizons. We evaluate the model\nperformance at 1.5$^{\\circ}$ resolution using 2022 as a hold-out year and\ncompare with the Met Office Global Model, finding that FastNet surpasses the\nskill of the current Met Office Global Model NWP system using a variety of\nevaluation metrics on a number of atmospheric variables. Our results show that\nboth our 1$^{\\circ}$ and 0.25$^{\\circ}$ FastNet models outperform the current\nGlobal Model and produce results with predictive skill approaching those of\nother data-driven models trained on 0.25$^{\\circ}$ ERA5.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "FastNet: Improving the physical consistency of machine-learning weather prediction models through loss function design",
+    "url": "http://arxiv.org/abs/2509.17601v1",
+    "authors": [
+      "Tom Dunstan",
+      "Oliver Strickson",
+      "Thusal Bennett",
+      "Jack Bowyer",
+      "Matthew Burnand",
+      "James Chappell",
+      "Alejandro Coca-Castro",
+      "Kirstine Ida Dale",
+      "Eric G. Daub",
+      "Noushin Eftekhari",
+      "Manvendra Janmaijaya",
+      "Jon Lillis",
+      "David Salvador-Jasin",
+      "Nathan Simpson",
+      "Ryan Sze-Yin Chan",
+      "Mohamad Elmasri",
+      "Lydia Allegranza France",
+      "Sam Madge",
+      "Levan Bokeria",
+      "Hannah Brown",
+      "Tom Dodds",
+      "Anna-Louise Ellis",
+      "David Llewellyn-Jones",
+      "Theo McCaie",
+      "Sophia Moreton",
+      "Tom Potter",
+      "James Robinson",
+      "Adam A. Scaife",
+      "Iain Stenson",
+      "David Walters",
+      "Karina Bett-Williams",
+      "Louisa van Zeeland",
+      "Peter Yatsyshin",
+      "J. Scott Hosking"
+    ],
+    "published": "2025-09-22",
+    "abstract": "Machine learning weather prediction (MLWP) models have demonstrated\nremarkable potential in delivering accurate forecasts at significantly reduced\ncomputational cost compared to traditional numerical weather prediction (NWP)\nsystems. However, challenges remain in ensuring the physical consistency of\nMLWP outputs, particularly in deterministic settings. This study presents\nFastNet, a graph neural network (GNN)-based global prediction model, and\ninvestigates the impact of alternative loss function designs on improving the\nphysical realism of its forecasts. We explore three key modifications to the\nstandard mean squared error (MSE) loss: (1) a modified spherical harmonic (MSH)\nloss that penalises spectral amplitude errors to reduce blurring and enhance\nsmall-scale structure retention; (2) inclusion of horizontal gradient terms in\nthe loss to suppress non-physical artefacts; and (3) an alternative wind\nrepresentation that decouples speed and direction to better capture extreme\nwind events. Results show that while the MSH and gradient-based losses\n\\textit{alone} may slightly degrade RMSE scores, when trained in combination\nthe model exhibits very similar MSE performance to an MSE-trained model while\nat the same time significantly improving spectral fidelity and physical\nconsistency. The alternative wind representation further improves wind speed\naccuracy and reduces directional bias. Collectively, these findings highlight\nthe importance of loss function design as a mechanism for embedding domain\nknowledge into MLWP models and advancing their operational readiness.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "GNN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
   }
 ]
