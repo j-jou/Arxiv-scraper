@@ -14601,5 +14601,310 @@
     "applications": [
       "Forecast"
     ]
+  },
+  {
+    "title": "GeoLink: Empowering Remote Sensing Foundation Model with OpenStreetMap Data",
+    "url": "http://arxiv.org/abs/2509.26016v1",
+    "authors": [
+      "Lubian Bai",
+      "Xiuyuan Zhang",
+      "Siqi Zhang",
+      "Zepeng Zhang",
+      "Haoyu Wang",
+      "Wei Qin",
+      "Shihong Du"
+    ],
+    "published": "2025-09-30",
+    "abstract": "Integrating ground-level geospatial data with rich geographic context, like\nOpenStreetMap (OSM), into remote sensing (RS) foundation models (FMs) is\nessential for advancing geospatial intelligence and supporting a broad spectrum\nof tasks. However, modality gap between RS and OSM data, including differences\nin data structure, content, and spatial granularity, makes effective synergy\nhighly challenging, and most existing RS FMs focus on imagery alone. To this\nend, this study presents GeoLink, a multimodal framework that leverages OSM\ndata to enhance RS FM during both the pretraining and downstream task stages.\nSpecifically, GeoLink enhances RS self-supervised pretraining using\nmulti-granularity learning signals derived from OSM data, guided by cross-modal\nspatial correlations for information interaction and collaboration. It also\nintroduces image mask-reconstruction to enable sparse input for efficient\npretraining. For downstream tasks, GeoLink generates both unimodal and\nmultimodal fine-grained encodings to support a wide range of applications, from\ncommon RS interpretation tasks like land cover classification to more\ncomprehensive geographic tasks like urban function zone mapping. Extensive\nexperiments show that incorporating OSM data during pretraining enhances the\nperformance of the RS image encoder, while fusing RS and OSM data in downstream\ntasks improves the FM's adaptability to complex geographic scenarios. These\nresults underscore the potential of multimodal synergy in advancing high-level\ngeospatial artificial intelligence. Moreover, we find that spatial correlation\nplays a crucial role in enabling effective multimodal geospatial data\nintegration. Code, checkpoints, and using examples are released at\nhttps://github.com/bailubin/GeoLink_NeurIPS2025",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Environment-Aware Satellite Image Generation with Diffusion Models",
+    "url": "http://arxiv.org/abs/2509.24875v1",
+    "authors": [
+      "Nikos Kostagiolas",
+      "Pantelis Georgiades",
+      "Yannis Panagakis",
+      "Mihalis A. Nicolaou"
+    ],
+    "published": "2025-09-29",
+    "abstract": "Diffusion-based foundation models have recently garnered much attention in\nthe field of generative modeling due to their ability to generate images of\nhigh quality and fidelity. Although not straightforward, their recent\napplication to the field of remote sensing signaled the first successful trials\ntowards harnessing the large volume of publicly available datasets containing\nmultimodal information. Despite their success, existing methods face\nconsiderable limitations: they rely on limited environmental context, struggle\nwith missing or corrupted data, and often fail to reliably reflect user\nintentions in generated outputs. In this work, we propose a novel diffusion\nmodel conditioned on environmental context, that is able to generate satellite\nimages by conditioning from any combination of three different control signals:\na) text, b) metadata, and c) visual data. In contrast to previous works, the\nproposed method is i) to our knowledge, the first of its kind to condition\nsatellite image generation on dynamic environmental conditions as part of its\ncontrol signals, and ii) incorporating a metadata fusion strategy that models\nattribute embedding interactions to account for partially corrupt and/or\nmissing observations. Our method outperforms previous methods both\nqualitatively (robustness to missing metadata, higher responsiveness to control\ninputs) and quantitatively (higher fidelity, accuracy, and quality of\ngenerations measured using 6 different metrics) in the trials of single-image\nand temporal generation. The reported results support our hypothesis that\nconditioning on environmental context can improve the performance of foundation\nmodels for satellite imagery, and render our model a promising candidate for\nusage in downstream tasks. The collected 3-modal dataset is to our knowledge,\nthe first publicly-available dataset to combine data from these three different\nmediums.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Image Generation"
+    ]
+  },
+  {
+    "title": "SAR-KnowLIP: Towards Multimodal Foundation Models for Remote Sensing",
+    "url": "http://arxiv.org/abs/2509.23927v1",
+    "authors": [
+      "Yi Yang",
+      "Xiaokun Zhang",
+      "Qingchen Fang",
+      "Ziqi Ye",
+      "Rui Li",
+      "Li Liu",
+      "Haipeng Wang"
+    ],
+    "published": "2025-09-28",
+    "abstract": "Cross-modal artificial intelligence has garnered widespread attention in\nrecent years, achieving significant progress in the study of natural images.\nHowever, existing methods are mostly designed for RGB imagery, leaving a\nsignificant gap in modeling synthetic aperture radar (SAR) imagery. SAR, with\nits all-day, all-weather imaging capabilities, plays an irreplaceable role in\nremote sensing scene understanding. To address this gap, this paper proposes\nSAR-KnowLIP, the first universal SAR multimodal foundational model, along with\nreusable data and evaluation baselines. Specifically: (1) This work introduces\nthe critical yet long-overlooked attribute of geographic information into\nremote sensing research, constructing SAR-GEOVL-1M (the first large-scale SAR\ndataset with complete geographic projection properties), covering multiple\nsatellite platforms, 120,000 images, and 135 cities. (2) Aligned structured\ntext is generated through a hierarchical cognitive chain-of-thought (HCoT),\nproviding more than one million multi-dimensional semantic annotations of\nlandforms, regional functions, target attributes, and spatial relationships.\n(3) We design a Self-Consistent Iterative Optimization mechanism that\ncontinuously enhances cross-modal alignment through a self-supervised closed\nloop of contrastive, matching, and reconstruction learning on a transferable\nmultimodal encoder. (4) A unified evaluation benchmark is established across 11\nrepresentative downstream vision and vision-language tasks, with comparisons\nagainst 14 leading foundation models, where SAR-KnowLIP demonstrates leading\nperformance, particularly in object counting and land-cover classification. We\nexpect that SAR-KnowLIP's large-scale multimodal data, transferable model\narchitecture, and comprehensive experimental benchmark will significantly\nadvance the development of SAR multimodal baseline models.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Learning Regional Monsoon Patterns with a Multimodal Attention U-Net",
+    "url": "http://arxiv.org/abs/2509.23267v1",
+    "authors": [
+      "Swaib Ilias Mazumder",
+      "Manish Kumar",
+      "Aparajita Khan"
+    ],
+    "published": "2025-09-27",
+    "abstract": "Accurate monsoon rainfall prediction is vital for India's agriculture, water\nmanagement, and climate risk planning, yet remains challenging due to sparse\nground observations and complex regional variability. We present a multimodal\ndeep learning framework for high-resolution precipitation classification that\nleverages satellite and Earth observation data. Unlike previous rainfall\nprediction models based on coarse 5-50 km grids, we curate a new 1 km\nresolution dataset for five Indian states, integrating seven key geospatial\nmodalities: land surface temperature, vegetation (NDVI), soil moisture,\nrelative humidity, wind speed, elevation, and land use, covering the\nJune-September 2024 monsoon season. Our approach uses an attention-guided U-Net\narchitecture to capture spatial patterns and temporal dependencies across\nmodalities, combined with focal and dice loss functions to handle rainfall\nclass imbalance defined by the India Meteorological Department (IMD).\nExperiments demonstrate that our multimodal framework consistently outperforms\nunimodal baselines and existing deep learning methods, especially in extreme\nrainfall categories. This work contributes a scalable framework, benchmark\ndataset, and state-of-the-art results for regional monsoon forecasting, climate\nresilience, and geospatial AI applications in India.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": [
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "A Weather Foundation Model for the Power Grid",
+    "url": "http://arxiv.org/abs/2509.25268v1",
+    "authors": [
+      "Cristian Bodnar",
+      "Rapha\u00ebl Rousseau-Rizzi",
+      "Nikhil Shankar",
+      "James Merleau",
+      "Stylianos Flampouris",
+      "Guillem Candille",
+      "Slavica Antic",
+      "Fran\u00e7ois Miralles",
+      "Jayesh K. Gupta"
+    ],
+    "published": "2025-09-28",
+    "abstract": "Weather foundation models (WFMs) have recently set new benchmarks in global\nforecast skill, yet their concrete value for the weather-sensitive\ninfrastructure that powers modern society remains largely unexplored. In this\nstudy, we fine-tune Silurian AI's 1.5B-parameter WFM, Generative Forecasting\nTransformer (GFT), on a rich archive of Hydro-Qu\\'ebec asset\nobservations--including transmission-line weather stations, wind-farm met-mast\nstreams, and icing sensors--to deliver hyper-local, asset-level forecasts for\nfive grid-critical variables: surface temperature, precipitation, hub-height\nwind speed, wind-turbine icing risk, and rime-ice accretion on overhead\nconductors. Across 6-72 h lead times, the tailored model surpasses\nstate-of-the-art NWP benchmarks, trimming temperature mean absolute error (MAE)\nby 15%, total-precipitation MAE by 35%, and lowering wind speed MAE by 15%.\nMost importantly, it attains an average precision score of 0.72 for day-ahead\nrime-ice detection, a capability absent from existing operational systems,\nwhich affords several hours of actionable warning for potentially catastrophic\noutage events. These results show that WFMs, when post-trained with small\namounts of high-fidelity, can serve as a practical foundation for\nnext-generation grid-resilience intelligence.",
+    "categories": [
+      "ocean",
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Detection",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Neighbor-aware informal settlement mapping with graph convolutional networks",
+    "url": "http://arxiv.org/abs/2509.26171v1",
+    "authors": [
+      "Thomas Hallopeau",
+      "Joris Gu\u00e9rin",
+      "Laurent Demagistri",
+      "Christovam Barcellos",
+      "Nadine Dessay"
+    ],
+    "published": "2025-09-30",
+    "abstract": "Mapping informal settlements is crucial for addressing challenges related to\nurban planning, public health, and infrastructure in rapidly growing cities.\nGeospatial machine learning has emerged as a key tool for detecting and mapping\nthese areas from remote sensing data. However, existing approaches often treat\nspatial units independently, neglecting the relational structure of the urban\nfabric. We propose a graph-based framework that explicitly incorporates local\ngeographical context into the classification process. Each spatial unit (cell)\nis embedded in a graph structure along with its adjacent neighbors, and a\nlightweight Graph Convolutional Network (GCN) is trained to classify whether\nthe central cell belongs to an informal settlement. Experiments are conducted\non a case study in Rio de Janeiro using spatial cross-validation across five\ndistinct zones, ensuring robustness and generalizability across heterogeneous\nurban landscapes. Our method outperforms standard baselines, improving Kappa\ncoefficient by 17 points over individual cell classification. We also show that\ngraph-based modeling surpasses simple feature concatenation of neighboring\ncells, demonstrating the benefit of encoding spatial structure for urban scene\nunderstanding.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Overview of GeoLifeCLEF 2023: Species Composition Prediction with High Spatial Resolution at Continental Scale Using Remote Sensing",
+    "url": "http://arxiv.org/abs/2509.25816v1",
+    "authors": [
+      "Christophe Botella",
+      "Benjamin Deneu",
+      "Diego Marcos",
+      "Maximilien Servajean",
+      "Theo Larcher",
+      "Cesar Leblanc",
+      "Joaquim Estopinan",
+      "Pierre Bonnet",
+      "Alexis Joly"
+    ],
+    "published": "2025-09-30",
+    "abstract": "Understanding the spatio-temporal distribution of species is a cornerstone of\necology and conservation. By pairing species observations with geographic and\nenvironmental predictors, researchers can model the relationship between an\nenvironment and the species which may be found there. To advance the\nstate-of-the-art in this area with deep learning models and remote sensing\ndata, we organized an open machine learning challenge called GeoLifeCLEF 2023.\nThe training dataset comprised 5 million plant species observations (single\npositive label per sample) distributed across Europe and covering most of its\nflora, high-resolution rasters: remote sensing imagery, land cover, elevation,\nin addition to coarse-resolution data: climate, soil and human footprint\nvariables. In this multi-label classification task, we evaluated models ability\nto predict the species composition in 22 thousand small plots based on\nstandardized surveys. This paper presents an overview of the competition,\nsynthesizes the approaches used by the participating teams, and analyzes the\nmain results. In particular, we highlight the biases faced by the methods\nfitted to single positive labels when it comes to the multi-label evaluation,\nand the new and effective learning strategy combining single and multi-label\ndata in training.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Spatial-Spectral Binarized Neural Network for Panchromatic and Multi-spectral Images Fusion",
+    "url": "http://arxiv.org/abs/2509.23321v2",
+    "authors": [
+      "Yizhen Jiang",
+      "Mengting Ma",
+      "Anqi Zhu",
+      "Xiaowen Ma",
+      "Jiaxin Li",
+      "Wei Zhang"
+    ],
+    "published": "2025-09-27",
+    "abstract": "Remote sensing pansharpening aims to reconstruct spatial-spectral properties\nduring the fusion of panchromatic (PAN) images and low-resolution\nmulti-spectral (LR-MS) images, finally generating the high-resolution\nmulti-spectral (HR-MS) images. Although deep learning-based models have\nachieved excellent performance, they often come with high computational\ncomplexity, which hinder their applications on resource-limited devices. In\nthis paper, we explore the feasibility of applying the binary neural network\n(BNN) to pan-sharpening. Nevertheless, there are two main issues with\nbinarizing pan-sharpening models: (i) the binarization will cause serious\nspectral distortion due to the inconsistent spectral distribution of the\nPAN/LR-MS images; (ii) the common binary convolution kernel is difficult to\nadapt to the multi-scale and anisotropic spatial features of remote sensing\nobjects, resulting in serious degradation of contours. To address the above\nissues, we design the customized spatial-spectral binarized convolution\n(S2B-Conv), which is composed of the Spectral-Redistribution Mechanism (SRM)\nand Gabor Spatial Feature Amplifier (GSFA). Specifically, SRM employs an affine\ntransformation, generating its scaling and bias parameters through a dynamic\nlearning process. GSFA, which randomly selects different frequencies and angles\nwithin a preset range, enables to better handle multi-scale and-directional\nspatial features. A series of S2B-Conv form a brand-new binary network for\npan-sharpening, dubbed as S2BNet. Extensive quantitative and qualitative\nexperiments have shown our high-efficiency binarized pan-sharpening method can\nattain a promising performance.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Balanced Diffusion-Guided Fusion for Multimodal Remote Sensing Classification",
+    "url": "http://arxiv.org/abs/2509.23310v1",
+    "authors": [
+      "Hao Liu",
+      "Yongjie Zheng",
+      "Yuhan Kang",
+      "Mingyang Zhang",
+      "Maoguo Gong",
+      "Lorenzo Bruzzone"
+    ],
+    "published": "2025-09-27",
+    "abstract": "Deep learning-based techniques for the analysis of multimodal remote sensing\ndata have become popular due to their ability to effectively integrate\ncomplementary spatial, spectral, and structural information from different\nsensors. Recently, denoising diffusion probabilistic models (DDPMs) have\nattracted attention in the remote sensing community due to their powerful\nability to capture robust and complex spatial-spectral distributions. However,\npre-training multimodal DDPMs may result in modality imbalance, and effectively\nleveraging diffusion features to guide complementary diversity feature\nextraction remains an open question. To address these issues, this paper\nproposes a balanced diffusion-guided fusion (BDGF) framework that leverages\nmultimodal diffusion features to guide a multi-branch network for land-cover\nclassification. Specifically, we propose an adaptive modality masking strategy\nto encourage the DDPMs to obtain a modality-balanced rather than spectral\nimage-dominated data distribution. Subsequently, these diffusion features\nhierarchically guide feature extraction among CNN, Mamba, and transformer\nnetworks by integrating feature fusion, group channel attention, and\ncross-attention mechanisms. Finally, a mutual learning strategy is developed to\nenhance inter-branch collaboration by aligning the probability entropy and\nfeature similarity of individual subnetworks. Extensive experiments on four\nmultimodal remote sensing datasets demonstrate that the proposed method\nachieves superior classification performance. The code is available at\nhttps://github.com/HaoLiu-XDU/BDGF.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "OceanGym: A Benchmark Environment for Underwater Embodied Agents",
+    "url": "http://arxiv.org/abs/2509.26536v1",
+    "authors": [
+      "Yida Xue",
+      "Mingjun Mao",
+      "Xiangyuan Ru",
+      "Yuqi Zhu",
+      "Baochang Ren",
+      "Shuofei Qiao",
+      "Mengru Wang",
+      "Shumin Deng",
+      "Xinyu An",
+      "Ningyu Zhang",
+      "Ying Chen",
+      "Huajun Chen"
+    ],
+    "published": "2025-09-30",
+    "abstract": "We introduce OceanGym, the first comprehensive benchmark for ocean underwater\nembodied agents, designed to advance AI in one of the most demanding real-world\nenvironments. Unlike terrestrial or aerial domains, underwater settings present\nextreme perceptual and decision-making challenges, including low visibility,\ndynamic ocean currents, making effective agent deployment exceptionally\ndifficult. OceanGym encompasses eight realistic task domains and a unified\nagent framework driven by Multi-modal Large Language Models (MLLMs), which\nintegrates perception, memory, and sequential decision-making. Agents are\nrequired to comprehend optical and sonar data, autonomously explore complex\nenvironments, and accomplish long-horizon objectives under these harsh\nconditions. Extensive experiments reveal substantial gaps between\nstate-of-the-art MLLM-driven agents and human experts, highlighting the\npersistent difficulty of perception, planning, and adaptability in ocean\nunderwater environments. By providing a high-fidelity, rigorously designed\nplatform, OceanGym establishes a testbed for developing robust embodied AI and\ntransferring these capabilities to real-world autonomous ocean underwater\nvehicles, marking a decisive step toward intelligent agents capable of\noperating in one of Earth's last unexplored frontiers. The code and data are\navailable at https://github.com/OceanGPT/OceanGym.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "EnScale: Temporally-consistent multivariate generative downscaling via proper scoring rules",
+    "url": "http://arxiv.org/abs/2509.26258v1",
+    "authors": [
+      "Maybritt Schillinger",
+      "Maxim Samarin",
+      "Xinwei Shen",
+      "Reto Knutti",
+      "Nicolai Meinshausen"
+    ],
+    "published": "2025-09-30",
+    "abstract": "The practical use of future climate projections from global circulation\nmodels (GCMs) is often limited by their coarse spatial resolution, requiring\ndownscaling to generate high-resolution data. Regional climate models (RCMs)\nprovide this refinement, but are computationally expensive. To address this\nissue, machine learning models can learn the downscaling function, mapping\ncoarse GCM outputs to high-resolution fields. Among these, generative\napproaches aim to capture the full conditional distribution of RCM data given\ncoarse-scale GCM data, which is characterized by large variability and thus\nchallenging to model accurately. We introduce EnScale, a generative machine\nlearning framework that emulates the full GCM-to-RCM map by training on\nmultiple pairs of GCM and corresponding RCM data. It first adjusts large-scale\nmismatches between GCM and coarsened RCM data, followed by a super-resolution\nstep to generate high-resolution fields. Both steps employ generative models\noptimized with the energy score, a proper scoring rule. Compared to\nstate-of-the-art ML downscaling approaches, our setup reduces computational\ncost by about one order of magnitude. EnScale jointly emulates multiple\nvariables -- temperature, precipitation, solar radiation, and wind -- spatially\nconsistent over an area in Central Europe. In addition, we propose a variant\nEnScale-t that enables temporally consistent downscaling. We establish a\ncomprehensive evaluation framework across various categories including\ncalibration, spatial structure, extremes, and multivariate dependencies.\nComparison with diverse benchmarks demonstrates EnScale's strong performance\nand computational efficiency. EnScale offers a promising approach for accurate\nand temporally consistent RCM emulation.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Super-Resolution"
+    ]
+  },
+  {
+    "title": "BALLAST: Bayesian Active Learning with Look-ahead Amendment for Sea-drifter Trajectories under Spatio-Temporal Vector Fields",
+    "url": "http://arxiv.org/abs/2509.26005v1",
+    "authors": [
+      "Rui-Yang Zhang",
+      "Henry B. Moss",
+      "Lachlan Astfalck",
+      "Edward Cripps",
+      "David S. Leslie"
+    ],
+    "published": "2025-09-30",
+    "abstract": "We introduce a formal active learning methodology for guiding the placement\nof Lagrangian observers to infer time-dependent vector fields -- a key task in\noceanography, marine science, and ocean engineering -- using a physics-informed\nspatio-temporal Gaussian process surrogate model. The majority of existing\nplacement campaigns either follow standard `space-filling' designs or\nrelatively ad-hoc expert opinions. A key challenge to applying principled\nactive learning in this setting is that Lagrangian observers are continuously\nadvected through the vector field, so they make measurements at different\nlocations and times. It is, therefore, important to consider the likely future\ntrajectories of placed observers to account for the utility of candidate\nplacement locations. To this end, we present BALLAST: Bayesian Active Learning\nwith Look-ahead Amendment for Sea-drifter Trajectories. We observe noticeable\nbenefits of BALLAST-aided sequential observer placement strategies on both\nsynthetic and high-fidelity ocean current models.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "PINN"
+    ],
+    "applications": []
+  },
+  {
+    "title": "A Physics-Guided Probabilistic Surrogate Modeling Framework for Digital Twins of Underwater Radiated Noise",
+    "url": "http://arxiv.org/abs/2509.25730v1",
+    "authors": [
+      "Indu Kant Deo",
+      "Akash Venkateshwaran",
+      "Rajeev K. Jaiman"
+    ],
+    "published": "2025-09-30",
+    "abstract": "Ship traffic is an increasing source of underwater radiated noise in coastal\nwaters, motivating real-time digital twins of ocean acoustics for operational\nnoise mitigation. We present a physics-guided probabilistic framework to\npredict three-dimensional transmission loss in realistic ocean environments. As\na case study, we consider the Salish Sea along shipping routes from the Pacific\nOcean to the Port of Vancouver. A dataset of over 30 million source-receiver\npairs was generated with a Gaussian beam solver across seasonal sound speed\nprofiles and one-third-octave frequency bands spanning 12.5 Hz to 8 kHz. We\nfirst assess sparse variational Gaussian processes (SVGP) and then incorporate\nphysics-based mean functions combining spherical spreading with\nfrequency-dependent absorption. To capture nonlinear effects, we examine deep\nsigma-point processes and stochastic variational deep kernel learning. The\nfinal framework integrates four components: (i) a learnable physics-informed\nmean that represents dominant propagation trends, (ii) a convolutional encoder\nfor bathymetry along the source-receiver track, (iii) a neural encoder for\nsource, receiver, and frequency coordinates, and (iv) a residual SVGP layer\nthat provides calibrated predictive uncertainty. This probabilistic digital\ntwin facilitates the construction of sound-exposure bounds and worst-case\nscenarios for received levels. We further demonstrate the application of the\nframework to ship speed optimization, where predicted transmission loss\ncombined with near-field source models provides sound exposure level estimates\nfor minimizing acoustic impacts on marine mammals. The proposed framework\nadvances uncertainty-aware digital twins for ocean acoustics and illustrates\nhow physics-guided machine learning can support sustainable maritime\noperations.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "PINN"
+    ],
+    "applications": []
+  },
+  {
+    "title": "How Effective Are Time-Series Models for Rainfall Nowcasting? A Comprehensive Benchmark for Rainfall Nowcasting Incorporating PWV Data",
+    "url": "http://arxiv.org/abs/2509.25263v1",
+    "authors": [
+      "Yifang Zhang",
+      "Pengfei Duan",
+      "Henan Wang",
+      "Shengwu Xiong"
+    ],
+    "published": "2025-09-28",
+    "abstract": "Rainfall nowcasting, which aims to predict precipitation within the next 0 to\n3 hours, is critical for disaster mitigation and real-time response planning.\nHowever, most time series forecasting benchmarks in meteorology are evaluated\non variables with strong periodicity, such as temperature and humidity, which\nfail to reflect model capabilities in more complex and practically meteorology\nscenarios like rainfall nowcasting. To address this gap, we propose\nRainfallBench, a benchmark designed for rainfall nowcasting, a highly\nchallenging and practically relevant task characterized by zero inflation,\ntemporal decay, and non-stationarity, focused on predicting precipitation\nwithin the next 0 to 3 hours. The dataset is derived from five years of\nmeteorological observations, recorded at 15-minute intervals across six\nessential variables, and collected from more than 12,000 GNSS stations\nglobally. In particular, it incorporates precipitable water vapor (PWV), a\ncrucial indicator of rainfall that is absent in other datasets. We further\ndesign specialized evaluation strategies to assess model performance on key\nmeteorological challenges, such as multi-scale prediction and extreme rainfall\nevents, and evaluate over 20 state-of-the-art models across six major\narchitectures on RainfallBench. Additionally, to address the zero-inflation and\ntemporal decay issues overlooked by existing models, we introduce Bi-Focus\nPrecipitation Forecaster (BFPF), a plug-and-play module that incorporates\ndomain-specific priors to enhance rainfall time series forecasting. Statistical\nanalysis and ablation studies validate the comprehensiveness of our dataset as\nwell as the superiority of our methodology. Code and datasets are available at\nhttps://anonymous.4open.science/r/RainfallBench-A710.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
   }
 ]
