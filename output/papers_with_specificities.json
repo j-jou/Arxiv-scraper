@@ -14906,5 +14906,514 @@
     "applications": [
       "Forecast"
     ]
+  },
+  {
+    "title": "InstaGeo: Compute-Efficient Geospatial Machine Learning from Data to Deployment",
+    "url": "http://arxiv.org/abs/2510.05617v1",
+    "authors": [
+      "Ibrahim Salihu Yusuf",
+      "Iffanice Houndayi",
+      "Rym Oualha",
+      "Mohamed Aziz Cherif",
+      "Kobby Panford-Quainoo",
+      "Arnu Pretorius"
+    ],
+    "published": "2025-10-07",
+    "abstract": "Open-access multispectral imagery from missions like Landsat 8-9 and\nSentinel-2 has fueled the development of geospatial foundation models (GFMs)\nfor humanitarian and environmental applications. Yet, their deployment remains\nlimited by (i) the absence of automated geospatial data pipelines and (ii) the\nlarge size of fine-tuned models. Existing GFMs lack workflows for processing\nraw satellite imagery, and downstream adaptations often retain the full\ncomplexity of the original encoder.\n  We present InstaGeo, an open-source, end-to-end framework that addresses\nthese challenges by integrating: (1) automated data curation to transform raw\nimagery into model-ready datasets; (2) task-specific model distillation to\nderive compact, compute-efficient models; and (3) seamless deployment as\ninteractive web-map applications. Using InstaGeo, we reproduced datasets from\nthree published studies and trained models with marginal mIoU differences of\n-0.73 pp for flood mapping, -0.20 pp for crop segmentation, and +1.79 pp for\ndesert locust prediction. The distilled models are up to 8x smaller than\nstandard fine-tuned counterparts, reducing FLOPs and CO2 emissions with minimal\naccuracy loss.\n  Leveraging InstaGeo's streamlined data pipeline, we also curated a larger\ncrop segmentation dataset, achieving a state-of-the-art mIoU of 60.65%, a 12 pp\nimprovement over prior baselines. Moreover, InstaGeo enables users to progress\nfrom raw data to model deployment within a single working day.\n  By unifying data preparation, model compression, and deployment, InstaGeo\ntransforms research-grade GFMs into practical, low-carbon tools for real-time,\nlarge-scale Earth observation. This approach shifts geospatial AI toward data\nquality and application-driven innovation. Source code, datasets, and model\ncheckpoints are available at:\nhttps://github.com/instadeepai/InstaGeo-E2E-Geospatial-ML.git",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Zephyrus: An Agentic Framework for Weather Science",
+    "url": "http://arxiv.org/abs/2510.04017v1",
+    "authors": [
+      "Sumanth Varambally",
+      "Marshall Fisher",
+      "Jas Thakker",
+      "Yiwei Chen",
+      "Zhirui Xia",
+      "Yasaman Jafari",
+      "Ruijia Niu",
+      "Manas Jain",
+      "Veeramakali Vignesh Manivannan",
+      "Zachary Novack",
+      "Luyu Han",
+      "Srikar Eranky",
+      "Salva R\u00fchling Cachay",
+      "Taylor Berg-Kirkpatrick",
+      "Duncan Watson-Parris",
+      "Yi-An Ma",
+      "Rose Yu"
+    ],
+    "published": "2025-10-05",
+    "abstract": "Foundation models for weather science are pre-trained on vast amounts of\nstructured numerical data and outperform traditional weather forecasting\nsystems. However, these models lack language-based reasoning capabilities,\nlimiting their utility in interactive scientific workflows. Large language\nmodels (LLMs) excel at understanding and generating text but cannot reason\nabout high-dimensional meteorological datasets. We bridge this gap by building\na novel agentic framework for weather science. Our framework includes a Python\ncode-based environment for agents (ZephyrusWorld) to interact with weather\ndata, featuring tools like an interface to WeatherBench 2 dataset, geoquerying\nfor geographical masks from natural language, weather forecasting, and climate\nsimulation capabilities. We design Zephyrus, a multi-turn LLM-based weather\nagent that iteratively analyzes weather datasets, observes results, and refines\nits approach through conversational feedback loops. We accompany the agent with\na new benchmark, ZephyrusBench, with a scalable data generation pipeline that\nconstructs diverse question-answer pairs across weather-related tasks, from\nbasic lookups to advanced forecasting, extreme event detection, and\ncounterfactual reasoning. Experiments on this benchmark demonstrate the strong\nperformance of Zephyrus agents over text-only baselines, outperforming them by\nup to 35 percentage points in correctness. However, on harder tasks, Zephyrus\nperforms similarly to text-only baselines, highlighting the challenging nature\nof our benchmark and suggesting promising directions for future work.",
+    "categories": [
+      "foundation_model",
+      "ocean"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Detection",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Hyperspectral data augmentation with transformer-based diffusion models",
+    "url": "http://arxiv.org/abs/2510.08363v1",
+    "authors": [
+      "Mattia Ferrari",
+      "Lorenzo Bruzzone"
+    ],
+    "published": "2025-10-09",
+    "abstract": "The introduction of new generation hyperspectral satellite sensors, combined\nwith advancements in deep learning methodologies, has significantly enhanced\nthe ability to discriminate detailed land-cover classes at medium-large scales.\nHowever, a significant challenge in deep learning methods is the risk of\noverfitting when training networks with small labeled datasets. In this work,\nwe propose a data augmentation technique that leverages a guided diffusion\nmodel. To effectively train the model with a limited number of labeled samples\nand to capture complex patterns in the data, we implement a lightweight\ntransformer network. Additionally, we introduce a modified weighted loss\nfunction and an optimized cosine variance scheduler, which facilitate fast and\neffective training on small datasets. We evaluate the effectiveness of the\nproposed method on a forest classification task with 10 different forest types\nusing hyperspectral images acquired by the PRISMA satellite. The results\ndemonstrate that the proposed method outperforms other data augmentation\ntechniques in both average and weighted average accuracy. The effectiveness of\nthe method is further highlighted by the stable training behavior of the model,\nwhich addresses a common limitation in the practical application of deep\ngenerative models for data augmentation.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Bayesian Modelling of Multi-Year Crop Type Classification Using Deep Neural Networks and Hidden Markov Models",
+    "url": "http://arxiv.org/abs/2510.07008v1",
+    "authors": [
+      "Gianmarco Perantoni",
+      "Giulio Weikmann",
+      "Lorenzo Bruzzone"
+    ],
+    "published": "2025-10-08",
+    "abstract": "The temporal consistency of yearly land-cover maps is of great importance to\nmodel the evolution and change of the land cover over the years. In this paper,\nwe focus the attention on a novel approach to classification of yearly\nsatellite image time series (SITS) that combines deep learning with Bayesian\nmodelling, using Hidden Markov Models (HMMs) integrated with Transformer\nEncoder (TE) based DNNs. The proposed approach aims to capture both i)\nintricate temporal correlations in yearly SITS and ii) specific patterns in\nmultiyear crop type sequences. It leverages the cascade classification of an\nHMM layer built on top of the TE, discerning consistent yearly crop-type\nsequences. Validation on a multiyear crop type classification dataset spanning\n47 crop types and six years of Sentinel-2 acquisitions demonstrates the\nimportance of modelling temporal consistency in the predicted labels. HMMs\nenhance the overall performance and F1 scores, emphasising the effectiveness of\nthe proposed approach.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Label-frugal satellite image change detection with generative virtual exemplar learning",
+    "url": "http://arxiv.org/abs/2510.06926v1",
+    "authors": [
+      "Hichem Sahbi"
+    ],
+    "published": "2025-10-08",
+    "abstract": "Change detection is a major task in remote sensing which consists in finding\nall the occurrences of changes in multi-temporal satellite or aerial images.\nThe success of existing methods, and particularly deep learning ones, is\ntributary to the availability of hand-labeled training data that capture the\nacquisition conditions and the subjectivity of the user (oracle). In this\npaper, we devise a novel change detection algorithm, based on active learning.\nThe main contribution of our work resides in a new model that measures how\nimportant is each unlabeled sample, and provides an oracle with only the most\ncritical samples (also referred to as virtual exemplars) for further labeling.\nThese exemplars are generated, using an invertible graph convnet, as the\noptimum of an adversarial loss that (i) measures representativity, diversity\nand ambiguity of the data, and thereby (ii) challenges (the most) the current\nchange detection criteria, leading to a better re-estimate of these criteria in\nthe subsequent iterations of active learning. Extensive experiments show the\npositive impact of our label-efficient learning model against comparative\nmethods.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Explaining raw data complexity to improve satellite onboard processing",
+    "url": "http://arxiv.org/abs/2510.06858v2",
+    "authors": [
+      "Adrien Dorise",
+      "Marjorie Bellizzi",
+      "Adrien Girard",
+      "Benjamin Francesconi",
+      "St\u00e9phane May"
+    ],
+    "published": "2025-10-08",
+    "abstract": "With increasing processing power, deploying AI models for remote sensing\ndirectly onboard satellites is becoming feasible. However, new constraints\narise, mainly when using raw, unprocessed sensor data instead of preprocessed\nground-based products. While current solutions primarily rely on preprocessed\nsensor images, few approaches directly leverage raw data. This study\ninvestigates the effects of utilising raw data on deep learning models for\nobject detection and classification tasks. We introduce a simulation workflow\nto generate raw-like products from high-resolution L1 imagery, enabling\nsystemic evaluation. Two object detection models (YOLOv11n and YOLOX-S) are\ntrained on both raw and L1 datasets, and their performance is compared using\nstandard detection metrics and explainability tools. Results indicate that\nwhile both models perform similarly at low to medium confidence thresholds, the\nmodel trained on raw data struggles with object boundary identification at high\nconfidence levels. It suggests that adapting AI architectures with improved\ncontouring methods can enhance object detection on raw images, improving\nonboard AI for remote sensing.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "A Novel Technique for Robust Training of Deep Networks With Multisource Weak Labeled Remote Sensing Data",
+    "url": "http://arxiv.org/abs/2510.05760v1",
+    "authors": [
+      "Gianmarco Perantoni",
+      "Lorenzo Bruzzone"
+    ],
+    "published": "2025-10-07",
+    "abstract": "Deep learning has gained broad interest in remote sensing image scene\nclassification thanks to the effectiveness of deep neural networks in\nextracting the semantics from complex data. However, deep networks require\nlarge amounts of training samples to obtain good generalization capabilities\nand are sensitive to errors in the training labels. This is a problem in remote\nsensing since highly reliable labels can be obtained at high costs and in\nlimited amount. However, many sources of less reliable labeled data are\navailable, e.g., obsolete digital maps. In order to train deep networks with\nlarger datasets, we propose both the combination of single or multiple weak\nsources of labeled data with a small but reliable dataset to generate\nmultisource labeled datasets and a novel training strategy where the\nreliability of each source is taken in consideration. This is done by\nexploiting the transition matrices describing the statistics of the errors of\neach source. The transition matrices are embedded into the labels and used\nduring the training process to weigh each label according to the related\nsource. The proposed method acts as a weighting scheme at gradient level, where\neach instance contributes with different weights to the optimization of\ndifferent classes. The effectiveness of the proposed method is validated by\nexperiments on different datasets. The results proved the robustness and\ncapability of leveraging on unreliable source of labels of the proposed method.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Deep Neural Network"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "A Semantics-Aware Hierarchical Self-Supervised Approach to Classification of Remote Sensing Images",
+    "url": "http://arxiv.org/abs/2510.04916v1",
+    "authors": [
+      "Giulio Weikmann",
+      "Gianmarco Perantoni",
+      "Lorenzo Bruzzone"
+    ],
+    "published": "2025-10-06",
+    "abstract": "Deep learning has become increasingly important in remote sensing image\nclassification due to its ability to extract semantic information from complex\ndata. Classification tasks often include predefined label hierarchies that\nrepresent the semantic relationships among classes. However, these hierarchies\nare frequently overlooked, and most approaches focus only on fine-grained\nclassification schemes. In this paper, we present a novel Semantics-Aware\nHierarchical Consensus (SAHC) method for learning hierarchical features and\nrelationships by integrating hierarchy-specific classification heads within a\ndeep network architecture, each specialized in different degrees of class\ngranularity. The proposed approach employs trainable hierarchy matrices, which\nguide the network through the learning of the hierarchical structure in a\nself-supervised manner. Furthermore, we introduce a hierarchical consensus\nmechanism to ensure consistent probability distributions across different\nhierarchical levels. This mechanism acts as a weighted ensemble being able to\neffectively leverage the inherent structure of the hierarchical classification\ntask. The proposed SAHC method is evaluated on three benchmark datasets with\ndifferent degrees of hierarchical complexity on different tasks, using distinct\nbackbone architectures to effectively emphasize its adaptability. Experimental\nresults show both the effectiveness of the proposed approach in guiding network\nlearning and the robustness of the hierarchical consensus for remote sensing\nimage classification tasks.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "A Spatial-Spectral-Frequency Interactive Network for Multimodal Remote Sensing Classification",
+    "url": "http://arxiv.org/abs/2510.04628v1",
+    "authors": [
+      "Hao Liu",
+      "Yunhao Gao",
+      "Wei Li",
+      "Mingyang Zhang",
+      "Maoguo Gong",
+      "Lorenzo Bruzzone"
+    ],
+    "published": "2025-10-06",
+    "abstract": "Deep learning-based methods have achieved significant success in remote\nsensing Earth observation data analysis. Numerous feature fusion techniques\naddress multimodal remote sensing image classification by integrating global\nand local features. However, these techniques often struggle to extract\nstructural and detail features from heterogeneous and redundant multimodal\nimages. With the goal of introducing frequency domain learning to model key and\nsparse detail features, this paper introduces the spatial-spectral-frequency\ninteraction network (S$^2$Fin), which integrates pairwise fusion modules across\nthe spatial, spectral, and frequency domains. Specifically, we propose a\nhigh-frequency sparse enhancement transformer that employs sparse\nspatial-spectral attention to optimize the parameters of the high-frequency\nfilter. Subsequently, a two-level spatial-frequency fusion strategy is\nintroduced, comprising an adaptive frequency channel module that fuses\nlow-frequency structures with enhanced high-frequency details, and a\nhigh-frequency resonance mask that emphasizes sharp edges via phase similarity.\nIn addition, a spatial-spectral attention fusion module further enhances\nfeature extraction at intermediate layers of the network. Experiments on four\nbenchmark multimodal datasets with limited labeled data demonstrate that\nS$^2$Fin performs superior classification, outperforming state-of-the-art\nmethods. The code is available at https://github.com/HaoLiu-XDU/SSFin.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Mapping Rio de Janeiro's favelas: general-purpose vs. satellite-specific neural networks",
+    "url": "http://arxiv.org/abs/2510.03725v1",
+    "authors": [
+      "Thomas Hallopeau",
+      "Joris Gu\u00e9rin",
+      "Laurent Demagistri",
+      "Youssef Fouzai",
+      "Renata Gracie",
+      "Vanderlei Pascoal De Matos",
+      "Helen Gurgel",
+      "Nadine Dessay"
+    ],
+    "published": "2025-10-04",
+    "abstract": "While deep learning methods for detecting informal settlements have already\nbeen developed, they have not yet fully utilized the potential offered by\nrecent pretrained neural networks. We compare two types of pretrained neural\nnetworks for detecting the favelas of Rio de Janeiro: 1. Generic networks\npretrained on large diverse datasets of unspecific images, 2. A specialized\nnetwork pretrained on satellite imagery. While the latter is more specific to\nthe target task, the former has been pretrained on significantly more images.\nHence, this research investigates whether task specificity or data volume\nyields superior performance in urban informal settlement detection.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "A deep multiple instance learning approach based on coarse labels for high-resolution land-cover mapping",
+    "url": "http://arxiv.org/abs/2510.06769v1",
+    "authors": [
+      "Gianmarco Perantoni",
+      "Lorenzo Bruzzone"
+    ],
+    "published": "2025-10-08",
+    "abstract": "The quantity and the quality of the training labels are central problems in\nhigh-resolution land-cover mapping with machine-learning-based solutions. In\nthis context, weak labels can be gathered in large quantities by leveraging on\nexisting low-resolution or obsolete products. In this paper, we address the\nproblem of training land-cover classifiers using high-resolution imagery (e.g.,\nSentinel-2) and weak low-resolution reference data (e.g., MODIS -derived\nland-cover maps). Inspired by recent works in Deep Multiple Instance Learning\n(DMIL), we propose a method that trains pixel-level multi-class classifiers and\npredicts low-resolution labels (i.e., patch-level classification), where the\nactual high-resolution labels are learned implicitly without direct\nsupervision. This is achieved with flexible pooling layers that are able to\nlink the semantics of the pixels in the high-resolution imagery to the\nlow-resolution reference labels. Then, the Multiple Instance Learning (MIL)\nproblem is re-framed in a multi-class and in a multi-label setting. In the\nformer, the low-resolution annotation represents the majority of the pixels in\nthe patch. In the latter, the annotation only provides us information on the\npresence of one of the land-cover classes in the patch and thus multiple labels\ncan be considered valid for a patch at a time, whereas the low-resolution\nlabels provide us only one label. Therefore, the classifier is trained with a\nPositive-Unlabeled Learning (PUL) strategy. Experimental results on the 2020\nIEEE GRSS Data Fusion Contest dataset show the effectiveness of the proposed\nframework compared to standard training strategies.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Do Superpixel Segmentation Methods Influence Deforestation Image Classification?",
+    "url": "http://arxiv.org/abs/2510.04645v1",
+    "authors": [
+      "Hugo Resende",
+      "Fabio A. Faria",
+      "Eduardo B. Neto",
+      "Isabela Borlido",
+      "Victor Sundermann",
+      "Silvio Jamil F. Guimar\u00e3es",
+      "\u00c1lvaro L. Fazenda"
+    ],
+    "published": "2025-10-06",
+    "abstract": "Image segmentation is a crucial step in various visual applications,\nincluding environmental monitoring through remote sensing. In the context of\nthe ForestEyes project, which combines citizen science and machine learning to\ndetect deforestation in tropical forests, image segments are used for labeling\nby volunteers and subsequent model training. Traditionally, the Simple Linear\nIterative Clustering (SLIC) algorithm is adopted as the segmentation method.\nHowever, recent studies have indicated that other superpixel-based methods\noutperform SLIC in remote sensing image segmentation, and might suggest that\nthey are more suitable for the task of detecting deforested areas. In this\nsense, this study investigated the impact of the four best segmentation\nmethods, together with SLIC, on the training of classifiers for the target\napplication. Initially, the results showed little variation in performance\namong segmentation methods, even when selecting the top five classifiers using\nthe PyCaret AutoML library. However, by applying a classifier fusion approach\n(ensemble of classifiers), noticeable improvements in balanced accuracy were\nobserved, highlighting the importance of both the choice of segmentation method\nand the combination of machine learning-based models for deforestation\ndetection tasks.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection"
+    ]
+  },
+  {
+    "title": "Zeeman: A Deep Learning Regional Atmospheric Chemistry Transport Model",
+    "url": "http://arxiv.org/abs/2510.06140v1",
+    "authors": [
+      "Mijie Pang",
+      "Jianbing Jin",
+      "Arjo Segers",
+      "Hai Xiang Lin",
+      "Guoqiang Wang",
+      "Hong Liao",
+      "Wei Han"
+    ],
+    "published": "2025-10-07",
+    "abstract": "Atmospheric chemistry encapsulates the emission of various pollutants, the\ncomplex chemistry reactions, and the meteorology dominant transport, which form\na dynamic system that governs air quality. While deep learning (DL) models have\nshown promise in capturing intricate patterns for forecasting individual\natmospheric component - such as PM2.5 and ozone - the critical interactions\namong multiple pollutants and the combined influence of emissions and\nmeteorology are often overlook. This study introduces an advanced DL-based\natmospheric chemistry transport model Zeeman for multi-component atmospheric\nchemistry simulation. Leveraging an attention mechanism, our model effectively\ncaptures the nuanced relationships among these constituents. Performance\nmetrics demonstrate that our approach rivals numerical models, offering an\nefficient solution for atmospheric chemistry. In the future, this model could\nbe further integrated with data assimilation techniques to facilitate efficient\nand accurate atmospheric emission estimation and concentration forecast.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Deep Learning Reconstruction of Tropical Cyclogenesis in the Western North Pacific from Climate Reanalysis Dataset",
+    "url": "http://arxiv.org/abs/2510.06118v1",
+    "authors": [
+      "Duc-Trong Le",
+      "Tran-Binh Dang",
+      "Anh-Duc Hoang Gia",
+      "Duc-Hai Nguyen",
+      "Minh-Hoa Tien",
+      "Xuan-Truong Ngo",
+      "Quang-Trung Luu",
+      "Quang-Lap Luu",
+      "Tai-Hung Nguyen",
+      "Thanh T. N. Nguyen",
+      "Chanh Kieu"
+    ],
+    "published": "2025-10-07",
+    "abstract": "This study presents a deep learning (DL) architecture based on residual\nconvolutional neural networks (ResNet) to reconstruct the climatology of\ntropical cyclogenesis (TCG) in the Western North Pacific (WNP) basin from\nclimate reanalysis datasets. Using different TCG data labeling strategies and\ndata enrichment windows for the NASA Modern-Era Retrospective analysis for\nResearch and Applications Version 2 (MERRA2) dataset during the 1980-2020\nperiod, we demonstrate that ResNet can reasonably reproduce the overall TCG\nclimatology in the WNP, capturing both its seasonality and spatial\ndistribution. Our sensitivity analyses and optimizations show that this TCG\nreconstruction depends on both the type of TCG climatology that one wishes to\nreconstruct and the strategies used to label TCG data. Of interest, analyses of\ndifferent input features reveal that DL-based reconstruction of TCG climatology\nneeds only a subset of channels rather than all available data, which is\nconsistent with previous modeling and observational studies of TCG. These\nresults not only enhance our understanding of the TCG process but also provide\na promising pathway for predicting or downscaling TCG climatology based on\nlarge-scale environments from global model forecasts or climate output.\nOverall, our study demonstrates that DL can offer an effective approach for\nstudying TC climatology beyond the traditional physical-based simulations and\nvortex-tracking algorithms used in current climate model analyses.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "CNN",
+      "ResNet"
+    ],
+    "applications": [
+      "Forecast",
+      "Tracking"
+    ]
+  },
+  {
+    "title": "Developing a Sequential Deep Learning Pipeline to Model Alaskan Permafrost Thaw Under Climate Change",
+    "url": "http://arxiv.org/abs/2510.06258v1",
+    "authors": [
+      "Addina Rahaman"
+    ],
+    "published": "2025-10-05",
+    "abstract": "Changing climate conditions threaten the natural permafrost thaw-freeze\ncycle, leading to year-round soil temperatures above 0{\\deg}C. In Alaska, the\nwarming of the topmost permafrost layer, known as the active layer, signals\nelevated greenhouse gas release due to high carbon storage. Accurate soil\ntemperature prediction is therefore essential for risk mitigation and stability\nassessment; however, many existing approaches overlook the numerous factors\ndriving soil thermal dynamics. This study presents a proof-of-concept\nlatitude-based deep learning pipeline for modeling yearly soil temperatures\nacross multiple depths. The framework employs dynamic reanalysis feature data\nfrom the ERA5-Land dataset, static geologic and lithological features,\nsliding-window sequences for seasonal context, a derived scenario signal\nfeature for long-term climate forcing, and latitude band embeddings for spatial\nsensitivity. Five deep learning models were tested: a Temporal Convolutional\nNetwork (TCN), a Transformer, a 1-Dimensional Convolutional Long-Short Term\nMemory (Conv1DLSTM), a Gated-Recurrent Unit (GRU), and a Bidirectional\nLong-Short Term Memory (BiLSTM). Results showed solid recognition of\nlatitudinal and depth-wise temperature discrepancies, with the GRU performing\nbest in sequential temperature pattern detection. Bias-corrected CMIP5 RCP data\nenabled recognition of sinusoidal temperature trends, though limited divergence\nbetween scenarios were observed. This study establishes an end-to-end framework\nfor adopting deep learning in active layer temperature modeling, offering\nseasonal, spatial, and vertical temperature context without intrinsic\nrestrictions on feature selection.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Detection",
+      "Recognition",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Deep learning the sources of MJO predictability: a spectral view of learned features",
+    "url": "http://arxiv.org/abs/2510.03582v1",
+    "authors": [
+      "Lin Yao",
+      "Da Yang",
+      "James P. C. Duncan",
+      "Ashesh Chattopadhyay",
+      "Pedram Hassanzadeh",
+      "Wahid Bhimji",
+      "Bin Yu"
+    ],
+    "published": "2025-10-04",
+    "abstract": "The Madden-Julian oscillation (MJO) is a planetary-scale, intraseasonal\ntropical rainfall phenomenon crucial for global weather and climate; however,\nits dynamics and predictability remain poorly understood. Here, we leverage\ndeep learning (DL) to investigate the sources of MJO predictability, motivated\nby a central difference in MJO theories: which spatial scales are essential for\ndriving the MJO? We first develop a deep convolutional neural network (DCNN) to\nforecast the MJO indices (RMM and ROMI). Our model predicts RMM and ROMI up to\n21 and 33 days, respectively, achieving skills comparable to leading\nsubseasonal-to-seasonal models such as NCEP. To identify the spatial scales\nmost relevant for MJO forecasting, we conduct spectral analysis of the latent\nfeature space and find that large-scale patterns dominate the learned signals.\nAdditional experiments show that models using only large-scale signals as the\ninput have the same skills as those using all the scales, supporting the\nlarge-scale view of the MJO. Meanwhile, we find that small-scale signals remain\ninformative: surprisingly, models using only small-scale input can still\nproduce skillful forecasts up to 1-2 weeks ahead. We show that this is achieved\nby reconstructing the large-scale envelope of the small-scale activities, which\naligns with the multi-scale view of the MJO. Altogether, our findings support\nthat large-scale patterns--whether directly included or reconstructed--may be\nthe primary source of MJO predictability.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Beyond the Training Data: Confidence-Guided Mixing of Parameterizations in a Hybrid AI-Climate Model",
+    "url": "http://arxiv.org/abs/2510.08107v1",
+    "authors": [
+      "Helge Heuer",
+      "Tom Beucler",
+      "Mierk Schwabe",
+      "Julien Savre",
+      "Manuel Schlund",
+      "Veronika Eyring"
+    ],
+    "published": "2025-10-09",
+    "abstract": "Persistent systematic errors in Earth system models (ESMs) arise from\ndifficulties in representing the full diversity of subgrid, multiscale\natmospheric convection and turbulence. Machine learning (ML) parameterizations\ntrained on short high-resolution simulations show strong potential to reduce\nthese errors. However, stable long-term atmospheric simulations with hybrid\n(physics + ML) ESMs remain difficult, as neural networks (NNs) trained offline\noften destabilize online runs. Training convection parameterizations directly\non coarse-grained data is challenging, notably because scales cannot be cleanly\nseparated. This issue is mitigated using data from superparameterized\nsimulations, which provide clearer scale separation. Yet, transferring a\nparameterization from one ESM to another remains difficult due to distribution\nshifts that induce large inference errors. Here, we present a proof-of-concept\nwhere a ClimSim-trained, physics-informed NN convection parameterization is\nsuccessfully transferred to ICON-A. The scheme is (a) trained on adjusted\nClimSim data with subtracted radiative tendencies, and (b) integrated into\nICON-A. The NN parameterization predicts its own error, enabling mixing with a\nconventional convection scheme when confidence is low, thus making the hybrid\nAI-physics model tunable with respect to observations and reanalysis through\nmixing parameters. This improves process understanding by constraining\nconvective tendencies across column water vapor, lower-tropospheric stability,\nand geographical conditions, yielding interpretable regime behavior. In\nAMIP-style setups, several hybrid configurations outperform the default\nconvection scheme (e.g., improved precipitation statistics). With additive\ninput noise during training, both hybrid and pure-ML schemes lead to stable\nsimulations and remain physically consistent for at least 20 years.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "PINN"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Climate Knowledge in Large Language Models",
+    "url": "http://arxiv.org/abs/2510.08043v1",
+    "authors": [
+      "Ivan Kuznetsov",
+      "Jacopo Grassi",
+      "Dmitrii Pantiukhin",
+      "Boris Shapkin",
+      "Thomas Jung",
+      "Nikolay Koldunov"
+    ],
+    "published": "2025-10-09",
+    "abstract": "Large language models (LLMs) are increasingly deployed for climate-related\napplications, where understanding internal climatological knowledge is crucial\nfor reliability and misinformation risk assessment. Despite growing adoption,\nthe capacity of LLMs to recall climate normals from parametric knowledge\nremains largely uncharacterized. We investigate the capacity of contemporary\nLLMs to recall climate normals without external retrieval, focusing on a\nprototypical query: mean July 2-m air temperature 1991-2020 at specified\nlocations. We construct a global grid of queries at 1{\\deg} resolution land\npoints, providing coordinates and location descriptors, and validate responses\nagainst ERA5 reanalysis. Results show that LLMs encode non-trivial climate\nstructure, capturing latitudinal and topographic patterns, with\nroot-mean-square errors of 3-6 {\\deg}C and biases of $\\pm$1 {\\deg}C. However,\nspatially coherent errors remain, particularly in mountains and high latitudes.\nPerformance degrades sharply above 1500 m, where RMSE reaches 5-13 {\\deg}C\ncompared to 2-4 {\\deg}C at lower elevations. We find that including geographic\ncontext (country, city, region) reduces errors by 27% on average, with larger\nmodels being most sensitive to location descriptors. While models capture the\nglobal mean magnitude of observed warming between 1950-1974 and 2000-2024, they\nfail to reproduce spatial patterns of temperature change, which directly relate\nto assessing climate change. This limitation highlights that while LLMs may\ncapture present-day climate distributions, they struggle to represent the\nregional and local expression of long-term shifts in temperature essential for\nunderstanding climate dynamics. Our evaluation framework provides a\nreproducible benchmark for quantifying parametric climate knowledge in LLMs and\ncomplements existing climate communication assessments.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Climate Model Tuning with Online Synchronization-Based Parameter Estimation",
+    "url": "http://arxiv.org/abs/2510.06180v1",
+    "authors": [
+      "Jordan Seneca",
+      "Suzanne Bintanja",
+      "Frank M. Selten"
+    ],
+    "published": "2025-10-07",
+    "abstract": "In climate science, the tuning of climate models is a computationally\nintensive problem due to the combination of the high-dimensionality of the\nsystem state and long integration times. Here we demonstrate the potential of a\nparameter estimation algorithm which makes use of synchronization to tune a\nglobal atmospheric model at modest computational costs. We first use it to\ndirectly optimize internal model parameters. We then apply the algorithm to the\nweights of each member of a supermodel ensemble to optimize the overall\npredictions. In both cases, the algorithm is able to find parameters which\nresult in reduced errors in the climatology of the model. Finally, we introduce\na novel approach which combines both methods called adaptive supermodeling,\nwhere the internal parameters of the members of a supermodel are tuned\nsimultaneously with the model weights such that the supermodel predictions are\noptimized. For a case designed to challenge the two previous methods, adaptive\nsupermodeling achieves a performance similar to a perfect model.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Representing Subgrid-Scale Cloud Effects in a Radiation Parameterization using Machine Learning: MLe-radiation v1.0",
+    "url": "http://arxiv.org/abs/2510.05963v2",
+    "authors": [
+      "Katharina Hafner",
+      "Sara Shamekh",
+      "Guillaume Bertoli",
+      "Axel Lauer",
+      "Robert Pincus",
+      "Julien Savre",
+      "Veronika Eyring"
+    ],
+    "published": "2025-10-07",
+    "abstract": "Improvements of Machine Learning (ML)-based radiation emulators remain\nconstrained by the underlying assumptions to represent horizontal and vertical\nsubgrid-scale cloud distributions, which continue to introduce substantial\nuncertainties. In this study, we introduce a method to represent the impact of\nsubgrid-scale clouds by applying ML to learn processes from high-resolution\nmodel output with a horizontal grid spacing of 5km. In global storm resolving\nmodels, clouds begin to be explicitly resolved. Coarse-graining these\nhigh-resolution simulations to the resolution of coarser Earth System Models\nyields radiative heating rates that implicitly include subgrid-scale cloud\neffects, without assumptions about their horizontal or vertical distributions.\nWe define the cloud radiative impact as the difference between all-sky and\nclear-sky radiative fluxes, and train the ML component solely on this\ncloud-induced contribution to heating rates. The clear-sky tendencies remain\nbeing computed with a conventional physics-based radiation scheme. This hybrid\ndesign enhances generalization, since the machine-learned part addresses only\nsubgrid-scale cloud effects, while the clear-sky component remains responsive\nto changes in greenhouse gas or aerosol concentrations. Applied to\ncoarse-grained data offline, the ML-enhanced radiation scheme reduces errors by\na factor of 4-10 compared with a conventional coarse-scale radiation scheme.\nThis shows the potential of representing subgrid-scale cloud effects in\nradiation schemes with ML for the next generation of Earth System Models.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Mass Conservation on Rails -- Rethinking Physics-Informed Learning of Ice Flow Vector Fields",
+    "url": "http://arxiv.org/abs/2510.06286v1",
+    "authors": [
+      "Kim Bente",
+      "Roman Marchant",
+      "Fabio Ramos"
+    ],
+    "published": "2025-10-07",
+    "abstract": "To reliably project future sea level rise, ice sheet models require inputs\nthat respect physics. Embedding physical principles like mass conservation into\nmodels that interpolate Antarctic ice flow vector fields from sparse & noisy\nmeasurements not only promotes physical adherence but can also improve accuracy\nand robustness. While physics-informed neural networks (PINNs) impose physics\nas soft penalties, offering flexibility but no physical guarantees, we instead\npropose divergence-free neural networks (dfNNs), which enforce local mass\nconservation exactly via a vector calculus trick. Our comparison of dfNNs,\nPINNs, and unconstrained NNs on ice flux interpolation over Byrd Glacier\nsuggests that \"mass conservation on rails\" yields more reliable estimates, and\nthat directional guidance, a learning strategy leveraging continent-wide\nsatellite velocity data, boosts performance across models.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "PINN"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Benchmarking atmospheric circulation variability in an AI emulator, ACE2, and a hybrid model, NeuralGCM",
+    "url": "http://arxiv.org/abs/2510.04466v1",
+    "authors": [
+      "Ian Baxter",
+      "Hamid Pahlavan",
+      "Pedram Hassanzadeh",
+      "Katharine Rucker",
+      "Tiffany Shaw"
+    ],
+    "published": "2025-10-06",
+    "abstract": "Physics-based atmosphere-land models with prescribed sea surface temperature\nhave notable successes but also biases in their ability to represent\natmospheric variability compared to observations. Recently, AI emulators and\nhybrid models have emerged with the potential to overcome these biases, but\nstill require systematic evaluation against metrics grounded in fundamental\natmospheric dynamics. Here, we evaluate the representation of four atmospheric\nvariability benchmarking metrics in a fully data-driven AI emulator (ACE2-ERA5)\nand hybrid model (NeuralGCM). The hybrid model and emulator can capture the\nspectra of large-scale tropical waves and extratropical eddy-mean flow\ninteractions, including critical levels. However, both struggle to capture the\ntimescales associated with quasi-biennial oscillation (QBO, $\\sim 28$ months)\nand Southern annular mode propagation ($\\sim 150$ days). These dynamical\nmetrics serve as an initial benchmarking tool to inform AI model development\nand understand their limitations, which may be essential for\nout-of-distribution applications (e.g., extrapolating to unseen climates).",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Score-based generative emulation of impact-relevant Earth system model outputs",
+    "url": "http://arxiv.org/abs/2510.04358v1",
+    "authors": [
+      "Shahine Bouabid",
+      "Andre Nogueira Souza",
+      "Raffaele Ferrari"
+    ],
+    "published": "2025-10-05",
+    "abstract": "Policy targets evolve faster than the Couple Model Intercomparison Project\ncycles, complicating adaptation and mitigation planning that must often contend\nwith outdated projections. Climate model output emulators address this gap by\noffering inexpensive surrogates that can rapidly explore alternative futures\nwhile staying close to Earth System Model (ESM) behavior. We focus on emulators\ndesigned to provide inputs to impact models. Using monthly ESM fields of\nnear-surface temperature, precipitation, relative humidity, and wind speed, we\nshow that deep generative models have the potential to model jointly the\ndistribution of variables relevant for impacts. The specific model we propose\nuses score-based diffusion on a spherical mesh and runs on a single mid-range\ngraphical processing unit. We introduce a thorough suite of diagnostics to\ncompare emulator outputs with their parent ESMs, including their probability\ndensities, cross-variable correlations, time of emergence, or tail behavior. We\nevaluate performance across three distinct ESMs in both pre-industrial and\nforced regimes. The results show that the emulator produces distributions that\nclosely match the ESM outputs and captures key forced responses. They also\nreveal important failure cases, notably for variables with a strong regime\nshift in the seasonal cycle. Although not a perfect match to the ESM, the\ninaccuracies of the emulator are small relative to the scale of internal\nvariability in ESM projections. We therefore argue that it shows potential to\nbe useful in supporting impact assessment. We discuss priorities for future\ndevelopment toward daily resolution, finer spatial scales, and bias-aware\ntraining. Code is made available at https://github.com/shahineb/climemu.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Incorporating Multivariate Consistency in ML-Based Weather Forecasting with Latent-space Constraints",
+    "url": "http://arxiv.org/abs/2510.04006v1",
+    "authors": [
+      "Hang Fan",
+      "Yi Xiao",
+      "Yongquan Qu",
+      "Fenghua Ling",
+      "Ben Fei",
+      "Lei Bai",
+      "Pierre Gentine"
+    ],
+    "published": "2025-10-05",
+    "abstract": "Data-driven machine learning (ML) models have recently shown promise in\nsurpassing traditional physics-based approaches for weather forecasting,\nleading to a so-called second revolution in weather forecasting. However, most\nML-based forecast models treat reanalysis as the truth and are trained under\nvariable-specific loss weighting, ignoring their physical coupling and spatial\nstructure. Over long time horizons, the forecasts become blurry and physically\nunrealistic under rollout training. To address this, we reinterpret model\ntraining as a weak-constraint four-dimensional variational data assimilation\n(WC-4DVar) problem, treating reanalysis data as imperfect observations. This\nallows the loss function to incorporate reanalysis error covariance and capture\nmultivariate dependencies. In practice, we compute the loss in a latent space\nlearned by an autoencoder (AE), where the reanalysis error covariance becomes\napproximately diagonal, thus avoiding the need to explicitly model it in the\nhigh-dimensional model space. We show that rollout training with latent-space\nconstraints improves long-term forecast skill and better preserves fine-scale\nstructures and physical realism compared to training with model-space loss.\nFinally, we extend this framework to accommodate heterogeneous data sources,\nenabling the forecast model to be trained jointly on reanalysis and\nmulti-source observations within a unified theoretical formulation.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Autoencoder"
+    ],
+    "applications": [
+      "Forecast"
+    ]
   }
 ]
