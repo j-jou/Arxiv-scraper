@@ -15415,5 +15415,286 @@
     "applications": [
       "Forecast"
     ]
+  },
+  {
+    "title": "UrbanFusion: Stochastic Multimodal Fusion for Contrastive Learning of Robust Spatial Representations",
+    "url": "http://arxiv.org/abs/2510.13774v1",
+    "authors": [
+      "Dominik J. M\u00fchlematter",
+      "Lin Che",
+      "Ye Hong",
+      "Martin Raubal",
+      "Nina Wiedemann"
+    ],
+    "published": "2025-10-15",
+    "abstract": "Forecasting urban phenomena such as housing prices and public health\nindicators requires the effective integration of various geospatial data.\nCurrent methods primarily utilize task-specific models, while recent foundation\nmodels for spatial representations often support only limited modalities and\nlack multimodal fusion capabilities. To overcome these challenges, we present\nUrbanFusion, a Geo-Foundation Model (GeoFM) that features Stochastic Multimodal\nFusion (SMF). The framework employs modality-specific encoders to process\ndifferent types of inputs, including street view imagery, remote sensing data,\ncartographic maps, and points of interest (POIs) data. These multimodal inputs\nare integrated via a Transformer-based fusion module that learns unified\nrepresentations. An extensive evaluation across 41 tasks in 56 cities worldwide\ndemonstrates UrbanFusion's strong generalization and predictive performance\ncompared to state-of-the-art GeoAI models. Specifically, it 1) outperforms\nprior foundation models on location-encoding, 2) allows multimodal input during\ninference, and 3) generalizes well to regions unseen during training.\nUrbanFusion can flexibly utilize any subset of available modalities for a given\nlocation during both pretraining and inference, enabling broad applicability\nacross diverse data availability scenarios. All source code is available at\nhttps://github.com/DominikM198/UrbanFusion.",
+    "categories": [
+      "foundation_model",
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Benchmarking foundation models for hyperspectral image classification: Application to cereal crop type mapping",
+    "url": "http://arxiv.org/abs/2510.11576v2",
+    "authors": [
+      "Walid Elbarz",
+      "Mohamed Bourriz",
+      "Hicham Hajji",
+      "Hamd Ait Abdelali",
+      "Fran\u00e7ois Bourzeix"
+    ],
+    "published": "2025-10-13",
+    "abstract": "Foundation models are transforming Earth observation, but their potential for\nhyperspectral crop mapping remains underexplored. This study benchmarks three\nfoundation models for cereal crop mapping using hyperspectral imagery:\nHyperSigma, DOFA, and Vision Transformers pre-trained on the SpectralEarth\ndataset (a large multitemporal hyperspectral archive). Models were fine-tuned\non manually labeled data from a training region and evaluated on an independent\ntest region. Performance was measured with overall accuracy (OA), average\naccuracy (AA), and F1-score. HyperSigma achieved an OA of 34.5% (+/- 1.8%),\nDOFA reached 62.6% (+/- 3.5%), and the SpectralEarth model achieved an OA of\n93.5% (+/- 0.8%). A compact SpectralEarth variant trained from scratch achieved\n91%, highlighting the importance of model architecture for strong\ngeneralization across geographic regions and sensor platforms. These results\nprovide a systematic evaluation of foundation models for operational\nhyperspectral crop mapping and outline directions for future model development.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Tracking the Spatiotemporal Evolution of Landslide Scars Using a Vision Foundation Model: A Novel and Universal Framework",
+    "url": "http://arxiv.org/abs/2510.10084v1",
+    "authors": [
+      "Meijun Zhou",
+      "Gang Mei",
+      "Zhengjing Ma",
+      "Nengxiong Xu",
+      "Jianbing Peng"
+    ],
+    "published": "2025-10-11",
+    "abstract": "Tracking the spatiotemporal evolution of large-scale landslide scars is\ncritical for understanding the evolution mechanisms and failure precursors,\nenabling effective early-warning. However, most existing studies have focused\non single-phase or pre- and post-failure dual-phase landslide identification.\nAlthough these approaches delineate post-failure landslide boundaries, it is\nchallenging to track the spatiotemporal evolution of landslide scars. To\naddress this problem, this study proposes a novel and universal framework for\ntracking the spatiotemporal evolution of large-scale landslide scars using a\nvision foundation model. The key idea behind the proposed framework is to\nreconstruct discrete optical remote sensing images into a continuous video\nsequence. This transformation enables a vision foundation model, which is\ndeveloped for video segmentation, to be used for tracking the evolution of\nlandslide scars. The proposed framework operates within a knowledge-guided,\nauto-propagation, and interactive refinement paradigm to ensure the continuous\nand accurate identification of landslide scars. The proposed framework was\nvalidated through application to two representative cases: the post-failure\nBaige landslide and the active Sela landslide (2017-2025). Results indicate\nthat the proposed framework enables continuous tracking of landslide scars,\ncapturing both failure precursors critical for early warning and post-failure\nevolution essential for assessing secondary hazards and long-term stability.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Tracking"
+    ]
+  },
+  {
+    "title": "Rethinking deep learning: linear regression remains a key benchmark in predicting terrestrial water storage",
+    "url": "http://arxiv.org/abs/2510.10799v1",
+    "authors": [
+      "Wanshu Nie",
+      "Sujay V. Kumar",
+      "Junyu Chen",
+      "Long Zhao",
+      "Olya Skulovich",
+      "Jinwoong Yoo",
+      "Justin Pflug",
+      "Shahryar Khalique Ahmad",
+      "Goutam Konapala"
+    ],
+    "published": "2025-10-12",
+    "abstract": "Recent advances in machine learning such as Long Short-Term Memory (LSTM)\nmodels and Transformers have been widely adopted in hydrological applications,\ndemonstrating impressive performance amongst deep learning models and\noutperforming physical models in various tasks. However, their superiority in\npredicting land surface states such as terrestrial water storage (TWS) that are\ndominated by many factors such as natural variability and human driven\nmodifications remains unclear. Here, using the open-access, globally\nrepresentative HydroGlobe dataset - comprising a baseline version derived\nsolely from a land surface model simulation and an advanced version\nincorporating multi-source remote sensing data assimilation - we show that\nlinear regression is a robust benchmark, outperforming the more complex LSTM\nand Temporal Fusion Transformer for TWS prediction. Our findings highlight the\nimportance of including traditional statistical models as benchmarks when\ndeveloping and evaluating deep learning models. Additionally, we emphasize the\ncritical need to establish globally representative benchmark datasets that\ncapture the combined impact of natural variability and human interventions.",
+    "categories": [
+      "remote_sensing",
+      "ocean"
+    ],
+    "architectures": [
+      "Transformer",
+      "LSTM"
+    ],
+    "applications": [
+      "Regression",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Where are the Whales: A Human-in-the-loop Detection Method for Identifying Whales in High-resolution Satellite Imagery",
+    "url": "http://arxiv.org/abs/2510.14709v1",
+    "authors": [
+      "Caleb Robinson",
+      "Kimberly T. Goetz",
+      "Christin B. Khan",
+      "Meredith Sackett",
+      "Kathleen Leonard",
+      "Rahul Dodhia",
+      "Juan M. Lavista Ferres"
+    ],
+    "published": "2025-10-16",
+    "abstract": "Effective monitoring of whale populations is critical for conservation, but\ntraditional survey methods are expensive and difficult to scale. While prior\nwork has shown that whales can be identified in very high-resolution (VHR)\nsatellite imagery, large-scale automated detection remains challenging due to a\nlack of annotated imagery, variability in image quality and environmental\nconditions, and the cost of building robust machine learning pipelines over\nmassive remote sensing archives. We present a semi-automated approach for\nsurfacing possible whale detections in VHR imagery using a statistical anomaly\ndetection method that flags spatial outliers, i.e. \"interesting points\". We\npair this detector with a web-based labeling interface designed to enable\nexperts to quickly annotate the interesting points. We evaluate our system on\nthree benchmark scenes with known whale annotations and achieve recalls of\n90.3% to 96.4%, while reducing the area requiring expert inspection by up to\n99.8% -- from over 1,000 sq km to less than 2 sq km in some cases. Our method\ndoes not rely on labeled training data and offers a scalable first step toward\nfuture machine-assisted marine mammal monitoring from space. We have open\nsourced this pipeline at https://github.com/microsoft/whales.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Efficient Few-Shot Learning in Remote Sensing: Fusing Vision and Vision-Language Models",
+    "url": "http://arxiv.org/abs/2510.13993v1",
+    "authors": [
+      "Jia Yun Chua",
+      "Argyrios Zolotas",
+      "Miguel Arana-Catania"
+    ],
+    "published": "2025-10-15",
+    "abstract": "Remote sensing has become a vital tool across sectors such as urban planning,\nenvironmental monitoring, and disaster response. While the volume of data\ngenerated has increased significantly, traditional vision models are often\nconstrained by the requirement for extensive domain-specific labelled data and\ntheir limited ability to understand the context within complex environments.\nVision Language Models offer a complementary approach by integrating visual and\ntextual data; however, their application to remote sensing remains\nunderexplored, particularly given their generalist nature. This work\ninvestigates the combination of vision models and VLMs to enhance image\nanalysis in remote sensing, with a focus on aircraft detection and scene\nunderstanding. The integration of YOLO with VLMs such as LLaVA, ChatGPT, and\nGemini aims to achieve more accurate and contextually aware image\ninterpretation. Performance is evaluated on both labelled and unlabelled remote\nsensing data, as well as degraded image scenarios which are crucial for remote\nsensing. The findings show an average MAE improvement of 48.46% across models\nin the accuracy of aircraft detection and counting, especially in challenging\nconditions, in both raw and degraded scenarios. A 6.17% improvement in\nCLIPScore for comprehensive understanding of remote sensing images is obtained.\nThe proposed approach combining traditional vision models and VLMs paves the\nway for more advanced and efficient remote sensing image analysis, especially\nin few-shot learning scenarios.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Knowledge-Guided Machine Learning Models to Upscale Evapotranspiration in the U.S. Midwest",
+    "url": "http://arxiv.org/abs/2510.11505v1",
+    "authors": [
+      "Aleksei Rozanov",
+      "Samikshya Subedi",
+      "Vasudha Sharma",
+      "Bryan C. Runck"
+    ],
+    "published": "2025-10-13",
+    "abstract": "Evapotranspiration (ET) plays a critical role in the land-atmosphere\ninteractions, yet its accurate quantification across various spatiotemporal\nscales remains a challenge. In situ measurement approaches, like eddy\ncovariance (EC) or weather station-based ET estimation, allow for measuring ET\nat a single location. Agricultural uses of ET require estimates for each field\nover broad areas, making it infeasible to deploy sensing systems at each\nlocation. This study integrates tree-based and knowledge-guided machine\nlearning (ML) techniques with multispectral remote sensing data, griddled\nmeteorology and EC data to upscale ET across the Midwest United States. We\ncompare four tree-based models - Random Forest, CatBoost, XGBoost, LightGBM -\nand a simple feed-forward artificial neural network in combination with\nfeatures engineered using knowledge-guided ML principles. Models were trained\nand tested on EC towers located in the Midwest of the United States using\nk-fold cross validation with k=5 and site-year, biome stratified train-test\nsplit to avoid data leakage. Results show that LightGBM with knowledge-guided\nfeatures outperformed other methods with an R2=0.86, MSE=14.99 W m^-2 and MAE =\n8.82 W m^-2 according to grouped k-fold validation (k=5). Feature importance\nanalysis shows that knowledge-guided features were most important for\npredicting evapotranspiration. Using the best performing model, we provide a\ndata product at 500 m spatial and one-day temporal resolution for gridded ET\nfor the period of 2019-2024. Intercomparison between the new gridded product\nand state-level weather station-based ET estimates show best-in-class\ncorrespondence.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "A Physics Prior-Guided Dual-Stream Attention Network for Motion Prediction of Elastic Bragg Breakwaters",
+    "url": "http://arxiv.org/abs/2510.14250v1",
+    "authors": [
+      "Lianzi Jiang",
+      "Jianxin Zhang",
+      "Xinyu Han",
+      "Huanhe Dong",
+      "Xiangrong Wang"
+    ],
+    "published": "2025-10-16",
+    "abstract": "Accurate motion response prediction for elastic Bragg breakwaters is critical\nfor their structural safety and operational integrity in marine environments.\nHowever, conventional deep learning models often exhibit limited generalization\ncapabilities when presented with unseen sea states. These deficiencies stem\nfrom the neglect of natural decay observed in marine systems and inadequate\nmodeling of wave-structure interaction (WSI). To overcome these challenges,\nthis study proposes a novel Physics Prior-Guided Dual-Stream Attention Network\n(PhysAttnNet). First, the decay bidirectional self-attention (DBSA) module\nincorporates a learnable temporal decay to assign higher weights to recent\nstates, aiming to emulate the natural decay phenomenon. Meanwhile, the phase\ndifferences guided bidirectional cross-attention (PDG-BCA) module explicitly\ncaptures the bidirectional interaction and phase relationship between waves and\nthe structure using a cosine-based bias within a bidirectional\ncross-computation paradigm. These streams are synergistically integrated\nthrough a global context fusion (GCF) module. Finally, PhysAttnNet is trained\nwith a hybrid time-frequency loss that jointly minimizes time-domain prediction\nerrors and frequency-domain spectral discrepancies. Comprehensive experiments\non wave flume datasets demonstrate that PhysAttnNet significantly outperforms\nmainstream models. Furthermore,cross-scenario generalization tests validate the\nmodel's robustness and adaptability to unseen environments, highlighting its\npotential as a framework to develop predictive models for complex systems in\nocean engineering.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "An Operational Deep Learning System for Satellite-Based High-Resolution Global Nowcasting",
+    "url": "http://arxiv.org/abs/2510.13050v1",
+    "authors": [
+      "Shreya Agrawal",
+      "Mohammed Alewi Hassen",
+      "Emmanuel Asiedu Brempong",
+      "Boris Babenko",
+      "Fred Zyda",
+      "Olivia Graham",
+      "Di Li",
+      "Samier Merchant",
+      "Santiago Hincapie Potes",
+      "Tyler Russell",
+      "Danny Cheresnick",
+      "Aditya Prakash Kakkirala",
+      "Stephan Rasp",
+      "Avinatan Hassidim",
+      "Yossi Matias",
+      "Nal Kalchbrenner",
+      "Pramod Gupta",
+      "Jason Hickey",
+      "Aaron Bell"
+    ],
+    "published": "2025-10-15",
+    "abstract": "Precipitation nowcasting, which predicts rainfall up to a few hours ahead, is\na critical tool for vulnerable communities in the Global South frequently\nexposed to intense, rapidly developing storms. Timely forecasts provide a\ncrucial window to protect lives and livelihoods. Traditional numerical weather\nprediction (NWP) methods suffer from high latency, low spatial and temporal\nresolution, and significant gaps in accuracy across the world. Recent machine\nlearning-based nowcasting methods, common in the Global North, cannot be\nextended to the Global South due to extremely sparse radar coverage. We present\nGlobal MetNet, an operational global machine learning nowcasting model. It\nleverages the Global Precipitation Mission's CORRA dataset, geostationary\nsatellite data, and global NWP data to predict precipitation for the next 12\nhours. The model operates at a high resolution of approximately 0.05{\\deg}\n(~5km) spatially and 15 minutes temporally. Global MetNet significantly\noutperforms industry-standard hourly forecasts and achieves significantly\nhigher skill, making forecasts useful over a much larger area of the world than\npreviously available. Our model demonstrates better skill in data-sparse\nregions than even the best high-resolution NWP models achieve in the US.\nValidated using ground radar and satellite data, it shows significant\nimprovements across key metrics like the critical success index and fractions\nskill score for all precipitation rates and lead times. Crucially, our model\ngenerates forecasts in under a minute, making it readily deployable for\nreal-time applications. It is already deployed for millions of users on Google\nSearch. This work represents a key step in reducing global disparities in\nforecast quality and integrating sparse, high-resolution satellite observations\ninto weather forecasting.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Probabilistic Super-Resolution for Urban Micrometeorology via a Schr\u00f6dinger Bridge",
+    "url": "http://arxiv.org/abs/2510.12148v1",
+    "authors": [
+      "Yuki Yasuda",
+      "Ryo Onishi"
+    ],
+    "published": "2025-10-14",
+    "abstract": "This study employs a neural network that represents the solution to a\nSchr\\\"odinger bridge problem to perform super-resolution of 2-m temperature in\nan urban area. Schr\\\"odinger bridges generally describe transformations between\ntwo data distributions based on diffusion processes. We use a specific\nSchr\\\"odinger-bridge model (SM) that directly transforms low-resolution data\ninto high-resolution data, unlike denoising diffusion probabilistic models\n(simply, diffusion models; DMs) that generate high-resolution data from\nGaussian noise. Low-resolution and high-resolution data were obtained from\nseparate numerical simulations with a physics-based model under common initial\nand boundary conditions. Compared with a DM, the SM attains comparable accuracy\nat one-fifth the computational cost, requiring 50 neural-network evaluations\nper datum for the DM and only 10 for the SM. Furthermore, high-resolution\nsamples generated by the SM exhibit larger variance, implying superior\nuncertainty quantification relative to the DM. Owing to the reduced\ncomputational cost of the SM, our results suggest the feasibility of real-time\nensemble micrometeorological prediction using SM-based super-resolution.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Diffusion Models"
+    ],
+    "applications": [
+      "Super-Resolution",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Deployment and Development of a Cognitive Teleoreactive Framework for Deep Sea Autonomy",
+    "url": "http://arxiv.org/abs/2510.10716v1",
+    "authors": [
+      "Christopher Thierauf"
+    ],
+    "published": "2025-10-12",
+    "abstract": "A new AUV mission planning and execution software has been tested on AUV\nSentry. Dubbed DINOS-R, it draws inspiration from cognitive architectures and\nAUV control systems to replace the legacy MC architecture. Unlike these\nexisting architectures, however, DINOS-R is built from the ground-up to unify\nsymbolic decision making (for understandable, repeatable, provable behavior)\nwith machine learning techniques and reactive behaviors, for field-readiness\nacross oceanographic platforms. Implemented primarily in Python3, DINOS-R is\nextensible, modular, and reusable, with an emphasis on non-expert use as well\nas growth for future research in oceanography and robot algorithms. Mission\nspecification is flexible, and can be specified declaratively. Behavior\nspecification is similarly flexible, supporting simultaneous use of real-time\ntask planning and hard-coded user specified plans. These features were\ndemonstrated in the field on Sentry, in addition to a variety of simulated\ncases. These results are discussed, and future work is outlined.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Interactive Atmospheric Composition Emulation for Next-Generation Earth System Models",
+    "url": "http://arxiv.org/abs/2510.10654v1",
+    "authors": [
+      "Seyed Mohammad Hassan Erfani",
+      "Kara Lamb",
+      "Susanne Bauer",
+      "Kostas Tsigaridis",
+      "Marcus van Lier-Walqui",
+      "Gavin Schmidt"
+    ],
+    "published": "2025-10-12",
+    "abstract": "Interactive composition simulations in Earth System Models (ESMs) are\ncomputationally expensive as they transport numerous gaseous and aerosol\ntracers at each timestep. This limits higher-resolution transient climate\nsimulations with current computational resources. ESMs like NASA GISS-ModelE3\n(ModelE) often use pre-computed monthly-averaged atmospheric composition\nconcentrations (Non-Interactive Tracers or NINT) to reduce computational costs.\nWhile NINT significantly cuts computations, it fails to capture real-time\nfeedback between aerosols and other climate processes by relying on\npre-calculated fields. We extended the ModelE NINT version using machine\nlearning (ML) to create Smart NINT, which emulates interactive emissions. Smart\nNINT interactively calculates concentrations using ML with surface emissions\nand meteorological data as inputs, avoiding full physics parameterizations. Our\napproach utilizes a spatiotemporal architecture that possesses a well-matched\ninductive bias to effectively capture the spatial and temporal dependencies in\ntracer evolution. Input data processed through the first 20 vertical levels\n(from the surface up to 656 hPa) using the ModelE OMA scheme. This vertical\nrange covers nearly the entire BCB concentration distribution in the\ntroposphere, where significant variation on short time horizons due to\nsurface-level emissions is observed. Our evaluation shows excellent model\nperformance with R-squared values of 0.92 and Pearson-r of 0.96 at the first\npressure level. This high performance continues through level 15 (808.5 hPa),\nthen gradually decreases as BCB concentrations drop significantly. The model\nmaintains acceptable performance even when tested on data from entirely\ndifferent periods outside the training domain, which is a crucial capability\nfor climate modeling applications requiring reliable long-term projections.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Generative Modeling of Aerosol State Representations",
+    "url": "http://arxiv.org/abs/2510.10361v1",
+    "authors": [
+      "Ehsan Saleh",
+      "Saba Ghaffari",
+      "Jeffrey H. Curtis",
+      "Lekha Patel",
+      "Peter A. Bosler",
+      "Nicole Riemer",
+      "Matthew West"
+    ],
+    "published": "2025-10-11",
+    "abstract": "Aerosol-cloud--radiation interactions remain among the most uncertain\ncomponents of the Earth's climate system, in partdue to the high dimensionality\nof aerosol state representations and the difficulty of obtaining complete\n\\textit{in situ} measurements. Addressing these challenges requires methods\nthat distill complex aerosol properties into compact yet physically meaningful\nforms. Generative autoencoder models provide such a pathway. We present a\nframework for learning deep variational autoencoder (VAE) models of speciated\nmass and number concentration distributions, which capture detailed aerosol\nsize-composition characteristics. By compressing hundreds of original\ndimensions into ten latent variables, the approach enables efficient storage\nand processing while preserving the fidelity of key diagnostics, including\ncloud condensation nuclei (CCN) spectra, optical scattering and absorption\ncoefficients, and ice nucleation properties. Results show that CCN spectra are\neasiest to reconstruct accurately, optical properties are moderately difficult,\nand ice nucleation properties are the most challenging. To improve performance,\nwe introduce a preprocessing optimization strategy that avoids repeated\nretraining and yields latent representations resilient to high-magnitude\nGaussian noise, boosting accuracy for CCN spectra, optical coefficients, and\nfrozen fraction spectra. Finally, we propose a novel realism metric -- based on\nthe sliced Wasserstein distance between generated samples and a held-out test\nset -- for optimizing the KL divergence weight in VAEs. Together, these\ncontributions enable compact, robust, and physically meaningful representations\nof aerosol states for large-scale climate applications.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Autoencoder"
+    ],
+    "applications": []
   }
 ]
