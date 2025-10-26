@@ -15696,5 +15696,488 @@
       "Autoencoder"
     ],
     "applications": []
+  },
+  {
+    "title": "On-the-Fly OVD Adaptation with FLAME: Few-shot Localization via Active Marginal-Samples Exploration",
+    "url": "http://arxiv.org/abs/2510.17670v1",
+    "authors": [
+      "Yehonathan Refael",
+      "Amit Aides",
+      "Aviad Barzilai",
+      "George Leifman",
+      "Genady Beryozkin",
+      "Vered Silverman",
+      "Bolous Jaber",
+      "Tomer Shekel"
+    ],
+    "published": "2025-10-20",
+    "abstract": "Open-vocabulary object detection (OVD) models offer remarkable flexibility by\ndetecting objects from arbitrary text queries. However, their zero-shot\nperformance in specialized domains like Remote Sensing (RS) is often\ncompromised by the inherent ambiguity of natural language, limiting critical\ndownstream applications. For instance, an OVD model may struggle to distinguish\nbetween fine-grained classes such as \"fishing boat\" and \"yacht\" since their\nembeddings are similar and often inseparable. This can hamper specific user\ngoals, such as monitoring illegal fishing, by producing irrelevant detections.\nTo address this, we propose a cascaded approach that couples the broad\ngeneralization of a large pre-trained OVD model with a lightweight few-shot\nclassifier. Our method first employs the zero-shot model to generate\nhigh-recall object proposals. These proposals are then refined for high\nprecision by a compact classifier trained in real-time on only a handful of\nuser-annotated examples - drastically reducing the high costs of RS imagery\nannotation.The core of our framework is FLAME, a one-step active learning\nstrategy that selects the most informative samples for training. FLAME\nidentifies, on the fly, uncertain marginal candidates near the decision\nboundary using density estimation, followed by clustering to ensure sample\ndiversity. This efficient sampling technique achieves high accuracy without\ncostly full-model fine-tuning and enables instant adaptation, within less then\na minute, which is significantly faster than state-of-the-art alternatives.Our\nmethod consistently surpasses state-of-the-art performance on RS benchmarks,\nestablishing a practical and resource-efficient framework for adapting\nfoundation models to specific user needs.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Do Satellite Tasks Need Special Pretraining?",
+    "url": "http://arxiv.org/abs/2510.17014v1",
+    "authors": [
+      "Ani Vanyan",
+      "Alvard Barseghyan",
+      "Hakob Tamazyan",
+      "Tigran Galstyan",
+      "Vahan Huroyan",
+      "Naira Hovakimyan",
+      "Hrant Khachatrian"
+    ],
+    "published": "2025-10-19",
+    "abstract": "Foundation models have advanced machine learning across various modalities,\nincluding images. Recently multiple teams trained foundation models specialized\nfor remote sensing applications. This line of research is motivated by the\ndistinct characteristics of remote sensing imagery, specific applications and\ntypes of robustness useful for satellite image analysis. In this work we\nsystematically challenge the idea that specific foundation models are more\nuseful than general-purpose vision foundation models, at least in the small\nscale. First, we design a simple benchmark that measures generalization of\nremote sensing models towards images with lower resolution for two downstream\ntasks. Second, we train iBOT, a self-supervised vision encoder, on MillionAID,\nan ImageNet-scale satellite imagery dataset, with several modifications\nspecific to remote sensing. We show that none of those pretrained models bring\nconsistent improvements upon general-purpose baselines at the ViT-B scale.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Detection and Simulation of Urban Heat Islands Using a Fine-Tuned Geospatial Foundation Model for Microclimate Impact Prediction",
+    "url": "http://arxiv.org/abs/2510.18773v1",
+    "authors": [
+      "Jannis Fleckenstein",
+      "David Kreismann",
+      "Tamara Rosemary Govindasamy",
+      "Thomas Brunschwiler",
+      "Etienne Vos",
+      "Mattia Rigotti"
+    ],
+    "published": "2025-10-21",
+    "abstract": "As urbanization and climate change progress, urban heat island effects are\nbecoming more frequent and severe. To formulate effective mitigation plans,\ncities require detailed air temperature data, yet conventional machine learning\nmodels with limited data often produce inaccurate predictions, particularly in\nunderserved areas. Geospatial foundation models trained on global unstructured\ndata offer a promising alternative by demonstrating strong generalization and\nrequiring only minimal fine-tuning. In this study, an empirical ground truth of\nurban heat patterns is established by quantifying cooling effects from green\nspaces and benchmarking them against model predictions to evaluate the model's\naccuracy. The foundation model is subsequently fine-tuned to predict land\nsurface temperatures under future climate scenarios, and its practical value is\ndemonstrated through a simulated inpainting that highlights its role for\nmitigation support. The results indicate that foundation models offer a\npowerful way for evaluating urban heat island mitigation strategies in\ndata-scarce regions to support more climate-resilient cities.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Earth AI: Unlocking Geospatial Insights with Foundation Models and Cross-Modal Reasoning",
+    "url": "http://arxiv.org/abs/2510.18318v1",
+    "authors": [
+      "Aaron Bell",
+      "Amit Aides",
+      "Amr Helmy",
+      "Arbaaz Muslim",
+      "Aviad Barzilai",
+      "Aviv Slobodkin",
+      "Bolous Jaber",
+      "David Schottlander",
+      "George Leifman",
+      "Joydeep Paul",
+      "Mimi Sun",
+      "Nadav Sherman",
+      "Natalie Williams",
+      "Per Bjornsson",
+      "Roy Lee",
+      "Ruth Alcantara",
+      "Thomas Turnbull",
+      "Tomer Shekel",
+      "Vered Silverman",
+      "Yotam Gigi",
+      "Adam Boulanger",
+      "Alex Ottenwess",
+      "Ali Ahmadalipour",
+      "Anna Carter",
+      "Charles Elliott",
+      "David Andre",
+      "Elad Aharoni",
+      "Gia Jung",
+      "Hassler Thurston",
+      "Jacob Bien",
+      "Jamie McPike",
+      "Juliet Rothenberg",
+      "Kartik Hegde",
+      "Kel Markert",
+      "Kim Philipp Jablonski",
+      "Luc Houriez",
+      "Monica Bharel",
+      "Phing VanLee",
+      "Reuven Sayag",
+      "Sebastian Pilarski",
+      "Shelley Cazares",
+      "Shlomi Pasternak",
+      "Siduo Jiang",
+      "Stone Jiang",
+      "Thomas Colthurst",
+      "Yang Chen",
+      "Yehonathan Refael",
+      "Yochai Blau",
+      "Yuval Carny",
+      "Yael Maguire",
+      "Avinatan Hassidim",
+      "James Manyika",
+      "Tim Thelin",
+      "Genady Beryozkin",
+      "Gautam Prasad",
+      "Luke Barrington",
+      "Yossi Matias",
+      "Niv Efron",
+      "Shravya Shetty"
+    ],
+    "published": "2025-10-21",
+    "abstract": "Geospatial data offers immense potential for understanding our planet.\nHowever, the sheer volume and diversity of this data along with its varied\nresolutions, timescales, and sparsity pose significant challenges for thorough\nanalysis and interpretation. This paper introduces Earth AI, a family of\ngeospatial AI models and agentic reasoning that enables significant advances in\nour ability to unlock novel and profound insights into our planet. This\napproach is built upon foundation models across three key domains--Planet-scale\nImagery, Population, and Environment--and an intelligent Gemini-powered\nreasoning engine. We present rigorous benchmarks showcasing the power and novel\ncapabilities of our foundation models and validate that when used together,\nthey provide complementary value for geospatial inference and their synergies\nunlock superior predictive capabilities. To handle complex, multi-step queries,\nwe developed a Gemini-powered agent that jointly reasons over our multiple\nfoundation models along with large geospatial data sources and tools. On a new\nbenchmark of real-world crisis scenarios, our agent demonstrates the ability to\ndeliver critical and timely insights, effectively bridging the gap between raw\ngeospatial data and actionable understanding.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Urban-R1: Reinforced MLLMs Mitigate Geospatial Biases for Urban General Intelligence",
+    "url": "http://arxiv.org/abs/2510.16555v1",
+    "authors": [
+      "Qiongyan Wang",
+      "Xingchen Zou",
+      "Yutian Jiang",
+      "Haomin Wen",
+      "Jiaheng Wei",
+      "Qingsong Wen",
+      "Yuxuan Liang"
+    ],
+    "published": "2025-10-18",
+    "abstract": "Rapid urbanization intensifies the demand for Urban General Intelligence\n(UGI), referring to AI systems that can understand and reason about complex\nurban environments. Recent studies have built urban foundation models using\nsupervised fine-tuning (SFT) of LLMs and MLLMs, yet these models exhibit\npersistent geospatial bias, producing regionally skewed predictions and limited\ngeneralization. To this end, we propose Urban-R1, a reinforcement\nlearning-based post-training framework that aligns MLLMs with the objectives of\nUGI. Urban-R1 adopts Group Relative Policy Optimization (GRPO) to optimize\nreasoning across geographic groups and employs urban region profiling as a\nproxy task to provide measurable rewards from multimodal urban data. Extensive\nexperiments across diverse regions and tasks show that Urban-R1 effectively\nmitigates geo-bias and improves cross-region generalization, outperforming both\nSFT-trained and closed-source models. Our results highlight reinforcement\nlearning alignment as a promising pathway toward equitable and trustworthy\nurban intelligence.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Seabed-Net: A multi-task network for joint bathymetry estimation and seabed classification from remote sensing imagery in shallow waters",
+    "url": "http://arxiv.org/abs/2510.19329v1",
+    "authors": [
+      "Panagiotis Agrafiotis",
+      "Beg\u00fcm Demir"
+    ],
+    "published": "2025-10-22",
+    "abstract": "Accurate, detailed, and regularly updated bathymetry, coupled with complex\nsemantic content, is essential for under-mapped shallow-water environments\nfacing increasing climatological and anthropogenic pressures. However, existing\napproaches that derive either depth or seabed classes from remote sensing\nimagery treat these tasks in isolation, forfeiting the mutual benefits of their\ninteraction and hindering the broader adoption of deep learning methods. To\naddress these limitations, we introduce Seabed-Net, a unified multi-task\nframework that simultaneously predicts bathymetry and pixel-based seabed\nclassification from remote sensing imagery of various resolutions. Seabed-Net\nemploys dual-branch encoders for bathymetry estimation and pixel-based seabed\nclassification, integrates cross-task features via an Attention Feature Fusion\nmodule and a windowed Swin-Transformer fusion block, and balances objectives\nthrough dynamic task uncertainty weighting. In extensive evaluations at two\nheterogeneous coastal sites, it consistently outperforms traditional empirical\nmodels and traditional machine learning regression methods, achieving up to\n75\\% lower RMSE. It also reduces bathymetric RMSE by 10-30\\% compared to\nstate-of-the-art single-task and multi-task baselines and improves seabed\nclassification accuracy up to 8\\%. Qualitative analyses further demonstrate\nenhanced spatial consistency, sharper habitat boundaries, and corrected depth\nbiases in low-contrast regions. These results confirm that jointly modeling\ndepth with both substrate and seabed habitats yields synergistic gains,\noffering a robust, open solution for integrated shallow-water mapping. Code and\npretrained weights are available at https://github.com/pagraf/Seabed-Net.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Classification",
+      "Regression"
+    ]
+  },
+  {
+    "title": "Enhancing Rotated Object Detection via Anisotropic Gaussian Bounding Box and Bhattacharyya Distance",
+    "url": "http://arxiv.org/abs/2510.16445v1",
+    "authors": [
+      "Chien Thai",
+      "Mai Xuan Trang",
+      "Huong Ninh",
+      "Hoang Hiep Ly",
+      "Anh Son Le"
+    ],
+    "published": "2025-10-18",
+    "abstract": "Detecting rotated objects accurately and efficiently is a significant\nchallenge in computer vision, particularly in applications such as aerial\nimagery, remote sensing, and autonomous driving. Although traditional object\ndetection frameworks are effective for axis-aligned objects, they often\nunderperform in scenarios involving rotated objects due to their limitations in\ncapturing orientation variations. This paper introduces an improved loss\nfunction aimed at enhancing detection accuracy and robustness by leveraging the\nGaussian bounding box representation and Bhattacharyya distance. In addition,\nwe advocate for the use of an anisotropic Gaussian representation to address\nthe issues associated with isotropic variance in square-like objects. Our\nproposed method addresses these challenges by incorporating a\nrotation-invariant loss function that effectively captures the geometric\nproperties of rotated objects. We integrate this proposed loss function into\nstate-of-the-art deep learning-based rotated object detection detectors, and\nextensive experiments demonstrated significant improvements in mean Average\nPrecision metrics compared to existing methods. The results highlight the\npotential of our approach to establish new benchmark in rotated object\ndetection, with implications for a wide range of applications requiring precise\nand reliable object localization irrespective of orientation.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Hurdle-IMDL: An Imbalanced Learning Framework for Infrared Rainfall Retrieval",
+    "url": "http://arxiv.org/abs/2510.20486v1",
+    "authors": [
+      "Fangjian Zhang",
+      "Xiaoyong Zhuge",
+      "Wenlan Wang",
+      "Haixia Xiao",
+      "Yuying Zhu",
+      "Siyang Cheng"
+    ],
+    "published": "2025-10-23",
+    "abstract": "Artificial intelligence has advanced quantitative remote sensing, yet its\neffectiveness is constrained by imbalanced label distribution. This imbalance\nleads conventionally trained models to favor common samples, which in turn\ndegrades retrieval performance for rare ones. Rainfall retrieval exemplifies\nthis issue, with performance particularly compromised for heavy rain. This\nstudy proposes Hurdle-Inversion Model Debiasing Learning (IMDL) framework.\nFollowing a divide-and-conquer strategy, imbalance in the rain distribution is\ndecomposed into two components: zero inflation, defined by the predominance of\nnon-rain samples; and long tail, defined by the disproportionate abundance of\nlight-rain samples relative to heavy-rain samples. A hurdle model is adopted to\nhandle the zero inflation, while IMDL is proposed to address the long tail by\ntransforming the learning object into an unbiased ideal inverse model.\nComprehensive evaluation via statistical metrics and case studies investigating\nrainy weather in eastern China confirms Hurdle-IMDL's superiority over\nconventional, cost-sensitive, generative, and multi-task learning methods. Its\nkey advancements include effective mitigation of systematic underestimation and\na marked improvement in the retrieval of heavy-to-extreme rain. IMDL offers a\ngeneralizable approach for addressing imbalance in distributions of\nenvironmental variables, enabling enhanced retrieval of rare yet high-impact\nevents.",
+    "categories": [
+      "remote_sensing",
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "FINDER: Feature Inference on Noisy Datasets using Eigenspace Residuals",
+    "url": "http://arxiv.org/abs/2510.19917v1",
+    "authors": [
+      "Trajan Murphy",
+      "Akshunna S. Dogra",
+      "Hanfeng Gu",
+      "Caleb Meredith",
+      "Mark Kon",
+      "Julio Enrique Castrillion-Candas"
+    ],
+    "published": "2025-10-22",
+    "abstract": "''Noisy'' datasets (regimes with low signal to noise ratios, small sample\nsizes, faulty data collection, etc) remain a key research frontier for\nclassification methods with both theoretical and practical implications. We\nintroduce FINDER, a rigorous framework for analyzing generic classification\nproblems, with tailored algorithms for noisy datasets. FINDER incorporates\nfundamental stochastic analysis ideas into the feature learning and inference\nstages to optimally account for the randomness inherent to all empirical\ndatasets. We construct ''stochastic features'' by first viewing empirical\ndatasets as realizations from an underlying random field (without assumptions\non its exact distribution) and then mapping them to appropriate Hilbert spaces.\nThe Kosambi-Karhunen-Lo\\'eve expansion (KLE) breaks these stochastic features\ninto computable irreducible components, which allow classification over noisy\ndatasets via an eigen-decomposition: data from different classes resides in\ndistinct regions, identified by analyzing the spectrum of the associated\noperators. We validate FINDER on several challenging, data-deficient scientific\ndomains, producing state of the art breakthroughs in: (i) Alzheimer's Disease\nstage classification, (ii) Remote sensing detection of deforestation. We end\nwith a discussion on when FINDER is expected to outperform existing methods,\nits failure modes, and other limitations.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Uncertainty evaluation of segmentation models for Earth observation",
+    "url": "http://arxiv.org/abs/2510.19586v1",
+    "authors": [
+      "Melanie Rey",
+      "Andriy Mnih",
+      "Maxim Neumann",
+      "Matt Overlan",
+      "Drew Purves"
+    ],
+    "published": "2025-10-22",
+    "abstract": "This paper investigates methods for estimating uncertainty in semantic\nsegmentation predictions derived from satellite imagery. Estimating uncertainty\nfor segmentation presents unique challenges compared to standard image\nclassification, requiring scalable methods producing per-pixel estimates. While\nmost research on this topic has focused on scene understanding or medical\nimaging, this work benchmarks existing methods specifically for remote sensing\nand Earth observation applications. Our evaluation focuses on the practical\nutility of uncertainty measures, testing their ability to identify prediction\nerrors and noise-corrupted input image regions. Experiments are conducted on\ntwo remote sensing datasets, PASTIS and ForTy, selected for their differences\nin scale, geographic coverage, and label confidence. We perform an extensive\nevaluation featuring several models, such as Stochastic Segmentation Networks\nand ensembles, in combination with a number of neural architectures and\nuncertainty metrics. We make a number of practical recommendations based on our\nfindings.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Multi-modal Co-learning for Earth Observation: Enhancing single-modality models via modality collaboration",
+    "url": "http://arxiv.org/abs/2510.19579v1",
+    "authors": [
+      "Francisco Mena",
+      "Dino Ienco",
+      "Cassio F. Dantas",
+      "Roberto Interdonato",
+      "Andreas Dengel"
+    ],
+    "published": "2025-10-22",
+    "abstract": "Multi-modal co-learning is emerging as an effective paradigm in machine\nlearning, enabling models to collaboratively learn from different modalities to\nenhance single-modality predictions. Earth Observation (EO) represents a\nquintessential domain for multi-modal data analysis, wherein diverse remote\nsensors collect data to sense our planet. This unprecedented volume of data\nintroduces novel challenges. Specifically, the access to the same sensor\nmodalities at both training and inference stages becomes increasingly complex\nbased on real-world constraints affecting remote sensing platforms. In this\ncontext, multi-modal co-learning presents a promising strategy to leverage the\nvast amount of sensor-derived data available at the training stage to improve\nsingle-modality models for inference-time deployment. Most current research\nefforts focus on designing customized solutions for either particular\ndownstream tasks or specific modalities available at the inference stage. To\naddress this, we propose a novel multi-modal co-learning framework capable of\ngeneralizing across various tasks without targeting a specific modality for\ninference. Our approach combines contrastive and modality discriminative\nlearning together to guide single-modality models to structure the internal\nmodel manifold into modality-shared and modality-specific information. We\nevaluate our framework on four EO benchmarks spanning classification and\nregression tasks across different sensor modalities, where only one of the\nmodalities available during training is accessible at inference time. Our\nresults demonstrate consistent predictive improvements over state-of-the-art\napproaches from the recent machine learning and computer vision literature, as\nwell as EO-specific methods. The obtained findings validate our framework in\nthe single-modality inference scenarios across a diverse range of EO\napplications.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification",
+      "Regression",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Dimensionality Reduction for Remote Sensing Data Analysis: A Systematic Review of Methods and Applications",
+    "url": "http://arxiv.org/abs/2510.18935v1",
+    "authors": [
+      "Nathan Mankovich",
+      "Kai-Hendrik Cohrs",
+      "Homer Durand",
+      "Vasileios Sitokonstantinou",
+      "Tristan Williams",
+      "Gustau Camps-Valls"
+    ],
+    "published": "2025-10-21",
+    "abstract": "Earth observation involves collecting, analyzing, and processing an\never-growing mass of data. Automatically harvesting information is crucial for\naddressing significant societal, economic, and environmental challenges,\nranging from environmental monitoring to urban planning and disaster\nmanagement. However, the high dimensionality of these data poses challenges in\nterms of sparsity, inefficiency, and the curse of dimensionality, which limits\nthe effectiveness of machine learning models. Dimensionality reduction (DR)\ntechniques, specifically feature extraction, address these challenges by\npreserving essential data properties while reducing complexity and enhancing\ntasks such as data compression, cleaning, fusion, visualization, anomaly\ndetection, and prediction. This review provides a handbook for leveraging DR\nacross the RS data value chain and identifies opportunities for under-explored\nDR algorithms and their application in future research.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Prediction of Sea Ice Velocity and Concentration in the Arctic Ocean using Physics-informed Neural Network",
+    "url": "http://arxiv.org/abs/2510.17756v1",
+    "authors": [
+      "Younghyun Koo",
+      "Maryam Rahnemoonfar"
+    ],
+    "published": "2025-10-20",
+    "abstract": "As an increasing amount of remote sensing data becomes available in the\nArctic Ocean, data-driven machine learning (ML) techniques are becoming widely\nused to predict sea ice velocity (SIV) and sea ice concentration (SIC).\nHowever, fully data-driven ML models have limitations in generalizability and\nphysical consistency due to their excessive reliance on the quantity and\nquality of training data. In particular, as Arctic sea ice entered a new phase\nwith thinner ice and accelerated melting, there is a possibility that an ML\nmodel trained with historical sea ice data cannot fully represent the\ndynamically changing sea ice conditions in the future. In this study, we\ndevelop physics-informed neural network (PINN) strategies to integrate physical\nknowledge of sea ice into the ML model. Based on the Hierarchical\nInformation-sharing U-net (HIS-Unet) architecture, we incorporate the physics\nloss function and the activation function to produce physically plausible SIV\nand SIC outputs. Our PINN model outperforms the fully data-driven model in the\ndaily predictions of SIV and SIC, even when trained with a small number of\nsamples. The PINN approach particularly improves SIC predictions in melting and\nearly freezing seasons and near fast-moving ice regions.",
+    "categories": [
+      "remote_sensing",
+      "ocean"
+    ],
+    "architectures": [
+      "UNET",
+      "PINN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Active Target Discovery under Uninformative Prior: The Power of Permanent and Transient Memory",
+    "url": "http://arxiv.org/abs/2510.16676v1",
+    "authors": [
+      "Anindya Sarkar",
+      "Binglin Ji",
+      "Yevgeniy Vorobeychik"
+    ],
+    "published": "2025-10-19",
+    "abstract": "In many scientific and engineering fields, where acquiring high-quality data\nis expensive--such as medical imaging, environmental monitoring, and remote\nsensing--strategic sampling of unobserved regions based on prior observations\nis crucial for maximizing discovery rates within a constrained budget. The rise\nof powerful generative models, such as diffusion models, has enabled active\ntarget discovery in partially observable environments by leveraging learned\npriors--probabilistic representations that capture underlying structure from\ndata. With guidance from sequentially gathered task-specific observations,\nthese models can progressively refine exploration and efficiently direct\nqueries toward promising regions. However, in domains where learning a strong\nprior is infeasible due to extremely limited data or high sampling cost (such\nas rare species discovery, diagnostics for emerging diseases, etc.), these\nmethods struggle to generalize. To overcome this limitation, we propose a novel\napproach that enables effective active target discovery even in settings with\nuninformative priors, ensuring robust exploration and adaptability in complex\nreal-world scenarios. Our framework is theoretically principled and draws\ninspiration from neuroscience to guide its design. Unlike black-box policies,\nour approach is inherently interpretable, providing clear insights into\ndecision-making. Furthermore, it guarantees a strong, monotonic improvement in\nprior estimates with each new observation, leading to increasingly accurate\nsampling and reinforcing both reliability and adaptability in dynamic settings.\nThrough comprehensive experiments and ablation studies across various domains,\nincluding species distribution modeling and remote sensing, we demonstrate that\nour method substantially outperforms baseline approaches.",
+    "categories": [
+      "remote_sensing",
+      "fish_plankton"
+    ],
+    "architectures": [
+      "Diffusion Models",
+      "SDM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "CSU-PCAST: A Dual-Branch Transformer Framework for medium-range ensemble Precipitation Forecasting",
+    "url": "http://arxiv.org/abs/2510.20769v1",
+    "authors": [
+      "Tianyi Xiong",
+      "Haonan Chen"
+    ],
+    "published": "2025-10-23",
+    "abstract": "Accurate medium-range precipitation forecasting is crucial for\nhydrometeorological risk management and disaster mitigation, yet remains\nchallenging for current numerical weather prediction (NWP) systems. Traditional\nensemble systems such as the Global Ensemble Forecast System (GEFS) struggle to\nmaintain high skill, especially for moderate and heavy rainfall at extended\nlead times. This study develops a deep learning-based ensemble framework for\nmulti-step precipitation prediction through joint modeling of a comprehensive\nset of atmospheric variables. The model is trained on ERA5 reanalysis data at\n0.25$^{\\circ}$ spatial resolution, with precipitation labels from NASA's\nIntegrated Multi-satellite Retrievals for Global Precipitation Measurement\n(GPM) constellation (IMERG), incorporating 57 input variables, including\nupper-air and surface predictors. The architecture employs a patch-based Swin\nTransformer backbone with periodic convolutions to handle longitudinal\ncontinuity and integrates time and noise embeddings through conditional layer\nnormalization. A dual-branch decoder predicts total precipitation and other\nvariables, with targeted freezing of encoder-decoder pathways for specialized\ntraining. Training minimizes a hybrid loss combining the Continuous Ranked\nProbability Score (CRPS) and weighted log1p mean squared error (log1pMSE),\nbalancing probabilistic accuracy and magnitude fidelity. During inference, the\nmodel ingests real-time Global Forecast System (GFS) initial conditions to\ngenerate 15-day forecasts autoregressively. Evaluation against GEFS using IMERG\ndata demonstrates higher Critical Success Index (CSI) scores at precipitation\nthresholds of 0.1 mm, 1 mm, 10 mm, and 20 mm, highlighting improved performance\nfor moderate to heavy rainfall.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Learning Coupled Earth System Dynamics with GraphDOP",
+    "url": "http://arxiv.org/abs/2510.20416v1",
+    "authors": [
+      "Eulalie Boucher",
+      "Mihai Alexe",
+      "Peter Lean",
+      "Ewan Pinnington",
+      "Simon Lang",
+      "Patrick Laloyaux",
+      "Lorenzo Zampieri",
+      "Patricia de Rosnay",
+      "Niels Bormann",
+      "Anthony McNally"
+    ],
+    "published": "2025-10-23",
+    "abstract": "Interactions between different components of the Earth System (e.g. ocean,\natmosphere, land and cryosphere) are a crucial driver of global weather\npatterns. Modern Numerical Weather Prediction (NWP) systems typically run\nseparate models of the different components, explicitly coupled across their\ninterfaces to additionally model exchanges between the different components.\nAccurately representing these coupled interactions remains a major scientific\nand technical challenge of weather forecasting. GraphDOP is a graph-based\nmachine learning model that learns to forecast weather directly from raw\nsatellite and in-situ observations, without reliance on reanalysis products or\ntraditional physics-based NWP models. GraphDOP simultaneously embeds\ninformation from diverse observation sources spanning the full Earth system\ninto a shared latent space. This enables predictions that implicitly capture\ncross-domain interactions in a single model without the need for any explicit\ncoupling. Here we present a selection of case studies which illustrate the\ncapability of GraphDOP to forecast events where coupled processes play a\nparticularly key role. These include rapid sea-ice freezing in the Arctic,\nmixing-induced ocean surface cooling during Hurricane Ian and the severe\nEuropean heat wave of 2022. The results suggest that learning directly from\nEarth System observations can successfully characterise and propagate\ncross-component interactions, offering a promising path towards physically\nconsistent end-to-end data-driven Earth System prediction with a single model.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Discovering How Ice Crystals Grow Using Neural ODE's and Symbolic Regression",
+    "url": "http://arxiv.org/abs/2510.17935v1",
+    "authors": [
+      "Kara D. Lamb",
+      "Jerry Y. Harrington",
+      "Alfred M. Moyle",
+      "Gwenore F. Pokrifka",
+      "Benjamin W. Clouser",
+      "Volker Ebert",
+      "Ottmar M\u00f6hler",
+      "Harald Saathoff"
+    ],
+    "published": "2025-10-20",
+    "abstract": "Depositional ice growth is an important process for cirrus cloud evolution,\nbut the physics of ice growth in atmospheric conditions is still poorly\nunderstood. One major challenge in constraining depositional ice growth models\nagainst observations is that the early growth rates of ice crystals cannot be\ndirectly observed, and proposed models require assumptions about the functional\ndependence of physical processes that are still highly uncertain. Neural\nordinary differential equations (NODE's) are a recently developed machine\nlearning method that can be used to learn the derivative of an unknown\nfunction. Here we use NODE's to learn the functional dependence of unknown\nphysics in the depositional ice growth model by optimizing against experimental\nmeasurements of ice crystal mass. We find a functional form for the\ndepositional ice growth model that best fits 290 mass time series of ice\ncrystals grown in a levitation diffusion chamber. We use symbolic regression to\nderive an equation for the function learned by the NODE model, which includes\nadditional terms proportional to ice crystal mass in the capacitance growth\nmodel. We evaluate this functional form against experimental data sets from the\nAIDA Aerosol and Cloud Chamber, finding that our new proposed model for\ndepositional ice growth accurately reproduces experimental results in the early\nstages of ice crystal growth.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Regression"
+    ]
+  },
+  {
+    "title": "Optical turbulence forecast for ground-based astronomy and free-space optical communication",
+    "url": "http://arxiv.org/abs/2510.16845v1",
+    "authors": [
+      "Elena Masciadria",
+      "Alessio Turchia",
+      "Camilo Weinbergera",
+      "Marlene De Sepibusa",
+      "Luca Finia"
+    ],
+    "published": "2025-10-19",
+    "abstract": "Forecasting optical turbulence in the Earth's atmosphere has been an\nambitious challenge for the astronomical scientific community for several\ndecades. While earlier research primarily focused on whether it was possible to\npredict optical turbulence and its vertical distribution, current efforts are\nmore concentrated on the accuracy achievable at different timescales, the\nefficiency of various forecasting methods and the contributions of new\nstatistical approaches, such as auto-regression and machine learning to this\nfield. In this contribution, I will present the state of the art of the\nresearch conducted by our group, positioned within the international research\nscenery. Most of our past activity has been primarily focused on ground-based\nastronomy but recent advancements in space research opened new opportunities\nfor applications in the free-space optical communication.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Regression",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "BATIS: Bayesian Approaches for Targeted Improvement of Species Distribution Models",
+    "url": "http://arxiv.org/abs/2510.19749v1",
+    "authors": [
+      "Catherine Villeneuve",
+      "Benjamin Akera",
+      "M\u00e9lisande Teng",
+      "David Rolnick"
+    ],
+    "published": "2025-10-22",
+    "abstract": "Species distribution models (SDMs), which aim to predict species occurrence\nbased on environmental variables, are widely used to monitor and respond to\nbiodiversity change. Recent deep learning advances for SDMs have been shown to\nperform well on complex and heterogeneous datasets, but their effectiveness\nremains limited by spatial biases in the data. In this paper, we revisit deep\nSDMs from a Bayesian perspective and introduce BATIS, a novel and practical\nframework wherein prior predictions are updated iteratively using limited\nobservational data. Models must appropriately capture both aleatoric and\nepistemic uncertainty to effectively combine fine-grained local insights with\nbroader ecological patterns. We benchmark an extensive set of uncertainty\nquantification approaches on a novel dataset including citizen science\nobservations from the eBird platform. Our empirical study shows how Bayesian\ndeep learning approaches can greatly improve the reliability of SDMs in\ndata-scarce locations, which can contribute to ecological understanding and\nconservation efforts.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [
+      "SDM"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "FrogDeepSDM: Improving Frog Counting and Occurrence Prediction Using Multimodal Data and Pseudo-Absence Imputation",
+    "url": "http://arxiv.org/abs/2510.19305v1",
+    "authors": [
+      "Chirag Padubidri",
+      "Pranesh Velmurugan",
+      "Andreas Lanitis",
+      "Andreas Kamilaris"
+    ],
+    "published": "2025-10-22",
+    "abstract": "Monitoring species distribution is vital for conservation efforts, enabling\nthe assessment of environmental impacts and the development of effective\npreservation strategies. Traditional data collection methods, including citizen\nscience, offer valuable insights but remain limited in coverage and\ncompleteness. Species Distribution Modelling (SDM) helps address these gaps by\nusing occurrence data and environmental variables to predict species presence\nacross large regions. In this study, we enhance SDM accuracy for frogs (Anura)\nby applying deep learning and data imputation techniques using data from the\n\"EY - 2022 Biodiversity Challenge.\" Our experiments show that data balancing\nsignificantly improved model performance, reducing the Mean Absolute Error\n(MAE) from 189 to 29 in frog counting tasks. Feature selection identified key\nenvironmental factors influencing occurrence, optimizing inputs while\nmaintaining predictive accuracy. The multimodal ensemble model, integrating\nland cover, NDVI, and other environmental inputs, outperformed individual\nmodels and showed robust generalization across unseen regions. The fusion of\nimage and tabular data improved both frog counting and habitat classification,\nachieving 84.9% accuracy with an AUC of 0.90. This study highlights the\npotential of multimodal learning and data preprocessing techniques such as\nbalancing and imputation to improve predictive ecological modeling when data\nare sparse or incomplete, contributing to more precise and scalable\nbiodiversity monitoring.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [
+      "SDM"
+    ],
+    "applications": [
+      "Classification"
+    ]
   }
 ]
