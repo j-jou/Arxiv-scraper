@@ -16179,5 +16179,418 @@
     "applications": [
       "Classification"
     ]
+  },
+  {
+    "title": "Survey of Multimodal Geospatial Foundation Models: Techniques, Applications, and Challenges",
+    "url": "http://arxiv.org/abs/2510.22964v1",
+    "authors": [
+      "Liling Yang",
+      "Ning Chen",
+      "Jun Yue",
+      "Yidan Liu",
+      "Jiayi Ma",
+      "Pedram Ghamisi",
+      "Antonio Plaza",
+      "Leyuan Fang"
+    ],
+    "published": "2025-10-27",
+    "abstract": "Foundation models have transformed natural language processing and computer\nvision, and their impact is now reshaping remote sensing image analysis. With\npowerful generalization and transfer learning capabilities, they align\nnaturally with the multimodal, multi-resolution, and multi-temporal\ncharacteristics of remote sensing data. To address unique challenges in the\nfield, multimodal geospatial foundation models (GFMs) have emerged as a\ndedicated research frontier. This survey delivers a comprehensive review of\nmultimodal GFMs from a modality-driven perspective, covering five core visual\nand vision-language modalities. We examine how differences in imaging physics\nand data representation shape interaction design, and we analyze key techniques\nfor alignment, integration, and knowledge transfer to tackle modality\nheterogeneity, distribution shifts, and semantic gaps. Advances in training\nparadigms, architectures, and task-specific adaptation strategies are\nsystematically assessed alongside a wealth of emerging benchmarks.\nRepresentative multimodal visual and vision-language GFMs are evaluated across\nten downstream tasks, with insights into their architectures, performance, and\napplication scenarios. Real-world case studies, spanning land cover mapping,\nagricultural monitoring, disaster response, climate studies, and geospatial\nintelligence, demonstrate the practical potential of GFMs. Finally, we outline\npressing challenges in domain generalization, interpretability, efficiency, and\nprivacy, and chart promising avenues for future research.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "WaveMAE: Wavelet decomposition Masked Auto-Encoder for Remote Sensing",
+    "url": "http://arxiv.org/abs/2510.22697v1",
+    "authors": [
+      "Vittorio Bernuzzi",
+      "Leonardo Rossi",
+      "Tomaso Fontanini",
+      "Massimo Bertozzi",
+      "Andrea Prati"
+    ],
+    "published": "2025-10-26",
+    "abstract": "Self-supervised learning (SSL) has recently emerged as a key strategy for\nbuilding foundation models in remote sensing, where the scarcity of annotated\ndata limits the applicability of fully supervised approaches. In this work, we\nintroduce WaveMAE, a masked autoencoding framework tailored for multispectral\nsatellite imagery. Unlike conventional pixel-based reconstruction, WaveMAE\nleverages a multi-level Discrete Wavelet Transform (DWT) to disentangle\nfrequency components and guide the encoder toward learning scale-aware\nhigh-frequency representations. We further propose a Geo-conditioned Positional\nEncoding (GPE), which incorporates geographical priors via Spherical Harmonics,\nencouraging embeddings that respect both semantic and geospatial structure. To\nensure fairness in evaluation, all methods are pretrained on the same dataset\n(fMoW-S2) and systematically evaluated on the diverse downstream tasks of the\nPANGAEA benchmark, spanning semantic segmentation, regression, change\ndetection, and multilabel classification. Extensive experiments demonstrate\nthat WaveMAE achieves consistent improvements over prior state-of-the-art\napproaches, with substantial gains on segmentation and regression benchmarks.\nThe effectiveness of WaveMAE pretraining is further demonstrated by showing\nthat even a lightweight variant, containing only 26.4% of the parameters,\nachieves state-of-the-art performance. Our results establish WaveMAE as a\nstrong and geographically informed foundation model for multispectral remote\nsensing imagery.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection",
+      "Classification",
+      "Regression"
+    ]
+  },
+  {
+    "title": "CYPRESS: Crop Yield Prediction via Regression on Prithvi's Encoder for Satellite Sensing",
+    "url": "http://arxiv.org/abs/2510.26609v1",
+    "authors": [
+      "Shayan Nejadshamsi",
+      "Yuanyuan Zhang",
+      "Shadi Zaki",
+      "Brock Porth",
+      "Lysa Porth",
+      "Vahab Khoshdel"
+    ],
+    "published": "2025-10-30",
+    "abstract": "Accurate and timely crop yield prediction is crucial for global food security\nand modern agricultural management. Traditional methods often lack the\nscalability and granularity required for precision farming. This paper\nintroduces CYPRESS (Crop Yield Prediction via Regression on Prithvi's Encoder\nfor Satellite Sensing), a deep learning model designed for high-resolution,\nintra-field canola yield prediction. CYPRESS leverages a pre-trained,\nlarge-scale geospatial foundation model (Prithvi-EO-2.0-600M) and adapts it for\na continuous regression task, transforming multi-temporal satellite imagery\ninto dense, pixel-level yield maps. Evaluated on a comprehensive dataset from\nthe Canadian Prairies, CYPRESS demonstrates superior performance over existing\ndeep learning-based yield prediction models, highlighting the effectiveness of\nfine-tuning foundation models for specialized agricultural applications. By\nproviding a continuous, high-resolution output, CYPRESS offers a more\nactionable tool for precision agriculture than conventional classification or\ncounty-level aggregation methods. This work validates a novel approach that\nbridges the gap between large-scale Earth observation and on-farm\ndecision-making, offering a scalable solution for detailed agricultural\nmonitoring.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification",
+      "Regression",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Application and Validation of Geospatial Foundation Model Data for the Prediction of Health Facility Programmatic Outputs -- A Case Study in Malawi",
+    "url": "http://arxiv.org/abs/2510.25954v1",
+    "authors": [
+      "Lynn Metz",
+      "Rachel Haggard",
+      "Michael Moszczynski",
+      "Samer Asbah",
+      "Chris Mwase",
+      "Patricia Khomani",
+      "Tyler Smith",
+      "Hannah Cooper",
+      "Annie Mwale",
+      "Arbaaz Muslim",
+      "Gautam Prasad",
+      "Mimi Sun",
+      "Tomer Shekel",
+      "Joydeep Paul",
+      "Anna Carter",
+      "Shravya Shetty",
+      "Dylan Green"
+    ],
+    "published": "2025-10-29",
+    "abstract": "The reliability of routine health data in low and middle-income countries\n(LMICs) is often constrained by reporting delays and incomplete coverage,\nnecessitating the exploration of novel data sources and analytics. Geospatial\nFoundation Models (GeoFMs) offer a promising avenue by synthesizing diverse\nspatial, temporal, and behavioral data into mathematical embeddings that can be\nefficiently used for downstream prediction tasks. This study evaluated the\npredictive performance of three GeoFM embedding sources - Google Population\nDynamics Foundation Model (PDFM), Google AlphaEarth (derived from satellite\nimagery), and mobile phone call detail records (CDR) - for modeling 15 routine\nhealth programmatic outputs in Malawi, and compared their utility to\ntraditional geospatial interpolation methods. We used XGBoost models on data\nfrom 552 health catchment areas (January 2021-May 2023), assessing performance\nwith R2, and using an 80/20 training and test data split with 5-fold\ncross-validation used in training. While predictive performance was mixed, the\nembedding-based approaches improved upon baseline geostatistical methods in 13\nof 15 (87%) indicators tested. A Multi-GeoFM model integrating all three\nembedding sources produced the most robust predictions, achieving average\n5-fold cross validated R2 values for indicators like population density (0.63),\nnew HIV cases (0.57), and child vaccinations (0.47) and test set R2 of 0.64,\n0.68, and 0.55, respectively. Prediction was poor for prediction targets with\nlow primary data availability, such as TB and malnutrition cases. These results\ndemonstrate that GeoFM embeddings imbue a modest predictive improvement for\nselect health and demographic outcomes in an LMIC context. We conclude that the\nintegration of multiple GeoFM sources is an efficient and valuable tool for\nsupplementing and strengthening constrained routine health information systems.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Global Chlorophyll-\\textit{a} Retrieval algorithm from Sentinel 2 Using Residual Deep Learning and Novel Machine Learning Water Classification",
+    "url": "http://arxiv.org/abs/2510.24124v1",
+    "authors": [
+      "Yotam Sherf",
+      "Bar Efrati",
+      "Gabriel Rozman",
+      "Moshe Harel"
+    ],
+    "published": "2025-10-28",
+    "abstract": "We present the Global Water Classifier (GWC), a supervised, geospatially\nextensive Machine Learning (ML) classifier trained on Sen2Cor corrected\nSentinel-2 surface reflectance data. Using nearly 100 globally distributed\ninland water bodies, GWC distinguishes water across Chlorophyll-a (Chla) levels\nfrom non-water spectra (clouds, sun glint, snow, ice, aquatic vegetation, land\nand sediments) and shows geographically stable performance.\n  Building on this foundation model, we perform Chla retrieval based on a\nmatchup Sentinel-2 reflectance data with the United States Geological Survey\n(USGS) AquaMatch in-situ dataset, covering diverse geographical and\nhydrological conditions.\n  We train an XGBoost regressor on 13626 matchup points. The positive labeled\nscenes by the GWC consistently outperform the negatives and produce more\naccurate Chla retrieval values, which confirms the classifiers advantage in\nreducing various interferences.\n  Next, residual analysis of the regression predictions revealed structured\nerrors, motivating a residual CNN (RCNN) correction stage. We add a CNN\nresidual stage trained on normalized residuals, which yield substantial\nimprovement. Our algorithm was tested on 867 water bodies with over 2,000\npredictions and Chla values up to 1000~mg$/m^{3}$, achieving $R^2$ = 0.79, MAE\n= 13.52~mg$/m^{3}$, and slope = 0.91, demonstrating robust, scalable, and\nglobally transferable performance without additional tuning.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": [
+      "Regression",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "ZeroFlood: A Geospatial Foundation Model for Data-Efficient Flood Susceptibility Mapping",
+    "url": "http://arxiv.org/abs/2510.23364v1",
+    "authors": [
+      "Hyeongkyun Kim",
+      "Orestis Oikonomou"
+    ],
+    "published": "2025-10-27",
+    "abstract": "Flood susceptibility mapping (FSM) is vital for disaster prevention but\nremains challenging in data-scarce regions where hydrodynamic models require\ndense geophysical inputs. This work introduces ZeroFlood, a geospatial\nfoundation model framework for data-efficient FSM. The approach fine-tunes\nGeospatial Foundation Models (GFMs) with Thinking-in-Modality (TiM) reasoning,\nenabling flood prediction from basic Earth observation data such as Sentinel-1\nor Sentinel-2 imagery. Using paired EO and simulated flood maps from data-rich\nregions, ZeroFlood bridges data availability gaps through cross-modal\nrepresentation learning. Experiments with TerraMind and Prithvi GFMs show that\nTiM enhances model robustness, with the TerraMind-Large configuration achieving\nan F1 score of 67.21. The results demonstrate the feasibility of\nfoundation-model-based FSM as a scalable and data-efficient solution for flood\nrisk management.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Leveraging an Atmospheric Foundational Model for Subregional Sea Surface Temperature Forecasting",
+    "url": "http://arxiv.org/abs/2510.25563v1",
+    "authors": [
+      "V\u00edctor Medina",
+      "Giovanny A. Cuervo-Londo\u00f1o",
+      "Javier S\u00e1nchez"
+    ],
+    "published": "2025-10-29",
+    "abstract": "The accurate prediction of oceanographic variables is crucial for\nunderstanding climate change, managing marine resources, and optimizing\nmaritime activities. Traditional ocean forecasting relies on numerical models;\nhowever, these approaches face limitations in terms of computational cost and\nscalability. In this study, we adapt Aurora, a foundational deep learning model\noriginally designed for atmospheric forecasting, to predict sea surface\ntemperature (SST) in the Canary Upwelling System. By fine-tuning this model\nwith high-resolution oceanographic reanalysis data, we demonstrate its ability\nto capture complex spatiotemporal patterns while reducing computational\ndemands. Our methodology involves a staged fine-tuning process, incorporating\nlatitude-weighted error metrics and optimizing hyperparameters for efficient\nlearning. The experimental results show that the model achieves a low RMSE of\n0.119K, maintaining high anomaly correlation coefficients (ACC $\\approx\n0.997$). The model successfully reproduces large-scale SST structures but faces\nchallenges in capturing finer details in coastal regions. This work contributes\nto the field of data-driven ocean forecasting by demonstrating the feasibility\nof using deep learning models pre-trained in different domains for oceanic\napplications. Future improvements include integrating additional oceanographic\nvariables, increasing spatial resolution, and exploring physics-informed neural\nnetworks to enhance interpretability and understanding. These advancements can\nimprove climate modeling and ocean prediction accuracy, supporting\ndecision-making in environmental and economic sectors.",
+    "categories": [
+      "foundation_model",
+      "ocean"
+    ],
+    "architectures": [
+      "PINN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Towards Reliable Sea Ice Drift Estimation in the Arctic Deep Learning Optical Flow on RADARSAT-2",
+    "url": "http://arxiv.org/abs/2510.26653v1",
+    "authors": [
+      "Daniela Martin",
+      "Joseph Gallego"
+    ],
+    "published": "2025-10-30",
+    "abstract": "Accurate estimation of sea ice drift is critical for Arctic navigation,\nclimate research, and operational forecasting. While optical flow, a computer\nvision technique for estimating pixel wise motion between consecutive images,\nhas advanced rapidly in computer vision, its applicability to geophysical\nproblems and to satellite SAR imagery remains underexplored. Classical optical\nflow methods rely on mathematical models and strong assumptions about motion,\nwhich limit their accuracy in complex scenarios. Recent deep learning based\napproaches have substantially improved performance and are now the standard in\ncomputer vision, motivating their application to sea ice drift estimation. We\npresent the first large scale benchmark of 48 deep learning optical flow models\non RADARSAT 2 ScanSAR sea ice imagery, evaluated with endpoint error (EPE) and\nFl all metrics against GNSS tracked buoys. Several models achieve sub kilometer\naccuracy (EPE 6 to 8 pixels, 300 to 400 m), a small error relative to the\nspatial scales of sea ice motion and typical navigation requirements in the\nArctic. Our results demonstrate that the models are capable of capturing\nconsistent regional drift patterns and that recent deep learning based optical\nflow methods, which have substantially improved motion estimation accuracy\ncompared to classical methods, can be effectively transferred to polar remote\nsensing. Optical flow produces spatially continuous drift fields, providing\nmotion estimates for every image pixel rather than at sparse buoy locations,\noffering new opportunities for navigation and climate modeling.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Few-Shot Remote Sensing Image Scene Classification with CLIP and Prompt Learning",
+    "url": "http://arxiv.org/abs/2510.24321v1",
+    "authors": [
+      "Ivica Dimitrovski",
+      "Vlatko Spasev",
+      "Ivan Kitanovski"
+    ],
+    "published": "2025-10-28",
+    "abstract": "Remote sensing applications increasingly rely on deep learning for scene\nclassification. However, their performance is often constrained by the scarcity\nof labeled data and the high cost of annotation across diverse geographic and\nsensor domains. While recent vision-language models like CLIP have shown\npromise by learning transferable representations at scale by aligning visual\nand textual modalities, their direct application to remote sensing remains\nsuboptimal due to significant domain gaps and the need for task-specific\nsemantic adaptation. To address this critical challenge, we systematically\nexplore prompt learning as a lightweight and efficient adaptation strategy for\nfew-shot remote sensing image scene classification. We evaluate several\nrepresentative methods, including Context Optimization, Conditional Context\nOptimization, Multi-modal Prompt Learning, and Prompting with Self-Regulating\nConstraints. These approaches reflect complementary design philosophies: from\nstatic context optimization to conditional prompts for enhanced generalization,\nmulti-modal prompts for joint vision-language adaptation, and semantically\nregularized prompts for stable learning without forgetting. We benchmark these\nprompt-learning methods against two standard baselines: zero-shot CLIP with\nhand-crafted prompts and a linear probe trained on frozen CLIP features.\nThrough extensive experiments on multiple benchmark remote sensing datasets,\nincluding cross-dataset generalization tests, we demonstrate that prompt\nlearning consistently outperforms both baselines in few-shot scenarios.\nNotably, Prompting with Self-Regulating Constraints achieves the most robust\ncross-domain performance. Our findings underscore prompt learning as a scalable\nand efficient solution for bridging the domain gap in satellite and aerial\nimagery, providing a strong foundation for future research in this field.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "LVM",
+      "CLIP"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "A Review of End-to-End Precipitation Prediction Using Remote Sensing Data: from Divination to Machine Learning",
+    "url": "http://arxiv.org/abs/2510.22855v1",
+    "authors": [
+      "Yugong Zeng",
+      "Jonathan Wu"
+    ],
+    "published": "2025-10-26",
+    "abstract": "Precipitation prediction has undergone a profound transformation -- from\nearly symbolic and empirical methods rooted in divination and observation, to\nmodern technologies based on atmospheric physics and artificial intelligence.\nThis review traces the historical and technological evolution of precipitation\nforecasting, presenting a survey about end-to-end precipitation prediction\ntechnologies that spans ancient practices, the foundations of meteorological\nscience, the rise of numerical weather prediction (NWP), and the emergence of\nmachine learning (ML) and deep learning (DL) models. We first explore\ntraditional and indigenous forecasting methods, then describe the development\nof physical modeling and statistical frameworks that underpin contemporary\noperational forecasting. Particular emphasis is placed on recent advances in\nneural network-based approaches, including automated deep learning,\ninterpretability-driven design, and hybrid physical-data models. By compositing\nresearch across multiple eras and paradigms, this review not only depicts the\nhistory of end-to-end precipitation prediction but also outlines future\ndirections in next generation forecasting systems.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Enpowering Your Pansharpening Models with Generalizability: Unified Distribution is All You Need",
+    "url": "http://arxiv.org/abs/2510.22217v1",
+    "authors": [
+      "Yongchuan Cui",
+      "Peng Liu",
+      "Hui Zhang"
+    ],
+    "published": "2025-10-25",
+    "abstract": "Existing deep learning-based models for remote sensing pansharpening exhibit\nexceptional performance on training datasets. However, due to sensor-specific\ncharacteristics and varying imaging conditions, these models suffer from\nsubstantial performance degradation when applied to unseen satellite data,\nlacking generalizability and thus limiting their applicability. We argue that\nthe performance drops stem primarily from distributional discrepancies from\ndifferent sources and the key to addressing this challenge lies in bridging the\ngap between training and testing distributions. To validate the idea and\nfurther achieve a \"train once, deploy forever\" capability, this paper\nintroduces a novel and intuitive approach to enpower any pansharpening models\nwith generalizability by employing a unified distribution strategy (UniPAN).\nSpecifically, we construct a distribution transformation function that\nnormalizes the pixels sampled from different sources to conform to an identical\ndistribution. The deep models are trained on the transformed domain, and during\ntesting on new datasets, the new data are also transformed to match the\ntraining distribution. UniPAN aims to train and test the model on a unified and\nconsistent distribution, thereby enhancing its generalizability. Extensive\nexperiments validate the efficacy of UniPAN, demonstrating its potential to\nsignificantly enhance the performance of deep pansharpening models across\ndiverse satellite sensors. Codes: https://github.com/yc-cui/UniPAN.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Robust variable selection for spatial point processes observed with noise",
+    "url": "http://arxiv.org/abs/2510.25550v1",
+    "authors": [
+      "Dominik Sturm",
+      "Ivo F. Sbalzarini"
+    ],
+    "published": "2025-10-29",
+    "abstract": "We propose a method for variable selection in the intensity function of\nspatial point processes that combines sparsity-promoting estimation with\nnoise-robust model selection. As high-resolution spatial data becomes\nincreasingly available through remote sensing and automated image analysis,\nidentifying spatial covariates that influence the localization of events is\ncrucial to understand the underlying mechanism. However, results from automated\nacquisition techniques are often noisy, for example due to measurement\nuncertainties or detection errors, which leads to spurious displacements and\nmissed events. We study the impact of such noise on sparse point-process\nestimation across different models, including Poisson and Thomas processes. To\nimprove noise robustness, we propose to use stability selection based on\npoint-process subsampling and to incorporate a non-convex best-subset penalty\nto enhance model-selection performance. In extensive simulations, we\ndemonstrate that such an approach reliably recovers true covariates under\ndiverse noise scenarios and improves both selection accuracy and stability. We\nthen apply the proposed method to a forestry data set, analyzing the\ndistribution of trees in relation to elevation and soil nutrients in a tropical\nrain forest. This shows the practical utility of the method, which provides a\nsystematic framework for robust variable selection in spatial point-process\nmodels under noise, without requiring additional knowledge of the process.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Enabling Near-realtime Remote Sensing via Satellite-Ground Collaboration of Large Vision-Language Models",
+    "url": "http://arxiv.org/abs/2510.24242v1",
+    "authors": [
+      "Zihan Li",
+      "Jiahao Yang",
+      "Yuxin Zhang",
+      "Zhe Chen",
+      "Yue Gao"
+    ],
+    "published": "2025-10-28",
+    "abstract": "Large vision-language models (LVLMs) have recently demonstrated great\npotential in remote sensing (RS) tasks (e.g., disaster monitoring) conducted by\nlow Earth orbit (LEO) satellites. However, their deployment in real-world LEO\nsatellite systems remains largely unexplored, hindered by limited onboard\ncomputing resources and brief satellite-ground contacts. We propose Grace, a\nsatellite-ground collaborative system designed for near-realtime LVLM inference\nin RS tasks. Accordingly, we deploy compact LVLM on satellites for realtime\ninference, but larger ones on ground stations (GSs) to guarantee end-to-end\nperformance. Grace is comprised of two main phases that are asynchronous\nsatellite-GS Retrieval-Augmented Generation (RAG), and a task dispatch\nalgorithm. Firstly, we still the knowledge archive of GS RAG to satellite\narchive with tailored adaptive update algorithm during limited satellite-ground\ndata exchange period. Secondly, propose a confidence-based test algorithm that\neither processes the task onboard the satellite or offloads it to the GS.\nExtensive experiments based on real-world satellite orbital data show that\nGrace reduces the average latency by 76-95% compared to state-of-the-art\nmethods, without compromising inference accuracy.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "LLM",
+      "LVM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "A Framework for Hybrid Physics-AI Coupled Ocean Models",
+    "url": "http://arxiv.org/abs/2510.22676v1",
+    "authors": [
+      "Laure Zanna",
+      "William Gregory",
+      "Pavel Perezhogin",
+      "Aakash Sane",
+      "Cheng Zhang",
+      "Alistair Adcroft",
+      "Mitch Bushuk",
+      "Carlos Fernandez-Granda",
+      "Brandon Reichl",
+      "Dhruv Balwada",
+      "Julius Busecke",
+      "William Chapman",
+      "Alex Connolly",
+      "Danni Du",
+      "Kelsey Everard",
+      "Fabrizio Falasca",
+      "Renaud Falga",
+      "David Kamm",
+      "Etienne Meunier",
+      "Qi Liu",
+      "Antoine Nasser",
+      "Matthew Pudig",
+      "Andrew Shao",
+      "Julia L. Simpson",
+      "Linus Vogt",
+      "Jiarong Wu"
+    ],
+    "published": "2025-10-26",
+    "abstract": "Climate simulations, at all grid resolutions, rely on approximations that\nencapsulate the forcing due to unresolved processes on resolved variables,\nknown as parameterizations. Parameterizations often lead to inaccuracies in\nclimate models, with significant biases in the physics of key climate\nphenomena. Advances in artificial intelligence (AI) are now directly enabling\nthe learning of unresolved processes from data to improve the physics of\nclimate simulations. Here, we introduce a flexible framework for developing and\nimplementing physics- and scale-aware machine learning parameterizations within\nclimate models. We focus on the ocean and sea-ice components of a\nstate-of-the-art climate model by implementing a spectrum of data-driven\nparameterizations, ranging from complex deep learning models to more\ninterpretable equation-based models. Our results showcase the viability of\nAI-driven parameterizations in operational models, advancing the capabilities\nof a new generation of hybrid simulations, and include prototypes of fully\ncoupled atmosphere-ocean-sea-ice hybrid simulations. The tools developed are\nopen source, accessible, and available to all.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Curly Flow Matching for Learning Non-gradient Field Dynamics",
+    "url": "http://arxiv.org/abs/2510.26645v1",
+    "authors": [
+      "Katarina Petrovi\u0107",
+      "Lazar Atanackovic",
+      "Viggo Moro",
+      "Kacper Kapu\u015bniak",
+      "\u0130smail \u0130lkan Ceylan",
+      "Michael Bronstein",
+      "Avishek Joey Bose",
+      "Alexander Tong"
+    ],
+    "published": "2025-10-30",
+    "abstract": "Modeling the transport dynamics of natural processes from population-level\nobservations is a ubiquitous problem in the natural sciences. Such models rely\non key assumptions about the underlying process in order to enable faithful\nlearning of governing dynamics that mimic the actual system behavior. The de\nfacto assumption in current approaches relies on the principle of least action\nthat results in gradient field dynamics and leads to trajectories minimizing an\nenergy functional between two probability measures. However, many real-world\nsystems, such as cell cycles in single-cell RNA, are known to exhibit\nnon-gradient, periodic behavior, which fundamentally cannot be captured by\ncurrent state-of-the-art methods such as flow and bridge matching. In this\npaper, we introduce Curly Flow Matching (Curly-FM), a novel approach that is\ncapable of learning non-gradient field dynamics by designing and solving a\nSchr\\\"odinger bridge problem with a non-zero drift reference process -- in\nstark contrast to typical zero-drift reference processes -- which is\nconstructed using inferred velocities in addition to population snapshot data.\nWe showcase Curly-FM by solving the trajectory inference problems for single\ncells, computational fluid dynamics, and ocean currents with approximate\nvelocities. We demonstrate that Curly-FM can learn trajectories that better\nmatch both the reference process and population marginals. Curly-FM expands\nflow matching models beyond the modeling of populations and towards the\nmodeling of known periodic behavior in physical systems. Our code repository is\naccessible at: https://github.com/kpetrovicc/curly-flow-matching.git",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Predictability of Storms in an Idealized Climate Revealed by Machine Learning",
+    "url": "http://arxiv.org/abs/2510.25633v1",
+    "authors": [
+      "Wuqiushi Yao",
+      "Or Hadas",
+      "Yohai Kaspi"
+    ],
+    "published": "2025-10-29",
+    "abstract": "The midlatitude climate and weather are shaped by storms, yet the factors\ngoverning their predictability remain insufficiently understood. Here, we use a\nConvolutional Neural Network (CNN) to predict and quantify uncertainty in the\nintensity growth and trajectory of over 200,000 storms simulated in a 200-year\naquaplanet GCM. This idealized framework provides a controlled climate\nbackground for isolating factors that govern predictability. Results show that\nstorm intensity is less predictable than trajectory. Strong baroclinicity\naccelerates storm intensification and reduces its predictability, consistent\nwith theory. Crucially, enhanced jet meanders further degrade forecast skill,\nrevealing a synoptic source of uncertainty. Using sensitivity maps from\nexplainable AI, we find that the error growth rate is nearly doubled by the\nmore meandering structure. These findings highlight the potential of machine\nlearning for advancing understanding of predictability and its governing\nmechanisms.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Forecasting precipitation in the Arctic using probabilistic machine learning informed by causal climate drivers",
+    "url": "http://arxiv.org/abs/2510.24254v1",
+    "authors": [
+      "Madhurima Panja",
+      "Dhiman Das",
+      "Tanujit Chakraborty",
+      "Arnob Ray",
+      "R. Athulya",
+      "Chittaranjan Hens",
+      "Syamal K. Dana",
+      "Nuncio Murukesh",
+      "Dibakar Ghosh"
+    ],
+    "published": "2025-10-28",
+    "abstract": "Understanding and forecasting precipitation events in the Arctic maritime\nenvironments, such as Bear Island and Ny-{\\AA}lesund, is crucial for assessing\nclimate risk and developing early warning systems in vulnerable marine regions.\nThis study proposes a probabilistic machine learning framework for modeling and\npredicting the dynamics and severity of precipitation. We begin by analyzing\nthe scale-dependent relationships between precipitation and key atmospheric\ndrivers (e.g., temperature, relative humidity, cloud cover, and air pressure)\nusing wavelet coherence, which captures localized dependencies across time and\nfrequency domains. To assess joint causal influences, we employ\nSynergistic-Unique-Redundant Decomposition, which quantifies the impact of\ninteraction effects among each variable on future precipitation dynamics. These\ninsights inform the development of data-driven forecasting models that\nincorporate both historical precipitation and causal climate drivers. To\naccount for uncertainty, we employ the conformal prediction method, which\nenables the generation of calibrated non-parametric prediction intervals. Our\nresults underscore the importance of utilizing a comprehensive framework that\ncombines causal analysis with probabilistic forecasting to enhance the\nreliability and interpretability of precipitation predictions in Arctic marine\nenvironments.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Hierarchical Graph Networks for Accurate Weather Forecasting via Lightweight Training",
+    "url": "http://arxiv.org/abs/2510.22094v2",
+    "authors": [
+      "Thomas Bailie",
+      "S. Karthik Mukkavilli",
+      "Varvara Vetrova",
+      "Yun Sing Koh"
+    ],
+    "published": "2025-10-25",
+    "abstract": "Climate events arise from intricate, multivariate dynamics governed by\nglobal-scale drivers, profoundly impacting food, energy, and infrastructure.\nYet, accurate weather prediction remains elusive due to physical processes\nunfolding across diverse spatio-temporal scales, which fixed-resolution methods\ncannot capture. Hierarchical Graph Neural Networks (HGNNs) offer a multiscale\nrepresentation, but nonlinear downward mappings often erase global trends,\nweakening the integration of physics into forecasts. We introduce HiFlowCast\nand its ensemble variant HiAntFlow, HGNNs that embed physics within a\nmultiscale prediction framework. Two innovations underpin their design: a\nLatent-Memory-Retention mechanism that preserves global trends during downward\ntraversal, and a Latent-to-Physics branch that integrates PDE solution fields\nacross diverse scales. Our Flow models cut errors by over 5% at 13-day lead\ntimes and by 5-8% under 1st and 99th quantile extremes, improving reliability\nfor rare events. Leveraging pretrained model weights, they converge within a\nsingle epoch, reducing training cost and their carbon footprint. Such\nefficiency is vital as the growing scale of machine learning challenges\nsustainability and limits research accessibility. Code and model weights are in\nthe supplementary materials.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "GNN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Predicting Barge Tow Size on Inland Waterways Using Vessel Trajectory Derived Features: Proof of Concept",
+    "url": "http://arxiv.org/abs/2510.23994v1",
+    "authors": [
+      "Geoffery Agorku",
+      "Sarah Hernandez",
+      "Hayley Hames",
+      "Cade Wagner"
+    ],
+    "published": "2025-10-28",
+    "abstract": "Accurate, real-time estimation of barge quantity on inland waterways remains\na critical challenge due to the non-self-propelled nature of barges and the\nlimitations of existing monitoring systems. This study introduces a novel\nmethod to use Automatic Identification System (AIS) vessel tracking data to\npredict the number of barges in tow using Machine Learning (ML). To train and\ntest the model, barge instances were manually annotated from satellite scenes\nacross the Lower Mississippi River. Labeled images were matched to AIS vessel\ntracks using a spatiotemporal matching procedure. A comprehensive set of 30\nAIS-derived features capturing vessel geometry, dynamic movement, and\ntrajectory patterns were created and evaluated using Recursive Feature\nElimination (RFE) to identify the most predictive variables. Six regression\nmodels, including ensemble, kernel-based, and generalized linear approaches,\nwere trained and evaluated. The Poisson Regressor model yielded the best\nperformance, achieving a Mean Absolute Error (MAE) of 1.92 barges using 12 of\nthe 30 features. The feature importance analysis revealed that metrics\ncapturing vessel maneuverability such as course entropy, speed variability and\ntrip length were most predictive of barge count. The proposed approach provides\na scalable, readily implementable method for enhancing Maritime Domain\nAwareness (MDA), with strong potential applications in lock scheduling, port\nmanagement, and freight planning. Future work will expand the proof of concept\npresented here to explore model transferability to other inland rivers with\ndiffering operational and environmental conditions.",
+    "categories": [
+      "ship_trajectories"
+    ],
+    "architectures": [],
+    "applications": [
+      "Regression",
+      "Tracking"
+    ]
   }
 ]
