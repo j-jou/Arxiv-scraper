@@ -16592,5 +16592,353 @@
       "Regression",
       "Tracking"
     ]
+  },
+  {
+    "title": "GeoCrossBench: Cross-Band Generalization for Remote Sensing",
+    "url": "http://arxiv.org/abs/2511.02831v1",
+    "authors": [
+      "Hakob Tamazyan",
+      "Ani Vanyan",
+      "Alvard Barseghyan",
+      "Anna Khosrovyan",
+      "Evan Shelhamer",
+      "Hrant Khachatrian"
+    ],
+    "published": "2025-11-04",
+    "abstract": "The number and diversity of remote sensing satellites grows over time, while\nthe vast majority of labeled data comes from older satellites. As the\nfoundation models for Earth observation scale up, the cost of (re-)training to\nsupport new satellites grows too, so the generalization capabilities of the\nmodels towards new satellites become increasingly important. In this work we\nintroduce GeoCrossBench, an extension of the popular GeoBench benchmark with a\nnew evaluation protocol: it tests the in-distribution performance;\ngeneralization to satellites with no band overlap; and generalization to\nsatellites with additional bands with respect to the training set. We also\ndevelop a self-supervised extension of ChannelViT, ChiViT, to improve its\ncross-satellite performance. First, we show that even the best foundation\nmodels for remote sensing (DOFA, TerraFM) do not outperform general purpose\nmodels like DINOv3 in the in-distribution setting. Second, when generalizing to\nnew satellites with no band overlap, all models suffer 2-4x drop in\nperformance, and ChiViT significantly outperforms the runner-up DINOv3. Third,\nthe performance of all tested models drops on average by 5-25\\% when given\nadditional bands during test time. Finally, we show that fine-tuning just the\nlast linear layer of these models using oracle labels from all bands can get\nrelatively consistent performance across all satellites, highlighting that the\nbenchmark is far from being saturated. We publicly release the code and the\ndatasets to encourage the development of more future-proof remote sensing\nmodels with stronger cross-satellite generalization.",
+    "categories": [
+      "foundation_model",
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Landslide Hazard Mapping with Geospatial Foundation Models: Geographical Generalizability, Data Scarcity, and Band Adaptability",
+    "url": "http://arxiv.org/abs/2511.04474v1",
+    "authors": [
+      "Wenwen Li",
+      "Sizhe Wang",
+      "Hyunho Lee",
+      "Chenyan Lu",
+      "Sujit Roy",
+      "Rahul Ramachandran",
+      "Chia-Yu Hsu"
+    ],
+    "published": "2025-11-06",
+    "abstract": "Landslides cause severe damage to lives, infrastructure, and the environment,\nmaking accurate and timely mapping essential for disaster preparedness and\nresponse. However, conventional deep learning models often struggle when\napplied across different sensors, regions, or under conditions of limited\ntraining data. To address these challenges, we present a three-axis analytical\nframework of sensor, label, and domain for adapting geospatial foundation\nmodels (GeoFMs), focusing on Prithvi-EO-2.0 for landslide mapping. Through a\nseries of experiments, we show that it consistently outperforms task-specific\nCNNs (U-Net, U-Net++), vision transformers (Segformer, SwinV2-B), and other\nGeoFMs (TerraMind, SatMAE). The model, built on global pretraining,\nself-supervision, and adaptable fine-tuning, proved resilient to spectral\nvariation, maintained accuracy under label scarcity, and generalized more\nreliably across diverse datasets and geographic settings. Alongside these\nstrengths, we also highlight remaining challenges such as computational cost\nand the limited availability of reusable AI-ready training data for landslide\nresearch. Overall, our study positions GeoFMs as a step toward more robust and\nscalable approaches for landslide risk reduction and environmental monitoring.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "CNN",
+      "UNET",
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Cropland Mapping using Geospatial Embeddings",
+    "url": "http://arxiv.org/abs/2511.02923v1",
+    "authors": [
+      "Ivan Zvonkov",
+      "Gabriel Tseng",
+      "Inbal Becker-Reshef",
+      "Hannah Kerner"
+    ],
+    "published": "2025-11-04",
+    "abstract": "Accurate and up-to-date land cover maps are essential for understanding land\nuse change, a key driver of climate change. Geospatial embeddings offer a more\nefficient and accessible way to map landscape features, yet their use in\nreal-world mapping applications remains underexplored. In this work, we\nevaluated the utility of geospatial embeddings for cropland mapping in Togo. We\nproduced cropland maps using embeddings from Presto and AlphaEarth. Our\nfindings show that geospatial embeddings can simplify workflows, achieve\nhigh-accuracy cropland classification and ultimately support better assessments\nof land use change and its climate impacts.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Deep learning-based object detection of offshore platforms on Sentinel-1 Imagery and the impact of synthetic training data",
+    "url": "http://arxiv.org/abs/2511.04304v1",
+    "authors": [
+      "Robin Spanier",
+      "Thorsten Hoeser",
+      "Claudia Kuenzer"
+    ],
+    "published": "2025-11-06",
+    "abstract": "The recent and ongoing expansion of marine infrastructure, including offshore\nwind farms, oil and gas platforms, artificial islands, and aquaculture\nfacilities, highlights the need for effective monitoring systems. The\ndevelopment of robust models for offshore infrastructure detection relies on\ncomprehensive, balanced datasets, but falls short when samples are scarce,\nparticularly for underrepresented object classes, shapes, and sizes. By\ntraining deep learning-based YOLOv10 object detection models with a combination\nof synthetic and real Sentinel-1 satellite imagery acquired in the fourth\nquarter of 2023 from four regions (Caspian Sea, South China Sea, Gulf of\nGuinea, and Coast of Brazil), this study investigates the use of synthetic\ntraining data to enhance model performance. We evaluated this approach by\napplying the model to detect offshore platforms in three unseen regions (Gulf\nof Mexico, North Sea, Persian Gulf) and thereby assess geographic\ntransferability. This region-holdout evaluation demonstrated that the model\ngeneralises beyond the training areas. In total, 3,529 offshore platforms were\ndetected, including 411 in the North Sea, 1,519 in the Gulf of Mexico, and\n1,593 in the Persian Gulf. The model achieved an F1 score of 0.85, which\nimproved to 0.90 upon incorporating synthetic data. We analysed how synthetic\ndata enhances the representation of unbalanced classes and overall model\nperformance, taking a first step toward globally transferable detection of\noffshore infrastructure. This study underscores the importance of balanced\ndatasets and highlights synthetic data generation as an effective strategy to\naddress common challenges in remote sensing, demonstrating the potential of\ndeep learning for scalable, global offshore infrastructure monitoring.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Learning with less: label-efficient land cover classification at very high spatial resolution using self-supervised deep learning",
+    "url": "http://arxiv.org/abs/2511.03004v1",
+    "authors": [
+      "Dakota Hester",
+      "Vitor S. Martins",
+      "Lucas B. Ferreira",
+      "Thainara M. A. Lima"
+    ],
+    "published": "2025-11-04",
+    "abstract": "Deep learning semantic segmentation methods have shown promising performance\nfor very high 1-m resolution land cover classification, but the challenge of\ncollecting large volumes of representative training data creates a significant\nbarrier to widespread adoption of such models for meter-scale land cover\nmapping over large areas. In this study, we present a novel label-efficient\napproach for statewide 1-m land cover classification using only 1,000 annotated\nreference image patches with self-supervised deep learning. We use the\n\"Bootstrap Your Own Latent\" pre-training strategy with a large amount of\nunlabeled color-infrared aerial images (377,921 256x256 1-m pixel patches) to\npre-train a ResNet-101 convolutional encoder. The learned encoder weights were\nsubsequently transferred into multiple deep semantic segmentation architectures\n(FCN, U-Net, Attention U-Net, DeepLabV3+, UPerNet, PAN), which were then\nfine-tuned using very small training dataset sizes with cross-validation (250,\n500, 750 patches). Among the fine-tuned models, we obtained the 87.14% overall\naccuracy and 75.58% macro F1 score using an ensemble of the best performing\nU-Net models for comprehensive 1-m, 8-class land cover mapping, covering more\nthan 123 billion pixels over the state of Mississippi, USA. Detailed\nqualitative and quantitative analysis revealed accurate mapping of open water\nand forested areas, while highlighting challenges in accurate delineation\nbetween cropland, herbaceous, and barren land cover types. These results show\nthat self-supervised learning is an effective strategy for reducing the need\nfor large volumes of manually annotated data, directly addressing a major\nlimitation to high spatial resolution land cover mapping at scale.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "UNET",
+      "ResNet"
+    ],
+    "applications": [
+      "Segmentation",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Spectral-Convergent Decentralized Machine Learning: Theory and Application in Space Networks",
+    "url": "http://arxiv.org/abs/2511.03291v1",
+    "authors": [
+      "Zhiyuan Zhai",
+      "Shuyan Hu",
+      "Wei Ni",
+      "Xiaojun Yuan",
+      "Xin Wang"
+    ],
+    "published": "2025-11-05",
+    "abstract": "Decentralized machine learning (DML) supports collaborative training in\nlarge-scale networks with no central server. It is sensitive to the quality and\nreliability of inter-device communications that result in time-varying and\nstochastic topologies. This paper studies the impact of unreliable\ncommunication on the convergence of DML and establishes a direct connection\nbetween the spectral properties of the mixing process and the global\nperformance. We provide rigorous convergence guarantees under random topologies\nand derive bounds that characterize the impact of the expected mixing matrix's\nspectral properties on learning. We formulate a spectral optimization problem\nthat minimizes the spectral radius of the expected second-order mixing matrix\nto enhance the convergence rate under probabilistic link failures. To solve\nthis non-smooth spectral problem in a fully decentralized manner, we design an\nefficient subgradient-based algorithm that integrates Chebyshev-accelerated\neigenvector estimation with local update and aggregation weight adjustment,\nwhile ensuring symmetry and stochasticity constraints without central\ncoordination. Experiments on a realistic low Earth orbit (LEO) satellite\nconstellation with time-varying inter-satellite link models and real-world\nremote sensing data demonstrate the feasibility and effectiveness of the\nproposed method. The method significantly improves classification accuracy and\nconvergence efficiency compared to existing baselines, validating its\napplicability in satellite and other decentralized systems.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "SAAIPAA: Optimizing aspect-angles-invariant physical adversarial attacks on SAR target recognition models",
+    "url": "http://arxiv.org/abs/2511.03192v1",
+    "authors": [
+      "Isar Lemeire",
+      "Yee Wei Law",
+      "Sang-Heon Lee",
+      "Will Meakin",
+      "Tat-Jun Chin"
+    ],
+    "published": "2025-11-05",
+    "abstract": "Synthetic aperture radar (SAR) enables versatile, all-time, all-weather\nremote sensing. Coupled with automatic target recognition (ATR) leveraging\nmachine learning (ML), SAR is empowering a wide range of Earth observation and\nsurveillance applications. However, the surge of attacks based on adversarial\nperturbations against the ML algorithms underpinning SAR ATR is prompting the\nneed for systematic research into adversarial perturbation mechanisms. Research\nin this area began in the digital (image) domain and evolved into the physical\n(signal) domain, resulting in physical adversarial attacks (PAAs) that\nstrategically exploit corner reflectors as attack vectors to evade ML-based\nATR. This paper proposes a novel framework called SAR Aspect-Angles-Invariant\nPhysical Adversarial Attack (SAAIPAA) for physics-based modelling of\nreflector-actuated adversarial perturbations, which improves on the rigor of\nprior work. A unique feature of SAAIPAA is its ability to remain effective even\nwhen the attacker lacks knowledge of the SAR platform's aspect angles, by\ndeploying at least one reflector in each azimuthal quadrant and optimizing\nreflector orientations. The resultant physical evasion attacks are efficiently\nrealizable and optimal over the considered range of aspect angles between a SAR\nplatform and a target, achieving state-of-the-art fooling rates (over 80% for\nDenseNet-121 and ResNet50) in the white-box setting. When aspect angles are\nknown to the attacker, an average fooling rate of 99.2% is attainable. In\nblack-box settings, although the attack efficacy of SAAIPAA transfers well\nbetween some models (e.g., from ResNet50 to DenseNet121), the transferability\nto some models (e.g., MobileNetV2) can be improved. A useful outcome of using\nthe MSTAR dataset for the experiments in this article, a method for generating\nbounding boxes for densely sampled azimuthal SAR datasets is introduced.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Recognition"
+    ]
+  },
+  {
+    "title": "Optimizing Earth-Moon Transfer and Cislunar Navigation: Integrating Low-Energy Trajectories, AI Techniques and GNSS-R Technologies",
+    "url": "http://arxiv.org/abs/2511.03173v1",
+    "authors": [
+      "Arsalan Muhammad",
+      "Wasiu Akande Ahmed",
+      "Omada Friday Ojonugwa",
+      "Paul Puspendu Biswas"
+    ],
+    "published": "2025-11-05",
+    "abstract": "The rapid growth of cislunar activities, including lunar landings, the Lunar\nGateway, and in-space refueling stations, requires advances in cost-efficient\ntrajectory design and reliable integration of navigation and remote sensing.\nTraditional Earth-Moon transfers suffer from rigid launch windows and high\npropellant demands, while Earth-based GNSS systems provide little to no\ncoverage beyond geostationary orbit. This limits autonomy and environmental\nawareness in cislunar space. This review compares four major transfer\nstrategies by evaluating velocity requirements, flight durations, and fuel\nefficiency, and by identifying their suitability for both crewed and robotic\nmissions. The emerging role of artificial intelligence and machine learning is\nhighlighted: convolutional neural networks support automated crater recognition\nand digital terrain model generation, while deep reinforcement learning enables\nadaptive trajectory refinement during descent and landing to reduce risk and\ndecision latency. The study also examines how GNSS-Reflectometry and advanced\nPositioning, Navigation, and Timing architectures can extend navigation\ncapabilities beyond current limits. GNSS-R can act as a bistatic radar for\nmapping lunar ice, soil properties, and surface topography, while PNT systems\nsupport autonomous rendezvous, Lagrange point station-keeping, and coordinated\nsatellite swarm operations. Combining these developments establishes a scalable\nframework for sustainable cislunar exploration and long-term human and robotic\npresence.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": [
+      "Recognition",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Nowcast3D: Reliable precipitation nowcasting via gray-box learning",
+    "url": "http://arxiv.org/abs/2511.04659v1",
+    "authors": [
+      "Huaguan Chen",
+      "Wei Han",
+      "Haofei Sun",
+      "Ning Lin",
+      "Xingtao Song",
+      "Yunfan Yang",
+      "Jie Tian",
+      "Yang Liu",
+      "Ji-Rong Wen",
+      "Xiaoye Zhang",
+      "Xueshun Shen",
+      "Hao Sun"
+    ],
+    "published": "2025-11-06",
+    "abstract": "Extreme precipitation nowcasting demands high spatiotemporal fidelity and\nextended lead times, yet existing approaches remain limited. Numerical Weather\nPrediction (NWP) and its deep-learning emulations are too slow and coarse for\nrapidly evolving convection, while extrapolation and purely data-driven models\nsuffer from error accumulation and excessive smoothing. Hybrid 2D radar-based\nmethods discard crucial vertical information, preventing accurate\nreconstruction of height-dependent dynamics. We introduce a gray-box, fully\nthree-dimensional nowcasting framework that directly processes volumetric radar\nreflectivity and couples physically constrained neural operators with\ndatadriven learning. The model learns vertically varying 3D advection fields\nunder a conservative advection operator, parameterizes spatially varying\ndiffusion, and introduces a Brownian-motion--inspired stochastic term to\nrepresent unresolved motions. A residual branch captures small-scale convective\ninitiation and microphysical variability, while a diffusion-based stochastic\nmodule estimates uncertainty. The framework achieves more accurate forecasts up\nto three-hour lead time across precipitation regimes and ranked first in 57\\%\nof cases in a blind evaluation by 160 meteorologists. By restoring full 3D\ndynamics with physical consistency, it offers a scalable and robust pathway for\nskillful and reliable nowcasting of extreme precipitation.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Deep Learning-Driven Downscaling for Climate Risk Assessment of Projected Temperature Extremes in the Nordic Region",
+    "url": "http://arxiv.org/abs/2511.03770v1",
+    "authors": [
+      "Parthiban Loganathan",
+      "Elias Zea",
+      "Ricardo Vinuesa",
+      "Evelyn Otero"
+    ],
+    "published": "2025-11-05",
+    "abstract": "Rapid changes and increasing climatic variability across the widely varied\nKoppen-Geiger regions of northern Europe generate significant needs for\nadaptation. Regional planning needs high-resolution projected temperatures.\nThis work presents an integrative downscaling framework that incorporates\nVision Transformer (ViT), Convolutional Long Short-Term Memory (ConvLSTM), and\nGeospatial Spatiotemporal Transformer with Attention and Imbalance-Aware\nNetwork (GeoStaNet) models. The framework is evaluated with a multicriteria\ndecision system, Deep Learning-TOPSIS (DL-TOPSIS), for ten strategically chosen\nmeteorological stations encompassing the temperate oceanic (Cfb), subpolar\noceanic (Cfc), warm-summer continental (Dfb), and subarctic (Dfc) climate\nregions. Norwegian Earth System Model (NorESM2-LM) Coupled Model\nIntercomparison Project Phase 6 (CMIP6) outputs were bias-corrected during the\n1951-2014 period and subsequently validated against earlier observations of\nday-to-day temperature metrics and diurnal range statistics. The ViT showed\nimproved performance (Root Mean Squared Error (RMSE): 1.01 degrees C; R^2:\n0.92), allowing for production of credible downscaled projections. Under the\nSSP5-8.5 scenario, the Dfc and Dfb climate zones are projected to warm by 4.8\ndegrees C and 3.9 degrees C, respectively, by 2100, with expansion in the\ndiurnal temperature range by more than 1.5 degrees C. The Time of Emergence\nsignal first appears in subarctic winter seasons (Dfc: approximately 2032),\nsignifying an urgent need for adaptation measures. The presented framework\noffers station-based, high-resolution estimates of uncertainties and extremes,\nwith direct uses for adaptation policy over high-latitude regions with fast\nenvironmental change.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Disentangling Internal Tides from Balanced Motions with Deep Learning and Surface Field Synergy",
+    "url": "http://arxiv.org/abs/2511.03614v1",
+    "authors": [
+      "Han Wang",
+      "Jeffrey Uncu",
+      "Kaushik Srinivasan",
+      "Nicolas Grisouard"
+    ],
+    "published": "2025-11-05",
+    "abstract": "A fundamental challenge in ocean dynamics is the disentanglement of balanced\nmotions and internal waves. Extracting internal tidal (IT) imprints on surface\ndata is a central part of this challenge. For IT extraction, traditional\nharmonic analysis fails in the presence of strong incoherence and poor temporal\nsampling, as is common in global satellite observations. The advent of new\nwide-swath satellites, which provide two-dimensional spatial coverage, allows\nIT extraction to be reformulated as an image translation problem. Building on\nrecent work where we developed a deep learning approach to extract IT\nsignatures from sea surface height (SSH) in an idealized turbulent simulation,\nwe show here that a simpler and computationally cheaper algorithm can perform\nequally well if the learning rate is annealed during training. Using this new,\nconvenient algorithm, we experiment with different combinations of input\nsurface fields -- SSH, surface temperature, and surface velocity. All fields\ncontribute synergistically to disentanglement, with surface velocity by far the\nmost informative. These findings underscore the value of coordinated\nmulti-platform observational campaigns and highlight the critical importance of\nsurface velocity observations for separating balanced motions and internal\nwaves. Additional insights into the behavior of deep learning algorithm emerge:\nboth wave signature and scattering medium aids IT extraction, and to exploit\nlarge-scale information in the scattering medium, the algorithm must be highly\nnon-local. Residual errors of our algorithm concentrate at small spatial scales\nnear mode-2 tidal wavelengths, likely arising from artifacts introduced during\ndata preparation (e.g., Doppler shifts) as well as imperfections in the deep\nlearning architecture.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Predicting Weekly Fishing Concentration Zones through Deep Learning Integration of Heterogeneous Environmental Spatial Datasets",
+    "url": "http://arxiv.org/abs/2511.02887v1",
+    "authors": [
+      "Chaitanya Rele",
+      "Aditya Rathod",
+      "Kaustubh Natu",
+      "Saurabh Kulkarni",
+      "Ajay Koli",
+      "Swapnali Makdey"
+    ],
+    "published": "2025-11-04",
+    "abstract": "The North Indian Ocean, including the Arabian Sea and the Bay of Bengal,\nrepresents a vital source of livelihood for coastal communities, yet fishermen\noften face uncertainty in locating productive fishing grounds. To address this\nchallenge, we present an AI-assisted framework for predicting Potential Fishing\nZones (PFZs) using oceanographic parameters such as sea surface temperature and\nchlorophyll concentration. The approach is designed to enhance the accuracy of\nPFZ identification and provide region-specific insights for sustainable fishing\npractices. Preliminary results indicate that the framework can support\nfishermen by reducing search time, lowering fuel consumption, and promoting\nefficient resource utilization.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Uncertainty Quantification for Reduced-Order Surrogate Models Applied to Cloud Microphysics",
+    "url": "http://arxiv.org/abs/2511.04534v1",
+    "authors": [
+      "Jonas E. Katona",
+      "Emily K. de Jong",
+      "Nipun Gunawardena"
+    ],
+    "published": "2025-11-06",
+    "abstract": "Reduced-order models (ROMs) can efficiently simulate high-dimensional\nphysical systems, but lack robust uncertainty quantification methods. Existing\napproaches are frequently architecture- or training-specific, which limits\nflexibility and generalization. We introduce a post hoc, model-agnostic\nframework for predictive uncertainty quantification in latent space ROMs that\nrequires no modification to the underlying architecture or training procedure.\nUsing conformal prediction, our approach estimates statistical prediction\nintervals for multiple components of the ROM pipeline: latent dynamics,\nreconstruction, and end-to-end predictions. We demonstrate the method on a\nlatent space dynamical model for cloud microphysics, where it accurately\npredicts the evolution of droplet-size distributions and quantifies uncertainty\nacross the ROM pipeline.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "A Probabilistic U-Net Approach to Downscaling Climate Simulations",
+    "url": "http://arxiv.org/abs/2511.03197v1",
+    "authors": [
+      "Maryam Alipourhajiagha",
+      "Pierre-Louis Lemaire",
+      "Youssef Diouane",
+      "Julie Carreau"
+    ],
+    "published": "2025-11-05",
+    "abstract": "Climate models are limited by heavy computational costs, often producing\noutputs at coarse spatial resolutions, while many climate change impact studies\nrequire finer scales. Statistical downscaling bridges this gap, and we adapt\nthe probabilistic U-Net for this task, combining a deterministic U-Net backbone\nwith a variational latent space to capture aleatoric uncertainty. We evaluate\nfour training objectives, afCRPS and WMSE-MS-SSIM with three settings for\ndownscaling precipitation and temperature from $16\\times$ coarser resolution.\nOur main finding is that WMSE-MS-SSIM performs well for extremes under certain\nsettings, whereas afCRPS better captures spatial variability across scales.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Towards a Unified Data-Driven Boundary Layer Momentum Flux Parameterization for Ocean and Atmosphere",
+    "url": "http://arxiv.org/abs/2511.01766v1",
+    "authors": [
+      "Renaud Falga",
+      "Sara Shamekh",
+      "Laure Zanna"
+    ],
+    "published": "2025-11-03",
+    "abstract": "Boundary layer turbulence, particularly the vertical fluxes of momentum,\nshapes the evolution of winds and currents and plays a critical role in\nweather, climate, and biogeochemical processes. In this work, a unified,\ndata-driven parameterization of turbulent momentum fluxes is introduced for\nboth the oceanic and atmospheric convective boundary layers. An artificial\nneural network (ANN) is trained offline on coarse-grained large-eddy simulation\n(LES) data representing a wide range of turbulent regimes in both fluids. By\nnormalizing momentum flux profiles with their surface values, we exploit a\nself-similar structure across regimes and fluids, enabling joint training. The\nANN learns to predict vertical profiles of subgrid momentum fluxes from mean\nwind or current profiles, capturing key physical features such as upgradient\nfluxes that are inaccessible to traditional first-order closure schemes. When\nimplemented online in the Single Column Atmospheric Model (SCAM), the ANN\nparameterization consistently outperforms the SCAM baseline parameterization in\nreplicating the evolution of the boundary layer wind profiles from the LES,\nespecially under convective conditions, with errors reduced by a factor of 2-3\nacross regimes. ANN performance remains robust even when the surface momentum\nflux is biased up to 30\\%, and generalization is confirmed by testing on LES\ncases excluded from the training dataset. This work demonstrates the potential\nof machine learning to create unified and physically consistent\nparameterizations across boundary layer systems in climate models.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "OceanAI: A Conversational Platform for Accurate, Transparent, Near-Real-Time Oceanographic Insights",
+    "url": "http://arxiv.org/abs/2511.01019v2",
+    "authors": [
+      "Bowen Chen",
+      "Jayesh Gajbhar",
+      "Gregory Dusek",
+      "Rob Redmon",
+      "Patrick Hogan",
+      "Paul Liu",
+      "DelWayne Bohnenstiehl",
+      "Dongkuan Xu",
+      "Ruoying He"
+    ],
+    "published": "2025-11-02",
+    "abstract": "Artificial intelligence is transforming the sciences, yet general\nconversational AI systems often generate unverified \"hallucinations\"\nundermining scientific rigor. We present OceanAI, a conversational platform\nthat integrates the natural-language fluency of open-source large language\nmodels (LLMs) with real-time, parameterized access to authoritative\noceanographic data streams hosted by the National Oceanic and Atmospheric\nAdministration (NOAA). Each query such as \"What was Boston Harbor's highest\nwater level in 2024?\" triggers real-time API calls that identify, parse, and\nsynthesize relevant datasets into reproducible natural-language responses and\ndata visualizations. In a blind comparison with three widely used AI\nchat-interface products, only OceanAI produced NOAA-sourced values with\noriginal data references; others either declined to answer or provided\nunsupported results. Designed for extensibility, OceanAI connects to multiple\nNOAA data products and variables, supporting applications in marine hazard\nforecasting, ecosystem assessment, and water-quality monitoring. By grounding\noutputs and verifiable observations, OceanAI advances transparency,\nreproducibility, and trust, offering a scalable framework for AI-enabled\ndecision support within the oceans. A public demonstration is available at\nhttps://oceanai.ai4ocean.xyz.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "The Future Orchid Diversity of Great Britain and Ireland using an SDM Approach",
+    "url": "http://arxiv.org/abs/2511.01122v1",
+    "authors": [
+      "Sofoklis Mouratidis",
+      "Konstantinos Kougioumoutzis",
+      "Martha Charitonidou",
+      "John M. Halley"
+    ],
+    "published": "2025-11-03",
+    "abstract": "In this paper we use Species Distribution Models (SDMs) to forecast the\nfuture diversity and distribution of orchids in Great Britain and Ireland under\nscenarios of climate and land-use change. The study analyzes occurrence data\nfor native orchid taxa in the BSBI database at a fine spatial resolution (1\nkm^2, monads) and incorporates multiple environmental variables including\nclimate, land use, topography, and soil. These SDMs project significant losses\nin orchid species richness by 2050 and 2070, especially under severe climate\nand land-use scenarios, with declines expected across most species and regions,\nincluding Ireland where historical data previously indicated gains. The models\nreveal vulnerable species likely to face extinction by 2070, emphasizing the\nimpact of both climate warming and habitat modifications. This approach differs\nfrom previous trend-based analyses by integrating future projections,\nhigh-resolution spatial data, and dynamic land-use scenarios, thereby providing\nhigher-resolution estimates of orchid range contractions and diversity losses.\nWhile current observed orchid trends show some regional increases, particularly\nin Ireland, the SDM forecasts indicate substantial future risks. The study also\ndiscusses uncertainties due to niche truncation from geographic data limits and\nhighlights the need for broader-scale modeling for more robust predictions.\nOverall, the paper anticipates conservation challenges for orchid biodiversity\nin response to ongoing environmental changes.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [
+      "SDM"
+    ],
+    "applications": [
+      "Forecast"
+    ]
   }
 ]
