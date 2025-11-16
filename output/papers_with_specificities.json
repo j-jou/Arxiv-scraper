@@ -16940,5 +16940,392 @@
     "applications": [
       "Forecast"
     ]
+  },
+  {
+    "title": "CORONA-Fields: Leveraging Foundation Models for Classification of Solar Wind Phenomena",
+    "url": "http://arxiv.org/abs/2511.09843v1",
+    "authors": [
+      "Daniela Martin",
+      "Jinsu Hong",
+      "Connor O'Brien",
+      "Valmir P Moraes Filho",
+      "Jasmine R. Kobayashi",
+      "Evangelia Samara",
+      "Joseph Gallego"
+    ],
+    "published": "2025-11-13",
+    "abstract": "Space weather at Earth, driven by the solar activity, poses growing risks to satellites around our planet as well as to critical ground-based technological infrastructure. Major space weather contributors are the solar wind and coronal mass ejections whose variable density, speed, temperature, and magnetic field make the automated classification of those structures challenging. In this work, we adapt a foundation model for solar physics, originally trained on Solar Dynamics Observatory imagery, to create embeddings suitable for solar wind structure analysis. These embeddings are concatenated with the spacecraft position and solar magnetic connectivity encoded using Fourier features which generates a neural field-based model. The full deep learning architecture is fine-tuned bridging the gap between remote sensing and in situ observations. Labels are derived from Parker Solar Probe measurements, forming a downstream classification task that maps plasma properties to solar wind structures. Although overall classification performance is modest, likely due to coarse labeling, class imbalance, and limited transferability of the pretrained model, this study demonstrates the feasibility of leveraging foundation model embeddings for in situ solar wind tasks. As a first proof-of-concept, it lays the groundwork for future improvements toward more reliable space weather predictions. The code and configuration files used in this study are publicly available to support reproducibility.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "LandSegmenter: Towards a Flexible Foundation Model for Land Use and Land Cover Mapping",
+    "url": "http://arxiv.org/abs/2511.08156v1",
+    "authors": [
+      "Chenying Liu",
+      "Wei Huang",
+      "Xiao Xiang Zhu"
+    ],
+    "published": "2025-11-11",
+    "abstract": "Land Use and Land Cover (LULC) mapping is a fundamental task in Earth Observation (EO). However, current LULC models are typically developed for a specific modality and a fixed class taxonomy, limiting their generability and broader applicability. Recent advances in foundation models (FMs) offer promising opportunities for building universal models. Yet, task-agnostic FMs often require fine-tuning for downstream applications, whereas task-specific FMs rely on massive amounts of labeled data for training, which is costly and impractical in the remote sensing (RS) domain. To address these challenges, we propose LandSegmenter, an LULC FM framework that resolves three-stage challenges at the input, model, and output levels. From the input side, to alleviate the heavy demand on labeled data for FM training, we introduce LAnd Segment (LAS), a large-scale, multi-modal, multi-source dataset built primarily with globally sampled weak labels from existing LULC products. LAS provides a scalable, cost-effective alternative to manual annotation, enabling large-scale FM training across diverse LULC domains. For model architecture, LandSegmenter integrates an RS-specific adapter for cross-modal feature extraction and a text encoder for semantic awareness enhancement. At the output stage, we introduce a class-wise confidence-guided fusion strategy to mitigate semantic omissions and further improve LandSegmenter's zero-shot performance. We evaluate LandSegmenter on six precisely annotated LULC datasets spanning diverse modalities and class taxonomies. Extensive transfer learning and zero-shot experiments demonstrate that LandSegmenter achieves competitive or superior performance, particularly in zero-shot settings when transferred to unseen datasets. These results highlight the efficacy of our proposed framework and the utility of weak supervision for building task-specific FMs.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "DiffRegCD: Integrated Registration and Change Detection with Diffusion Features",
+    "url": "http://arxiv.org/abs/2511.07935v2",
+    "authors": [
+      "Seyedehanita Madani",
+      "Rama Chellappa",
+      "Vishal M. Patel"
+    ],
+    "published": "2025-11-11",
+    "abstract": "Change detection (CD) is fundamental to computer vision and remote sensing, supporting applications in environmental monitoring, disaster response, and urban development. Most CD models assume co-registered inputs, yet real-world imagery often exhibits parallax, viewpoint shifts, and long temporal gaps that cause severe misalignment. Traditional two stage methods that first register and then detect, as well as recent joint frameworks (e.g., BiFA, ChangeRD), still struggle under large displacements, relying on regression only flow, global homographies, or synthetic perturbations. We present DiffRegCD, an integrated framework that unifies dense registration and change detection in a single model. DiffRegCD reformulates correspondence estimation as a Gaussian smoothed classification task, achieving sub-pixel accuracy and stable training. It leverages frozen multi-scale features from a pretrained denoising diffusion model, ensuring robustness to illumination and viewpoint variation. Supervision is provided through controlled affine perturbations applied to standard CD datasets, yielding paired ground truth for both flow and change detection without pseudo labels. Extensive experiments on aerial (LEVIR-CD, DSIFN-CD, WHU-CD, SYSU-CD) and ground level (VL-CMU-CD) datasets show that DiffRegCD consistently surpasses recent baselines and remains reliable under wide temporal and geometric variation, establishing diffusion features and classification based correspondence as a strong foundation for unified change detection.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Classification",
+      "Regression"
+    ]
+  },
+  {
+    "title": "SHRUG-FM: Reliability-Aware Foundation Models for Earth Observation",
+    "url": "http://arxiv.org/abs/2511.10370v1",
+    "authors": [
+      "Kai-Hendrik Cohrs",
+      "Zuzanna Osika",
+      "Maria Gonzalez-Calabuig",
+      "Vishal Nedungadi",
+      "Ruben Cartuyvels",
+      "Steffen Knoblauch",
+      "Joppe Massant",
+      "Shruti Nath",
+      "Patrick Ebel",
+      "Vasileios Sitokonstantinou"
+    ],
+    "published": "2025-11-13",
+    "abstract": "Geospatial foundation models for Earth observation often fail to perform reliably in environments underrepresented during pretraining. We introduce SHRUG-FM, a framework for reliability-aware prediction that integrates three complementary signals: out-of-distribution (OOD) detection in the input space, OOD detection in the embedding space and task-specific predictive uncertainty. Applied to burn scar segmentation, SHRUG-FM shows that OOD scores correlate with lower performance in specific environmental conditions, while uncertainty-based flags help discard many poorly performing predictions. Linking these flags to land cover attributes from HydroATLAS shows that failures are not random but concentrated in certain geographies, such as low-elevation zones and large river areas, likely due to underrepresentation in pretraining data. SHRUG-FM provides a pathway toward safer and more interpretable deployment of GFMs in climate-sensitive applications, helping bridge the gap between benchmark performance and real-world reliability.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Utilizing a Geospatial Foundation Model for Coastline Delineation in Small Sandy Islands",
+    "url": "http://arxiv.org/abs/2511.10177v1",
+    "authors": [
+      "Tishya Chhabra",
+      "Manisha Bajpai",
+      "Walter Zesk",
+      "Skylar Tibbits"
+    ],
+    "published": "2025-11-13",
+    "abstract": "We present an initial evaluation of NASA and IBM's Prithvi-EO-2.0 geospatial foundation model on shoreline delineation of small sandy islands using satellite images. We curated and labeled a dataset of 225 multispectral images of two Maldivian islands, which we publicly release, and fine-tuned both the 300M and 600M parameter versions of Prithvi on training subsets ranging from 5 to 181 images. Our experiments show that even with as few as 5 training images, the models achieve high performance (F1 of 0.94, IoU of 0.79). Our results demonstrate the strong transfer learning capability of Prithvi, underscoring the potential of such models to support coastal monitoring in data-poor regions.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "ALIGN: A Vision-Language Framework for High-Accuracy Accident Location Inference through Geo-Spatial Neural Reasoning",
+    "url": "http://arxiv.org/abs/2511.06316v1",
+    "authors": [
+      "MD Thamed Bin Zaman Chowdhury",
+      "Moazzem Hossain"
+    ],
+    "published": "2025-11-09",
+    "abstract": "Reliable geospatial information on road accidents is vital for safety analysis and infrastructure planning, yet most low- and middle-income countries continue to face a critical shortage of accurate, location-specific crash data. Existing text-based geocoding tools perform poorly in multilingual and unstructured news environments, where incomplete place descriptions and mixed Bangla-English scripts obscure spatial context. To address these limitations, this study introduces ALIGN (Accident Location Inference through Geo-Spatial Neural Reasoning)- a vision-language framework that emulates human spatial reasoning to infer accident coordinates directly from textual and map-based cues. ALIGN integrates large language and vision-language models within a multi-stage pipeline that performs optical character recognition, linguistic reasoning, and map-level verification through grid-based spatial scanning. The framework systematically evaluates each predicted location against contextual and visual evidence, ensuring interpretable, fine-grained geolocation outcomes without requiring model retraining. Applied to Bangla-language news data, ALIGN demonstrates consistent improvements over traditional geoparsing methods, accurately identifying district and sub-district-level crash sites. Beyond its technical contribution, the framework establishes a high accuracy foundation for automated crash mapping in data-scarce regions, supporting evidence-driven road-safety policymaking and the broader integration of multimodal artificial intelligence in transportation analytics. The code for this paper is open-source and available at: https://github.com/Thamed-Chowdhury/ALIGN",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": [
+      "Recognition"
+    ]
+  },
+  {
+    "title": "Physics informed Transformer-VAE for biophysical parameter estimation: PROSAIL model inversion in Sentinel-2 imagery",
+    "url": "http://arxiv.org/abs/2511.10387v1",
+    "authors": [
+      "Prince Mensah",
+      "Pelumi Victor Aderinto",
+      "Ibrahim Salihu Yusuf",
+      "Arnu Pretorius"
+    ],
+    "published": "2025-11-13",
+    "abstract": "Accurate retrieval of vegetation biophysical variables from satellite imagery is crucial for ecosystem monitoring and agricultural management. In this work, we propose a physics-informed Transformer-VAE architecture to invert the PROSAIL radiative transfer model for simultaneous estimation of key canopy parameters from Sentinel-2 data. Unlike previous hybrid approaches that require real satellite images for self-supevised training. Our model is trained exclusively on simulated data, yet achieves performance on par with state-of-the-art methods that utilize real imagery. The Transformer-VAE incorporates the PROSAIL model as a differentiable physical decoder, ensuring that inferred latent variables correspond to physically plausible leaf and canopy properties. We demonstrate retrieval of leaf area index (LAI) and canopy chlorophyll content (CCC) on real-world field datasets (FRM4Veg and BelSAR) with accuracy comparable to models trained with real Sentinel-2 data. Our method requires no in-situ labels or calibration on real images, offering a cost-effective and self-supervised solution for global vegetation monitoring. The proposed approach illustrates how integrating physical models with advanced deep networks can improve the inversion of RTMs, opening new prospects for large-scale, physically-constrained remote sensing of vegetation traits.",
+    "categories": [
+      "remote_sensing",
+      "fish_plankton"
+    ],
+    "architectures": [
+      "Transformer",
+      "Autoencoder",
+      "PINN"
+    ],
+    "applications": []
+  },
+  {
+    "title": "PGDM: Physically guided diffusion model for land surface temperature downscaling",
+    "url": "http://arxiv.org/abs/2511.05964v1",
+    "authors": [
+      "Huanyu Zhang",
+      "Bo-Hui Tang",
+      "Tian Hu",
+      "Yun Jiang",
+      "Zhao-Liang Li"
+    ],
+    "published": "2025-11-08",
+    "abstract": "Land surface temperature (LST) is a fundamental parameter in thermal infrared remote sensing, while current LST products are often constrained by the trade-off between spatial and temporal resolutions. To mitigate this limitation, numerous studies have been conducted to enhance the resolutions of LST data, with a particular emphasis on the spatial dimension (commonly known as LST downscaling). Nevertheless, a comprehensive benchmark dataset tailored for this task remains scarce. In addition, existing downscaling models face challenges related to accuracy, practical usability, and the capability to self-evaluate their uncertainties. To overcome these challenges, this study first compiled three representative datasets, including one dataset over mainland China containing 22,909 image patches for model training and evaluation, as well as two datasets covering 40 heterogeneous regions worldwide for external evaluation. Subsequently, grounded in the surface energy balance (SEB)-based geophysical reasoning, we proposed the physically guided diffusion model (PGDM) for LST downscaling. In this framework, the downscaling task was formulated as an inference problem, aiming to sample from the posterior distribution of high-spatial-resolution (HR) LST conditioned on low-spatial-resolution (LR) LST observations and a suite of HR geophysical priors. Comprehensive evaluations demonstrate the effectiveness of PGDM, which generates high-quality downscaling results and outperforms existing representative interpolation, kernel-driven, hybrid, and deep learning approaches. Finally, by exploiting the inherent stochasticity of PGDM, the scene-level standard deviation of multiple generations was computed, revealing a strong positive linear correlation with the actual downscaling error...",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "OpenSR-SRGAN: A Flexible Super-Resolution Framework for Multispectral Earth Observation Data",
+    "url": "http://arxiv.org/abs/2511.10461v1",
+    "authors": [
+      "Simon Donike",
+      "Cesar Aybar",
+      "Julio Contreras",
+      "Luis G\u00f3mez-Chova"
+    ],
+    "published": "2025-11-13",
+    "abstract": "We present OpenSR-SRGAN, an open and modular framework for single-image super-resolution in Earth Observation. The software provides a unified implementation of SRGAN-style models that is easy to configure, extend, and apply to multispectral satellite data such as Sentinel-2. Instead of requiring users to modify model code, OpenSR-SRGAN exposes generators, discriminators, loss functions, and training schedules through concise configuration files, making it straightforward to switch between architectures, scale factors, and band setups. The framework is designed as a practical tool and benchmark implementation rather than a state-of-the-art model. It ships with ready-to-use configurations for common remote sensing scenarios, sensible default settings for adversarial training, and built-in hooks for logging, validation, and large-scene inference. By turning GAN-based super-resolution into a configuration-driven workflow, OpenSR-SRGAN lowers the entry barrier for researchers and practitioners who wish to experiment with SRGANs, compare models in a reproducible way, and deploy super-resolution pipelines across diverse Earth-observation datasets.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "GAN"
+    ],
+    "applications": [
+      "Super-Resolution"
+    ]
+  },
+  {
+    "title": "Mapping Reduced Accessibility to WASH Facilities in Rohingya Refugee Camps with Sub-Meter Imagery",
+    "url": "http://arxiv.org/abs/2511.07231v2",
+    "authors": [
+      "Kyeongjin Ahn",
+      "YongHun Suh",
+      "Sungwon Han",
+      "Jeasurk Yang",
+      "Hannes Taubenb\u00f6ck",
+      "Meeyoung Cha"
+    ],
+    "published": "2025-11-10",
+    "abstract": "Access to Water, Sanitation, and Hygiene (WASH) services remains a major public health concern in refugee camps. This study introduces a remote sensing-driven framework to quantify WASH accessibility-specifically to water pumps, latrines, and bathing cubicles-in the Rohingya camps of Cox's Bazar, one of the world's most densely populated displacement settings. Detecting refugee shelters in such emergent camps presents substantial challenges, primarily due to their dense spatial configuration and irregular geometric patterns. Using sub-meter satellite images, we develop a semi-supervised segmentation framework that achieves an F1-score of 76.4% in detecting individual refugee shelters. Applying the framework across multi-year data reveals declining WASH accessibility, driven by rapid refugee population growth and reduced facility availability, rising from 25 people per facility in 2022 to 29.4 in 2025. Gender-disaggregated analysis further shows that women and girls experience reduced accessibility, in scenarios with inadequate safety-related segregation in WASH facilities. These findings suggest the importance of demand-responsive allocation strategies that can identify areas with under-served populations-such as women and girls-and ensure that limited infrastructure serves the greatest number of people in settings with fixed or shrinking budgets. We also discuss the value of high-resolution remote sensing and machine learning to detect inequality and inform equitable resource planning in complex humanitarian environments.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "Advancing Ocean State Estimation with efficient and scalable AI",
+    "url": "http://arxiv.org/abs/2511.06041v1",
+    "authors": [
+      "Yanfei Xiang",
+      "Yuan Gao",
+      "Hao Wu",
+      "Quan Zhang",
+      "Ruiqi Shu",
+      "Xiao Zhou",
+      "Xi Wu",
+      "Xiaomeng Huang"
+    ],
+    "published": "2025-11-08",
+    "abstract": "Accurate and efficient global ocean state estimation remains a grand challenge for Earth system science, hindered by the dual bottlenecks of computational scalability and degraded data fidelity in traditional data assimilation (DA) and deep learning (DL) approaches. Here we present an AI-driven Data Assimilation Framework for Ocean (ADAF-Ocean) that directly assimilates multi-source and multi-scale observations, ranging from sparse in-situ measurements to 4 km satellite swaths, without any interpolation or data thinning. Inspired by Neural Processes, ADAF-Ocean learns a continuous mapping from heterogeneous inputs to ocean states, preserving native data fidelity. Through AI-driven super-resolution, it reconstructs 0.25$^\\circ$ mesoscale dynamics from coarse 1$^\\circ$ fields, which ensures both efficiency and scalability, with just 3.7\\% more parameters than the 1$^\\circ$ configuration. When coupled with a DL forecasting system, ADAF-Ocean extends global forecast skill by up to 20 days compared to baselines without assimilation. This framework establishes a computationally viable and scientifically rigorous pathway toward real-time, high-resolution Earth system monitoring.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Super-Resolution",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "The Role of Deep Mesoscale Eddies in Ensemble Forecast Performance",
+    "url": "http://arxiv.org/abs/2511.09747v1",
+    "authors": [
+      "Justin Cooke",
+      "Kathleen Donohue",
+      "Clark D Rowley",
+      "Prasad G Thoppil",
+      "D Randolph Watts"
+    ],
+    "published": "2025-11-12",
+    "abstract": "Present forecasting efforts rely on assimilation of observational data captured in the upper ocean (< 1000 m depth). These observations constrain the upper ocean and minimally influence the deep ocean. Nevertheless, development of the full water column circulation critically depends upon the dynamical interactions between upper and deep fields. Forecasts demonstrate that the initialization of the deep field is influential for the development and evolution of the surface in the forecast. Deep initial conditions that better agree with observations have lower upper ocean uncertainty as the forecast progresses. Here, best and worst ensemble members in two 92-day forecasts are identified and contrasted in order to determine how the deep ocean differs between these groups. The forecasts cover the duration of the Loop Current Eddy Thor separation event, which coincides with available deep observations in the Gulf. Model member performance is assessed by comparing surface variables against verifying analysis and satellite altimeter data during the forecast time-period. Deep cyclonic and anticyclonic features are reviewed, and compared against deep observations, indicating subtle differences in locations of deep eddies at relevant times. These results highlight both the importance of deep circulation in the dynamics of the Loop Current system and more broadly motivate efforts to assimilate deep observations to better constrain the deep initial fields and improve surface predictions.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "General Circulation Models of Hycean Worlds",
+    "url": "http://arxiv.org/abs/2511.07546v1",
+    "authors": [
+      "Edouard Barrier",
+      "Nikku Madhusudhan"
+    ],
+    "published": "2025-11-10",
+    "abstract": "Sub-Neptunes represent the current frontier of exoplanet atmospheric characterisation. A proposed subset, Hycean planets, would have liquid water oceans and be potentially habitable, but there are many unanswered questions about their atmospheric dynamics and 3D climate states. To explore such climates in detail, we report a General Circulation Model (GCM) for Hycean worlds, building on a modified version of the ExoCAM GCM. Considering the temperate sub-Neptune K2-18 b as a Hycean candidate, we implement GCMs with different surface pressures and albedos. We find dynamical structures similar to those of tidally-locked terrestrial planets as `slow rotators' with either one equatorial or twin mid-latitude zonal jets. We see moist convective inhibition that matches high resolution models, although in hotter cases the inhibited zone is subsaturated. When imposing a top-of-the-atmosphere (TOA) Bond albedo ($A_b$) by modifying the incident stellar flux, we find that the threshold for K2-18~b to not enter a runaway greenhouse state is $A_b \\geq 0.55$ for a 1 bar atmosphere, consistent with previous studies, and $A_b \\geq 0.8$ for a 5 bar atmosphere. However, a more realistic treatment of the albedo, by modelling scattering within the atmosphere using an enhanced Rayleigh parametrisation, leads to lower lapse rates and stronger thermal inversions. We find that 1 bar atmospheres are stable for an albedo of $A_b \\geq 0.27$, 5 bar atmospheres for $A_b \\geq 0.35$, and 10 bar atmospheres for $A_b \\geq 0.48$. Moderate albedos such as these are typical of the solar system planets and the required scattering is consistent with observational constraints for K2-18~b, supporting its plausibility as a Hycean world.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Global Distribution of the Key Species on the Surface of Europa",
+    "url": "http://arxiv.org/abs/2511.09489v1",
+    "authors": [
+      "Jiazheng Li",
+      "Yinsi Shou",
+      "Cheng Li",
+      "Xianzhe Jia"
+    ],
+    "published": "2025-11-12",
+    "abstract": "The icy surface of Europa is continuously bombarded by ions and electrons from Jupiter's magnetosphere. The bombardment of the particles dissociates water molecules on the surface of Europa and introduces impurities to the icy surface. Such processes lead to the generation of the non-water species on the surface of Europa. Such processes lead to the generation of the nonwater species on the surface of Europa. These chemical species are closely related to the chemistry of the icy crust and the subsurface ocean, as well as Europa's habitability. However, our knowledge of the global distribution of these species is limited due to the sparse satellite and telescope observations on Europa. In this study, we combine a Europa plasma model and a chemical-transport model to simulate the global distribution of the key nonwater species on the surface of Europa. The initial results from our model agree well with the existing observations on the distributions of H2SO4 and SO2 but they show a significant discrepancy with the observed distribution of H2O2. Sensitivity tests on the reaction rate coefficients indicate that the simulated global distribution of all three species fit the observations well if the reaction rate coefficients in the ice are reduced by one order of magnitude. This finding provides a useful constraint on the rate coefficient of the chemical reactions in the ice. Furthermore, our model predicts that the O2 on the surface ice of Europa is concentrated on the leading hemisphere. The simulated global distribution of the key species on Europa may provide useful guidance for future missions to Europa, such as Europa Clipper and JUICE.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Backcasting biodiversity at high spatiotemporal resolution using flexible site-occupancy models for opportunistically sampled citizen science data",
+    "url": "http://arxiv.org/abs/2511.08802v1",
+    "authors": [
+      "Maxime Fajgenblat",
+      "Marc Herremans",
+      "Pieter Vanormelingen",
+      "Kristijn Swinnen",
+      "Dirk Maes",
+      "Robby Stoks",
+      "Luc De Meester",
+      "Christel Faes",
+      "Thomas Neyens"
+    ],
+    "published": "2025-11-11",
+    "abstract": "For many taxonomic groups, online biodiversity portals used by naturalists and citizen scientists constitute the primary source of distributional information. Over the last decade, site-occupancy models have been advanced as a promising framework to analyse such loosely structured, opportunistically collected datasets. Current approaches often ignore important aspects of the detection process and do not fully capitalise on the information present in these datasets, leaving opportunities for fine-grained spatiotemporal backcasting untouched. We propose a flexible Bayesian spatiotemporal site-occupancy model that aims to mimic the data-generating process that underlies common citizen science datasets sourced from public biodiversity portals, and yields rich biological output. We illustrate the use of the model to a dataset containing over 3M butterfly records in Belgium, collected through the citizen science data portal Observations.be. We show that the proposed approach enables retrospective predictions on the occupancy of species through time and space at high resolution, as well as inference on inter-annual distributional trends, range dynamics, habitat preferences, phenological patterns, detection patterns and observer heterogeneity. The proposed model can be used to increase the value of opportunistically collected data by naturalists and citizen scientists, and can aid the understanding of spatiotemporal dynamics of species for which rigorously collected data are absent or too costly to collect.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "The MATISSE view of the inner region of the RY Tau protoplanetary disk",
+    "url": "http://arxiv.org/abs/2511.08309v1",
+    "authors": [
+      "J. S. Martin",
+      "J. Kobus",
+      "J. Varga",
+      "A. Matter",
+      "S. Wolf",
+      "M. Abello",
+      "F. Allouche",
+      "J. -C. Augereau",
+      "P. Berio",
+      "F. Bettonvil",
+      "R. van Boekel",
+      "P. A. Boley",
+      "P. Cruzal\u00e8bes",
+      "W. C. Danchi",
+      "J. Drevon",
+      "C. Dominik",
+      "V. Fleury",
+      "V. G\u00e1mez Rosas",
+      "A. Glindemann",
+      "L. N. A. van Haastere",
+      "M. Heininger",
+      "Th. Henning",
+      "K. -H. Hofmann",
+      "M. Hogerheijde",
+      "M. Houll\u00e9",
+      "J. W. Isbell",
+      "W. Jaffe",
+      "L. Labadie",
+      "S. Lagarde",
+      "J. H. Leftley",
+      "M. Lehmitz",
+      "M. Letessier",
+      "B. Lopez",
+      "F. Lykou",
+      "J. Ma",
+      "A. Meilland",
+      "F. Millour",
+      "C. Paladini",
+      "E. Pantin",
+      "R. G. Petrov",
+      "P. Priolet",
+      "S. Robbe-Dubois",
+      "D. Schertl",
+      "M. Scheuck",
+      "J. Scigliuto",
+      "G. Weigelt",
+      "J. Woillez"
+    ],
+    "published": "2025-11-11",
+    "abstract": "The T-Tauri type young stellar object RY Tau exhibits a dust depleted inner cavity characteristic of a transition disk. We constrain the spatial distribution and mineralogy of dust in the RY Tau protoplanetary disk in the inner few astronomical units using spectrally resolved interferometric observations in the L, M, and N bands obtained with VLTI/MATISSE.\n  Employing a 2D temperature gradient model we estimate the orientation of the inner disk finding no evidence of significant misalignment between the inner and outer disk of RY Tau. Successively, we analyze the chemical composition of silicates depending on spatial region in the disk and identify several silicate species commonly found in protoplanetary disks. Additionally, a depletion of amorphous dust grains toward the central protostar is observed. Monte Carlo radiative transfer simulations show that hot dust close to the protostar and in the line of sight to the observer, either in the uppermost disk layers of a strongly flared disk or in a dusty envelope, is necessary to model the observations. The shadow cast by a dense innermost disk midplane on the dust further out explains the observed closure phases in the L band and to some extent in the M band. However, the closure phases in the N band are underestimated by our model, hinting at an additional asymmetry in the flux density distribution not visible at shorter wavelengths.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Uncertainty Calibration of Multi-Label Bird Sound Classifiers",
+    "url": "http://arxiv.org/abs/2511.08261v1",
+    "authors": [
+      "Raphael Schwinger",
+      "Ben McEwen",
+      "Vincent S. Kather",
+      "Ren\u00e9 Heinrich",
+      "Lukas Rauch",
+      "Sven Tomforde"
+    ],
+    "published": "2025-11-11",
+    "abstract": "Passive acoustic monitoring enables large-scale biodiversity assessment, but reliable classification of bioacoustic sounds requires not only high accuracy but also well-calibrated uncertainty estimates to ground decision-making. In bioacoustics, calibration is challenged by overlapping vocalisations, long-tailed species distributions, and distribution shifts between training and deployment data. The calibration of multi-label deep learning classifiers within the domain of bioacoustics has not yet been assessed. We systematically benchmark the calibration of four state-of-the-art multi-label bird sound classifiers on the BirdSet benchmark, evaluating both global, per-dataset and per-class calibration using threshold-free calibration metrics (ECE, MCS) alongside discrimination metrics (cmAP). Model calibration varies significantly across datasets and classes. While Perch v2 and ConvNeXt$_{BS}$ show better global calibration, results vary between datasets. Both models indicate consistent underconfidence, while AudioProtoPNet and BirdMAE are mostly overconfident. Surprisingly, calibration seems to be better for less frequent classes. Using simple post hoc calibration methods we demonstrate a straightforward way to improve calibration. A small labelled calibration set is sufficient to significantly improve calibration with Platt scaling, while global calibration parameters suffer from dataset variability. Our findings highlight the importance of evaluating and improving uncertainty calibration in bioacoustic classifiers.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
   }
 ]
