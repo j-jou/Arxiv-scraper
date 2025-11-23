@@ -17327,5 +17327,391 @@
     "applications": [
       "Classification"
     ]
+  },
+  {
+    "title": "GEO-Bench-2: From Performance to Capability, Rethinking Evaluation in Geospatial AI",
+    "url": "http://arxiv.org/abs/2511.15658v1",
+    "authors": [
+      "Naomi Simumba",
+      "Nils Lehmann",
+      "Paolo Fraccaro",
+      "Hamed Alemohammad",
+      "Geeth De Mel",
+      "Salman Khan",
+      "Manil Maskey",
+      "Nicolas Longepe",
+      "Xiao Xiang Zhu",
+      "Hannah Kerner",
+      "Juan Bernabe-Moreno",
+      "Alexander Lacoste"
+    ],
+    "published": "2025-11-19",
+    "abstract": "Geospatial Foundation Models (GeoFMs) are transforming Earth Observation (EO), but evaluation lacks standardized protocols. GEO-Bench-2 addresses this with a comprehensive framework spanning classification, segmentation, regression, object detection, and instance segmentation across 19 permissively-licensed datasets. We introduce ''capability'' groups to rank models on datasets that share common characteristics (e.g., resolution, bands, temporality). This enables users to identify which models excel in each capability and determine which areas need improvement in future work. To support both fair comparison and methodological innovation, we define a prescriptive yet flexible evaluation protocol. This not only ensures consistency in benchmarking but also facilitates research into model adaptation strategies, a key and open challenge in advancing GeoFMs for downstream tasks.\n  Our experiments show that no single model dominates across all tasks, confirming the specificity of the choices made during architecture design and pretraining. While models pretrained on natural images (ConvNext ImageNet, DINO V3) excel on high-resolution tasks, EO-specific models (TerraMind, Prithvi, and Clay) outperform them on multispectral applications such as agriculture and disaster response. These findings demonstrate that optimal model choice depends on task requirements, data modalities, and constraints. This shows that the goal of a single GeoFM model that performs well across all tasks remains open for future research. GEO-Bench-2 enables informed, reproducible GeoFM evaluation tailored to specific use cases. Code, data, and leaderboard for GEO-Bench-2 are publicly released under a permissive license.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection",
+      "Classification",
+      "Regression"
+    ]
+  },
+  {
+    "title": "LiSTAR: Ray-Centric World Models for 4D LiDAR Sequences in Autonomous Driving",
+    "url": "http://arxiv.org/abs/2511.16049v1",
+    "authors": [
+      "Pei Liu",
+      "Songtao Wang",
+      "Lang Zhang",
+      "Xingyue Peng",
+      "Yuandong Lyu",
+      "Jiaxin Deng",
+      "Songxin Lu",
+      "Weiliang Ma",
+      "Xueyang Zhang",
+      "Yifei Zhan",
+      "XianPeng Lang",
+      "Jun Ma"
+    ],
+    "published": "2025-11-20",
+    "abstract": "Synthesizing high-fidelity and controllable 4D LiDAR data is crucial for creating scalable simulation environments for autonomous driving. This task is inherently challenging due to the sensor's unique spherical geometry, the temporal sparsity of point clouds, and the complexity of dynamic scenes. To address these challenges, we present LiSTAR, a novel generative world model that operates directly on the sensor's native geometry. LiSTAR introduces a Hybrid-Cylindrical-Spherical (HCS) representation to preserve data fidelity by mitigating quantization artifacts common in Cartesian grids. To capture complex dynamics from sparse temporal data, it utilizes a Spatio-Temporal Attention with Ray-Centric Transformer (START) that explicitly models feature evolution along individual sensor rays for robust temporal coherence. Furthermore, for controllable synthesis, we propose a novel 4D point cloud-aligned voxel layout for conditioning and a corresponding discrete Masked Generative START (MaskSTART) framework, which learns a compact, tokenized representation of the scene, enabling efficient, high-resolution, and layout-guided compositional generation. Comprehensive experiments validate LiSTAR's state-of-the-art performance across 4D LiDAR reconstruction, prediction, and conditional generation, with substantial quantitative gains: reducing generation MMD by a massive 76%, improving reconstruction IoU by 32%, and lowering prediction L1 Med by 50%. This level of performance provides a powerful new foundation for creating realistic and controllable autonomous systems simulations. Project link: https://ocean-luna.github.io/LiSTAR.gitub.io.",
+    "categories": [
+      "ocean",
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "ChangeDINO: DINOv3-Driven Building Change Detection in Optical Remote Sensing Imagery",
+    "url": "http://arxiv.org/abs/2511.16322v1",
+    "authors": [
+      "Ching-Heng Cheng",
+      "Chih-Chung Hsu"
+    ],
+    "published": "2025-11-20",
+    "abstract": "Remote sensing change detection (RSCD) aims to identify surface changes from co-registered bi-temporal images. However, many deep learning-based RSCD methods rely solely on change-map annotations and underuse the semantic information in non-changing regions, which limits robustness under illumination variation, off-nadir views, and scarce labels. This article introduces ChangeDINO, an end-to-end multiscale Siamese framework for optical building change detection. The model fuses a lightweight backbone stream with features transferred from a frozen DINOv3, yielding semantic- and context-rich pyramids even on small datasets. A spatial-spectral differential transformer decoder then exploits multi-scale absolute differences as change priors to highlight true building changes and suppress irrelevant responses. Finally, a learnable morphology module refines the upsampled logits to recover clean boundaries. Experiments on four public benchmarks show that ChangeDINO consistently outperforms recent state-of-the-art methods in IoU and F1, and ablation studies confirm the effectiveness of each component. The source code is available at https://github.com/chingheng0808/ChangeDINO.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "A Spatial Semantics and Continuity Perception Attention for Remote Sensing Water Body Change Detection",
+    "url": "http://arxiv.org/abs/2511.16143v1",
+    "authors": [
+      "Quanqing Ma",
+      "Jiaen Chen",
+      "Peng Wang",
+      "Yao Zheng",
+      "Qingzhan Zhao",
+      "Yuchen Zheng"
+    ],
+    "published": "2025-11-20",
+    "abstract": "Remote sensing Water Body Change Detection (WBCD) aims to detect water body surface changes from bi-temporal images of the same geographic area. Recently, the scarcity of high spatial resolution datasets for WBCD restricts its application in urban and rural regions, which require more accurate positioning. Meanwhile, previous deep learning-based methods fail to comprehensively exploit the spatial semantic and structural information in deep features in the change detection networks. To resolve these concerns, we first propose a new dataset, HSRW-CD, with a spatial resolution higher than 3 meters for WBCD. Specifically, it contains a large number of image pairs, widely covering various water body types. Besides, a Spatial Semantics and Continuity Perception (SSCP) attention module is designed to fully leverage both the spatial semantics and structure of deep features in the WBCD networks, significantly improving the discrimination capability for water body. The proposed SSCP has three components: the Multi-Semantic spatial Attention (MSA), the Structural Relation-aware Global Attention (SRGA), and the Channel-wise Self-Attention (CSA). The MSA enhances the spatial semantics of water body features and provides precise spatial semantic priors for the CSA. Then, the SRGA further extracts spatial structure to learn the spatial continuity of the water body. Finally, the CSA utilizes the spatial semantic and structural priors from the MSA and SRGA to compute the similarity across channels. Specifically designed as a plug-and-play module for water body deep features, the proposed SSCP allows integration into existing WBCD models. Numerous experiments conducted on the proposed HSRW-CD and Water-CD datasets validate the effectiveness and generalization of the SSCP. The code of this work and the HSRW-CD dataset will be accessed at https://github.com/QingMa1/SSCP.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "SpectralTrain: A Universal Framework for Hyperspectral Image Classification",
+    "url": "http://arxiv.org/abs/2511.16084v1",
+    "authors": [
+      "Meihua Zhou",
+      "Liping Yu",
+      "Jiawei Cai",
+      "Wai Kin Fung",
+      "Ruiguo Hu",
+      "Jiarui Zhao",
+      "Wenzhuo Liu",
+      "Nan Wan"
+    ],
+    "published": "2025-11-20",
+    "abstract": "Hyperspectral image (HSI) classification typically involves large-scale data and computationally intensive training, which limits the practical deployment of deep learning models in real-world remote sensing tasks. This study introduces SpectralTrain, a universal, architecture-agnostic training framework that enhances learning efficiency by integrating curriculum learning (CL) with principal component analysis (PCA)-based spectral downsampling. By gradually introducing spectral complexity while preserving essential information, SpectralTrain enables efficient learning of spectral -- spatial patterns at significantly reduced computational costs. The framework is independent of specific architectures, optimizers, or loss functions and is compatible with both classical and state-of-the-art (SOTA) models. Extensive experiments on three benchmark datasets -- Indian Pines, Salinas-A, and the newly introduced CloudPatch-7 -- demonstrate strong generalization across spatial scales, spectral characteristics, and application domains. The results indicate consistent reductions in training time by 2-7x speedups with small-to-moderate accuracy deltas depending on backbone. Its application to cloud classification further reveals potential in climate-related remote sensing, emphasizing training strategy optimization as an effective complement to architectural design in HSI models. Code is available at https://github.com/mh-zhou/SpectralTrain.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "TSE-Net: Semi-supervised Monocular Height Estimation from Single Remote Sensing Images",
+    "url": "http://arxiv.org/abs/2511.13552v1",
+    "authors": [
+      "Sining Chen",
+      "Xiao Xiang Zhu"
+    ],
+    "published": "2025-11-17",
+    "abstract": "Monocular height estimation plays a critical role in 3D perception for remote sensing, offering a cost-effective alternative to multi-view or LiDAR-based methods. While deep learning has significantly advanced the capabilities of monocular height estimation, these methods remain fundamentally limited by the availability of labeled data, which are expensive and labor-intensive to obtain at scale. The scarcity of high-quality annotations hinders the generalization and performance of existing models. To overcome this limitation, we propose leveraging large volumes of unlabeled data through a semi-supervised learning framework, enabling the model to extract informative cues from unlabeled samples and improve its predictive performance. In this work, we introduce TSE-Net, a self-training pipeline for semi-supervised monocular height estimation. The pipeline integrates teacher, student, and exam networks. The student network is trained on unlabeled data using pseudo-labels generated by the teacher network, while the exam network functions as a temporal ensemble of the student network to stabilize performance. The teacher network is formulated as a joint regression and classification model: the regression branch predicts height values that serve as pseudo-labels, and the classification branch predicts height value classes along with class probabilities, which are used to filter pseudo-labels. Height value classes are defined using a hierarchical bi-cut strategy to address the inherent long-tailed distribution of heights, and the predicted class probabilities are calibrated with a Plackett-Luce model to reflect the expected accuracy of pseudo-labels. We evaluate the proposed pipeline on three datasets spanning different resolutions and imaging modalities. Codes are available at https://github.com/zhu-xlab/tse-net.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification",
+      "Regression"
+    ]
+  },
+  {
+    "title": "Mapping the Vanishing and Transformation of Urban Villages in China",
+    "url": "http://arxiv.org/abs/2511.13507v1",
+    "authors": [
+      "Wenyu Zhang",
+      "Yao Tong",
+      "Yiqiu Liu",
+      "Rui Cao"
+    ],
+    "published": "2025-11-17",
+    "abstract": "Urban villages (UVs), informal settlements embedded within China's urban fabric, have undergone widespread demolition and redevelopment in recent decades. However, there remains a lack of systematic evaluation of whether the demolished land has been effectively reused, raising concerns about the efficacy and sustainability of current redevelopment practices. To address the gap, this study proposes a deep learning-based framework to monitor the spatiotemporal changes of UVs in China. Specifically, semantic segmentation of multi-temporal remote sensing imagery is first used to map evolving UV boundaries, and then post-demolition land use is classified into six categories based on the \"remained-demolished-redeveloped\" phase: incomplete demolition, vacant land, construction sites, buildings, green spaces, and others. Four representative cities from China's four economic regions were selected as the study areas, i.e., Guangzhou (East), Zhengzhou (Central), Xi'an (West), and Harbin (Northeast). The results indicate: 1) UV redevelopment processes were frequently prolonged; 2) redevelopment transitions primarily occurred in peripheral areas, whereas urban cores remained relatively stable; and 3) three spatiotemporal transformation pathways, i.e., synchronized redevelopment, delayed redevelopment, and gradual optimization, were revealed. This study highlights the fragmented, complex and nonlinear nature of UV redevelopment, underscoring the need for tiered and context-sensitive planning strategies. By linking spatial dynamics with the context of redevelopment policies, the findings offer valuable empirical insights that support more inclusive, efficient, and sustainable urban renewal, while also contributing to a broader global understanding of informal settlement transformations.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "Deep Imbalanced Multi-Target Regression: 3D Point Cloud Voxel Content Estimation in Simulated Forests",
+    "url": "http://arxiv.org/abs/2511.12740v1",
+    "authors": [
+      "Amirhossein Hassanzadeh",
+      "Bartosz Krawczyk",
+      "Michael Saunders",
+      "Rob Wible",
+      "Keith Krause",
+      "Dimah Dera",
+      "Jan van Aardt"
+    ],
+    "published": "2025-11-16",
+    "abstract": "Voxelization is an effective approach to reduce the computational cost of processing Light Detection and Ranging (LiDAR) data, yet it results in a loss of fine-scale structural information. This study explores whether low-level voxel content information, specifically target occupancy percentage within a voxel, can be inferred from high-level voxelized LiDAR point cloud data collected from Digital Imaging and remote Sensing Image Generation (DIRSIG) software. In our study, the targets include bark, leaf, soil, and miscellaneous materials. We propose a multi-target regression approach in the context of imbalanced learning using Kernel Point Convolutions (KPConv). Our research leverages cost-sensitive learning to address class imbalance called density-based relevance (DBR). We employ weighted Mean Saquared Erorr (MSE), Focal Regression (FocalR), and regularization to improve the optimization of KPConv. This study performs a sensitivity analysis on the voxel size (0.25 - 2 meters) to evaluate the effect of various grid representations in capturing the nuances of the forest. This sensitivity analysis reveals that larger voxel sizes (e.g., 2 meters) result in lower errors due to reduced variability, while smaller voxel sizes (e.g., 0.25 or 0.5 meter) exhibit higher errors, particularly within the canopy, where variability is greatest. For bark and leaf targets, error values at smaller voxel size datasets (0.25 and 0.5 meter) were significantly higher than those in larger voxel size datasets (2 meters), highlighting the difficulty in accurately estimating within-canopy voxel content at fine resolutions. This suggests that the choice of voxel size is application-dependent. Our work fills the gap in deep imbalance learning models for multi-target regression and simulated datasets for 3D LiDAR point clouds of forests.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Regression",
+      "Image Generation"
+    ]
+  },
+  {
+    "title": "Weakly Supervised Ephemeral Gully Detection In Remote Sensing Images Using Vision Language Models",
+    "url": "http://arxiv.org/abs/2511.13891v1",
+    "authors": [
+      "Seyed Mohamad Ali Tousi",
+      "John A. Lory",
+      "G. N. DeSouza"
+    ],
+    "published": "2025-11-17",
+    "abstract": "Among soil erosion problems, Ephemeral Gullies are one of the most concerning phenomena occurring in agricultural fields. Their short temporal cycles increase the difficulty in automatically detecting them using classical computer vision approaches and remote sensing. Also, due to scarcity of and the difficulty in producing accurate labeled data, automatic detection of ephemeral gullies using Machine Learning is limited to zero-shot approaches which are hard to implement. To overcome these challenges, we present the first weakly supervised pipeline for detection of ephemeral gullies. Our method relies on remote sensing and uses Vision Language Models (VLMs) to drastically reduce the labor-intensive task of manual labeling. In order to achieve that, the method exploits: 1) the knowledge embedded in the VLM's pretraining; 2) a teacher-student model where the teacher learns from noisy labels coming from the VLMs, and the student learns by weak supervision using teacher-generate labels and a noise-aware loss function. We also make available the first-of-its-kind dataset for semi-supervised detection of ephemeral gully from remote-sensed images. The dataset consists of a number of locations labeled by a group of soil and plant scientists, as well as a large number of unlabeled locations. The dataset represent more than 18,000 high-resolution remote-sensing images obtained over the course of 13 years. Our experimental results demonstrate the validity of our approach by showing superior performances compared to VLMs and the label model itself when using weak supervision to train an student model. The code and dataset for this work are made publicly available.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "An Active Learning Interatomic Potential For Defect-Engineered CoCrFeMnNi High-Entropy Alloy",
+    "url": "http://arxiv.org/abs/2511.12514v1",
+    "authors": [
+      "Manish Sahoo",
+      "Akash Deshmukh",
+      "Yash Kokane",
+      "Jayaprakash H M",
+      "Raghavan Ranganathan"
+    ],
+    "published": "2025-11-16",
+    "abstract": "High-entropy alloys (HEAs) exhibit exceptional properties arising from a combination of thermodynamic, kinetic and structural factors and have found applications in numerous fields such as aerospace, energy, chemical industries, hydrogen storage, and ocean engineering. However, a large compositional space remains to be explored. Unlike conventional approaches, computational methods have shown accelerated discovery of novel alloys in a short time. However, the lack of interatomic potentials have posed a challenge in discovering new alloy compositions and property measurements. In the present work, we have developed a Moment Tensor Potential (MTP) trained by Machine Learning based approach using the BFGS unconstrained optimization algorithm for the CoCrFeMnNi High-entropy alloy. Our training set consists of various defects induced configurations such as vacancies, dislocations and stacking-faults. An active learning scheme to re-train the potential was undertaken to dynamically to add training data upon encountering extrapolative configurations during non-equilibrium simulations. A thorough investigation of the error metrics, equation of state, uniaxial tensile deformation, nano-indentation and solid-liquid interface stability for this alloy was carried out, and it is seen that the MTP potential outperforms the popular Modified Embedded Atom Method (MEAM) potential on physical properties prediction. The accuracy and high computational speed are discussed using scaling performance. The potential is prepared for public use by embedding it into the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) code.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Current effects on wind generated waves near an Ocean Eddy Dipole",
+    "url": "http://arxiv.org/abs/2511.12711v1",
+    "authors": [
+      "Nelson Violante-Carvalho",
+      "Thiago de Paula",
+      "Leandro Calado",
+      "Felipe Marques dos Santos",
+      "Luiz Mariano Carvalho",
+      "Andre Luiz Cordeiro dos Santos",
+      "Wilton Z. Arruda",
+      "Leandro Farina"
+    ],
+    "published": "2025-11-16",
+    "abstract": "Ocean eddy dipoles are among the most common mesoscale features and may be ubiquitous across the global oceans. However, wave-current interactions in their proximity have not been extensively studied. Here we examine the impact of surface currents on the wave field near an ocean eddy dipole. Using the WW3 wave model, we conducted idealized numerical simulations to assess the influence of different configurations on the spatial variability of Significant Wave Height ($H_s$). Additionally, a two-month hindcast of a strong dipole event in the Southwestern Atlantic Ocean was performed using three distinct surface current products: SSalto/Duacs, HYCOM NCODA and GlobCurrent. Among these, HYCOM, which incorporates ageostrophic effects, provided a more detailed representation of oceanic energy compared to GlobCurrent and SSalto/Duacs, which primarily reflect geostrophic components. The hindcast assessment employed denoised altimeter-derived $H_s$ data, with a spatial resolution of approximately 6~km. The greatest increase in wave energy occurs in the region between the peak values of positive and negative vorticity, where the opposing surface currents reach their maximum intensity. Therefore, dipoles act as converging lenses for surface waves, channeling their refraction towards the central jet. Despite its poorer spatial and temporal resolutions, SSalto-Duacs surface current data provides more reliable $H_s$ fields, in the study region where geostrophic dynamics are expected to be significant or even dominant.\n  HYCOM captures a broader range of dynamical processes, essential for accurately representing the total energy, though discrepancies with SSalto/Duacs data may arise from assimilation inaccuracies and model limitations.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Integrating Deep Learning and Spatial Statistics in Marine Ecosystem Monitoring",
+    "url": "http://arxiv.org/abs/2511.16447v1",
+    "authors": [
+      "Gian Mario Sangiovanni",
+      "Gianluca Mastrantonio",
+      "Daniele Ventura",
+      "Alessio Pollice",
+      "Giovanna Jona Lasinio"
+    ],
+    "published": "2025-11-20",
+    "abstract": "In ecology, photogrammetry is a crucial method for efficiently collecting non-destructive samples of natural environments. When estimating the spatial distribution of animals, detecting objects in large-scale images becomes crucial. Object detection models enable large-scale analysis but introduce uncertainty because detection probability depends on various factors. To address detection bias, we model the distribution of a species of benthic animals (holothurians) in an area of the Italian Tyrrhenian coast near Giglio Island using a Thinned Log-Gaussian Cox Process (LGCP). We assume that a \"true\" intensity function accurately describes the distribution, while the observed process, resulting from independent thinning, is represented by a degraded intensity. The detection function controls the thinning mechanism, influenced by the object's location and other detection-related features. We use manual identification of holothurians as our benchmark. We compare automatic detection with this benchmark, an unthinned LGCP, and the thinned model to highlight the improvements gained from the proposed approach.Our method allows researchers to use photogrammetry, automatically identify objects of interest, and correct biases and approximations caused by the observation process.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Explainable AI for Diabetic Retinopathy Detection Using Deep Learning with Attention Mechanisms and Fuzzy Logic-Based Interpretability",
+    "url": "http://arxiv.org/abs/2511.16294v1",
+    "authors": [
+      "Abishek Karthik",
+      "Pandiyaraju V",
+      "Sreya Mynampati"
+    ],
+    "published": "2025-11-20",
+    "abstract": "The task of weed detection is an essential element of precision agriculture since accurate species identification allows a farmer to selectively apply herbicides and fits into sustainable agriculture crop management. This paper proposes a hybrid deep learning framework recipe for weed detection that utilizes Convolutional Neural Networks (CNNs), Vision Transformers (ViTs), and Graph Neural Networks (GNNs) to build robustness to multiple field conditions. A Generative Adversarial Network (GAN)-based augmentation method was imposed to balance class distributions and better generalize the model. Further, a self-supervised contrastive pre-training method helps to learn more features from limited annotated data. Experimental results yield superior results with 99.33% accuracy, precision, recall, and F1-score on multi-benchmark datasets. The proposed model architecture enables local, global, and relational feature representations and offers high interpretability and adaptability. Practically, the framework allows real-time, efficient deployment of edge devices for automated weed detecting, reducing over-reliance on herbicides and providing scalable, sustainable precision-farming options.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer",
+      "GAN",
+      "GNN"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "A Hybrid CNN-ViT-GNN Framework with GAN-Based Augmentation for Intelligent Weed Detection in Precision Agriculture",
+    "url": "http://arxiv.org/abs/2511.15535v1",
+    "authors": [
+      "Pandiyaraju V",
+      "Abishek Karthik",
+      "Sreya Mynampati",
+      "Poovarasan L",
+      "D. Saraswathi"
+    ],
+    "published": "2025-11-19",
+    "abstract": "The task of weed detection is an essential element of precision agriculture since accurate species identification allows a farmer to selectively apply herbicides and fits into sustainable agriculture crop management. This paper proposes a hybrid deep learning framework recipe for weed detection that utilizes Convolutional Neural Networks (CNNs), Vision Transformers (ViTs), and Graph Neural Networks (GNNs) to build robustness to multiple field conditions. A Generative Adversarial Network (GAN)-based augmentation method was imposed to balance class distributions and better generalize the model. Further, a self-supervised contrastive pre-training method helps to learn more features from limited annotated data. Experimental results yield superior results with 99.33% accuracy, precision, recall, and F1-score on multi-benchmark datasets. The proposed model architecture enables local, global, and relational feature representations and offers high interpretability and adaptability. Practically, the framework allows real-time, efficient deployment to edge devices for automated weed detecting, reducing over-reliance on herbicides and providing scalable, sustainable precision-farming options.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer",
+      "GAN",
+      "GNN"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Experimental and Theoretical Aspects of the Fragmentation of Carbon's Single and Multi-Walled Nanotubes",
+    "url": "http://arxiv.org/abs/2511.15467v1",
+    "authors": [
+      "Sumera Javeed",
+      "Shoaib Ahmad"
+    ],
+    "published": "2025-11-19",
+    "abstract": "Energetic ion irradiation is an effective method for studying how single and multi-shelled carbon nanotubes break apart. The energy from ions is dissipated through both linear and nonlinear processes in the nanotubes, leading to defect formation. Fragmentation occurs via atomic collision cascades and thermal spikes, each described by different theoretical models. Experiments with Cs-irradiated nanotubes support these models, and an information-theoretic approach further explains the fragmentation mechanisms. Sputtered species yield probability distributions, which are analyzed using Shannon entropy and fractal dimension to assess spatial characteristics. Kullback-Leibler divergence helps identify the diversity of emission mechanisms. Together, thermal and information-theoretic models clarify and distinguish the roles of collision cascades and thermal spikes in nanotube fragmentation.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Sense and Sensitivity - I. Uncertainty analysis of the gas-phase chemistry in AGB outflows",
+    "url": "http://arxiv.org/abs/2511.13638v1",
+    "authors": [
+      "M. Van de Sande",
+      "M. Gueguen",
+      "T. Danilovich",
+      "T. J. Millar"
+    ],
+    "published": "2025-11-17",
+    "abstract": "Chemical reaction networks are central to all chemical models. Each rate coefficient has an associated uncertainty, which is generally not taken into account when calculating the chemistry. We performed the first uncertainty analysis of a chemical model of C-rich and O-rich AGB outflows using the Rate22 reaction network. Quantifying the error on the model predictions enables us to determine the need for adding complexity to the model. Using a Monte Carlo sampling method, we quantified the impact of the uncertainties on the chemical kinetic data on the predicted fractional abundances and column densities. The errors are caused by a complex interplay of reactions forming and destroying each species. Parent species show an error on their envelope sizes, which is not caused by the uncertainty on their photodissociation rate, but rather the chemistry reforming the parent after its photodissociation. Using photodissociation models to estimate the envelope size might be an oversimplification. The error on the CO envelope impacts retrieved mass-loss rates by up to a factor of two. For daughter species, the error on the peak fractional abundance ranges from a factor of a few to three orders of magnitude, and is on average about 10\\% of its value. This error is positively correlated with the error on the column density. The standard model suffices for many species, e.g., the radial distribution of cyanopolyynes and hydrocarbon radicals around IRC +10216. However, including spherical asymmetries, dust-gas chemistry, and photochemistry induced by a close-by stellar companion are still necessary to explain certain observations.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "GeoPl@ntNet: A Platform for Exploring Essential Biodiversity Variables",
+    "url": "http://arxiv.org/abs/2511.13790v1",
+    "authors": [
+      "Lukas Picek",
+      "C\u00e9sar Leblanc",
+      "Alexis Joly",
+      "Pierre Bonnet",
+      "R\u00e9mi Palard",
+      "Maximilien Servajean"
+    ],
+    "published": "2025-11-16",
+    "abstract": "This paper describes GeoPl@ntNet, an interactive web application designed to make Essential Biodiversity Variables accessible and understandable to everyone through dynamic maps and fact sheets. Its core purpose is to allow users to explore high-resolution AI-generated maps of species distributions, habitat types, and biodiversity indicators across Europe. These maps, developed through a cascading pipeline involving convolutional neural networks and large language models, provide an intuitive yet information-rich interface to better understand biodiversity, with resolutions as precise as 50x50 meters. The website also enables exploration of specific regions, allowing users to select areas of interest on the map (e.g., urban green spaces, protected areas, or riverbanks) to view local species and their coverage. Additionally, GeoPl@ntNet generates comprehensive reports for selected regions, including insights into the number of protected species, invasive species, and endemic species.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [
+      "CNN",
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Axiomatic Foundations of Chemical Systems as Ternary Gamma-Semirings",
+    "url": "http://arxiv.org/abs/2511.12699v1",
+    "authors": [
+      "Chandrasekhar Gokavarapu",
+      "Venkata Rao Kaviti",
+      "Srinivasa Rao Thirunagari",
+      "D. Madhusudhana Rao"
+    ],
+    "published": "2025-11-16",
+    "abstract": "Chemical transformations depend not only on the identities of the reacting species but also on the catalytic, environmental, and intermediate conditions under which they occur. Classical binary reaction formalisms usually treat such condi- tions as external annotations, which obscures the genuinely multi-state and multi- parameter character of real chemical processes. In this paper we introduce an axiomatic framework in which a chemical system is modelled by a ternary \u0393-semiring. The elements of the state set represent chemical states, while the parameter set encodes catalytic and environmental conditions. A \u0393- dependent ternary operation is used to describe mediated transformations, treating reactants, intermediates, and mediators as intrinsic arguments of the transformation law. We develop the algebraic axioms governing these mediated interactions and in- terpret their associativity, distributivity, and \u0393-linearity in terms of multi-step path- ways, parallel processes, and controlled environmental dependence. We introduce chemical ideals and \u0393-ideals as algebraic structures modelling reaction-closed sub- systems and pathway-stable domains, and study their prime and semiprime forms. Homomorphisms between TGS-chemical systems are shown to preserve reaction pathways and describe consistent changes of chemical environment. Abstract examples from catalysis, thermodynamic phase control, and field- induced quantum transitions illustrate how familiar chemical phenomena fit within this framework. The resulting theory provides a unified algebraic foundation for multi-parameter chemical behaviour and establishes the structural basis for subse- quent developments involving kinetics, geometric methods, and computational or AI-assisted models.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [],
+    "applications": []
   }
 ]
