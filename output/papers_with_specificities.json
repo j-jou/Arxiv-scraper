@@ -17713,5 +17713,257 @@
     ],
     "architectures": [],
     "applications": []
+  },
+  {
+    "title": "ReSAM: Refine, Requery, and Reinforce: Self-Prompting Point-Supervised Segmentation for Remote Sensing Images",
+    "url": "http://arxiv.org/abs/2511.21606v1",
+    "authors": [
+      "M. Naseer Subhani"
+    ],
+    "published": "2025-11-26",
+    "abstract": "Interactive segmentation models such as the Segment Anything Model (SAM) have demonstrated remarkable generalization on natural images, but perform suboptimally on remote sensing imagery (RSI) due to severe domain shift and the scarcity of dense annotations. To address this, we propose a self-prompting, point-supervised framework that adapts SAM to RSIs using only sparse point annotations. Our method employs a Refine-Requery-Reinforce loop, where coarse pseudo-masks are generated from initial points (Refine), improved with self-constructed box prompts (Requery), and embeddings are aligned across iterations to reduce confirmation bias (Reinforce). Without relying on full-mask supervision, our approach progressively enhances SAM's segmentation quality and domain robustness through self-guided prompt adaptation . We evaluate our proposed method on three RSI benchmark datasets, including WHU, HRSID, and NWPU VHR-10, showing that our method consistently surpasses pretrained SAM and recent point-supervised segmentation methods. Our results demonstrate that self-prompting and semantic alignment provide an efficient path towards scalable, point-level adaptation of foundation segmentation models for remote sensing applications.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "EoS-FM: Can an Ensemble of Specialist Models act as a Generalist Feature Extractor?",
+    "url": "http://arxiv.org/abs/2511.21523v1",
+    "authors": [
+      "Pierre Adorni",
+      "Minh-Tan Pham",
+      "St\u00e9phane May",
+      "S\u00e9bastien Lef\u00e8vre"
+    ],
+    "published": "2025-11-26",
+    "abstract": "Recent advances in foundation models have shown great promise in domains such as natural language processing and computer vision, and similar efforts are now emerging in the Earth Observation community. These models aim to generalize across tasks with limited supervision, reducing the need for training separate models for each task. However, current strategies, which largely focus on scaling model size and dataset volume, require prohibitive computational and data resources, limiting accessibility to only a few large institutions. Moreover, this paradigm of ever-larger models stands in stark contrast with the principles of sustainable and environmentally responsible AI, as it leads to immense carbon footprints and resource inefficiency. In this work, we present a novel and efficient alternative: an Ensemble-of-Specialists framework for building Remote Sensing Foundation Models (RSFMs). Our method decomposes the training process into lightweight, task-specific ConvNeXtV2 specialists that can be frozen and reused. This modular approach offers strong advantages in efficiency, interpretability, and extensibility. Moreover, it naturally supports federated training, pruning, and continuous specialist integration, making it particularly well-suited for collaborative and resource-constrained settings. Our framework sets a new direction for building scalable and efficient RSFMs.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "SAM Guided Semantic and Motion Changed Region Mining for Remote Sensing Change Captioning",
+    "url": "http://arxiv.org/abs/2511.21420v1",
+    "authors": [
+      "Futian Wang",
+      "Mengqi Wang",
+      "Xiao Wang",
+      "Haowen Wang",
+      "Jin Tang"
+    ],
+    "published": "2025-11-26",
+    "abstract": "Remote sensing change captioning is an emerging and popular research task that aims to describe, in natural language, the content of interest that has changed between two remote sensing images captured at different times. Existing methods typically employ CNNs/Transformers to extract visual representations from the given images or incorporate auxiliary tasks to enhance the final results, with weak region awareness and limited temporal alignment. To address these issues, this paper explores the use of the SAM (Segment Anything Model) foundation model to extract region-level representations and inject region-of-interest knowledge into the captioning framework. Specifically, we employ a CNN/Transformer model to extract global-level vision features, leverage the SAM foundation model to delineate semantic- and motion-level change regions, and utilize a specially constructed knowledge graph to provide information about objects of interest. These heterogeneous sources of information are then fused via cross-attention, and a Transformer decoder is used to generate the final natural language description of the observed changes. Extensive experimental results demonstrate that our method achieves state-of-the-art performance across multiple widely used benchmark datasets. The source code of this paper will be released on https://github.com/Event-AHU/SAM_ChangeCaptioning",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Look Where It Matters: Training-Free Ultra-HR Remote Sensing VQA via Adaptive Zoom Search",
+    "url": "http://arxiv.org/abs/2511.20460v1",
+    "authors": [
+      "Yunqi Zhou",
+      "Chengjie Jiang",
+      "Chun Yuan",
+      "Jing Li"
+    ],
+    "published": "2025-11-25",
+    "abstract": "With advances in satellite constellations, sensor technologies, and imaging pipelines, ultra-high-resolution (Ultra-HR) remote sensing imagery is becoming increasingly widespread. However, current remote sensing foundation models are ill-suited to such inputs: full-image encoding exhausts token and memory budgets, while resize-based preprocessing loses fine-grained and answer-critical details. In this context, guiding the model look where it matters before prediction becomes crucial. Therefore, we present ZoomSearch, a training-free, plug-and-play pipeline that decouples 'where to look' from 'how to answer' for Ultra-HR Remote Sensing Visual Question Answering (RS-VQA). ZoomSearch combines Adaptive Multi-Branch Zoom Search, which performs a hierarchical search over image patches to localize query-relevant regions, with Layout-Aware Patch Reassembly, which reorganizes the selected patches into a compact, layout-faithful canvas. We conduct comprehensive experiments on Ultra-HR RS-VQA benchmarks MME-RealWorld-RS and LRS-VQA, comparing against (i) strong general foundation models, (ii) remote sensing foundation models, (iii) Ultra-HR RS-VQA methods, and (iv) plug-and-play search-based VQA methods. When integrated with LLaVA-ov, ZoomSearch attains state-of-the-art accuracy across diverse tasks, improving the LLaVA-ov baseline by 26.3% on LRS-VQA and 114.8\\% on MME-RealWorld-RS. Meanwhile, it achieves much higher inference efficiency, outperforming prior search-based methods by 20%~44% in speed.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "CrossEarth-Gate: Fisher-Guided Adaptive Tuning Engine for Efficient Adaptation of Cross-Domain Remote Sensing Semantic Segmentation",
+    "url": "http://arxiv.org/abs/2511.20302v2",
+    "authors": [
+      "Shilei Cao",
+      "Ziyang Gong",
+      "Hehai Lin",
+      "Yang Liu",
+      "Jiashun Cheng",
+      "Xiaoxing Hu",
+      "Haoyuan Liang",
+      "Guowen Li",
+      "Chengwei Qin",
+      "Hong Cheng",
+      "Xue Yang",
+      "Juepeng Zheng",
+      "Haohuan Fu"
+    ],
+    "published": "2025-11-25",
+    "abstract": "In Remote Sensing (RS), Parameter-Efficient Fine-Tuning (PEFT) has emerged as a key approach to activate the generalizable representation ability of foundation models for downstream tasks. However, existing specialized PEFT methods often fail when applied to large-scale Earth observation tasks, as they are unable to fully handle the multifaceted and unpredictable domain gaps (\\eg, spatial, semantic, and frequency shifts) inherent in RS data. To overcome this, we propose CrossEarth-Gate, which introduces two primary contributions. First, we establish a comprehensive RS module toolbox to address multifaceted domain gaps, comprising spatial, semantic, and frequency modules. Second, we develop a Fisher-guided adaptive selection mechanism that operates on this toolbox. This selection is guided by Fisher Information to quantify each module's importance by measuring its contribution to the task-specific gradient flow. It dynamically activates only the most critical modules at the appropriate layers, guiding the gradient flow to maximize adaptation effectiveness and efficiency. Comprehensive experiments validate the efficacy and generalizability of our method, where CrossEarth-Gate achieves state-of-the-art performance across 16 cross-domain benchmarks for RS semantic segmentation. The code of the work will be released.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "Zero-Shot Transfer Capabilities of the Sundial Foundation Model for Leaf Area Index Forecasting",
+    "url": "http://arxiv.org/abs/2511.20004v1",
+    "authors": [
+      "Peining Zhang",
+      "Hongchen Qin",
+      "Haochen Zhang",
+      "Ziqi Guo",
+      "Guiling Wang",
+      "Jinbo Bi"
+    ],
+    "published": "2025-11-25",
+    "abstract": "This work investigates the zero-shot forecasting capability of time-series foundation models for Leaf Area Index (LAI) forecasting in agricultural monitoring. Using the HiQ dataset (U.S., 2000-2022), we systematically compare statistical baselines, a fully supervised LSTM, and the Sundial foundation model under multiple evaluation protocols. We find that Sundial, in the zero-shot setting, can outperform a fully trained LSTM provided that the input context window is sufficiently long-specifically, when covering more than one or two full seasonal cycles. This demonstrates, for the first time, that a general-purpose foundation model can surpass specialized supervised models on remote-sensing time series prediction without any task-specific tuning. These results highlight the strong potential of pretrained time-series foundation models to serve as effective plug-and-play forecasters in agricultural and environmental applications.",
+    "categories": [
+      "foundation_model",
+      "remote_sensing"
+    ],
+    "architectures": [
+      "LSTM"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "SatSAM2: Motion-Constrained Video Object Tracking in Satellite Imagery using Promptable SAM2 and Kalman Priors",
+    "url": "http://arxiv.org/abs/2511.18264v2",
+    "authors": [
+      "Ruijie Fan",
+      "Junyan Ye",
+      "Huan Chen",
+      "Zilong Huang",
+      "Xiaolei Wang",
+      "Weijia Li"
+    ],
+    "published": "2025-11-23",
+    "abstract": "Existing satellite video tracking methods often struggle with generalization, requiring scenario-specific training to achieve satisfactory performance, and are prone to track loss in the presence of occlusion. To address these challenges, we propose SatSAM2, a zero-shot satellite video tracker built on SAM2, designed to adapt foundation models to the remote sensing domain. SatSAM2 introduces two core modules: a Kalman Filter-based Constrained Motion Module (KFCMM) to exploit temporal motion cues and suppress drift, and a Motion-Constrained State Machine (MCSM) to regulate tracking states based on motion dynamics and reliability. To support large-scale evaluation, we propose MatrixCity Video Object Tracking (MVOT), a synthetic benchmark containing 1,500+ sequences and 157K annotated frames with diverse viewpoints, illumination, and occlusion conditions. Extensive experiments on two satellite tracking benchmarks and MVOT show that SatSAM2 outperforms both traditional and foundation model-based trackers, including SAM2 and its variants. Notably, on the OOTB dataset, SatSAM2 achieves a 5.84% AUC improvement over state-of-the-art methods. Our code and dataset will be publicly released to encourage further research.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Tracking"
+    ]
+  },
+  {
+    "title": "SX-GeoTree: Self-eXplaining Geospatial Regression Tree Incorporating the Spatial Similarity of Feature Attributions",
+    "url": "http://arxiv.org/abs/2511.19845v1",
+    "authors": [
+      "Chaogui Kang",
+      "Lijian Luo",
+      "Qingfeng Guan",
+      "Yu Liu"
+    ],
+    "published": "2025-11-25",
+    "abstract": "Decision trees remain central for tabular prediction but struggle with (i) capturing spatial dependence and (ii) producing locally stable (robust) explanations. We present SX-GeoTree, a self-explaining geospatial regression tree that integrates three coupled objectives during recursive splitting: impurity reduction (MSE), spatial residual control (global Moran's I), and explanation robustness via modularity maximization on a consensus similarity network formed from (a) geographically weighted regression (GWR) coefficient distances (stimulus-response similarity) and (b) SHAP attribution distances (explanatory similarity). We recast local Lipschitz continuity of feature attributions as a network community preservation problem, enabling scalable enforcement of spatially coherent explanations without per-sample neighborhood searches. Experiments on two exemplar tasks (county-level GDP in Fujian, n=83; point-wise housing prices in Seattle, n=21,613) show SX-GeoTree maintains competitive predictive accuracy (within 0.01 $R^{2}$ of decision trees) while improving residual spatial evenness and doubling attribution consensus (modularity: Fujian 0.19 vs 0.09; Seattle 0.10 vs 0.05). Ablation confirms Moran's I and modularity terms are complementary; removing either degrades both spatial residual structure and explanation stability. The framework demonstrates how spatial similarity - extended beyond geometric proximity through GWR-derived local relationships - can be embedded in interpretable models, advancing trustworthy geospatial machine learning and offering a transferable template for domain-aware explainability.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Regression",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Hierarchical Semi-Supervised Active Learning for Remote Sensing",
+    "url": "http://arxiv.org/abs/2511.18058v1",
+    "authors": [
+      "Wei Huang",
+      "Zhitong Xiong",
+      "Chenying Liu",
+      "Xiao Xiang Zhu"
+    ],
+    "published": "2025-11-22",
+    "abstract": "The performance of deep learning models in remote sensing (RS) strongly depends on the availability of high-quality labeled data. However, collecting large-scale annotations is costly and time-consuming, while vast amounts of unlabeled imagery remain underutilized. To address this challenge, we propose a Hierarchical Semi-Supervised Active Learning (HSSAL) framework that integrates semi-supervised learning (SSL) and a novel hierarchical active learning (HAL) in a closed iterative loop. In each iteration, SSL refines the model using both labeled data through supervised learning and unlabeled data via weak-to-strong self-training, improving feature representation and uncertainty estimation. Guided by the refined representations and uncertainty cues of unlabeled samples, HAL then conducts sample querying through a progressive clustering strategy, selecting the most informative instances that jointly satisfy the criteria of scalability, diversity, and uncertainty. This hierarchical process ensures both efficiency and representativeness in sample selection. Extensive experiments on three benchmark RS scene classification datasets, including UCM, AID, and NWPU-RESISC45, demonstrate that HSSAL consistently outperforms SSL- or AL-only baselines. Remarkably, with only 8%, 4%, and 2% labeled training data on UCM, AID, and NWPU-RESISC45, respectively, HSSAL achieves over 95% of fully-supervised accuracy, highlighting its superior label efficiency through informativeness exploitation of unlabeled data. Our code will be released at https://github.com/zhu-xlab/RS-SSAL.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Extratropical Atmospheric Circulation Response to ENSO in Deep Learning Pacific Pacemaker Experiments",
+    "url": "http://arxiv.org/abs/2511.20899v1",
+    "authors": [
+      "Zhanxiang Hua",
+      "Christina Karamperidou",
+      "Zilu Meng"
+    ],
+    "published": "2025-11-25",
+    "abstract": "Coupled atmosphere-ocean deep learning (DL) climate emulators are a new frontier but are known to exhibit weak ENSO variability, raising questions about their ability to simulate teleconnections. Here, we present the first Pacific pacemaker (PACE) experiments using a coupled DL emulator (DLESyM) to bypass this weak variability and isolate the atmospheric response to observed ENSO forcing. We find that while the emulator realistically captures internal atmospheric variability, it produces a significantly amplified forced teleconnection response to ENSO. This amplified response leads to biases in simulating extremes, notably an overestimation of atmospheric blocking frequency and duration with the underestimation of peak intensity. Our findings underscore that coupled DL climate models require in-depth and physically-grounded validation, analogous to traditional numerical models, to build confidence in their use for physical climate analysis.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "OceanForecastBench: A Benchmark Dataset for Data-Driven Global Ocean Forecasting",
+    "url": "http://arxiv.org/abs/2511.18732v1",
+    "authors": [
+      "Haoming Jia",
+      "Yi Han",
+      "Xiang Wang",
+      "Huizan Wang",
+      "Wei Wu",
+      "Jianming Zheng",
+      "Peikun Xiao"
+    ],
+    "published": "2025-11-24",
+    "abstract": "Global ocean forecasting aims to predict key ocean variables such as temperature, salinity, and currents, which is essential for understanding and describing oceanic phenomena. In recent years, data-driven deep learning-based ocean forecast models, such as XiHe, WenHai, LangYa and AI-GOMS, have demonstrated significant potential in capturing complex ocean dynamics and improving forecasting efficiency. Despite these advancements, the absence of open-source, standardized benchmarks has led to inconsistent data usage and evaluation methods. This gap hinders efficient model development, impedes fair performance comparison, and constrains interdisciplinary collaboration. To address this challenge, we propose OceanForecastBench, a benchmark offering three core contributions: (1) A high-quality global ocean reanalysis data over 28 years for model training, including 4 ocean variables across 23 depth levels and 4 sea surface variables. (2) A high-reliability satellite and in-situ observations for model evaluation, covering approximately 100 million locations in the global ocean. (3) An evaluation pipeline and a comprehensive benchmark with 6 typical baseline models, leveraging observations to evaluate model performance from multiple perspectives. OceanForecastBench represents the most comprehensive benchmarking framework currently available for data-driven ocean forecasting, offering an open-source platform for model development, evaluation, and comparison. The dataset and code are publicly available at: https://github.com/Ocean-Intelligent-Forecasting/OceanForecastBench.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Sparse-to-Field Reconstruction via Stochastic Neural Dynamic Mode Decomposition",
+    "url": "http://arxiv.org/abs/2511.20612v1",
+    "authors": [
+      "Yujin Kim",
+      "Sarah Dean"
+    ],
+    "published": "2025-11-25",
+    "abstract": "Many consequential real-world systems, like wind fields and ocean currents, are dynamic and hard to model. Learning their governing dynamics remains a central challenge in scientific machine learning. Dynamic Mode Decomposition (DMD) provides a simple, data-driven approximation, but practical use is limited by sparse/noisy observations from continuous fields, reliance on linear approximations, and the lack of principled uncertainty quantification. To address these issues, we introduce Stochastic NODE-DMD, a probabilistic extension of DMD that models continuous-time, nonlinear dynamics while remaining interpretable. Our approach enables continuous spatiotemporal reconstruction at arbitrary coordinates and quantifies predictive uncertainty. Across four benchmarks, a synthetic setting and three physics-based flows, it surpasses a baseline in reconstruction accuracy when trained from only 10% observation density. It further recovers the dynamical structure by aligning learned modes and continuous-time eigenvalues with ground truth. Finally, on datasets with multiple realizations, our method learns a calibrated distribution over latent dynamics that preserves ensemble variability rather than averaging across regimes. Our code is available at: https://github.com/sedan-group/Stochastic-NODE-DMD",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Icy worlds: Moons and Dwarf Planets",
+    "url": "http://arxiv.org/abs/2511.18776v1",
+    "authors": [
+      "Jun Kimura"
+    ],
+    "published": "2025-11-24",
+    "abstract": "In the outer solar system beyond Jupiter, water ice is a dominant component of planetary bodies, and most solid objects in this region are classified as icy bodies. Icy bodies display a remarkable diversity of geological, geophysical, and atmospheric processes, which differ fundamentally from those of the rocky terrestrial planets. Evidence from past and ongoing spacecraft missions has revealed subsurface oceans, cryovolcanic activity, and tenuous but persistent atmospheres, showing that icy bodies are active and evolving worlds. At the same time, major questions remain unresolved, including the chemical properties of icy materials, the geological histories of their surfaces, and the coupling between internal evolution and orbital dynamics. Current knowledge of the surfaces, interiors, and atmospheres of the principal icy bodies is built on spacecraft measurements, telescopic observations, laboratory experiments, and theoretical modeling. Recent contributions from Juno, JWST, and stellar occultation studies have added valuable constraints on atmospheric composition, interior structure, and surface activity. Looking ahead, missions such as JUICE, Europa Clipper, Dragonfly, and the Uranus Orbiter and Probe are expected to deliver substantial progress in the study of icy bodies. Their findings, combined with continued Earth- and space-based observations and laboratory studies, will be critical for assessing the potential habitability of these environments and for placing them within a broader framework of planetary system formation and evolution.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
   }
 ]
