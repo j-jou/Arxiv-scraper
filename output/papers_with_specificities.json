@@ -17965,5 +17965,339 @@
     ],
     "architectures": [],
     "applications": []
+  },
+  {
+    "title": "HalluGen: Synthesizing Realistic and Controllable Hallucinations for Evaluating Image Restoration",
+    "url": "http://arxiv.org/abs/2512.03345v1",
+    "authors": [
+      "Seunghoi Kim",
+      "Henry F. J. Tregidgo",
+      "Chen Jin",
+      "Matteo Figini",
+      "Daniel C. Alexander"
+    ],
+    "published": "2025-12-03",
+    "abstract": "Generative models are prone to hallucinations: plausible but incorrect structures absent in the ground truth. This issue is problematic in image restoration for safety-critical domains such as medical imaging, industrial inspection, and remote sensing, where such errors undermine reliability and trust. For example, in low-field MRI, widely used in resource-limited settings, restoration models are essential for enhancing low-quality scans, yet hallucinations can lead to serious diagnostic errors. Progress has been hindered by a circular dependency: evaluating hallucinations requires labeled data, yet such labels are costly and subjective. We introduce HalluGen, a diffusion-based framework that synthesizes realistic hallucinations with controllable type, location, and severity, producing perceptually realistic but semantically incorrect outputs (segmentation IoU drops from 0.86 to 0.36). Using HalluGen, we construct the first large-scale hallucination dataset comprising 4,350 annotated images derived from 1,450 brain MR images for low-field enhancement, enabling systematic evaluation of hallucination detection and mitigation. We demonstrate its utility in two applications: (1) benchmarking image quality metrics and developing Semantic Hallucination Assessment via Feature Evaluation (SHAFE), a feature-based metric with soft-attention pooling that improves hallucination sensitivity over traditional metrics; and (2) training reference-free hallucination detectors that generalize to real restoration failures. Together, HalluGen and its open dataset establish the first scalable foundation for evaluating hallucinations in safety-critical image restoration.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection"
+    ]
+  },
+  {
+    "title": "Leveraging Large-Scale Pretrained Spatial-Spectral Priors for General Zero-Shot Pansharpening",
+    "url": "http://arxiv.org/abs/2512.02643v1",
+    "authors": [
+      "Yongchuan Cui",
+      "Peng Liu",
+      "Yi Zeng"
+    ],
+    "published": "2025-12-02",
+    "abstract": "Existing deep learning methods for remote sensing image fusion often suffer from poor generalization when applied to unseen datasets due to the limited availability of real training data and the domain gap between different satellite sensors. To address this challenge, we explore the potential of foundation models by proposing a novel pretraining strategy that leverages large-scale simulated datasets to learn robust spatial-spectral priors. Specifically, our approach first constructs diverse simulated datasets by applying various degradation operations (blur, noise, downsampling) and augmentations (bands generation, channel shuffling, high-pass filtering, color jittering, etc.) to natural images from ImageNet and remote sensing images from SkyScript. We then pretrain fusion models on these simulated data to learn generalizable spatial-spectral representations. The pretrained models are subsequently evaluated on six datasets (WorldView-2/3/4, IKONOS, QuickBird, GaoFen-2) using zero-shot and one-shot paradigms, with both full- and freeze-tuning approaches for fine-tuning. Extensive experiments on different network architectures including convolutional neural networks, Transformer, and Mamba demonstrate that our pretraining strategy significantly improves generalization performance across different satellite sensors and imaging conditions for various fusion models. The pretrained models achieve superior results in zero-shot scenarios and show remarkable adaptation capability with minimal real data in one-shot settings. Our work provides a practical solution for cross-domain pansharpening, establishes a new benchmark for generalization in remote sensing image fusion tasks, and paves the way for leveraging foundation models through advanced training strategies.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "SkyMoE: A Vision-Language Foundation Model for Enhancing Geospatial Interpretation with Mixture of Experts",
+    "url": "http://arxiv.org/abs/2512.02517v1",
+    "authors": [
+      "Jiaqi Liu",
+      "Ronghao Fu",
+      "Lang Sun",
+      "Haoran Liu",
+      "Xiao Yang",
+      "Weipeng Zhang",
+      "Xu Na",
+      "Zhuoran Duan",
+      "Bo Yang"
+    ],
+    "published": "2025-12-02",
+    "abstract": "The emergence of large vision-language models (VLMs) has significantly enhanced the efficiency and flexibility of geospatial interpretation. However, general-purpose VLMs remain suboptimal for remote sensing (RS) tasks. Existing geospatial VLMs typically adopt a unified modeling strategy and struggle to differentiate between task types and interpretation granularities, limiting their ability to balance local detail perception and global contextual understanding. In this paper, we present SkyMoE, a Mixture-of-Experts (MoE) vision-language model tailored for multimodal, multi-task RS interpretation. SkyMoE employs an adaptive router that generates task- and granularity-aware routing instructions, enabling specialized large language model experts to handle diverse sub-tasks. To further promote expert decoupling and granularity sensitivity, we introduce a context-disentangled augmentation strategy that creates contrastive pairs between local and global features, guiding experts toward level-specific representation learning. We also construct MGRS-Bench, a comprehensive benchmark covering multiple RS interpretation tasks and granularity levels, to evaluate generalization in complex scenarios. Extensive experiments on 21 public datasets demonstrate that SkyMoE achieves state-of-the-art performance across tasks, validating its adaptability, scalability, and superior multi-granularity understanding in remote sensing.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "LLM",
+      "LVM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Bridging the Scale Gap: Balanced Tiny and General Object Detection in Remote Sensing Imagery",
+    "url": "http://arxiv.org/abs/2512.01665v1",
+    "authors": [
+      "Zhicheng Zhao",
+      "Yin Huang",
+      "Lingma Sun",
+      "Chenglong Li",
+      "Jin Tang"
+    ],
+    "published": "2025-12-01",
+    "abstract": "Tiny object detection in remote sensing imagery has attracted significant research interest in recent years. Despite recent progress, achieving balanced detection performance across diverse object scales remains a formidable challenge, particularly in scenarios where dense tiny objects and large objects coexist. Although large foundation models have revolutionized general vision tasks, their application to tiny object detection remains unexplored due to the extreme scale variation and density distribution inherent to remote sensing imagery. To bridge this scale gap, we propose ScaleBridge-Det, to the best of our knowledge, the first large detection framework designed for tiny objects, which could achieve balanced performance across diverse scales through scale-adaptive expert routing and density-guided query allocation. Specifically, we introduce a Routing-Enhanced Mixture Attention (REM) module that dynamically selects and fuses scale-specific expert features via adaptive routing to address the tendency of standard MoE models to favor dominant scales. REM generates complementary and discriminative multi-scale representations suitable for both tiny and large objects. Furthermore, we present a Density-Guided Dynamic Query (DGQ) module that predicts object density to adaptively adjust query positions and numbers, enabling efficient resource allocation for objects of varying scales. The proposed framework allows ScaleBridge-Det to simultaneously optimize performance for both dense tiny and general objects without trade-offs. Extensive experiments on benchmark and cross-domain datasets demonstrate that ScaleBridge-Det achieves state-of-the-art performance on AI-TOD-V2 and DTOD, while exhibiting superior cross-domain robustness on VisDrone.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "RS-ISRefiner: Towards Better Adapting Vision Foundation Models for Interactive Segmentation of Remote Sensing Images",
+    "url": "http://arxiv.org/abs/2512.00718v1",
+    "authors": [
+      "Deliang Wang",
+      "Peng Liu"
+    ],
+    "published": "2025-11-30",
+    "abstract": "Interactive image segmentation(IIS) plays a critical role in generating precise annotations for remote sensing imagery, where objects often exhibit scale variations, irregular boundaries and complex backgrounds. However, existing IIS methods, primarily designed for natural images, struggle to generalize to remote sensing domains due to limited annotated data and computational overhead. To address these challenges, we proposed RS-ISRefiner, a novel click-based IIS framework tailored for remote sensing images. The framework employs an adapter-based tuning strategy that preserves the general representations of Vision Foundation Models while enabling efficient learning of remote sensing-specific spatial and boundary characteristics. A hybrid attention mechanism integrating convolutional local modeling with Transformer-based global reasoning enhances robustness against scale diversity and scene complexity. Furthermore, an improved probability map modulation scheme effectively incorporates historical user interactions, yielding more stable iterative refinement and higher boundary fidelity. Comprehensive experiments on six remote sensing datasets, including iSAID, ISPRS Potsdam, SandBar, NWPU, LoveDA Urban and WHUBuilding, demonstrate that RS-ISRefiner consistently outperforms state-of-the-art IIS methods in terms of segmentation accuracy, efficiency and interaction cost. These results confirm the effectiveness and generalizability of our framework, making it highly suitable for high-quality instance segmentation in practical remote sensing scenarios.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "First On-Orbit Demonstration of a Geospatial Foundation Model",
+    "url": "http://arxiv.org/abs/2512.01181v1",
+    "authors": [
+      "Andrew Du",
+      "Roberto Del Prete",
+      "Alejandro Mousist",
+      "Nick Manser",
+      "Fabrice Marre",
+      "Andrew Barton",
+      "Carl Seubert",
+      "Gabriele Meoni",
+      "Tat-Jun Chin"
+    ],
+    "published": "2025-12-01",
+    "abstract": "Geospatial foundation models (GeoFMs) promise broad generalisation capacity for Earth observation (EO) tasks, particularly under data-limited conditions. However, their large size poses a barrier to deployment on resource-constrained space hardware. To address this, we present compact variants of a Vision Transformer (ViT)-based GeoFM that preserve downstream task performance while enabling onboard execution. Evaluation across five downstream tasks and validation in two representative flight environments show that model compression and domain adaptation are critical to reducing size and resource demands while maintaining high performance under operational conditions. We further demonstrate reliable on-orbit inference with the IMAGIN-e payload aboard the International Space Station. These results establish a pathway from large GeoFMs to flight-ready, resource-efficient deployments, expanding the feasibility of onboard AI for EO missions.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "A 3D virtual geographic environment for flood representation towards risk communication",
+    "url": "http://arxiv.org/abs/2512.03839v1",
+    "authors": [
+      "Weilian Li",
+      "Jun Zhu",
+      "Saied Pirasteh",
+      "Qing Zhu",
+      "Yukun Guo",
+      "Lan Luo",
+      "Youness Dehbi"
+    ],
+    "published": "2025-12-03",
+    "abstract": "Risk communication seeks to develop a shared understanding of disaster among stakeholders, thereby amplifying public awareness and empowering them to respond more effectively to emergencies. However, existing studies have overemphasized specialized numerical modelling, making the professional output challenging to understand and use by non-research stakeholders. In this context, this article proposes a 3D virtual geographic environment for flood representation towards risk communication, which integrates flood modelling, parallel computation, and 3D representation in a pipeline. Finally, a section of the Rhine River in Bonn, Germany, is selected for experiment analysis. The experimental results show that the proposed approach is capable of flood modelling and 3D representation within a few hours, the parallel speedup ratio reached 6.45. The intuitive flood scene with 3D city models is beneficial for promoting flood risk communication and is particularly helpful for participants without direct experience of floods to understand its spatiotemporal process. It also can be embedded in the Geospatial Infrastructure Management Ecosystem (GeoIME) cloud application for intelligent flood systems.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "CartoMapQA: A Fundamental Benchmark Dataset Evaluating Vision-Language Models on Cartographic Map Understanding",
+    "url": "http://arxiv.org/abs/2512.03558v1",
+    "authors": [
+      "Huy Quang Ung",
+      "Guillaume Habault",
+      "Yasutaka Nishimura",
+      "Hao Niu",
+      "Roberto Legaspi",
+      "Tomoki Oya",
+      "Ryoichi Kojima",
+      "Masato Taya",
+      "Chihiro Ono",
+      "Atsunori Minamikawa",
+      "Yan Liu"
+    ],
+    "published": "2025-12-03",
+    "abstract": "The rise of Visual-Language Models (LVLMs) has unlocked new possibilities for seamlessly integrating visual and textual information. However, their ability to interpret cartographic maps remains largely unexplored. In this paper, we introduce CartoMapQA, a benchmark specifically designed to evaluate LVLMs' understanding of cartographic maps through question-answering tasks. The dataset includes over 2000 samples, each composed of a cartographic map, a question (with open-ended or multiple-choice answers), and a ground-truth answer. These tasks span key low-, mid- and high-level map interpretation skills, including symbol recognition, embedded information extraction, scale interpretation, and route-based reasoning. Our evaluation of both open-source and proprietary LVLMs reveals persistent challenges: models frequently struggle with map-specific semantics, exhibit limited geospatial reasoning, and are prone to Optical Character Recognition (OCR)-related errors. By isolating these weaknesses, CartoMapQA offers a valuable tool for guiding future improvements in LVLM architectures. Ultimately, it supports the development of models better equipped for real-world applications that depend on robust and reliable map understanding, such as navigation, geographic search, and urban planning. Our source code and data are openly available to the research community at: https://github.com/ungquanghuy-kddi/CartoMapQA.git",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Recognition"
+    ]
+  },
+  {
+    "title": "PyroFocus: A Deep Learning Approach to Real-Time Wildfire Detection in Multispectral Remote Sensing Imagery",
+    "url": "http://arxiv.org/abs/2512.03257v1",
+    "authors": [
+      "Mark Moussa",
+      "Andre Williams",
+      "Seth Roffe",
+      "Douglas Morton"
+    ],
+    "published": "2025-12-02",
+    "abstract": "Rapid and accurate wildfire detection is crucial for emergency response and environmental management. In airborne and spaceborne missions, real-time algorithms must distinguish between no fire, active fire, and post-fire conditions, and estimate fire intensity. Multispectral and hyperspectral thermal imagers provide rich spectral information, but high data dimensionality and limited onboard resources make real-time processing challenging. As wildfires increase in frequency and severity, the need for low-latency and computationally efficient onboard detection methods is critical.\n  We present a systematic evaluation of multiple deep learning architectures, including custom Convolutional Neural Networks (CNNs) and Transformer-based models, for multi-class fire classification. We also introduce PyroFocus, a two-stage pipeline that performs fire classification followed by fire radiative power (FRP) regression or segmentation to reduce inference time and computational cost for onboard deployment. Using data from NASA's MODIS/ASTER Airborne Simulator (MASTER), which is similar to a next-generation fire detection sensor, we compare accuracy, inference latency, and resource efficiency.\n  Experimental results show that the proposed two-stage pipeline achieves strong trade-offs between speed and accuracy, demonstrating significant potential for real-time edge deployment in future wildfire monitoring missions.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": [
+      "Segmentation",
+      "Detection",
+      "Classification",
+      "Regression"
+    ]
+  },
+  {
+    "title": "FluxLab: Creating 3D Printable Shape-Changing Devices with Integrated Deformation Sensing",
+    "url": "http://arxiv.org/abs/2512.02911v1",
+    "authors": [
+      "Hsuanling Lee",
+      "Jiakun Yu",
+      "Shurui Zheng",
+      "Te-Yan Wu",
+      "Liang He"
+    ],
+    "published": "2025-12-02",
+    "abstract": "We present FluxLab, a system comprising interactive tools for creating custom 3D-printable shape-changing devices with integrated deformation sensing. To achieve this, we propose a 3D printable nesting structure, consisting of a central SMA channel for sensing and actuation, lattice-based padding in the middle for structural support and controllable elasticity, and parallel helix-based surface wires that preserve the overall form and provide anchoring struts for guided deformation. We developed a design editor to embed these structures into custom 3D models for printing with elastic silicone resin on a consumer-grade SLA 3D printer and minimal post-printing assembly. A deformation authoring tool was also developed for users to build a machine learning-based classifier that distinguishes desired deformation behaviors using inductive sensing. Finally, we demonstrate the potential of our system through example applications, including a self-deformable steamer bowl clip, a remotely controllable gripper, and an interactive desk lamp.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CLIP"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Observation-driven correction of numerical weather prediction for marine winds",
+    "url": "http://arxiv.org/abs/2512.03606v1",
+    "authors": [
+      "Matteo Peduto",
+      "Qidong Yang",
+      "Jonathan Giezendanner",
+      "Devis Tuia",
+      "Sherrie Wang"
+    ],
+    "published": "2025-12-03",
+    "abstract": "Accurate marine wind forecasts are essential for safe navigation, ship routing, and energy operations, yet they remain challenging because observations over the ocean are sparse, heterogeneous, and temporally variable. We reformulate wind forecasting as observation-informed correction of a global numerical weather prediction (NWP) model. Rather than forecasting winds directly, we learn local correction patterns by assimilating the latest in-situ observations to adjust the Global Forecast System (GFS) output. We propose a transformer-based deep learning architecture that (i) handles irregular and time-varying observation sets through masking and set-based attention mechanisms, (ii) conditions predictions on recent observation-forecast pairs via cross-attention, and (iii) employs cyclical time embeddings and coordinate-aware location representations to enable single-pass inference at arbitrary spatial coordinates. We evaluate our model over the Atlantic Ocean using observations from the International Comprehensive Ocean-Atmosphere Data Set (ICOADS) as reference. The model reduces GFS 10-meter wind RMSE at all lead times up to 48 hours, achieving 45% improvement at 1-hour lead time and 13% improvement at 48-hour lead time. Spatial analyses reveal the most persistent improvements along coastlines and shipping routes, where observations are most abundant. The tokenized architecture naturally accommodates heterogeneous observing platforms (ships, buoys, tide gauges, and coastal stations) and produces both site-specific predictions and basin-scale gridded products in a single forward pass. These results demonstrate a practical, low-latency post-processing approach that complements NWP by learning to correct systematic forecast errors.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "NORi: An ML-Augmented Ocean Boundary Layer Parameterization",
+    "url": "http://arxiv.org/abs/2512.04452v1",
+    "authors": [
+      "Xin Kai Lee",
+      "Ali Ramadhan",
+      "Andre Souza",
+      "Gregory LeClaire Wagner",
+      "Simone Silvestri",
+      "John Marshall",
+      "Raffaele Ferrari"
+    ],
+    "published": "2025-12-04",
+    "abstract": "NORi is a machine-learned (ML) parameterization of ocean boundary layer turbulence that is physics-based and augmented with neural networks. NORi stands for neural ordinary differential equations (NODEs) Richardson number (Ri) closure. The physical parameterization is controlled by a Richardson number-dependent diffusivity and viscosity. The NODEs are trained to capture the entrainment through the base of the boundary layer, which cannot be represented with a local diffusive closure. The parameterization is trained using large-eddy simulations in an \"a posteriori\" fashion, where parameters are calibrated with a loss function that explicitly depends on the actual time-integrated variables of interest rather than the instantaneous subgrid fluxes, which are inherently noisy. NORi is designed for the realistic nonlinear equation of state of seawater and demonstrates excellent prediction and generalization capabilities in capturing entrainment dynamics under different convective strengths, oceanic background stratifications, rotation strengths, and surface wind forcings. NORi is numerically stable for at least 100 years of integration time in large-scale simulations, despite only being trained on 2-day horizons, and can be run with time steps as long as one hour. The highly expressive neural networks, combined with a physically-rigorous base closure, prove to be a robust paradigm for designing parameterizations for climate models where data requirements are drastically reduced, inference performance can be directly targeted and optimized, and numerical stability is implicitly encouraged during training.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Isolating Balanced Ocean Dynamics in SWOT Data",
+    "url": "http://arxiv.org/abs/2512.03258v1",
+    "authors": [
+      "Jack William Skinner",
+      "J\u00f6rn Callies",
+      "Albion Lawrence",
+      "Xihan Zhang"
+    ],
+    "published": "2025-12-02",
+    "abstract": "The Surface Water and Ocean Topography (SWOT) mission provides two-dimensional sea surface height (SSH) maps at unprecedented resolution, but its signal is a combination of balanced meso- and submesoscale turbulence, unbalanced internal waves, and small-scale noise. Interpreting the meso- and submesoscale flow features captured by SWOT requires a careful isolation of the balanced signal. We present a statistical method to do so in regions where internal-wave signals are negligible, such as western boundary current regions and the Southern Ocean. Our method assumes Gaussian statistics for both the balanced flow and the noise, which we infer by fitting parametric models to the observed SSH wavenumber spectrum. Using these inferred parameters, we perform a Bayesian inversion to reconstruct swath-aligned SSH maps that fill the nadir gap. We evaluate the method using synthetic data from a high-resolution simulation with realistic SWOT-like noise added. Comparisons with the underlying model data show that our reconstruction successfully removes small-scale noise while preserving meso- and submesoscale eddies, fronts, and filaments down to a feature scale of 10km. The comparison also demonstrates that the posterior uncertainty is a reliable estimate of the error.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "ELG$\\times$LRG distribution through dark matter halo dynamics",
+    "url": "http://arxiv.org/abs/2512.04362v1",
+    "authors": [
+      "Ginevra Favole",
+      "Francisco-Shu Kitaura",
+      "Boryana Hadzhiyska",
+      "Daniel J. Eisenstein",
+      "Lehman H. Garrison",
+      "Sownak Bose"
+    ],
+    "published": "2025-12-04",
+    "abstract": "We investigate the clustering and halo occupation distribution (HOD) of DESI Y1 emission-line (ELGs) and luminous red (LRGs) galaxies at $0.8<z<1.1$, including their cross-correlation (ELG$\\times$LRG), using the AbacusSummit suite and a new Halo Occupation Model (HOMe) for galaxy multi-tracers. This integrates intra-halo dynamics, halo exclusion, and quenching, bridging insights from hydrodynamical, HOD, abundance-matching, and semi-analytic studies. Leveraging full phase-space information from the Uchuu N-body simulation, and sampling satellites from dark-matter particle positions via physically motivated prescriptions, HOMe reproduces the anisotropic clustering down to $s=200\\,h^{-1}$kpc with unprecedented accuracy. Model parameters are inferred solely from two-point statistics using a two-level Bayesian framework, yielding high-fidelity ELG, LRG and cross-reference catalogs. We find that satellite ELGs behave as incoherent flows within their parent halos, dominating the clustering below $4\\,h^{-1}$Mpc. The HOD from the best-fit HOMe has the following properties: (i) 90.50% (85.91%) of ELGs (LRGs) are central galaxies without satellites, residing in halos of $M_{\\rm vir}\\sim6.6\\times10^{11}\\,(1.2\\times10^{13})\\,h^{-1}{\\rm M}_\\odot$; (ii) the ELG$\\times$LRG cross-correlation is governed by central-central pairs and shaped by halo exclusion on $2-5\\,h^{-1}$Mpc scales; (iii) 9.50% (14.09%) of ELGs (LRGs) are satellites, of which 1.09% (3.52%) inhabit halos with a central galaxy of the same species in a maximally conformal configuration, 7.02% (0.005%) orbit complementary hosts in a minimally conformal state, and 0.58% (10.57%) are orphans. HOMe high sensitivity precisely captures the dynamics of satellites in different host environments, opening a promising avenue for understanding systematics, the dynamical nature of dark matter, potentially distinguishing gravity models.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "EcoCast: A Spatio-Temporal Model for Continual Biodiversity and Climate Risk Forecasting",
+    "url": "http://arxiv.org/abs/2512.02260v1",
+    "authors": [
+      "Hammed A. Akande",
+      "Abdulrauf A. Gidado"
+    ],
+    "published": "2025-12-01",
+    "abstract": "Increasing climate change and habitat loss are driving unprecedented shifts in species distributions. Conservation professionals urgently need timely, high-resolution predictions of biodiversity risks, especially in ecologically diverse regions like Africa. We propose EcoCast, a spatio-temporal model designed for continual biodiversity and climate risk forecasting. Utilizing multisource satellite imagery, climate data, and citizen science occurrence records, EcoCast predicts near-term (monthly to seasonal) shifts in species distributions through sequence-based transformers that model spatio-temporal environmental dependencies. The architecture is designed with support for continual learning to enable future operational deployment with new data streams. Our pilot study in Africa shows promising improvements in forecasting distributions of selected bird species compared to a Random Forest baseline, highlighting EcoCast's potential to inform targeted conservation policies. By demonstrating an end-to-end pipeline from multi-modal data ingestion to operational forecasting, EcoCast bridges the gap between cutting-edge machine learning and biodiversity management, ultimately guiding data-driven strategies for climate resilience and ecosystem conservation throughout Africa.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Global dynamics in a reaction-diffusion competition model with edge behavior",
+    "url": "http://arxiv.org/abs/2512.00339v1",
+    "authors": [
+      "Kuiyue Liu",
+      "Shanshan Chen"
+    ],
+    "published": "2025-11-29",
+    "abstract": "In this paper, we investigate a two-species competition model in a landscape consisting of a finite number of adjacent patches. For the two-patch scenario, by treating edge behavior at the interface as a strategy, it has been shown that there exists an ideal free distribution (IFD) strategy, which is a globally evolutionarily stable strategy. Specifically, when the resident species follows the IFD strategy and the mutant species does not, the mutant species is unable to invade the resident population. Building on this foundation, our work focuses on exploring the dynamics of the system when neither species can adopt the IFD strategy. We demonstrate that if the strategies of both species either exceed or fall below the IFD strategy, the mutant species can outcompete and eliminate the resident species, provided that its strategy is closer to the IFD strategy and its diffusion rates are equal to or slower than those of the resident species. Furthermore, if the strategies of the two species lie on opposite sides of the IFD strategy, the two species can coexist. This result is further extended to the case of an arbitrary but finite number of patches.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [],
+    "applications": []
   }
 ]
