@@ -18299,5 +18299,260 @@
     ],
     "architectures": [],
     "applications": []
+  },
+  {
+    "title": "Seeing Soil from Space: Towards Robust and Scalable Remote Soil Nutrient Analysis",
+    "url": "http://arxiv.org/abs/2512.09576v1",
+    "authors": [
+      "David Seu",
+      "Nicolas Longepe",
+      "Gabriel Cioltea",
+      "Erik Maidik",
+      "Calin Andrei"
+    ],
+    "published": "2025-12-10",
+    "abstract": "Environmental variables are increasingly affecting agricultural decision-making, yet accessible and scalable tools for soil assessment remain limited. This study presents a robust and scalable modeling system for estimating soil properties in croplands, including soil organic carbon (SOC), total nitrogen (N), available phosphorus (P), exchangeable potassium (K), and pH, using remote sensing data and environmental covariates. The system employs a hybrid modeling approach, combining the indirect methods of modeling soil through proxies and drivers with direct spectral modeling. We extend current approaches by using interpretable physics-informed covariates derived from radiative transfer models (RTMs) and complex, nonlinear embeddings from a foundation model. We validate the system on a harmonized dataset that covers Europes cropland soils across diverse pedoclimatic zones. Evaluation is conducted under a robust validation framework that enforces strict spatial blocking, stratified splits, and statistically distinct train-test sets, which deliberately make the evaluation harder and produce more realistic error estimates for unseen regions. The models achieved their highest accuracy for SOC and N. This performance held across unseen locations, under both spatial cross-validation and an independent test set. SOC obtained a MAE of 5.12 g/kg and a CCC of 0.77, and N obtained a MAE of 0.44 g/kg and a CCC of 0.77. We also assess uncertainty through conformal calibration, achieving 90 percent coverage at the target confidence level. This study contributes to the digital advancement of agriculture through the application of scalable, data-driven soil analysis frameworks that can be extended to related domains requiring quantitative soil evaluation, such as carbon markets.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "PINN"
+    ],
+    "applications": []
+  },
+  {
+    "title": "GLACIA: Instance-Aware Positional Reasoning for Glacial Lake Segmentation via Multimodal Large Language Model",
+    "url": "http://arxiv.org/abs/2512.09251v1",
+    "authors": [
+      "Lalit Maurya",
+      "Saurabh Kaushik",
+      "Beth Tellman"
+    ],
+    "published": "2025-12-10",
+    "abstract": "Glacial lake monitoring bears great significance in mitigating the anticipated risk of Glacial Lake Outburst Floods. However, existing segmentation methods based on convolutional neural networks (CNNs) and Vision Transformers (ViTs), remain constrained to pixel-level predictions, lacking high-level global scene semantics and human-interpretable reasoning. To address this, we introduce GLACIA (\\textbf{G}lacial \\textbf{LA}ke segmentation with \\textbf{C}ontextual \\textbf{I}nstance \\textbf{A}wareness), the first framework that integrates large language models with segmentation capabilities to produce both accurate segmentation masks and corresponding spatial reasoning outputs. We construct the Glacial Lake Position Reasoning (GLake-Pos) dataset pipeline, which provides diverse, spatially grounded question-answer pairs designed to overcome the lack of instance-aware positional reasoning data in remote sensing. Comparative evaluation demonstrate that GLACIA (mIoU: 87.30) surpasses state-of-the-art method based on CNNs (mIoU: 78.55 - 79.01), ViTs (mIoU: 69.27 - 81.75), Geo-foundation models (mIoU: 76.37 - 87.10), and reasoning based segmentation methods (mIoU: 60.12 - 75.66). Our approach enables intuitive disaster preparedness and informed policy-making in the context of rapidly changing glacial environments by facilitating natural language interaction, thereby supporting more efficient and interpretable decision-making. The code is released on https://github.com/lalitmaurya47/GLACIA",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer",
+      "LLM"
+    ],
+    "applications": [
+      "Segmentation",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "OSM+: Billion-Level Open Street Map Data Processing System for City-wide Experiments",
+    "url": "http://arxiv.org/abs/2512.06743v1",
+    "authors": [
+      "Guanjie Zheng",
+      "Ziyang Su",
+      "Yiheng Wang",
+      "Yuhang Luo",
+      "Hongwei Zhang",
+      "Xuanhe Zhou",
+      "Linghe Kong",
+      "Fan Wu",
+      "Wen Ling"
+    ],
+    "published": "2025-12-07",
+    "abstract": "Road network data can provide rich information about cities and thus become the base for various urban research. However, processing large volume world-wide road network data requires intensive computing resources and the processed results might be different to be unified for testing downstream tasks. Therefore, in this paper, we process the OpenStreetMap data via a distributed computing of 5,000 cores on cloud services and release a structured world-wide 1-billion-vertex road network graph dataset with high accessibility (opensource and downloadable to the whole world) and usability (open-box graph structure and easy spatial query interface). To demonstrate how this dataset can be utilized easily, we present three illustrative use cases, including traffic prediction, city boundary detection and traffic policy control, and conduct extensive experiments for these three tasks. (1) For the well-investigated traffic prediction tasks, we release a new benchmark with 31 cities (traffic data processed and combined with our released OSM+ road network dataset), to provide much larger spatial coverage and more comprehensive evaluation of compared algorithms than the previously frequently-used datasets. This new benchmark will push the algorithms on their scalability from hundreds of road network intersections to thousands of intersections. (2) While for the more advanced traffic policy control task which requires interaction with the road network, we release a new 6 city datasets with much larger scale than the previous datasets. This brings new challenge for thousand-scale multi-agent coordination. (3) Along with the OSM+ dataset, the release of data converters facilitates the integration of multimodal spatial-temporal data for geospatial foundation model training, thereby expediting the process of uncovering compelling scientific insights. PVLDB Reference Forma",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Method of UAV Inspection of Photovoltaic Modules Using Thermal and RGB Data Fusion",
+    "url": "http://arxiv.org/abs/2512.06504v1",
+    "authors": [
+      "Andrii Lysyi",
+      "Anatoliy Sachenko",
+      "Pavlo Radiuk",
+      "Mykola Lysyi",
+      "Oleksandr Melnychenko",
+      "Diana Zahorodnia"
+    ],
+    "published": "2025-12-06",
+    "abstract": "The subject of this research is the development of an intelligent, integrated framework for the automated inspection of photovoltaic (PV) infrastructure that addresses the critical shortcomings of conventional methods, including thermal palette bias, data redundancy, and high communication bandwidth requirements. The goal of this study is to design, develop, and validate a comprehensive, multi-modal system that fully automates the monitoring workflow, from data acquisition to the generation of actionable, geo-located maintenance alerts, thereby enhancing plant safety and operational efficiency. The methods employed involve a synergistic architecture that begins with a palette-invariant thermal embedding, learned by enforcing representational consistency, which is fused with a contrast-normalized RGB stream via a gated mechanism. This is supplemented by a closed-loop, adaptive re-acquisition controller that uses Rodrigues-based updates for targeted confirmation of ambiguous anomalies and a geospatial deduplication module that clusters redundant alerts using DBSCAN over the haversine distance. In conclusion, this study establishes a powerful new paradigm for proactive PV inspection, with the proposed system achieving a mean Average Precision (mAP@0.5) of 0.903 on the public PVF-10 benchmark, a significant 12-15% improvement over single-modality baselines. Field validation confirmed the system's readiness, achieving 96% recall, while the de-duplication process reduced duplicate-induced false positives by 15-20%, and relevance-only telemetry cut airborne data transmission by 60-70%.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Bi^2MAC: Bimodal Bi-Adaptive Mask-Aware Convolution for Remote Sensing Pansharpening",
+    "url": "http://arxiv.org/abs/2512.08331v1",
+    "authors": [
+      "Xianghong Xiao",
+      "Zeyu Xia",
+      "Zhou Fei",
+      "Jinliang Xiao",
+      "Haorui Chen",
+      "Liangjian Deng"
+    ],
+    "published": "2025-12-09",
+    "abstract": "Pansharpening aims to fuse a high-resolution panchromatic (PAN) image with a low-resolution multispectral (LRMS) image to generate a high-resolution multispectral image (HRMS). Conventional deep learning-based methods are inherently limited in their ability to adapt to regional heterogeneity within feature representations. Although various adaptive convolution methods have been proposed to address this limitation, they often suffer from excessive computational costs and a limited ability to capture heterogeneous regions in remote sensing images effectively. To overcome these challenges, we propose Bimodal Bi-Adaptive Mask-Aware Convolution (Bi^2MAC), which effectively exploits information from different types of regions while intelligently allocating computational resources. Specifically, we design a lightweight module to generate both soft and hard masks, which are used to modulate the input features preliminarily and to guide different types of regions into separate processing branches, respectively. Redundant features are directed to a compact branch for low-cost global processing. In contrast, heterogeneous features are routed to a focused branch that invests more computational resources for fine-grained modeling. Extensive experiments on multiple benchmark datasets demonstrate that Bi^2MAC achieves state-of-the-art (SOTA) performance while requiring substantially lower training time and parameter counts, and the minimal computational cost among adaptive convolution models.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Near-real time fires detection using satellite imagery in Sudan conflict",
+    "url": "http://arxiv.org/abs/2512.07925v1",
+    "authors": [
+      "Kuldip Singh Atwal",
+      "Dieter Pfoser",
+      "Daniel Rothbart"
+    ],
+    "published": "2025-12-08",
+    "abstract": "The challenges of ongoing war in Sudan highlight the need for rapid monitoring and analysis of such conflicts. Advances in deep learning and readily available satellite remote sensing imagery allow for near real-time monitoring. This paper uses 4-band imagery from Planet Labs with a deep learning model to show that fire damage in armed conflicts can be monitored with minimal delay. We demonstrate the effectiveness of our approach using five case studies in Sudan. We show that, compared to a baseline, the automated method captures the active fires and charred areas more accurately. Our results indicate that using 8-band imagery or time series of such imagery only result in marginal gains.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "A Model-Guided Neural Network Method for the Inverse Scattering Problem",
+    "url": "http://arxiv.org/abs/2512.10123v1",
+    "authors": [
+      "Olivia Tsang",
+      "Owen Melia",
+      "Vasileios Charisopoulos",
+      "Jeremy Hoskins",
+      "Yuehaw Khoo",
+      "Rebecca Willett"
+    ],
+    "published": "2025-12-10",
+    "abstract": "Inverse medium scattering is an ill-posed, nonlinear wave-based imaging problem arising in medical imaging, remote sensing, and non-destructive testing. Machine learning (ML) methods offer increased inference speed and flexibility in capturing prior knowledge of imaging targets relative to classical optimization-based approaches; however, they perform poorly in regimes where the scattering behavior is highly nonlinear. A key limitation is that ML methods struggle to incorporate the physics governing the scattering process, which are typically inferred implicitly from the training data or loosely enforced via architectural design. In this paper, we present a method that endows a machine learning framework with explicit knowledge of problem physics, in the form of a differentiable solver representing the forward model. The proposed method progressively refines reconstructions of the scattering potential using measurements at increasing wave frequencies, following a classical strategy to stabilize recovery. Empirically, we find that our method provides high-quality reconstructions at a fraction of the computational or sampling costs of competing approaches.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "A roadmap of geospatial soil quality analysis systems",
+    "url": "http://arxiv.org/abs/2512.09817v1",
+    "authors": [
+      "Habiba BEN ABDERRAHMANE",
+      "Slimane Oulad-Naoui",
+      "Benameur ZIANI"
+    ],
+    "published": "2025-12-10",
+    "abstract": "Soil quality (SQ) plays a crucial role in sustainable agriculture, environmental conservation, and land-use planning. Traditional SQ assessment techniques rely on costly, labor-intensive sampling and laboratory analysis, limiting their spatial and temporal coverage. Advances in Geographic Information Systems (GIS), remote sensing, and machine learning (ML) enabled efficient SQ evaluation. This paper presents a comprehensive roadmap distinguishing it from previous reviews by proposing a unified and modular pipeline that integrates multi-source soil data, GIS and remote sensing tools, and machine learning techniques to support transparent and scalable soil quality assessment. It also includes practical applications. Contrary to existing studies that predominantly target isolated soil parameters or specific modeling methodologies, this approach consolidates recent advancements in Geographic Information Systems (GIS), remote sensing technologies, and machine learning algorithms within the entire soil quality assessment pipeline. It also addresses existing challenges and limitations while exploring future developments and emerging trends in the field that can deliver the next generation of soil quality systems making them more transparent, adaptive, and aligned with sustainable land management.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "DFIR-DETR: Frequency Domain Enhancement and Dynamic Feature Aggregation for Cross-Scene Small Object Detection",
+    "url": "http://arxiv.org/abs/2512.07078v1",
+    "authors": [
+      "Bo Gao",
+      "Jingcheng Tong",
+      "Xingsheng Chen",
+      "Han Yu",
+      "Zichen Li"
+    ],
+    "published": "2025-12-08",
+    "abstract": "Detecting small objects in UAV remote sensing images and identifying surface defects in industrial inspection remain difficult tasks. These applications face common obstacles: features are sparse and weak, backgrounds are cluttered, and object scales vary dramatically. Current transformer-based detectors, while powerful, struggle with three critical issues. First, features degrade severely as networks downsample progressively. Second, spatial convolutions cannot capture long-range dependencies effectively. Third, standard upsampling methods inflate feature maps unnecessarily.\n  We introduce DFIR-DETR to tackle these problems through dynamic feature aggregation combined with frequency-domain processing. Our architecture builds on three novel components. The DCFA module uses dynamic K-sparse attention, cutting complexity from O(N2) down to O(NK), and employs spatial gated linear units for better nonlinear modeling. The DFPN module applies amplitude-normalized upsampling to prevent feature inflation and uses dual-path shuffle convolution to retain spatial details across scales. The FIRC3 module operates in the frequency domain, achieving global receptive fields without sacrificing efficiency.\n  We tested our method extensively on NEU-DET and VisDrone datasets. Results show mAP50 scores of 92.9% and 51.6% respectively-both state-of-the-art. The model stays lightweight with just 11.7M parameters and 41.2 GFLOPs. Strong performance across two very different domains confirms that DFIR-DETR generalizes well and works effectively in resource-limited settings for cross-scene small object detection.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Reusability in MLOps: Leveraging Ports and Adapters to Build a Microservices Architecture for the Maritime Domain",
+    "url": "http://arxiv.org/abs/2512.08657v1",
+    "authors": [
+      "Renato Cordeiro Ferreira",
+      "Aditya Dhinavahi",
+      "Rowanne Trapmann",
+      "Willem-Jan van den Heuvel"
+    ],
+    "published": "2025-12-09",
+    "abstract": "ML-Enabled Systems (MLES) are inherently complex since they require multiple components to achieve their business goal. This experience report showcases the software architecture reusability techniques applied while building Ocean Guard, an MLES for anomaly detection in the maritime domain. In particular, it highlights the challenges and lessons learned to reuse the Ports and Adapters pattern to support building multiple microservices from a single codebase. This experience report hopes to inspire software engineers, machine learning engineers, and data scientists to apply the Hexagonal Architecture pattern to build their MLES.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Anomaly Detection"
+    ]
+  },
+  {
+    "title": "Khalasi: Energy-Efficient Navigation for Surface Vehicles in Vortical Flow Fields",
+    "url": "http://arxiv.org/abs/2512.06912v2",
+    "authors": [
+      "Rushiraj Gadhvi",
+      "Sandeep Manjanna"
+    ],
+    "published": "2025-12-07",
+    "abstract": "For centuries, khalasi (Gujarati for sailor) have skillfully harnessed ocean currents to navigate vast waters with minimal effort. Emulating this intuition in autonomous systems remains a significant challenge, particularly for Autonomous Surface Vehicles tasked with long duration missions under strict energy budgets. In this work, we present a learning-based approach for energy-efficient surface vehicle navigation in vortical flow fields, where partial observability often undermines traditional path-planning methods. We present an end to end reinforcement learning framework based on Soft Actor Critic that learns flow-aware navigation policies using only local velocity measurements. Through extensive evaluation across diverse and dynamically rich scenarios, our method demonstrates substantial energy savings and robust generalization to previously unseen flow conditions, offering a promising path toward long term autonomy in ocean environments. The navigation paths generated by our proposed approach show an improvement in energy conservation 30 to 50 percent compared to the existing state of the art techniques.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "An Automated Tip-and-Cue Framework for Optimized Satellite Tasking and Visual Intelligence",
+    "url": "http://arxiv.org/abs/2512.09670v1",
+    "authors": [
+      "Gil Weissman",
+      "Amir Ivry",
+      "Israel Cohen"
+    ],
+    "published": "2025-12-10",
+    "abstract": "The proliferation of satellite constellations, coupled with reduced tasking latency and diverse sensor capabilities, has expanded the opportunities for automated Earth observation. This paper introduces a fully automated Tip-and-Cue framework designed for satellite imaging tasking and scheduling. In this context, tips are generated from external data sources or analyses of prior satellite imagery, identifying spatiotemporal targets and prioritizing them for downstream planning. Corresponding cues are the imaging tasks formulated in response, which incorporate sensor constraints, timing requirements, and utility functions. The system autonomously generates candidate tasks, optimizes their scheduling across multiple satellites using continuous utility functions that reflect the expected value of each observation, and processes the resulting imagery using artificial-intelligence-based models, including object detectors and vision-language models. Structured visual reports are generated to support both interpretability and the identification of new insights for downstream tasking. The efficacy of the framework is demonstrated through a maritime vessel tracking scenario, utilizing Automatic Identification System (AIS) data for trajectory prediction, targeted observations, and the generation of actionable outputs. Maritime vessel tracking is a widely researched application, often used to benchmark novel approaches to satellite tasking, forecasting, and analysis. The system is extensible to broader applications such as smart-city monitoring and disaster response, where timely tasking and automated analysis are critical.",
+    "categories": [
+      "ship_trajectories"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": [
+      "Forecast",
+      "Tracking"
+    ]
+  },
+  {
+    "title": "Spatio-temporal Shared-Field Modeling of Beluga and Bowhead Whale Sightings Using a Joint Marked Log-Gaussian Cox Process",
+    "url": "http://arxiv.org/abs/2512.06450v1",
+    "authors": [
+      "Mauli Pant",
+      "Linda Fernandez",
+      "Indranil Sahoo"
+    ],
+    "published": "2025-12-06",
+    "abstract": "We analyze a decade of aerial survey whale sighting data (2010-2019) to model the spatio-temporal distributions and group sizes of beluga (Delphinapterus leucas) and bowhead (Balaena mysticetus) whales in the United States Arctic. To jointly model these species, we develop a multi-species Log-Gaussian Cox Process (LGCP) in which species specific intensity surfaces are linked through a shared latent spatial Gaussian field. This structure allows the model to capture broad spatial patterns common to both species while still accommodating species level responses to environmental covariates and seasonal variation. The latent field is represented using the Stochastic Partial Differential Equation (SPDE) approach with an anisotropic Matern covariance, implemented on an ocean constrained triangulated mesh so that spatial dependence aligns with marine geography. Whale group size is incorporated through a marked point process extension with species specific negative binomial marks, allowing occurrence and group sizes to be jointly analyzed within a unified framework. Inference is carried out using the Integrated Nested Laplace Approximation (INLA), enabling efficient model fitting over a decade of survey effort. The results highlight persistent multi-species hotspots and distinct environmental associations for each species, demonstrating the value of shared field LGCPs for joint species distribution modeling in data sparse and heterogeneous survey settings.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [
+      "SDM"
+    ],
+    "applications": []
   }
 ]
