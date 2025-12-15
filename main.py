@@ -7,13 +7,7 @@ import json
 import yaml
 import collections
 import regex
-<<<<<<< HEAD
-import random
-import argparse
-from datetime import datetime as dt
-=======
 import random  # Needed for retry backoff
->>>>>>> 6b6cbdc (Improve scraper: sorting, recent papers flag)
 
 # -------------------------
 # Setup logging
@@ -172,29 +166,8 @@ def main():
     else:
         existing_papers = []
 
-<<<<<<< HEAD
-    nb_existing_papers = len(existing_papers)
-
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--start-date", type=str, help="Start date in YYYY-MM-DD format or relative like -7d")
-    args = parser.parse_args()
-
-    if args.start_date:
-        if args.start_date.startswith("-") and args.start_date.endswith("d"):
-            days = int(args.start_date[1:-1])
-            start_date = datetime.date.today() - datetime.timedelta(days=days)
-        else:
-            start_date = datetime.date.fromisoformat(args.start_date)
-    elif existing_papers:
-        latest_date = max(datetime.date.fromisoformat(p["published"]) for p in existing_papers)
-        start_date = latest_date - datetime.timedelta(days=1)  # Buffer to avoid missing papers
-    else:
-        start_date = datetime.date.fromisoformat(config["start_date"])
-
-=======
     # Compute start date for scraping
     start_date = get_start_date(OUTPUT_JSON, default_start_date=config.get("start_date", "2024-01-01"))
->>>>>>> 6b6cbdc (Improve scraper: sorting, recent papers flag)
     logger.info(f"Scraping from date: {start_date.isoformat()}")
 
     # Add unique key and prepare 'is_recent' flag
@@ -261,22 +234,10 @@ def main():
         json.dump(unique_papers, f, indent=2)
     logger.info(f"Saved {len(unique_papers)} papers to {OUTPUT_JSON}")
 
-    # Save the category counts and date of scrape
-    nb_new_papers = len(unique_papers) - nb_existing_papers
     category_counts = count_categories(unique_papers)
-<<<<<<< HEAD
-    category_summary = {
-        "scrape_date": dt.now().strftime("%Y-%m-%d"),
-        "new_papers": nb_new_papers,
-        "category_counts": category_counts
-        }
-    with open(output_dir / "category_counts.json", "w", encoding="utf-8") as f:
-        json.dump(category_summary, f, indent=2)
-=======
     with open(CATEGORY_COUNTS_JSON, "w", encoding="utf-8") as f:
         json.dump(category_counts, f, indent=2)
     logger.info("Category counts updated.")
->>>>>>> 6b6cbdc (Improve scraper: sorting, recent papers flag)
 
 
 if __name__ == "__main__":
