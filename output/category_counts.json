@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "scrape_date": "2025-12-14",
   "new_papers": 13,
   "category_counts": {
@@ -8,4 +9,12 @@
     "ship_trajectories": 21,
     "fish_plankton": 60
   }
+=======
+  "remote_sensing": 100,
+  "foundation_model": 172,
+  "geo_reasoning": 190,
+  "fish_plankton": 57,
+  "ocean": 105,
+  "ship_trajectories": 22
+>>>>>>> 6b6cbdc (Improve scraper: sorting, recent papers flag)
 }

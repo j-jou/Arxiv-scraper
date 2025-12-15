@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Observation-driven correction of numerical weather prediction for marine winds",
+    "url": "http://arxiv.org/abs/2512.03606v1",
+    "authors": [
+      "Matteo Peduto",
+      "Qidong Yang",
+      "Jonathan Giezendanner",
+      "Devis Tuia",
+      "Sherrie Wang"
+    ],
+    "published": "2025-12-03",
+    "abstract": "Accurate marine wind forecasts are essential for safe navigation, ship routing, and energy operations, yet they remain challenging because observations over the ocean are sparse, heterogeneous, and temporally variable. We reformulate wind forecasting as observation-informed correction of a global numerical weather prediction (NWP) model. Rather than forecasting winds directly, we learn local correction patterns by assimilating the latest in-situ observations to adjust the Global Forecast System (GFS) output. We propose a transformer-based deep learning architecture that (i) handles irregular and time-varying observation sets through masking and set-based attention mechanisms, (ii) conditions predictions on recent observation-forecast pairs via cross-attention, and (iii) employs cyclical time embeddings and coordinate-aware location representations to enable single-pass inference at arbitrary spatial coordinates. We evaluate our model over the Atlantic Ocean using observations from the International Comprehensive Ocean-Atmosphere Data Set (ICOADS) as reference. The model reduces GFS 10-meter wind RMSE at all lead times up to 48 hours, achieving 45% improvement at 1-hour lead time and 13% improvement at 48-hour lead time. Spatial analyses reveal the most persistent improvements along coastlines and shipping routes, where observations are most abundant. The tokenized architecture naturally accommodates heterogeneous observing platforms (ships, buoys, tide gauges, and coastal stations) and produces both site-specific predictions and basin-scale gridded products in a single forward pass. These results demonstrate a practical, low-latency post-processing approach that complements NWP by learning to correct systematic forecast errors.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Isolating Balanced Ocean Dynamics in SWOT Data",
+    "url": "http://arxiv.org/abs/2512.03258v1",
+    "authors": [
+      "Jack William Skinner",
+      "J\u00f6rn Callies",
+      "Albion Lawrence",
+      "Xihan Zhang"
+    ],
+    "published": "2025-12-02",
+    "abstract": "The Surface Water and Ocean Topography (SWOT) mission provides two-dimensional sea surface height (SSH) maps at unprecedented resolution, but its signal is a combination of balanced meso- and submesoscale turbulence, unbalanced internal waves, and small-scale noise. Interpreting the meso- and submesoscale flow features captured by SWOT requires a careful isolation of the balanced signal. We present a statistical method to do so in regions where internal-wave signals are negligible, such as western boundary current regions and the Southern Ocean. Our method assumes Gaussian statistics for both the balanced flow and the noise, which we infer by fitting parametric models to the observed SSH wavenumber spectrum. Using these inferred parameters, we perform a Bayesian inversion to reconstruct swath-aligned SSH maps that fill the nadir gap. We evaluate the method using synthetic data from a high-resolution simulation with realistic SWOT-like noise added. Comparisons with the underlying model data show that our reconstruction successfully removes small-scale noise while preserving meso- and submesoscale eddies, fronts, and filaments down to a feature scale of 10km. The comparison also demonstrates that the posterior uncertainty is a reliable estimate of the error.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "title": "PyroFocus: A Deep Learning Approach to Real-Time Wildfire Detection in Multispectral Remote Sensing Imagery",
+    "url": "http://arxiv.org/abs/2512.03257v1",
+    "authors": [
+      "Mark Moussa",
+      "Andre Williams",
+      "Seth Roffe",
+      "Douglas Morton"
+    ],
+    "published": "2025-12-02",
+    "abstract": "Rapid and accurate wildfire detection is crucial for emergency response and environmental management. In airborne and spaceborne missions, real-time algorithms must distinguish between no fire, active fire, and post-fire conditions, and estimate fire intensity. Multispectral and hyperspectral thermal imagers provide rich spectral information, but high data dimensionality and limited onboard resources make real-time processing challenging. As wildfires increase in frequency and severity, the need for low-latency and computationally efficient onboard detection methods is critical.\n  We present a systematic evaluation of multiple deep learning architectures, including custom Convolutional Neural Networks (CNNs) and Transformer-based models, for multi-class fire classification. We also introduce PyroFocus, a two-stage pipeline that performs fire classification followed by fire radiative power (FRP) regression or segmentation to reduce inference time and computational cost for onboard deployment. Using data from NASA's MODIS/ASTER Airborne Simulator (MASTER), which is similar to a next-generation fire detection sensor, we compare accuracy, inference latency, and resource efficiency.\n  Experimental results show that the proposed two-stage pipeline achieves strong trade-offs between speed and accuracy, demonstrating significant potential for real-time edge deployment in future wildfire monitoring missions.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": [
+      "Segmentation",
+      "Detection",
+      "Classification",
+      "Regression"
+    ]
+  },
+  {
+    "title": "Leveraging Large-Scale Pretrained Spatial-Spectral Priors for General Zero-Shot Pansharpening",
+    "url": "http://arxiv.org/abs/2512.02643v1",
+    "authors": [
+      "Yongchuan Cui",
+      "Peng Liu",
+      "Yi Zeng"
+    ],
+    "published": "2025-12-02",
+    "abstract": "Existing deep learning methods for remote sensing image fusion often suffer from poor generalization when applied to unseen datasets due to the limited availability of real training data and the domain gap between different satellite sensors. To address this challenge, we explore the potential of foundation models by proposing a novel pretraining strategy that leverages large-scale simulated datasets to learn robust spatial-spectral priors. Specifically, our approach first constructs diverse simulated datasets by applying various degradation operations (blur, noise, downsampling) and augmentations (bands generation, channel shuffling, high-pass filtering, color jittering, etc.) to natural images from ImageNet and remote sensing images from SkyScript. We then pretrain fusion models on these simulated data to learn generalizable spatial-spectral representations. The pretrained models are subsequently evaluated on six datasets (WorldView-2/3/4, IKONOS, QuickBird, GaoFen-2) using zero-shot and one-shot paradigms, with both full- and freeze-tuning approaches for fine-tuning. Extensive experiments on different network architectures including convolutional neural networks, Transformer, and Mamba demonstrate that our pretraining strategy significantly improves generalization performance across different satellite sensors and imaging conditions for various fusion models. The pretrained models achieve superior results in zero-shot scenarios and show remarkable adaptation capability with minimal real data in one-shot settings. Our work provides a practical solution for cross-domain pansharpening, establishes a new benchmark for generalization in remote sensing image fusion tasks, and paves the way for leveraging foundation models through advanced training strategies.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": []
+  }
+]

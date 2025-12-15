@@ -1,0 +1,40 @@
+[
+  {
+    "title": "ELG$\\times$LRG distribution through dark matter halo dynamics",
+    "url": "http://arxiv.org/abs/2512.04362v1",
+    "authors": [
+      "Ginevra Favole",
+      "Francisco-Shu Kitaura",
+      "Boryana Hadzhiyska",
+      "Daniel J. Eisenstein",
+      "Lehman H. Garrison",
+      "Sownak Bose"
+    ],
+    "published": "2025-12-04",
+    "abstract": "We investigate the clustering and halo occupation distribution (HOD) of DESI Y1 emission-line (ELGs) and luminous red (LRGs) galaxies at $0.8<z<1.1$, including their cross-correlation (ELG$\\times$LRG), using the AbacusSummit suite and a new Halo Occupation Model (HOMe) for galaxy multi-tracers. This integrates intra-halo dynamics, halo exclusion, and quenching, bridging insights from hydrodynamical, HOD, abundance-matching, and semi-analytic studies. Leveraging full phase-space information from the Uchuu N-body simulation, and sampling satellites from dark-matter particle positions via physically motivated prescriptions, HOMe reproduces the anisotropic clustering down to $s=200\\,h^{-1}$kpc with unprecedented accuracy. Model parameters are inferred solely from two-point statistics using a two-level Bayesian framework, yielding high-fidelity ELG, LRG and cross-reference catalogs. We find that satellite ELGs behave as incoherent flows within their parent halos, dominating the clustering below $4\\,h^{-1}$Mpc. The HOD from the best-fit HOMe has the following properties: (i) 90.50% (85.91%) of ELGs (LRGs) are central galaxies without satellites, residing in halos of $M_{\\rm vir}\\sim6.6\\times10^{11}\\,(1.2\\times10^{13})\\,h^{-1}{\\rm M}_\\odot$; (ii) the ELG$\\times$LRG cross-correlation is governed by central-central pairs and shaped by halo exclusion on $2-5\\,h^{-1}$Mpc scales; (iii) 9.50% (14.09%) of ELGs (LRGs) are satellites, of which 1.09% (3.52%) inhabit halos with a central galaxy of the same species in a maximally conformal configuration, 7.02% (0.005%) orbit complementary hosts in a minimally conformal state, and 0.58% (10.57%) are orphans. HOMe high sensitivity precisely captures the dynamics of satellites in different host environments, opening a promising avenue for understanding systematics, the dynamical nature of dark matter, potentially distinguishing gravity models.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "EcoCast: A Spatio-Temporal Model for Continual Biodiversity and Climate Risk Forecasting",
+    "url": "http://arxiv.org/abs/2512.02260v1",
+    "authors": [
+      "Hammed A. Akande",
+      "Abdulrauf A. Gidado"
+    ],
+    "published": "2025-12-01",
+    "abstract": "Increasing climate change and habitat loss are driving unprecedented shifts in species distributions. Conservation professionals urgently need timely, high-resolution predictions of biodiversity risks, especially in ecologically diverse regions like Africa. We propose EcoCast, a spatio-temporal model designed for continual biodiversity and climate risk forecasting. Utilizing multisource satellite imagery, climate data, and citizen science occurrence records, EcoCast predicts near-term (monthly to seasonal) shifts in species distributions through sequence-based transformers that model spatio-temporal environmental dependencies. The architecture is designed with support for continual learning to enable future operational deployment with new data streams. Our pilot study in Africa shows promising improvements in forecasting distributions of selected bird species compared to a Random Forest baseline, highlighting EcoCast's potential to inform targeted conservation policies. By demonstrating an end-to-end pipeline from multi-modal data ingestion to operational forecasting, EcoCast bridges the gap between cutting-edge machine learning and biodiversity management, ultimately guiding data-driven strategies for climate resilience and ecosystem conservation throughout Africa.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  }
+]

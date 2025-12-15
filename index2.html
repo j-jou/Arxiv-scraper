@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>arXiv Papers Explorer</title>
+  <title>ArXiv Papers Explorer</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 font-sans text-gray-900">
@@ -12,14 +12,12 @@
 
     <!-- Header -->
     <div class="text-center mb-8">
-      <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-gray-900"> 📖  ArXiv Papers Explorer  🔍</h1>
+      <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-gray-900"> 📖 ArXiv Papers Explorer 🔍</h1>
       <p id="latestDate" class="mt-2 text-gray-600 text-lg"></p>
     </div>
 
     <!-- Tag filters -->
-    <div id="tagFilters" class="flex flex-wrap justify-center gap-3 mb-6">
-      <!-- Buttons injected by JS -->
-    </div>
+    <div id="tagFilters" class="flex flex-wrap justify-center gap-3 mb-6"></div>
 
     <!-- Search bar -->
     <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mb-8">
@@ -29,9 +27,7 @@
     </div>
 
     <!-- Papers list -->
-    <div id="papersList" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-      <!-- Paper cards injected by JS -->
-    </div>
+    <div id="papersList" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8"></div>
 
     <!-- Pagination -->
     <div id="pagination" class="flex justify-center items-center gap-4 mb-6">
@@ -66,6 +62,7 @@
       const countsRes = await fetch(categoryCountsUrl);
       papers = await papersRes.json();
       categoryCounts = await countsRes.json();
+
       renderTags();
       renderLatestDate();
       renderPapers();
@@ -75,12 +72,7 @@
       const container = document.getElementById('tagFilters');
       container.innerHTML = '';
       for (const [tag, label] of Object.entries(availableTags)) {
-<<<<<<< HEAD
-        const count = categoryCounts.category_counts?.[tag] || 0;
-
-=======
         const count = categoryCounts[tag] || 0;
->>>>>>> 6b6cbdc (Improve scraper: sorting, recent papers flag)
         const button = document.createElement('button');
         button.className = 'tag-btn px-4 py-1 rounded-full bg-gray-200 hover:bg-blue-400 hover:text-white transition font-semibold text-gray-700';
         button.innerText = `${label} (${count})`;
@@ -106,17 +98,9 @@
 
     function renderLatestDate() {
       const latestDateDiv = document.getElementById('latestDate');
-<<<<<<< HEAD
-      const scrapeDate = categoryCounts.scrape_date || 'inconnue';
-      const newCount = categoryCounts.new_papers || 0;
-
-      latestDateDiv.innerText = `Last updated : ${scrapeDate} — New articles : ${newCount}`;
-=======
       if (papers.length > 0) {
-        const latestPaper = papers[0];
-        latestDateDiv.innerText = `Latest Article Date: ${latestPaper.published}`;
+        latestDateDiv.innerText = `Latest Article Date: ${papers[0].published}`;
       }
->>>>>>> 6b6cbdc (Improve scraper: sorting, recent papers flag)
     }
 
     function renderPapers() {
@@ -141,12 +125,13 @@
 
       currentPagePapers.forEach(paper => {
         const card = document.createElement('div');
-        card.className = 'bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 ease-in-out flex flex-col justify-between';
+        card.className = 'bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 ease-in-out flex flex-col justify-between relative';
 
         const firstAuthor = paper.authors.length > 0 ? paper.authors[0] : "Unknown Author";
         const truncatedAbstract = paper.abstract.slice(0, 180) + (paper.abstract.length > 180 ? '...' : '');
 
         card.innerHTML = `
+          ${paper.is_recent ? '<span class="absolute top-4 right-4 bg-green-400 text-white text-xs font-bold px-2 py-1 rounded-full">NEW</span>' : ''}
           <a href="${paper.url}" target="_blank" class="text-lg font-bold text-blue-600 hover:underline">${paper.title}</a>
           <p class="text-sm text-gray-500 mt-1">${firstAuthor} — ${paper.published}</p>
           <p class="text-gray-700 mt-3">

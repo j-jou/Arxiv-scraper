@@ -35,3 +35,12 @@ categories:
       - ["chlorophyll", "satellite"]
       - ["species distribution model"]
 
+  geo_reasoning:
+    queries:
+      - ["agent", "geospatial"]
+      - ["geospatial", "reasoning"]
+      - ["geospatial", "LLM"]
+      - ["geospatial", "VLM"]
+      - ["earh", "query"]
+      - ["geoAI"]
+
