@@ -9,5 +9,3 @@ wheels/
 # Virtual environments
 .venv
 
-# Ignore all JSON files
-*.json

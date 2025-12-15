@@ -1,0 +1,8 @@
+{
+  "foundation_model": 269,
+  "remote_sensing": 255,
+  "geo_reasoning": 194,
+  "ocean": 223,
+  "fish_plankton": 58,
+  "ship_trajectories": 26
+}
