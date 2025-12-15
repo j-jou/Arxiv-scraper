@@ -646,3 +646,110 @@
 2025-12-08 19:32:54,178 [INFO] Got first page: 75 of 75 total results
 2025-12-08 19:32:54,321 [INFO] Saved 615 papers to output/papers_with_specificities.json
 2025-12-08 19:32:54,321 [INFO] Category counts updated.
+2025-12-15 21:14:33,579 [INFO] Scraping from date: 2024-01-01
+2025-12-15 21:14:33,580 [INFO] Searching category: foundation_model
+2025-12-15 21:14:33,580 [INFO] Running query: "foundation model" AND "remote sensing"
+2025-12-15 21:14:33,580 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22foundation+model%22+AND+%22remote+sensing%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-12-15 21:14:34,817 [INFO] Got first page: 100 of 224 total results
+2025-12-15 21:14:34,820 [INFO] Sleeping: 2.941319 seconds
+2025-12-15 21:14:37,766 [INFO] Requesting page (first: False, try: 0): https://export.arxiv.org/api/query?search_query=%22foundation+model%22+AND+%22remote+sensing%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=100&max_results=100
+2025-12-15 21:14:39,310 [INFO] Running query: "foundation model" AND "geospatial"
+2025-12-15 21:14:39,310 [INFO] Sleeping: 2.911338 seconds
+2025-12-15 21:14:42,226 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22foundation+model%22+AND+%22geospatial%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-12-15 21:14:43,555 [INFO] Got first page: 100 of 105 total results
+2025-12-15 21:14:43,558 [INFO] Sleeping: 2.914035 seconds
+2025-12-15 21:14:46,477 [INFO] Requesting page (first: False, try: 0): https://export.arxiv.org/api/query?search_query=%22foundation+model%22+AND+%22geospatial%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=100&max_results=100
+2025-12-15 21:14:46,820 [INFO] Running query: "foundation model" AND "ocean"
+2025-12-15 21:14:46,821 [INFO] Sleeping: 2.986266 seconds
+2025-12-15 21:14:49,812 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22foundation+model%22+AND+%22ocean%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-12-15 21:14:50,231 [INFO] Got first page: 16 of 16 total results
+2025-12-15 21:14:50,232 [INFO] Running query: "geospatial" AND "embedding"
+2025-12-15 21:14:50,232 [INFO] Sleeping: 2.972130 seconds
+2025-12-15 21:14:53,210 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22geospatial%22+AND+%22embedding%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-12-15 21:14:54,765 [INFO] Got first page: 91 of 91 total results
+2025-12-15 21:14:54,768 [INFO] Searching category: remote_sensing
+2025-12-15 21:14:54,768 [INFO] Running query: "remote sensing" AND "deep learning"
+2025-12-15 21:14:54,768 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22remote+sensing%22+AND+%22deep+learning%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-12-15 21:14:56,141 [INFO] Got first page: 100 of 1052 total results
+2025-12-15 21:14:56,144 [INFO] Sleeping: 2.916870 seconds
+2025-12-15 21:14:59,066 [INFO] Requesting page (first: False, try: 0): https://export.arxiv.org/api/query?search_query=%22remote+sensing%22+AND+%22deep+learning%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=100&max_results=100
+2025-12-15 21:15:01,006 [INFO] Running query: "remote sensing" AND "machine learning"
+2025-12-15 21:15:01,006 [INFO] Sleeping: 2.922752 seconds
+2025-12-15 21:15:03,934 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22remote+sensing%22+AND+%22machine+learning%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-12-15 21:15:05,709 [INFO] Got first page: 100 of 1321 total results
+2025-12-15 21:15:05,711 [INFO] Sleeping: 2.926570 seconds
+2025-12-15 21:15:08,643 [INFO] Requesting page (first: False, try: 0): https://export.arxiv.org/api/query?search_query=%22remote+sensing%22+AND+%22machine+learning%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=100&max_results=100
+2025-12-15 21:15:10,382 [INFO] Searching category: ocean
+2025-12-15 21:15:10,382 [INFO] Running query: "ocean" AND "deep learning"
+2025-12-15 21:15:10,382 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22ocean%22+AND+%22deep+learning%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-12-15 21:15:12,010 [INFO] Got first page: 100 of 214 total results
+2025-12-15 21:15:12,013 [INFO] Sleeping: 2.928391 seconds
+2025-12-15 21:15:14,946 [INFO] Requesting page (first: False, try: 0): https://export.arxiv.org/api/query?search_query=%22ocean%22+AND+%22deep+learning%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=100&max_results=100
+2025-12-15 21:15:16,566 [INFO] Running query: "ocean" AND "machine learning"
+2025-12-15 21:15:16,567 [INFO] Sleeping: 2.922100 seconds
+2025-12-15 21:15:19,494 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22ocean%22+AND+%22machine+learning%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-12-15 21:15:20,515 [INFO] Got first page: 100 of 547 total results
+2025-12-15 21:15:20,517 [INFO] Sleeping: 2.916892 seconds
+2025-12-15 21:15:23,439 [INFO] Requesting page (first: False, try: 0): https://export.arxiv.org/api/query?search_query=%22ocean%22+AND+%22machine+learning%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=100&max_results=100
+2025-12-15 21:15:26,300 [INFO] Running query: "ocean" AND "surface currents"
+2025-12-15 21:15:26,300 [INFO] Sleeping: 2.921335 seconds
+2025-12-15 21:15:29,226 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22ocean%22+AND+%22surface+currents%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-12-15 21:15:30,185 [INFO] Got first page: 42 of 42 total results
+2025-12-15 21:15:30,186 [INFO] Running query: "foundation model" AND "ocean"
+2025-12-15 21:15:30,187 [INFO] Sleeping: 2.952075 seconds
+2025-12-15 21:15:33,144 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22foundation+model%22+AND+%22ocean%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-12-15 21:15:33,213 [INFO] Got first page: 16 of 16 total results
+2025-12-15 21:15:33,214 [INFO] Searching category: ship_trajectories
+2025-12-15 21:15:33,214 [INFO] Running query: "ship trajectories" AND "deep learning"
+2025-12-15 21:15:33,215 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22ship+trajectories%22+AND+%22deep+learning%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-12-15 21:15:33,921 [INFO] Got first page: 3 of 3 total results
+2025-12-15 21:15:33,922 [INFO] Running query: "ship trajectories" AND "machine learning"
+2025-12-15 21:15:33,922 [INFO] Sleeping: 2.989425 seconds
+2025-12-15 21:15:36,917 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22ship+trajectories%22+AND+%22machine+learning%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-12-15 21:15:37,406 [INFO] Got first page: 4 of 4 total results
+2025-12-15 21:15:37,406 [INFO] Running query: "vessel tracking" AND "AIS"
+2025-12-15 21:15:37,407 [INFO] Sleeping: 2.987988 seconds
+2025-12-15 21:15:40,400 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22vessel+tracking%22+AND+%22AIS%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-12-15 21:15:40,998 [INFO] Got first page: 13 of 13 total results
+2025-12-15 21:15:40,999 [INFO] Running query: "fishing" AND "vessel"
+2025-12-15 21:15:40,999 [INFO] Sleeping: 2.978857 seconds
+2025-12-15 21:15:43,983 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22fishing%22+AND+%22vessel%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-12-15 21:15:45,664 [INFO] Got first page: 50 of 50 total results
+2025-12-15 21:15:45,666 [INFO] Searching category: fish_plankton
+2025-12-15 21:15:45,666 [INFO] Running query: "chlorophyll" AND "satellite"
+2025-12-15 21:15:45,666 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22chlorophyll%22+AND+%22satellite%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-12-15 21:15:46,466 [INFO] Got first page: 25 of 25 total results
+2025-12-15 21:15:46,467 [INFO] Running query: "species distribution model"
+2025-12-15 21:15:46,467 [INFO] Sleeping: 2.967150 seconds
+2025-12-15 21:15:49,439 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22species+distribution+model%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-12-15 21:15:50,502 [INFO] Got first page: 97 of 97 total results
+2025-12-15 21:15:50,504 [INFO] Searching category: geo_reasoning
+2025-12-15 21:15:50,504 [INFO] Running query: "agent" AND "geospatial"
+2025-12-15 21:15:50,504 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22agent%22+AND+%22geospatial%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-12-15 21:15:52,565 [INFO] Got first page: 62 of 62 total results
+2025-12-15 21:15:52,567 [INFO] Running query: "geospatial" AND "reasoning"
+2025-12-15 21:15:52,567 [INFO] Sleeping: 2.940191 seconds
+2025-12-15 21:15:55,513 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22geospatial%22+AND+%22reasoning%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-12-15 21:15:56,864 [INFO] Got first page: 100 of 119 total results
+2025-12-15 21:15:56,867 [INFO] Sleeping: 2.910563 seconds
+2025-12-15 21:15:59,782 [INFO] Requesting page (first: False, try: 0): https://export.arxiv.org/api/query?search_query=%22geospatial%22+AND+%22reasoning%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=100&max_results=100
+2025-12-15 21:16:00,255 [INFO] Running query: "geospatial" AND "LLM"
+2025-12-15 21:16:00,255 [INFO] Sleeping: 2.973301 seconds
+2025-12-15 21:16:03,234 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22geospatial%22+AND+%22LLM%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-12-15 21:16:04,105 [INFO] Got first page: 100 of 109 total results
+2025-12-15 21:16:04,108 [INFO] Sleeping: 2.920980 seconds
+2025-12-15 21:16:07,034 [INFO] Requesting page (first: False, try: 0): https://export.arxiv.org/api/query?search_query=%22geospatial%22+AND+%22LLM%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=100&max_results=100
+2025-12-15 21:16:07,341 [INFO] Running query: "geospatial" AND "VLM"
+2025-12-15 21:16:07,341 [INFO] Sleeping: 2.982336 seconds
+2025-12-15 21:16:10,326 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22geospatial%22+AND+%22VLM%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-12-15 21:16:10,899 [INFO] Got first page: 10 of 10 total results
+2025-12-15 21:16:10,900 [INFO] Running query: "earh" AND "query"
+2025-12-15 21:16:10,901 [INFO] Sleeping: 2.977943 seconds
+2025-12-15 21:16:13,884 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22earh%22+AND+%22query%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-12-15 21:16:14,149 [INFO] Got empty first page; stopping generation
+2025-12-15 21:16:14,149 [INFO] Running query: "geoAI"
+2025-12-15 21:16:14,149 [INFO] Sleeping: 2.997273 seconds
+2025-12-15 21:16:17,152 [INFO] Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22geoAI%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-12-15 21:16:17,877 [INFO] Got first page: 75 of 75 total results
+2025-12-15 21:16:18,081 [INFO] Saved 931 papers to output/papers_with_specificities.json
+2025-12-15 21:16:18,081 [INFO] Category counts updated.

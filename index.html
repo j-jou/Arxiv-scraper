@@ -17,9 +17,7 @@
     </div>
 
     <!-- Tag filters -->
-    <div id="tagFilters" class="flex flex-wrap justify-center gap-3 mb-6">
-      <!-- Buttons injected by JS -->
-    </div>
+    <div id="tagFilters" class="flex flex-wrap justify-center gap-3 mb-6"></div>
 
     <!-- Search bar -->
     <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mb-8">
@@ -29,9 +27,7 @@
     </div>
 
     <!-- Papers list -->
-    <div id="papersList" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-      <!-- Paper cards injected by JS -->
-    </div>
+    <div id="papersList" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8"></div>
 
     <!-- Pagination -->
     <div id="pagination" class="flex justify-center items-center gap-4 mb-6">
@@ -66,6 +62,14 @@
       const countsRes = await fetch(categoryCountsUrl);
       papers = await papersRes.json();
       categoryCounts = await countsRes.json();
+
+      // Mark recent papers (<1 week)
+      const oneWeekAgo = new Date();
+      oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
+      papers.forEach(paper => {
+        paper.isRecent = new Date(paper.published) >= oneWeekAgo;
+      });
+
       renderTags();
       renderLatestDate();
       renderPapers();
@@ -75,12 +79,7 @@
       const container = document.getElementById('tagFilters');
       container.innerHTML = '';
       for (const [tag, label] of Object.entries(availableTags)) {
-<<<<<<< HEAD
-        const count = categoryCounts.category_counts?.[tag] || 0;
-
-=======
         const count = categoryCounts[tag] || 0;
->>>>>>> 6b6cbdc (Improve scraper: sorting, recent papers flag)
         const button = document.createElement('button');
         button.className = 'tag-btn px-4 py-1 rounded-full bg-gray-200 hover:bg-blue-400 hover:text-white transition font-semibold text-gray-700';
         button.innerText = `${label} (${count})`;
@@ -106,17 +105,10 @@
 
     function renderLatestDate() {
       const latestDateDiv = document.getElementById('latestDate');
-<<<<<<< HEAD
-      const scrapeDate = categoryCounts.scrape_date || 'inconnue';
-      const newCount = categoryCounts.new_papers || 0;
-
-      latestDateDiv.innerText = `Last updated : ${scrapeDate} — New articles : ${newCount}`;
-=======
       if (papers.length > 0) {
         const latestPaper = papers[0];
         latestDateDiv.innerText = `Latest Article Date: ${latestPaper.published}`;
       }
->>>>>>> 6b6cbdc (Improve scraper: sorting, recent papers flag)
     }
 
     function renderPapers() {
@@ -141,13 +133,15 @@
 
       currentPagePapers.forEach(paper => {
         const card = document.createElement('div');
-        card.className = 'bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 ease-in-out flex flex-col justify-between';
+        card.className = `bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 ease-in-out flex flex-col justify-between ${paper.isRecent ? 'border-2 border-green-400' : ''}`;
 
         const firstAuthor = paper.authors.length > 0 ? paper.authors[0] : "Unknown Author";
         const truncatedAbstract = paper.abstract.slice(0, 180) + (paper.abstract.length > 180 ? '...' : '');
 
         card.innerHTML = `
-          <a href="${paper.url}" target="_blank" class="text-lg font-bold text-blue-600 hover:underline">${paper.title}</a>
+          <a href="${paper.url}" target="_blank" class="text-lg font-bold text-blue-600 hover:underline">
+            ${paper.title} ${paper.isRecent ? '<span class="ml-2 text-xs text-white bg-green-500 px-1 rounded">NEW</span>' : ''}
+          </a>
           <p class="text-sm text-gray-500 mt-1">${firstAuthor} — ${paper.published}</p>
           <p class="text-gray-700 mt-3">
             <span class="abstract-text">${truncatedAbstract}</span>
