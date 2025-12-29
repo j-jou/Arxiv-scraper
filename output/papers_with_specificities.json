@@ -20896,7 +20896,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Task-Oriented Data Synthesis and Control-Rectify Sampling for Remote Sensing Semantic Segmentation",
@@ -20920,7 +20921,8 @@
     ],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "On the Effectiveness of Textual Prompting with Lightweight Fine-Tuning for SAM3 Remote Sensing Segmentation",
@@ -20941,7 +20943,8 @@
     "architectures": [],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Neurosymbolic Inference On Foundation Models For Remote Sensing Text-to-image Retrieval With Complex Queries",
@@ -20962,7 +20965,8 @@
     ],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "SARMAE: Masked Autoencoder for SAR Representation Learning",
@@ -20990,7 +20994,8 @@
       "Segmentation",
       "Detection",
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Enhancing Tree Species Classification: Insights from YOLOv8 and Explainable AI Applied to TLS Point Cloud Projections",
@@ -21014,7 +21019,8 @@
     "applications": [
       "Classification",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "CF-Net: A Cross-Feature Reconstruction Network for High-Accuracy 1-Bit Target Classification",
@@ -21036,7 +21042,8 @@
     ],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "MeltwaterBench: Deep learning for spatiotemporal downscaling of surface meltwater",
@@ -21057,7 +21064,8 @@
     "architectures": [
       "UNET"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Towards Fine-Tuning-Based Site Calibration for Knowledge-Guided Machine Learning: A Summary of Results",
@@ -21078,7 +21086,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Multi-Modal Semantic Communication",
@@ -21096,7 +21105,8 @@
     "architectures": [
       "Transformer"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Reconstructing Pre-Satellite Tropical Cyclogenesis Climatology Using Deep Learning",
@@ -21119,7 +21129,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Am I Confused or Is This Confusing?: Deep Ensembles for ENSO Uncertainty Quantification",
@@ -21136,7 +21147,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Enhancing lithological interpretation from petrophysical well log of IODP expedition 390/393 using machine learning",
@@ -21154,6 +21166,231 @@
     "applications": [
       "Classification",
       "Regression"
+    ],
+    "is_recent": false
+  },
+  {
+    "title": "Lightweight framework for underground pipeline recognition and spatial localization based on multi-view 2D GPR images",
+    "url": "http://arxiv.org/abs/2512.20866v1",
+    "authors": [
+      "Haotian Lv",
+      "Chao Li",
+      "Jiangbo Dai",
+      "Yuhui Zhang",
+      "Zepeng Fan",
+      "Yiqiu Tan",
+      "Dawei Wang",
+      "Binglei Xie"
+    ],
+    "published": "2025-12-24",
+    "abstract": "To address the issues of weak correlation between multi-view features, low recognition accuracy of small-scale targets, and insufficient robustness in complex scenarios in underground pipeline detection using 3D GPR, this paper proposes a 3D pipeline intelligent detection framework. First, based on a B/C/D-Scan three-view joint analysis strategy, a three-dimensional pipeline three-view feature evaluation method is established by cross-validating forward simulation results obtained using FDTD methods with actual measurement data. Second, the DCO-YOLO framework is proposed, which integrates DySample, CGLU, and OutlookAttention cross-dimensional correlation mechanisms into the original YOLOv11 algorithm, significantly improving the small-scale pipeline edge feature extraction capability. Furthermore, a 3D-DIoU spatial feature matching algorithm is proposed, which integrates three-dimensional geometric constraints and center distance penalty terms to achieve automated association of multi-view annotations. The three-view fusion strategy resolves inherent ambiguities in single-view detection. Experiments based on real urban underground pipeline data show that the proposed method achieves accuracy, recall, and mean average precision of 96.2%, 93.3%, and 96.7%, respectively, in complex multi-pipeline scenarios, which are 2.0%, 2.1%, and 0.9% higher than the baseline model. Ablation experiments validated the synergistic optimization effect of the dynamic feature enhancement module and Grad-CAM++ heatmap visualization demonstrated that the improved model significantly enhanced its ability to focus on pipeline geometric features. This study integrates deep learning optimization strategies with the physical characteristics of 3D GPR, offering an efficient and reliable novel technical framework for the intelligent recognition and localization of underground pipelines.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Recognition"
+    ]
+  },
+  {
+    "title": "Active Convolved Illumination with Deep Transfer Learning for Complex Beam Transmission through Atmospheric Turbulence",
+    "url": "http://arxiv.org/abs/2512.19540v1",
+    "authors": [
+      "Adrian A. Moazzam",
+      "Anindya Ghoshroy",
+      "Breeanne Heusdens",
+      "Durdu O. Guney",
+      "Roohollah Askari"
+    ],
+    "published": "2025-12-22",
+    "abstract": "Atmospheric turbulence imposes a fundamental limitation across a broad range of applications, including optical imaging, remote sensing, and free-space optical communication. Recent advances in adaptive optics, wavefront shaping, and machine learning, driven by synergistic progress in fundamental theories, optoelectronic hardware, and computational algorithms, have demonstrated substantial potential in mitigating turbulence-induced distortions. Recently, active convolved illumination (ACI) was proposed as a versatile and physics-driven technique for transmitting structured light beams with minimal distortion through highly challenging turbulent regimes. While distinct in its formulation, ACI shares conceptual similarities with other physics-driven distortion correction approaches and stands to benefit from complementary integration with data-driven deep learning (DL) models. Inspired by recent work coupling deep learning with traditional turbulence mitigation strategies, the present work investigates the feasibility of integrating ACI with neural network-based methods. We outline a conceptual framework for coupling ACI with data-driven models and identify conditions under which learned representations can meaningfully support ACI's correlation-injection mechanism. As a representative example, we employ a convolutional neural network (CNN) together with a transfer-learning approach to examine how a learned model may operate in tandem with ACI. This exploratory study demonstrates feasible implementation pathways and establishes an early foundation for assessing the potential of future ACI-DL hybrid architectures, representing a step toward evaluating broader synergistic interactions between ACI and modern DL models.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": []
+  },
+  {
+    "title": "FusionNet: Physics-Aware Representation Learning for Multi-Spectral and Thermal Data via Trainable Signal-Processing Priors",
+    "url": "http://arxiv.org/abs/2512.19504v1",
+    "authors": [
+      "Georgios Voulgaris"
+    ],
+    "published": "2025-12-22",
+    "abstract": "Modern deep learning models operating on multi-modal visual signals often rely on inductive biases that are poorly aligned with the physical processes governing signal formation, leading to brittle performance under cross-spectral and real-world conditions. In particular, approaches that prioritise direct thermal cues struggle to capture indirect yet persistent environmental alterations induced by sustained heat emissions.\n  This work introduces a physics-aware representation learning framework that leverages multi-spectral information to model stable signatures of long-term physical processes. Specifically, a geological Short Wave Infrared (SWIR) ratio sensitive to soil property changes is integrated with Thermal Infrared (TIR) data through an intermediate fusion architecture, instantiated as FusionNet. The proposed backbone embeds trainable differential signal-processing priors within convolutional layers, combines mixed pooling strategies, and employs wider receptive fields to enhance robustness across spectral modalities.\n  Systematic ablations show that each architectural component contributes to performance gains, with DGCNN achieving 88.7% accuracy on the SWIR ratio and FusionNet reaching 90.6%, outperforming state-of-the-art baselines across five spectral configurations. Transfer learning experiments further show that ImageNet pretraining degrades TIR performance, highlighting the importance of modality-aware training for cross-spectral learning.\n  Evaluated on real-world data, the results demonstrate that combining physics-aware feature selection with principled deep learning architectures yields robust and generalisable representations, illustrating how first-principles signal modelling can improve multi-spectral learning under challenging conditions.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "MCVI-SANet: A lightweight semi-supervised model for LAI and SPAD estimation of winter wheat under vegetation index saturation",
+    "url": "http://arxiv.org/abs/2512.18344v1",
+    "authors": [
+      "Zhiheng Zhang",
+      "Jiajun Yang",
+      "Hong Sun",
+      "Dong Wang",
+      "Honghua Jiang",
+      "Yaru Chen",
+      "Tangyuan Ning"
+    ],
+    "published": "2025-12-20",
+    "abstract": "Vegetation index (VI) saturation during the dense canopy stage and limited ground-truth annotations of winter wheat constrain accurate estimation of LAI and SPAD. Existing VI-based and texture-driven machine learning methods exhibit limited feature expressiveness. In addition, deep learning baselines suffer from domain gaps and high data demands, which restrict their generalization. Therefore, this study proposes the Multi-Channel Vegetation Indices Saturation Aware Net (MCVI-SANet), a lightweight semi-supervised vision model. The model incorporates a newly designed Vegetation Index Saturation-Aware Block (VI-SABlock) for adaptive channel-spatial feature enhancement. It also integrates a VICReg-based semi-supervised strategy to further improve generalization. Datasets were partitioned using a vegetation height-informed strategy to maintain representativeness across growth stages. Experiments over 10 repeated runs demonstrate that MCVI-SANet achieves state-of-the-art accuracy. The model attains an average R2 of 0.8123 and RMSE of 0.4796 for LAI, and an average R2 of 0.6846 and RMSE of 2.4222 for SPAD. This performance surpasses the best-performing baselines, with improvements of 8.95% in average LAI R2 and 8.17% in average SPAD R2. Moreover, MCVI-SANet maintains high inference speed with only 0.10M parameters. Overall, the integration of semi-supervised learning with agronomic priors provides a promising approach for enhancing remote sensing-based precision agriculture.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Enriching Earth Observation labeled data with Quantum Conditioned Diffusion Models",
+    "url": "http://arxiv.org/abs/2512.20448v1",
+    "authors": [
+      "Francesco Mauro",
+      "Francesca De Falco",
+      "Lorenzo Papa",
+      "Andrea Ceschini",
+      "Alessandro Sebastianelli",
+      "Paolo Gamba",
+      "Massimo Panella",
+      "Silvia Ullo"
+    ],
+    "published": "2025-12-23",
+    "abstract": "The rapid adoption of diffusion models (DMs) in the Earth Observation (EO) domain has unlocked new generative capabilities aimed at producing new samples, whose statistical properties closely match real imagery, for tasks such as synthesizing missing data, augmenting scarce labeled datasets, and improving image reconstruction. This is particularly relevant in EO, where labeled data are often costly to obtain and limited in availability. However, classical DMs still face significant computational limitations, requiring hundreds to thousands of inference steps, as well as difficulties in capturing the intricate spatial and spectral correlations characteristic of EO data. Recent research in Quantum Machine Learning (QML), including initial attempts of Quantum Generative Models, offers a fundamentally different approach to overcome these challenges. Motivated by these considerations, we introduce the Quanvolutional Conditioned U-Net (QCU-Net), a hybrid quantum--classical architecture that applies quantum operations within a conditioned diffusion framework using a novel quanvolutional feature-extraction approach, for generating synthetic labeled EO imagery. Extensive experiments on the EuroSAT RGB dataset demonstrate that our QCU-Net achieves superior results. Notably, it reduces the Fr\u00e9chet Inception Distance by 64%, lowers the Kernel Inception Distance by 76%, and yields higher semantic accuracy. Ablation studies further reveal that strategically positioning quantum layers and employing entangling variational circuits enhance model performance and convergence. This work represents the first successful adaptation of class-conditioned quantum diffusion modeling in the EO domain, paving the way for quantum-enhanced remote sensing imagery synthesis.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "UNET",
+      "Diffusion Models"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Practical Quantum-Classical Feature Fusion for complex data Classification",
+    "url": "http://arxiv.org/abs/2512.19180v1",
+    "authors": [
+      "Azadeh Alavi",
+      "Fatemeh Kouchmeshki",
+      "Abdolrahman Alavi"
+    ],
+    "published": "2025-12-22",
+    "abstract": "Hybrid quantum and classical learning aims to couple quantum feature maps with the robustness of classical neural networks, yet most architectures treat the quantum circuit as an isolated feature extractor and merge its measurements with classical representations by direct concatenation. This neglects that the quantum and classical branches constitute distinct computational modalities and limits reliable performance on complex, high dimensional tabular and semi structured data, including remote sensing, environmental monitoring, and medical diagnostics. We present a multimodal formulation of hybrid learning and propose a cross attention mid fusion architecture in which a classical representation queries quantum derived feature tokens through an attention block with residual connectivity. The quantum branch is kept within practical NISQ budgets and uses up to nine qubits. We evaluate on Wine, Breast Cancer, Forest CoverType, FashionMNIST, and SteelPlatesFaults, comparing a quantum only model, a classical baseline, residual hybrid models, and the proposed mid fusion model under a consistent protocol. Pure quantum and standard hybrid designs underperform due to measurement induced information loss, while cross attention mid fusion is consistently competitive and improves performance on the more complex datasets in most cases. These findings suggest that quantum derived information becomes most valuable when integrated through principled multimodal fusion rather than used in isolation or loosely appended to classical features.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "PMPGuard: Catching Pseudo-Matched Pairs in Remote Sensing Image-Text Retrieval",
+    "url": "http://arxiv.org/abs/2512.18660v1",
+    "authors": [
+      "Pengxiang Ouyang",
+      "Qing Ma",
+      "Zheng Wang",
+      "Cong Bai"
+    ],
+    "published": "2025-12-21",
+    "abstract": "Remote sensing (RS) image-text retrieval faces significant challenges in real-world datasets due to the presence of Pseudo-Matched Pairs (PMPs), semantically mismatched or weakly aligned image-text pairs, which hinder the learning of reliable cross-modal alignments. To address this issue, we propose a novel retrieval framework that leverages Cross-Modal Gated Attention and a Positive-Negative Awareness Attention mechanism to mitigate the impact of such noisy associations. The gated module dynamically regulates cross-modal information flow, while the awareness mechanism explicitly distinguishes informative (positive) cues from misleading (negative) ones during alignment learning. Extensive experiments on three benchmark RS datasets, i.e., RSICD, RSITMD, and RS5M, demonstrate that our method consistently achieves state-of-the-art performance, highlighting its robustness and effectiveness in handling real-world mismatches and PMPs in RS image-text retrieval tasks.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Self-organizing maps for water quality assessment in reservoirs and lakes: A systematic literature review",
+    "url": "http://arxiv.org/abs/2512.18466v1",
+    "authors": [
+      "Oraib Almegdadi",
+      "Jo\u00e3o Marcelino",
+      "Sarah Fakhreddine",
+      "Jo\u00e3o Manso",
+      "Nuno C. Marques"
+    ],
+    "published": "2025-12-20",
+    "abstract": "Sustainable water quality underpins ecological balance and water security. Assessing and managing lakes and reservoirs is difficult due to data sparsity, heterogeneity, and nonlinear relationships among parameters. This review examines how Self-Organizing Map (SOM), an unsupervised AI technique, is applied to water quality assessment. It synthesizes research on parameter selection, spatial and temporal sampling strategies, and clustering approaches. Emphasis is placed on how SOM handles multidimensional data and uncovers hidden patterns to support effective water management. The growing availability of environmental data from in-situ sensors, remote sensing imagery, IoT technologies, and historical records has significantly expanded analytical opportunities in environmental monitoring. SOM has proven effective in analysing complex datasets, particularly when labelled data are limited or unavailable. It enables high-dimensional data visualization, facilitates the detection of hidden ecological patterns, and identifies critical correlations among diverse water quality indicators. This review highlights SOMs versatility in ecological assessments, trophic state classification, algal bloom monitoring, and catchment area impact evaluations. The findings offer comprehensive insights into existing methodologies, supporting future research and practical applications aimed at improving the monitoring and sustainable management of lake and reservoir ecosystems.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "NASTaR: NovaSAR Automated Ship Target Recognition Dataset",
+    "url": "http://arxiv.org/abs/2512.18503v1",
+    "authors": [
+      "Benyamin Hosseiny",
+      "Kamirul Kamirul",
+      "Odysseas Pappas",
+      "Alin Achim"
+    ],
+    "published": "2025-12-20",
+    "abstract": "Synthetic Aperture Radar (SAR) offers a unique capability for all-weather, space-based maritime activity monitoring by capturing and imaging strong reflections from ships at sea. A well-defined challenge in this domain is ship type classification. Due to the high diversity and complexity of ship types, accurate recognition is difficult and typically requires specialized deep learning models. These models, however, depend on large, high-quality ground-truth datasets to achieve robust performance and generalization. Furthermore, the growing variety of SAR satellites operating at different frequencies and spatial resolutions has amplified the need for more annotated datasets to enhance model accuracy. To address this, we present the NovaSAR Automated Ship Target Recognition (NASTaR) dataset. This dataset comprises of 3415 ship patches extracted from NovaSAR S-band imagery, with labels matched to AIS data. It includes distinctive features such as 23 unique classes, inshore/offshore separation, and an auxiliary wake dataset for patches where ship wakes are visible. We validated the dataset applicability across prominent ship-type classification scenarios using benchmark deep learning models. Results demonstrate over 60% accuracy for classifying four major ship types, over 70% for a three-class scenario, more than 75% for distinguishing cargo from tanker ships, and over 87% for identifying fishing vessels. The NASTaR dataset is available at https://10.5523/bris, while relevant codes for benchmarking and analysis are available at https://github.com/benyaminhosseiny/nastar.",
+    "categories": [
+      "ship_trajectories"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification",
+      "Recognition"
+    ]
+  },
+  {
+    "title": "SegEarth-R2: Towards Comprehensive Language-guided Segmentation for Remote Sensing Images",
+    "url": "http://arxiv.org/abs/2512.20013v1",
+    "authors": [
+      "Zepeng Xin",
+      "Kaiyu Li",
+      "Luodi Chen",
+      "Wanchen Li",
+      "Yuchen Xiao",
+      "Hui Qiao",
+      "Weizhan Zhang",
+      "Deyu Meng",
+      "Xiangyong Cao"
+    ],
+    "published": "2025-12-23",
+    "abstract": "Effectively grounding complex language to pixels in remote sensing (RS) images is a critical challenge for applications like disaster response and environmental monitoring. Current models can parse simple, single-target commands but fail when presented with complex geospatial scenarios, e.g., segmenting objects at various granularities, executing multi-target instructions, and interpreting implicit user intent. To drive progress against these failures, we present LaSeRS, the first large-scale dataset built for comprehensive training and evaluation across four critical dimensions of language-guided segmentation: hierarchical granularity, target multiplicity, reasoning requirements, and linguistic variability. By capturing these dimensions, LaSeRS moves beyond simple commands, providing a benchmark for complex geospatial reasoning. This addresses a critical gap: existing datasets oversimplify, leading to sensitivity-prone real-world models. We also propose SegEarth-R2, an MLLM architecture designed for comprehensive language-guided segmentation in RS, which directly confronts these challenges. The model's effectiveness stems from two key improvements: (1) a spatial attention supervision mechanism specifically handles the localization of small objects and their components, and (2) a flexible and efficient segmentation query mechanism that handles both single-target and multi-target scenarios. Experimental results demonstrate that our SegEarth-R2 achieves outstanding performance on LaSeRS and other benchmarks, establishing a powerful baseline for the next generation of geospatial segmentation. All data and code will be released at https://github.com/earth-insights/SegEarth-R2.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "Bridging Semantics and Geometry: A Decoupled LVLM-SAM Framework for Reasoning Segmentation in Remote Sensing",
+    "url": "http://arxiv.org/abs/2512.19302v1",
+    "authors": [
+      "Xu Zhang",
+      "Junyao Ge",
+      "Yang Zheng",
+      "Kaitai Guo",
+      "Jimin Liang"
+    ],
+    "published": "2025-12-22",
+    "abstract": "Large Vision-Language Models (LVLMs) hold great promise for advancing remote sensing (RS) analysis, yet existing reasoning segmentation frameworks couple linguistic reasoning and pixel prediction through end-to-end supervised fine-tuning, leading to weak geometric grounding and limited generalization across tasks. To address this, we developed Think2Seg-RS, a decoupled framework that trains an LVLM prompter to control a frozen Segment Anything Model (SAM) via structured geometric prompts. Through a mask-only reinforcement learning objective, the LVLM learns to translate abstract semantic reasoning into spatially grounded actions, achieving state-of-the-art performance on the EarthReason dataset. Remarkably, the learned prompting policy generalizes zero-shot to multiple referring segmentation benchmarks, exposing a distinct divide between semantic-level and instance-level grounding. We further found that compact segmenters outperform larger ones under semantic-level supervision, and that negative prompts are ineffective in heterogeneous aerial backgrounds. Together, these findings establish semantic-level reasoning segmentation as a new paradigm for geospatial understanding, opening the way toward unified, interpretable LVLM-driven Earth observation. Our code and model are available at https://github.com/Ricardo-XZ/Think2Seg-RS.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": [
+      "Segmentation",
+      "Forecast",
+      "Reinforcement Learning"
     ]
   }
 ]
