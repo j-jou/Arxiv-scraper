@@ -21191,7 +21191,8 @@
     "applications": [
       "Detection",
       "Recognition"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Active Convolved Illumination with Deep Transfer Learning for Complex Beam Transmission through Atmospheric Turbulence",
@@ -21211,7 +21212,8 @@
     "architectures": [
       "CNN"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "FusionNet: Physics-Aware Representation Learning for Multi-Spectral and Thermal Data via Trainable Signal-Processing Priors",
@@ -21225,7 +21227,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "MCVI-SANet: A lightweight semi-supervised model for LAI and SPAD estimation of winter wheat under vegetation index saturation",
@@ -21245,7 +21248,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Enriching Earth Observation labeled data with Quantum Conditioned Diffusion Models",
@@ -21269,7 +21273,8 @@
       "UNET",
       "Diffusion Models"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Practical Quantum-Classical Feature Fusion for complex data Classification",
@@ -21285,7 +21290,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "PMPGuard: Catching Pseudo-Matched Pairs in Remote Sensing Image-Text Retrieval",
@@ -21302,7 +21308,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Self-organizing maps for water quality assessment in reservoirs and lakes: A systematic literature review",
@@ -21323,7 +21330,8 @@
     "applications": [
       "Detection",
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "NASTaR: NovaSAR Automated Ship Target Recognition Dataset",
@@ -21343,7 +21351,8 @@
     "applications": [
       "Classification",
       "Recognition"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "SegEarth-R2: Towards Comprehensive Language-guided Segmentation for Remote Sensing Images",
@@ -21367,7 +21376,8 @@
     "architectures": [],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Bridging Semantics and Geometry: A Decoupled LVLM-SAM Framework for Reasoning Segmentation in Remote Sensing",
@@ -21391,6 +21401,230 @@
       "Segmentation",
       "Forecast",
       "Reinforcement Learning"
+    ],
+    "is_recent": false
+  },
+  {
+    "title": "Deep Global Clustering for Hyperspectral Image Segmentation: Concepts, Applications, and Open Challenges",
+    "url": "http://arxiv.org/abs/2512.24172v1",
+    "authors": [
+      "Yu-Tang Chang",
+      "Pin-Wei Chen",
+      "Shih-Fang Chen"
+    ],
+    "published": "2025-12-30",
+    "abstract": "Hyperspectral imaging (HSI) analysis faces computational bottlenecks due to massive data volumes that exceed available memory. While foundation models pre-trained on large remote sensing datasets show promise, their learned representations often fail to transfer to domain-specific applications like close-range agricultural monitoring where spectral signatures, spatial scales, and semantic targets differ fundamentally. This report presents Deep Global Clustering (DGC), a conceptual framework for memory-efficient HSI segmentation that learns global clustering structure from local patch observations without pre-training. DGC operates on small patches with overlapping regions to enforce consistency, enabling training in under 30 minutes on consumer hardware while maintaining constant memory usage. On a leaf disease dataset, DGC achieves background-tissue separation (mean IoU 0.925) and demonstrates unsupervised disease detection through navigable semantic granularity. However, the framework suffers from optimization instability rooted in multi-objective loss balancing: meaningful representations emerge rapidly but degrade due to cluster over-merging in feature space. We position this work as intellectual scaffolding - the design philosophy has merit, but stable implementation requires principled approaches to dynamic loss balancing. Code and data are available at https://github.com/b05611038/HSI_global_clustering.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection"
+    ]
+  },
+  {
+    "title": "Scaling Remote Sensing Foundation Models: Data Domain Tradeoffs at the Peta-Scale",
+    "url": "http://arxiv.org/abs/2512.23903v1",
+    "authors": [
+      "Charith Wickrema",
+      "Eliza Mace",
+      "Hunter Brown",
+      "Heidys Cabrera",
+      "Nick Krall",
+      "Matthew O'Neill",
+      "Shivangi Sarkar",
+      "Lowell Weissman",
+      "Eric Hughes",
+      "Guido Zarrella"
+    ],
+    "published": "2025-12-29",
+    "abstract": "We explore the scaling behaviors of artificial intelligence to establish practical techniques for training foundation models on high-resolution electro-optical (EO) datasets that exceed the current state-of-the-art scale by orders of magnitude. Modern multimodal machine learning (ML) applications, such as generative artificial intelligence (GenAI) systems for image captioning, search, and reasoning, depend on robust, domain-specialized encoders for non-text modalities. In natural-image domains where internet-scale data is plentiful, well-established scaling laws help optimize the joint scaling of model capacity, training compute, and dataset size. Unfortunately, these relationships are much less well-understood in high-value domains like remote sensing (RS). Using over a quadrillion pixels of commercial satellite EO data and the MITRE Federal AI Sandbox, we train progressively larger vision transformer (ViT) backbones, report success and failure modes observed at petascale, and analyze implications for bridging domain gaps across additional RS modalities. We observe that even at this scale, performance is consistent with a data limited regime rather than a model parameter-limited one. These practical insights are intended to inform data-collection strategies, compute budgets, and optimization schedules that advance the future development of frontier-scale RS foundation models.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "RS-Prune: Training-Free Data Pruning at High Ratios for Efficient Remote Sensing Diffusion Foundation Models",
+    "url": "http://arxiv.org/abs/2512.23239v1",
+    "authors": [
+      "Fan Wei",
+      "Runmin Dong",
+      "Yushan Lai",
+      "Yixiang Yang",
+      "Zhaoyang Luo",
+      "Jinxiao Zhang",
+      "Miao Yang",
+      "Shuai Yuan",
+      "Jiyao Zhao",
+      "Bin Luo",
+      "Haohuan Fu"
+    ],
+    "published": "2025-12-29",
+    "abstract": "Diffusion-based remote sensing (RS) generative foundation models are cruial for downstream tasks. However, these models rely on large amounts of globally representative data, which often contain redundancy, noise, and class imbalance, reducing training efficiency and preventing convergence. Existing RS diffusion foundation models typically aggregate multiple classification datasets or apply simplistic deduplication, overlooking the distributional requirements of generation modeling and the heterogeneity of RS imagery. To address these limitations, we propose a training-free, two-stage data pruning approach that quickly select a high-quality subset under high pruning ratios, enabling a preliminary foundation model to converge rapidly and serve as a versatile backbone for generation, downstream fine-tuning, and other applications. Our method jointly considers local information content with global scene-level diversity and representativeness. First, an entropy-based criterion efficiently removes low-information samples. Next, leveraging RS scene classification datasets as reference benchmarks, we perform scene-aware clustering with stratified sampling to improve clustering effectiveness while reducing computational costs on large-scale unlabeled data. Finally, by balancing cluster-level uniformity and sample representativeness, the method enables fine-grained selection under high pruning ratios while preserving overall diversity and representativeness. Experiments show that, even after pruning 85\\% of the training data, our method significantly improves convergence and generation quality. Furthermore, diffusion foundation models trained with our method consistently achieve state-of-the-art performance across downstream tasks, including super-resolution and semantic image synthesis. This data pruning paradigm offers practical guidance for developing RS generative foundation models.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification",
+      "Super-Resolution"
+    ]
+  },
+  {
+    "title": "Toward Stable Semi-Supervised Remote Sensing Segmentation via Co-Guidance and Co-Fusion",
+    "url": "http://arxiv.org/abs/2512.23035v1",
+    "authors": [
+      "Yi Zhou",
+      "Xuechao Zou",
+      "Shun Zhang",
+      "Kai Li",
+      "Shiying Wang",
+      "Jingming Chen",
+      "Congyan Lang",
+      "Tengfei Cao",
+      "Pin Tao",
+      "Yuanchun Shi"
+    ],
+    "published": "2025-12-28",
+    "abstract": "Semi-supervised remote sensing (RS) image semantic segmentation offers a promising solution to alleviate the burden of exhaustive annotation, yet it fundamentally struggles with pseudo-label drift, a phenomenon where confirmation bias leads to the accumulation of errors during training. In this work, we propose Co2S, a stable semi-supervised RS segmentation framework that synergistically fuses priors from vision-language models and self-supervised models. Specifically, we construct a heterogeneous dual-student architecture comprising two distinct ViT-based vision foundation models initialized with pretrained CLIP and DINOv3 to mitigate error accumulation and pseudo-label drift. To effectively incorporate these distinct priors, an explicit-implicit semantic co-guidance mechanism is introduced that utilizes text embeddings and learnable queries to provide explicit and implicit class-level guidance, respectively, thereby jointly enhancing semantic consistency. Furthermore, a global-local feature collaborative fusion strategy is developed to effectively fuse the global contextual information captured by CLIP with the local details produced by DINOv3, enabling the model to generate highly precise segmentation results. Extensive experiments on six popular datasets demonstrate the superiority of the proposed method, which consistently achieves leading performance across various partition protocols and diverse scenarios. Project page is available at https://xavierjiezou.github.io/Co2S/.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer",
+      "LVM",
+      "CLIP"
+    ],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "SAM 3D for 3D Object Reconstruction from Remote Sensing Images",
+    "url": "http://arxiv.org/abs/2512.22452v1",
+    "authors": [
+      "Junsheng Yao",
+      "Lichao Mou",
+      "Qingyu Li"
+    ],
+    "published": "2025-12-27",
+    "abstract": "Monocular 3D building reconstruction from remote sensing imagery is essential for scalable urban modeling, yet existing methods often require task-specific architectures and intensive supervision. This paper presents the first systematic evaluation of SAM 3D, a general-purpose image-to-3D foundation model, for monocular remote sensing building reconstruction. We benchmark SAM 3D against TRELLIS on samples from the NYC Urban Dataset, employing Frechet Inception Distance (FID) and CLIP-based Maximum Mean Discrepancy (CMMD) as evaluation metrics. Experimental results demonstrate that SAM 3D produces more coherent roof geometry and sharper boundaries compared to TRELLIS. We further extend SAM 3D to urban scene reconstruction through a segment-reconstruct-compose pipeline, demonstrating its potential for urban scene modeling. We also analyze practical limitations and discuss future research directions. These findings provide practical guidance for deploying foundation models in urban 3D reconstruction and motivate future integration of scene-level structural priors.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "CLIP"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Traffic-Aware Optimal Taxi Placement Using Graph Neural Network-Based Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2601.00607v1",
+    "authors": [
+      "Sonia Khetarpaul",
+      "P Y Sharan"
+    ],
+    "published": "2026-01-02",
+    "abstract": "In the context of smart city transportation, efficient matching of taxi supply with passenger demand requires real-time integration of urban traffic network data and mobility patterns. Conventional taxi hotspot prediction models often rely solely on historical demand, overlooking dynamic influences such as traffic congestion, road incidents, and public events. This paper presents a traffic-aware, graph-based reinforcement learning (RL) framework for optimal taxi placement in metropolitan environments. The urban road network is modeled as a graph where intersections represent nodes, road segments serve as edges, and node attributes capture historical demand, event proximity, and real-time congestion scores obtained from live traffic APIs. Graph Neural Network (GNN) embeddings are employed to encode spatial-temporal dependencies within the traffic network, which are then used by a Q-learning agent to recommend optimal taxi hotspots. The reward mechanism jointly optimizes passenger waiting time, driver travel distance, and congestion avoidance. Experiments on a simulated Delhi taxi dataset, generated using real geospatial boundaries and historic ride-hailing request patterns, demonstrate that the proposed model reduced passenger waiting time by about 56% and reduced travel distance by 38% compared to baseline stochastic selection. The proposed approach is adaptable to multi-modal transport systems and can be integrated into smart city platforms for real-time urban mobility optimization.",
+    "categories": [
+      "geo_reasoning",
+      "foundation_model"
+    ],
+    "architectures": [
+      "GNN"
+    ],
+    "applications": [
+      "Forecast",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Disentangling Hardness from Noise: An Uncertainty-Driven Model-Agnostic Framework for Long-Tailed Remote Sensing Classification",
+    "url": "http://arxiv.org/abs/2601.00278v1",
+    "authors": [
+      "Chi Ding",
+      "Junxiao Xue",
+      "Xinyi Yin",
+      "Shi Chen",
+      "Yunyun Shi",
+      "Yiduo Wang",
+      "Fengjian Xue",
+      "Xuecheng Wu"
+    ],
+    "published": "2026-01-01",
+    "abstract": "Long-Tailed distributions are pervasive in remote sensing due to the inherently imbalanced occurrence of grounded objects. However, a critical challenge remains largely overlooked, i.e., disentangling hard tail data samples from noisy ambiguous ones. Conventional methods often indiscriminately emphasize all low-confidence samples, leading to overfitting on noisy data. To bridge this gap, building upon Evidential Deep Learning, we propose a model-agnostic uncertainty-aware framework termed DUAL, which dynamically disentangles prediction uncertainty into Epistemic Uncertainty (EU) and Aleatoric Uncertainty (AU). Specifically, we introduce EU as an indicator of sample scarcity to guide a reweighting strategy for hard-to-learn tail samples, while leveraging AU to quantify data ambiguity, employing an adaptive label smoothing mechanism to suppress the impact of noise. Extensive experiments on multiple datasets across various backbones demonstrate the effectiveness and generalization of our framework, surpassing strong baselines such as TGN and SADE. Ablation studies provide further insights into the crucial choices of our design.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "3D Semantic Segmentation for Post-Disaster Assessment",
+    "url": "http://arxiv.org/abs/2512.24593v1",
+    "authors": [
+      "Nhut Le",
+      "Maryam Rahnemoonfar"
+    ],
+    "published": "2025-12-31",
+    "abstract": "The increasing frequency of natural disasters poses severe threats to human lives and leads to substantial economic losses. While 3D semantic segmentation is crucial for post-disaster assessment, existing deep learning models lack datasets specifically designed for post-disaster environments. To address this gap, we constructed a specialized 3D dataset using unmanned aerial vehicles (UAVs)-captured aerial footage of Hurricane Ian (2022) over affected areas, employing Structure-from-Motion (SfM) and Multi-View Stereo (MVS) techniques to reconstruct 3D point clouds. We evaluated the state-of-the-art (SOTA) 3D semantic segmentation models, Fast Point Transformer (FPT), Point Transformer v3 (PTv3), and OA-CNNs on this dataset, exposing significant limitations in existing methods for disaster-stricken regions. These findings underscore the urgent need for advancements in 3D segmentation techniques and the development of specialized 3D benchmark datasets to improve post-disaster scene understanding and response.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "A multimodal Transformer for InSAR-based ground deformation forecasting with cross-site generalization across Europe",
+    "url": "http://arxiv.org/abs/2512.23906v1",
+    "authors": [
+      "Wendong Yao",
+      "Binhua Huang",
+      "Soumyabrata Dev"
+    ],
+    "published": "2025-12-30",
+    "abstract": "Near-real-time regional-scale monitoring of ground deformation is increasingly required to support urban planning, critical infrastructure management, and natural hazard mitigation. While Interferometric Synthetic Aperture Radar (InSAR) and continental-scale services such as the European Ground Motion Service (EGMS) provide dense observations of past motion, predicting the next observation remains challenging due to the superposition of long-term trends, seasonal cycles, and occasional abrupt discontinuities (e.g., co-seismic steps), together with strong spatial heterogeneity. In this study we propose a multimodal patch-based Transformer for single-step, fixed-interval next-epoch nowcasting of displacement maps from EGMS time series (resampled to a 64x64 grid over 100 km x 100 km tiles). The model ingests recent displacement snapshots together with (i) static kinematic indicators (mean velocity, acceleration, seasonal amplitude) computed in a leakage-safe manner from the training window only, and (ii) harmonic day-of-year encodings. On the eastern Ireland tile (E32N34), the STGCN is strongest in the displacement-only setting, whereas the multimodal Transformer clearly outperforms CNN-LSTM, CNN-LSTM+Attn, and multimodal STGCN when all models receive the same multimodal inputs, achieving RMSE = 0.90 mm and $R^2$ = 0.97 on the test set with the best threshold accuracies.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer",
+      "LSTM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Machine learning models for predicting catastrophe bond coupons using climate data",
+    "url": "http://arxiv.org/abs/2512.22660v1",
+    "authors": [
+      "Julia Ko\u0144czal",
+      "Micha\u0142 Balcerek",
+      "Krzysztof Burnecki"
+    ],
+    "published": "2025-12-27",
+    "abstract": "In recent years, the growing frequency and severity of natural disasters have increased the need for effective tools to manage catastrophe risk. Catastrophe (CAT) bonds allow the transfer of part of this risk to investors, offering an alternative to traditional reinsurance. This paper examines the role of climate variability in CAT bond pricing and evaluates the predictive performance of various machine learning models in forecasting CAT bond coupons. We combine features typically used in the literature with a new set of climate indicators, including Oceanic Ni{\u00f1}o Index, Arctic Oscillation, North Atlantic Oscillation, Outgoing Longwave Radiation, Pacific-North American pattern, Pacific Decadal Oscillation, Southern Oscillation Index, and sea surface temperatures. We compare the performance of linear regression with several machine learning algorithms, such as random forest, gradient boosting, extremely randomized trees, and extreme gradient boosting. Our results show that including climate-related variables improves predictive accuracy across all models, with extremely randomized trees achieving the lowest root mean squared error (RMSE). These findings suggest that large-scale climate variability has a measurable influence on CAT bond pricing and that machine learning methods can effectively capture these complex relationships.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Regression",
+      "Forecast"
     ]
   }
 ]
