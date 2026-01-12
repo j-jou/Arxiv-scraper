@@ -21422,7 +21422,8 @@
     "applications": [
       "Segmentation",
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Scaling Remote Sensing Foundation Models: Data Domain Tradeoffs at the Peta-Scale",
@@ -21448,7 +21449,8 @@
     "architectures": [
       "Transformer"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "RS-Prune: Training-Free Data Pruning at High Ratios for Efficient Remote Sensing Diffusion Foundation Models",
@@ -21475,7 +21477,8 @@
     "applications": [
       "Classification",
       "Super-Resolution"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Toward Stable Semi-Supervised Remote Sensing Segmentation via Co-Guidance and Co-Fusion",
@@ -21504,7 +21507,8 @@
     ],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "SAM 3D for 3D Object Reconstruction from Remote Sensing Images",
@@ -21522,7 +21526,8 @@
     "architectures": [
       "CLIP"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Traffic-Aware Optimal Taxi Placement Using Graph Neural Network-Based Reinforcement Learning",
@@ -21543,7 +21548,8 @@
     "applications": [
       "Forecast",
       "Reinforcement Learning"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Disentangling Hardness from Noise: An Uncertainty-Driven Model-Agnostic Framework for Long-Tailed Remote Sensing Classification",
@@ -21566,7 +21572,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "3D Semantic Segmentation for Post-Disaster Assessment",
@@ -21586,7 +21593,8 @@
     ],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "A multimodal Transformer for InSAR-based ground deformation forecasting with cross-site generalization across Europe",
@@ -21606,7 +21614,8 @@
       "Transformer",
       "LSTM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Machine learning models for predicting catastrophe bond coupons using climate data",
@@ -21625,6 +21634,320 @@
     "applications": [
       "Regression",
       "Forecast"
+    ],
+    "is_recent": false
+  },
+  {
+    "title": "LLM Agent Framework for Intelligent Change Analysis in Urban Environment using Remote Sensing Imagery",
+    "url": "http://arxiv.org/abs/2601.02757v1",
+    "authors": [
+      "Zixuan Xiao",
+      "Jun Ma"
+    ],
+    "published": "2026-01-06",
+    "abstract": "Existing change detection methods often lack the versatility to handle diverse real-world queries and the intelligence for comprehensive analysis. This paper presents a general agent framework, integrating Large Language Models (LLM) with vision foundation models to form ChangeGPT. A hierarchical structure is employed to mitigate hallucination. The agent was evaluated on a curated dataset of 140 questions categorized by real-world scenarios, encompassing various question types (e.g., Size, Class, Number) and complexities. The evaluation assessed the agent's tool selection ability (Precision/Recall) and overall query accuracy (Match). ChangeGPT, especially with a GPT-4-turbo backend, demonstrated superior performance, achieving a 90.71 % Match rate. Its strength lies particularly in handling change-related queries requiring multi-step reasoning and robust tool selection. Practical effectiveness was further validated through a real-world urban change monitoring case study in Qianhai Bay, Shenzhen. By providing intelligence, adaptability, and multi-type change analysis, ChangeGPT offers a powerful solution for decision-making in remote sensing applications.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Agentic AI in Remote Sensing: Foundations, Taxonomy, and Emerging Systems",
+    "url": "http://arxiv.org/abs/2601.01891v1",
+    "authors": [
+      "Niloufar Alipour Talemi",
+      "Julia Boone",
+      "Fatemeh Afghah"
+    ],
+    "published": "2026-01-05",
+    "abstract": "The paradigm of Earth Observation analysis is shifting from static deep learning models to autonomous agentic AI. Although recent vision foundation models and multimodal large language models advance representation learning, they often lack the sequential planning and active tool orchestration required for complex geospatial workflows. This survey presents the first comprehensive review of agentic AI in remote sensing. We introduce a unified taxonomy distinguishing between single-agent copilots and multi-agent systems while analyzing architectural foundations such as planning mechanisms, retrieval-augmented generation, and memory structures. Furthermore, we review emerging benchmarks that move the evaluation from pixel-level accuracy to trajectory-aware reasoning correctness. By critically examining limitations in grounding, safety, and orchestration, this work outlines a strategic roadmap for the development of robust, autonomous geospatial intelligence.",
+    "categories": [
+      "foundation_model",
+      "remote_sensing",
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Promptable Foundation Models for SAR Remote Sensing: Adapting the Segment Anything Model for Snow Avalanche Segmentation",
+    "url": "http://arxiv.org/abs/2601.01213v1",
+    "authors": [
+      "Riccardo Gelato",
+      "Carlo Sgaravatti",
+      "Jakob Grahn",
+      "Giacomo Boracchi",
+      "Filippo Maria Bianchi"
+    ],
+    "published": "2026-01-03",
+    "abstract": "Remote sensing solutions for avalanche segmentation and mapping are key to supporting risk forecasting and mitigation in mountain regions. Synthetic Aperture Radar (SAR) imagery from Sentinel-1 can be effectively used for this task, but training an effective detection model requires gathering a large dataset with high-quality annotations from domain experts, which is prohibitively time-consuming. In this work, we aim to facilitate and accelerate the annotation of SAR images for avalanche mapping. We build on the Segment Anything Model (SAM), a segmentation foundation model trained on natural images, and tailor it to Sentinel-1 SAR data. Adapting SAM to our use-case requires addressing several domain-specific challenges: (i) domain mismatch, since SAM was not trained on satellite/SAR imagery; (ii) input adaptation, because SAR products typically provide more than three channels, while SAM is constrained to RGB images; (iii) robustness to imprecise prompts that can affect target identification and degrade the segmentation quality, an issue exacerbated in small, low-contrast avalanches; and (iv) training efficiency, since standard fine-tuning is computationally demanding for SAM. We tackle these challenges through a combination of adapters to mitigate the domain gap, multiple encoders to handle multi-channel SAR inputs, prompt-engineering strategies to improve avalanche localization accuracy, and a training algorithm that limits the training time of the encoder, which is recognized as the major bottleneck. We integrate the resulting model into an annotation tool and show experimentally that it speeds up the annotation of SAR images.",
+    "categories": [
+      "foundation_model",
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Vision-Language Agents for Interactive Forest Change Analysis",
+    "url": "http://arxiv.org/abs/2601.04497v1",
+    "authors": [
+      "James Brock",
+      "Ce Zhang",
+      "Nantheera Anantrasirichai"
+    ],
+    "published": "2026-01-08",
+    "abstract": "Modern forest monitoring workflows increasingly benefit from the growing availability of high-resolution satellite imagery and advances in deep learning. Two persistent challenges in this context are accurate pixel-level change detection and meaningful semantic change captioning for complex forest dynamics. While large language models (LLMs) are being adapted for interactive data exploration, their integration with vision-language models (VLMs) for remote sensing image change interpretation (RSICI) remains underexplored. To address this gap, we introduce an LLM-driven agent for integrated forest change analysis that supports natural language querying across multiple RSICI tasks. The proposed system builds upon a multi-level change interpretation (MCI) vision-language backbone with LLM-based orchestration. To facilitate adaptation and evaluation in forest environments, we further introduce the Forest-Change dataset, which comprises bi-temporal satellite imagery, pixel-level change masks, and multi-granularity semantic change captions generated using a combination of human annotation and rule-based methods. Experimental results show that the proposed system achieves mIoU and BLEU-4 scores of 67.10% and 40.17% on the Forest-Change dataset, and 88.13% and 34.41% on LEVIR-MCI-Trees, a tree-focused subset of LEVIR-MCI benchmark for joint change detection and captioning. These results highlight the potential of interactive, LLM-driven RSICI systems to improve accessibility, interpretability, and efficiency of forest change analysis. All data and code are publicly available at https://github.com/JamesBrockUoB/ForestChat.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "LLM",
+      "LVM"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Pixel-Wise Multimodal Contrastive Learning for Remote Sensing Images",
+    "url": "http://arxiv.org/abs/2601.04127v1",
+    "authors": [
+      "Leandro Stival",
+      "Ricardo da Silva Torres",
+      "Helio Pedrini"
+    ],
+    "published": "2026-01-07",
+    "abstract": "Satellites continuously generate massive volumes of data, particularly for Earth observation, including satellite image time series (SITS). However, most deep learning models are designed to process either entire images or complete time series sequences to extract meaningful features for downstream tasks. In this study, we propose a novel multimodal approach that leverages pixel-wise two-dimensional (2D) representations to encode visual property variations from SITS more effectively. Specifically, we generate recurrence plots from pixel-based vegetation index time series (NDVI, EVI, and SAVI) as an alternative to using raw pixel values, creating more informative representations. Additionally, we introduce PIxel-wise Multimodal Contrastive (PIMC), a new multimodal self-supervision approach that produces effective encoders based on two-dimensional pixel time series representations and remote sensing imagery (RSI). To validate our approach, we assess its performance on three downstream tasks: pixel-level forecasting and classification using the PASTIS dataset, and land cover classification on the EuroSAT dataset. Moreover, we compare our results to state-of-the-art (SOTA) methods on all downstream tasks. Our experimental results show that the use of 2D representations significantly enhances feature extraction from SITS, while contrastive learning improves the quality of representations for both pixel time series and RSI. These findings suggest that our multimodal method outperforms existing models in various Earth observation tasks, establishing it as a robust self-supervision framework for processing both SITS and RSI. Code avaliable on",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "A Spatio-Temporal Deep Learning Approach For High-Resolution Gridded Monsoon Prediction",
+    "url": "http://arxiv.org/abs/2601.02445v1",
+    "authors": [
+      "Parashjyoti Borah",
+      "Sanghamitra Sarkar",
+      "Ranjan Phukan"
+    ],
+    "published": "2026-01-05",
+    "abstract": "The Indian Summer Monsoon (ISM) is a critical climate phenomenon, fundamentally impacting the agriculture, economy, and water security of over a billion people. Traditional long-range forecasting, whether statistical or dynamical, has predominantly focused on predicting a single, spatially-averaged seasonal value, lacking the spatial detail essential for regional-level resource management. To address this gap, we introduce a novel deep learning framework that reframes gridded monsoon prediction as a spatio-temporal computer vision task. We treat multi-variable, pre-monsoon atmospheric and oceanic fields as a sequence of multi-channel images, effectively creating a video-like input tensor. Using 85 years of ERA5 reanalysis data for predictors and IMD rainfall data for targets, we employ a Convolutional Neural Network (CNN)-based architecture to learn the complex mapping from the five-month pre-monsoon period (January-May) to a high-resolution gridded rainfall pattern for the subsequent monsoon season. Our framework successfully produces distinct forecasts for each of the four monsoon months (June-September) as well as the total seasonal average, demonstrating its utility for both intra-seasonal and seasonal outlooks.",
+    "categories": [
+      "remote_sensing",
+      "ocean"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "MCD-Net: A Lightweight Deep Learning Baseline for Optical-Only Moraine Segmentation",
+    "url": "http://arxiv.org/abs/2601.02091v2",
+    "authors": [
+      "Zhehuan Cao",
+      "Fiseha Berhanu Tesema",
+      "Ping Fu",
+      "Jianfeng Ren",
+      "Ahmed Nasr"
+    ],
+    "published": "2026-01-05",
+    "abstract": "Glacial segmentation is essential for reconstructing past glacier dynamics and evaluating climate-driven landscape change. However, weak optical contrast and the limited availability of high-resolution DEMs hinder automated mapping. This study introduces the first large-scale optical-only moraine segmentation dataset, comprising 3,340 manually annotated high-resolution images from Google Earth covering glaciated regions of Sichuan and Yunnan, China. We develop MCD-Net, a lightweight baseline that integrates a MobileNetV2 encoder, a Convolutional Block Attention Module (CBAM), and a DeepLabV3+ decoder. Benchmarking against deeper backbones (ResNet152, Xception) shows that MCD-Net achieves 62.3% mean Intersection over Union (mIoU) and 72.8% Dice coefficient while reducing computational cost by more than 60%. Although ridge delineation remains constrained by sub-pixel width and spectral ambiguity, the results demonstrate that optical imagery alone can provide reliable moraine-body segmentation. The dataset and code are publicly available at https://github.com/Lyra-alpha/MCD-Net, establishing a reproducible benchmark for moraine-specific segmentation and offering a deployable baseline for high-altitude glacial monitoring.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "Subimage Overlap Prediction: Task-Aligned Self-Supervised Pretraining For Semantic Segmentation In Remote Sensing Imagery",
+    "url": "http://arxiv.org/abs/2601.01781v1",
+    "authors": [
+      "Lakshay Sharma",
+      "Alex Marin"
+    ],
+    "published": "2026-01-05",
+    "abstract": "Self-supervised learning (SSL) methods have become a dominant paradigm for creating general purpose models whose capabilities can be transferred to downstream supervised learning tasks. However, most such methods rely on vast amounts of pretraining data. This work introduces Subimage Overlap Prediction, a novel self-supervised pretraining task to aid semantic segmentation in remote sensing imagery that uses significantly lesser pretraining imagery. Given an image, a sub-image is extracted and the model is trained to produce a semantic mask of the location of the extracted sub-image within the original image. We demonstrate that pretraining with this task results in significantly faster convergence, and equal or better performance (measured via mIoU) on downstream segmentation. This gap in convergence and performance widens when labeled training data is reduced. We show this across multiple architecture types, and with multiple downstream datasets. We also show that our method matches or exceeds performance while requiring significantly lesser pretraining data relative to other SSL methods. Code and model weights are provided at \\href{https://github.com/sharmalakshay93/subimage-overlap-prediction}{github.com/sharmalakshay93/subimage-overlap-prediction}.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Beyond Segmentation: An Oil Spill Change Detection Framework Using Synthetic SAR Imagery",
+    "url": "http://arxiv.org/abs/2601.02139v1",
+    "authors": [
+      "Chenyang Lai",
+      "Shuaiyu Chen",
+      "Tianjin Huang",
+      "Siyang Song",
+      "Guangliang Cheng",
+      "Chunbo Luo",
+      "Zeyu Fu"
+    ],
+    "published": "2026-01-05",
+    "abstract": "Marine oil spills are urgent environmental hazards that demand rapid and reliable detection to minimise ecological and economic damage. While Synthetic Aperture Radar (SAR) imagery has become a key tool for large-scale oil spill monitoring, most existing detection methods rely on deep learning-based segmentation applied to single SAR images. These static approaches struggle to distinguish true oil spills from visually similar oceanic features (e.g., biogenic slicks or low-wind zones), leading to high false positive rates and limited generalizability, especially under data-scarce conditions. To overcome these limitations, we introduce Oil Spill Change Detection (OSCD), a new bi-temporal task that focuses on identifying changes between pre- and post-spill SAR images. As real co-registered pre-spill imagery is not always available, we propose the Temporal-Aware Hybrid Inpainting (TAHI) framework, which generates synthetic pre-spill images from post-spill SAR data. TAHI integrates two key components: High-Fidelity Hybrid Inpainting for oil-free reconstruction, and Temporal Realism Enhancement for radiometric and sea-state consistency. Using TAHI, we construct the first OSCD dataset and benchmark several state-of-the-art change detection models. Results show that OSCD significantly reduces false positives and improves detection accuracy compared to conventional segmentation, demonstrating the value of temporally-aware methods for reliable, scalable oil spill monitoring in real-world scenarios.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection"
+    ]
+  },
+  {
+    "title": "Explore the Ideology of Deep Learning in ENSO Forecasts",
+    "url": "http://arxiv.org/abs/2601.02050v1",
+    "authors": [
+      "Yanhai Gan",
+      "Yipeng Chen",
+      "Ning Li",
+      "Xingguo Liu",
+      "Junyu Dong",
+      "Xianyao Chen"
+    ],
+    "published": "2026-01-05",
+    "abstract": "The El Ni{~n}o-Southern Oscillation (ENSO) exerts profound influence on global climate variability, yet its prediction remains a grand challenge. Recent advances in deep learning have significantly improved forecasting skill, but the opacity of these models hampers scientific trust and operational deployment. Here, we introduce a mathematically grounded interpretability framework based on bounded variation function. By rescuing the \"dead\" neurons from the saturation zone of the activation function, we enhance the model's expressive capacity. Our analysis reveals that ENSO predictability emerges dominantly from the tropical Pacific, with contributions from the Indian and Atlantic Oceans, consistent with physical understanding. Controlled experiments affirm the robustness of our method and its alignment with established predictors. Notably, we probe the persistent Spring Predictability Barrier (SPB), finding that despite expanded sensitivity during spring, predictive performance declines-likely due to suboptimal variable selection. These results suggest that incorporating additional ocean-atmosphere variables may help transcend SPB limitations and advance long-range ENSO prediction.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Advanced Global Wildfire Activity Modeling with Hierarchical Graph ODE",
+    "url": "http://arxiv.org/abs/2601.01501v1",
+    "authors": [
+      "Fan Xu",
+      "Wei Gong",
+      "Hao Wu",
+      "Lilan Peng",
+      "Nan Wang",
+      "Qingsong Wen",
+      "Xian Wu",
+      "Kun Wang",
+      "Xibin Zhao"
+    ],
+    "published": "2026-01-04",
+    "abstract": "Wildfires, as an integral component of the Earth system, are governed by a complex interplay of atmospheric, oceanic, and terrestrial processes spanning a vast range of spatiotemporal scales. Modeling their global activity on large timescales is therefore a critical yet challenging task. While deep learning has recently achieved significant breakthroughs in global weather forecasting, its potential for global wildfire behavior prediction remains underexplored. In this work, we reframe this problem and introduce the Hierarchical Graph ODE (HiGO), a novel framework designed to learn the multi-scale, continuous-time dynamics of wildfires. Specifically, we represent the Earth system as a multi-level graph hierarchy and propose an adaptive filtering message passing mechanism for both intra- and inter-level information flow, enabling more effective feature extraction and fusion. Furthermore, we incorporate GNN-parameterized Neural ODE modules at multiple levels to explicitly learn the continuous dynamics inherent to each scale. Through extensive experiments on the SeasFire Cube dataset, we demonstrate that HiGO significantly outperforms state-of-the-art baselines on long-range wildfire forecasting. Moreover, its continuous-time predictions exhibit strong observational consistency, highlighting its potential for real-world applications.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "GNN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Spatio-temporal modeling and forecasting with Fourier neural operators",
+    "url": "http://arxiv.org/abs/2601.01813v1",
+    "authors": [
+      "Pratik Nag",
+      "Andrew Zammit-Mangion",
+      "Sumeetpal Singh",
+      "Noel Cressie"
+    ],
+    "published": "2026-01-05",
+    "abstract": "Spatio-temporal process models are often used for modeling dynamic physical and biological phenomena that evolve across space and time. These phenomena may exhibit environmental heterogeneity and complex interactions that are difficult to capture using traditional statistical process models such as Gaussian processes. This work proposes the use of Fourier neural operators (FNOs) for constructing statistical dynamical spatio-temporal models for forecasting. An FNO is a flexible mapping of functions that approximates the solution operator of possibly unknown linear or non-linear partial differential equations (PDEs) in a computationally efficient manner. It does so using samples of inputs and their respective outputs, and hence explicit knowledge of the underlying PDE is not required. Through simulations from a nonlinear PDE with known solution, we compare FNO forecasts to those from state-of-the-art statistical spatio-temporal-forecasting methods. Further, using sea surface temperature data over the Atlantic Ocean and precipitation data across Europe, we demonstrate the ability of FNO-based dynamic spatio-temporal (DST) statistical modeling to capture complex real-world spatio-temporal dependencies. Using collections of testing instances, we show that the FNO-DST forecasts are accurate with valid uncertainty quantification.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Where do We Poop? City-Wide Simulation of Defecation Behavior for Wastewater-Based Epidemiology",
+    "url": "http://arxiv.org/abs/2601.04231v1",
+    "authors": [
+      "Hossein Amiri",
+      "Akshay Deverakonda",
+      "Yuke Wang",
+      "Andreas Z\u00fcfle"
+    ],
+    "published": "2026-01-03",
+    "abstract": "Wastewater surveillance, which regularly examines the pathogen biomarkers in wastewater samples, is a valuable tool for monitoring infectious diseases circulating in communities. Yet, most wastewater-based epidemiology methods, which use wastewater surveillance results for disease inferences, implicitly assume that individuals excrete only at their residential locations and that the population contribute to wastewater samples are static. These simplifying assumptions ignore daily mobility, social interactions, and heterogeneous toilet use behavior patterns, which can lead to biased interpretation of wastewater results, especially at upstream sampling locations such as neighborhoods, institutions, or buildings. Here, we introduce an agent-based geospatial simulation framework: Building on an established Patterns of Life model, we simulate daily human activities, mobility, and social contacts within a realistic urban environment and extend this agent-based framework with a physiologically motivated defecation cycle and toilet usage patterns. We couple this behavioral model with an infectious disease model to simulate transmissions through spatial and social interactions. When a defecation occurs for an infected agent, we use a pathogen shedding model to determine the amount of pathogen shed in the feces. Such a framework, integrating population mobility, disease transmission, toilet use behavior, and pathogen shedding models, is capable to simulate the Spatial-temporal dynamics of wastewater signals for a city. Using a case study of 10,000 simulated agents in Fulton County, Georgia, we examine how varying infection rates alter epidemic trajectories, pathogen loads in wastewater, and the spatial distribution of contamination across time.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "The Sonar Moment: Benchmarking Audio-Language Models in Audio Geo-Localization",
+    "url": "http://arxiv.org/abs/2601.03227v1",
+    "authors": [
+      "Ruixing Zhang",
+      "Zihan Liu",
+      "Leilei Sun",
+      "Tongyu Zhu",
+      "Weifeng Lv"
+    ],
+    "published": "2026-01-06",
+    "abstract": "Geo-localization aims to infer the geographic origin of a given signal. In computer vision, geo-localization has served as a demanding benchmark for compositional reasoning and is relevant to public safety. In contrast, progress on audio geo-localization has been constrained by the lack of high-quality audio-location pairs. To address this gap, we introduce AGL1K, the first audio geo-localization benchmark for audio language models (ALMs), spanning 72 countries and territories. To extract reliably localizable samples from a crowd-sourced platform, we propose the Audio Localizability metric that quantifies the informativeness of each recording, yielding 1,444 curated audio clips. Evaluations on 16 ALMs show that ALMs have emerged with audio geo-localization capability. We find that closed-source models substantially outperform open-source models, and that linguistic clues often dominate as a scaffold for prediction. We further analyze ALMs' reasoning traces, regional bias, error causes, and the interpretability of the localizability metric. Overall, AGL1K establishes a benchmark for audio geo-localization and may advance ALMs with better geospatial reasoning capability.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "CLIP"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "EarthVL: A Progressive Earth Vision-Language Understanding and Generation Framework",
+    "url": "http://arxiv.org/abs/2601.02783v1",
+    "authors": [
+      "Junjue Wang",
+      "Yanfei Zhong",
+      "Zihang Chen",
+      "Zhuo Zheng",
+      "Ailong Ma",
+      "Liangpei Zhang"
+    ],
+    "published": "2026-01-06",
+    "abstract": "Earth vision has achieved milestones in geospatial object recognition but lacks exploration in object-relational reasoning, limiting comprehensive scene understanding. To address this, a progressive Earth vision-language understanding and generation framework is proposed, including a multi-task dataset (EarthVLSet) and a semantic-guided network (EarthVLNet). Focusing on city planning applications, EarthVLSet includes 10.9k sub-meter resolution remote sensing images, land-cover masks, and 761.5k textual pairs involving both multiple-choice and open-ended visual question answering (VQA) tasks. In an object-centric way, EarthVLNet is proposed to progressively achieve semantic segmentation, relational reasoning, and comprehensive understanding. The first stage involves land-cover segmentation to generate object semantics for VQA guidance. Guided by pixel-wise semantics, the object awareness based large language model (LLM) performs relational reasoning and knowledge summarization to generate the required answers. As for optimization, the numerical difference loss is proposed to dynamically add difference penalties, addressing the various objects' statistics. Three benchmarks, including semantic segmentation, multiple-choice, and open-ended VQA demonstrated the superiorities of EarthVLNet, yielding three future directions: 1) segmentation features consistently enhance VQA performance even in cross-dataset scenarios; 2) multiple-choice tasks show greater sensitivity to the vision encoder than to the language decoder; and 3) open-ended tasks necessitate advanced vision encoders and language decoders for an optimal performance. We believe this dataset and method will provide a beneficial benchmark that connects ''image-mask-text'', advancing geographical applications for Earth vision.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Segmentation",
+      "Recognition"
     ]
   }
 ]
