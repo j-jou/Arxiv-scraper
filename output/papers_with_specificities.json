@@ -21654,7 +21654,8 @@
     ],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Agentic AI in Remote Sensing: Foundations, Taxonomy, and Emerging Systems",
@@ -21674,7 +21675,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Promptable Foundation Models for SAR Remote Sensing: Adapting the Segment Anything Model for Snow Avalanche Segmentation",
@@ -21697,7 +21699,8 @@
       "Segmentation",
       "Detection",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Vision-Language Agents for Interactive Forest Change Analysis",
@@ -21718,7 +21721,8 @@
     ],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Pixel-Wise Multimodal Contrastive Learning for Remote Sensing Images",
@@ -21737,7 +21741,8 @@
     "applications": [
       "Classification",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "A Spatio-Temporal Deep Learning Approach For High-Resolution Gridded Monsoon Prediction",
@@ -21758,7 +21763,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "MCD-Net: A Lightweight Deep Learning Baseline for Optical-Only Moraine Segmentation",
@@ -21778,7 +21784,8 @@
     "architectures": [],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Subimage Overlap Prediction: Task-Aligned Self-Supervised Pretraining For Semantic Segmentation In Remote Sensing Imagery",
@@ -21796,7 +21803,8 @@
     "applications": [
       "Segmentation",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Beyond Segmentation: An Oil Spill Change Detection Framework Using Synthetic SAR Imagery",
@@ -21819,7 +21827,8 @@
     "applications": [
       "Segmentation",
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Explore the Ideology of Deep Learning in ENSO Forecasts",
@@ -21840,7 +21849,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Advanced Global Wildfire Activity Modeling with Hierarchical Graph ODE",
@@ -21866,7 +21876,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Spatio-temporal modeling and forecasting with Fourier neural operators",
@@ -21885,7 +21896,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Where do We Poop? City-Wide Simulation of Defecation Behavior for Wastewater-Based Epidemiology",
@@ -21902,7 +21914,8 @@
       "geo_reasoning"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "The Sonar Moment: Benchmarking Audio-Language Models in Audio Geo-Localization",
@@ -21924,7 +21937,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "EarthVL: A Progressive Earth Vision-Language Understanding and Generation Framework",
@@ -21948,6 +21962,268 @@
     "applications": [
       "Segmentation",
       "Recognition"
+    ],
+    "is_recent": false
+  },
+  {
+    "title": "SAM-Aug: Leveraging SAM Priors for Few-Shot Parcel Segmentation in Satellite Time Series",
+    "url": "http://arxiv.org/abs/2601.09110v1",
+    "authors": [
+      "Kai Hu",
+      "Yaozu Feng",
+      "Vladimir Lysenko",
+      "Ya Guo Member",
+      "Huayi Wu"
+    ],
+    "published": "2026-01-14",
+    "abstract": "Few-shot semantic segmentation of time-series remote sensing images remains a critical challenge, particularly in regions where labeled data is scarce or costly to obtain. While state-of-the-art models perform well under full supervision, their performance degrades significantly under limited labeling, limiting their real-world applicability. In this work, we propose SAM-Aug, a new annotation-efficient framework that leverages the geometry-aware segmentation capability of the Segment Anything Model (SAM) to improve few-shot land cover mapping. Our approach constructs cloud-free composite images from temporal sequences and applies SAM in a fully unsupervised manner to generate geometry-aware mask priors. These priors are then integrated into training through a proposed loss function called RegionSmoothLoss, which enforces prediction consistency within each SAM-derived region across temporal frames, effectively regularizing the model to respect semantically coherent structures. Extensive experiments on the PASTIS-R benchmark under a 5 percent labeled setting demonstrate the effectiveness and robustness of SAM-Aug. Averaged over three random seeds (42, 2025, 4090), our method achieves a mean test mIoU of 36.21 percent, outperforming the state-of-the-art baseline by +2.33 percentage points, a relative improvement of 6.89 percent. Notably, on the most favorable split (seed=42), SAM-Aug reaches a test mIoU of 40.28 percent, representing an 11.2 percent relative gain with no additional labeled data. The consistent improvement across all seeds confirms the generalization power of leveraging foundation model priors under annotation scarcity. Our results highlight that vision models like SAM can serve as useful regularizers in few-shot remote sensing learning, offering a scalable and plug-and-play solution for land cover monitoring without requiring manual annotations or model fine-tuning.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Small but Mighty: Dynamic Wavelet Expert-Guided Fine-Tuning of Large-Scale Models for Optical Remote Sensing Object Segmentation",
+    "url": "http://arxiv.org/abs/2601.09108v1",
+    "authors": [
+      "Yanguang Sun",
+      "Chao Wang",
+      "Jian Yang",
+      "Lei Luo"
+    ],
+    "published": "2026-01-14",
+    "abstract": "Accurately localizing and segmenting relevant objects from optical remote sensing images (ORSIs) is critical for advancing remote sensing applications. Existing methods are typically built upon moderate-scale pre-trained models and employ diverse optimization strategies to achieve promising performance under full-parameter fine-tuning. In fact, deeper and larger-scale foundation models can provide stronger support for performance improvement. However, due to their massive number of parameters, directly adopting full-parameter fine-tuning leads to pronounced training difficulties, such as excessive GPU memory consumption and high computational costs, which result in extremely limited exploration of large-scale models in existing works. In this paper, we propose a novel dynamic wavelet expert-guided fine-tuning paradigm with fewer trainable parameters, dubbed WEFT, which efficiently adapts large-scale foundation models to ORSIs segmentation tasks by leveraging the guidance of wavelet experts. Specifically, we introduce a task-specific wavelet expert extractor to model wavelet experts from different perspectives and dynamically regulate their outputs, thereby generating trainable features enriched with task-specific information for subsequent fine-tuning. Furthermore, we construct an expert-guided conditional adapter that first enhances the fine-grained perception of frozen features for specific tasks by injecting trainable features, and then iteratively updates the information of both types of feature, allowing for efficient fine-tuning. Extensive experiments show that our WEFT not only outperforms 21 state-of-the-art (SOTA) methods on three ORSIs datasets, but also achieves optimal results in camouflage, natural, and medical scenarios. The source code is available at: https://github.com/CSYSI/WEFT.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "Compressing Vision Transformers in Geospatial Transfer Learning with Manifold-Constrained Optimization",
+    "url": "http://arxiv.org/abs/2601.08882v1",
+    "authors": [
+      "Thomas Snyder",
+      "H. Lexie Yang",
+      "Stefan Schnake",
+      "Steffen Schotth\u00f6fer"
+    ],
+    "published": "2026-01-12",
+    "abstract": "Deploying geospatial foundation models on resource-constrained edge devices demands compact architectures that maintain high downstream performance. However, their large parameter counts and the accuracy loss often induced by compression limit practical adoption. In this work, we leverage manifold-constrained optimization framework DLRT to compress large vision transformer-based geospatial foundation models during transfer learning. By enforcing structured low-dimensional parameterizations aligned with downstream objectives, this approach achieves strong compression while preserving task-specific accuracy. We show that the method outperforms of-the-shelf low-rank methods as LoRA. Experiments on diverse geospatial benchmarks confirm substantial parameter reduction with minimal accuracy loss, enabling high-performing, on-device geospatial models.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "OceanSAR-2: A Universal Feature Extractor for SAR Ocean Observation",
+    "url": "http://arxiv.org/abs/2601.07392v1",
+    "authors": [
+      "Alexandre Tuel",
+      "Thomas Kerdreux",
+      "Quentin Febvre",
+      "Alexis Mouche",
+      "Antoine Grouazel",
+      "Jean-Renaud Miadana",
+      "Antoine Audras",
+      "Chen Wang",
+      "Bertrand Chapron"
+    ],
+    "published": "2026-01-12",
+    "abstract": "We present OceanSAR-2, the second generation of our foundation model for SAR-based ocean observation. Building on our earlier release, which pioneered self-supervised learning on Sentinel-1 Wave Mode data, OceanSAR-2 relies on improved SSL training and dynamic data curation strategies, which enhances performance while reducing training cost. OceanSAR-2 demonstrates strong transfer performance across downstream tasks, including geophysical pattern classification, ocean surface wind vector and significant wave height estimation, and iceberg detection. We release standardized benchmark datasets, providing a foundation for systematic evaluation and advancement of SAR models for ocean applications.",
+    "categories": [
+      "foundation_model",
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Democratizing planetary-scale analysis: An ultra-lightweight Earth embedding database for accurate and flexible global land monitoring",
+    "url": "http://arxiv.org/abs/2601.11183v1",
+    "authors": [
+      "Shuang Chen",
+      "Jie Wang",
+      "Shuai Yuan",
+      "Jiayang Li",
+      "Yu Xia",
+      "Yuanhong Liao",
+      "Junbo Wei",
+      "Jincheng Yuan",
+      "Xiaoqing Xu",
+      "Xiaolin Zhu",
+      "Peng Zhu",
+      "Hongsheng Zhang",
+      "Yuyu Zhou",
+      "Haohuan Fu",
+      "Huabing Huang",
+      "Bin Chen",
+      "Fan Dai",
+      "Peng Gong"
+    ],
+    "published": "2026-01-16",
+    "abstract": "The rapid evolution of satellite-borne Earth Observation (EO) systems has revolutionized terrestrial monitoring, yielding petabyte-scale archives. However, the immense computational and storage requirements for global-scale analysis often preclude widespread use, hindering planetary-scale studies. To address these barriers, we present Embedded Seamless Data (ESD), an ultra-lightweight, 30-m global Earth embedding database spanning the 25-year period from 2000 to 2024. By transforming high-dimensional, multi-sensor observations from the Landsat series (5, 7, 8, and 9) and MODIS Terra into information-dense, quantized latent vectors, ESD distills essential geophysical and semantic features into a unified latent space. Utilizing the ESDNet architecture and Finite Scalar Quantization (FSQ), the dataset achieves a transformative ~340-fold reduction in data volume compared to raw archives. This compression allows the entire global land surface for a single year to be encapsulated within approximately 2.4 TB, enabling decadal-scale global analysis on standard local workstations. Rigorous validation demonstrates high reconstructive fidelity (MAE: 0.0130; RMSE: 0.0179; CC: 0.8543). By condensing the annual phenological cycle into 12 temporal steps, the embeddings provide inherent denoising and a semantically organized space that outperforms raw reflectance in land-cover classification, achieving 79.74% accuracy (vs. 76.92% for raw fusion). With robust few-shot learning capabilities and longitudinal consistency, ESD provides a versatile foundation for democratizing planetary-scale research and advancing next-generation geospatial artificial intelligence.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "From Landslide Conditioning Factors to Satellite Embeddings: Evaluating the Utilisation of Google AlphaEarth for Landslide Susceptibility Mapping using Deep Learning",
+    "url": "http://arxiv.org/abs/2601.07268v1",
+    "authors": [
+      "Yusen Cheng",
+      "Qinfeng Zhu",
+      "Lei Fan"
+    ],
+    "published": "2026-01-12",
+    "abstract": "Data-driven landslide susceptibility mapping (LSM) typically relies on landslide conditioning factors (LCFs), whose availability, heterogeneity, and preprocessing-related uncertainties can constrain mapping reliability. Recently, Google AlphaEarth (AE) embeddings, derived from multi-source geospatial observations, have emerged as a unified representation of Earth surface conditions. This study evaluated the potential of AE embeddings as alternative predictors for LSM. Two AE representations, including retained principal components and the full set of 64 embedding bands, were systematically compared with conventional LCFs across three study areas (Nantou County, Taiwan; Hong Kong; and part of Emilia-Romagna, Italy) using three deep learning models (CNN1D, CNN2D, and Vision Transformer). Performance was assessed using multiple evaluation metrics, ROC-AUC analysis, error statistics, and spatial pattern assessment. Results showed that AE-based models consistently outperformed LCFs across all regions and models, yielding higher F1-scores, AUC values, and more stable error distributions. Such improvement was most pronounced when using the full 64-band AE representation, with F1-score improvements of approximately 4% to 15% and AUC increased ranging from 0.04 to 0.11, depending on the study area and model. AE-based susceptibility maps also exhibited clearer spatial correspondence with observed landslide occurrences and enhanced sensitivity to localised landslide-prone conditions. Performance improvements were more evident in Nantou and Emilia than in Hong Kong, revealing that closer temporal alignment between AE embeddings and landslide inventories may lead to more effective LSM outcomes. These findings highlight the strong potential of AE embeddings as a standardised and information-rich alternative to conventional LCFs for LSM.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "The Normalized Difference Layer: A Differentiable Spectral Index Formulation for Deep Learning",
+    "url": "http://arxiv.org/abs/2601.06777v1",
+    "authors": [
+      "Ali Lotfi",
+      "Adam Carter",
+      "Mohammad Meysami",
+      "Thuan Ha",
+      "Kwabena Nketia",
+      "Steve Shirtliffe"
+    ],
+    "published": "2026-01-11",
+    "abstract": "Normalized difference indices have been a staple in remote sensing for decades. They stay reliable under lighting changes produce bounded values and connect well to biophysical signals. Even so, they are usually treated as a fixed pre processing step with coefficients set to one, which limits how well they can adapt to a specific learning task. In this study, we introduce the Normalized Difference Layer that is a differentiable neural network module. The proposed method keeps the classical idea but learns the band coefficients from data. We present a complete mathematical framework for integrating this layer into deep learning architectures that uses softplus reparameterization to ensure positive coefficients and bounded denominators. We describe forward and backward pass algorithms enabling end to end training through backpropagation. This approach preserves the key benefits of normalized differences, namely illumination invariance and outputs bounded to $[-1,1]$ while allowing gradient descent to discover task specific band weightings. We extend the method to work with signed inputs, so the layer can be stacked inside larger architectures. Experiments show that models using this layer reach similar classification accuracy to standard multilayer perceptrons while using about 75\\% fewer parameters. They also handle multiplicative noise well, at 10\\% noise accuracy drops only 0.17\\% versus 3.03\\% for baseline MLPs. The learned coefficient patterns stay consistent across different depths.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "PRISM-CAFO: Prior-conditioned Remote-sensing Infrastructure Segmentation and Mapping for CAFOs",
+    "url": "http://arxiv.org/abs/2601.11451v1",
+    "authors": [
+      "Oishee Bintey Hoque",
+      "Nibir Chandra Mandal",
+      "Kyle Luong",
+      "Amanda Wilson",
+      "Samarth Swarup",
+      "Madhav Marathe",
+      "Abhijin Adiga"
+    ],
+    "published": "2026-01-16",
+    "abstract": "Large-scale livestock operations pose significant risks to human health and the environment, while also being vulnerable to threats such as infectious diseases and extreme weather events. As the number of such operations continues to grow, accurate and scalable mapping has become increasingly important. In this work, we present an infrastructure-first, explainable pipeline for identifying and characterizing Concentrated Animal Feeding Operations (CAFOs) from aerial and satellite imagery. Our method (1) detects candidate infrastructure (e.g., barns, feedlots, manure lagoons, silos) with a domain-tuned YOLOv8 detector, then derives SAM2 masks from these boxes and filters component-specific criteria, (2) extracts structured descriptors (e.g., counts, areas, orientations, and spatial relations) and fuses them with deep visual features using a lightweight spatial cross-attention classifier, and (3) outputs both CAFO type predictions and mask-level attributions that link decisions to visible infrastructure. Through comprehensive evaluation, we show that our approach achieves state-of-the-art performance, with Swin-B+PRISM-CAFO surpassing the best performing baseline by up to 15\\%. Beyond strong predictive performance across diverse U.S. regions, we run systematic gradient--activation analyses that quantify the impact of domain priors and show ho",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Noise-Adaptive Regularization for Robust Multi-Label Remote Sensing Image Classification",
+    "url": "http://arxiv.org/abs/2601.08446v1",
+    "authors": [
+      "Tom Burgert",
+      "Julia Henkel",
+      "Beg\u00fcm Demir"
+    ],
+    "published": "2026-01-13",
+    "abstract": "The development of reliable methods for multi-label classification (MLC) has become a prominent research direction in remote sensing (RS). As the scale of RS data continues to expand, annotation procedures increasingly rely on thematic products or crowdsourced procedures to reduce the cost of manual annotation. While cost-effective, these strategies often introduce multi-label noise in the form of partially incorrect annotations. In MLC, label noise arises as additive noise, subtractive noise, or a combination of both in the form of mixed noise. Previous work has largely overlooked this distinction and commonly treats noisy annotations as supervised signals, lacking mechanisms that explicitly adapt learning behavior to different noise types. To address this limitation, we propose NAR, a noise-adaptive regularization method that explicitly distinguishes between additive and subtractive noise within a semi-supervised learning framework. NAR employs a confidence-based label handling mechanism that dynamically retains label entries with high confidence, temporarily deactivates entries with moderate confidence, and corrects low confidence entries via flipping. This selective attenuation of supervision is integrated with early-learning regularization (ELR) to stabilize training and mitigate overfitting to corrupted labels. Experiments across additive, subtractive, and mixed noise scenarios demonstrate that NAR consistently improves robustness compared with existing methods. Performance improvements are most pronounced under subtractive and mixed noise, indicating that adaptive suppression and selective correction of noisy supervision provide an effective strategy for noise robust learning in RS MLC.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Realistic Curriculum Reinforcement Learning for Autonomous and Sustainable Marine Vessel Navigation",
+    "url": "http://arxiv.org/abs/2601.10911v1",
+    "authors": [
+      "Zhang Xiaocai",
+      "Xiao Zhe",
+      "Liang Maohan",
+      "Liu Tao",
+      "Li Haijiang",
+      "Zhang Wenbin"
+    ],
+    "published": "2026-01-15",
+    "abstract": "Sustainability is becoming increasingly critical in the maritime transport, encompassing both environmental and social impacts, such as Greenhouse Gas (GHG) emissions and navigational safety. Traditional vessel navigation heavily relies on human experience, often lacking autonomy and emission awareness, and is prone to human errors that may compromise safety. In this paper, we propose a Curriculum Reinforcement Learning (CRL) framework integrated with a realistic, data-driven marine simulation environment and a machine learning-based fuel consumption prediction module. The simulation environment is constructed using real-world vessel movement data and enhanced with a Diffusion Model to simulate dynamic maritime conditions. Vessel fuel consumption is estimated using historical operational data and learning-based regression. The surrounding environment is represented as image-based inputs to capture spatial complexity. We design a lightweight, policy-based CRL agent with a comprehensive reward mechanism that considers safety, emissions, timeliness, and goal completion. This framework effectively handles complex tasks progressively while ensuring stable and efficient learning in continuous action spaces. We validate the proposed approach in a sea area of the Indian Ocean, demonstrating its efficacy in enabling sustainable and safe vessel navigation.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Regression",
+      "Forecast",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "AUV Trajectory Learning for Underwater Acoustic Energy Transfer and Age Minimization",
+    "url": "http://arxiv.org/abs/2601.08491v1",
+    "authors": [
+      "Mohamed Afouene Melki",
+      "Mohammad Shehab",
+      "Mohamed-Slim Alouini"
+    ],
+    "published": "2026-01-13",
+    "abstract": "Internet of underwater things (IoUT) is increasingly gathering attention with the aim of monitoring sea life and deep ocean environment, underwater surveillance as well as maintenance of underwater installments. However, conventional IoUT devices, reliant on battery power, face limitations in lifespan and pose environmental hazards upon disposal. This paper introduces a sustainable approach for simultaneous information uplink from the IoUT devices and acoustic energy transfer (AET) to the devices via an autonomous underwater vehicle (AUV), potentially enabling them to operate indefinitely. To tackle the time-sensitivity, we adopt age of information (AoI), and Jain's fairness index. We develop two deep-reinforcement learning (DRL) algorithms, offering a high-complexity, high-performance frequency division duplex (FDD) solution and a low-complexity, medium-performance time division duplex (TDD) approach. The results elucidate that the proposed FDD and TDD solutions significantly reduce the average AoI and boost the harvested energy as well as data collection fairness compared to baseline approaches.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "AutoTour: Automatic Photo Tour Guide with Smartphones and LLMs",
+    "url": "http://arxiv.org/abs/2601.06781v1",
+    "authors": [
+      "Huatao Xu",
+      "Zihe Liu",
+      "Zilin Zeng",
+      "Baichuan Li",
+      "Mo Li"
+    ],
+    "published": "2026-01-11",
+    "abstract": "We present AutoTour, a system that enhances user exploration by automatically generating fine-grained landmark annotations and descriptive narratives for photos captured by users. The key idea of AutoTour is to fuse visual features extracted from photos with nearby geospatial features queried from open matching databases. Unlike existing tour applications that rely on pre-defined content or proprietary datasets, AutoTour leverages open and extensible data sources to provide scalable and context-aware photo-based guidance. To achieve this, we design a training-free pipeline that first extracts and filters relevant geospatial features around the user's GPS location. It then detects major landmarks in user photos through VLM-based feature detection and projects them into the horizontal spatial plane. A geometric matching algorithm aligns photo features with corresponding geospatial entities based on their estimated distance and direction. The matched features are subsequently grounded and annotated directly on the original photo, accompanied by large language model-generated textual and audio descriptions to provide an informative, tour-like experience. We demonstrate that AutoTour can deliver rich, interpretable annotations for both iconic and lesser-known landmarks, enabling a new form of interactive, context-aware exploration that bridges visual perception and geospatial understanding.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM",
+      "LVM"
+    ],
+    "applications": [
+      "Detection"
     ]
   }
 ]
