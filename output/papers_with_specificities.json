@@ -21984,7 +21984,8 @@
     "applications": [
       "Segmentation",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Small but Mighty: Dynamic Wavelet Expert-Guided Fine-Tuning of Large-Scale Models for Optical Remote Sensing Object Segmentation",
@@ -22003,7 +22004,8 @@
     "architectures": [],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Compressing Vision Transformers in Geospatial Transfer Learning with Manifold-Constrained Optimization",
@@ -22022,7 +22024,8 @@
     "architectures": [
       "Transformer"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "OceanSAR-2: A Universal Feature Extractor for SAR Ocean Observation",
@@ -22048,7 +22051,8 @@
     "applications": [
       "Detection",
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Democratizing planetary-scale analysis: An ultra-lightweight Earth embedding database for accurate and flexible global land monitoring",
@@ -22081,7 +22085,8 @@
     "architectures": [],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "From Landslide Conditioning Factors to Satellite Embeddings: Evaluating the Utilisation of Google AlphaEarth for Landslide Susceptibility Mapping using Deep Learning",
@@ -22099,7 +22104,8 @@
     "architectures": [
       "Transformer"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "The Normalized Difference Layer: A Differentiable Spectral Index Formulation for Deep Learning",
@@ -22120,7 +22126,8 @@
     "architectures": [],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "PRISM-CAFO: Prior-conditioned Remote-sensing Infrastructure Segmentation and Mapping for CAFOs",
@@ -22142,7 +22149,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Noise-Adaptive Regularization for Robust Multi-Label Remote Sensing Image Classification",
@@ -22160,7 +22168,8 @@
     "architectures": [],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Realistic Curriculum Reinforcement Learning for Autonomous and Sustainable Marine Vessel Navigation",
@@ -22183,7 +22192,8 @@
       "Regression",
       "Forecast",
       "Reinforcement Learning"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "AUV Trajectory Learning for Underwater Acoustic Energy Transfer and Age Minimization",
@@ -22201,7 +22211,8 @@
     "architectures": [],
     "applications": [
       "Reinforcement Learning"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "AutoTour: Automatic Photo Tour Guide with Smartphones and LLMs",
@@ -22224,6 +22235,278 @@
     ],
     "applications": [
       "Detection"
+    ],
+    "is_recent": false
+  },
+  {
+    "title": "Embedding -based Crop Type Classification in the Groundnut Basin of Senegal",
+    "url": "http://arxiv.org/abs/2601.16900v1",
+    "authors": [
+      "Madeline C. Lisaius",
+      "Srinivasan Keshav",
+      "Andrew Blake",
+      "Clement Atzberger"
+    ],
+    "published": "2026-01-23",
+    "abstract": "Crop type maps from satellite remote sensing are important tools for food security, local livelihood support and climate change mitigation in smallholder regions of the world, but most satellite-based methods are not well suited to smallholder conditions. To address this gap, we establish a four-part criteria for a useful embedding-based approach consisting of 1) performance, 2) plausibility, 3) transferability and 4) accessibility and evaluate geospatial foundation model (FM) embeddings -based approaches using TESSERA and AlphaEarth against current baseline methods for a region in the groundnut basin of Senegal. We find that the TESSERA -based approach to land cover and crop type mapping fulfills the selection criteria best, and in one temporal transfer example shows 28% higher accuracy compared to the next best method. These results indicate that TESSERA embeddings are an effective approach for crop type classification and mapping tasks in Senegal.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
     ]
+  },
+  {
+    "title": "Calibrated Probabilistic Interpolation for GEDI Biomass",
+    "url": "http://arxiv.org/abs/2601.16834v1",
+    "authors": [
+      "Robin Young",
+      "Srinivasan Keshav"
+    ],
+    "published": "2026-01-23",
+    "abstract": "Reliable wall-to-wall biomass mapping from NASA's GEDI mission requires interpolating sparse LiDAR observations across heterogeneous landscapes. While machine learning approaches like Random Forest and XGBoost are standard for this task, they treat spatial predictions of GEDI observations from multispectral or SAR remote sensing data as independent without adapting to the varying difficulty of heterogeneous landscapes. We demonstrate these approaches generally fail to produce calibrated prediction intervals. We identify that this stems from conflating ensemble variance with aleatoric uncertainty and ignoring local spatial context.\n  To resolve this, we introduce Attentive Neural Processes (ANPs), a probabilistic meta-learning framework that explicitly conditions predictions on local observation sets and geospatial foundation model embeddings. Unlike static ensembles, ANPs learn a flexible spatial covariance function, allowing uncertainty estimates to expand in complex landscapes and contract in homogeneous areas. We validate this approach across five distinct biomes ranging from Tropical Amazonian forests to Boreal and Alpine ecosystems, demonstrating that ANPs achieve competitive accuracy while maintaining near-ideal uncertainty calibration. We demonstrate the operational utility of the method through few-shot adaptation, where the model recovers most of the performance gap in cross-region transfer using minimal local data. This work provides a scalable, theoretically rigorous alternative to ensemble variance for continental scale earth observation.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "A Training-Free Guess What Vision Language Model from Snippets to Open-Vocabulary Object Detection",
+    "url": "http://arxiv.org/abs/2601.11910v2",
+    "authors": [
+      "Guiying Zhu",
+      "Bowen Yang",
+      "Yin Zhuang",
+      "Tong Zhang",
+      "Guanqun Wang",
+      "Zhihao Che",
+      "He Chen",
+      "Lianlin Li"
+    ],
+    "published": "2026-01-17",
+    "abstract": "Open-Vocabulary Object Detection (OVOD) aims to develop the capability to detect anything. Although myriads of large-scale pre-training efforts have built versatile foundation models that exhibit impressive zero-shot capabilities to facilitate OVOD, the necessity of creating a universal understanding for any object cognition according to already pretrained foundation models is usually overlooked. Therefore, in this paper, a training-free Guess What Vision Language Model, called GW-VLM, is proposed to form a universal understanding paradigm based on our carefully designed Multi-Scale Visual Language Searching (MS-VLS) coupled with Contextual Concept Prompt (CCP) for OVOD. This approach can engage a pre-trained Vision Language Model (VLM) and a Large Language Model (LLM) in the game of \"guess what\". Wherein, MS-VLS leverages multi-scale visual-language soft-alignment for VLM to generate snippets from the results of class-agnostic object detection, while CCP can form the concept of flow referring to MS-VLS and then make LLM understand snippets for OVOD. Finally, the extensive experiments are carried out on natural and remote sensing datasets, including COCO val, Pascal VOC, DIOR, and NWPU-10, and the results indicate that our proposed GW-VLM can achieve superior OVOD performance compared to the-state-of-the-art methods without any training step.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "LLM",
+      "LVM"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Earth Embeddings as Products: Taxonomy, Ecosystem, and Standardized Access",
+    "url": "http://arxiv.org/abs/2601.13134v1",
+    "authors": [
+      "Heng Fang",
+      "Adam J. Stewart",
+      "Isaac Corley",
+      "Xiao Xiang Zhu",
+      "Hossein Azizpour"
+    ],
+    "published": "2026-01-19",
+    "abstract": "Geospatial Foundation Models (GFMs) provide powerful representations, but high compute costs hinder their widespread use. Pre-computed embedding data products offer a practical \"frozen\" alternative, yet they currently exist in a fragmented ecosystem of incompatible formats and resolutions. This lack of standardization creates an engineering bottleneck that prevents meaningful model comparison and reproducibility. We formalize this landscape through a three-layer taxonomy: Data, Tools, and Value. We survey existing products to identify interoperability barriers. To bridge this gap, we extend TorchGeo with a unified API that standardizes the loading and querying of diverse embedding products. By treating embeddings as first-class geospatial datasets, we decouple downstream analysis from model-specific engineering, providing a roadmap for more transparent and accessible Earth observation workflows.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Reasoning with Pixel-level Precision: QVLM Architecture and SQuID Dataset for Quantitative Geospatial Analytics",
+    "url": "http://arxiv.org/abs/2601.13401v1",
+    "authors": [
+      "Peter A. Massih",
+      "Eric Cosatto"
+    ],
+    "published": "2026-01-19",
+    "abstract": "Current Vision-Language Models (VLMs) fail at quantitative spatial reasoning because their architectures destroy pixel-level information required for counting and measurements. Vision encoders compress images through patch embeddings, reducing spatial indexing and losing the precise pixel-level tracking required for accurate counting. We present two contributions to address this fundamental limitation. First, we introduce SQuID (Satellite Quantitative Intelligence Dataset), a benchmark of 2,000 satellite image Question-Answer pairs with both numerical range and categorical answers, designed to evaluate quantitative spatial reasoning. The dataset spans three difficulty tiers with annotations automatically generated from human labels and their learned variability. Second, we propose QVLM (Quantitative Vision-Language Model), a code-generation architecture that maintains pixel precision by decoupling language understanding from visual analysis. Instead of encoding images into embeddings, QVLM generates executable code that first calls a segmentation model to obtain pixel-level masks, then operates directly on these masks, preserving spatial indexing throughout the reasoning process. Our experiments show that QVLM using GPT-5 as coder achieves 42.0% accuracy on SQuID compared to 28.1% for a VLM prompted with image-question pairs. Our work reveals that, for quantitative spatial reasoning, architectural decoupling enables better accuracy on quantitative tasks.",
+    "categories": [
+      "geo_reasoning",
+      "foundation_model"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": [
+      "Segmentation",
+      "Tracking"
+    ]
+  },
+  {
+    "title": "Towards Realistic Remote Sensing Dataset Distillation with Discriminative Prototype-guided Diffusion",
+    "url": "http://arxiv.org/abs/2601.15829v1",
+    "authors": [
+      "Yonghao Xu",
+      "Pedram Ghamisi",
+      "Qihao Weng"
+    ],
+    "published": "2026-01-22",
+    "abstract": "Recent years have witnessed the remarkable success of deep learning in remote sensing image interpretation, driven by the availability of large-scale benchmark datasets. However, this reliance on massive training data also brings two major challenges: (1) high storage and computational costs, and (2) the risk of data leakage, especially when sensitive categories are involved. To address these challenges, this study introduces the concept of dataset distillation into the field of remote sensing image interpretation for the first time. Specifically, we train a text-to-image diffusion model to condense a large-scale remote sensing dataset into a compact and representative distilled dataset. To improve the discriminative quality of the synthesized samples, we propose a classifier-driven guidance by injecting a classification consistency loss from a pre-trained model into the diffusion training process. Besides, considering the rich semantic complexity of remote sensing imagery, we further perform latent space clustering on training samples to select representative and diverse prototypes as visual style guidance, while using a visual language model to provide aggregated text descriptions. Experiments on three high-resolution remote sensing scene classification benchmarks show that the proposed method can distill realistic and diverse samples for downstream model training. Code and pre-trained models are available online (https://github.com/YonghaoXu/DPD).",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Forest-Chat: Adapting Vision-Language Agents for Interactive Forest Change Analysis",
+    "url": "http://arxiv.org/abs/2601.14637v1",
+    "authors": [
+      "James Brock",
+      "Ce Zhang",
+      "Nantheera Anantrasirichai"
+    ],
+    "published": "2026-01-21",
+    "abstract": "The increasing availability of high-resolution satellite imagery, together with advances in deep learning, creates new opportunities for enhancing forest monitoring workflows. Two central challenges in this domain are pixel-level change detection and semantic change interpretation, particularly for complex forest dynamics. While large language models (LLMs) are increasingly adopted for data exploration, their integration with vision-language models (VLMs) for remote sensing image change interpretation (RSICI) remains underexplored, especially beyond urban environments. We introduce Forest-Chat, an LLM-driven agent designed for integrated forest change analysis. The proposed framework enables natural language querying and supports multiple RSICI tasks, including change detection, change captioning, object counting, deforestation percentage estimation, and change reasoning. Forest-Chat builds upon a multi-level change interpretation (MCI) vision-language backbone with LLM-based orchestration, and incorporates zero-shot change detection via a foundation change detection model together with an interactive point-prompt interface to support fine-grained user guidance. To facilitate adaptation and evaluation in forest environments, we introduce the Forest-Change dataset, comprising bi-temporal satellite imagery, pixel-level change masks, and multi-granularity semantic change captions generated through a combination of human annotation and rule-based methods. Experimental results demonstrate that Forest-Chat achieves strong performance on Forest-Change and on LEVIR-MCI-Trees, a tree-focused subset of LEVIR-MCI, for joint change detection and captioning, highlighting the potential of interactive, LLM-driven RSICI systems to improve accessibility, interpretability, and analytical efficiency in forest change analysis.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "LLM",
+      "LVM"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Long-Term Probabilistic Forecast of Vegetation Conditions Using Climate Attributes in the Four Corners Region",
+    "url": "http://arxiv.org/abs/2601.16347v1",
+    "authors": [
+      "Erika McPhillips",
+      "Hyeongseong Lee",
+      "Xiangyu Xie",
+      "Kathy Baylis",
+      "Chris Funk",
+      "Mengyang Gu"
+    ],
+    "published": "2026-01-22",
+    "abstract": "Weather conditions can drastically alter the state of crops and rangelands, and in turn, impact the incomes and food security of individuals worldwide. Satellite-based remote sensing offers an effective way to monitor vegetation and climate variables on regional and global scales. The annual peak Normalized Difference Vegetation Index (NDVI), derived from satellite observations, is closely associated with crop development, rangeland biomass, and vegetation growth. Although various machine learning methods have been developed to forecast NDVI over short time ranges, such as one-month-ahead predictions, long-term forecasting approaches, such as one-year-ahead predictions of vegetation conditions, are not yet available. To fill this gap, we develop a two-phase machine learning model to forecast the one-year-ahead peak NDVI over high-resolution grids, using the Four Corners region of the Southwestern United States as a testbed. In phase one, we identify informative climate attributes, including precipitation and maximum vapor pressure deficit, and develop the generalized parallel Gaussian process that captures the relationship between climate attributes and NDVI. In phase two, we forecast these climate attributes using historical data at least one year before the NDVI prediction month, which then serve as inputs to forecast the peak NDVI at each spatial grid. We developed open-source tools that outperform alternative methods for both gross NDVI and grid-based NDVI one-year forecasts, providing information that can help farmers and ranchers make actionable plans a year in advance.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "SDCoNet: Saliency-Driven Multi-Task Collaborative Network for Remote Sensing Object Detection",
+    "url": "http://arxiv.org/abs/2601.12507v1",
+    "authors": [
+      "Ruo Qi",
+      "Linhui Dai",
+      "Yusong Qin",
+      "Chaolei Yang",
+      "Yanshan Li"
+    ],
+    "published": "2026-01-18",
+    "abstract": "In remote sensing images, complex backgrounds, weak object signals, and small object scales make accurate detection particularly challenging, especially under low-quality imaging conditions. A common strategy is to integrate single-image super-resolution (SR) before detection; however, such serial pipelines often suffer from misaligned optimization objectives, feature redundancy, and a lack of effective interaction between SR and detection. To address these issues, we propose a Saliency-Driven multi-task Collaborative Network (SDCoNet) that couples SR and detection through implicit feature sharing while preserving task specificity. SDCoNet employs the swin transformer-based shared encoder, where hierarchical window-shifted self-attention supports cross-task feature collaboration and adaptively balances the trade-off between texture refinement and semantic representation. In addition, a multi-scale saliency prediction module produces importance scores to select key tokens, enabling focused attention on weak object regions, suppression of background clutter, and suppression of adverse features introduced by multi-task coupling. Furthermore, a gradient routing strategy is introduced to mitigate optimization conflicts. It first stabilizes detection semantics and subsequently routes SR gradients along a detection-oriented direction, enabling the framework to guide the SR branch to generate high-frequency details that are explicitly beneficial for detection. Experiments on public datasets, including NWPU VHR-10-Split, DOTAv1.5-Split, and HRSSD-Split, demonstrate that the proposed method, while maintaining competitive computational efficiency, significantly outperforms existing mainstream algorithms in small object detection on low-quality remote sensing images. Our code is available at https://github.com/qiruo-ya/SDCoNet.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Detection",
+      "Super-Resolution",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Adaptive Multi-Scale Correlation Meta-Network for Few-Shot Remote Sensing Image Classification",
+    "url": "http://arxiv.org/abs/2601.12308v1",
+    "authors": [
+      "Anurag Kaushish",
+      "Ayan Sar",
+      "Sampurna Roy",
+      "Sudeshna Chakraborty",
+      "Prashant Trivedi",
+      "Tanupriya Choudhury",
+      "Kanav Gupta"
+    ],
+    "published": "2026-01-18",
+    "abstract": "Few-shot learning in remote sensing remains challenging due to three factors: the scarcity of labeled data, substantial domain shifts, and the multi-scale nature of geospatial objects. To address these issues, we introduce Adaptive Multi-Scale Correlation Meta-Network (AMC-MetaNet), a lightweight yet powerful framework with three key innovations: (i) correlation-guided feature pyramids for capturing scale-invariant patterns, (ii) an adaptive channel correlation module (ACCM) for learning dynamic cross-scale relationships, and (iii) correlation-guided meta-learning that leverages correlation patterns instead of conventional prototype averaging. Unlike prior approaches that rely on heavy pre-trained models or transformers, AMC-MetaNet is trained from scratch with only $\\sim600K$ parameters, offering $20\\times$ fewer parameters than ResNet-18 while maintaining high efficiency ($<50$ms per image inference). AMC-MetaNet achieves up to 86.65\\% accuracy in 5-way 5-shot classification on various remote sensing datasets, including EuroSAT, NWPU-RESISC45, UC Merced Land Use, and AID. Our results establish AMC-MetaNet as a computationally efficient, scale-aware framework for real-world few-shot remote sensing.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "ResNet",
+      "Transformer"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Eddy-Resolving Global Ocean Forecasting with Multi-Scale Graph Neural Networks",
+    "url": "http://arxiv.org/abs/2601.12775v1",
+    "authors": [
+      "Yuta Hirabayashi",
+      "Daisuke Matusoka",
+      "Konobu Kimura"
+    ],
+    "published": "2026-01-19",
+    "abstract": "Research on data-driven ocean models has progressed rapidly in recent years; however, the application of these models to global eddy-resolving ocean forecasting remains limited. The accurate representation of ocean dynamics across a wide range of spatial scales remains a major challenge in such applications. This study proposes a multi-scale graph neural network-based ocean model for 10-day global forecasting that improves short-term prediction skill and enhances the representation of multi-scale ocean variability. The model employs an encoder-processor-decoder architecture and uses two spherical meshes with different resolutions to better capture the multi-scale nature of ocean dynamics. In addition, the model incorporates surface atmospheric variables along with ocean state variables as node inputs to improve short-term prediction accuracy by representing atmospheric forcing. Evaluation using surface kinetic energy spectra and case studies shows that the model accurately represents a broad range of spatial scales, while root mean square error comparisons demonstrate improved skill in short-term predictions. These results indicate that the proposed model delivers more accurate short-term forecasts and improved representation of multi-scale ocean dynamics, thereby highlighting its potential to advance data-driven, eddy-resolving global ocean forecasting.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Zero-inflated binary Tree P\u00f3lya splitting regression for multivariate count data",
+    "url": "http://arxiv.org/abs/2601.14815v1",
+    "authors": [
+      "Fabrice Moudjieu",
+      "Jean Peyhardi",
+      "Maxime R\u00e9jou-M\u00e9chain",
+      "Patrice Soh Takam",
+      "Fr\u00e9d\u00e9ric Mortier"
+    ],
+    "published": "2026-01-21",
+    "abstract": "Species distribution models (SDMs) are widely used to assess the effects of environmental factors on species distributions. However, classical SDMs ignore inter-species dependencies. Multivariate SDMs (MSDMs), especially those based on latent Gaussian fields such as the multivariate Poisson log-normal (MPLN), address this limitation but face challenges related to computation, dimensionality, and interpretability. P\u00f3lya-splitting (PS) distributions offer an alternative, combining a model for total abundance with a multivariate allocation structure, and have natural interpretations from ecological process models. Yet, they lack flexibility in modeling correlation structures. Tree P\u00f3lya-splitting (TPS) distributions overcome this by introducing hierarchical structure such as a phylogenetic tree. In this paper, we extend TPS to account for zero-inflation, leading to the zero-inflated tree P\u00f3lya-splitting (Z-TPS) family. We detail its statistical properties, show how standard software enables efficient inference, and illustrate its ecological relevance using tree abundance data from over 180 genera across the Congo Basin tropical rainforest.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [
+      "SDM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Spatial-Agent: Agentic Geo-spatial Reasoning with Scientific Core Concepts",
+    "url": "http://arxiv.org/abs/2601.16965v1",
+    "authors": [
+      "Riyang Bao",
+      "Cheng Yang",
+      "Dazhou Yu",
+      "Zhexiang Tang",
+      "Gengchen Mai",
+      "Liang Zhao"
+    ],
+    "published": "2026-01-23",
+    "abstract": "Geospatial reasoning is essential for real-world applications such as urban analytics, transportation planning, and disaster response. However, existing LLM-based agents often fail at genuine geospatial computation, relying instead on web search or pattern matching while hallucinating spatial relationships. We present Spatial-Agent, an AI agent grounded in foundational theories of spatial information science. Our approach formalizes geo-analytical question answering as a concept transformation problem, where natural-language questions are parsed into executable workflows represented as GeoFlow Graphs -- directed acyclic graphs with nodes corresponding to spatial concepts and edges representing transformations. Drawing on spatial information theory, Spatial-Agent extracts spatial concepts, assigns functional roles with principled ordering constraints, and composes transformation sequences through template-based generation. Extensive experiments on MapEval-API and MapQA benchmarks demonstrate that Spatial-Agent significantly outperforms existing baselines including ReAct and Reflexion, while producing interpretable and executable geospatial workflows.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
   }
 ]
