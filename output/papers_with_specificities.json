@@ -22256,7 +22256,8 @@
     "architectures": [],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Calibrated Probabilistic Interpolation for GEDI Biomass",
@@ -22274,7 +22275,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "A Training-Free Guess What Vision Language Model from Snippets to Open-Vocabulary Object Detection",
@@ -22300,7 +22302,8 @@
     ],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Earth Embeddings as Products: Taxonomy, Ecosystem, and Standardized Access",
@@ -22318,7 +22321,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Reasoning with Pixel-level Precision: QVLM Architecture and SQuID Dataset for Quantitative Geospatial Analytics",
@@ -22339,7 +22343,8 @@
     "applications": [
       "Segmentation",
       "Tracking"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Towards Realistic Remote Sensing Dataset Distillation with Discriminative Prototype-guided Diffusion",
@@ -22357,7 +22362,8 @@
     "architectures": [],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Forest-Chat: Adapting Vision-Language Agents for Interactive Forest Change Analysis",
@@ -22378,7 +22384,8 @@
     ],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Long-Term Probabilistic Forecast of Vegetation Conditions Using Climate Attributes in the Four Corners Region",
@@ -22399,7 +22406,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "SDCoNet: Saliency-Driven Multi-Task Collaborative Network for Remote Sensing Object Detection",
@@ -22423,7 +22431,8 @@
       "Detection",
       "Super-Resolution",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Adaptive Multi-Scale Correlation Meta-Network for Few-Shot Remote Sensing Image Classification",
@@ -22448,7 +22457,8 @@
     ],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Eddy-Resolving Global Ocean Forecasting with Multi-Scale Graph Neural Networks",
@@ -22466,7 +22476,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Zero-inflated binary Tree P\u00f3lya splitting regression for multivariate count data",
@@ -22486,7 +22497,8 @@
     "architectures": [
       "SDM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Spatial-Agent: Agentic Geo-spatial Reasoning with Scientific Core Concepts",
@@ -22506,6 +22518,245 @@
     ],
     "architectures": [
       "LLM"
+    ],
+    "applications": [],
+    "is_recent": false
+  },
+  {
+    "title": "How Much of a Model Do We Need? Redundancy and Slimmability in Remote Sensing Foundation Models",
+    "url": "http://arxiv.org/abs/2601.22841v1",
+    "authors": [
+      "Leonard Hackel",
+      "Tom Burgert",
+      "Beg\u00fcm Demir"
+    ],
+    "published": "2026-01-30",
+    "abstract": "Large-scale foundation models (FMs) in remote sensing (RS) are developed based on the paradigms established in computer vision (CV) and have shown promise for various Earth observation applications. However, the direct transfer of scaling assumptions from CV to RS has not been adequately examined. We hypothesize that RS FMs enter an overparameterized regime at substantially smaller scales than their CV counterparts, where increasing parameter count primarily induces redundant representations rather than qualitatively new abstractions. To test this hypothesis, we use post-hoc slimming, where we uniformly reduce the width of pretrained encoder, as a tool to measure representational redundancy across six state-of-the-art RS FMs on four downstream classification tasks. Our findings reveal a significant contrast with those in the CV domain: while a post-hoc slimmed masked autoencoder (MAE) trained on ImageNet retains less than 10% accuracy at 1% FLOPs, RS FMs maintain over 71% relative accuracy at the same budget. This sevenfold difference provides strong empirical support for our hypothesis. We further demonstrate that learned slimmable training can improve both Momentum Contrast (MoCo)- and MAE- based models. In addition, through the explained variance ratio and the feature correlation analysis, we provide mechanistic explanations showing that RS FMs distribute task-relevant information with high redundancy. Our findings establish post-hoc slimmability as both a practical deployment strategy for resource-constrained environments and a diagnostic tool that challenges the prevailing scaling paradigm in RS. Upon acceptance, we will publish all code.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Autoencoder"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Cross-Domain Few-Shot Learning for Hyperspectral Image Classification Based on Mixup Foundation Model",
+    "url": "http://arxiv.org/abs/2601.22581v1",
+    "authors": [
+      "Naeem Paeedeh",
+      "Mahardhika Pratama",
+      "Ary Shiddiqi",
+      "Zehong Cao",
+      "Mukesh Prasad",
+      "Wisnu Jatmiko"
+    ],
+    "published": "2026-01-30",
+    "abstract": "Although cross-domain few-shot learning (CDFSL) for hyper-spectral image (HSI) classification has attracted significant research interest, existing works often rely on an unrealistic data augmentation procedure in the form of external noise to enlarge the sample size, thus greatly simplifying the issue of data scarcity. They involve a large number of parameters for model updates, being prone to the overfitting problem. To the best of our knowledge, none has explored the strength of the foundation model, having strong generalization power to be quickly adapted to downstream tasks. This paper proposes the MIxup FOundation MOdel (MIFOMO) for CDFSL of HSI classifications. MIFOMO is built upon the concept of a remote sensing (RS) foundation model, pre-trained across a large scale of RS problems, thus featuring generalizable features. The notion of coalescent projection (CP) is introduced to quickly adapt the foundation model to downstream tasks while freezing the backbone network. The concept of mixup domain adaptation (MDM) is proposed to address the extreme domain discrepancy problem. Last but not least, the label smoothing concept is implemented to cope with noisy pseudo-label problems. Our rigorous experiments demonstrate the advantage of MIFOMO, where it beats prior arts with up to 14% margin. The source code of MIFOMO is open-sourced in https://github.com/Naeem- Paeedeh/MIFOMO for reproducibility and convenient further study.",
+    "categories": [
+      "foundation_model",
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Bidirectional Cross-Perception for Open-Vocabulary Semantic Segmentation in Remote Sensing Imagery",
+    "url": "http://arxiv.org/abs/2601.21159v1",
+    "authors": [
+      "Jianzheng Wang",
+      "Huan Ni"
+    ],
+    "published": "2026-01-29",
+    "abstract": "High-resolution remote sensing imagery is characterized by densely distributed land-cover objects and complex boundaries, which places higher demands on both geometric localization and semantic prediction. Existing training-free open-vocabulary semantic segmentation (OVSS) methods typically fuse CLIP and vision foundation models (VFMs) using \"one-way injection\" and \"shallow post-processing\" strategies, making it difficult to satisfy these requirements. To address this issue, we propose a spatial-regularization-aware dual-branch collaborative inference framework for training-free OVSS, termed SDCI. First, during feature encoding, SDCI introduces a cross-model attention fusion (CAF) module, which guides collaborative inference by injecting self-attention maps into each other. Second, we propose a bidirectional cross-graph diffusion refinement (BCDR) module that enhances the reliability of dual-branch segmentation scores through iterative random-walk diffusion. Finally, we incorporate low-level superpixel structures and develop a convex-optimization-based superpixel collaborative prediction (CSCP) mechanism to further refine object boundaries. Experiments on multiple remote sensing semantic segmentation benchmarks demonstrate that our method achieves better performance than existing approaches. Moreover, ablation studies further confirm that traditional object-based remote sensing image analysis methods leveraging superpixel structures remain effective within deep learning frameworks. Code: https://github.com/yu-ni1989/SDCI.",
+    "categories": [
+      "foundation_model",
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CLIP"
+    ],
+    "applications": [
+      "Segmentation",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Mobility-Embedded POIs: Learning What A Place Is and How It Is Used from Human Movement",
+    "url": "http://arxiv.org/abs/2601.21149v1",
+    "authors": [
+      "Maria Despoina Siampou",
+      "Shushman Choudhury",
+      "Shang-Ling Hsu",
+      "Neha Arora",
+      "Cyrus Shahabi"
+    ],
+    "published": "2026-01-29",
+    "abstract": "Recent progress in geospatial foundation models highlights the importance of learning general-purpose representations for real-world locations, particularly points-of-interest (POIs) where human activity concentrates. Existing approaches, however, focus primarily on place identity derived from static textual metadata, or learn representations tied to trajectory context, which capture movement regularities rather than how places are actually used (i.e., POI's function). We argue that POI function is a missing but essential signal for general POI representations. We introduce Mobility-Embedded POIs (ME-POIs), a framework that augments POI embeddings derived, from language models with large-scale human mobility data to learn POI-centric, context-independent representations grounded in real-world usage. ME-POIs encodes individual visits as temporally contextualized embeddings and aligns them with learnable POI representations via contrastive learning to capture usage patterns across users and time. To address long-tail sparsity, we propose a novel mechanism that propagates temporal visit patterns from nearby, frequently visited POIs across multiple spatial scales. We evaluate ME-POIs on five newly proposed map enrichment tasks, testing its ability to capture both the identity and function of POIs. Across all tasks, augmenting text-based embeddings with ME-POIs consistently outperforms both text-only and mobility-only baselines. Notably, ME-POIs trained on mobility data alone can surpass text-only models on certain tasks, highlighting that POI function is a critical component of accurate and generalizable POI representations.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "From Human Speech to Ocean Signals: Transferring Speech Large Models for Underwater Acoustic Target Recognition",
+    "url": "http://arxiv.org/abs/2601.18086v1",
+    "authors": [
+      "Mengcheng Huang",
+      "Xue Zhou",
+      "Chen Xu",
+      "Dapeng Man"
+    ],
+    "published": "2026-01-26",
+    "abstract": "Underwater acoustic target recognition (UATR) plays a vital role in marine applications but remains challenging due to limited labeled data and the complexity of ocean environments. This paper explores a central question: can speech large models (SLMs), trained on massive human speech corpora, be effectively transferred to underwater acoustics? To investigate this, we propose UATR-SLM, a simple framework that reuses the speech feature pipeline, adapts the SLM as an acoustic encoder, and adds a lightweight classifier.Experiments on the DeepShip and ShipsEar benchmarks show that UATR-SLM achieves over 99% in-domain accuracy, maintains strong robustness across variable signal lengths, and reaches up to 96.67% accuracy in cross-domain evaluation. These results highlight the strong transferability of SLMs to UATR, establishing a promising paradigm for leveraging speech foundation models in underwater acoustics.",
+    "categories": [
+      "foundation_model",
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Recognition"
+    ]
+  },
+  {
+    "title": "HyDeMiC: A Deep Learning-based Mineral Classifier using Hyperspectral Data",
+    "url": "http://arxiv.org/abs/2601.17352v1",
+    "authors": [
+      "M. L. Mamud",
+      "Piyoosh Jaysaval",
+      "Frederick D Day-Lewis",
+      "M. K. Mudunuru"
+    ],
+    "published": "2026-01-24",
+    "abstract": "Hyperspectral imaging (HSI) has emerged as a powerful remote sensing tool for mineral exploration, capitalizing on unique spectral signatures of minerals. However, traditional classification methods such as discriminant analysis, logistic regression, and support vector machines often struggle with environmental noise in data, sensor limitations, and the computational complexity of analyzing high-dimensional HSI data. This study presents HyDeMiC (Hyperspectral Deep Learning-based Mineral Classifier), a convolutional neural network (CNN) model designed for robust mineral classification under noisy data. To train HyDeMiC, laboratory-measured hyperspectral data for 115 minerals spanning various mineral groups were used from the United States Geological Survey (USGS) library. The training dataset was generated by convolving reference mineral spectra with an HSI sensor response function. These datasets contained three copper-bearing minerals, Cuprite, Malachite, and Chalcopyrite, used as case studies for performance demonstration. The trained CNN model was evaluated on several synthetic 2D hyperspectral datasets with noise levels of 1%, 2%, 5%, and 10%. Our noisy data analysis aims to replicate realistic field conditions. The HyDeMiC's performance was assessed using the Matthews Correlation Coefficient (MCC), providing a comprehensive measure across different noise regimes. Results demonstrate that HyDeMiC achieved near-perfect classification accuracy (MCC = 1.00) on clean and low-noise datasets and maintained strong performance under moderate noise conditions. These findings emphasize HyDeMiC's robustness in the presence of moderate noise, highlighting its potential for real-world applications in hyperspectral imaging, where noise is often a significant challenge.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": [
+      "Classification",
+      "Regression"
+    ]
+  },
+  {
+    "title": "SENDAI: A Hierarchical Sparse-measurement, EfficieNt Data AssImilation Framework",
+    "url": "http://arxiv.org/abs/2601.21664v1",
+    "authors": [
+      "Xingyue Zhang",
+      "Yuxuan Bao",
+      "Mars Liyao Gao",
+      "J. Nathan Kutz"
+    ],
+    "published": "2026-01-29",
+    "abstract": "Bridging the gap between data-rich training regimes and observation-sparse deployment conditions remains a central challenge in spatiotemporal field reconstruction, particularly when target domains exhibit distributional shifts, heterogeneous structure, and multi-scale dynamics absent from available training data. We present SENDAI, a hierarchical Sparse-measurement, EfficieNt Data AssImilation Framework that reconstructs full spatial states from hyper sparse sensor observations by combining simulation-derived priors with learned discrepancy corrections. We demonstrate the performance on satellite remote sensing, reconstructing MODIS (Moderate Resolution Imaging Spectroradiometer) derived vegetation index fields across six globally distributed sites. Using seasonal periods as a proxy for domain shift, the framework consistently outperforms established baselines that require substantially denser observations -- SENDAI achieves a maximum SSIM improvement of 185% over traditional baselines and a 36% improvement over recent high-frequency-based methods. These gains are particularly pronounced for landscapes with sharp boundaries and sub-seasonal dynamics; more importantly, the framework effectively preserves diagnostically relevant structures -- such as field topologies, land cover discontinuities, and spatial gradients. By yielding corrections that are more structurally and spectrally separable, the reconstructed fields are better suited for downstream inference of indirectly observed variables. The results therefore highlight a lightweight and operationally viable framework for sparse-measurement reconstruction that is applicable to physically grounded inference, resource-limited deployment, and real-time monitor and control.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Revisiting Aerial Scene Classification on the AID Benchmark",
+    "url": "http://arxiv.org/abs/2601.18263v1",
+    "authors": [
+      "Subhajeet Das",
+      "Susmita Ghosh",
+      "Abhiroop Chatterjee"
+    ],
+    "published": "2026-01-26",
+    "abstract": "Aerial images play a vital role in urban planning and environmental preservation, as they consist of various structures, representing different types of buildings, forests, mountains, and unoccupied lands. Due to its heterogeneous nature, developing robust models for scene classification remains a challenge. In this study, we conduct a literature review of various machine learning methods for aerial image classification. Our survey covers a range of approaches from handcrafted features (e.g., SIFT, LBP) to traditional CNNs (e.g., VGG, GoogLeNet), and advanced deep hybrid networks. In this connection, we have also designed Aerial-Y-Net, a spatial attention-enhanced CNN with multi-scale feature fusion mechanism, which acts as an attention-based model and helps us to better understand the complexities of aerial images. Evaluated on the AID dataset, our model achieves 91.72% accuracy, outperforming several baseline architectures.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "VGG"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Climates of Terrestrial Exoplanets and Biosignatures",
+    "url": "http://arxiv.org/abs/2601.20620v2",
+    "authors": [
+      "Siddharth Bhatnagar",
+      "Emeline Bolmont",
+      "Nikita J. Boeren",
+      "Janina Hansen",
+      "Bj\u00f6rn Konrad",
+      "Leander Schlarmann",
+      "Eleonora Alei",
+      "Marie Azevedo",
+      "Marrick Braam",
+      "Guillaume Chaverot",
+      "Jonathan Grone",
+      "Kaustubh Hakim",
+      "Mathilde Houelle",
+      "Daniel Kitzmann",
+      "Christophe Lovis",
+      "Antoine Pommerol",
+      "Sascha P. Quanz",
+      "Martin Turbet",
+      "Audrey Vorburger",
+      "Susanne F. Wampfler",
+      "Francis Zong Lang"
+    ],
+    "published": "2026-01-28",
+    "abstract": "Understanding the climates of terrestrial exoplanets and the detectability of biosignatures is an inherently interdisciplinary challenge, requiring the integration of insights from Solar System exploration, exoplanet observations and climate science. Building from Earth as the only known inhabited planet, NCCR PlanetS has developed models, tools and observational strategies to assess planetary environments far beyond direct reach. Between 2018 and 2025, PlanetS made major contributions across theory, modelling, instrumentation and mission preparation. On the modelling side, the Generic Planetary Climate Model enabled climate studies across a wide range of planetary regimes, from early Venus to temperate terrestrial exoplanets including Proxima b, incorporating advanced developments such as a dynamical slab ocean. In parallel, the THOR global climate model was developed to avoid Earth-centric assumptions and to stably simulate diverse atmospheric regimes. PlanetS has also advanced atmospheric retrieval techniques combining forward modelling, Bayesian inference and machine learning, applied to targets ranging from Solar System bodies to exoplanet phase curves and directly imaged spectra. These efforts have helped assess the scientific return of future missions, notably the Large Interferometer for Exoplanets (LIFE) and to define instrumental requirements for detecting Earth-like atmospheres and biosignatures. Within the Solar System, PlanetS contributed key technologies for biosignature detection, including ORIGIN and SenseLife, enabling in-situ and remote detection of organics, isotopic ratios and microstructures. Finally, PlanetS has played a major role in preparing the next generation of observatories, from JWST, VLT and ELT instruments to LIFE and the Habitable Worlds Observatory. Together, these contributions form an integrated framework advancing the search for life beyond Earth.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "LocationAgent: A Hierarchical Agent for Image Geolocation via Decoupling Strategy and Evidence from Parametric Knowledge",
+    "url": "http://arxiv.org/abs/2601.19155v1",
+    "authors": [
+      "Qiujun Li",
+      "Zijin Xiao",
+      "Xulin Wang",
+      "Zhidan Ma",
+      "Cheng Yang",
+      "Haifeng Li"
+    ],
+    "published": "2026-01-27",
+    "abstract": "Image geolocation aims to infer capture locations based on visual content. Fundamentally, this constitutes a reasoning process composed of \\textit{hypothesis-verification cycles}, requiring models to possess both geospatial reasoning capabilities and the ability to verify evidence against geographic facts. Existing methods typically internalize location knowledge and reasoning patterns into static memory via supervised training or trajectory-based reinforcement fine-tuning. Consequently, these methods are prone to factual hallucinations and generalization bottlenecks in open-world settings or scenarios requiring dynamic knowledge. To address these challenges, we propose a Hierarchical Localization Agent, called LocationAgent. Our core philosophy is to retain hierarchical reasoning logic within the model while offloading the verification of geographic evidence to external tools. To implement hierarchical reasoning, we design the RER architecture (Reasoner-Executor-Recorder), which employs role separation and context compression to prevent the drifting problem in multi-step reasoning. For evidence verification, we construct a suite of clue exploration tools that provide diverse evidence to support location reasoning. Furthermore, to address data leakage and the scarcity of Chinese data in existing datasets, we introduce CCL-Bench (China City Location Bench), an image geolocation benchmark encompassing various scene granularities and difficulty levels. Extensive experiments demonstrate that LocationAgent significantly outperforms existing methods by at least 30\\% in zero-shot settings.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Mil-SCORE: Benchmarking Long-Context Geospatial Reasoning and Planning in Large Language Models",
+    "url": "http://arxiv.org/abs/2601.21826v1",
+    "authors": [
+      "Aadi Palnitkar",
+      "Mingyang Mao",
+      "Nicholas Waytowich",
+      "Vinicius G. Goecks",
+      "Tinoosh Mohsenin",
+      "Xiaomin Lin"
+    ],
+    "published": "2026-01-29",
+    "abstract": "As large language models (LLMs) are applied to increasingly longer and more complex tasks, there is a growing need for realistic long-context benchmarks that require selective reading and integration of heterogeneous, multi-modal information sources. This need is especially acute for geospatial planning problems, such as those found in planning for large-scale military operations, which demand fast and accurate reasoning over maps, orders, intelligence reports, and other distributed data. To address this gap, we present MilSCORE (Military Scenario Contextual Reasoning), to our knowledge the first scenario-level dataset of expert-authored, multi-hop questions grounded in a complex, simulated military planning scenario used for training. MilSCORE is designed to evaluate high-stakes decision-making and planning, probing LLMs' ability to combine tactical and spatial reasoning across multiple sources and to reason over long-horizon, geospatially rich context. The benchmark includes a diverse set of question types across seven categories targeting both factual recall and multi-step reasoning about constraints, strategy, and spatial analysis. We provide an evaluation protocol and report baseline results for a range of contemporary vision-language models. Our findings highlight substantial headroom on MilSCORE, indicating that current systems struggle with realistic, scenario-level long-context planning, and positioning MilSCORE as a challenging testbed for future work.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM",
+      "LVM"
     ],
     "applications": []
   }
