@@ -22792,7 +22792,8 @@
       "Segmentation",
       "Detection",
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "SOMA-1M: A Large-Scale SAR-Optical Multi-resolution Alignment Dataset for Multi-Task Remote Sensing",
@@ -22812,7 +22813,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "ZS-TreeSeg: A Zero-Shot Framework for Tree Crown Instance Segmentation",
@@ -22832,7 +22834,8 @@
     "architectures": [],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Ecological mapping with geospatial foundation models",
@@ -22858,7 +22861,8 @@
     ],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Physically Interpretable AlphaEarth Foundation Model Embeddings Enable LLM-Based Land Surface Intelligence",
@@ -22875,7 +22879,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Geospatial-Reasoning-Driven Vocabulary-Agnostic Remote Sensing Semantic Segmentation",
@@ -22898,7 +22903,8 @@
     "applications": [
       "Segmentation",
       "Recognition"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "SCA-Net: Spatial-Contextual Aggregation Network for Enhanced Small Building and Road Change Detection",
@@ -22916,7 +22922,8 @@
     "architectures": [],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Towards a Fully Automated Pipeline for Short-Term Forecasting of In Situ Coronal Mass Ejection Magnetic Field Structure",
@@ -22941,7 +22948,8 @@
     "applications": [
       "Detection",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "A Migration-Assisted Deep Learning Scheme for Imaging Defects Inside Cylindrical Structures via GPR: A Case Study for Tree Trunks",
@@ -22962,7 +22970,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "CBEN -- A Multimodal Machine Learning Dataset for Cloud Robust Remote Sensing Image Understanding",
@@ -22978,7 +22987,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Multimode fiber laser cavities as nonlinear optical processors",
@@ -22997,7 +23007,8 @@
     "architectures": [
       "Deep Neural Network"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "MMLSv2: A Multimodal Dataset for Martian Landslide Detection in Remote Sensing Imagery",
@@ -23020,7 +23031,8 @@
     "architectures": [],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Reducing the labeling burden in time-series mapping using Common Ground: a semi-automated approach to tracking changes in land cover and species over time",
@@ -23040,7 +23052,8 @@
     "applications": [
       "Detection",
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Benchmarking Artificial Intelligence Models for Daily Coastal Hypoxia Forecasting",
@@ -23064,7 +23077,8 @@
     "applications": [
       "Classification",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Static and auto-regressive neural emulation of phytoplankton biomass dynamics from physical predictors in the global ocean",
@@ -23087,7 +23101,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "HybridOM: Hybrid Physics-Based and Data-Driven Global Ocean Modeling with Efficient Spatial Downscaling",
@@ -23111,7 +23126,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Positive-Unlabelled Active Learning to Curate a Dataset for Orca Resident Interpretation",
@@ -23132,7 +23148,8 @@
     ],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Estimation of Fish Catch Using Sentinel-2, 3 and XGBoost-Kernel-Based Kernel Ridge Regression",
@@ -23154,7 +23171,8 @@
     "applications": [
       "Regression",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Reduced-Order Surrogates for Forced Flexible Mesh Coastal-Ocean Models",
@@ -23175,7 +23193,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Data Driven Air Entrainment Velocity Parameterization by Breaking Waves",
@@ -23191,7 +23210,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Role of the ocean for fast atmospheric evolution revealed by machine learning",
@@ -23209,7 +23229,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "How to Optimize Multispecies Set Predictions in Presence-Absence Modeling ?",
@@ -23233,7 +23254,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Large Language Models for Geolocation Extraction in Humanitarian Crisis Response",
@@ -23255,7 +23277,8 @@
     ],
     "applications": [
       "Recognition"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "From Perception to Action: Spatial AI Agents and World Models",
@@ -23277,7 +23300,8 @@
       "LLM",
       "GNN"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Monte Carlo Tree Search with Reasoning Path Refinement for Small Language Models in Conversational Text-to-NoSQL",
@@ -23293,7 +23317,8 @@
       "geo_reasoning"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "MapVerse: A Benchmark for Geospatial Question Answering on Diverse Real-World Maps",
@@ -23315,7 +23340,8 @@
     ],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "R2RAG-Flood: A reasoning-reinforced training-free retrieval augmentation generation framework for flood damage nowcasting",
@@ -23336,7 +23362,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "VLRS-Bench: A Vision-Language Reasoning Benchmark for Remote Sensing",
@@ -23360,6 +23387,287 @@
       "Classification",
       "Recognition",
       "Forecast"
+    ],
+    "is_recent": false
+  },
+  {
+    "title": "Enabling Training-Free Text-Based Remote Sensing Segmentation",
+    "url": "http://arxiv.org/abs/2602.17799v1",
+    "authors": [
+      "Jose Sosa",
+      "Danila Rukhovich",
+      "Anis Kacem",
+      "Djamila Aouada"
+    ],
+    "published": "2026-02-19",
+    "abstract": "Recent advances in Vision Language Models (VLMs) and Vision Foundation Models (VFMs) have opened new opportunities for zero-shot text-guided segmentation of remote sensing imagery. However, most existing approaches still rely on additional trainable components, limiting their generalisation and practical applicability. In this work, we investigate to what extent text-based remote sensing segmentation can be achieved without additional training, by relying solely on existing foundation models. We propose a simple yet effective approach that integrates contrastive and generative VLMs with the Segment Anything Model (SAM), enabling a fully training-free or lightweight LoRA-tuned pipeline. Our contrastive approach employs CLIP as mask selector for SAM's grid-based proposals, achieving state-of-the-art open-vocabulary semantic segmentation (OVSS) in a completely zero-shot setting. In parallel, our generative approach enables reasoning and referring segmentation by generating click prompts for SAM using GPT-5 in a zero-shot setting and a LoRA-tuned Qwen-VL model, with the latter yielding the best results. Extensive experiments across 19 remote sensing benchmarks, including open-vocabulary, referring, and reasoning-based tasks, demonstrate the strong capabilities of our approach. Code will be released at https://github.com/josesosajs/trainfree-rs-segmentation.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "LVM",
+      "CLIP"
+    ],
+    "applications": [
+      "Segmentation"
     ]
+  },
+  {
+    "title": "AgriWorld:A World Tools Protocol Framework for Verifiable Agricultural Reasoning with Code-Executing LLM Agents",
+    "url": "http://arxiv.org/abs/2602.15325v1",
+    "authors": [
+      "Zhixing Zhang",
+      "Jesen Zhang",
+      "Hao Liu",
+      "Qinhan Lv",
+      "Jing Yang",
+      "Kaitong Cai",
+      "Keze Wang"
+    ],
+    "published": "2026-02-17",
+    "abstract": "Foundation models for agriculture are increasingly trained on massive spatiotemporal data (e.g., multi-spectral remote sensing, soil grids, and field-level management logs) and achieve strong performance on forecasting and monitoring. However, these models lack language-based reasoning and interactive capabilities, limiting their usefulness in real-world agronomic workflows. Meanwhile, large language models (LLMs) excel at interpreting and generating text, but cannot directly reason over high-dimensional, heterogeneous agricultural datasets. We bridge this gap with an agentic framework for agricultural science. It provides a Python execution environment, AgriWorld, exposing unified tools for geospatial queries over field parcels, remote-sensing time-series analytics, crop growth simulation, and task-specific predictors (e.g., yield, stress, and disease risk). On top of this environment, we design a multi-turn LLM agent, Agro-Reflective, that iteratively writes code, observes execution results, and refines its analysis via an execute-observe-refine loop. We introduce AgroBench, with scalable data generation for diverse agricultural QA spanning lookups, forecasting, anomaly detection, and counterfactual \"what-if\" analysis. Experiments outperform text-only and direct tool-use baselines, validating execution-driven reflection for reliable agricultural reasoning.",
+    "categories": [
+      "geo_reasoning",
+      "foundation_model"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Detection",
+      "Forecast",
+      "Anomaly Detection"
+    ]
+  },
+  {
+    "title": "Foundation Model-Driven Semantic Change Detection in Remote Sensing Imagery",
+    "url": "http://arxiv.org/abs/2602.13780v1",
+    "authors": [
+      "Hengtong Shen",
+      "Li Yan",
+      "Hong Xie",
+      "Yaxuan Wei",
+      "Xinhao Li",
+      "Wenfei Shen",
+      "Peixian Lv",
+      "Fei Tan"
+    ],
+    "published": "2026-02-14",
+    "abstract": "Remote sensing (RS) change detection methods can extract critical information on surface dynamics and are an essential means for humans to understand changes in the earth's surface and environment. Among these methods, semantic change detection (SCD) can more effectively interpret the multi-class information contained in bi-temporal RS imagery, providing semantic-level predictions that support dynamic change monitoring. However, due to the limited semantic understanding capability of the model and the inherent complexity of the SCD tasks, existing SCD methods face significant challenges in both performance and paradigm complexity. In this paper, we propose PerASCD, a SCD method driven by RS foundation model PerA, designed to enhance the multi-scale semantic understanding and overall performance. We introduce a modular Cascaded Gated Decoder (CG-Decoder) that simplifies complex SCD decoding pipelines while promoting effective multi-level feature interaction and fusion. In addition, we propose a Soft Semantic Consistency Loss (SSCLoss) to mitigate the numerical instability commonly encountered during SCD training. We further explore the applicability of multiple existing RS foundation models on the SCD task when equipped with the proposed decoder. Experimental results demonstrate that our decoder not only effectively simplifies the paradigm of SCD, but also achieves seamless adaptation across various vision encoders. Our method achieves state-of-the-art (SOTA) performance on two public benchmark datasets, validating its effectiveness. The code is available at https://github.com/SathShen/PerASCD.git.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "MarsRetrieval: Benchmarking Vision-Language Models for Planetary-Scale Geospatial Retrieval on Mars",
+    "url": "http://arxiv.org/abs/2602.13961v1",
+    "authors": [
+      "Shuoyuan Wang",
+      "Yiran Wang",
+      "Hongxin Wei"
+    ],
+    "published": "2026-02-15",
+    "abstract": "Data-driven approaches like deep learning are rapidly advancing planetary science, particularly in Mars exploration. Despite recent progress, most existing benchmarks remain confined to closed-set supervised visual tasks and do not support text-guided retrieval for geospatial discovery. We introduce MarsRetrieval, a retrieval benchmark for evaluating vision-language models for Martian geospatial discovery. MarsRetrieval includes three tasks: (1) paired image-text retrieval, (2) landform retrieval, and (3) global geo-localization, covering multiple spatial scales and diverse geomorphic origins. We propose a unified retrieval-centric protocol to benchmark multimodal embedding architectures, including contrastive dual-tower encoders and generative vision-language models. Our evaluation shows MarsRetrieval is challenging: even strong foundation models often fail to capture domain-specific geomorphic distinctions. We further show that domain-specific fine-tuning is critical for generalizable geospatial discovery in planetary settings. Our code is available at https://github.com/ml-stat-Sustech/MarsRetrieval",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "QueryPlot: Generating Geological Evidence Layers using Natural Language Queries for Mineral Exploration",
+    "url": "http://arxiv.org/abs/2602.17784v1",
+    "authors": [
+      "Meng Ye",
+      "Xiao Lin",
+      "Georgina Lukoczki",
+      "Graham W. Lederer",
+      "Yi Yao"
+    ],
+    "published": "2026-02-19",
+    "abstract": "Mineral prospectivity mapping requires synthesizing heterogeneous geological knowledge, including textual deposit models and geospatial datasets, to identify regions likely to host specific mineral deposit types. This process is traditionally manual and knowledge-intensive. We present QueryPlot, a semantic retrieval and mapping framework that integrates large-scale geological text corpora with geologic map data using modern Natural Language Processing techniques. We curate descriptive deposit models for over 120 deposit types and transform the State Geologic Map Compilation (SGMC) polygons into structured textual representations. Given a user-defined natural language query, the system encodes both queries and region descriptions using a pretrained embedding model and computes semantic similarity scores to rank and spatially visualize regions as continuous evidence layers. QueryPlot supports compositional querying over deposit characteristics, enabling aggregation of multiple similarity-derived layers for multi-criteria prospectivity analysis. In a case study on tungsten skarn deposits, we demonstrate that embedding-based retrieval achieves high recall of known occurrences and produces prospective regions that closely align with expert-defined permissive tracts. Furthermore, similarity scores can be incorporated as additional features in supervised learning pipelines, yielding measurable improvements in classification performance. QueryPlot is implemented as a web-based system supporting interactive querying, visualization, and export of GIS-compatible prospectivity layers.To support future research, we have made the source code and datasets used in this study publicly available.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Inferring Height from Earth Embeddings: First insights using Google AlphaEarth",
+    "url": "http://arxiv.org/abs/2602.17250v1",
+    "authors": [
+      "Alireza Hamoudzadeh",
+      "Valeria Belloni",
+      "Roberta Ravanelli"
+    ],
+    "published": "2026-02-19",
+    "abstract": "This study investigates whether the geospatial and multimodal features encoded in \\textit{Earth Embeddings} can effectively guide deep learning (DL) regression models for regional surface height mapping. In particular, we focused on AlphaEarth Embeddings at 10 m spatial resolution and evaluated their capability to support terrain height inference using a high-quality Digital Surface Model (DSM) as reference. U-Net and U-Net++ architectures were thus employed as lightweight convolutional decoders to assess how well the geospatial information distilled in the embeddings can be translated into accurate surface height estimates. Both architectures achieved strong training performance (both with $R^2 = 0.97$), confirming that the embeddings encode informative and decodable height-related signals. On the test set, performance decreased due to distribution shifts in height frequency between training and testing areas. Nevertheless, U-Net++ shows better generalization ($R^2 = 0.84$, median difference = -2.62 m) compared with the standard U-Net ($R^2 = 0.78$, median difference = -7.22 m), suggesting enhanced robustness to distribution mismatch. While the testing RMSE (approximately 16 m for U-Net++) and residual bias highlight remaining challenges in generalization, strong correlations indicate that the embeddings capture transferable topographic patterns. Overall, the results demonstrate the promising potential of AlphaEarth Embeddings to guide DL-based height mapping workflows, particularly when combined with spatially aware convolutional architectures, while emphasizing the need to address bias for improved regional transferability.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": [
+      "Regression"
+    ]
+  },
+  {
+    "title": "The Skeletal Trap: Mapping Spatial Inequality and Ghost Stops in Ankara's Transit Network",
+    "url": "http://arxiv.org/abs/2602.15470v1",
+    "authors": [
+      "Elifnaz Kancan"
+    ],
+    "published": "2026-02-17",
+    "abstract": "Ankara's public transport crisis is commonly framed as a shortage of buses or operational inefficiency. This study argues that the problem is fundamentally morphological and structural. The city's leapfrog urban expansion has produced fragmented peripheral clusters disconnected from a rigid, center-oriented bus network. As a result, demand remains intensely concentrated along the Kizilay-Ulus axis and western corridors, while peripheral districts experience either chronic under-service or enforced transfer dependency. The deficiency is therefore not merely quantitative but rooted in the misalignment between urban macroform and network architecture. The empirical analysis draws on a 173-day operational dataset derived from route-level passenger and trip reports published by EGO under the former \"Transparent Ankara\" initiative. To overcome the absence of stop-level geospatial data, a Connectivity-Based Weighted Distribution Model reallocates passenger volumes to 1 km x 1 km grid cells using network centrality. The findings reveal persistent center-periphery asymmetries, structural bottlenecks, and spatially embedded accessibility inequalities.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Quantum-enhanced satellite image classification",
+    "url": "http://arxiv.org/abs/2602.18350v1",
+    "authors": [
+      "Qi Zhang",
+      "Anton Simen",
+      "Carlos Flores-Garrig\u00f3s",
+      "Gabriel Alvarado Barrios",
+      "Paolo A. Erdman",
+      "Enrique Solano",
+      "Aaron C. Kemp",
+      "Vincent Beltrani",
+      "Vedangi Pathak",
+      "Hamed Mohammadbagherpoor"
+    ],
+    "published": "2026-02-20",
+    "abstract": "We demonstrate the application of a quantum feature extraction method to enhance multi-class image classification for space applications. By harnessing the dynamics of many-body spin Hamiltonians, the method generates expressive quantum features that, when combined with classical processing, lead to quantum-enhanced classification accuracy. Using a strong and well-established ResNet50 baseline, we achieved a maximum classical accuracy of 83%, which can be improved to 84% with a transfer learning approach. In contrast, applying our quantum-classical method the performance is increased to 87% accuracy, demonstrating a clear and reproducible improvement over robust classical approaches. Implemented on several of IBM's quantum processors, our hybrid quantum-classical approach delivers consistent gains of 2-3% in absolute accuracy. These results highlight the practical potential of current and near-term quantum processors in high-stakes, data-driven domains such as satellite imaging and remote sensing, while suggesting broader applicability in real-world machine learning tasks.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Generative deep learning improves reconstruction of global historical climate records",
+    "url": "http://arxiv.org/abs/2602.16515v1",
+    "authors": [
+      "Zhen Qian",
+      "Teng Liu",
+      "Sebastian Bathiany",
+      "Shangshang Yang",
+      "Philipp Hess",
+      "Nils Bochow",
+      "Christian Burmester",
+      "Maximilian Gelbrecht",
+      "Brian Groenke",
+      "Niklas Boers"
+    ],
+    "published": "2026-02-18",
+    "abstract": "Accurate assessment of anthropogenic climate change relies on historical instrumental data, yet observations from the early 20th century are sparse, fragmented, and uncertain. Conventional reconstructions rely on disparate statistical interpolation, which excessively smooths local features and creates unphysical artifacts, leading to systematic underestimation of intrinsic variability and extremes. Here, we present a unified, probabilistic generative deep learning framework that overcomes these limitations and reveals previously unresolved historical climate variability back to 1850. Leveraging a learned generative prior of Earth system dynamics, our model performs probabilistic inference to recover spatiotemporally consistent historical temperature and precipitation fields from sparse observations. Our approach preserves the higher-order statistics of climate dynamics, transforming reconstruction into a robust uncertainty-aware assessment. We demonstrate that our reconstruction overcomes pronounced biases in widely used historical reference products, including those underlying IPCC assessments, especially regarding extreme weather events. Notably, we uncover higher early 20th-century global warming levels compared to existing reconstructions, primarily driven by more pronounced polar warming, with mean Arctic warming trends exceeding established benchmarks by 0.15--0.29\u00b0C per decade for 1900--1980. Conversely, for the modern era, our reconstruction indicates that the broad Arctic warming trend is likely overestimated in recent assessments, yet explicitly resolves previously unrecognized intense, localized hotspots in the Barents Sea and Northeastern Greenland. Furthermore, based on our seamless global reconstruction that recovers precipitation variability across the oceans and under-monitored regions, we uncover an intensification of the global hydrological cycle.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Examining Fast Radiative Feedbacks Using Machine-Learning Weather Emulators",
+    "url": "http://arxiv.org/abs/2602.16090v1",
+    "authors": [
+      "Ankur Mahesh",
+      "William D. Collins",
+      "Travis A. O'Brien",
+      "Paul B. Goddard",
+      "Sinclaire Zebaze",
+      "Shashank Subramanian",
+      "James P. C. Duncan",
+      "Oliver Watt-Meyer",
+      "Boris Bonev",
+      "Thorsten Kurth",
+      "Karthik Kashinath",
+      "Michael S. Pritchard",
+      "Da Yang"
+    ],
+    "published": "2026-02-17",
+    "abstract": "The response of the climate system to increased greenhouse gases and other radiative perturbations is governed by a combination of fast and slow feedbacks. Slow feedbacks are typically activated in response to changes in ocean temperatures on decadal timescales and manifest as changes in climatic state with no recent historical analogue. However, fast feedbacks are activated in response to rapid atmospheric physical processes on weekly timescales, and they are already operative in the present-day climate. This distinction implies that the physics of fast radiative feedbacks is present in the historical meteorological reanalyses used to train many recent successful machine-learning-based (ML) emulators of weather and climate. In addition, these feedbacks are functional under the historical boundary conditions pertaining to the top-of-atmosphere radiative balance and sea-surface temperatures. Together, these factors imply that we can use historically trained ML weather emulators to study the response of radiative-convective equilibrium (RCE), and hence the global hydrological cycle, to perturbations in carbon dioxide and other well-mixed greenhouse gases. Without retraining on prospective Earth system conditions, we use ML weather emulators to quantify the fast precipitation response to reduced and elevated carbon dioxed concentrations with no recent historical precedent. We show that the responses from historically trained emulators agree with those produced by full-physics Earth System Models (ESMs). In conclusion, we discuss the prospects for and advantages from using ESMs and ML emulators to study fast processes in global climate.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "OpenEarthAgent: A Unified Framework for Tool-Augmented Geospatial Agents",
+    "url": "http://arxiv.org/abs/2602.17665v1",
+    "authors": [
+      "Akashah Shabbir",
+      "Muhammad Umer Sheikh",
+      "Muhammad Akhtar Munir",
+      "Hiyam Debary",
+      "Mustansar Fiaz",
+      "Muhammad Zaigham Zaheer",
+      "Paolo Fraccaro",
+      "Fahad Shahbaz Khan",
+      "Muhammad Haris Khan",
+      "Xiao Xiang Zhu",
+      "Salman Khan"
+    ],
+    "published": "2026-02-19",
+    "abstract": "Recent progress in multimodal reasoning has enabled agents that can interpret imagery, connect it with language, and perform structured analytical tasks. Extending such capabilities to the remote sensing domain remains challenging, as models must reason over spatial scale, geographic structures, and multispectral indices while maintaining coherent multi-step logic. To bridge this gap, OpenEarthAgent introduces a unified framework for developing tool-augmented geospatial agents trained on satellite imagery, natural-language queries, and detailed reasoning traces. The training pipeline relies on supervised fine-tuning over structured reasoning trajectories, aligning the model with verified multistep tool interactions across diverse analytical contexts. The accompanying corpus comprises 14,538 training and 1,169 evaluation instances, with more than 100K reasoning steps in the training split and over 7K reasoning steps in the evaluation split. It spans urban, environmental, disaster, and infrastructure domains, and incorporates GIS-based operations alongside index analyses such as NDVI, NBR, and NDBI. Grounded in explicit reasoning traces, the learned agent demonstrates structured reasoning, stable spatial understanding, and interpretable behaviour through tool-driven geospatial interactions across diverse conditions. We report consistent improvements over a strong baseline and competitive performance relative to recent open and closed-source models.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Adapting Actively on the Fly: Relevance-Guided Online Meta-Learning with Latent Concepts for Geospatial Discovery",
+    "url": "http://arxiv.org/abs/2602.17605v1",
+    "authors": [
+      "Jowaria Khan",
+      "Anindya Sarkar",
+      "Yevgeniy Vorobeychik",
+      "Elizabeth Bondi-Kelly"
+    ],
+    "published": "2026-02-19",
+    "abstract": "In many real-world settings, such as environmental monitoring, disaster response, or public health, with costly and difficult data collection and dynamic environments, strategically sampling from unobserved regions is essential for efficiently uncovering hidden targets under tight resource constraints. Yet, sparse and biased geospatial ground truth limits the applicability of existing learning-based methods, such as reinforcement learning. To address this, we propose a unified geospatial discovery framework that integrates active learning, online meta-learning, and concept-guided reasoning. Our approach introduces two key innovations built on a shared notion of *concept relevance*, which captures how domain-specific factors influence target presence: a *concept-weighted uncertainty sampling strategy*, where uncertainty is modulated by learned relevance based on readily-available domain-specific concepts (e.g., land cover, source proximity); and a *relevance-aware meta-batch formation strategy* that promotes semantic diversity during online-meta updates, improving generalization in dynamic environments. Our experiments include testing on a real-world dataset of cancer-causing PFAS (Per- and polyfluoroalkyl substances) contamination, showcasing our method's reliability at uncovering targets with limited data and a varying environment.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "GPSBench: Do Large Language Models Understand GPS Coordinates?",
+    "url": "http://arxiv.org/abs/2602.16105v1",
+    "authors": [
+      "Thinh Hung Truong",
+      "Jey Han Lau",
+      "Jianzhong Qi"
+    ],
+    "published": "2026-02-18",
+    "abstract": "Large Language Models (LLMs) are increasingly deployed in applications that interact with the physical world, such as navigation, robotics, or mapping, making robust geospatial reasoning a critical capability. Despite that, LLMs' ability to reason about GPS coordinates and real-world geography remains underexplored. We introduce GPSBench, a dataset of 57,800 samples across 17 tasks for evaluating geospatial reasoning in LLMs, spanning geometric coordinate operations (e.g., distance and bearing computation) and reasoning that integrates coordinates with world knowledge. Focusing on intrinsic model capabilities rather than tool use, we evaluate 14 state-of-the-art LLMs and find that GPS reasoning remains challenging, with substantial variation across tasks: models are generally more reliable at real-world geographic reasoning than at geometric computations. Geographic knowledge degrades hierarchically, with strong country-level performance but weak city-level localization, while robustness to coordinate noise suggests genuine coordinate understanding rather than memorization. We further show that GPS-coordinate augmentation can improve in downstream geospatial tasks, and that finetuning induces trade-offs between gains in geometric computation and degradation in world knowledge. Our dataset and reproducible code are available at https://github.com/joey234/gpsbench",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
   }
 ]
