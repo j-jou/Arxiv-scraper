@@ -23410,7 +23410,8 @@
     ],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "AgriWorld:A World Tools Protocol Framework for Verifiable Agricultural Reasoning with Code-Executing LLM Agents",
@@ -23437,7 +23438,8 @@
       "Detection",
       "Forecast",
       "Anomaly Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Foundation Model-Driven Semantic Change Detection in Remote Sensing Imagery",
@@ -23461,7 +23463,8 @@
     "applications": [
       "Detection",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "MarsRetrieval: Benchmarking Vision-Language Models for Planetary-Scale Geospatial Retrieval on Mars",
@@ -23479,7 +23482,8 @@
     "architectures": [
       "LVM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "QueryPlot: Generating Geological Evidence Layers using Natural Language Queries for Mineral Exploration",
@@ -23499,7 +23503,8 @@
     "architectures": [],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Inferring Height from Earth Embeddings: First insights using Google AlphaEarth",
@@ -23519,7 +23524,8 @@
     ],
     "applications": [
       "Regression"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "The Skeletal Trap: Mapping Spatial Inequality and Ghost Stops in Ankara's Transit Network",
@@ -23533,7 +23539,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Quantum-enhanced satellite image classification",
@@ -23558,7 +23565,8 @@
     "architectures": [],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Generative deep learning improves reconstruction of global historical climate records",
@@ -23581,7 +23589,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Examining Fast Radiative Feedbacks Using Machine-Learning Weather Emulators",
@@ -23607,7 +23616,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "OpenEarthAgent: A Unified Framework for Tool-Augmented Geospatial Agents",
@@ -23631,7 +23641,8 @@
       "geo_reasoning"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Adapting Actively on the Fly: Relevance-Guided Online Meta-Learning with Latent Concepts for Geospatial Discovery",
@@ -23650,7 +23661,8 @@
     "architectures": [],
     "applications": [
       "Reinforcement Learning"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "GPSBench: Do Large Language Models Understand GPS Coordinates?",
@@ -23668,6 +23680,175 @@
     "architectures": [
       "LLM"
     ],
+    "applications": [],
+    "is_recent": false
+  },
+  {
+    "title": "Any Model, Any Place, Any Time: Get Remote Sensing Foundation Model Embeddings On Demand",
+    "url": "http://arxiv.org/abs/2602.23678v1",
+    "authors": [
+      "Dingqi Ye",
+      "Daniel Kiv",
+      "Wei Hu",
+      "Jimeng Shi",
+      "Shaowen Wang"
+    ],
+    "published": "2026-02-27",
+    "abstract": "The remote sensing community is witnessing a rapid growth of foundation models, which provide powerful embeddings for a wide range of downstream tasks. However, practical adoption and fair comparison remain challenging due to substantial heterogeneity in model release formats, platforms and interfaces, and input data specifications. These inconsistencies significantly increase the cost of obtaining, using, and benchmarking embeddings across models. To address this issue, we propose rs-embed, a Python library that offers a unified, region of interst (ROI) centric interface: with a single line of code, users can retrieve embeddings from any supported model for any location and any time range. The library also provides efficient batch processing to enable large-scale embedding generation and evaluation. The code is available at: https://github.com/cybergis/rs-embed",
+    "categories": [
+      "foundation_model",
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Make Some Noise: Unsupervised Remote Sensing Change Detection Using Latent Space Perturbations",
+    "url": "http://arxiv.org/abs/2602.19881v1",
+    "authors": [
+      "Bla\u017e Rolih",
+      "Matic Fu\u010dka",
+      "Filip Wolf",
+      "Luka \u010cehovin Zajc"
+    ],
+    "published": "2026-02-23",
+    "abstract": "Unsupervised change detection (UCD) in remote sensing aims to localise semantic changes between two images of the same region without relying on labelled data during training. Most recent approaches rely either on frozen foundation models in a training-free manner or on training with synthetic changes generated in pixel space. Both strategies inherently rely on predefined assumptions about change types, typically introduced through handcrafted rules, external datasets, or auxiliary generative models. Due to these assumptions, such methods fail to generalise beyond a few change types, limiting their real-world usage, especially in rare or complex scenarios. To address this, we propose MaSoN (Make Some Noise), an end-to-end UCD framework that synthesises diverse changes directly in the latent feature space during training. It generates changes that are dynamically estimated using feature statistics of target data, enabling diverse yet data-driven variation aligned with the target domain. It also easily extends to new modalities, such as SAR. MaSoN generalises strongly across diverse change types and achieves state-of-the-art performance on five benchmarks, improving the average F1 score by 14.1 percentage points. Project page: https://blaz-r.github.io/mason_ucd",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Satellite-Based Detection of Looted Archaeological Sites Using Machine Learning",
+    "url": "http://arxiv.org/abs/2602.19608v1",
+    "authors": [
+      "Girmaw Abebe Tadesse",
+      "Titien Bartette",
+      "Andrew Hassanali",
+      "Allen Kim",
+      "Jonathan Chemla",
+      "Andrew Zolli",
+      "Yves Ubelmann",
+      "Caleb Robinson",
+      "Inbal Becker-Reshef",
+      "Juan Lavista Ferres"
+    ],
+    "published": "2026-02-23",
+    "abstract": "Looting at archaeological sites poses a severe risk to cultural heritage, yet monitoring thousands of remote locations remains operationally difficult. We present a scalable and satellite-based pipeline to detect looted archaeological sites, using PlanetScope monthly mosaics (4.7m/pixel) and a curated dataset of 1,943 archaeological sites in Afghanistan (898 looted, 1,045 preserved) with multi-year imagery (2016--2023) and site-footprint masks. We compare (i) end-to-end CNN classifiers trained on raw RGB patches and (ii) traditional machine learning (ML) trained on handcrafted spectral/texture features and embeddings from recent remote-sensing foundation models. Results indicate that ImageNet-pretrained CNNs combined with spatial masking reach an F1 score of 0.926, clearly surpassing the strongest traditional ML setup, which attains an F1 score of 0.710 using SatCLIP-V+RF+Mean, i.e., location and vision embeddings fed into a Random Forest with mean-based temporal aggregation. Ablation studies demonstrate that ImageNet pretraining (even in the presence of domain shift) and spatial masking enhance performance. In contrast, geospatial foundation model embeddings perform competitively with handcrafted features, suggesting that looting signatures are extremely localized. The repository is available at https://github.com/microsoft/looted_site_detection.",
+    "categories": [
+      "foundation_model",
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": []
+  },
+  {
+    "title": "A high-resolution nationwide urban village mapping product for 342 Chinese cities based on foundation models",
+    "url": "http://arxiv.org/abs/2602.18765v1",
+    "authors": [
+      "Lubin Bai",
+      "Sheng Xiao",
+      "Ziyu Yin",
+      "Haoyu Wang",
+      "Siyang Wu",
+      "Xiuyuan Zhang",
+      "Shihong Du"
+    ],
+    "published": "2026-02-21",
+    "abstract": "Urban Villages (UVs) represent a distinctive form of high-density informal settlement embedded within China's rapidly urbanizing cities. Accurate identification of UVs is critical for urban governance, renewal, and sustainable development. But due to the pronounced heterogeneity and diversity of UVs across China's vast territory, a consistent and reliable nationwide dataset has been lacking. In this work, we present GeoLink-UV, a high-resolution nationwide UV mapping product that clearly delineates the locations and boundaries of UVs in 342 Chinese cities. The dataset is derived from multisource geospatial data, including optical remote sensing images and geo-vector data, and is generated through a foundation model-driven mapping framework designed to address the generalization issues and improve the product quality. A geographically stratified accuracy assessment based on independent samples from 28 cities confirms the reliability and scientific credibility of the nationwide dataset across heterogeneous urban contexts. Based on this nationwide product, we reveal substantial interregional disparities in UV prevalence and spatial configuration. On average, UV areas account for 8 % of built-up land, with marked clustering in central and south China. Building-level analysis further confirms a consistent low-rise, high-density development pattern of UVs nationwide, while highlighting regionally differentiated morphological characteristics. The GeoLink-UV dataset provides an open and systematically validated geospatial foundation for urban studies, informal settlement monitoring, and evidence-based urban renewal planning, and contributes directly to large-scale assessments aligned with Sustainable Development Goal 11. The GeoLink-UV dataset introduced in this article is freely available at https://doi.org/10.5281/zenodo.18688062.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "FUSAR-GPT : A Spatiotemporal Feature-Embedded and Two-Stage Decoupled Visual Language Model for SAR Imagery",
+    "url": "http://arxiv.org/abs/2602.19190v2",
+    "authors": [
+      "Xiaokun Zhang",
+      "Yi Yang",
+      "Ziqi Ye",
+      "Baiyun",
+      "Xiaorong Guo",
+      "Qingchen Fang",
+      "Ruyi Zhang",
+      "Xinpeng Zhou",
+      "Haipeng Wang"
+    ],
+    "published": "2026-02-22",
+    "abstract": "Research on the intelligent interpretation of all-weather, all-time Synthetic Aperture Radar (SAR) is crucial for advancing remote sensing applications. In recent years, although Visual Language Models (VLMs) have demonstrated strong open-world understanding capabilities on RGB images, their performance is severely limited when directly applied to the SAR field due to the complexity of the imaging mechanism, sensitivity to scattering features, and the scarcity of high-quality text corpora. To systematically address this issue, we constructed the inaugural SAR Image-Text-AlphaEarth feature triplet dataset and developed FUSAR-GPT, a VLM specifically for SAR. FUSAR-GPT innovatively introduces a geospatial baseline model as a 'world knowledge' prior and embeds multi-source remote-sensing temporal features into the model's visual backbone via 'spatiotemporal anchors', enabling dynamic compensation for the sparse representation of targets in SAR images. Furthermore, we designed a two-stage SFT strategy to decouple the knowledge injection and task execution of large models. The spatiotemporal feature embedding and the two-stage decoupling paradigm enable FUSAR-GPT to achieve state-of-the-art performance across several typical remote sensing visual-language benchmark tests, significantly outperforming mainstream baseline models by over 12%.",
+    "categories": [
+      "geo_reasoning",
+      "foundation_model"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "No Labels, No Look-Ahead: Unsupervised Online Video Stabilization with Classical Priors",
+    "url": "http://arxiv.org/abs/2602.23141v1",
+    "authors": [
+      "Tao Liu",
+      "Gang Wan",
+      "Kan Ren",
+      "Shibo Wen"
+    ],
+    "published": "2026-02-26",
+    "abstract": "We propose a new unsupervised framework for online video stabilization. Unlike methods based on deep learning that require paired stable and unstable datasets, our approach instantiates the classical stabilization pipeline with three stages and incorporates a multithreaded buffering mechanism. This design addresses three longstanding challenges in end-to-end learning: limited data, poor controllability, and inefficiency on hardware with constrained resources. Existing benchmarks focus mainly on handheld videos with a forward view in visible light, which restricts the applicability of stabilization to domains such as UAV nighttime remote sensing. To fill this gap, we introduce a new multimodal UAV aerial video dataset (UAV-Test). Experiments show that our method consistently outperforms state-of-the-art online stabilizers in both quantitative metrics and visual quality, while achieving performance comparable to offline methods.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "VINA: Variational Invertible Neural Architectures",
+    "url": "http://arxiv.org/abs/2602.20480v1",
+    "authors": [
+      "Shubhanshu Shekhar",
+      "Mohammad Javad Khojasteh",
+      "Ananya Acharya",
+      "Tony Tohme",
+      "Kamal Youcef-Toumi"
+    ],
+    "published": "2026-02-24",
+    "abstract": "The distinctive architectural features of normalizing flows (NFs), notably bijectivity and tractable Jacobians, make them well-suited for generative modeling. Invertible neural networks (INNs) build on these principles to address supervised inverse problems, enabling direct modeling of both forward and inverse mappings. In this paper, we revisit these architectures from both theoretical and practical perspectives and address a key gap in the literature: the lack of theoretical guarantees on approximation quality under realistic assumptions, whether for posterior inference in INNs or for generative modeling with NFs.\n  We introduce a unified framework for INNs and NFs based on variational unsupervised loss functions, inspired by analogous formulations in related areas such as generative adversarial networks (GANs) and the Precision-Recall divergence for training normalizing flows. Within this framework, we derive theoretical performance guarantees, quantifying posterior accuracy for INNs and distributional accuracy for NFs, under assumptions that are weaker and more practically realistic than those used in prior work.\n  Building on these theoretical results, we conduct extensive case studies to distill general design principles and practical guidelines. We conclude by demonstrating the effectiveness of our approach on a realistic ocean-acoustic inversion problem.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "GAN"
+    ],
+    "applications": []
+  },
+  {
+    "title": "City Editing: Hierarchical Agentic Execution for Dependency-Aware Urban Geospatial Modification",
+    "url": "http://arxiv.org/abs/2602.19326v2",
+    "authors": [
+      "Rui Liu",
+      "Steven Jige Quan",
+      "Zhong-Ren Peng",
+      "Zijun Yao",
+      "Han Wang",
+      "Zhengzhang Chen",
+      "Kunpeng Liu",
+      "Yanjie Fu",
+      "Dongjie Wang"
+    ],
+    "published": "2026-02-22",
+    "abstract": "As cities evolve over time, challenges such as traffic congestion and functional imbalance increasingly necessitate urban renewal through efficient modification of existing plans, rather than complete re-planning. In practice, even minor urban changes require substantial manual effort to redraw geospatial layouts, slowing the iterative planning and decision-making procedure. Motivated by recent advances in agentic systems and multimodal reasoning, we formulate urban renewal as a machine-executable task that iteratively modifies existing urban plans represented in structured geospatial formats. More specifically, we represent urban layouts using GeoJSON and decompose natural-language editing instructions into hierarchical geometric intents spanning polygon-, line-, and point-level operations. To coordinate interdependent edits across spatial elements and abstraction levels, we propose a hierarchical agentic framework that jointly performs multi-level planning and execution with explicit propagation of intermediate spatial constraints. We further introduce an iterative execution-validation mechanism that mitigates error accumulation and enforces global spatial consistency during multi-step editing. Extensive experiments across diverse urban editing scenarios demonstrate significant improvements in efficiency, robustness, correctness, and spatial validity over existing baselines.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
     "applications": []
   }
 ]
