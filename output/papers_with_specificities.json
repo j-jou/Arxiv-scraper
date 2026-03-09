@@ -23700,7 +23700,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Make Some Noise: Unsupervised Remote Sensing Change Detection Using Latent Space Perturbations",
@@ -23719,7 +23720,8 @@
     "architectures": [],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Satellite-Based Detection of Looted Archaeological Sites Using Machine Learning",
@@ -23745,7 +23747,8 @@
     "architectures": [
       "CNN"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "A high-resolution nationwide urban village mapping product for 342 Chinese cities based on foundation models",
@@ -23765,7 +23768,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "FUSAR-GPT : A Spatiotemporal Feature-Embedded and Two-Stage Decoupled Visual Language Model for SAR Imagery",
@@ -23790,7 +23794,8 @@
     "architectures": [
       "LVM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "No Labels, No Look-Ahead: Unsupervised Online Video Stabilization with Classical Priors",
@@ -23807,7 +23812,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "VINA: Variational Invertible Neural Architectures",
@@ -23827,7 +23833,8 @@
     "architectures": [
       "GAN"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "City Editing: Hierarchical Agentic Execution for Dependency-Aware Urban Geospatial Modification",
@@ -23849,6 +23856,403 @@
       "geo_reasoning"
     ],
     "architectures": [],
+    "applications": [],
+    "is_recent": false
+  },
+  {
+    "title": "Demystifying KAN for Vision Tasks: The RepKAN Approach",
+    "url": "http://arxiv.org/abs/2603.06002v1",
+    "authors": [
+      "Minjong Cheon"
+    ],
+    "published": "2026-03-06",
+    "abstract": "Remote sensing image classification is essential for Earth observation, yet standard CNNs and Transformers often function as uninterpretable black-boxes. We propose RepKAN, a novel architecture that integrates the structural efficiency of CNNs with the non-linear representational power of KANs. By utilizing a dual-path design -- Spatial Linear and Spectral Non-linear -- RepKAN enables the autonomous discovery of class-specific spectral fingerprints and physical interaction manifolds. Experimental results on the EuroSAT and NWPU-RESISC45 datasets demonstrate that RepKAN provides explicit physically interpretable reasoning while outperforming state-of-the-art models. These findings indicate that RepKAN holds significant potential to serve as the backbone for future interpretable visual foundation models.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Utonia: Toward One Encoder for All Point Clouds",
+    "url": "http://arxiv.org/abs/2603.03283v1",
+    "authors": [
+      "Yujia Zhang",
+      "Xiaoyang Wu",
+      "Yunhan Yang",
+      "Xianzhe Fan",
+      "Han Li",
+      "Yuechen Zhang",
+      "Zehao Huang",
+      "Naiyan Wang",
+      "Hengshuang Zhao"
+    ],
+    "published": "2026-03-03",
+    "abstract": "We dream of a future where point clouds from all domains can come together to shape a single model that benefits them all. Toward this goal, we present Utonia, a first step toward training a single self-supervised point transformer encoder across diverse domains, spanning remote sensing, outdoor LiDAR, indoor RGB-D sequences, object-centric CAD models, and point clouds lifted from RGB-only videos. Despite their distinct sensing geometries, densities, and priors, Utonia learns a consistent representation space that transfers across domains. This unification improves perception capability while revealing intriguing emergent behaviors that arise only when domains are trained jointly. Beyond perception, we observe that Utonia representations can also benefit embodied and multimodal reasoning: conditioning vision-language-action policies on Utonia features improves robotic manipulation, and integrating them into vision-language models yields gains on spatial reasoning. We hope Utonia can serve as a step toward foundation models for sparse 3D data, and support downstream applications in AR/VR, robotics, and autonomous driving.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer",
+      "LVM"
+    ],
     "applications": []
+  },
+  {
+    "title": "Meta-Learning Hyperparameters for Parameter Efficient Fine-Tuning",
+    "url": "http://arxiv.org/abs/2603.01759v1",
+    "authors": [
+      "Zichen Tian",
+      "Yaoyao Liu",
+      "Qianru Sun"
+    ],
+    "published": "2026-03-02",
+    "abstract": "Training large foundation models from scratch for domain-specific applications is almost impossible due to data limits and long-tailed distributions -- taking remote sensing (RS) as an example. Fine-tuning natural image pre-trained models on RS images is a straightforward solution. To reduce computational costs and improve performance on tail classes, existing methods apply parameter-efficient fine-tuning (PEFT) techniques, such as LoRA and AdaptFormer. However, we observe that fixed hyperparameters -- such as intra-layer positions, layer depth, and scaling factors, can considerably hinder PEFT performance, as fine-tuning on RS images proves highly sensitive to these settings. To address this, we propose MetaPEFT, a method incorporating adaptive scalers that dynamically adjust module influence during fine-tuning. MetaPEFT dynamically adjusts three key factors of PEFT on RS images: module insertion, layer selection, and module-wise learning rates, which collectively control the influence of PEFT modules across the network. We conduct extensive experiments on three transfer-learning scenarios and five datasets in both RS and natural image domains. The results show that MetaPEFT achieves state-of-the-art performance in cross-spectral adaptation, requiring only a small amount of trainable parameters and improving tail-class accuracy significantly.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Tri-path DINO: Feature Complementary Learning for Remote Sensing Multi-Class Change Detection",
+    "url": "http://arxiv.org/abs/2603.01498v1",
+    "authors": [
+      "Kai Zheng",
+      "Hang-Cheng Dong",
+      "Zhenkai Wu",
+      "Fupeng Wei",
+      "Wei Zhang"
+    ],
+    "published": "2026-03-02",
+    "abstract": "In remote sensing imagery, multi class change detection (MCD) is crucial for fine grained monitoring, yet it has long been constrained by complex scene variations and the scarcity of detailed annotations. To address this, we propose the Tripath DINO architecture, which adopts a three path complementary feature learning strategy to facilitate the rapid adaptation of pre trained foundation models to complex vertical domains. Specifically, we employ the DINOv3 pre trained model as the backbone feature extraction network to learn coarse grained features. An auxiliary path also adopts a siamese structure, progressively aggregating intermediate features from the siamese encoder to enhance the learning of fine grained features. Finally, a multi scale attention mechanism is introduced to augment the decoder network, where parallel convolutions adaptively capture and enhance contextual information under different receptive fields. The proposed method achieves optimal performance on the MCD task on both the Gaza facility damage assessment dataset (Gaza change) and the classic SECOND dataset. GradCAM visualizations further confirm that the main and auxiliary paths naturally focus on coarse grained semantic changes and fine grained structural details, respectively. This synergistic complementarity provides a robust and interpretable solution for advanced change detection tasks, offering a basis for rapid and accurate damage assessment.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Foundation Models in Remote Sensing: Evolving from Unimodality to Multimodality",
+    "url": "http://arxiv.org/abs/2603.00988v1",
+    "authors": [
+      "Danfeng Hong",
+      "Chenyu Li",
+      "Xuyang Li",
+      "Gustau Camps-Valls",
+      "Jocelyn Chanussot"
+    ],
+    "published": "2026-03-01",
+    "abstract": "Remote sensing (RS) techniques are increasingly crucial for deepening our understanding of the planet. As the volume and diversity of RS data continue to grow exponentially, there is an urgent need for advanced data modeling and understanding capabilities to manage and interpret these vast datasets effectively. Foundation models present significant new growth opportunities and immense potential to revolutionize the RS field. In this paper, we conduct a comprehensive technical survey on foundation models in RS, offering a brand-new perspective by exploring their evolution from unimodality to multimodality. We hope this work serves as a valuable entry point for researchers interested in both foundation models and RS and helps them launch new projects or explore new research topics in this rapidly evolving area. This survey addresses the following three key questions: What are foundation models in RS? Why are foundation models needed in RS? How can we effectively guide junior researchers in gaining a comprehensive and practical understanding of foundation models in RS applications? More specifically, we begin by outlining the background and motivation, emphasizing the importance of foundation models in RS. We then review existing foundation models in RS, systematically categorizing them into unimodal and multimodal approaches. Additionally, we provide a tutorial-like section to guide researchers, especially beginners, on how to train foundation models in RS and apply them to real-world tasks. The survey aims to equip researchers in RS with a deeper and more efficient understanding of foundation models, enabling them to get started easily and effectively apply these models across various RS applications.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "From Pixels to Patches: Pooling Strategies for Earth Embeddings",
+    "url": "http://arxiv.org/abs/2603.02080v1",
+    "authors": [
+      "Isaac Corley",
+      "Caleb Robinson",
+      "Inbal Becker-Reshef",
+      "Juan M. Lavista Ferres"
+    ],
+    "published": "2026-03-02",
+    "abstract": "As geospatial foundation models shift from patch-level to pixel-level embeddings, practitioners must aggregate thousands of pixel vectors into patch representations that preserve class-discriminative signal while matching downstream label resolution. The default choice, mean pooling, discards within-patch variability and can drop accuracy by more than 10% under spatial shift. To evaluate this effect, we introduce EuroSAT-Embed: 81,000 embedding GeoTIFFs derived from three foundation models: AlphaEarth, OlmoEarth, and Tessera. We benchmark 11 training-free and 2 parametric pooling methods under both random and geographically disjoint test splits. Our results show that richer pooling schemes reduce the geographic generalization gap by up to 40% relative to mean pooling and increases accuracy by up to 5% on spatial splits. We recommend Generalized Mean Pooling (GeM) as a drop-in replacement for mean pooling: it improves accuracy without increasing embedding dimensionality. For maximum accuracy, Stats pooling (concatenation of min/max/mean/std pooling) performs best at 4x the embedding size. We further find that pooling effectiveness varies across embedding sources and that higher-dimensional embeddings benefit most from distributional statistics.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "A Benchmark Study of Neural Network Compression Methods for Hyperspectral Image Classification",
+    "url": "http://arxiv.org/abs/2603.04720v1",
+    "authors": [
+      "Sai Shi"
+    ],
+    "published": "2026-03-05",
+    "abstract": "Deep neural networks have achieved strong performance in image classification tasks due to their ability to learn complex patterns from high-dimensional data. However, their large computational and memory requirements often limit deployment on resource-constrained platforms such as remote sensing devices and edge systems. Network compression techniques have therefore been proposed to reduce model size and computational cost while maintaining predictive performance. In this study, we conduct a systematic evaluation of neural network compression methods for a remote sensing application, namely hyperspectral land cover classification. Specifically, we examine three widely used compression strategies for convolutional neural networks: pruning, quantization, and knowledge distillation. Experiments are conducted on two benchmark hyperspectral datasets, considering classification accuracy, memory consumption, and inference efficiency. Our results demonstrate that compressed models can significantly reduce model size and computational cost while maintaining competitive classification performance. These findings provide insights into the trade-offs between compression ratio, efficiency, and accuracy, and highlight the potential of compression techniques for enabling efficient deep learning deployment in remote sensing applications.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "Deep Neural Network"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Fusion and Grouping Strategies in Deep Learning for Local Climate Zone Classification of Multimodal Remote Sensing Data",
+    "url": "http://arxiv.org/abs/2603.04562v1",
+    "authors": [
+      "Ancymol Thomas",
+      "Jaya Sreevalsan-Nair"
+    ],
+    "published": "2026-03-04",
+    "abstract": "Local Climate Zones (LCZs) give a zoning map to study urban structures and land use and analyze the impact of urbanization on local climate. Multimodal remote sensing enables LCZ classification, for which data fusion is significant for improving accuracy owing to the data complexity. However, there is a gap in a comprehensive analysis of the fusion mechanisms used in their deep learning (DL) classifier architectures. This study analyzes different fusion strategies in the multi-class LCZ classification models for multimodal data and grouping strategies based on inherent data characteristics. The different models involving Convolutional Neural Networks (CNNs) include: (i) baseline hybrid fusion (FM1), (ii) with self- and cross-attention mechanisms (FM2), (iii) with the multi-scale Gaussian filtered images (FM3), and (iv) weighted decision-level fusion (FM4). Ablation experiments are conducted to study the pixel-, feature-, and decision-level fusion effects in the model performance. Grouping strategies include band grouping (BG) within the data modalities and label merging (LM) in the ground truth. Our analysis is exclusively done on the So2Sat LCZ42 dataset, which consists of Synthetic Aperture Radar (SAR) and Multispectral Imaging (MSI) image pairs. Our results show that FM1 consistently outperforms simple fusion methods. FM1 with BG and LM is found to be the most effective approach among all fusion strategies, giving an overall accuracy of 76.6\\%. Importantly, our study highlights the effect of these strategies in improving prediction accuracy for the underrepresented classes. Our code and processed datasets are available at https://github.com/GVCL/LCZC-MultiModalHybridFusion",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": [
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "GRAD-Former: Gated Robust Attention-based Differential Transformer for Change Detection",
+    "url": "http://arxiv.org/abs/2603.01161v1",
+    "authors": [
+      "Durgesh Ameta",
+      "Ujjwal Mishra",
+      "Praful Hambarde",
+      "Amit Shukla"
+    ],
+    "published": "2026-03-01",
+    "abstract": "Change detection (CD) in remote sensing aims to identify semantic differences between satellite images captured at different times. While deep learning has significantly advanced this field, existing approaches based on convolutional neural networks (CNNs), transformers and Selective State Space Models (SSMs) still struggle to precisely delineate change regions. In particular, traditional transformer-based methods suffer from quadratic computational complexity when applied to very high-resolution (VHR) satellite images and often perform poorly with limited training data, leading to under-utilization of the rich spatial information available in VHR imagery. We present GRAD-Former, a novel framework that enhances contextual understanding while maintaining efficiency through reduced model size. The proposed framework consists of a novel encoder with Adaptive Feature Relevance and Refinement (AFRAR) module, fusion and decoder blocks. AFRAR integrates global-local contextual awareness through two proposed components: the Selective Embedding Amplification (SEA) module and the Global-Local Feature Refinement (GLFR) module. SEA and GLFR leverage gating mechanisms and differential attention, respectively, which generates multiple softmax heaps to capture important features while minimizing the captured irreverent features. Multiple experiments across three challenging CD datasets (LEVIR-CD, CDD, DSIFN-CD) demonstrate GRAD-Former's superior performance compared to existing approaches. Notably, GRAD-Former outperforms the current state-of-the-art models across all the metrics and all the datasets while using fewer parameters. Our framework establishes a new benchmark for remote sensing change detection performance. Our code will be released at: https://github.com/Ujjwal238/GRAD-Former",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "UK White Paper on Magnetohydrodynamic (MHD) seismology of solar and heliospheric plasmas",
+    "url": "http://arxiv.org/abs/2603.05571v1",
+    "authors": [
+      "Valery M. Nakariakov",
+      "David B. Jess",
+      "Andrew N. Wright",
+      "Timothy K. Yeoman",
+      "Thomas Elsden",
+      "James A. McLaughlin",
+      "Dmitrii Y. Kolotkov",
+      "Viktor Fedun",
+      "Robertus Erd\u00e9lyi"
+    ],
+    "published": "2026-03-05",
+    "abstract": "Magnetohydrodynamic (MHD) seismology uses naturally occurring MHD waves to infer plasma properties that are otherwise hard to measure, especially magnetic field strength and topology, electric currents, fine structuring, transport coefficients, and energy release. Across the solar atmosphere, heliosphere, and planetary magnetospheres, multi-wavelength remote sensing and in-situ observations of waves provide powerful diagnostics that can address major open problems including chromospheric and coronal heating, flare and eruption physics, solar wind acceleration, and space weather impacts. This White Paper sets out the case for a coordinated UK programme that couples high precision observations with advanced theory and numerical modelling, modern time-frequency methods for non-stationary signals, and machine learning approaches for detection, classification, and parameter inference from rapidly growing multi-instrument datasets. It outlines priority needs such as robust mode identification, reliable density and temperature constraints, multi line-of-sight capability, and models that include partial ionisation and non-adiabatic/collisionless effects, alongside enabling instrumentation such as next-generation spectropolarimetry, integral field units, and radio facilities including the Square Kilometre Array. The paper highlights the UK's strong track record and infrastructure, and argues that sustained investment will amplify UK scientific return through international partnerships and mission involvement, delivering transformative plasma diagnostics and downstream benefits for space weather forecasting and related applications.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Disentangling regional impacts of joint teleconnections using causal representation learning",
+    "url": "http://arxiv.org/abs/2603.02879v1",
+    "authors": [
+      "Fiona R. Spuler",
+      "Marlene Kretschmer",
+      "Magdalena Alonso Balmaseda",
+      "Masilin Gudoshava",
+      "Theodore G. Shepherd"
+    ],
+    "published": "2026-03-03",
+    "abstract": "Understanding teleconnections of large-scale modes of climate variability is relevant for seasonal predictability and support a dynamical understanding of climatic changes. While numerical model experiments are the most common approach for investigating counterfactual climate responses, their conclusions are subject to model biases. Data-driven approaches offer a complementary perspective. Deep learning can extract reduced-dimensional patterns but usually lacks causal interpretability, while causal methods can disentangle signals in the presence of confounding yet are typically based on simple indices. Treating dimensionality reduction and causal inference separately thereby risks losing the teleconnection signal of interest. This paper introduces DAG-VAE, a causal representation learning approach that embeds a physics-informed directed acyclic graph in the latent space of a variational autoencoder. Combining deep learning with causal inference, the method jointly learns nonlinear reduced representations of large-scale modes of variability and their causal interactions. We apply DAG-VAE to disentangle the influences of the Pacific and Indian Oceans on the short rains over the Greater Horn of Africa. Trained on seasonal hindcasts, the method identifies dynamically meaningful representations and recovers spatial response patterns consistent with SST-replacement experiments. Trained on reanalysis data, DAG-VAE identifies a different response pattern to direct influence of the tropical Pacific, highlighting potential model biases and the value of DAG-VAE as a complementary, data-driven approach for estimating spatial causal response patterns from observations. Finally, we demonstrate the ability of the method to generate data-driven counterfactuals of extreme short rain seasons, with potential applications for forecast-based early action and scenario planning.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Autoencoder",
+      "PINN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Ensemble Graph Neural Networks for Probabilistic Sea Surface Temperature Forecasting via Input Perturbations",
+    "url": "http://arxiv.org/abs/2603.06153v1",
+    "authors": [
+      "Alejandro J. Gonz\u00e1lez-Santana",
+      "Giovanny A. Cuervo-Londo\u00f1o",
+      "Javier S\u00e1nchez"
+    ],
+    "published": "2026-03-06",
+    "abstract": "Accurate regional ocean forecasting requires models that are both computationally efficient and capable of representing predictive uncertainty. This work investigates ensemble learning strategies for sea surface temperature (SST) forecasting using Graph Neural Networks (GNNs), with a focus on how input perturbation design affects forecast skill and uncertainty representation. We adapt a GNN architecture to the Canary Islands region in the North Atlantic and implement a homogeneous ensemble approach inspired by bagging, where diversity is introduced during inference by perturbing initial ocean states rather than retraining multiple models. Several noise-based ensemble generation strategies are evaluated, including Gaussian noise, Perlin noise, and fractal Perlin noise, with systematic variation of noise intensity and spatial structure. Ensemble forecasts are assessed over a 15-day horizon using deterministic metrics (RMSE and bias) and probabilistic metrics, including the Continuous Ranked Probability Score (CRPS) and the Spread-skill ratio. Results show that, while deterministic skill remains comparable to the single-model forecast, the type and structure of input perturbations strongly influence uncertainty representation, particularly at longer lead times. Ensembles generated with spatially coherent perturbations, such as low-resolution Perlin noise, achieve better calibration and lower CRPS than purely random Gaussian perturbations. These findings highlight the critical role of noise structure and scale in ensemble GNN design and demonstrate that carefully constructed input perturbations can yield well-calibrated probabilistic forecasts without additional training cost, supporting the feasibility of ensemble GNNs for operational regional ocean prediction.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "GNN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Machine Learning Based Mesh Movement for Non-Hydrostatic Tsunami Simulation",
+    "url": "http://arxiv.org/abs/2603.06152v1",
+    "authors": [
+      "Yezhang Li",
+      "Stephan C. Kramer",
+      "Matthew D. Piggott"
+    ],
+    "published": "2026-03-06",
+    "abstract": "This study investigates the use of machine learning based mesh adaptivity, specifically mesh movement methods (UM2N), with depth integrated non-hydrostatic shallow water models. Motivation for this comes from the need for models which balance efficiency and accuracy for use in probabilistic coastal hazard assessment. Implementations are built on the discontinuous Galerkin finite-element (DG-FE) based software, Thetis, which leverages the partial differential equation (PDE) framework Firedrake for automated code generation. Verification on benchmark test cases and validation against laboratory measurements of coastal hazards, focusing on tsunami propagation, run-up, and inundation is performed. In these tests, the UM2N-driven meshes help resolve key non-hydrostatic dynamics and yield numerical solutions in close agreement with reference computations and measured data. Numerical results indicate that the UM2N surrogate based approach significantly accelerates conventional mesh movement techniques and has high robustness over long integration periods and under strongly nonlinear wave conditions.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Towards Efficient and Stable Ocean State Forecasting: A Continuous-Time Koopman Approach",
+    "url": "http://arxiv.org/abs/2603.05560v1",
+    "authors": [
+      "Rares Grozavescu",
+      "Pengyu Zhang",
+      "Mark Girolami",
+      "Etienne Meunier"
+    ],
+    "published": "2026-03-05",
+    "abstract": "We investigate the Continuous-Time Koopman Autoencoder (CT-KAE) as a lightweight surrogate model for long-horizon ocean state forecasting in a two-layer quasi-geostrophic (QG) system. By projecting nonlinear dynamics into a latent space governed by a linear ordinary differential equation, the model enforces structured and interpretable temporal evolution while enabling temporally resolution-invariant forecasting via a matrix exponential formulation. Across 2083-day rollouts, CT-KAE exhibits bounded error growth and stable large-scale statistics, in contrast to autoregressive Transformer baselines which exhibit gradual error amplification and energy drift over long rollouts. While fine-scale turbulent structures are partially dissipated, bulk energy spectra, enstrophy evolution, and autocorrelation structure remain consistent over long horizons. The model achieves orders-of-magnitude faster inference compared to the numerical solver, suggesting that continuous-time Koopman surrogates offer a promising backbone for efficient and stable hybrid physical-machine learning climate models.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Transformer",
+      "Autoencoder"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Revealing the Topology invariance of vectorial vortex beam in complex media",
+    "url": "http://arxiv.org/abs/2603.04726v1",
+    "authors": [
+      "Shuailing Wang",
+      "Jingping Xu",
+      "Yaping Yang"
+    ],
+    "published": "2026-03-05",
+    "abstract": "Orbital angular momentum (OAM), a topological degree of freedom of light, is theoretically invariant under continuous deformations; yet, its physical observability degrades precipitously in complex media, creating a fundamental \"topology-observability gap.\" Here, we propose a novel paradigm for topological measurement based on the non-separable coupling between polarization and topological features in vectorial vortex beam. By constructing a topological non-separability measure derived from global Stokes fields, and integrating it with a physics-guided machine learning calibration framework that combines Bayesian Gaussian process regression with XGBoost-driven adaptive model selection, we achieve high-fidelity identification of topological features up to 200. Crucially, this robustness persists even when beam intensity and phase structures are completely distorted by extreme complex media, including strong atmospheric turbulence, oceanic turbulence, and high-temperature jet exhausts. This approach overcomes the dual bottlenecks of limited accessible OAM modes and susceptibility to perturbations that constrain conventional methods. Our work not only bridges the fundamental divide between topological theory and physical observability, but also establishes a robust framework for the reliable deployment of high-dimensional OAM in real-world complex environments, promising exciting advancements for wireless optical communications, remote topological sensing, and classical analogs of quantum information protocols.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Regression"
+    ]
+  },
+  {
+    "title": "REDNET-ML: A Multi-Sensor Machine Learning Pipeline for Harmful Algal Bloom Risk Detection Along the Omani Coast",
+    "url": "http://arxiv.org/abs/2603.04181v1",
+    "authors": [
+      "Ameer Alhashemi"
+    ],
+    "published": "2026-03-04",
+    "abstract": "Harmful algal blooms (HABs) can threaten coastal infrastructure, fisheries, and desalination dependent water supplies. This project (REDNET-ML) develops a reproducible machine learning pipeline for HAB risk detection along the Omani coastline using multi sensor satellite data and non leaky evaluation. The system fuses (i) Sentinel-2 optical chips (high spatial resolution) processed into spectral indices and texture signals, (ii) MODIS Level-3 ocean color and thermal indicators, and (iii) learned image evidence from object detectors trained to highlight bloom like patterns. A compact decision fusion model (CatBoost) integrates these signals into a calibrated probability of HAB risk, which is then consumed by an end to end inference workflow and a risk field viewer that supports operational exploration by site (plant) and time. The report documents the motivation, related work, methodological choices (including label mining and strict split strategies), implementation details, and a critical evaluation using AUROC/AUPRC, confusion matrices, calibration curves, and drift analyses that quantify distribution shift in recent years.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Towards Explainable Deep Learning for Ship Trajectory Prediction in Inland Waterways",
+    "url": "http://arxiv.org/abs/2603.04472v1",
+    "authors": [
+      "Tom Legel",
+      "Dirk S\u00f6ffker",
+      "Roland Sch\u00e4tzle",
+      "Kathrin Donandt"
+    ],
+    "published": "2026-03-04",
+    "abstract": "Accurate predictions of ship trajectories in crowded environments are essential to ensure safety in inland waterways traffic. Recent advances in deep learning promise increased accuracy even for complex scenarios. While the challenge of ship-to-ship awareness is being addressed with growing success, the explainability of these models is often overlooked, potentially obscuring an inaccurate logic and undermining the confidence in their reliability. This study examines an LSTM-based vessel trajectory prediction model by incorporating trained ship domain parameters that provide insight into the attention-based fusion of the interacting vessels' hidden states. This approach has previously been explored in the field of maritime shipping, yet the variety and complexity of encounters in inland waterways allow for a more profound analysis of the model's interpretability. The prediction performance of the proposed model variants are evaluated using standard displacement error statistics. Additionally, the plausibility of the generated ship domain values is analyzed. With an final displacement error of around 40 meters in a 5-minute prediction horizon, the model performs comparably to similar studies. Though the ship-to-ship attention architecture enhances prediction accuracy, the weights assigned to vessels in encounters using the learnt ship domain values deviate from the expectation. The observed accuracy improvements are thus not entirely driven by a causal relationship between a predicted trajectory and the trajectories of nearby ships. This finding underscores the model's explanatory capabilities through its intrinsically interpretable design. Future work will focus on utilizing the architecture for counterfactual analysis and on the incorporation of more sophisticated attention mechanisms.",
+    "categories": [
+      "ship_trajectories"
+    ],
+    "architectures": [
+      "LSTM"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "ShipTraj-R1: Reinforcing Ship Trajectory Prediction in Large Language Models via Group Relative Policy Optimization",
+    "url": "http://arxiv.org/abs/2603.02939v1",
+    "authors": [
+      "Yang Zhan",
+      "Yunhao Li",
+      "Zhang Chao",
+      "Yuxu Lu",
+      "Yan Li"
+    ],
+    "published": "2026-03-03",
+    "abstract": "Recent advancements in reinforcement fine-tuning have significantly improved the reasoning ability of large language models (LLMs). In particular, methods such as group relative policy optimization (GRPO) have demonstrated strong capabilities across various fields. However, applying LLMs to ship trajectory prediction remains largely unexplored. In this paper, we propose ShipTraj-R1, a novel LLM-based framework that reformulates ship trajectory prediction as a text-to-text generation problem. (1) We design a dynamic prompt containing trajectory information about conflicting ships to guide the model to achieve adaptive chain-of-thought (CoT) reasoning. (2) We introduce a comprehensive rule-based reward mechanism to incentivize the reasoning format and prediction accuracy of the model. (3) Our ShipTraj-R1 is reinforced through the GRPO mechanism guided by domain-specific prompts and rewards, and utilizes the Qwen3 as the model backbone. Extensive experimental results on two complex and real-world maritime datasets show that the proposed ShipTraj-R1 achieves the least error compared with state-of-the-art deep learning and LLM-based baselines.",
+    "categories": [
+      "ship_trajectories"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "A Dual-Helix Governance Approach Towards Reliable Agentic AI for WebGIS Development",
+    "url": "http://arxiv.org/abs/2603.04390v1",
+    "authors": [
+      "Boyuan",
+      "Guan",
+      "Wencong Cui",
+      "Levente Juhasz"
+    ],
+    "published": "2026-03-04",
+    "abstract": "WebGIS development requires rigor, yet agentic AI frequently fails due to five large language model (LLM) limitations: context constraints, cross-session forgetting, stochasticity, instruction failure, and adaptation rigidity. We propose a dual-helix governance framework reframing these challenges as structural governance problems that model capacity alone cannot resolve. We implement the framework as a 3-track architecture (Knowledge, Behavior, Skills) that uses a knowledge graph substrate to stabilize execution by externalizing domain facts and enforcing executable protocols, complemented by a self-learning cycle for autonomous knowledge growth. Applying this to the FutureShorelines WebGIS tool, a governed agent refactored a 2,265-line monolithic codebase into modular ES6 components. Results demonstrated a 51\\% reduction in cyclomatic complexity and a 7-point increase in maintainability index. A comparative experiment against a zero-shot LLM confirms that externalized governance, not just model capability, drives operational reliability in geospatial engineering. This approach is implemented in the open-source AgentLoom governance toolkit.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Spatiotemporal Heterogeneity of AI-Driven Traffic Flow Patterns and Land Use Interaction: A GeoAI-Based Analysis of Multimodal Urban Mobility",
+    "url": "http://arxiv.org/abs/2603.05581v1",
+    "authors": [
+      "Olaf Yunus Laitinen Imanov"
+    ],
+    "published": "2026-03-05",
+    "abstract": "Urban traffic flow is governed by the complex, nonlinear interaction between land use configuration and spatiotemporally heterogeneous mobility demand. Conventional global regression and time-series models cannot simultaneously capture these multi-scale dynamics across multiple travel modes. This study proposes a GeoAI Hybrid analytical framework that sequentially integrates Multiscale Geographically Weighted Regression (MGWR), Random Forest (RF), and Spatio-Temporal Graph Convolutional Networks (ST-GCN) to model the spatiotemporal heterogeneity of traffic flow patterns and their interaction with land use across three mobility modes: motor vehicle, public transit, and active transport. Applying the framework to an empirically calibrated dataset of 350 traffic analysis zones across six cities spanning two contrasting urban morphologies, four key findings emerge: (i) the GeoAI Hybrid achieves a root mean squared error (RMSE) of 0.119 and an R^2 of 0.891, outperforming all benchmarks by 23-62%; (ii) SHAP analysis identifies land use mix as the strongest predictor for motor vehicle flows and transit stop density as the strongest predictor for public transit; (iii) DBSCAN clustering identifies five functionally distinct urban traffic typologies with a silhouette score of 0.71, and GeoAI Hybrid residuals exhibit Moran's I=0.218 (p<0.001), a 72% reduction relative to OLS baselines; and (iv) cross-city transfer experiments reveal moderate within-cluster transferability (R^2>=0.78) and limited cross-cluster generalisability, underscoring the primacy of urban morphological context. The framework offers planners and transportation engineers an interpretable, scalable toolkit for evidence-based multimodal mobility management and land use policy design.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": [
+      "Regression"
+    ]
   }
 ]
