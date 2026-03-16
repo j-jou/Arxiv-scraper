@@ -23876,7 +23876,8 @@
     ],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Utonia: Toward One Encoder for All Point Clouds",
@@ -23901,7 +23902,8 @@
       "Transformer",
       "LVM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Meta-Learning Hyperparameters for Parameter Efficient Fine-Tuning",
@@ -23918,7 +23920,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Tri-path DINO: Feature Complementary Learning for Remote Sensing Multi-Class Change Detection",
@@ -23938,7 +23941,8 @@
     "architectures": [],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Foundation Models in Remote Sensing: Evolving from Unimodality to Multimodality",
@@ -23956,7 +23960,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "From Pixels to Patches: Pooling Strategies for Earth Embeddings",
@@ -23973,7 +23978,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "A Benchmark Study of Neural Network Compression Methods for Hyperspectral Image Classification",
@@ -23992,7 +23998,8 @@
     ],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Fusion and Grouping Strategies in Deep Learning for Local Climate Zone Classification of Multimodal Remote Sensing Data",
@@ -24012,7 +24019,8 @@
     "applications": [
       "Classification",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "GRAD-Former: Gated Robust Attention-based Differential Transformer for Change Detection",
@@ -24034,7 +24042,8 @@
     ],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "UK White Paper on Magnetohydrodynamic (MHD) seismology of solar and heliospheric plasmas",
@@ -24060,7 +24069,8 @@
       "Detection",
       "Classification",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Disentangling regional impacts of joint teleconnections using causal representation learning",
@@ -24083,7 +24093,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Ensemble Graph Neural Networks for Probabilistic Sea Surface Temperature Forecasting via Input Perturbations",
@@ -24103,7 +24114,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Machine Learning Based Mesh Movement for Non-Hydrostatic Tsunami Simulation",
@@ -24119,7 +24131,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Towards Efficient and Stable Ocean State Forecasting: A Continuous-Time Koopman Approach",
@@ -24141,7 +24154,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Revealing the Topology invariance of vectorial vortex beam in complex media",
@@ -24159,7 +24173,8 @@
     "architectures": [],
     "applications": [
       "Regression"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "REDNET-ML: A Multi-Sensor Machine Learning Pipeline for Harmful Algal Bloom Risk Detection Along the Omani Coast",
@@ -24175,7 +24190,8 @@
     "architectures": [],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Towards Explainable Deep Learning for Ship Trajectory Prediction in Inland Waterways",
@@ -24196,7 +24212,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "ShipTraj-R1: Reinforcing Ship Trajectory Prediction in Large Language Models via Group Relative Policy Optimization",
@@ -24218,7 +24235,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "A Dual-Helix Governance Approach Towards Reliable Agentic AI for WebGIS Development",
@@ -24237,7 +24255,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Spatiotemporal Heterogeneity of AI-Driven Traffic Flow Patterns and Land Use Interaction: A GeoAI-Based Analysis of Multimodal Urban Mobility",
@@ -24253,6 +24272,415 @@
     "architectures": [],
     "applications": [
       "Regression"
+    ],
+    "is_recent": false
+  },
+  {
+    "title": "Think and Answer ME: Benchmarking and Exploring Multi-Entity Reasoning Grounding in Remote Sensing",
+    "url": "http://arxiv.org/abs/2603.12788v1",
+    "authors": [
+      "Shuchang Lyu",
+      "Haiquan Wen",
+      "Guangliang Cheng",
+      "Meng Li",
+      "Zheng Zhou",
+      "You Zhou",
+      "Dingding Yao",
+      "Zhenwei Shi"
+    ],
+    "published": "2026-03-13",
+    "abstract": "Recent advances in reasoning language models and reinforcement learning with verifiable rewards have significantly enhanced multi-step reasoning capabilities. This progress motivates the extension of reasoning paradigms to remote sensing visual grounding task. However, existing remote sensing grounding methods remain largely confined to perception-level matching and single-entity formulations, limiting the role of explicit reasoning and inter-entity modeling. To address this challenge, we introduce a new benchmark dataset for Multi-Entity Reasoning Grounding in Remote Sensing (ME-RSRG). Based on ME-RSRG, we reformulate remote sensing grounding as a multi-entity reasoning task and propose an Entity-Aware Reasoning (EAR) framework built upon visual-linguistic foundation models. EAR generates structured reasoning traces and subject-object grounding outputs. It adopts supervised fine-tuning for cold-start initialization and is further optimized via entity-aware reward-driven Group Relative Policy Optimization (GRPO). Extensive experiments on ME-RSRG demonstrate the challenges of multi-entity reasoning and verify the effectiveness of our proposed EAR framework. Our dataset, code, and models will be available at https://github.com/CV-ShuchangLyu/ME-RSRG.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Reinforcement Learning"
     ]
+  },
+  {
+    "title": "OSM-based Domain Adaptation for Remote Sensing VLMs",
+    "url": "http://arxiv.org/abs/2603.11804v1",
+    "authors": [
+      "Stefan Maria Ailuro",
+      "Mario Markov",
+      "Mohammad Mahdi",
+      "Delyan Boychev",
+      "Luc Van Gool",
+      "Danda Pani Paudel"
+    ],
+    "published": "2026-03-12",
+    "abstract": "Vision-Language Models (VLMs) adapted to remote sensing rely heavily on domain-specific image-text supervision, yet high-quality annotations for satellite and aerial imagery remain scarce and expensive to produce. Prevailing pseudo-labeling pipelines address this gap by distilling knowledge from large frontier models, but this dependence on large teachers is costly, limits scalability, and caps achievable performance at the ceiling of the teacher. We propose OSMDA: a self-contained domain adaptation framework that eliminates this dependency. Our key insight is that a capable base VLM can serve as its own annotation engine: by pairing aerial images with rendered OpenStreetMap (OSM) tiles, we leverage optical character recognition and chart comprehension capabilities of the model to generate captions enriched by OSM's vast auxiliary metadata. The model is then fine-tuned on the resulting corpus with satellite imagery alone, yielding OSMDA-VLM, a domain-adapted VLM that requires no manual labeling and no stronger external model. We conduct exhaustive evaluations spanning 10 benchmarks across image-text-to-text tasks and comparing against 9 competitive baselines. When equally mixed with real data, our method achieves state-of-the-art results, while being substantially cheaper to train than teacher-dependent alternatives. These results suggest that, given a strong foundation model, alignment with crowd-sourced geographic data is a practical and scalable path towards remote sensing domain adaptation. Dataset and model weights will be made publicly available.",
+    "categories": [
+      "foundation_model",
+      "remote_sensing"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": [
+      "Recognition"
+    ]
+  },
+  {
+    "title": "Using Vision Language Foundation Models to Generate Plant Simulation Configurations via In-Context Learning",
+    "url": "http://arxiv.org/abs/2603.08930v1",
+    "authors": [
+      "Heesup Yun",
+      "Isaac Kazuo Uyehara",
+      "Earl Ranario",
+      "Lars Lundqvist",
+      "Christine H. Diepenbrock",
+      "Brian N. Bailey",
+      "J. Mason Earles"
+    ],
+    "published": "2026-03-09",
+    "abstract": "This paper introduces a synthetic benchmark to evaluate the performance of vision language models (VLMs) in generating plant simulation configurations for digital twins. While functional-structural plant models (FSPMs) are useful tools for simulating biophysical processes in agricultural environments, their high complexity and low throughput create bottlenecks for deployment at scale. We propose a novel approach that leverages state-of-the-art open-source VLMs -- Gemma 3 and Qwen3-VL -- to directly generate simulation parameters in JSON format from drone-based remote sensing images. Using a synthetic cowpea plot dataset generated via the Helios 3D procedural plant generation library, we tested five in-context learning methods and evaluated the models across three categories: JSON integrity, geometric evaluations, and biophysical evaluations. Our results show that while VLMs can interpret structural metadata and estimate parameters like plant count and sun azimuth, they often exhibit performance degradation due to contextual bias or rely on dataset means when visual cues are insufficient. Validation on a real-world drone orthophoto dataset and an ablation study using a blind baseline further characterize the models' reasoning capabilities versus their reliance on contextual priors. To the best of our knowledge, this is the first study to utilize VLMs to generate structural JSON configurations for plant simulations, providing a scalable framework for reconstruction 3D plots for digital twin in agriculture.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "FedEU: Evidential Uncertainty-Driven Federated Fine-Tuning of Vision Foundation Models for Remote Sensing Image Segmentation",
+    "url": "http://arxiv.org/abs/2603.07468v1",
+    "authors": [
+      "Xiaokang Zhang",
+      "Xuran Xiong",
+      "Jianzhong Huang",
+      "Lefei Zhang"
+    ],
+    "published": "2026-03-08",
+    "abstract": "Remote sensing image segmentation (RSIS) in federated environments has gained increasing attention because it enables collaborative model training across distributed datasets without sharing raw imagery or annotations. Federated RSIS combined with parameter-efficient fine-tuning (PEFT) can unleash the generalization power of pretrained foundation models for real-world applications, with minimal parameter aggregation and communication overhead. However, the dynamic adaptation of pretrained models to heterogeneous client data inevitably increases update uncertainty and compromises the reliability of collaborative optimization due to the lack of uncertainty estimation for each local model. To bridge this gap, we present FedEU, a federated optimization framework for fine-tuning RSIS models driven by evidential uncertainty. Specifically, personalized evidential uncertainty modeling is introduced to quantify epistemic variations of local models and identify high-risk areas under local data distributions. Furthermore, the client-specific feature embedding (CFE) is exploited to enhance channel-aware feature representation while preserving client-specific properties through personalized attention and an element-aware parameter update approach. These uncertainty estimates are uploaded to the server to enable adaptive global aggregation via a Top-k uncertainty-guided weighting (TUW) strategy, which mitigates the impact of distribution shifts and unreliable updates. Extensive experiments on three large-scale heterogeneous datasets demonstrate the superior performance of FedEU. More importantly, FedEU enables balanced model adaptation across diverse clients by explicitly reducing prediction uncertainty, resulting in more robust and reliable federated outcomes. The source codes will be available at https://github.com/zxk688/FedEU.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "SIGMAE: A Spectral-Index-Guided Foundation Model for Multispectral Remote Sensing",
+    "url": "http://arxiv.org/abs/2603.07463v1",
+    "authors": [
+      "Xiaokang Zhang",
+      "Bo Li",
+      "Chufeng Zhou",
+      "Weikang Yu",
+      "Lefei Zhang"
+    ],
+    "published": "2026-03-08",
+    "abstract": "Pretraining and fine-tuning have emerged as a new paradigm in remote sensing image interpretation. Among them, Masked Autoencoder (MAE)-based pretraining stands out for its strong capability to learn general feature representations via reconstructing masked image regions. However, applying MAE to multispectral remote sensing images remains challenging due to complex backgrounds, indistinct targets, and the lack of semantic guidance during masking, which hinders the learning of underlying structures and meaningful spatial-spectral features. To address this, we propose a simple yet effective approach, Spectral Index-Guided MAE (SIGMAE), for multispectral image pretraining. The core idea is to incorporate domain-specific spectral indices as prior knowledge to guide dynamic token masking toward informative regions. SIGMAE introduces Semantic Saliency-Guided Dynamic Token Masking (SSDTM), a curriculum-style strategy that quantifies each patch's semantic richness and internal heterogeneity to adaptively select the most informative tokens during training. By prioritizing semantically salient regions and progressively increasing sample difficulty, SSDTM enhances spectrally rich and structurally aware representation learning, mitigates overfitting, and reduces redundant computation compared with random masking. Extensive experiments on five widely used datasets covering various downstream tasks, including scene classification, semantic segmentation, object extraction and change detection, demonstrate that SIGMAE outperforms other pretrained geospatial foundation models. Moreover, it exhibits strong spatial-spectral reconstruction capability, even with a 90% mask ratio, and improves complex target recognition under limited labeled data. The source codes and model weights will be released at https://github.com/zxk688/SIGMAE.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Autoencoder"
+    ],
+    "applications": [
+      "Segmentation",
+      "Detection",
+      "Classification",
+      "Recognition"
+    ]
+  },
+  {
+    "title": "LEPA: Learning Geometric Equivariance in Satellite Remote Sensing Data with a Predictive Architecture",
+    "url": "http://arxiv.org/abs/2603.07246v1",
+    "authors": [
+      "Erik Scheurer",
+      "Rocco Sedona",
+      "Stefan Kesselheim",
+      "Gabriele Cavallaro"
+    ],
+    "published": "2026-03-07",
+    "abstract": "Geospatial foundation models provide precomputed embeddings that serve as compact feature vectors for large-scale satellite remote sensing data. While these embeddings can reduce data-transfer bottlenecks and computational costs, Earth observation (EO) applications can still face geometric mismatches between user-defined areas of interest and the fixed precomputed embedding grid. Standard latent-space interpolation is unreliable in this setting because the embedding manifold is highly non-convex, yielding representations that do not correspond to realistic inputs. We verify this using Prithvi-EO-2.0 to understand the shortcomings of interpolation applied to patch embeddings. As a substitute, we propose a Learned Equivariance-Predicting Architecture (LEPA). Instead of averaging vectors, LEPA conditions a predictor on geometric augmentations to directly predict the transformed embedding. We evaluate LEPA on NASA/USGS Harmonized Landsat-Sentinel (HLS) imagery and ImageNet-1k. Experiments show that standard interpolation achieves a mean reciprocal rank (MRR) below 0.2, whereas LEPA increases MRR to over 0.8, enabling accurate geometric adjustment without re-encoding.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "CrossEarth-SAR: A SAR-Centric and Billion-Scale Geospatial Foundation Model for Domain Generalizable Semantic Segmentation",
+    "url": "http://arxiv.org/abs/2603.12008v1",
+    "authors": [
+      "Ziqi Ye",
+      "Ziyang Gong",
+      "Ning Liao",
+      "Xiaoxing Hu",
+      "Di Wang",
+      "Hongruixuan Chen",
+      "Chen Huang",
+      "Yiguo He",
+      "Yuru Jia",
+      "Xiaoxing Wang",
+      "Haipeng Wang",
+      "Xue Yang",
+      "Junchi Yan"
+    ],
+    "published": "2026-03-12",
+    "abstract": "Synthetic Aperture Radar (SAR) enables global, all-weather earth observation. However, owing to diverse imaging mechanisms, domain shifts across sensors and regions severely hinder its semantic generalization. To address this, we present CrossEarth-SAR, the first billion-scale SAR vision foundation model built upon a novel physics-guided sparse mixture-of-experts (MoE) architecture incorporating physical descriptors, explicitly designed for cross-domain semantic segmentation. To facilitate large-scale pre-training, we develop CrossEarth-SAR-200K, a weakly and fully supervised dataset that unifies public and private SAR imagery. We also introduce a benchmark suite comprising 22 sub-benchmarks across 8 distinct domain gaps, establishing the first unified standard for domain generalization semantic segmentation on SAR imagery. Extensive experiments demonstrate that CrossEarth-SAR achieves state-of-the-art results on 20 benchmarks, surpassing previous methods by over 10\\% mIoU on some benchmarks under multi-gap transfer. All code, benchmark and datasets will be publicly available.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "How To Embed Matters: Evaluation of EO Embedding Design Choices",
+    "url": "http://arxiv.org/abs/2603.10658v1",
+    "authors": [
+      "Luis Gilch",
+      "Isabelle Wittmann",
+      "Maximilian Nitsche",
+      "Johannes Jakubik",
+      "Arne Ewald",
+      "Thomas Brunschwiler"
+    ],
+    "published": "2026-03-11",
+    "abstract": "Earth observation (EO) missions produce petabytes of multispectral imagery, increasingly analyzed using large Geospatial Foundation Models (GeoFMs). Alongside end-to-end adaptation, workflows make growing use of intermediate representations as task-agnostic embeddings, enabling models to compute representations once and reuse them across downstream tasks. Consequently, when GeoFMs act as feature extractors, decisions about how representations are obtained, aggregated, and combined affect downstream performance and pipeline scalability. Understanding these trade-offs is essential for scalable embedding-based EO workflows, where compact embeddings can replace raw data while remaining broadly useful. We present a systematic analysis of embedding design in GeoFM-based EO workflows. Leveraging NeuCo-Bench, we study how backbone architecture, pretraining strategy, representation depth, spatial aggregation, and representation combination influence EO task performance. We demonstrate the usability of GeoFM embeddings by aggregating them into fixed-size representations more than 500x smaller than the raw input data. Across models, we find consistent trends: transformer backbones with mean pooling provide strong default embeddings, intermediate ResNet layers can outperform final layers, self-supervised objectives exhibit task-specific strengths, and combining embeddings from different objectives often improves robustness.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "ResNet",
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Underwater Embodied Intelligence for Autonomous Robots: A Constraint-Coupled Perspective on Planning, Control, and Deployment",
+    "url": "http://arxiv.org/abs/2603.07393v1",
+    "authors": [
+      "Jingzehua Xu",
+      "Guanwen Xie",
+      "Jiwei Tang",
+      "Shuai Zhang",
+      "Xiaofan Li"
+    ],
+    "published": "2026-03-08",
+    "abstract": "Autonomous underwater robots are increasingly deployed for environmental monitoring, infrastructure inspection, subsea resource exploration, and long-horizon exploration. Yet, despite rapid advances in learning-based planning and control, reliable autonomy in real ocean environments remains fundamentally constrained by tightly coupled physical limits. Hydrodynamic uncertainty, partial observability, bandwidth-limited communication, and energy scarcity are not independent challenges; they interact within the closed perception-planning-control loop and often amplify one another over time. This Review develops a constraint-coupled perspective on underwater embodied intelligence, arguing that planning and control must be understood within tightly coupled sensing, communication, coordination, and resource constraints in real ocean environments. We synthesize recent progress in reinforcement learning, belief-aware planning, hybrid control, multi-robot coordination, and foundation-model integration through this embodied perspective. Across representative application domains, we show how environmental monitoring, inspection, exploration, and cooperative missions expose distinct stress profiles of cross-layer coupling. To unify these observations, we introduce a cross-layer failure taxonomy spanning epistemic, dynamic, and coordination breakdowns, and analyze how errors cascade across autonomy layers under uncertainty. Building on this structure, we outline research directions toward physics-grounded world models, certifiable learning-enabled control, communication-aware coordination, and deployment-aware system design. By internalizing constraint coupling rather than treating it as an external disturbance, underwater embodied intelligence may evolve from performance-driven adaptation toward resilient, scalable, and verifiable autonomy under real ocean conditions.",
+    "categories": [
+      "foundation_model",
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Grounding Synthetic Data Generation With Vision and Language Models",
+    "url": "http://arxiv.org/abs/2603.09625v1",
+    "authors": [
+      "\u00dcmit Mert \u00c7a\u011flar",
+      "Alptekin Temizel"
+    ],
+    "published": "2026-03-10",
+    "abstract": "Deep learning models benefit from increasing data diversity and volume, motivating synthetic data augmentation to improve existing datasets. However, existing evaluation metrics for synthetic data typically calculate latent feature similarity, which is difficult to interpret and does not always correlate with the contribution to downstream tasks.\n  We propose a vision-language grounded framework for interpretable synthetic data augmentation and evaluation in remote sensing. Our approach combines generative models, semantic segmentation and image captioning with vision and language models. Based on this framework, we introduce ARAS400k: A large-scale Remote sensing dataset Augmented with Synthetic data for segmentation and captioning, containing 100k real images and 300k synthetic images, each paired with segmentation maps and descriptions.\n  ARAS400k enables the automated evaluation of synthetic data by analyzing semantic composition, minimizing caption redundancy, and verifying cross-modal consistency between visual structures and language descriptions. Experimental results indicate that while models trained exclusively on synthetic data reach competitive performance levels, those trained with augmented data (a combination of real and synthetic images) consistently outperform real-data baselines. Consequently, this work establishes a scalable benchmark for remote sensing tasks, specifically in semantic segmentation and image captioning. The dataset is available at zenodo.org/records/18890661 and the code base at github.com/caglarmert/ARAS400k.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "CarbonBench: A Global Benchmark for Upscaling of Carbon Fluxes Using Zero-Shot Learning",
+    "url": "http://arxiv.org/abs/2603.09868v1",
+    "authors": [
+      "Aleksei Rozanov",
+      "Arvind Renganathan",
+      "Yimeng Zhang",
+      "Vipin Kumar"
+    ],
+    "published": "2026-03-10",
+    "abstract": "Accurately quantifying terrestrial carbon exchange is essential for climate policy and carbon accounting, yet models must generalize to ecosystems underrepresented in sparse eddy covariance observations. Despite this challenge being a natural instance of zero-shot spatial transfer learning for time series regression, no standardized benchmark exists to rigorously evaluate model performance across geographically distinct locations with different climate regimes and vegetation types.\n  We introduce CarbonBench, the first benchmark for zero-shot spatial transfer in carbon flux upscaling. CarbonBench comprises over 1.3 million daily observations from 567 flux tower sites globally (2000-2024). It provides: (1) stratified evaluation protocols that explicitly test generalization across unseen vegetation types and climate regimes, separating spatial transfer from temporal autocorrelation; (2) a harmonized set of remote sensing and meteorological features to enable flexible architecture design; and (3) baselines ranging from tree-based methods to domain-generalization architectures. By bridging machine learning methodologies and Earth system science, CarbonBench aims to enable systematic comparison of transfer learning methods, serves as a testbed for regression under distribution shift, and contributes to the next-generation climate modeling efforts.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Regression"
+    ]
+  },
+  {
+    "title": "Machine Learning for the Internet of Underwater Things: From Fundamentals to Implementation",
+    "url": "http://arxiv.org/abs/2603.07413v1",
+    "authors": [
+      "Kenechi Omeke",
+      "Attai Abubakar",
+      "Michael Mollel",
+      "Lei Zhang",
+      "Qammer H. Abbasi",
+      "Muhammad Ali Imran"
+    ],
+    "published": "2026-03-08",
+    "abstract": "The Internet of Underwater Things (IoUT) is becoming a critical infrastructure for ocean observation, marine resource management, and climate science. Its development is hindered by severe acoustic attenuation, propagation delays far exceeding those of terrestrial wireless systems, strict energy constraints, and dynamic topologies shaped by ocean currents. Machine learning (ML) has emerged as a key enabler for addressing these limitations, offering data driven mechanisms that enhance performance across all layers of underwater wireless sensor networks. This tutorial survey synthesises ML methodologies supervised, unsupervised, reinforcement, and deep learning specifically contextualised for underwater communication environments. It outlines the algorithmic principles of each paradigm and examines the conditions under which particular approaches deliver superior performance. A layer wise analysis highlights physical layer gains in localisation and channel estimation, MAC layer adaptations that improve channel utilisation, network layer routing strategies that extend operational lifetime, and transport layer mechanisms capable of reducing packet loss by up to 91 percent. At the application layer, ML enables substantial data compression and object detection accuracies reaching 92 percent. Drawing on 300 studies from 2012 to 2025, the survey documents energy efficiency gains of 7 to 29 times, throughput improvements over traditional protocols, and cross layer optimisation benefits of up to 42 percent. It also identifies persistent barriers, including limited datasets, computational constraints, and the gap between theoretical models and real world deployment. The survey concludes with emerging research directions and a technology roadmap supporting ML adoption in operational underwater networks.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "FloeNet: A mass-conserving global sea ice emulator that generalizes across climates",
+    "url": "http://arxiv.org/abs/2603.12449v1",
+    "authors": [
+      "William Gregory",
+      "Mitchell Bushuk",
+      "James Duncan",
+      "Elynn Wu",
+      "Adam Subel",
+      "Spencer K. Clark",
+      "Bill Hurlin",
+      "Oliver Watt-Meyer",
+      "Alistair Adcroft",
+      "Chris Bretherton",
+      "Laure Zanna"
+    ],
+    "published": "2026-03-12",
+    "abstract": "We introduce FloeNet, a machine-learning emulator trained on the Geophysical Fluid Dynamics Laboratory global sea ice model, SIS2. FloeNet is a mass-conserving model, emulating 6-hour mass and area budget tendencies related to sea ice and snow-on-sea-ice growth, melt, and advection. We train FloeNet using simulated data from a reanalysis-forced ice-ocean simulation and test its ability to generalize to pre-industrial control and 1% CO2 climates. FloeNet outperforms a non-conservative model at reproducing sea ice and snow-on-sea-ice mean state, trends, and inter-annual variability, with volume anomaly correlations above 0.96 in the Antarctic and 0.76 in the Arctic, across all forcings. FloeNet also produces the correct thermodynamic vs dynamic response to forcing, enabling physical interpretability of emulator output. Finally, we show that FloeNet outputs high-fidelity coupling-related variables, including ice-surface skin temperature, ice-to-ocean salt flux, and melting energy fluxes. We hypothesize that FloeNet will improve polar climate processes within existing atmosphere and ocean emulators.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "PSTNet: Physically-Structured Turbulence Network",
+    "url": "http://arxiv.org/abs/2603.07957v1",
+    "authors": [
+      "Boris Kriuk",
+      "Fedor Kriuk"
+    ],
+    "published": "2026-03-09",
+    "abstract": "Reliable real-time estimation of atmospheric turbulence intensity remains an open challenge for aircraft operating across diverse altitude bands, particularly over oceanic, polar, and data-sparse regions that lack operational nowcasting infrastructure. Classical spectral models encode climatological averages rather than the instantaneous atmospheric state, and generic ML regressors offer adaptivity but provide no guarantee that predictions respect fundamental scaling laws. This paper introduces the Physically-Structured Turbulence Network (PSTNet), a lightweight architecture that embeds physics directly into its structure. PSTNet couples four components: (i) a zero-parameter backbone derived from Monin-Obukhov theory, (ii) a regime-gated mixture of specialist sub-networks supervised by Richardson-number-derived soft targets, (iii) Feature-wise Linear Modulation layers conditioning hidden representations on local air-density ratio, and (iv) a Kolmogorov output layer enforcing inertial-subrange scaling as an architectural constraint. The entire model contains only 552 learnable parameters, requiring fewer than 2.5 kB of storage and executing in under 12s on a Cortex-M7 microcontroller. We validate PSTNet on 340 paired six-degree-of-freedom guidance simulations spanning three vehicle classes (Mach 2.8, 4.5, and 8.0) and six operational categories with real-time satellite weather ingestion. PSTNet achieves a mean miss-distance improvement of +2.8% with a 78% win rate and a statistically significant effect size. Our results demonstrate that encoding domain physics as architectural priors yields a more efficient and interpretable path to turbulence estimation accuracy than scaling model capacity, establishing PSTNet as a viable drop-in replacement for legacy look-up tables in resource-constrained, safety-critical on-board guidance systems.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Bayesian Species Distribution Models using Hierarchical Decomposition Priors",
+    "url": "http://arxiv.org/abs/2603.09428v1",
+    "authors": [
+      "Luisa Ferrari",
+      "Massimo Ventrucci",
+      "Alex Laini"
+    ],
+    "published": "2026-03-10",
+    "abstract": "Understanding the relative contributions of environmental, spatial, and temporal processes in shaping species distribution is a central objective in ecology. Bayesian species distribution models (SDMs) offer a flexible framework for this task, yet prior specification for variance components remains challenging. To address this issue, we adapt the Hierarchical Decomposition (HD) prior framework to latent Gaussian SDMs, enabling direct and transparent prior control over variance partitioning. The HD approach reparametrizes variances into a total variance and a set of interpretable proportions, structured through a decomposition tree that reflects both model architecture and ecologically meaningful groupings of effects. We discuss a principled approach for a default tree design tailored to SDMs and a practical workflow for the step-by-step implementation of the method. The framework is illustrated using presence--absence data for 39 demersal fish species from the NOAA Northeast Fisheries Science Center fall bottom trawl survey. Results demonstrate predictive performance comparable to established priors, while providing substantially improved interpretability and transparency in variance attribution and prior sensitivity analysis.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [
+      "SDM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "GeoSolver: Scaling Test-Time Reasoning in Remote Sensing with Fine-Grained Process Supervision",
+    "url": "http://arxiv.org/abs/2603.09551v1",
+    "authors": [
+      "Lang Sun",
+      "Ronghao Fu",
+      "Zhuoran Duan",
+      "Haoran Liu",
+      "Xueyan Liu",
+      "Bo Yang"
+    ],
+    "published": "2026-03-10",
+    "abstract": "While Vision-Language Models (VLMs) have significantly advanced remote sensing interpretation, enabling them to perform complex, step-by-step reasoning remains highly challenging. Recent efforts to introduce Chain-of-Thought (CoT) reasoning to this domain have shown promise, yet ensuring the visual faithfulness of these intermediate steps remains a critical bottleneck. To address this, we introduce GeoSolver, a novel framework that transitions remote sensing reasoning toward verifiable, process-supervised reinforcement learning. We first construct Geo-PRM-2M, a large-scale, token-level process supervision dataset synthesized via entropy-guided Monte Carlo Tree Search (MCTS) and targeted visual hallucination injection. Building upon this dataset, we train GeoPRM, a token-level process reward model (PRM) that provides granular faithfulness feedback. To effectively leverage these verification signals, we propose Process-Aware Tree-GRPO, a reinforcement learning algorithm that integrates tree-structured exploration with a faithfulness-weighted reward mechanism to precisely assign credit to intermediate steps. Extensive experiments demonstrate that our resulting model, GeoSolver-9B, achieves state-of-the-art performance across diverse remote sensing benchmarks. Crucially, GeoPRM unlocks robust Test-Time Scaling (TTS). Serving as a universal geospatial verifier, it seamlessly scales the performance of GeoSolver-9B and directly enhances general-purpose VLMs, highlighting its remarkable cross-model generalization.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "OmniEarth: A Benchmark for Evaluating Vision-Language Models in Geospatial Tasks",
+    "url": "http://arxiv.org/abs/2603.09471v1",
+    "authors": [
+      "Ronghao Fu",
+      "Haoran Liu",
+      "Weijie Zhang",
+      "Zhiwen Lin",
+      "Xiao Yang",
+      "Peng Zhang",
+      "Bo Yang"
+    ],
+    "published": "2026-03-10",
+    "abstract": "Vision-Language Models (VLMs) have demonstrated effective perception and reasoning capabilities on general-domain tasks, leading to growing interest in their application to Earth observation. However, a systematic benchmark for comprehensively evaluating remote sensing vision-language models (RSVLMs) remains lacking. To address this gap, we introduce OmniEarth, a benchmark for evaluating RSVLMs under realistic Earth observation scenarios. OmniEarth organizes tasks along three capability dimensions: perception, reasoning, and robustness. It defines 28 fine-grained tasks covering multi-source sensing data and diverse geospatial contexts. The benchmark supports two task formulations: multiple-choice VQA and open-ended VQA. The latter includes pure text outputs for captioning tasks, bounding box outputs for visual grounding tasks, and mask outputs for segmentation tasks. To reduce linguistic bias and examine whether model predictions rely on visual evidence, OmniEarth adopts a blind test protocol and a quintuple semantic consistency requirement. OmniEarth includes 9,275 carefully quality-controlled images, including proprietary satellite imagery from Jilin-1 (JL-1), along with 44,210 manually verified instructions. We conduct a systematic evaluation of contrastive learning-based models, general closed-source and open-source VLMs, as well as RSVLMs. Results show that existing VLMs still struggle with geospatially complex tasks, revealing clear gaps that need to be addressed for remote sensing applications. OmniEarth is publicly available at https://huggingface.co/datasets/sjeeudd/OmniEarth.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": [
+      "Segmentation",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Interpretable Markov-Based Spatiotemporal Risk Surfaces for Missing-Child Search Planning with Reinforcement Learning and LLM-Based Quality Assurance",
+    "url": "http://arxiv.org/abs/2603.08933v1",
+    "authors": [
+      "Joshua Castillo",
+      "Ravi Mukkamala"
+    ],
+    "published": "2026-03-09",
+    "abstract": "The first 72 hours of a missing-child investigation are critical for successful recovery. However, law enforcement agencies often face fragmented, unstructured data and a lack of dynamic, geospatial predictive tools. Our system, Guardian, provides an end-to-end decision-support system for missing-child investigation and early search planning. It converts heterogeneous, unstructured case documents into a schema-aligned spatiotemporal representation, enriches cases with geocoding and transportation context, and provides probabilistic search products spanning 0-72 hours. In this paper, we present an overview of Guardian as well as a detailed description of a three-layer predictive component of the system. The first layer is a Markov chain, a sparse, interpretable model with transitions incorporating road accessibility costs, seclusion preferences, and corridor bias with separate day/night parameterizations. The Markov chain's output prediction distributions are then transformed into operationally useful search plans by the second layer's reinforcement learning. Finally, the third layer's LLM performs post hoc validation of layer 2 search plans prior to their release. Using a synthetic but realistic case study, we report quantitative outputs across 24/48/72-hour horizons and analyze sensitivity, failure modes, and tradeoffs. Results show that the proposed predictive system with the three-layer architecture produces interpretable priors for zone optimization and human review.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Forecast",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "GeoVisA11y: An AI-based Geovisualization Question-Answering System for Screen-Reader Users",
+    "url": "http://arxiv.org/abs/2603.07446v1",
+    "authors": [
+      "Chu Li",
+      "Rock Yuren Pang",
+      "Arnavi Chheda-Kothary",
+      "Ather Sharif",
+      "Henok Assalif",
+      "Jeffrey Heer",
+      "Jon E. Froehlich"
+    ],
+    "published": "2026-03-08",
+    "abstract": "Geovisualizations are powerful tools for communicating spatial information, but are inaccessible to screen-reader users. To address this limitation, we present GeoVisA11y, an LLM-based question-answering system that makes geovisualizations accessible through natural language interaction. The system supports map reading, analysis, interpretation and navigation by handling analytical, geospatial, visual and contextual queries. Through user studies with 12 screen-reader users and sighted participants, we demonstrate that GeoVisA11y effectively bridges accessibility gaps while revealing distinct interaction patterns between user groups. We contribute: (1) an open-source, accessible geovisualization system, (2) empirical findings on query and navigation differences, and (3) a dataset of geospatial queries to inform future research on accessible data visualization.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
   }
 ]
