@@ -24296,7 +24296,8 @@
     "architectures": [],
     "applications": [
       "Reinforcement Learning"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "OSM-based Domain Adaptation for Remote Sensing VLMs",
@@ -24320,7 +24321,8 @@
     ],
     "applications": [
       "Recognition"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Using Vision Language Foundation Models to Generate Plant Simulation Configurations via In-Context Learning",
@@ -24342,7 +24344,8 @@
     "architectures": [
       "LVM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "FedEU: Evidential Uncertainty-Driven Federated Fine-Tuning of Vision Foundation Models for Remote Sensing Image Segmentation",
@@ -24362,7 +24365,8 @@
     "applications": [
       "Segmentation",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "SIGMAE: A Spectral-Index-Guided Foundation Model for Multispectral Remote Sensing",
@@ -24387,7 +24391,8 @@
       "Detection",
       "Classification",
       "Recognition"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "LEPA: Learning Geometric Equivariance in Satellite Remote Sensing Data with a Predictive Architecture",
@@ -24404,7 +24409,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "CrossEarth-SAR: A SAR-Centric and Billion-Scale Geospatial Foundation Model for Domain Generalizable Semantic Segmentation",
@@ -24432,7 +24438,8 @@
     "architectures": [],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "How To Embed Matters: Evaluation of EO Embedding Design Choices",
@@ -24454,7 +24461,8 @@
       "ResNet",
       "Transformer"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Underwater Embodied Intelligence for Autonomous Robots: A Constraint-Coupled Perspective on Planning, Control, and Deployment",
@@ -24475,7 +24483,8 @@
     "architectures": [],
     "applications": [
       "Reinforcement Learning"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Grounding Synthetic Data Generation With Vision and Language Models",
@@ -24492,7 +24501,8 @@
     "architectures": [],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "CarbonBench: A Global Benchmark for Upscaling of Carbon Fluxes Using Zero-Shot Learning",
@@ -24511,7 +24521,8 @@
     "architectures": [],
     "applications": [
       "Regression"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Machine Learning for the Internet of Underwater Things: From Fundamentals to Implementation",
@@ -24532,7 +24543,8 @@
     "architectures": [],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "FloeNet: A mass-conserving global sea ice emulator that generalizes across climates",
@@ -24556,7 +24568,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "PSTNet: Physically-Structured Turbulence Network",
@@ -24573,7 +24586,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Bayesian Species Distribution Models using Hierarchical Decomposition Priors",
@@ -24591,7 +24605,8 @@
     "architectures": [
       "SDM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "GeoSolver: Scaling Test-Time Reasoning in Remote Sensing with Fine-Grained Process Supervision",
@@ -24614,7 +24629,8 @@
     ],
     "applications": [
       "Reinforcement Learning"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "OmniEarth: A Benchmark for Evaluating Vision-Language Models in Geospatial Tasks",
@@ -24639,7 +24655,8 @@
     "applications": [
       "Segmentation",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Interpretable Markov-Based Spatiotemporal Risk Surfaces for Missing-Child Search Planning with Reinforcement Learning and LLM-Based Quality Assurance",
@@ -24659,7 +24676,8 @@
     "applications": [
       "Forecast",
       "Reinforcement Learning"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "GeoVisA11y: An AI-based Geovisualization Question-Answering System for Screen-Reader Users",
@@ -24681,6 +24699,314 @@
     "architectures": [
       "LLM"
     ],
+    "applications": [],
+    "is_recent": false
+  },
+  {
+    "title": "Parameter-Efficient Modality-Balanced Symmetric Fusion for Multimodal Remote Sensing Semantic Segmentation",
+    "url": "http://arxiv.org/abs/2603.17705v1",
+    "authors": [
+      "Haocheng Li",
+      "Juepeng Zheng",
+      "Shuangxi Miao",
+      "Ruibo Lu",
+      "Guosheng Cai",
+      "Haohuan Fu",
+      "Jianxi Huang"
+    ],
+    "published": "2026-03-18",
+    "abstract": "Multimodal remote sensing semantic segmentation enhances scene interpretation by exploiting complementary physical cues from heterogeneous data. Although pretrained Vision Foundation Models (VFMs) provide strong general-purpose representations, adapting them to multimodal tasks often incurs substantial computational overhead and is prone to modality imbalance, where the contribution of auxiliary modalities is suppressed during optimization. To address these challenges, we propose MoBaNet, a parameter-efficient and modality-balanced symmetric fusion framework. Built upon a largely frozen VFM backbone, MoBaNet adopts a symmetric dual-stream architecture to preserve generalizable representations while minimizing the number of trainable parameters. Specifically, we design a Cross-modal Prompt-Injected Adapter (CPIA) to enable deep semantic interaction by generating shared prompts and injecting them into bottleneck adapters under the frozen backbone. To obtain compact and discriminative multimodal representations for decoding, we further introduce a Difference-Guided Gated Fusion Module (DGFM), which adaptively fuses paired stage features by explicitly leveraging cross-modal discrepancy to guide feature selection. Furthermore, we propose a Modality-Conditional Random Masking (MCRM) strategy to mitigate modality imbalance by masking one modality only during training and imposing hard-pixel auxiliary supervision on modality-specific branches. Extensive experiments on the ISPRS Vaihingen and Potsdam benchmarks demonstrate that MoBaNet achieves state-of-the-art performance with significantly fewer trainable parameters than full fine-tuning, validating its effectiveness for robust and balanced multimodal fusion. The source code in this work is available at https://github.com/sauryeo/MoBaNet.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "MM-OVSeg:Multimodal Optical-SAR Fusion for Open-Vocabulary Segmentation in Remote Sensing",
+    "url": "http://arxiv.org/abs/2603.17528v1",
+    "authors": [
+      "Yimin Wei",
+      "Aoran Xiao",
+      "Hongruixuan Chen",
+      "Junshi Xia",
+      "Naoto Yokoya"
+    ],
+    "published": "2026-03-18",
+    "abstract": "Open-vocabulary segmentation enables pixel-level recognition from an open set of textual categories, allowing generalization beyond fixed classes. Despite great potential in remote sensing, progress in this area remains largely limited to clear-sky optical data and struggles under cloudy or haze-contaminated conditions. We present MM-OVSeg, a multimodal Optical-SAR fusion framework for resilient open-vocabulary segmentation under adverse weather conditions. MM-OVSeg leverages the complementary strengths of the two modalities--optical imagery provides rich spectral semantics, while synthetic aperture radar (SAR) offers cloud-penetrating structural cues. To address the cross-modal domain gap and the limited dense prediction capability of current vision-language models, we propose two key designs: a cross-modal unification process for multi-sensor representation alignment, and a dual-encoder fusion module that integrates hierarchical features from multiple vision foundation models for text-aligned multimodal segmentation. Extensive experiments demonstrate that MM-OVSeg achieves superior robustness and generalization across diverse cloud conditions. The source dataset and code are available here.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": [
+      "Segmentation",
+      "Recognition",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "VFM-Loc: Zero-Shot Cross-View Geo-Localization via Aligning Discriminative Visual Hierarchies",
+    "url": "http://arxiv.org/abs/2603.13855v1",
+    "authors": [
+      "Jun Lu",
+      "Zehao Sang",
+      "Haoqi Wei",
+      "Xiangyun Liu",
+      "Kun Zhu",
+      "Haitao Guo",
+      "Zhihui Gong",
+      "Lei Ding"
+    ],
+    "published": "2026-03-14",
+    "abstract": "Cross-View Geo-Localization (CVGL) in remote sensing aims to locate a drone-view query by matching it to geo-tagged satellite images. Although supervised methods have achieved strong results on closeset benchmarks, they often fail to generalize to unconstrained, real-world scenarios due to severe viewpoint differences and dataset bias. To overcome these limitations, we present VFM-Loc, a training-free framework for zero-shot CVGL that leverages the generalizable visual representations from vision foundational models (VFMs). VFM-Loc identifies and matches discriminative visual clues across different viewpoints through a progressive alignment strategy. First, we design a hierarchical clue extraction mechanism using Generalized Mean pooling and Scale-Weighted RMAC to preserve distinctive visual clues across scales while maintaining hierarchical confidence. Second, we introduce a statistical manifold alignment pipeline based on domain-wise PCA and Orthogonal Procrustes analysis, linearly aligning heterogeneous feature distributions in a shared metric space. Experiments demonstrate that VFM-Loc exhibits strong zero-shot accuracy on standard benchmarks and surpasses supervised methods by over 20% in Recall@1 on the challenging LO-UCV dataset with large oblique angles. This work highlights that principled alignment of pre-trained features can effectively bridge the cross-view gap, establishing a robust and training-free paradigm for real-world CVGL. The relevant code is made available at: https://github.com/DingLei14/VFM-Loc.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
     "applications": []
+  },
+  {
+    "title": "TerraScope: Pixel-Grounded Visual Reasoning for Earth Observation",
+    "url": "http://arxiv.org/abs/2603.19039v1",
+    "authors": [
+      "Yan Shu",
+      "Bin Ren",
+      "Zhitong Xiong",
+      "Xiao Xiang Zhu",
+      "Beg\u00fcm Demir",
+      "Nicu Sebe",
+      "Paolo Rota"
+    ],
+    "published": "2026-03-19",
+    "abstract": "Vision-language models (VLMs) have shown promise in earth observation (EO), yet they struggle with tasks that require grounding complex spatial reasoning in precise pixel-level visual representations. To address this problem, we introduce TerraScope, a unified VLM that delivers pixel-grounded geospatial reasoning with two key capabilities: (1) modality-flexible reasoning: it handles single-modality inputs (optical or SAR) and adaptively fuses different modalities into the reasoning process when both are available; (2) multi-temporal reasoning: it integrates temporal sequences for change analysis across multiple time points. In addition, we curate Terra-CoT, a large-scale dataset containing 1 million samples with pixel-level masks embedded in reasoning chains across multiple sources. We also propose TerraScope-Bench, the first benchmark for pixel-grounded geospatial reasoning with six sub-tasks that evaluates both answer accuracy and mask quality to ensure authentic pixel-grounded reasoning. Experiments show that TerraScope significantly outperforms existing VLMs on pixel-grounded geospatial reasoning while providing interpretable visual evidence.",
+    "categories": [
+      "geo_reasoning",
+      "foundation_model"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "An assessment of data-centric methods for label noise identification in remote sensing data sets",
+    "url": "http://arxiv.org/abs/2603.16835v1",
+    "authors": [
+      "Felix Kr\u00f6ber",
+      "Genc Hoxha",
+      "Ribana Roscher"
+    ],
+    "published": "2026-03-17",
+    "abstract": "Label noise in the sense of incorrect labels is present in many real-world data sets and is known to severely limit the generalizability of deep learning models. In the field of remote sensing, however, automated treatment of label noise in data sets has received little attention to date. In particular, there is a lack of systematic analysis of the performance of data-centric methods that not only cope with label noise but also explicitly identify and isolate noisy labels. In this paper, we examine three such methods and evaluate their behavior under different label noise assumptions. To do this, we inject different types of label noise with noise levels ranging from 10 to 70% into two benchmark data sets, followed by an analysis of how well the selected methods filter the label noise and how this affects task performances. With our analyses, we clearly prove the value of data-centric methods for both parts - label noise identification and task performance improvements. Our analyses provide insights into which method is the best choice depending on the setting and objective. Finally, we show in which areas there is still a need for research in the transfer of data-centric label noise methods to remote sensing data. As such, our work is a step forward in bridging the methodological establishment of data-centric label noise methods and their usage in practical settings in the remote sensing domain.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "In-Field 3D Wheat Head Instance Segmentation From TLS Point Clouds Using Deep Learning Without Manual Labels",
+    "url": "http://arxiv.org/abs/2603.14309v1",
+    "authors": [
+      "Tomislav Medic",
+      "Liangliang Nan"
+    ],
+    "published": "2026-03-15",
+    "abstract": "3D instance segmentation for laser scanning (LiDAR) point clouds remains a challenge in many remote sensing-related domains. Successful solutions typically rely on supervised deep learning and manual annotations, and consequently focus on objects that can be well delineated through visual inspection and manual labeling of point clouds. However, for tasks with more complex and cluttered scenes, such as in-field plant phenotyping in agriculture, such approaches are often infeasible. In this study, we tackle the task of in-field wheat head instance segmentation directly from terrestrial laser scanning (TLS) point clouds. To address the problem and circumvent the need for manual annotations, we propose a novel two-stage pipeline. To obtain the initial 3D instance proposals, the first stage uses 3D-to-2D multi-view projections, the Grounded SAM pipeline for zero-shot 2D object-centric segmentation, and multi-view label fusion. The second stage uses these initial proposals as noisy pseudo-labels to train a supervised 3D panoptic-style segmentation neural network. Our results demonstrate the feasibility of the proposed approach and show performance improvementsrelative to Wheat3DGS, a recent alternative solution for in-field wheat head instance segmentation without manual 3D annotations based on multi-view RGB images and 3D Gaussian Splatting, showcasing TLS as a competitive sensing alternative. Moreover, the results show that both stages of the proposed pipeline can deliver usable 3D instance segmentation without manual annotations, indicating promising, low-effort transferability to other comparable TLS-based point cloud segmentation tasks.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "Quantum-Enhanced Vision Transformer for Flood Detection using Remote Sensing Imagery",
+    "url": "http://arxiv.org/abs/2603.13689v1",
+    "authors": [
+      "Soumyajit Maity",
+      "Behzad Ghanbarian"
+    ],
+    "published": "2026-03-14",
+    "abstract": "Reliable flood detection is critical for disaster management, yet classical deep learning models often struggle with the high-dimensional, nonlinear complexities inherent in remote sensing data. To mitigate these limitations, we introduced a novel Quantum-Enhanced Vision Transformer (ViT) that synergizes the global context-awareness of transformers with the expressive feature extraction capabilities of quantum computing. Using remote sensing imagery, we developed a hybrid architecture that processes inputs through parallel pathways, a ViT backbone and a quantum branch utilizing a 4-qubit parameterized quantum circuit for localized feature mapping. These distinct representations were fused to optimize binary classification. Results showed that the proposed hybrid model significantly outperformed a classical ViT baseline, increased overall accuracy from 84.48% to 94.47% and the F1-score from 0.841 to 0.944. Notably, the quantum integration substantially improved discriminative power in complex terrains for both class. These findings validate the potential of quantum-classical hybrid models to enhance precision in hydrological monitoring and earth observation applications.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Adaptive regularization parameter selection for high-dimensional inverse problems: A Bayesian approach with Tucker low-rank constraints",
+    "url": "http://arxiv.org/abs/2603.16066v1",
+    "authors": [
+      "Qing-Mei Yang",
+      "Da-Qing Zhang"
+    ],
+    "published": "2026-03-17",
+    "abstract": "This paper introduces a novel variational Bayesian method that integrates Tucker decomposition for efficient high-dimensional inverse problem solving. The method reduces computational complexity by transforming variational inference from a high-dimensional space to a lower-dimensional core tensor space via Tucker decomposition. A key innovation is the introduction of per-mode precision parameters, enabling adaptive regularization for anisotropic structures. For instance, in directional image deblurring, learned parameters align with physical anisotropy, applying stronger regularization to critical directions (e.g., row vs. column axes). The method further estimates noise levels from data, eliminating reliance on prior knowledge of noise parameters (unlike conventional benchmarks such as the discrepancy principle (DP)). Experimental evaluations across 2D deblurring, 3D heat conduction, and Fredholm integral equations demonstrate consistent improvements in quantitative metrics (PSNR, SSIM) and qualitative visualizations (error maps, precision parameter trends) compared to L-curve criterion, generalized cross-validation (GCV), unbiased predictive risk estimator (UPRE), and DP. The approach scales to problems with 110,000 variables and outperforms existing methods by 0.73-2.09 dB in deblurring tasks and 6.75 dB in 3D heat conduction. Limitations include sensitivity to rank selection in Tucker decomposition and the need for theoretical analysis. Future work will explore automated rank selection and theoretical guarantees. This method bridges Bayesian theory and scalable computation, offering practical solutions for large-scale inverse problems in imaging, remote sensing, and scientific computing.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Robust Building Damage Detection in Cross-Disaster Settings Using Domain Adaptation",
+    "url": "http://arxiv.org/abs/2603.14694v1",
+    "authors": [
+      "Asmae Mouradi",
+      "Shruti Kshirsagar"
+    ],
+    "published": "2026-03-16",
+    "abstract": "Rapid structural damage assessment from remote sensing imagery is essential for timely disaster response. Within human-machine systems (HMS) for disaster management, automated damage detection provides decision-makers with actionable situational awareness. However, models trained on multi-disaster benchmarks often underperform in unseen geographic regions due to domain shift - a distributional mismatch between training and deployment data that undermines human trust in automated assessments. We explore a two-stage ensemble approach using supervised domain adaptation (SDA) for building damage classification across four severity classes. The pipeline adapts the xView2 first-place method to the Ida-BD dataset using SDA and systematically investigates the effect of individual augmentation components on classification performance. Comprehensive ablation experiments on the unseen Ida-BD test split demonstrate that SDA is indispensable: removing it causes damage detection to fail entirely. Our pipeline achieves the most robust performance using SDA with unsharp-enhanced RGB input, attaining a Macro-F1 of 0.5552. These results underscore the critical role of domain adaptation in building trustworthy automated damage assessment modules for HMS-integrated disaster response.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Sat-JEPA-Diff: Bridging Self-Supervised Learning and Generative Diffusion for Remote Sensing",
+    "url": "http://arxiv.org/abs/2603.13943v1",
+    "authors": [
+      "Kursat Komurcu",
+      "Linas Petkevicius"
+    ],
+    "published": "2026-03-14",
+    "abstract": "Predicting satellite imagery requires a balance between structural accuracy and textural detail. Standard deterministic methods like PredRNN or SimVP minimize pixel-based errors but suffer from the \"regression to the mean\" problem, producing blurry outputs that obscure subtle geographic-spatial features. Generative models provide realistic textures but often misleadingly reveal structural anomalies. To bridge this gap, we introduce Sat-JEPA-Diff, which combines Self-Supervised Learning (SSL) with Hidden Diffusion Models (LDM). An IJEPA module predicts stable semantic representations, which then route a frozen Stable Diffusion backbone via a lightweight cross-attention adapter. This ensures that the synthesized high-accuracy textures are based on absolutely accurate structural predictions. Evaluated on a global Sentinel-2 dataset, Sat-JEPA-Diff excels at resolving sharp boundaries. It achieves leading perceptual scores (GSSIM: 0.8984, FID: 0.1475) and significantly outperforms deterministic baselines, despite standard autoregressive stability limits. The code and dataset are publicly available on https://github.com/VU-AIML/SAT-JEPA-DIFF.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "JEPA",
+      "Diffusion Models"
+    ],
+    "applications": [
+      "Regression",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "CNN-based forecasting of early winter NAO using sea surface temperature",
+    "url": "http://arxiv.org/abs/2603.16312v1",
+    "authors": [
+      "Elena Provenzano",
+      "Guillaume Gastineau",
+      "Carlos Mejia",
+      "Didier Swingedouw",
+      "Sylvie Thiria"
+    ],
+    "published": "2026-03-17",
+    "abstract": "The North Atlantic Oscillation (NAO) is the dominant mode of atmospheric variability over the North Atlantic sector, influencing temperature and precipitation across Europe. While the NAO's impact on North Atlantic sea surface temperatures (SSTs) is well understood, the NAO can also be driven by SST anomalies. However, this NAO response to SST anomalies is believed to be weak and nonlinear. Former studies highlight that during early winter (November-December), El Nino Southern Oscillation (ENSO) events modulate the NAO, with El Nino (La Nina) events being linked to positive (negative) NAO phases, and an opposite effect observed in late winter (January-February). Indian Ocean SSTs and the North Atlantic Horseshoe SST anomaly have also been suggested as contributors to early winter NAO variability. However, climate models often struggle to capture these SST-NAO teleconnections, particularly in early winter. To address this, a statistical framework based on convolutional neural networks (CNNs) is developed to predict the early winter NAO using observed SST fields one-, two-, and three-month before. A linear model serves as a benchmark, and both models are trained on ERA5 reanalysis data from 1940 to 2023. A sensitivity analysis is used to interpret the CNN's decision-making process, revealing that it focuses on regions such as the tropical Pacific and North Atlantic, confirming results from previous works. The CNN outperforms the linear model, highlighting the value of capturing nonlinear SST-NAO relationships. Prediction skill appears to be linked to ENSO, with strong ENSO events associated with greater skill in forecasting the NAO than neutral events. These findings underscore the potential of deep learning to build medium-range NAO prediction.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "A deep learning framework for marine acoustic and seismic monitoring with distributed acoustic sensing",
+    "url": "http://arxiv.org/abs/2603.14844v1",
+    "authors": [
+      "Chun Zhang",
+      "Weiqiang Zhu",
+      "Barbara A. Romanowicz",
+      "Richard M Allen",
+      "Kenichi Soga",
+      "Yuxin Wu"
+    ],
+    "published": "2026-03-16",
+    "abstract": "Distributed Acoustic Sensing (DAS) enables high-resolution and long-duration monitoring of marine acoustic and seismic activity by turning existing fiber-optic cables into dense sensor arrays. However, extracting diverse signals from continuous DAS data remains challenging due to the massive data volumes and signal complexity. Here, we present DASNet, a deep learning framework for automated detection, classification, and arrival-time picking of diverse marine signals in DAS data. The model is trained using a semi-supervised pipeline on continuous recordings and jointly predicts spatiotemporal bounding boxes and segmentation masks for each detected event. Applied to three years of data from the Seafloor Fiber-Optic Array in Monterey Bay (SeaFOAM), DASNet identified over 500,000 events spanning multiple signal categories. For seismic monitoring, the model detects the majority of cataloged local earthquakes within 100 km and identifies distant earthquake-generated T-waves, with beamforming analysis revealing source azimuths clustered toward the southwestern Pacific and along mid-ocean ridge systems. For bioacoustic monitoring, DASNet detects and tracks more than 400,000 blue and fin whale calls, revealing seasonal and interannual variability consistent with independent hydrophone records. For anthropogenic activity, DASNet detects and localizes vessel traffic near the cable, with estimated positions validated against Automatic Identification System (AIS) tracks. These results demonstrate that combining DAS with deep learning provides a scalable, high-resolution monitoring approach for marine environmental observation. As submarine DAS deployments expand, this framework could substantially enhance seismic, bioacoustic, and anthropogenic observations in regions where conventional instrumentation remains sparse.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Data-driven ensemble prediction of the global ocean",
+    "url": "http://arxiv.org/abs/2603.19591v1",
+    "authors": [
+      "Qiusheng Huang",
+      "Xiaohui Zhong",
+      "Anboyu Guo",
+      "Ziyi Peng",
+      "Lei Chen",
+      "Hao Li"
+    ],
+    "published": "2026-03-20",
+    "abstract": "Data-driven models have advanced deterministic ocean forecasting, but extending machine learning to probabilistic global ocean prediction remains an open challenge. Here we introduce FuXi-ONS, the first machine-learning ensemble forecasting system for the global ocean, providing 5-day forecasts on a global 1\u00b0 grid up to 365 days for sea-surface temperature, sea-surface height, subsurface temperature, salinity and ocean currents. Rather than relying on repeated integration of computationally expensive numerical models, FuXi-ONS learns physically structured perturbations and incorporates an atmospheric encoding module to stabilize long-range forecasts. Evaluated against GLORYS12 reanalysis, FuXi-ONS improves both ensemble-mean skill and probabilistic forecast quality relative to deterministic and noise-perturbed baselines, and shows competitive performance against established seasonal forecast references for SST and Ni\u00f1o3.4 variability, while running orders of magnitude faster than conventional ensemble systems. These results provide a strong example of machine learning advancing a core problem in ocean science, and establish a practical path toward efficient probabilistic ocean forecasting and climate risk assessment.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Rethink Web Service Resilience in Space: A Radiation-Aware and Sustainable Transmission Solution",
+    "url": "http://arxiv.org/abs/2603.18526v1",
+    "authors": [
+      "Long Chen",
+      "Hao Fang",
+      "Yi Ching Chou",
+      "Haoyuan Zhao",
+      "Xiaoyi Fan",
+      "Zhe Chen",
+      "Hengzhi Wang",
+      "Jiangchuan Liu"
+    ],
+    "published": "2026-03-19",
+    "abstract": "Low Earth Orbit (LEO) satellite networks such as Starlink and Project Kuiper are increasingly integrated with cloud infrastructures, forming an important internet backbone for global web services. By extending connectivity to remote regions, oceans, and disaster zones, these networks enable reliable access to applications ranging from real-time WebRTC communication to emergency response portals. Yet the resilience of these web services is threatened by space radiation: it degrades hardware, drains batteries, and disrupts continuity, even if the space-cloud integrated providers use machine learning to analyze space weather and radiation data. Specifically, conventional fixes like altitude adjustments and thermal annealing consume energy; neglecting this energy use results in deep discharge and faster battery aging, whereas sleep modes risk abrupt web session interruptions. Efficient network-layer mitigation remains a critical gap. We propose RALT (Radiation-Aware LEO Transmission), a control-plane solution that dynamically reroutes traffic during radiation events, accounting for energy constraints to minimize battery degradation and sustain service performance. Our work shows that unlocking space-based web services' full potential for global reliable connectivity requires rethinking resilience through the lens of the space environment itself.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Physics-informed offline reinforcement learning eliminates catastrophic fuel waste in maritime routing",
+    "url": "http://arxiv.org/abs/2603.17319v1",
+    "authors": [
+      "Aniruddha Bora",
+      "Julie Chalfant",
+      "Chryssostomos Chryssostomidis"
+    ],
+    "published": "2026-03-18",
+    "abstract": "International shipping produces approximately 3% of global greenhouse gas emissions, yet voyage routing remains dominated by heuristic methods. We present PIER (Physics-Informed, Energy-efficient, Risk-aware routing), an offline reinforcement learning framework that learns fuel-efficient, safety-aware routing policies from physics-calibrated environments grounded in historical vessel tracking data and ocean reanalysis products, requiring no online simulator. Validated on one full year (2023) of AIS data across seven Gulf of Mexico routes (840 episodes per method), PIER reduces mean CO2 emissions by 10% relative to great-circle routing. However, PIER's primary contribution is eliminating catastrophic fuel waste: great-circle routing incurs extreme fuel consumption (>1.5x median) in 4.8% of voyages; PIER reduces this to 0.5%, a 9-fold reduction. Per-voyage fuel variance is 3.5x lower (p<0.001), with bootstrap 95% CI for mean savings [2.9%, 15.7%]. Partial validation against observed AIS vessel behavior confirms consistency with the fastest real transits while exhibiting 23.1x lower variance. Crucially, PIER is forecast-independent: unlike A* path optimization whose wave protection degrades 4.5x under realistic forecast uncertainty, PIER maintains constant performance using only local observations. The framework combines physics-informed state construction, demonstration-augmented offline data, and a decoupled post-hoc safety shield, an architecture that transfers to wildfire evacuation, aircraft trajectory optimization, and autonomous navigation in unmapped terrain.",
+    "categories": [
+      "ship_trajectories",
+      "ocean"
+    ],
+    "architectures": [
+      "PINN"
+    ],
+    "applications": [
+      "Forecast",
+      "Reinforcement Learning",
+      "Tracking"
+    ]
   }
 ]
