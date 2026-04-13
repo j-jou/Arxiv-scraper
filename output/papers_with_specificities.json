@@ -25182,7 +25182,8 @@
     "architectures": [],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "OpenDPR: Open-Vocabulary Change Detection via Vision-Centric Diffusion-Guided Prototype Retrieval for Remote Sensing Imagery",
@@ -25205,7 +25206,8 @@
     ],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Transferring Physical Priors into Remote Sensing Segmentation via Large Language Models",
@@ -25229,7 +25231,8 @@
     ],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Smart Transfer: Leveraging Vision Foundation Model for Rapid Building Damage Mapping with Post-Earthquake VHR Imagery",
@@ -25250,7 +25253,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Test-Time Adaptation for Height Completion via Self-Supervised ViT Features and Monocular Foundation Models",
@@ -25270,7 +25274,8 @@
     ],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "PRUE: A Practical Recipe for Field Boundary Segmentation at Scale",
@@ -25300,7 +25305,8 @@
     ],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Estimating the Impact of COVID-19 on Travel Demand in Houston Area Using Deep Learning and Satellite Imagery",
@@ -25320,7 +25326,8 @@
     "architectures": [
       "CNN"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "SVH-BD : Synthetic Vegetation Hyperspectral Benchmark Dataset for Emulation of Remote Sensing Images",
@@ -25339,7 +25346,8 @@
     "architectures": [],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Light-ResKAN: A Parameter-Sharing Lightweight KAN with Gram Polynomials for Efficient SAR Image Recognition",
@@ -25362,7 +25370,8 @@
     ],
     "applications": [
       "Recognition"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Horizontal-Component Prior-based Framework for Adaptive Shear-wave Leakage Suppression in OBC Data",
@@ -25379,7 +25388,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Improving Ensemble Forecasts of Abnormally Deflecting Tropical Cyclones with Fused Atmosphere-Ocean-Terrain Data",
@@ -25399,7 +25409,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "ACE2-NEMO: Coupling an ML atmospheric emulator to a full-depth dynamical ocean model",
@@ -25416,7 +25427,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "GISclaw: An Open-Source LLM-Powered Agent System for Full-Stack Geospatial Analysis",
@@ -25436,7 +25448,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "GeoAI Agency Primitives",
@@ -25459,6 +25472,421 @@
     "architectures": [],
     "applications": [
       "Segmentation"
+    ],
+    "is_recent": false
+  },
+  {
+    "title": "OceanMAE: A Foundation Model for Ocean Remote Sensing",
+    "url": "http://arxiv.org/abs/2604.08171v1",
+    "authors": [
+      "Viola-Joanna Stamer",
+      "Panagiotis Agrafiotis",
+      "Behnood Rasti",
+      "Beg\u00fcm Demir"
+    ],
+    "published": "2026-04-09",
+    "abstract": "Accurate ocean mapping is essential for applications such as bathymetry estimation, seabed characterization, marine litter detection, and ecosystem monitoring. However, ocean remote sensing (RS) remains constrained by limited labeled data and by the reduced transferability of models pre-trained mainly on land-dominated Earth observation imagery. In this paper, we propose OceanMAE, an ocean-specific masked autoencoder that extends standard MAE pre-training by integrating multispectral Sentinel-2 observations with physically meaningful ocean descriptors during self-supervised learning. By incorporating these auxiliary ocean features, OceanMAE is designed to learn more informative and ocean-aware latent representations from large- scale unlabeled data. To transfer these representations to downstream applications, we further employ a modified UNet-based framework for marine segmentation and bathymetry estimation. Pre-trained on the Hydro dataset, OceanMAE is evaluated on MADOS and MARIDA for marine pollutant and debris segmentation, and on MagicBathyNet for bathymetry regression. The experiments show that OceanMAE yields the strongest gains on marine segmentation, while bathymetry benefits are competitive and task-dependent. In addition, an ablation against a standard MAE on MARIDA indicates that incorporating auxiliary ocean descriptors during pre-training improves downstream segmentation quality. These findings highlight the value of physically informed and domain-aligned self-supervised pre- training for ocean RS. Code and weights are publicly available at https://git.tu-berlin.de/joanna.stamer/SSLORS2.",
+    "categories": [
+      "ocean",
+      "foundation_model"
+    ],
+    "architectures": [
+      "UNET",
+      "Autoencoder"
+    ],
+    "applications": [
+      "Segmentation",
+      "Detection",
+      "Regression"
+    ]
+  },
+  {
+    "title": "A Unified Foundation Model for All-in-One Multi-Modal Remote Sensing Image Restoration and Fusion with Language Prompting",
+    "url": "http://arxiv.org/abs/2604.05629v1",
+    "authors": [
+      "Yongchuan Cui",
+      "Peng Liu"
+    ],
+    "published": "2026-04-07",
+    "abstract": "Remote sensing imagery suffers from clouds, haze, noise, resolution limits, and sensor heterogeneity. Existing restoration and fusion approaches train separate models per degradation type. In this work, we present Language-conditioned Large-scale Remote Sensing restoration model (LLaRS), the first unified foundation model for multi-modal and multi-task remote sensing low-level vision. LLaRS employs Sinkhorn-Knopp optimal transport to align heterogeneous bands into semantically matched slots, routes features through three complementary mixture-of-experts layers (convolutional experts for spatial patterns, channel-mixing experts for spectral fidelity, and attention experts with low-rank adapters for global context), and stabilizes joint training via step-level dynamic weight adjustment. To train LLaRS, we construct LLaRS1M, a million-scale multi-task dataset spanning eleven restoration and enhancement tasks, integrating real paired observations and controlled synthetic degradations with diverse natural language prompts. Experiments show LLaRS consistently outperforms seven competitive models, and parameter-efficient finetuning experiments demonstrate strong transfer capability and adaptation efficiency on unseen data. Repo: https://github.com/yc-cui/LLaRS",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Prior-guided Fusion of Multimodal Features for Change Detection from Optical-SAR Images",
+    "url": "http://arxiv.org/abs/2604.05527v1",
+    "authors": [
+      "Xuanguang Liu",
+      "Lei Ding",
+      "Yujie Li",
+      "Chenguang Dai",
+      "Zhenchao Zhang",
+      "Mengmeng Li",
+      "Ziyi Yang",
+      "Yifan Sun",
+      "Yongqi Sun",
+      "Hanyun Wang"
+    ],
+    "published": "2026-04-07",
+    "abstract": "Multimodal change detection (MMCD) identifies changed areas in multimodal remote sensing (RS) data, demonstrating significant application value in land use monitoring, disaster assessment, and urban sustainable development. However, literature MMCD approaches exhibit limitations in cross-modal interaction and exploiting modality-specific characteristics. This leads to insufficient modeling of fine-grained change information, thus hindering the precise detection of semantic changes in multimodal data. To address the above problems, we propose STSF-Net, a framework designed for MMCD between optical and SAR images. STSF-Net jointly models modality-specific and spatio-temporal common features to enhance change representations. Specifically, modality-specific features are exploited to capture genuine semantic change signals, while spatio-temporal common features are embedded to suppress pseudo-changes caused by differences in imaging mechanisms. Furthermore, we introduce an optical and SAR feature fusion strategy that adaptively adjusts feature importance based on semantic priors obtained from pre-trained foundational models, enabling semantic-guided adaptive fusion of multi-modal information. In addition, we introduce the Delta-SN6 dataset, the first openly-accessible multiclass MMCD benchmark consisting of very-high-resolution (VHR) fully polarimetric SAR and optical images. Experimental results on Delta-SN6, BRIGHT, and Wuhan-Het datasets demonstrate that our method outperforms the state-of-the-art (SOTA) by 3.21%, 1.08%, and 1.32% in mIoU, respectively. The associated code and Delta-SN6 dataset will be released at: https://github.com/liuxuanguang/STSF-Net.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "HighFM: Towards a Foundation Model for Learning Representations from High-Frequency Earth Observation Data",
+    "url": "http://arxiv.org/abs/2604.04306v1",
+    "authors": [
+      "Stella Girtsou",
+      "Konstantinos Alexis",
+      "Giorgos Giannopoulos",
+      "Harris Kontoes"
+    ],
+    "published": "2026-04-05",
+    "abstract": "The increasing frequency and severity of climate related disasters have intensified the need for real time monitoring, early warning, and informed decision-making. Earth Observation (EO), powered by satellite data and Machine Learning (ML), offers powerful tools to meet these challenges. Foundation Models (FMs) have revolutionized EO ML by enabling general-purpose pretraining on large scale remote sensing datasets. However most existing models rely on high-resolution satellite imagery with low revisit rates limiting their suitability for fast-evolving phenomena and time critical emergency response. In this work, we present HighFM, a first cut approach towards a FM for high temporal resolution, multispectral EO data. Leveraging over 2 TB of SEVIRI imagery from the Meteosat Second Generation (MSG) platform, we adapt the SatMAE masked autoencoding framework to learn robust spatiotemporal representations. To support real time monitoring, we enhance the original architecture with fine grained temporal encodings to capture short term variability. The pretrained models are then finetuned on cloud masking and active fire detection tasks. We benchmark our SEVIRI pretrained Vision Transformers against traditional baselines and recent geospatial FMs, demonstrating consistent gains across both balanced accuracy and IoU metrics. Our results highlight the potential of temporally dense geostationary data for real-time EO, offering a scalable path toward foundation models for disaster detection and tracking.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Detection",
+      "Tracking"
+    ]
+  },
+  {
+    "title": "Enabling Intrinsic Reasoning over Dense Geospatial Embeddings with DFR-Gemma",
+    "url": "http://arxiv.org/abs/2604.07490v1",
+    "authors": [
+      "Xuechen Zhang",
+      "Aviv Slobodkin",
+      "Joydeep Paul",
+      "Mandar Sharma",
+      "Samet Oymak",
+      "Shravya Shetty",
+      "Gautam Prasad"
+    ],
+    "published": "2026-04-08",
+    "abstract": "Representation learning for geospatial and spatio-temporal data plays a critical role in enabling general-purpose geospatial intelligence. Recent geospatial foundation models, such as the Population Dynamics Foundation Model (PDFM), encode complex population and mobility dynamics into compact embeddings. However, their integration with Large Language Models (LLMs) remains limited. Existing approaches to LLM integration treat these embeddings as retrieval indices or convert them into textual descriptions for reasoning, introducing redundancy, token inefficiency, and numerical inaccuracies. We propose Direct Feature Reasoning-Gemma (DFR-Gemma), a novel framework that enables LLMs to reason directly over dense geospatial embeddings. DFR aligns high-dimensional embeddings with the latent space of an LLM via a lightweight projector, allowing embeddings to be injected as semantic tokens alongside natural language instructions. This design eliminates the need for intermediate textual representations and enables intrinsic reasoning over spatial features. To evaluate this paradigm, we introduce a multi-task geospatial benchmark that pairs embeddings with diverse question-answer tasks, including feature querying, comparison, and semantic description. Experimental results show that DFR allows LLMs to decode latent spatial patterns and perform accurate zero-shot reasoning across tasks, while significantly improving efficiency compared to text-based baselines. Our results demonstrate that treating embeddings as primary data inputs, provides a more direct, efficient, and scalable approach to multimodal geospatial intelligence.",
+    "categories": [
+      "geo_reasoning",
+      "foundation_model"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Location Is All You Need: Continuous Spatiotemporal Neural Representations of Earth Observation Data",
+    "url": "http://arxiv.org/abs/2604.07092v2",
+    "authors": [
+      "Mojgan Madadikhaljan",
+      "Jonathan Prexl",
+      "Isabelle Wittmann",
+      "Conrad M Albrecht",
+      "Michael Schmitt"
+    ],
+    "published": "2026-04-08",
+    "abstract": "In this work, we present LIANet (Location Is All You Need Network), a coordinate-based neural representation that models multi-temporal spaceborne Earth observation (EO) data for a given region of interest as a continuous spatiotemporal neural field. Given only spatial and temporal coordinates, LIANet reconstructs the corresponding satellite imagery. Once pretrained, this neural representation can be adapted to various EO downstream tasks, such as semantic segmentation or pixel-wise regression, importantly, without requiring access to the original satellite data. LIANet intends to serve as a user-friendly alternative to Geospatial Foundation Models (GFMs) by eliminating the overhead of data access and preprocessing for end-users and enabling fine-tuning solely based on labels. We demonstrate the pretraining of LIANet across target areas of varying sizes and show that fine-tuning it for downstream tasks achieves competitive performance compared to training from scratch or using established GFMs. The source code and datasets are publicly available at https://github.com/mojganmadadi/LIANet/tree/v1.0.1.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Regression"
+    ]
+  },
+  {
+    "title": "Spatiotemporal Interpolation of GEDI Biomass with Calibrated Uncertainty",
+    "url": "http://arxiv.org/abs/2604.03874v1",
+    "authors": [
+      "Robin Young",
+      "Srinivasan Keshav"
+    ],
+    "published": "2026-04-04",
+    "abstract": "Monitoring deforestation-driven carbon emissions requires both spatially explicit and temporally continuous estimates of aboveground biomass density (AGBD) with calibrated uncertainty. NASA's Global Ecosystem Dynamics Investigation (GEDI) provides reliable LIDAR-derived AGBD, but its orbital sampling causes irregular spatiotemporal coverage, and occasional operational interruptions, including a 13-month hibernation from March 2023 to April 2024, leave extended gaps in the observational record. Prior work has used machine learning approaches to fill GEDI's spatial gaps using satellite-derived features, but temporal interpolation of biomass through unobserved periods, particularly across active disturbance events, remains largely unaddressed. Moreover, standard ensemble methods for biomass mapping have been shown to produce systematically miscalibrated prediction intervals. To address these gaps, we extend the Attentive Neural Process (ANP) framework, previously applied to spatial biomass interpolation, to jointly sparse spatiotemporal settings using geospatial foundation model embeddings. We treat space and time symmetrically, empirically validating a form of space-for-time substitution in which observations from nearby locations at other times inform predictions at held-out periods. Our results demonstrate that the ANP produces well-calibrated uncertainty estimates across disturbance regimes, supporting its use in Measurement, Reporting, and Verification (MRV) applications that require reliable uncertainty quantification for forest carbon accounting.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "CloudMamba: An Uncertainty-Guided Dual-Scale Mamba Network for Cloud Detection in Remote Sensing Imagery",
+    "url": "http://arxiv.org/abs/2604.06844v1",
+    "authors": [
+      "Jiajun Yang",
+      "Keyan Chen",
+      "Zhengxia Zou",
+      "Zhenwei Shi"
+    ],
+    "published": "2026-04-08",
+    "abstract": "Cloud detection in remote sensing imagery is a fundamental, critical, and highly challenging problem. Existing deep learning-based cloud detection methods generally formulate it as a single-stage pixel-wise binary segmentation task with one forward pass. However, such single-stage approaches exhibit ambiguity and uncertainty in thin-cloud regions and struggle to accurately handle fragmented clouds and boundary details. In this paper, we propose a novel deep learning framework termed CloudMamba. To address the ambiguity in thin-cloud regions, we introduce an uncertainty-guided two-stage cloud detection strategy. An embedded uncertainty estimation module is proposed to automatically quantify the confidence of thin-cloud segmentation, and a second-stage refinement segmentation is introduced to improve the accuracy in low-confidence hard regions. To better handle fragmented clouds and fine-grained boundary details, we design a dual-scale Mamba network based on a CNN-Mamba hybrid architecture. Compared with Transformer-based models with quadratic computational complexity, the proposed method maintains linear computational complexity while effectively capturing both large-scale structural characteristics and small-scale boundary details of clouds, enabling accurate delineation of overall cloud morphology and precise boundary segmentation. Extensive experiments conducted on the GF1_WHU and Levir_CS public datasets demonstrate that the proposed method outperforms existing approaches across multiple segmentation accuracy metrics, while offering high efficiency and process transparency. Our code is available at https://github.com/jayoungo/CloudMamba.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": [
+      "Segmentation",
+      "Detection"
+    ]
+  },
+  {
+    "title": "Uncertainty-Aware Test-Time Adaptation for Cross-Region Spatio-Temporal Fusion of Land Surface Temperature",
+    "url": "http://arxiv.org/abs/2604.04153v1",
+    "authors": [
+      "Sofiane Bouaziz",
+      "Adel Hafiane",
+      "Raphael Canals",
+      "Rachid Nedjai"
+    ],
+    "published": "2026-04-05",
+    "abstract": "Deep learning models have shown great promise in diverse remote sensing applications. However, they often struggle to generalize across geographic regions unseen during training due to domain shifts. Domain shifts occur when data distributions differ between the training region and new target regions, due to variations in land cover, climate, and environmental conditions. Test-time adaptation (TTA) has emerged as a solution to such shifts, but existing methods are primarily designed for classification and are not directly applicable to regression tasks. In this work, we address the regression task of spatio-temporal fusion (STF) for land surface temperature estimation. We propose an uncertainty-aware TTA framework that updates only the fusion module of a pre-trained STF model, guided by epistemic uncertainty, land use and land cover consistency, and bias correction, without requiring source data or labeled target samples. Experiments on four target regions with diverse climates, namely Rome in Italy, Cairo in Egypt, Madrid in Spain, and Montpellier in France, show consistent improvements in RMSE and MAE for a pre-trained model in Orl\u00e9ans, France. The average gains are 24.2% and 27.9%, respectively, even with limited unlabeled target data and only 10 TTA epochs.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification",
+      "Regression"
+    ]
+  },
+  {
+    "title": "Variational Quantum Physics-Informed Neural Networks for Hydrological PDE-Constrained Learning with Inherent Uncertainty Quantification",
+    "url": "http://arxiv.org/abs/2604.09374v1",
+    "authors": [
+      "Prasad Nimantha Madusanka Ukwatta Hewage",
+      "Midhun Chakkravarthy",
+      "Ruvan Kumara Abeysekara"
+    ],
+    "published": "2026-04-10",
+    "abstract": "We propose a Hybrid Quantum-Classical Physics-Informed Neural Network (HQC-PINN) that integrates parameterized variational quantum circuits into the PINN framework for hydrological PDE-constrained learning. Our architecture encodes multi-source remote sensing features into quantum states via trainable angle encoding, processes them through a hardware-efficient variational ansatz with entangling layers, and constrains the output using the Saint-Venant shallow water equations and Manning's flow equation as differentiable physics loss terms. The inherent stochasticity of quantum measurement provides a natural mechanism for uncertainty quantification without requiring explicit Bayesian inference machinery. We further introduce a quantum transfer learning protocol that pre-trains on multi-hazard disaster data before fine-tuning on flood-specific events. Numerical simulations on multi-modal satellite and meteorological data from the Kalu River basin, Sri Lanka, show that the HQC-PINN achieves convergence in ~3x fewer training epochs and uses ~44% fewer trainable parameters compared to an equivalent classical PINN, while maintaining competitive classification accuracy. Theoretical analysis indicates that hydrological physics constraints narrow the effective optimization landscape, providing a natural mitigation against barren plateaus in variational quantum circuits. This work establishes the first application of quantum-enhanced physics-informed learning to hydrological prediction and demonstrates a viable path toward quantum advantage in environmental science.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "PINN"
+    ],
+    "applications": [
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Low-Data Supervised Adaptation Outperforms Prompting for Cloud Segmentation Under Domain Shift",
+    "url": "http://arxiv.org/abs/2604.08956v1",
+    "authors": [
+      "Harshith Kethavath",
+      "Weiming Hu"
+    ],
+    "published": "2026-04-10",
+    "abstract": "Adapting vision-language models to remote sensing imagery presents a fundamental challenge: both the visual and linguistic distributions of satellite data lie far outside natural image pretraining corpora. Despite this, prompting remains the dominant deployment paradigm, driven by the assumption that domain-specific language can guide frozen model representations toward specialized tasks. We test this assumption directly on a domain where the mismatch is prominent: cloud segmentation for satellite imagery. Using CLIPSeg on the CloudSEN12+ cloud segmentation benchmark, we evaluate 60 prompt variants spanning simple labels, domain terminology, appearance descriptors, and contextual cues, finding that every variant underperforms the zero-shot baseline (0.255 mIoU), with engineered prompts scoring as low as 0.07 mIoU. No amount of linguistic refinement bridges the gap between CLIP's natural image representations and satellite spectral imagery. In contrast, supervised fine-tuning with just 0.1% labeled data (~8 images) surpasses zero-shot performance overall, and 5-10% data recovers ~85% of maximum achievable mIoU. Full fine-tuning consistently outperforms low-rank adaptation by 0.03-0.09 mIoU, with the largest gaps for spectrally ambiguous classes, and at 0.5 to 1% labeled data, fine-tuning temporarily degrades performance on these classes before recovering, a supervision dip that aggregate mIoU can mask. For practitioners adapting vision-language models to specialized imagery, our results deliver a clear message: labeled data is not the expensive alternative to prompting; it is the worthwhile path.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "LVM",
+      "CLIP"
+    ],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "CERBERUS: A Three-Headed Decoder for Vertical Cloud Profiles",
+    "url": "http://arxiv.org/abs/2604.08772v1",
+    "authors": [
+      "Emily K. deJong",
+      "Nipun Gunawardena",
+      "Kevin Smalley",
+      "Hassan Beydoun",
+      "Peter Caldwell"
+    ],
+    "published": "2026-04-09",
+    "abstract": "Atmospheric clouds exhibit complex three-dimensional structure and microphysical details that are poorly constrained by the predominantly two-dimensional satellite observations available at global scales. This mismatch complicates data-driven learning and evaluation of cloud processes in weather and climate models, contributing to ongoing uncertainty in atmospheric physics. We introduce CERBERUS, a probabilistic inference framework for generating vertical radar reflectivity profiles from geostationary satellite brightness temperatures, near-surface meteorological variables, and temporal context. CERBERUS employs a three-headed encoder-decoder architecture to predict a zero-inflated (ZI) vertically-resolved distribution of radar reflectivity. Trained and evaluated using ground-based Ka-band radar observations at the ARM Southern Great Plains site, CERBERUS recovers coherent structures across cloud regimes, generalizes to withheld test periods, and provides uncertainty estimates that reflect physical ambiguity, particularly in multilayer and dynamically complex clouds. These results demonstrate the value of distribution-based learning targets for bridging observational scales, introducing a path toward model-relevant synthetic observations of clouds.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "El Nino Prediction Based on Weather Forecast and Geographical Time-series Data",
+    "url": "http://arxiv.org/abs/2604.04998v1",
+    "authors": [
+      "Viet Trinh",
+      "Ha-Vy Luu",
+      "Quoc-Khiem Nguyen-Pham",
+      "Hung Tong",
+      "Thanh-Huyen Tran",
+      "Hoai-Nam Nguyen Dang"
+    ],
+    "published": "2026-04-05",
+    "abstract": "This paper proposes a novel framework for enhancing the prediction accuracy and lead time of El Ni\u00f1o events, crucial for mitigating their global climatic, economic, and societal impacts. Traditional prediction models often rely on oceanic and atmospheric indices, which may lack the granularity or dynamic interplay captured by comprehensive meteorological and geographical datasets. Our framework integrates real-time global weather forecast data with anomalies, subsurface ocean heat content, and atmospheric pressure across various temporal and spatial resolutions. Leveraging a hybrid deep learning architecture that combines a Convolutional Neural Network (CNN) for spatial feature extraction and a Long Short-Term Memory (LSTM) network for temporal dependency modeling, the framework aims to identify complex precursors and evolving patterns of El Ni\u00f1o events.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "CNN",
+      "LSTM"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Comparing Ocean Forecasts Driven with Machine Learning-based and Physics-based Atmospheric Forcings",
+    "url": "http://arxiv.org/abs/2604.07861v1",
+    "authors": [
+      "Xiaobing Zhou",
+      "Frank Colberg",
+      "Debra Hudson",
+      "Yonghong Yin",
+      "Griffith Young",
+      "Christopher Bladwell",
+      "Catherine Deburgh-Day"
+    ],
+    "published": "2026-04-09",
+    "abstract": "Operational ocean forecasting systems conventionally employ dynamical ocean models driven by atmospheric forcing derived from numerical weather prediction (NWP) models. Recent advancements in artificial intelligence and machine learning (ML) have led to the development of ML-based atmospheric weather models, which have competitive, if not better, medium range forecast accuracy compared to traditional NWP systems. This study evaluates the impact of ML-based atmospheric forcing on ocean forecast skill through two sets of 10-day forecasts using the UK Met Office GOSI9 configuration of the NEMO dynamical ocean model. Both experiments share identical ocean initial conditions; but differ in atmospheric forcing: one uses ECMWF's ML-based AIFS model, while the other uses the Australian Bureau of Meteorology's physics-based NWP model, ACCESS-G3. Forecasts were initialized on the first day of each month over the period 2023-2024. The quality of the atmospheric forcing was assessed by comparing AIFS and ACCESS-G3 forecast skill against both ECMWF reanalysis v5 (ERA5) and ACCESS-G3 analyses. Results indicate that AIFS consistently outperforms ACCESS-G3, either from the initial forecast time or after the first few days. Oceanic forecast skill was evaluated against both the GOSI9 reanalysis and observations, focusing on key surface variables including sea surface temperature, salinity, sea level, and ocean currents. The ocean forecasts forced with AIFS atmospheric data exhibit comparable or enhanced predictive skill compared to those forced with ACCESS-G3 data. These findings underscore the potential of ML-based atmospheric models to replace traditional NWP forcing in operational ocean forecasting systems, offering improved accuracy and computational efficiency.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "TurPy: a physics-based and differentiable optical turbulence simulator for algorithmic development and system optimization",
+    "url": "http://arxiv.org/abs/2604.07248v2",
+    "authors": [
+      "Joseph L. Greene",
+      "Alfred Moore",
+      "Iris Ochoa",
+      "Emily Kwan",
+      "Patrick Marano",
+      "Christopher R. Valenta"
+    ],
+    "published": "2026-04-08",
+    "abstract": "Developing optical systems for free-space applications requires simulation tools that accurately capture turbulence-induced wavefront distortions and support gradient-based optimization. Here we introduce TurPy, a GPU-accelerated, fully differentiable wave optics turbulence simulator to bridge high fidelity simulation with end-to-end optical system design. TurPy incorporates subharmonic phase screen generation, autoregressive temporal evolution, and an automated screen placement routine balancing Fourier aliasing constraints and weak-turbulence approximations into a unified, user-ready framework. Because TurPy's phase screen generation is parameterized through a media-specific power spectral density, the framework extends to atmospheric, oceanic, and biological propagation environments with minimal modification. We validate TurPy against established atmospheric turbulence theory by matching 2nd order Gaussian beam broadening and 4th order plane wave scintillation to closed-form models with 98% accuracy across weak to strong turbulence regimes, requiring only the medium's refractive index structure constant and power spectral density as inputs. To demonstrate TurPy as a gradient-based training platform, we optimize a dual-domain diffractive deep neural network (D2NN) in a two-mask dual-domain architecture to recover a Gaussian beam from a weakly turbulent path and achieving over 20x reduction in scintillation relative to an uncompensated receiver in simulation. TurPy is released as an open-source package to support synthetic data generation, turbulence-informed algorithm development, and the end-to-end design of optical platforms operating in turbulent environments.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Deep Neural Network"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Calibration of a neural network ocean closure for improved mean state and variability",
+    "url": "http://arxiv.org/abs/2604.06398v1",
+    "authors": [
+      "Pavel Perezhogin",
+      "Alistair Adcroft",
+      "Laure Zanna"
+    ],
+    "published": "2026-04-07",
+    "abstract": "Global ocean models exhibit biases in the mean state and variability, particularly at coarse resolution, where mesoscale eddies are unresolved. To address these biases, parameterization coefficients are typically tuned ad hoc. Here, we formulate parameter tuning as a calibration problem using Ensemble Kalman Inversion (EKI). We optimize parameters of a neural network parameterization of mesoscale eddies in two idealized ocean models at coarse resolution. The calibrated parameterization reduces errors in the time-averaged fluid interfaces and their variability by approximately a factor of two compared to the unparameterized model or the offline-trained parameterization. The EKI method is robust to noise in time-averaged statistics arising from chaotic ocean dynamics. Furthermore, we propose an efficient calibration protocol that bypasses integration to statistical equilibrium by carefully choosing an initial condition. These results demonstrate that systematic calibration can substantially improve coarse-resolution ocean simulations and provide a practical pathway for reducing biases in global ocean models.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "GeoMMBench and GeoMMAgent: Toward Expert-Level Multimodal Intelligence in Geoscience and Remote Sensing",
+    "url": "http://arxiv.org/abs/2604.08896v1",
+    "authors": [
+      "Aoran Xiao",
+      "Shihao Cheng",
+      "Yonghao Xu",
+      "Yexian Ren",
+      "Hongruixuan Chen",
+      "Naoto Yokoya"
+    ],
+    "published": "2026-04-10",
+    "abstract": "Recent advances in multimodal large language models (MLLMs) have accelerated progress in domain-oriented AI, yet their development in geoscience and remote sensing (RS) remains constrained by distinctive challenges: wide-ranging disciplinary knowledge, heterogeneous sensor modalities, and a fragmented spectrum of tasks. To bridge these gaps, we introduce GeoMMBench, a comprehensive multimodal question-answering benchmark covering diverse RS disciplines, sensors, and tasks, enabling broader and more rigorous evaluation than prior benchmarks. Using GeoMMBench, we assess 36 open-source and proprietary large language models, uncovering systematic deficiencies in domain knowledge, perceptual grounding, and reasoning--capabilities essential for expert-level geospatial interpretation. Beyond evaluation, we propose GeoMMAgent, a multi-agent framework that strategically integrates retrieval, perception, and reasoning through domain-specific RS models and tools. Extensive experimental results demonstrate that GeoMMAgent significantly outperforms standalone LLMs, underscoring the importance of tool-augmented agents for dynamically tackling complex geoscience and RS challenges.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "MONETA: Multimodal Industry Classification through Geographic Information with Multi Agent Systems",
+    "url": "http://arxiv.org/abs/2604.07956v2",
+    "authors": [
+      "Arda Y\u00fcksel",
+      "Gabriel Thiem",
+      "Susanne Walter",
+      "Patrick Felka",
+      "Gabriela Alves Werb",
+      "Ivan Habernal"
+    ],
+    "published": "2026-04-09",
+    "abstract": "Industry classification schemes are integral parts of public and corporate databases as they classify businesses based on economic activity. Due to the size of the company registers, manual annotation is costly, and fine-tuning models with every update in industry classification schemes requires significant data collection. We replicate the manual expert verification by using existing or easily retrievable multimodal resources for industry classification. We present MONETA, the first multimodal industry classification benchmark with text (Website, Wikipedia, Wikidata) and geospatial sources (OpenStreetMap and satellite imagery). Our dataset enlists 1,000 businesses in Europe with 20 economic activity labels according to EU guidelines (NACE). Our training-free baseline reaches 62.10% and 74.10% with open and closed-source Multimodal Large Language Models (MLLM). We observe an increase of up to 22.80% with the combination of multi-turn design, context enrichment, and classification explanations. We will release our dataset and the enhanced guidelines.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "A Guide to Using Social Media as a Geospatial Lens for Studying Public Opinion and Behavior",
+    "url": "http://arxiv.org/abs/2604.07773v1",
+    "authors": [
+      "Lingyao Li"
+    ],
+    "published": "2026-04-09",
+    "abstract": "Social media and online review platforms have become valuable sources for studying how people express opinions, report experiences, and respond to events across space. This work presents a practical guide to using user-generated social data for geospatial research on public opinion, human behavior, and place-based experience. It shows the promise of using these data as a form of passive, distributed, and human-centered sensing that complements traditional surveys and sensor systems. Methodologically, the chapter outlines a general workflow that includes platform-aware data collection, information extraction, geospatial anchoring, and statistical modeling. It also discusses how advances in large language models (LLMs) strengthen the ability to extract structured information from noisy and unstructured content. Four case studies illustrate this framework: COVID-19 vaccine acceptance, earthquake damage assessment, airport service quality, and accessibility in urban environment. Across these cases, social media data are shown to support timely measurement of public attitudes, rapid approximation of geographically distributed impacts, and fine-grained understanding of place-based experiences.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Thermodynamic-Inspired Explainable GeoAI: Uncovering Regime-Dependent Mechanisms in Heterogeneous Spatial Systems",
+    "url": "http://arxiv.org/abs/2604.04339v1",
+    "authors": [
+      "Sooyoung Lim",
+      "Zhenlong Li",
+      "Zi-Kui Liu"
+    ],
+    "published": "2026-04-06",
+    "abstract": "Modeling spatial heterogeneity and associated critical transitions remains a fundamental challenge in geography and environmental science. While conventional Geographically Weighted Regression (GWR) and deep learning models have improved predictive skill, they often fail to elucidate state-dependent nonlinearities where the functional roles of drivers represent opposing effects across heterogeneous domains. We introduce a thermodynamics-inspired explainable geospatial AI framework that integrates statistical mechanics with graph neural networks. By conceptualizing spatial variability as a thermodynamic competition between system Burden (E) and Capacity (S), our model disentangles the latent mechanisms driving spatial processes. Using three simulation datasets and three real-word datasets across distinct domains (housing markets, mental health prevalence, and wildfire-induced PM2.5 anomalies), we show that the new framework successfully identifies regime-dependent role reversals of predictors that standard baselines miss. Notably, the framework explicitly diagnoses the phase transition into a Burden-dominated regime during the 2023 Canadian wildfire event, distinguishing physical mechanism shifts from statistical outliers. These findings demonstrate that thermodynamic constraints can improve the interpretability of GeoAI while preserving strong predictive performance in complex spatial systems.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "GNN"
+    ],
+    "applications": [
+      "Regression"
     ]
   }
 ]
