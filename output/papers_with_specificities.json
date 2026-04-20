@@ -25498,7 +25498,8 @@
       "Segmentation",
       "Detection",
       "Regression"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "A Unified Foundation Model for All-in-One Multi-Modal Remote Sensing Image Restoration and Fusion with Language Prompting",
@@ -25513,7 +25514,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Prior-guided Fusion of Multimodal Features for Change Detection from Optical-SAR Images",
@@ -25538,7 +25540,8 @@
     "architectures": [],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "HighFM: Towards a Foundation Model for Learning Representations from High-Frequency Earth Observation Data",
@@ -25561,7 +25564,8 @@
     "applications": [
       "Detection",
       "Tracking"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Enabling Intrinsic Reasoning over Dense Geospatial Embeddings with DFR-Gemma",
@@ -25584,7 +25588,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Location Is All You Need: Continuous Spatiotemporal Neural Representations of Earth Observation Data",
@@ -25605,7 +25610,8 @@
     "applications": [
       "Segmentation",
       "Regression"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Spatiotemporal Interpolation of GEDI Biomass with Calibrated Uncertainty",
@@ -25622,7 +25628,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "CloudMamba: An Uncertainty-Guided Dual-Scale Mamba Network for Cloud Detection in Remote Sensing Imagery",
@@ -25645,7 +25652,8 @@
     "applications": [
       "Segmentation",
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Uncertainty-Aware Test-Time Adaptation for Cross-Region Spatio-Temporal Fusion of Land Surface Temperature",
@@ -25665,7 +25673,8 @@
     "applications": [
       "Classification",
       "Regression"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Variational Quantum Physics-Informed Neural Networks for Hydrological PDE-Constrained Learning with Inherent Uncertainty Quantification",
@@ -25686,7 +25695,8 @@
     "applications": [
       "Classification",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Low-Data Supervised Adaptation Outperforms Prompting for Cloud Segmentation Under Domain Shift",
@@ -25706,7 +25716,8 @@
     ],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "CERBERUS: A Three-Headed Decoder for Vertical Cloud Profiles",
@@ -25724,7 +25735,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "El Nino Prediction Based on Weather Forecast and Geographical Time-series Data",
@@ -25748,7 +25760,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Comparing Ocean Forecasts Driven with Machine Learning-based and Physics-based Atmospheric Forcings",
@@ -25770,7 +25783,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "TurPy: a physics-based and differentiable optical turbulence simulator for algorithmic development and system optimization",
@@ -25791,7 +25805,8 @@
     "architectures": [
       "Deep Neural Network"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Calibration of a neural network ocean closure for improved mean state and variability",
@@ -25807,7 +25822,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "GeoMMBench and GeoMMAgent: Toward Expert-Level Multimodal Intelligence in Geoscience and Remote Sensing",
@@ -25828,7 +25844,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "MONETA: Multimodal Industry Classification through Geographic Information with Multi Agent Systems",
@@ -25851,7 +25868,8 @@
     ],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "A Guide to Using Social Media as a Geospatial Lens for Studying Public Opinion and Behavior",
@@ -25867,7 +25885,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Thermodynamic-Inspired Explainable GeoAI: Uncovering Regime-Dependent Mechanisms in Heterogeneous Spatial Systems",
@@ -25887,6 +25906,406 @@
     ],
     "applications": [
       "Regression"
+    ],
+    "is_recent": false
+  },
+  {
+    "title": "HuiYanEarth-SAR: A Foundation Model for High-Fidelity and Low-Cost Global Remote Sensing Imagery Generation",
+    "url": "http://arxiv.org/abs/2604.11444v1",
+    "authors": [
+      "Yongxiang Liu",
+      "Jie Zhou",
+      "Yafei Song",
+      "Tianpeng Liu",
+      "Li Liu"
+    ],
+    "published": "2026-04-13",
+    "abstract": "Synthetic Aperture Radar (SAR) imagery generation is essential for deepening the study of scattering mechanisms, establishing trustworthy electromagnetic scene models, and fundamentally alleviating the data scarcity bottleneck that constrains development in this field. However, existing methods find it difficult to simultaneously ensure high fidelity in both global geospatial semantics and microscopic scattering mechanisms, resulting in severe challenges for global generation. To address this, we propose \\textbf{HuiYanEarth-SAR}, the first foundational SAR imagery generation model based on AlphaEarth and integrated scattering mechanisms. By injecting geospatial priors to control macroscopic structures and utilizing implicit scattering characteristic modeling to ensure the authenticity of microscopic textures, we achieve the capability of generating high-fidelity SAR images for global locations solely based on geographic coordinates. This study not only constructs an efficient SAR scene simulator but also establishes a bridge connecting geography, scatter mechanism, and artificial intelligence from a methodological standpoint. It advances SAR research by expanding the paradigm from perception and understanding to simulation and creation, providing key technical support for constructing a high-confidence digital twin of the Earth.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "GeoMeld: Toward Semantically Grounded Foundation Models for Remote Sensing",
+    "url": "http://arxiv.org/abs/2604.10591v1",
+    "authors": [
+      "Maram Hasan",
+      "Md Aminur Hossain",
+      "Savitra Roy",
+      "Souparna Bhowmik",
+      "Ayush V. Patel",
+      "Mainak Singha",
+      "Subhasis Chaudhuri",
+      "Muhammad Haris Khan",
+      "Biplab Banerjee"
+    ],
+    "published": "2026-04-12",
+    "abstract": "Effective foundation modeling in remote sensing requires spatially aligned heterogeneous modalities coupled with semantically grounded supervision, yet such resources remain limited at scale. We present GeoMeld, a large-scale multimodal dataset with approximately 2.5 million spatially aligned samples. The dataset spans diverse modalities and resolutions and is constructed under a unified alignment protocol for modality-aware representation learning. GeoMeld provides semantically grounded language supervision through an agentic captioning framework that synthesizes and verifies annotations from spectral signals, terrain statistics, and structured geographic metadata, encoding measurable cross-modality relationships within textual descriptions. To leverage this dataset, we introduce GeoMeld-FM, a pretraining framework that combines multi-pretext masked autoencoding over aligned modalities, JEPA representation learning, and caption-vision contrastive alignment. This joint objective enables the learned representation space to capture both reliable cross-sensor physical consistency and grounded semantics. Experiments demonstrate consistent gains in downstream transfer and cross-sensor robustness. Together, GeoMeld and GeoMeld-FM establish a scalable reference framework for semantically grounded multi-modal foundation modeling in remote sensing.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "JEPA"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Are Pretrained Image Matchers Good Enough for SAR-Optical Satellite Registration?",
+    "url": "http://arxiv.org/abs/2604.10217v2",
+    "authors": [
+      "Isaac Corley",
+      "Alex Stoken",
+      "Gabriele Berton"
+    ],
+    "published": "2026-04-11",
+    "abstract": "Cross-modal optical-SAR (Synthetic Aperture Radar) registration is a bottleneck for disaster-response via remote sensing, yet modern image matchers are developed and benchmarked almost exclusively on natural-image domains. We evaluate twenty-four pretrained matcher families--in a zero-shot setting with no fine-tuning or domain adaptation on satellite or SAR data--on SpaceNet9 and two additional cross-modal benchmarks under a deterministic protocol with tiled large-image inference, robust geometric filtering, and tie-point-grounded metrics. Our results reveal asymmetric transfer--matchers with explicit cross-modal training do not uniformly outperform those without it. While XoFTR (trained for visible-thermal matching) and RoMa achieve the lowest reported mean error at $3.0$ px on the labeled SpaceNet9 training scenes, RoMa achieves this without any cross-modal training, and MatchAnything-ELoFTR ($3.4$ px)--trained on synthetic cross-modal pairs--matches closely, suggesting (as a working hypothesis) that foundation-model features (DINOv2) may contribute to modality invariance that partially substitutes for explicit cross-modal supervision. 3D-reconstruction matchers (MASt3R, DUSt3R), which are not designed for traditional 2D image matching, are highly protocol-sensitive and remain fragile under default settings. Deployment protocol choices (geometry model, tile size, inlier gating) shift accuracy by up to $33\\times$ for a single matcher, sometimes exceeding the effect of swapping matchers entirely within the evaluated sweep--affine geometry alone reduces mean error from $12.34$ to $9.74$ px. These findings inform both practical deployment of existing matchers and future matcher design for cross-modal satellite registration.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "OT on the Map: Quantifying Domain Shifts in Geographic Space",
+    "url": "http://arxiv.org/abs/2604.16220v1",
+    "authors": [
+      "Haoran Zhang",
+      "Livia Betti",
+      "Konstantin Klemmer",
+      "Esther Rolf",
+      "David Alvarez-Melis"
+    ],
+    "published": "2026-04-17",
+    "abstract": "In computer vision and machine learning for geographic data, out-of-domain generalization is a pervasive challenge, arising from uneven global data coverage and distribution shifts across geographic regions. Though models are frequently trained in one region and deployed in another, there is no principled method for determining when this cross-region adaptation will be successful. A well-defined notion of distance between distributions can effectively quantify how different a new target domain is compared to the domains used for model training, which in turn could support model training and deployment decisions. In this paper, we propose a strategy for computing distances between geospatial domains that leverages geographic information with Optimal Transport methods (GeoSpOT). In our experiments, GeoSpOT distances emerge as effective predictors of cross-domain transfer difficulty. We further demonstrate that embeddings from pretrained location encoders provide information comparable to image/text embeddings, despite relying solely on longitude-latitude pairs as input. This allows users to get an approximation of out-of-domain performance for geospatial models, even when the exact downstream task is unknown, or no task-specific data is available. Building on these findings, we show that GeoSpOT distances can preemptively guide data selection and enable predictive tools to analyze regions where a model is likely to underperform.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Geo2Sound: A Scalable Geo-Aligned Framework for Soundscape Generation from Satellite Imagery",
+    "url": "http://arxiv.org/abs/2604.14707v1",
+    "authors": [
+      "Kunlin Wu",
+      "Yanning Wang",
+      "Haofeng Tan",
+      "Boyi Chen",
+      "Teng Fei",
+      "Xianping Ma",
+      "Yang Yue",
+      "Zan Zhou",
+      "Xiaofeng Liu"
+    ],
+    "published": "2026-04-16",
+    "abstract": "Recent image-to-audio models have shown impressive performance on object-centric visual scenes. However, their application to satellite imagery remains limited by the complex, wide-area semantic ambiguity of top-down views. While satellite imagery provides a uniquely scalable source for global soundscape generation, matching these views to real acoustic environments with unique spatial structures is inherently difficult. To address this challenge, we introduce Geo2Sound, a novel task and framework for generating geographically realistic soundscapes from satellite imagery. Specifically, Geo2Sound combines structural geospatial attributes modeling, semantic hypothesis expansion, and geo-acoustic alignment in a unified framework. A lightweight classifier summarizes overhead scenes into compact geographic attributes, multiple sound-oriented semantic hypotheses are used to generate diverse acoustically plausible candidates, and a geo-acoustic alignment module projects geographic attributes into the acoustic embedding space and identifies the candidate most consistent with the candidate sets. Moreover, we establish SatSound-Bench, the first benchmark comprising over 20k high-quality paired satellite images, text descriptions, and real-world audio recordings, collected from the field across more than 10 countries and complemented by three public datasets. Experiments show that Geo2Sound achieves a SOTA FAD of 1.765, outperforming the strongest baseline by 50.0%. Human evaluations further confirm substantial gains in both realism (26.5%) and semantic alignment, validating our high-fidelity synthesis on scale. Project page and source code: https://github.com/Blanketzzz/Geo2Sound",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "UNIGEOCLIP: Unified Geospatial Contrastive Learning",
+    "url": "http://arxiv.org/abs/2604.11668v1",
+    "authors": [
+      "Guillaume Astruc",
+      "Eduard Trulls",
+      "Jan Hosang",
+      "Loic Landrieu",
+      "Paul-Edouard Sarlin"
+    ],
+    "published": "2026-04-13",
+    "abstract": "The growing availability of co-located geospatial data spanning aerial imagery, street-level views, elevation models, text, and geographic coordinates offers a unique opportunity for multimodal representation learning. We introduce UNIGEOCLIP, a massively multimodal contrastive framework to jointly align five complementary geospatial modalities in a single unified embedding space. Unlike prior approaches that fuse modalities or rely on a central pivot representation, our method performs all-to-all contrastive alignment, enabling seamless comparison, retrieval, and reasoning across arbitrary combinations of modalities. We further propose a scaled latitude-longitude encoder that improves spatial representation by capturing multi-scale geographic structure. Extensive experiments across downstream geospatial tasks demonstrate that UNIGEOCLIP consistently outperforms single-modality contrastive models and coordinate-only baselines, highlighting the benefits of holistic multimodal geospatial alignment. A reference implementation is available at https://gastruc.github.io/unigeoclip.",
+    "categories": [
+      "geo_reasoning",
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Physically-Induced Atmospheric Adversarial Perturbations: Enhancing Transferability and Robustness in Remote Sensing Image Classification",
+    "url": "http://arxiv.org/abs/2604.14643v1",
+    "authors": [
+      "Weiwei Zhuang",
+      "Wangze Xie",
+      "Qi Zhang",
+      "Xia Du",
+      "Zihan Lin",
+      "Zheng Lin",
+      "Hanlin Cai",
+      "Jizhe Zhou",
+      "Zihan Fang",
+      "Chi-man Pun",
+      "Wei Ni",
+      "Jun Luo"
+    ],
+    "published": "2026-04-16",
+    "abstract": "Adversarial attacks pose a severe threat to the reliability of deep learning models in remote sensing (RS) image classification. Most existing methods rely on direct pixel-wise perturbations, failing to exploit the inherent atmospheric characteristics of RS imagery or survive real-world image degradations. In this paper, we propose FogFool, a physically plausible adversarial framework that generates fog-based perturbations by iteratively optimizing atmospheric patterns based on Perlin noise. By modeling fog formations with natural, irregular structures, FogFool generates adversarial examples that are not only visually consistent with authentic RS scenes but also deceptive. By leveraging the spatial coherence and mid-to-low-frequency nature of atmospheric phenomena, FogFool embeds adversarial information into structural features shared across diverse architectures. Extensive experiments on two benchmark RS datasets demonstrate that FogFool achieves superior performance: not only does it exceed in white-box settings, but also exhibits exceptional black-box transferability (reaching 83.74% TASR) and robustness against common preprocessing-based defenses such as JPEG compression and filtering. Detailed analyses, including confusion matrices and Class Activation Map (CAM) visualizations, reveal that our atmospheric-driven perturbations induce a universal shift in model attention. These results indicate that FogFool represents a practical, stealthy, and highly persistent threat to RS classification systems, providing a robust benchmark for evaluating model reliability in complex environments.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
     ]
+  },
+  {
+    "title": "The Spectrascapes Dataset: Street-view imagery beyond the visible captured using a mobile platform",
+    "url": "http://arxiv.org/abs/2604.13315v2",
+    "authors": [
+      "Akshit Gupta",
+      "Joris Timmermans",
+      "Filip Biljecki",
+      "Remko Uijlenhoet"
+    ],
+    "published": "2026-04-14",
+    "abstract": "High-resolution data in spatial and temporal contexts is imperative for developing climate resilient cities. Current datasets for monitoring urban parameters are developed primarily using manual inspections, embedded-sensing, remote sensing, or standard street-view imagery (RGB). These methods and datasets are often constrained respectively by poor scalability, inconsistent spatio-temporal resolutions, overhead views or low spectral information. We present a novel method and its open implementation: a multi-spectral terrestrial-view dataset that circumvents these limitations. This dataset consists of 17,718 street level multi-spectral images captured with RGB, Near-infrared, and Thermal imaging sensors on bikes, across diverse urban morphologies (village, town, small city, and big urban area) in the Netherlands. Strict emphasis is put on data calibration and quality while also providing the details of our data collection methodology (including the hardware and software details). To the best of our knowledge, Spectrascapes is the first open-access dataset of its kind. Finally, we demonstrate two downstream use-cases enabled using this dataset and provide potential research directions in the machine learning, urban planning and remote sensing domains.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "GCA Framework: A Gulf-Grounded Dataset and Agentic Pipeline for Climate Decision Support",
+    "url": "http://arxiv.org/abs/2604.12306v1",
+    "authors": [
+      "Muhammad Umer Sheikh",
+      "Khawar Shehzad",
+      "Salman Khan",
+      "Fahad Shahbaz Khan",
+      "Muhammad Haris Khan"
+    ],
+    "published": "2026-04-14",
+    "abstract": "Climate decision-making in the Gulf increasingly demands systems that can translate heterogeneous scientific and policy evidence into actionable guidance, yet general-purpose large language models (LLMs) remain weak both in region-specific climate knowledge and grounded interaction with geospatial and forecasting tools. We present the GCA framework, which unifies (i) GCA-DS, a curated Gulf-focused multimodal dataset, and (ii) Gulf Climate Agent (GCA), a tool-augmented agent for climate analysis. GCA-DS comprises ~200k question-answer pairs spanning governmental policies and adaptation plans, NGO and international frameworks, academic literature, and event-driven reporting on heatwaves, dust storms, and floods, complemented with remote-sensing inputs that couple imagery with textual evidence. Building on this foundation, the GCA agent orchestrates a modular tool pipeline grounded in real-time and historical signals and geospatial processing that produces derived indices and interpretable visualizations. Finally, we benchmark open and proprietary LLMs on Gulf climate tasks and show that domain fine-tuning and tool integration substantially improve reliability over general-purpose baselines.",
+    "categories": [
+      "geo_reasoning",
+      "remote_sensing"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Depth-Resolved Coral Reef Thermal Fields from Satellite SST and Sparse In-Situ Loggers Using Physics-Informed Neural Networks",
+    "url": "http://arxiv.org/abs/2604.13131v1",
+    "authors": [
+      "Alzayat Saleh",
+      "Mostafa Rahimi Azghadi"
+    ],
+    "published": "2026-04-14",
+    "abstract": "Satellite sea surface temperature (SST) products underpin global coral bleaching monitoring, yet they measure only the ocean skin. Corals inhabit depths from the shallows to beyond 20 metres, where temperatures can be 1-3\u00b0C cooler than the surface; applying satellite SST uniformly to all depths therefore overestimates subsurface thermal stress. We present a physics-informed neural network (PINN) that fuses NOAA Coral Reef Watch SST with sparse in-situ temperature loggers within the one-dimensional vertical heat equation, enforcing SST as a hard surface boundary condition and jointly learning effective thermal diffusivity (\\k{appa}) and light attenuation (Kd). Validated across four Great Barrier Reef sites (30 holdout experiments), the PINN achieves 0.25-1.38\u00b0C RMSE at unseen depths. Under extreme sparsity (three training depths), the PINN maintains 0.27\u00b0C RMSE at the 5 metre holdout and 0.32\u00b0C at the 9.1 metre holdout, where statistical baselines collapse to >1.8\u00b0C; it outperforms a physics-only finite-difference baseline in 90% of experiments. Depth-resolved Degree Heating Day (DHD) profiles show that thermal stress attenuates with depth: at Davies Reef, DHD drops from 0.29 at the surface to zero by 10.7 metres, consistent with logger observations, while satellite DHD remains constant at 0.31 across all depths. However, the PINN underestimates absolute DHD at shallow depths because its smooth predictions attenuate the short-duration peaks that drive threshold exceedances; PINN DHD values should be interpreted as conservative lower bounds on depth-resolved stress. These results demonstrate that physics-constrained fusion of satellite SST with sparse loggers can extend bleaching assessment to the depth dimension using existing observational infrastructure.",
+    "categories": [
+      "remote_sensing",
+      "ocean"
+    ],
+    "architectures": [
+      "PINN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "A Mamba-Based Multimodal Network for Multiscale Blast-Induced Rapid Structural Damage Assessment",
+    "url": "http://arxiv.org/abs/2604.11709v1",
+    "authors": [
+      "Wanli Ma",
+      "Sivasakthy Selvakumaran",
+      "Dain G. Farrimond",
+      "Adam A. Dennis",
+      "Samuel E. Rigby"
+    ],
+    "published": "2026-04-13",
+    "abstract": "Accurate and rapid structural damage assessment (SDA) is crucial for post-disaster management, helping responders prioritise resources, plan rescues, and support recovery. Traditional field inspections, though precise, are limited by accessibility, safety risks, and time constraints, especially after large explosions. Machine learning with remote sensing has emerged as a scalable solution for rapid SDA, with Mamba-based networks achieving state-of-the-art performance. However, these methods often require extensive training and large datasets, limiting real-world applicability. Moreover, they fail to incorporate key physical characteristics of blast loading for SDA. To overcome these challenges, we propose a Mamba-based multimodal network for rapid SDA that integrates multi-scale blast-loading information with optical remote sensing images. Evaluated on the 2020 Beirut explosion, our method significantly improves performance over state-of-the-art approaches. Code is available at: https://github.com/IMPACTSquad/Blast-Mamba",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "The Impact of Federated Learning on Distributed Remote Sensing Archives",
+    "url": "http://arxiv.org/abs/2604.11562v1",
+    "authors": [
+      "Anand Umashankar",
+      "Karam Tomotaki-Dawoud",
+      "Nicolai Schneider"
+    ],
+    "published": "2026-04-13",
+    "abstract": "Remote sensing archives are inherently distributed: Earth observation missions such as Sentinel-1, Sentinel-2, and Sentinel-3 have collectively accumulated more than 5 petabytes of imagery, stored and processed across many geographically dispersed platforms. Training machine learning models on such data in a centralized fashion is impractical due to data volume, sovereignty constraints, and geographic distribution. Federated learning (FL) addresses this by keeping data local and exchanging only model updates. A central challenge for remote sensing is the non-IID nature of Earth observation data: label distributions vary strongly by geographic region, degrading the convergence of standard FL algorithms. In this paper, we conduct a systematic empirical study of three FL strategies -- FedAvg, FedProx, and bulk synchronous parallel (BSP) -- applied to multi-label remote sensing image classification under controlled non-IID label-skew conditions. We evaluate three convolutional neural network (CNN) architectures of increasing depth (LeNet, AlexNet, and ResNet-34) and analyze the joint effect of algorithm choice, model capacity, client fraction, client count, batch size, and communication cost. Experiments on the UC Merced multi-label dataset show that FedProx outperforms FedAvg for deeper architectures under data heterogeneity, that BSP approaches centralized accuracy at the cost of high sequential communication, and that LeNet provides the best accuracy-communication trade-off for the dataset scale considered.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "ResNet"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "CycloneMAE: A Scalable Multi-Task Learning Model for Global Tropical Cyclone Probabilistic Forecasting",
+    "url": "http://arxiv.org/abs/2604.12180v1",
+    "authors": [
+      "Renlong Hang",
+      "Zihao Xu",
+      "Jiuwei Zhao",
+      "Runling Yu",
+      "Leye Cheng",
+      "Qingshan Liu"
+    ],
+    "published": "2026-04-14",
+    "abstract": "Tropical cyclones (TCs) rank among the most destructive natural hazards, yet their forecasting faces fundamental trade-offs: numerical weather prediction (NWP) models are computationally prohibitive and struggle to leverage historical data, while existing deep learning (DL)-based intelligent models are variable-specific and deterministic, which fail to generalize across different forecasting variables. Here we present CycloneMAE, a scalable multi-task forecasting model that learns transferable TC representations from multi-modal data using a TC structure-aware masked autoencoder. By coupling a discrete probabilistic gridding mechanism with a pre-train/fine-tune paradigm, CycloneMAE simultaneously delivers deterministic forecasts and probability distributions. Evaluated across five global ocean basins, CycloneMAE outperforms leading NWP systems in pressure and wind forecasting up to 120 hours and in track forecasting up to 24 hours. Attribution analysis via integrated gradients reveals physically interpretable learning dynamics: short-term forecasts rely predominantly on the internal core convective structure from satellite imagery, whereas longer-term forecasts progressively shift attention to external environmental factors. Our framework establishes a scalable, probabilistic, and interpretable pathway for operational TC forecasting.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Autoencoder"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Daily Predictions of F10.7 and F30 Solar Indices with Deep Learning",
+    "url": "http://arxiv.org/abs/2604.10045v1",
+    "authors": [
+      "Zhenduo Wang",
+      "Yasser Abduallah",
+      "Jason T. L. Wang",
+      "Haimin Wang",
+      "Yan Xu",
+      "Vasyl Yurchyshyn",
+      "Vincent Oria",
+      "Khalid A. Alobaid",
+      "Xiaoli Bai"
+    ],
+    "published": "2026-04-11",
+    "abstract": "The F10.7 and F30 solar indices are the solar radio fluxes measured at wavelengths of 10.7 cm and 30 cm, respectively, which are key indicators of solar activity. F10.7 is valuable for explaining the impact of solar ultraviolet (UV) radiation on the upper atmosphere of Earth, while F30 is more sensitive and could improve the reaction of thermospheric density to solar stimulation. In this study, we present a new deep learning model, named the Solar Index Network, or SINet for short, to predict daily values of the F10.7 and F30 solar indices. The SINet model is designed to make medium-term predictions of the index values (1-60 days in advance). The observed data used for SINet training were taken from the National Oceanic and Atmospheric Administration (NOAA) as well as Toyokawa and Nobeyama facilities. Our experimental results show that SINet performs better than five closely related statistical and deep learning methods for the prediction of F10.7. Furthermore, to our knowledge, this is the first time deep learning has been used to predict the F30 solar index.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Structural Gating and Effect-aligned Lag-resolved Temporal Causal Discovery Framework with Application to Heat-Pollution Extremes",
+    "url": "http://arxiv.org/abs/2604.10371v1",
+    "authors": [
+      "Rui Chen",
+      "Jinsong Wu"
+    ],
+    "published": "2026-04-11",
+    "abstract": "This study proposes Structural Gating and Effect-aligned Discovery for Temporal Causal Discovery (SGED-TCD), a novel and general framework for lag-resolved causal discovery in complex multivariate time series. SGED-TCD combines explicit structural gating, stability-oriented learning, perturbation-effect alignment, and unified graph extraction to improve the interpretability, robustness, and functional consistency of inferred causal graphs.\n  To evaluate its effectiveness in a representative real-world setting, we apply SGED-TCD to teleconnection-driven compound heatwave--air-pollution extremes in eastern and northern China. Using large-scale climate indices, regional circulation and boundary-layer variables, and compound extreme indicators, the framework reconstructs weighted causal networks with explicit dominant lags and relative causal importance. The inferred networks reveal clear regional and seasonal heterogeneity: warm-season extremes in Eastern China are mainly linked to low-latitude oceanic variability through circulation, radiation, and ventilation pathways, whereas cold-season extremes in Northern China are more strongly governed by high-latitude circulation variability associated with boundary-layer suppression and persistent stagnation.\n  These results show that SGED-TCD can recover physically interpretable, hierarchical, and lag-resolved causal pathways in a challenging climate--environment system. More broadly, the proposed framework is not restricted to the present application and provides a general basis for temporal causal discovery in other complex domains.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Attention-Guided Dual-Stream Learning for Group Engagement Recognition: Fusing Transformer-Encoded Motion Dynamics with Scene Context via Adaptive Gating",
+    "url": "http://arxiv.org/abs/2604.10078v1",
+    "authors": [
+      "Saniah Kayenat Chowdhury",
+      "Muhammad E. H. Chowdhury"
+    ],
+    "published": "2026-04-11",
+    "abstract": "Student engagement is crucial for improving learning outcomes in group activities. Highly engaged students perform better both individually and contribute to overall group success. However, most existing automated engagement recognition methods are designed for online classrooms or estimate engagement at the individual level. Addressing this gap, we propose DualEngage, a novel two-stream framework for group-level engagement recognition from in-classroom videos. It models engagement as a joint function of both individual and group-level behaviors. The primary stream models person-level motion dynamics by detecting and tracking students, extracting dense optical flow with the Recurrent All-Pairs Field Transforms network, encoding temporal motion patterns using a transformer encoder, and finally aggregating per-student representations through attention pooling into a unified representation. The secondary stream captures scene-level spatiotemporal information from the full video clip, leveraging a pretrained three-dimensional Residual Network. The two-stream representations are combined via softmax-gated fusion, which dynamically weights each stream's contribution based on the joint context of both features. DualEngage learns a joint representation of individual actions with overarching group dynamics. We evaluate the proposed approach using fivefold cross-validation on the Classroom Group Engagement Dataset developed by Ocean University of China, achieving an average classification accuracy of 0.9621+/-0.0161 with a macro-averaged F1 of 0.9530+/-0.0204. To understand the contribution of each branch, we further conduct an ablation study comparing single-stream variants against the two-stream model. This work is among the first in classroom engagement recognition to adopt a dual-stream design that explicitly leverages motion cues as an estimator.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Transformer",
+      "CLIP"
+    ],
+    "applications": [
+      "Classification",
+      "Recognition",
+      "Tracking"
+    ]
+  },
+  {
+    "title": "A Regime Shift in Atlantic Surface Currents Reveals a Step-like Decline of the Meridional Overturning Circulation",
+    "url": "http://arxiv.org/abs/2604.11605v1",
+    "authors": [
+      "Han Huang",
+      "Ningning Tao",
+      "Hongyu Wang",
+      "Teng Liu",
+      "Fei Xie",
+      "Xichen Li",
+      "Yongwen Zhang",
+      "Niklas Boers",
+      "Jingfang Fan",
+      "Deliang Chen",
+      "Xiaosong Chen"
+    ],
+    "published": "2026-04-13",
+    "abstract": "The Atlantic surface currents associated with the Atlantic Meridional Overturning Circulation (AMOC) play a central role in regulating Earth's climate, yet their large scale dynamical response to climate variability remains poorly understood. Here we identify a previously unrecognized basin scale phase of Atlantic surface circulation, termed the Atlantic Convergence Divergence Mode (ACDM), characterized by a convergence divergence pattern in the North Atlantic and coherent meridional flows in the South Atlantic. We show that the ACDM experienced a pronounced regime shift in 2009, marked by weakened vertical water exchange and reduced meridional transport. This transition closely coincides with direct RAPID MOCHA AMOC observations and is driven by AMOC modulated multicale forcing: a low frequency oceanic thermal reorganization that preconditions the system, and episodic atmospheric shocks that trigger the shift. By identifying the ACDM variability as a sensitive and physically grounded proxy for interannual AMOC fluctuations, we reveal that the observed 2009 shift signifies a nonlinear, step like weakening of AMOC that triggered a fundamental basin scale reorganization of Atlantic surface currents. Our results offer a dynamical explanation for the AMOC's recent decline and demonstrate its inherently nonlinear nature, highlighting the need to account for step like transitions in assessing its stability and future evolution.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "A High-Resolution Landscape Dataset for Concept-Based XAI With Application to Species Distribution Models",
+    "url": "http://arxiv.org/abs/2604.13240v1",
+    "authors": [
+      "Augustin de la Brosse",
+      "Damien Garreau",
+      "Thomas Houet",
+      "Thomas Corpetti"
+    ],
+    "published": "2026-04-14",
+    "abstract": "Mapping the spatial distribution of species is essential for conservation policy and invasive species management. Species distribution models (SDMs) are the primary tools for this task, serving two purposes: achieving robust predictive performance while providing ecological insights into the driving factors of distribution. However, the increasing complexity of deep learning SDMs has made extracting these insights more challenging. To reconcile these objectives, we propose the first implementation of concept-based Explainable AI (XAI) for SDMs. We leverage the Robust TCAV (Testing with Concept Activation Vectors) methodology to quantify the influence of landscape concepts on model predictions. To enable this, we provide a new open-access landscape concept dataset derived from high-resolution multispectral and LiDAR drone imagery. It includes 653 patches across 15 distinct landscape concepts and 1,450 random reference patches, designed to suit a wide range of species. We demonstrate this approach through a case study of two aquatic insects, Plecoptera and Trichoptera, using two Convolutional Neural Networks and one Vision Transformer. Results show that concept-based XAI helps validate SDMs against expert knowledge while uncovering novel associations that generate new ecological hypotheses. Robust TCAV also provides landscape-level information, useful for policy-making and land management. Code and datasets are publicly available.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer",
+      "SDM"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "GeoAgentBench: A Dynamic Execution Benchmark for Tool-Augmented Agents in Spatial Analysis",
+    "url": "http://arxiv.org/abs/2604.13888v1",
+    "authors": [
+      "Bo Yu",
+      "Cheng Yang",
+      "Dongyang Hou",
+      "Chengfu Liu",
+      "Jiayao Liu",
+      "Chi Wang",
+      "Zhiming Zhang",
+      "Haifeng Li",
+      "Wentao Yang"
+    ],
+    "published": "2026-04-15",
+    "abstract": "The integration of Large Language Models (LLMs) into Geographic Information Systems (GIS) marks a paradigm shift toward autonomous spatial analysis. However, evaluating these LLM-based agents remains challenging due to the complex, multi-step nature of geospatial workflows. Existing benchmarks primarily rely on static text or code matching, neglecting dynamic runtime feedback and the multimodal nature of spatial outputs. To address this gap, we introduce GeoAgentBench (GABench), a dynamic and interactive evaluation benchmark tailored for tool-augmented GIS agents. GABench provides a realistic execution sandbox integrating 117 atomic GIS tools, encompassing 53 typical spatial analysis tasks across 6 core GIS domains. Recognizing that precise parameter configuration is the primary determinant of execution success in dynamic GIS environments, we designed the Parameter Execution Accuracy (PEA) metric, which utilizes a \"Last-Attempt Alignment\" strategy to quantify the fidelity of implicit parameter inference. Complementing this, a Vision-Language Model (VLM) based verification is proposed to assess data-spatial accuracy and cartographic style adherence. Furthermore, to address the frequent task failures caused by parameter misalignments and runtime anomalies, we developed a novel agent architecture, Plan-and-React, that mimics expert cognitive workflows by decoupling global orchestration from step-wise reactive execution. Extensive experiments with seven representative LLMs demonstrate that the Plan-and-React paradigm significantly outperforms traditional frameworks, achieving the optimal balance between logical rigor and execution robustness, particularly in multi-step reasoning and error recovery. Our findings highlight current capability boundaries and establish a robust standard for assessing and advancing the next generation of autonomous GeoAI.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM",
+      "LVM"
+    ],
+    "applications": []
   }
 ]
