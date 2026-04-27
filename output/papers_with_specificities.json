@@ -25925,7 +25925,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "GeoMeld: Toward Semantically Grounded Foundation Models for Remote Sensing",
@@ -25949,7 +25950,8 @@
     "architectures": [
       "JEPA"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Are Pretrained Image Matchers Good Enough for SAR-Optical Satellite Registration?",
@@ -25965,7 +25967,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "OT on the Map: Quantifying Domain Shifts in Geographic Space",
@@ -25983,7 +25986,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Geo2Sound: A Scalable Geo-Aligned Framework for Soundscape Generation from Satellite Imagery",
@@ -26005,7 +26009,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "UNIGEOCLIP: Unified Geospatial Contrastive Learning",
@@ -26024,7 +26029,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Physically-Induced Atmospheric Adversarial Perturbations: Enhancing Transferability and Robustness in Remote Sensing Image Classification",
@@ -26051,7 +26057,8 @@
     "architectures": [],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "The Spectrascapes Dataset: Street-view imagery beyond the visible captured using a mobile platform",
@@ -26068,7 +26075,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "GCA Framework: A Gulf-Grounded Dataset and Agentic Pipeline for Climate Decision Support",
@@ -26091,7 +26099,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Depth-Resolved Coral Reef Thermal Fields from Satellite SST and Sparse In-Situ Loggers Using Physics-Informed Neural Networks",
@@ -26111,7 +26120,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "A Mamba-Based Multimodal Network for Multiscale Blast-Induced Rapid Structural Damage Assessment",
@@ -26129,7 +26139,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "The Impact of Federated Learning on Distributed Remote Sensing Archives",
@@ -26150,7 +26161,8 @@
     ],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "CycloneMAE: A Scalable Multi-Task Learning Model for Global Tropical Cyclone Probabilistic Forecasting",
@@ -26173,7 +26185,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Daily Predictions of F10.7 and F30 Solar Indices with Deep Learning",
@@ -26197,7 +26210,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Structural Gating and Effect-aligned Lag-resolved Temporal Causal Discovery Framework with Application to Heat-Pollution Extremes",
@@ -26212,7 +26226,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Attention-Guided Dual-Stream Learning for Group Engagement Recognition: Fusing Transformer-Encoded Motion Dynamics with Scene Context via Adaptive Gating",
@@ -26234,7 +26249,8 @@
       "Classification",
       "Recognition",
       "Tracking"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "A Regime Shift in Atlantic Surface Currents Reveals a Step-like Decline of the Meridional Overturning Circulation",
@@ -26258,7 +26274,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "A High-Resolution Landscape Dataset for Concept-Based XAI With Application to Species Distribution Models",
@@ -26281,7 +26298,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "GeoAgentBench: A Dynamic Execution Benchmark for Tool-Augmented Agents in Spatial Analysis",
@@ -26306,6 +26324,259 @@
       "LLM",
       "LVM"
     ],
+    "applications": [],
+    "is_recent": false
+  },
+  {
+    "title": "Structure-Semantic Decoupled Modulation of Global Geospatial Embeddings for High-Resolution Remote Sensing Mapping",
+    "url": "http://arxiv.org/abs/2604.19591v2",
+    "authors": [
+      "Jienan Lyu",
+      "Miao Yang",
+      "Jinchen Cai",
+      "Yiwen Hu",
+      "Guanyi Lu",
+      "Junhao Qiu",
+      "Runmin Dong"
+    ],
+    "published": "2026-04-21",
+    "abstract": "Fine-grained high-resolution remote sensing mapping typically relies on localized visual features, which restricts cross-domain generalizability and often leads to fragmented predictions of large-scale land covers. While global geospatial foundation models offer powerful, generalizable representations, directly fusing their high-dimensional implicit embeddings with high-resolution visual features frequently triggers feature interference and spatial structure degradation due to a severe semantic-spatial gap. To overcome these limitations, we propose a Structure-Semantic Decoupled Modulation (SSDM) framework, which decouples global geospatial representations into two complementary cross-modal injection pathways. First, the structural prior modulation branch introduces the macroscopic receptive field priors from global representations into the self-attention modules of the high-resolution encoder. By guiding local feature extraction with holistic structural constraints, it effectively suppresses prediction fragmentation caused by high-frequency detail noise and excessive intra-class variance. Second, the global semantic injection branch explicitly aligns holistic context with the deep high-resolution feature space and directly supplements global semantics via cross-modal integration, thereby significantly enhancing the semantic consistency and category-level discrimination of complex land covers. Extensive experiments demonstrate that our method achieves state-of-the-art performance compared to existing cross-modal fusion approaches. By unleashing the potential of global embeddings, SSDM consistently improves high-resolution mapping accuracy across diverse scenarios, providing a universal and effective paradigm for integrating geospatial foundation models into high-resolution vision tasks.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "RemoteShield: Enable Robust Multimodal Large Language Models for Earth Observation",
+    "url": "http://arxiv.org/abs/2604.17243v1",
+    "authors": [
+      "Rui Min",
+      "Liang Yao",
+      "Shiyu Miao",
+      "Shengxiang Xu",
+      "Yuxuan Liu",
+      "Chuanyi Zhang",
+      "Shimin Di",
+      "Fan Liu"
+    ],
+    "published": "2026-04-19",
+    "abstract": "A robust Multimodal Large Language Model (MLLM) for Earth Observation should maintain consistent interpretation and reasoning under realistic input variations. However, current Remote Sensing MLLMs fail to meet this requirement. Trained on carefully curated clean datasets, they learn brittle mappings that do not generalize to noisy conditions in operational Earth Observation. Consequently, their performance degrades when confronted with imperfect inputs in deployment. To quantify this vulnerability, we construct a realistic set of multimodal perturbations, including visual degradations such as cloud and fog cover, together with diverse human-centric textual variations ranging from colloquialisms to vague or omitted instructions. Empirical evaluations show that these perturbations significantly impair the visual-semantic reasoning capabilities of leading RS foundation models. To address this limitation, we introduce RemoteShield, a robust Remote Sensing MLLM trained to maintain consistent outputs across realistic input variations. During training, each clean sample is paired with its image-text perturbed variants to form a semantic equivalence cluster. Rather than directly fitting noisy samples, RemoteShield is optimized through preference learning over clean and perturbed conditions within the same cluster. By comparing model responses to clean and corrupted inputs, the model is encouraged to favor stable responses over perturbation-induced failures. This cross-condition alignment helps the model focus on underlying task semantics despite visual degradations and textual noise. Experiments on three Earth Observation tasks show that RemoteShield consistently delivers stronger robustness and cross-condition consistency than representative baselines under realistic multimodal perturbations.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "LLM"
+    ],
     "applications": []
+  },
+  {
+    "title": "When Earth Foundation Models Meet Diffusion: An Application to Land Surface Temperature Super-Resolution",
+    "url": "http://arxiv.org/abs/2604.16841v1",
+    "authors": [
+      "Yiheng Chen",
+      "Zihui Ma",
+      "Peishi Jiang",
+      "Yilong Dai",
+      "Qikai Hu",
+      "Xinyue Ye",
+      "Lingyao Li",
+      "Rita Sousa",
+      "Runlong Yu"
+    ],
+    "published": "2026-04-18",
+    "abstract": "Land surface temperature (LST) super-resolution is important for environmental monitoring. However, it remains challenging as coarse thermal observations severely underdetermine fine-scale structure. In this paper, we propose Earth Foundation Model-guided Diffusion (EFDiff), a novel framework for super-resolution under extreme spatial degradation. EFDiff uses the Prithvi-EO-2.0 Earth foundation model to encode high-resolution multispectral reflectance into geospatial embeddings, which are injected into the denoising network via cross-attention to guide fine-scale reconstruction from highly degraded observations. We study two variants, EFDiff-$\u03b5$ and EFDiff-$x_0$, which offer complementary trade-offs between perceptual realism and pixel-level fidelity. We evaluate EFDiff under an extreme $32\\times$ scale gap using a globally diverse benchmark comprising 242,416 co-registered Landsat thermal-reflectance patches. Results show that EFDiff consistently outperforms baseline methods and that cross-attention conditioning by EFM is more effective than HLS channel concatenation. Although we present EFDiff in the context of LST super-resolution, the framework is broadly applicable to remote sensing problems in which pretrained geospatial representations can guide generative reconstruction.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Super-Resolution"
+    ]
+  },
+  {
+    "title": "Pretrain Where? Investigating How Pretraining Data Diversity Impacts Geospatial Foundation Model Performance",
+    "url": "http://arxiv.org/abs/2604.21104v1",
+    "authors": [
+      "Amandeep Kaur",
+      "Mirali Purohit",
+      "Gedeon Muhawenayo",
+      "Esther Rolf",
+      "Hannah Kerner"
+    ],
+    "published": "2026-04-22",
+    "abstract": "New geospatial foundation models introduce a new model architecture and pretraining dataset, often sampled using different notions of data diversity. Performance differences are largely attributed to the model architecture or input modalities, while the role of the pretraining dataset is rarely studied. To address this research gap, we conducted a systematic study on how the geographic composition of pretraining data affects a model's downstream performance. We created global and per-continent pretraining datasets and evaluated them on global and per-continent downstream datasets. We found that the pretraining dataset from Europe outperformed global and continent-specific pretraining datasets on both global and local downstream evaluations. To investigate the factors influencing a pretraining dataset's downstream performance, we analysed 10 pretraining datasets using diversity across continents, biomes, landcover and spectral values. We found that only spectral diversity was strongly correlated with performance, while others were weakly correlated. This finding establishes a new dimension of diversity to be accounted for when creating a high-performing pretraining dataset. We open-sourced 7 new pretraining datasets, pretrained models, and our experimental framework at https://github.com/kerner-lab/pretrain-where.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "HyperFM: An Efficient Hyperspectral Foundation Model with Spectral Grouping",
+    "url": "http://arxiv.org/abs/2604.21127v1",
+    "authors": [
+      "Zahid Hassan Tushar",
+      "Sanjay Purushotham"
+    ],
+    "published": "2026-04-22",
+    "abstract": "The NASA PACE mission provides unprecedented hyperspectral observations of ocean color, aerosols, and clouds, offering new insights into how these components interact and influence Earth's climate and air quality. Its Ocean Color Instrument measures light across hundreds of finely spaced wavelength bands, enabling detailed characterization of features such as phytoplankton composition, aerosol properties, and cloud microphysics. However, hyperspectral data of this scale is large, complex, and difficult to label, requiring specialized processing and analysis techniques. Existing foundation models, which have transformed computer vision and natural language processing, are generally trained on standard RGB imagery and therefore struggle to interpret the continuous spectral signatures captured by PACE. While recent advances have introduced hyperspectral foundation models, they are typically trained on cloud-free observations and often remain limited to single-sensor datasets due to spectral inconsistencies across instruments. Moreover, existing models tend to be parameter-heavy and computationally expensive, limiting scalability and adoption in operational settings. To address these challenges, we introduce HyperFM, a parameter-efficient hyperspectral foundation model that leverages intra-group and inter-group spectral attention along with hybrid parameter decomposition to better capture spectral spatial relationships while reducing computational cost. HyperFM demonstrates consistent performance improvements over existing hyperspectral foundation models and task-specific state-of-the-art methods across four benchmark downstream atmospheric cloud property retrieval tasks. To support further research, we additionally release HyperFM250K, a large-scale hyperspectral dataset from the PACE mission that includes both clear and cloudy scenes.",
+    "categories": [
+      "foundation_model",
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "SyMTRS: Benchmark Multi-Task Synthetic Dataset for Depth, Domain Adaptation and Super-Resolution in Aerial Imagery",
+    "url": "http://arxiv.org/abs/2604.21801v1",
+    "authors": [
+      "Safouane El Ghazouali",
+      "Nicola Venturi",
+      "Michael Rueegsegger",
+      "Umberto Michelucci"
+    ],
+    "published": "2026-04-23",
+    "abstract": "Recent advances in deep learning for remote sensing rely heavily on large annotated datasets, yet acquiring high-quality ground truth for geometric, radiometric, and multi-domain tasks remains costly and often infeasible. In particular, the lack of accurate depth annotations, controlled illumination variations, and multi-scale paired imagery limits progress in monocular depth estimation, domain adaptation, and super-resolution for aerial scenes. We present SyMTRS, a large-scale synthetic dataset generated using a high-fidelity urban simulation pipeline. The dataset provides high-resolution RGB aerial imagery (2048 x 2048), pixel-perfect depth maps, night-time counterparts for domain adaptation, and aligned low-resolution variants for super-resolution at x2, x4, and x8 scales. Unlike existing remote sensing datasets that focus on a single task or modality, SyMTRS is designed as a unified multi-task benchmark enabling joint research in geometric understanding, cross-domain robustness, and resolution enhancement. We describe the dataset generation process, its statistical properties, and its positioning relative to existing benchmarks. SyMTRS aims to bridge critical gaps in remote sensing research by enabling controlled experiments with perfect geometric ground truth and consistent multi-domain supervision. The results obtained in this work can be reproduced from this Github repository: https://github.com/safouaneelg/SyMTRS.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Super-Resolution"
+    ]
+  },
+  {
+    "title": "Physics-Conditioned Synthesis of Internal Ice-Layer Thickness for Incomplete Layer Traces",
+    "url": "http://arxiv.org/abs/2604.20783v1",
+    "authors": [
+      "Zesheng Liu",
+      "Maryam Rahnemoonfar"
+    ],
+    "published": "2026-04-22",
+    "abstract": "Internal ice layers imaged by radar provide key evidence of snow accumulation and ice dynamics, but radar-derived layer boundary observations are often incomplete, with discontinuous traces and sometimes entirely missing layers, due to limited resolution, sensor noise, and signal loss. Existing graph-based models for ice stratigraphy generally assume sufficiently complete layer profiles and focus on predicting deeper-layer thickness from reliably traced shallow layers. In this work, we address the layer-completion problem itself by synthesizing complete ice-layer thickness annotations from incomplete radar-derived layer traces by conditioning on colocated physical features synchronized from physical climate models. The proposed network combines geometric learning to aggregate within-layer spatial context with a transformer-based temporal module that propagates information across layers to encourage coherent stratigraphy and consistent thickness evolution. To learn from incomplete supervision, we optimize a mask-aware robust regression objective that evaluates errors only at observed thickness values and normalizes by the number of valid entries, enabling stable training under varying sparsity without imputation and steering completions toward physically plausible values. The model preserves observed thickness where available and infers only missing regions, recovering fragmented segments and even fully absent layers while remaining consistent with measured traces. As an additional benefit, the synthesized thickness stacks provide effective pretraining supervision for a downstream deep-layer predictor, improving fine-tuned accuracy over training from scratch on the same fully traced data.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Regression"
+    ]
+  },
+  {
+    "title": "Forecasting Ionospheric Irregularities on GNSS Lines of Sight Using Dynamic Graphs with Ephemeris Conditioning",
+    "url": "http://arxiv.org/abs/2604.18379v1",
+    "authors": [
+      "Mert Can Turkmen",
+      "Eng Leong Tan",
+      "Yee Hui Lee"
+    ],
+    "published": "2026-04-20",
+    "abstract": "Most data-driven ionospheric forecasting models operate on gridded products, which do not preserve the time-varying sampling structure of satellite-based sensing. We instead model the ionosphere as a dynamic graph over ionospheric pierce points (IPPs), with connectivity that evolves as satellite positions change. Because satellite trajectories are predictable, the graph topology over the forecast horizon can be constructed in advance. We exploit this property to condition forecasts on the future graph structure, which we term ephemeris conditioning. This enables prediction on lines of sight that appear only in the forecast horizon. We evaluate our framework on multi-GNSS (Global Navigation Satellite System) data from a co-located receiver pair in Singapore spanning January 2023 through April 2025. The task is to forecast Rate of TEC Index (ROTI)-defined irregularities at 5-minute cadence up to 2 hours ahead as binary probabilistic classification per node. The resulting model, IonoDGNN, achieves a Brier Skill Score (BSS) of 0.49 and a precision-recall area under the curve (PR-AUC) of 0.75, improving over persistence by 35\\% in BSS and 52\\% in PR-AUC, with larger gains at longer lead times. Ablations confirm that graph structure and ephemeris conditioning each contribute meaningfully, with conditioning proving essential for satellites that rise during the forecast horizon (receiver operating characteristic AUC: 0.95 vs.\\ 0.52 without). Under simulated coverage dropout, the model retains predictive skill on affected nodes through spatial message passing from observed neighbors. These results suggest that dynamic graph forecasting on evolving lines of sight is a viable alternative to grid-based representations for ionospheric irregularity forecasting. The model and evaluation code will be released upon publication.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "DiffuSAM: Diffusion Guided Zero-Shot Object Grounding for Remote Sensing Imagery",
+    "url": "http://arxiv.org/abs/2604.18201v1",
+    "authors": [
+      "Geet Sethi",
+      "Panav Shah",
+      "Ashutosh Gandhe",
+      "Soumitra Darshan Nayak"
+    ],
+    "published": "2026-04-20",
+    "abstract": "Diffusion models have emerged as powerful tools for a wide range of vision tasks, including text-guided image generation and editing. In this work, we explore their potential for object grounding in remote sensing imagery. We propose a hybrid pipeline that integrates diffusion-based localization cues with state-of-the-art segmentation models such as RemoteSAM and SAM3 to obtain more accurate bounding boxes. By leveraging the complementary strengths of generative diffusion models and foundational segmentation models, our approach enables robust and adaptive object localization across complex scenes. Experiments demonstrate that our pipeline significantly improves localization performance, achieving over a 14% increase in Acc@0.5 compared to existing state-of-the-art methods.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Diffusion Models"
+    ],
+    "applications": [
+      "Segmentation",
+      "Image Generation"
+    ]
+  },
+  {
+    "title": "Producing High-Resolution Martian Surface Temperature Maps Using VIR-TIR Relationships",
+    "url": "http://arxiv.org/abs/2604.17859v1",
+    "authors": [
+      "Michael A. Frazer",
+      "Eriita G. Jones",
+      "Katarina Miljkovic",
+      "Gretchen K. Benedix"
+    ],
+    "published": "2026-04-20",
+    "abstract": "Thermal infrared data (TIR; 8 - 15 $\u03bcm$) has a wide range of applications in Earth and planetary remote sensing. On Mars, this includes deriving thermal inertia (TI), which describes surface physical characteristics (e.g. particle size, degree of cementation) and is key for understanding geologic processes, assessing in-situ resource utilisation (ISRU) environments, and assisting mission planning. However, TI data from the THEMIS instrument is limited to 100 m/pixel resolution. Hyperspectral visible and near-infrared data (VIR; 0.5 - 5 $\u03bcm$) compliments TIR data by providing information on surface composition and is provided by the CRISM instrument at 12 m/pixel. In this work, we generate a machine learning regressor-based model to constrain relationships between THEMIS TI and CRISM VIR images at THEMIS resolution, and predict TI values from CRISM spectra with high accuracy (R2 $\\sim$ 0.90, RMSE $\\sim$ 23.6 TIU). We use the model to produce a downscaled TI map at a spatial resolution of 12 m/pixel, an order of magnitude finer than currently available, revealing decametre-scale features previously unresolved in THEMIS data.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Ocean: Fast Estimation-Based Sparse General Matrix-Matrix Multiplication on GPU",
+    "url": "http://arxiv.org/abs/2604.19004v1",
+    "authors": [
+      "Yifan Li",
+      "Giulia Guidi"
+    ],
+    "published": "2026-04-21",
+    "abstract": "In computational science and data analytics, many workloads involve irregular and sparse computations that are inherently difficult to optimize for modern hardware. A key kernel is Sparse General Matrix-Matrix Multiplication (SpGEMM), which underpins simulations, graph analytics, and machine learning applications. SpGEMM exhibits irregular memory access patterns and workload imbalance, making it challenging to achieve high performance on GPUs. Current GPU SpGEMM solutions typically rely on a two-pass workflow to address load imbalance and reduce memory access. The symbolic pass, which determines the number of output elements per row, accounts for roughly 28% of the total runtime on average. In this work, we question the necessity of exact symbolic computation and introduce an estimation-based SpGEMM workflow. Our approach replaces the costly symbolic step with lightweight HyperLogLog estimators, combined with an analysis strategy that dynamically selects the optimal workflow and guides accumulator configuration. In addition, we introduce a hybrid accumulator design, including a novel hash-based accumulator that leverages both shared and global memory. Our approach consistently outperforms leading GPU SpGEMM implementations across a wide range of both square and rectangular matrices, achieving speedups of 1.4x-2.8x on NVIDIA A100 and H100 architectures.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Skillful Global Ocean Emulation and the Role of Correlation-Aware Loss",
+    "url": "http://arxiv.org/abs/2604.18727v1",
+    "authors": [
+      "Niraj Agarwal",
+      "Timothy A. Smith",
+      "Sergey Frolov",
+      "Laura C. Slivinski"
+    ],
+    "published": "2026-04-20",
+    "abstract": "Machine learning emulators have shown extraordinary skill in forecasting atmospheric states, and their application to global ocean dynamics offers similar promise. Here, we adapt the GraphCast architecture into a dedicated ocean-only emulator, driven by prescribed atmospheric conditions, for medium-range predictions. The emulator is trained on NOAA's UFS-Replay dataset. Using a 24 hour time step, single initial condition, and without using autoregressive training, we produce an emulator that provides skillful forecasts for 10-15 day lead times. We further demonstrate the use of Mahalanobis distance as loss that improves the forecast skill compared to the Mean Squared Error loss by explicitly accounting for the correlations between tendencies of the target variables. Using spatial correlation analysis of the forecasted fields, we also show that the proposed correlation-aware loss acts as a statistical-dynamical regularizer for the slow, correlated dynamics of the global oceans, offering a better background forecast for downstream tasks like data assimilation.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Unlocking Multi-Spectral Data for Multi-Modal Models with Guided Inputs and Chain-of-Thought Reasoning",
+    "url": "http://arxiv.org/abs/2604.21032v1",
+    "authors": [
+      "Dahun Kim",
+      "Ganesh Satish Mallya",
+      "Anelia Angelova"
+    ],
+    "published": "2026-04-22",
+    "abstract": "Multi-spectral imagery is a valuable input signal for Remote Sensing applications, such as land-use and land-cover classification and environmental monitoring. However, generalist Large Multi-modal Models (LMMs) are typically trained on RGB images, limiting their applicability to the RGB domain. At the same time, training multi-spectral multi-modal models is expensive and produces uniquely specialized models. To address this, we propose a novel training-free approach that introduces multi-spectral data within the inference pipeline of standard RGB-only LMMs, allowing large gains in performance. Our approach leverages the LMMs' understanding of the visual space by adapting non-RGB inputs to that space and injecting domain-specific information and Chain-of-Thought reasoning as instructions. We demonstrate this with the Gemini 2.5 model and observe strong Zero-Shot performance gains on popular Remote Sensing benchmarks. These results highlight the potential for geospatial professionals to leverage powerful generalist models for specialized sensor inputs, benefiting from rich reasoning capabilities grounded in specialized data.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
   }
 ]
