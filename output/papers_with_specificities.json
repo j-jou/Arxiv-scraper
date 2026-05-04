@@ -26347,7 +26347,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "RemoteShield: Enable Robust Multimodal Large Language Models for Earth Observation",
@@ -26370,7 +26371,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "When Earth Foundation Models Meet Diffusion: An Application to Land Surface Temperature Super-Resolution",
@@ -26395,7 +26397,8 @@
     "architectures": [],
     "applications": [
       "Super-Resolution"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Pretrain Where? Investigating How Pretraining Data Diversity Impacts Geospatial Foundation Model Performance",
@@ -26413,7 +26416,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "HyperFM: An Efficient Hyperspectral Foundation Model with Spectral Grouping",
@@ -26429,7 +26433,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "SyMTRS: Benchmark Multi-Task Synthetic Dataset for Depth, Domain Adaptation and Super-Resolution in Aerial Imagery",
@@ -26448,7 +26453,8 @@
     "architectures": [],
     "applications": [
       "Super-Resolution"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Physics-Conditioned Synthesis of Internal Ice-Layer Thickness for Incomplete Layer Traces",
@@ -26467,7 +26473,8 @@
     ],
     "applications": [
       "Regression"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Forecasting Ionospheric Irregularities on GNSS Lines of Sight Using Dynamic Graphs with Ephemeris Conditioning",
@@ -26486,7 +26493,8 @@
     "applications": [
       "Classification",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "DiffuSAM: Diffusion Guided Zero-Shot Object Grounding for Remote Sensing Imagery",
@@ -26508,7 +26516,8 @@
     "applications": [
       "Segmentation",
       "Image Generation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Producing High-Resolution Martian Surface Temperature Maps Using VIR-TIR Relationships",
@@ -26525,7 +26534,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Ocean: Fast Estimation-Based Sparse General Matrix-Matrix Multiplication on GPU",
@@ -26540,7 +26550,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Skillful Global Ocean Emulation and the Role of Correlation-Aware Loss",
@@ -26559,7 +26570,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Unlocking Multi-Spectral Data for Multi-Modal Models with Guided Inputs and Chain-of-Thought Reasoning",
@@ -26577,6 +26589,483 @@
     "architectures": [],
     "applications": [
       "Classification"
+    ],
+    "is_recent": false
+  },
+  {
+    "title": "Foundation AI Models for Aerosol Optical Depth Estimation from PACE Satellite Data",
+    "url": "http://arxiv.org/abs/2605.00678v1",
+    "authors": [
+      "Zahid Hassan Tushar",
+      "Sanjay Purushotham"
+    ],
+    "published": "2026-05-01",
+    "abstract": "Aerosol Optical Depth (AOD) retrieval is essential for Earth observation, supporting applications from air quality monitoring to climate studies. Conventional physics-based AOD retrieval methods formulate the problem as a pixel-wise inversion, relying on radiative transfer modeling, memory-intensive look-up tables, and auxiliary meteorological data. While recent data-driven approaches have shown promise, many fail to exploit the spatial-spectral coherence of hyperspectral imagery, leading to spatially inconsistent and noise-sensitive retrievals. We present the first study exploring Foundation AI models for AOD retrieval and propose ViTCG, a Vision Transformer with Channel-wise Grouping-based spatial regression framework that reduces retrieval bias and error. ViTCG uses hyperspectral top-of-atmosphere radiance as input and jointly models spatial context and spectral information. Validation with PACE radiance observations demonstrates a 62% reduction in mean squared error compared to state-of-the-art foundation models, including Prithvi, and produces spatially coherent AOD fields.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Regression"
     ]
+  },
+  {
+    "title": "A generalised pre-training strategy for deep learning networks in semantic segmentation of remotely sensed images",
+    "url": "http://arxiv.org/abs/2604.27704v1",
+    "authors": [
+      "Yuan Fang",
+      "Yuanzhi Cai",
+      "Jagannath Aryal",
+      "Qinfeng Zhu",
+      "Hong Huang",
+      "Cheng Zhang",
+      "Lei Fan"
+    ],
+    "published": "2026-04-30",
+    "abstract": "In the segmentation of remotely sensed images, deep learning models are typically pre-trained using large image databases like ImageNet before fine-tuned on domain-specific datasets. However, the performance of these fine-tuned models is often hindered by the large domain gaps (i.e., differences in scenes and modalities) between ImageNet's images and remotely sensed images being processed. Therefore, many researchers have undertaken efforts to establish large-scale domain-specific image datasets for pre-training, aiming to enhance model performance. However, establishing such datasets is often challenging, requiring significant effort, and these datasets often exhibit limited generaliza-bility to other application scenarios. To address these issues, this study introduces a novel yet simple pre-training strategy designed to guide a model away from learning domain-specific features in a pre-training dataset during pre-training, thereby improving the generalisation ability of the pre-trained model. To evaluate the strategy's effectiveness, deep learning models are pre-trained on ImageNet and subsequently fine-tuned on four semantic segmentation datasets with diverse scenes and modalities, including iSAID, MFNet, PST900 and Potsdam. Experimental results show that the proposed pre-training strategy led to state-of-the-art accuracies on all four datasets, namely 67.4% mIoU for iSAID, 56.9% mIoU for MFNet, 84.22% mIoU for PST900, 91.88% mF1 for Potsdam. This research lays the groundwork for developing a unified foundation model applicable to both computer vision and remote sensing applications.",
+    "categories": [
+      "foundation_model",
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "MemOVCD: Training-Free Open-Vocabulary Change Detection via Cross-Temporal Memory Reasoning and Global-Local Adaptive Rectification",
+    "url": "http://arxiv.org/abs/2604.26774v1",
+    "authors": [
+      "Zuzheng Kuang",
+      "Honghao Chang",
+      "Boqiang Liang",
+      "Haoqian Wang",
+      "Lijun He",
+      "Fan Li",
+      "Haixia Bi"
+    ],
+    "published": "2026-04-29",
+    "abstract": "Open-vocabulary change detection aims to identify semantic changes in bi-temporal remote sensing images without predefined categories. Recent methods combine foundation models such as SAM, DINO and CLIP, but typically process each timestamp independently or interact only at the final comparison stage. Such paradigms suffer from insufficient temporal coupling during semantic reasoning, which limits their ability to distinguish genuine semantic changes from non-semantic appearance discrepancies. In addition, patch-dominant inference on high-resolution images often weakens global semantic continuity and produces fragmented change regions. To address these issues, we propose MemOVCD, a training-free open-vocabulary change detection framework based on cross-temporal memory reasoning and global-local adaptive rectification. Specifically, we reformulate bi-temporal change detection as a two-frame tracking problem and introduce weighted bidirectional propagation to aggregate semantic evidence from both temporal directions. To stabilize memory propagation across large temporal gaps, we construct histogram-aligned transition frames to smooth abrupt appearance changes. Moreover, a global-local adaptive rectification strategy adaptively fuses local and global-view predictions, improving spatial consistency while preserving fine-grained details. Experiments on five benchmarks demonstrate that MemOVCD achieves favorable performance on two change detection tasks, validating its effectiveness and generalization under diverse open-vocabulary settings.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "CLIP"
+    ],
+    "applications": [
+      "Detection",
+      "Forecast",
+      "Tracking"
+    ]
+  },
+  {
+    "title": "Cross-Domain Transfer of Hyperspectral Foundation Models",
+    "url": "http://arxiv.org/abs/2604.26478v1",
+    "authors": [
+      "Nick Theisen",
+      "Peer Neubert"
+    ],
+    "published": "2026-04-29",
+    "abstract": "Hyperspectral imaging (HSI) semantic segmentation typically relies on in-domain training, but limited data availability often restricts model performance in real-world applications. Current approaches to leverage foundation models in proximal sensing use cross-modality techniques, bridging RGB and HSI to exploit vision foundation models. However, these methods either discard spectral information or introduce architectural complexity. We propose cross-domain transfer as an alternative, reusing HSI foundation models - originally trained in remote sensing - for proximal sensing applications. By eliminating the need to bridge modality gaps, our approach preserves spectral information while maintaining a simple architecture. Using the HS3-Bench benchmark, we systematically evaluate and compare conventional in-domain, in-modality training, cross-modality transfer and cross-domain transfer strategies. Our results demonstrate that cross-domain transfer achieves large performance improvements over in-domain, in-modality training, reduces the performance gap to cross-modality approaches and maintains strong performance in limited data settings. Thus, this work advances more effective HSI semantic segmentation in diverse applications.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "Agentic AI for Remote Sensing: Technical Challenges and Research Directions",
+    "url": "http://arxiv.org/abs/2604.24919v1",
+    "authors": [
+      "Muhammad Akhtar Munir",
+      "Muhammad Umer Sheikh",
+      "Akashah Shabbir",
+      "Muhammad Haris Khan",
+      "Fahad Khan",
+      "Xiao Xiang Zhu",
+      "Begum Demir",
+      "Salman Khan"
+    ],
+    "published": "2026-04-27",
+    "abstract": "Earth Observation (EO) is moving beyond static prediction toward multi-step analytical workflows that require coordinated reasoning over data, tools, and geospatial state. While foundation models and vision-language models have expanded representation learning and language-grounded interaction for remote sensing, and agentic AI has demonstrated long-horizon reasoning and external tool use, EO is not a straightforward extension of generic agentic AI. EO workflows operate over georeferenced, multi-modal, and temporally structured data, where operations such as reprojection, resampling, compositing, and aggregation actively transform the underlying state and can constrain subsequent analysis. As a result, errors may propagate silently across steps, and correctness depends not only on internal coherence, but also on geospatial consistency, temporally valid comparisons, and physical validity. This position paper argues that these challenges are structural rather than incidental. We identify the implicit assumptions commonly made in generic agentic models, analyze how they break in geospatial workflows, and characterize the resulting failure modes in multi-step EO pipelines. We then outline design principles for EO-native agents centered on structured geospatial state, tool-aware reasoning, verifier-guided execution, and learning objectives aligned with geospatial and physical validity. Finally, we present research directions spanning EO-specific benchmarks, hybrid supervised and reinforcement learning, constrained self-improvement, and trajectory-level evaluation beyond final-answer accuracy. Building reliable geospatial agents therefore requires rethinking agent design around the physical, geospatial, and workflow constraints that govern EO analysis.",
+    "categories": [
+      "foundation_model",
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": [
+      "Forecast",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "A satellite foundation model for improved wealth monitoring",
+    "url": "http://arxiv.org/abs/2604.23166v1",
+    "authors": [
+      "Zhuo Zheng",
+      "Iv\u00e1n Higuera-Mendieta",
+      "Richard Lee",
+      "David Newhouse",
+      "Talip Kilic",
+      "Stefano Ermon",
+      "Marshall Burke",
+      "David B. Lobell"
+    ],
+    "published": "2026-04-25",
+    "abstract": "Poverty statistics guide social policy, but in many low- and middle-income countries, censuses and household surveys that collect these data are costly, infrequent, quickly outdated, and sometimes error-prone. Satellite imagery offers global coverage and the possibility of predicting economic livelihoods at scale, yet existing approaches to predicting livelihoods with imagery or other non-traditional data often fail to reliably identify local-level variation and, as we show, degrade under temporal shift. Here we introduce Tempov, a satellite foundation model pretrained by self-supervision on three million bi-temporal Landsat pairs and adapted with parameter-efficient fine-tuning to sparse survey labels. The model enables large-scale, high-resolution wealth mapping and dynamic measurement, including zero-shot nowcasting up to a decade after observed labels, retrospective hindcasting, and decadal change tracking, while outperforming existing neural network and geospatial foundation-model baselines. In low-label regimes, Tempov achieves competitive accuracy with only 10% of survey samples, indicating substantially reduced dependence on expensive label collection. The model further generalizes across populous countries within and outside Africa, and scales to a unified Africa-wide model with strong continent-level performance ($R^2=0.63$, $r^2=0.68$), from which we generate high-resolution decadal maps of wealth and wealth changes for the African continent. Analysis of these maps shows large variation in recent economic performance both within and across countries. Our open-source approach provides a pathway to timely, scalable, low-cost monitoring of wealth and poverty from routinely collected satellite data.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Tracking"
+    ]
+  },
+  {
+    "title": "Noise2Map: End-to-End Diffusion Model for Semantic Segmentation and Change Detection",
+    "url": "http://arxiv.org/abs/2604.27889v1",
+    "authors": [
+      "Ali Shibli",
+      "Andrea Nascetti",
+      "Yifang Ban"
+    ],
+    "published": "2026-04-30",
+    "abstract": "Semantic segmentation and change detection are two fundamental challenges in remote sensing, requiring models to capture either spatial semantics or temporal differences from satellite imagery. Existing deep learning models often struggle with temporal inconsistencies or in capturing fine-grained spatial structures, require extensive pretraining, and offer limited interpretability - especially in real-world remote sensing scenarios. Recent advances in diffusion models show that Gaussian noise can be systematically leveraged to learn expressive data representations through denoising. Motivated by this, we investigate whether the noise process in diffusion models can be effectively utilized for discriminative tasks. We propose Noise2Map, a unified diffusion-based framework that repurposes the denoising process for fast, end-to-end discriminative learning. Unlike prior work that uses diffusion only for generation or feature extraction, Noise2Map directly predicts semantic or change maps using task-specific noise schedules and timestep conditioning, avoiding the costly sampling procedures of traditional diffusion models. The model is pretrained via self-supervised denoising and fine-tuned with supervision, enabling both interpretability and robustness. Our architecture supports both tasks (SS and CD) through a shared backbone and task-specific noise schedulers. Extensive evaluations on the SpaceNet7, WHU, and xView2 buildings damaged by wildfires datasets demonstrate that Noise2Map ranks on average 1st among seven models on semantic segmentation and 1st on change detection by a cross-dataset rank metric (average F1 primary, IoU tie-break). Ablation studies highlight the robustness of our model against different training noise schedulers and timestep control in the diffusion process, as well as the ability of the model to perform multi-task learning.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Diffusion Models"
+    ],
+    "applications": [
+      "Segmentation",
+      "Detection"
+    ]
+  },
+  {
+    "title": "ZAYAN: Disentangled Contrastive Transformer for Tabular Remote Sensing Data",
+    "url": "http://arxiv.org/abs/2604.27606v1",
+    "authors": [
+      "Al Zadid Sultan Bin Habib",
+      "Tanpia Tasnim",
+      "Md. Ekramul Islam",
+      "Muntasir Tabasum"
+    ],
+    "published": "2026-04-30",
+    "abstract": "Learning informative representations from tabular data in remote sensing and environmental science is challenging due to heterogeneity, scarce labels, and redundancy among features. We present ZAYAN (Zero-Anchor dYnamic feAture eNcoding), a self-supervised, feature-centric contrastive framework for tabular data. ZAYAN performs contrastive learning at the feature rather than sample level, removing the need for explicit anchor selection and any reliance on class labels, while encouraging a redundancy-minimized, disentangled embedding space. The framework has two modules: ZAYAN-CL, which pretrains feature embeddings via a zero-anchor contrastive objective with dynamic perturbations and masking, and ZAYAN-T, a Transformer that conditions on these embeddings for downstream classification. Across eight datasets, including six remote-sensing tabular benchmarks and two remote-sensing-driven flood-prediction tables from satellite and GIS products, ZAYAN achieves superior accuracy, robustness, and generalization over tabular deep learning baselines, with consistent gains under label scarcity and distribution shift. These results indicate that feature-level contrastive learning and dynamic feature encoding provide an effective recipe for learning from tabular sensing data.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "HQ-UNet: A Hybrid Quantum-Classical U-Net with a Quantum Bottleneck for Remote Sensing Image Segmentation",
+    "url": "http://arxiv.org/abs/2604.27206v1",
+    "authors": [
+      "Md Aminur Hossain",
+      "Ayush V. Patel",
+      "Ikshwaku Vanani",
+      "Biplab Banerjee"
+    ],
+    "published": "2026-04-29",
+    "abstract": "Semantic segmentation in remote sensing is commonly addressed using classical deep learning architectures such as U-Net, which require a large number of parameters to model complex spatial relationships. Quantum machine learning (QML) provides an alternative representation paradigm by mapping classical features into quantum states, but its direct application to high-dimensional images remains challenging under near-term quantum hardware constraints. In this work, we propose HQ-UNet, a hybrid quantum-classical U-Net architecture that integrates a compact parameterized quantum circuit at the bottleneck of a classical U-Net. The proposed design uses a non-pooling quantum convolutional module to enrich highly compressed encoder features before decoding, while keeping the quantum component shallow and parameter-efficient. Experiments on the LandCover.ai dataset show that HQ-UNet achieves a mean IoU of 0.8050 and an overall accuracy of 94.76%, outperforming the classical U-Net baseline. These results suggest that compact quantum bottlenecks can enhance feature representation for remote sensing image segmentation under near-term quantum constraints. This highlights the potential of hybrid quantum-classical designs as a promising direction for parameter-efficient dense prediction in Earth observation.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": [
+      "Segmentation",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "MixerCA: An Efficient and Accurate Model for High-Performance Hyperspectral Image Classification",
+    "url": "http://arxiv.org/abs/2604.26138v1",
+    "authors": [
+      "Mohammed Q. Alkhatib",
+      "Ali Jamali"
+    ],
+    "published": "2026-04-28",
+    "abstract": "Over the past decade, hyperspectral image (HSI) classification has drawn considerable interest due to HSIs' ability to effectively distinguish terrestrial objects by capturing detailed, continuous spectral information. The strong performance of recent deep learning techniques in tasks like image classification and semantic segmentation has led to their growing use in HSI classification, due to their ability to capture complex spatial and spectral features more effectively than traditional methods. This paper presents MixerCA, a novel lightweight model for HSI classification that leverages depthwise convolution and a self-attention mechanism. MixerCA integrates depth-wise convolutions, token and channel mixing, and coordinate attention into a unified structure to decouple spatial and channel interactions, maintain consistent resolution throughout the network, and directly process HSI patches. Extensive experiments on four hyperspectral benchmark datasets reveal MixerCA's clear advantages over several competing algorithms, including 2D-CNN, 3D-CNN, Tri-CNN, HybridSN, ViT, and Swin Transformer. The source code is publicly available at https://github.com/mqalkhatib/MixerCA.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": [
+      "Segmentation",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Evaluating the Alignment Between GeoAI Explanations and Domain Knowledge in Satellite-Based Flood Mapping",
+    "url": "http://arxiv.org/abs/2604.26051v1",
+    "authors": [
+      "Hyunho Lee",
+      "Wenwen Li"
+    ],
+    "published": "2026-04-28",
+    "abstract": "The increasing number of satellites has improved the temporal resolution of Earth observation, making satellite-based flood mapping a promising approach for operational flood monitoring. Deep learning-based approaches for flood mapping using satellite imagery, an important application within Geospatial Artificial Intelligence (GeoAI), have shown improved predictive performance by learning complex spatial and spectral patterns from large volumes of remote sensing data. However, the opaque decision-making processes of deep learning models remain a major barrier to their integration into critical scientific and operational workflows. This highlights the need for a systematic assessment of whether model explanations align with established domain knowledge in remote sensing. To address this research gap, this study introduces the ADAGE (Alignment between Domain Knowledge And GeoAI Explanation Evaluation) framework. The proposed framework is designed to systematically evaluate how well explanations of deep learning models align with established remote sensing knowledge, particularly regarding the distinctive spectral properties of the Earth's surface. The ADAGE framework employs Channel-Group SHAP (SHapley Additive exPlanations) method to estimate the contributions of grouped input channels to pixel-level predictions. Experiments on two satellite-based flood mapping tasks demonstrate that the ADAGE framework can (1) quantitatively assess the alignment between model explanations and reference explanations derived from domain knowledge and (2) help domain experts identify misaligned explanations through alignment scores. This study contributes to bridging the gap between explainability and domain knowledge in GeoAI for Earth observation, enhancing the applicability of GeoAI models in scientific and operational workflows.",
+    "categories": [
+      "remote_sensing",
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "SARU: A Shadow-Aware and Removal Unified Framework for Remote Sensing Images with New Benchmarks",
+    "url": "http://arxiv.org/abs/2604.25432v1",
+    "authors": [
+      "Zi-Yang Bo",
+      "Wei Lu",
+      "Hongruixuan Chen",
+      "Si-Bao Chen",
+      "Bin Luo"
+    ],
+    "published": "2026-04-28",
+    "abstract": "Shadows are a prevalent problem in remote sensing imagery (RSI), degrading visual quality and severely limiting the performance of downstream tasks like object detection and semantic segmentation. Most prior works treat shadow detection and removal as separate, cascaded tasks, which can lead to cumbersome process and error accumulation. Furthermore, many deep learning methods rely on paired shadow and non-shadow images for training, which are often unavailable in practice. To address these challenges, we propose Shadow-Aware and Removal Unified (SARU) Framework , a cohesive two-stage framework. First, its dual-branch detection module (DBCSF-Net) fuses multi-color space and semantic features to generate high-fidelity shadow masks, effectively distinguishing shadows from dark objects. Then, leveraging these masks, a novel, training-free physical algorithm (N$^2$SGSR) restores illumination by transferring properties from adjacent non-shadow regions within the single input image. To facilitate rigorous evaluation and foster future work, we also introduce two new benchmark datasets: the RSI Shadow Detection (RSISD) dataset and the Single-image Shadow Removal Benchmark (SiSRB). Extensive experiments demonstrate that SARU achieves state-of-the-art performance on both the public AISD dataset and our newly introduced benchmarks. By holistically integrating shadow detection and removal to mitigate error propagation and eliminating the dependency on paired training data, SARU establishes a robust, practical framework for real-world RSI analysis. The source code and datasets are publicly available at: https://github.com/AeroVILab-AHU/SARU-Framework.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection"
+    ]
+  },
+  {
+    "title": "Beyond Visual Fidelity: Benchmarking Super-Resolution Models for Large-Scale Remote Sensing Imagery via Downstream Task Integration",
+    "url": "http://arxiv.org/abs/2605.00310v1",
+    "authors": [
+      "Zhili Li",
+      "Kangyang Chai",
+      "Zhihao Wang",
+      "Xiaowei Jia",
+      "Yanhua Li",
+      "Gengchen Mai",
+      "Sergii Skakun",
+      "Dinesh Manocha",
+      "Yiqun Xie"
+    ],
+    "published": "2026-05-01",
+    "abstract": "Super-resolution (SR) techniques have made major advances in reconstructing high-resolution images from low-resolution inputs. The increased resolution provides visual enhancement and utility for monitoring tasks. In particular, SR has been increasingly developed for satellite-based Earth observation, with applications in urban planning, agriculture, ecology, and disaster response. However, existing SR studies and benchmarks typically use fidelity metrics such as PSNR or SSIM, whereas the true utility of super-resolved images lies in supporting downstream tasks such as land cover classification, biomass estimation, and change detection. To bridge this gap, we introduce GeoSR-Bench, a downstream task-integrated SR benchmark dataset to evaluate SR models beyond fidelity metrics. GeoSR-Bench comprises spatially co-located, temporally aligned, and quality-controlled image pairs from about 36,000 locations across diverse land covers, spanning resolutions from 500m to 0.6m. To the best of our knowledge, GeoSR-Bench is the first SR benchmark that directly connects improved image resolution from SR models with downstream Earth monitoring tasks, including land cover segmentation, infrastructure mapping, and biophysical variable estimation. Using GeoSR-Bench, we benchmark GAN, transformer, neural operator, and diffusion-based SR models on perceptual quality and downstream task performance. We conduct experiments with 270 settings, covering 2 cross-platform SR tasks, 9 SR models, 3 downstream task models, and 5 downstream tasks for each SR task. The results show that improvements in traditional SR metrics often do not correlate with gains in task performance, and the correlations can be negative, indicating that these metrics provide limited guidance for selecting superior models for downstream tasks. This reveals the need to integrate downstream tasks into SR model development and evaluation.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer",
+      "GAN"
+    ],
+    "applications": [
+      "Segmentation",
+      "Detection",
+      "Classification",
+      "Super-Resolution"
+    ]
+  },
+  {
+    "title": "Topology-Aware Representation Alignment for Semi-Supervised Vision-Language Learning",
+    "url": "http://arxiv.org/abs/2604.26370v1",
+    "authors": [
+      "Junwon You",
+      "Mihyun Jang",
+      "Sangwoo Mo",
+      "Jae-Hun Jung"
+    ],
+    "published": "2026-04-29",
+    "abstract": "Vision-language models have shown strong performance, but they often generalize poorly to specialized domains. While semi-supervised vision-language learning mitigates this limitation by leveraging a small set of labeled image-text pairs together with abundant unlabeled images, existing methods remain fundamentally pairwise and fail to model the global structure of multimodal representation manifolds. Existing topology-based alignment methods rely on persistence diagram matching, which neither guarantees geometric alignment nor utilizes the image-text pairing information central to vision-language learning. We propose Topology-Aware Multimodal Representation Alignment (ToMA), a framework that uses persistent homology to identify topologically salient edges and aligns them across modalities through available cross-modal correspondences. ToMA leverages both H_0-death edges and lightweight H_1-birth edges, allowing it to capture both connectivity and cycle structure without constructing 2-simplices. Experiments show that ToMA yields stable gains, with clear improvements on remote sensing and modest but consistent benefits on fashion retrieval. Additional analysis shows that ToMA is more stable than alternative topology-based objectives and that lightweight H_1-birth edges provide useful higher-order structural signals.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Spatially-constrained clustering of geospatial features for heat vulnerability assessment of favelas in Rio de Janeiro",
+    "url": "http://arxiv.org/abs/2604.26133v1",
+    "authors": [
+      "Baptiste Clemence",
+      "Thomas Hallopeau",
+      "Vanderlei Pascoal De Matos",
+      "Laurent Demagistri",
+      "Joris Guerin"
+    ],
+    "published": "2026-04-28",
+    "abstract": "Informal settlements face disproportionate exposure to climate-related health hazards. However, existing methodologies lack systematic approaches to link diverse settlement characteristics with environmental health outcomes. We develop a data-driven framework to assess heat vulnerability in Rio de Janeiro's favelas by combining spatially-constrained clustering with land surface temperature (LST) analysis. Using remote sensing and geospatial features, we identify two distinct favela typologies: recent, well-connected settlements on flat terrain (Cluster 0) and historical, poorly-connected communities on vegetated slopes (Cluster 1). Analysis of 16 extreme heat events reveals systematic temperature differences of 2--3$^\\circ$C between clusters, with flat-terrain favelas experiencing significantly higher heat exposure. Our findings demonstrate that settlement morphology critically influences heat vulnerability, providing a replicable framework for targeted urban planning and public health interventions in informal settlements globally.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "STAND: Semantic Anchoring Constraint with Dual-Granularity Disambiguation for Remote Sensing Image Change Captioning",
+    "url": "http://arxiv.org/abs/2604.23309v1",
+    "authors": [
+      "Yanpei Gong",
+      "Beichen Zhang",
+      "Hao Wang",
+      "Zhaobo Qi",
+      "Xinyan Liu",
+      "Yuanrong Xu",
+      "Ruiyang Gao",
+      "Weigang Zhang"
+    ],
+    "published": "2026-04-25",
+    "abstract": "Remote sensing image change captioning (RSICC) aims to describe the difference between two remote sensing images. While recent methods have explored video modeling, they largely overlook the inherent ambiguities in viewpoint, scale, and prior knowledge, lacking effective constraints on the encoder. In this paper, we present STAND, a Semantic Anchoring Constraint with Dual-Granularity Disambiguation for RSICC, to progressively resolve these ambiguities. Specifically, to establish a reliable feature foundation, we first introduce an interpretable constraint to regularize temporal representations. Operating on these purified features, a dual-granularity disambiguation module resolves spatial uncertainties by coupling macro-level global context aggregation for viewpoint confusion with micro-level frequency-refocused attention for small-object scale enhancement. Ultimately, to translate these visually disambiguated features into precise text, a semantic concept anchoring module leverages language categorical priors to tackle knowledge ambiguity during decoding. Extensive experiments verify the superiority of STAND and its effectiveness in addressing ambiguities.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Deep Learning-Enabled Dissolved Oxygen Sensing in Biofouling Environments for Ocean Monitoring",
+    "url": "http://arxiv.org/abs/2604.24236v1",
+    "authors": [
+      "Nikolaos Salaris",
+      "Adrien Desjardins",
+      "Manish K. Tiwari"
+    ],
+    "published": "2026-04-27",
+    "abstract": "The escalating climate crisis and ecosystem degradation demand intelligent, low-cost sensors capable of robust, long-term monitoring in real-world environments. Absolute dissolved oxygen (DO) concentration is a key parameter for predicting climate tipping points. Inexpensive optoelectronic sensors based on microstructured polymer films doped with phosphorescent dyes could be readily deployable; however, signal drift and marine biofouling remain major challenges. Here, we introduce a sensing paradigm that combines camera-based DO sensors with a visual transformer (ViT)-based physics-informed neural network (PINN) for high-fidelity sensing under biofouling conditions. Training and testing data were obtained from an algae-laden water tank over 14 days to capture accelerated biofouling. The ViT-PINN, which embeds the Stern-Volmer (SV) equation into the loss function, reduces mean average error (MAE) by 92% and 89% compared to classical statistical and ML approaches, achieving ~2 umol/L absolute error. A deep ensemble further quantifies predictive uncertainty, enabling self-diagnostic sensing.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Transformer",
+      "PINN"
+    ],
+    "applications": []
+  },
+  {
+    "title": "M-CaStLe: Uncovering Local Causal Structures in Multivariate Space-Time Gridded Data",
+    "url": "http://arxiv.org/abs/2605.00398v1",
+    "authors": [
+      "J. Jake Nichol",
+      "Michael Weylandt",
+      "G. Matthew Fricke",
+      "Jhayron Perez-Carrasquilla",
+      "Melanie E. Moses"
+    ],
+    "published": "2026-05-01",
+    "abstract": "Causal graph discovery for space-time systems is challenging in high-dimensional gridded data, which often has many more grid cells than temporal observations per cell. The Causal Space-Time Stencil Learning (CaStLe) meta-algorithm was developed to address that niche under space-time locality and stationarity assumptions, but it is currently limited to univariate analyses. In this work, we present M-CaStLe. M-CaStLe generalizes the local embedding and parent-identification phases of CaStLe to jointly model local within-variable and cross-variable space-time causal structures in gridded data. Like CaStLe, by constraining candidate parents to a constant-size space-time neighborhood and pooling spatial replicates, M-CaStLe increases effective sample size to make discovery tractable in high-dimensional settings. We further decompose the resulting multivariate stencil graph into reaction and spatial graphs to aid interpretation in complex settings.\n  We study M-CaStLe in four settings: a multivariate space-time vector autoregression benchmark with known ground truth, an advective-diffusive-reaction partial differential equation verification problem with derived physical reference structure, an atmospheric chemistry case study in a low-temporal-sample regime, and an El Ni\u00f1o Southern Oscillation study on reanalysis data, identifying phase-dependent ocean--atmosphere coupling. Across these settings, M-CaStLe more accurately recovers multivariate causal structure in controlled settings and identifies important physical dynamics in real-world case studies. Overall, M-CaStLe advances causal discovery for multivariate space-time systems while retaining interpretability at the grid level.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Representing the Surface Ocean in ECMWF's data-driven forecasting system AIFS",
+    "url": "http://arxiv.org/abs/2604.25559v1",
+    "authors": [
+      "Sara Hahner",
+      "Lorenzo Zampieri",
+      "Jean-Raymond Bidlot",
+      "Philip Browne",
+      "Matthew Chantry",
+      "Mariana C. A. Clare",
+      "Harrison Cook",
+      "Peter Dueben",
+      "Rachel Furner",
+      "Sarah Keeley",
+      "Josh Kousal",
+      "Simon Lang",
+      "Christian Lessig",
+      "Gert Mertes",
+      "Kristian Mogensen",
+      "Gabriel Moldovan",
+      "Charles Pelletier",
+      "Florian Pinault",
+      "Ana Prieto Nemesio",
+      "Baudouin Raoult",
+      "Irina Sandu",
+      "Mario Santa Cruz",
+      "Jakob Schloer",
+      "Steffen Tietsche",
+      "Hao Zuo"
+    ],
+    "published": "2026-04-28",
+    "abstract": "Machine-learning (ML) models, such as the AIFS at the ECMWF, have revolutionised weather forecasting in recent years. We present an extension of the AIFS that jointly models the atmosphere and surface ocean, including ocean waves and sea ice. The primary objective of this extension is to enhance machine-learning medium-range forecasting and enable new use cases by expanding the weather state to better capture coupled surface processes. Our approach departs from traditional numerical models by not having two separate models for the atmosphere and marine components. The joint model instead learns correlations across the entire atmosphere-ocean interface in a component-agnostic way, and can exploit the expressive capacity of ML architectures to learn cross-component relationships directly from the data.\n  We leverage tailored and targeted datasets and solve model design challenges such as missing values over land, multi-scale temporal dynamics, and physical realism of forecast fields and demonstrate the utility of loss scaling in guiding the learning process. We evaluate how representing the surface ocean affects medium-range weather forecasts. We also assess the model's ability to predict surface-ocean fields, including wave swell and tropical-cyclone cold wakes. For nearly all evaluated marine variables, we observe an improvement of approximately one day in forecast skill at medium-range lead times compared to physics-based models. Furthermore, we demonstrate that the model is robust to idealised initial conditions outside the training distribution and responds to them in a physically consistent way. Overall, our findings suggest that the joint AIFS modelling approach offers significant potential for combined atmosphere-ocean forecasting. Our work provides a solid foundation for future development of data-driven coupled Earth system models with greater flexibility and physical fidelity.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Doing More With Less: Revisiting the Effectiveness of LLM Pruning for Test-Time Scaling",
+    "url": "http://arxiv.org/abs/2604.25098v1",
+    "authors": [
+      "Ocean Monjur",
+      "Shahriar Kabir Nahin",
+      "Anshuman Chhabra"
+    ],
+    "published": "2026-04-28",
+    "abstract": "While current Large Language Models (LLMs) exhibit remarkable reasoning capabilities through test-time compute scaling (TTS), their massive parameter counts and high inference costs have motivated the development of pruning methods that can reduce model size without sacrificing performance. However, specific to reasoning LLMs, prior work has shown that structured pruning (methods which removes entire set of layer blocks), significantly degrades TTS reasoning performance. In this work, we revisit this assumption and instead investigate whether unstructured pruning (methods that carefully remove only certain redundant/detrimental weights) exhibits similar limitations. Surprisingly, our extensive experiments across four reasoning benchmarks on two reasoning LLMs: s1.1-7B and Qwen3-8B, consistently show that unstructured pruning augments TTS performance compared to structured pruning, and at times can even outperform the unpruned full-weight LLMs. Furthermore, we also empirically study the impact of different layer-wise sparsity allocation strategies, which are an important parametric choice for instantiating unstructured pruning methods. These findings challenge the conventional notion that pruning always reduces TTS performance and in fact, suggest that carefully undertaken pruning can improve TTS effectiveness even further.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "GeoContra: From Fluent GIS Code to Verifiable Spatial Analysis with Geography-Grounded Repair",
+    "url": "http://arxiv.org/abs/2605.00782v1",
+    "authors": [
+      "Yinhao Xiao",
+      "Rongbo Xiao",
+      "Yihan Zhang"
+    ],
+    "published": "2026-05-01",
+    "abstract": "Reliable spatial analysis in GIScience requires preserving coordinate semantics, topology, units, and geographic plausibility. Current LLM-based GIS systems generate fluent scripts but rarely enforce these geographic rules at scale. We present GeoContra, a verification and repair framework for LLM-driven Python GIS workflows. It represents each task as an executable geospatial contract-including natural-language questions, schemas, CRS metadata, expected outputs, spatial predicates, topology, metrics, required operations, and forbidden shortcuts. Generated programs undergo static rule inspection, runtime validation, and semantic verification, with violations fed back into a bounded repair loop. Evaluated on 7,079 real geospatial tasks across 15 Boston-area zones, 9 task families, and 11 open-source models (600 runs each), GeoContra improves spatial correctness on closed models from 47.6% to 77.5% for DeepSeek-V4 and from 57.7% to 81.5% for Kimi-K2.5. Across 11 open models, average correctness rises by 26.6%. GeoContra turns fluent code production into verifiable spatial analysis, catching negative travel times, CRS/field-schema violations, missing predicates, and brittle output casts that otherwise yield executable but geographically invalid results.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Unbox Responsible GeoAI: Navigating Climate Extreme and Disaster Mapping",
+    "url": "http://arxiv.org/abs/2605.00315v1",
+    "authors": [
+      "Hao Li",
+      "Steffen Knoblauch"
+    ],
+    "published": "2026-05-01",
+    "abstract": "As climate extreme and disaster events become more frequent and intense, Geospatial Artificial Intelligence (GeoAI) has emerged as a transformative approach for large-scale disaster mapping and risk reduction. However, the purely mechanical, performance-driven deployment of GeoAI models can result in amplifying inherent spatial inequalities, preventing effective emergency decision-making, and producing severe environmental carbon footprint. To unbox the concept of responsible GeoAI, this position paper examines its emerging role, e.g., in climate extreme and disaster mapping, from a critical GIS perspective. We address the nexus of responsible GeoAI into four interrelated theoretical dimensions, specifically Representativeness, Explainability, Sustainability, and Ethics, with examples from climate extreme and disaster mapping. Moreover, targeting at the operational practice, we then propose a conceptual governance Model of responsible GeoAI that categorizes its governance practices into Data, Application, and Society scopes. Last, this position paper aims to raise the attention in the broader GIS community that the future of climate resilience relies not just on building better algorithms, but on fostering a governance ecosystem where GeoAI is deployed responsibly, ethically, and sustainably.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": []
   }
 ]
