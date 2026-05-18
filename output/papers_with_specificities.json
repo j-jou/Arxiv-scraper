@@ -27103,7 +27103,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Region-adaptable retrieval of coastal biogeochemical parameters from near-surface hyperspectral remote sensing reflectance using physics-aware meta-learning",
@@ -27126,7 +27127,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Uncertainty-Guided Edge Learning for Deep Image Regression in Remote Sensing",
@@ -27144,7 +27146,8 @@
     "architectures": [],
     "applications": [
       "Regression"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Characterizing Brazilian Atlantic Forest Restoration Outcomes with Geospatial AlphaEarth Embeddings",
@@ -27158,7 +27161,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Efficient Geometry-Controlled High-Resolution Satellite Image Synthesis",
@@ -27179,7 +27183,8 @@
     "applications": [
       "Detection",
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Climate-based Pre-screening of Self-sustaining Regreening Opportunities in Drylands: A Case Study for Saudi Arabia",
@@ -27200,7 +27205,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "RAFNet: Region-Aware Fusion Network for Pansharpening",
@@ -27216,7 +27222,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "The Perceptual Bandwidth Bottleneck in Vision-Language Models: Active Visual Reasoning via Sequential Experimental Design",
@@ -27240,7 +27247,8 @@
     "architectures": [
       "LVM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "From Beats to Breaches:How Offensive AI Infers Sensitive User Information from Playlists",
@@ -27262,7 +27270,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "NORA: A Harness-Engineered Autonomous Research Agent for End-to-End Spatial Data Science",
@@ -27285,7 +27294,8 @@
     ],
     "applications": [
       "Regression"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "EO-Gym: A Multimodal, Interactive Environment for Earth Observation Agents",
@@ -27307,7 +27317,8 @@
     "architectures": [
       "LVM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "RemoteZero: Geospatial Reasoning with Zero Human Annotations",
@@ -27327,7 +27338,8 @@
       "geo_reasoning"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Revisiting General Map Search via Generative Point-of-Interest Retrieval",
@@ -27350,7 +27362,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Quantifying the human visual exposome with vision language models",
@@ -27374,7 +27387,8 @@
       "LLM",
       "LVM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "From 'Here' to 'There': Exploring Proximity Semantics in Multimodal Data Exploration",
@@ -27392,6 +27406,572 @@
     "architectures": [
       "LVM"
     ],
+    "applications": [],
+    "is_recent": false
+  },
+  {
+    "title": "ChronoEarth-492K: A Large Scale and Long Horizon Spatiotemporal Hyperspectral Earth Observation Dataset and Benchmark",
+    "url": "http://arxiv.org/abs/2605.15666v1",
+    "authors": [
+      "Haozhe Si",
+      "Yuxuan Wan",
+      "Yuqing Wang",
+      "Minh Do",
+      "Han Zhao"
+    ],
+    "published": "2026-05-15",
+    "abstract": "Hyperspectral imaging (HSI) provides dense spectral information for the Earth's surface, enabling material-level understanding of land cover and ecosystem dynamics. Despite recent progress in hyperspectral self-supervised learning (SSL), existing datasets remain temporally shallow, limiting the development of long-horizon spatiotemporal modeling. To address this gap, we introduce ChronoEarth-492K, the first large-scale, temporally calibrated hyperspectral SSL dataset built upon NASA's EO-1 Hyperion mission, the world's longest continuous hyperspectral archive up to date (2001-2017). ChronoEarth-492K comprises 492,354 radiometrically harmonized patches across 185,398 global locations over 17 years, with 28,786 sites containing multi-temporal sequences ($\\geq 3$ observations) that enable both short- and long-horizon temporal analysis. Building on this foundation, we establish the ChronoEarth-Benchmark, a unified evaluation suite spanning static, short-horizon, and long-horizon temporal tasks, constructed from six open-source geospatial products covering land cover, crop type, forest dynamics, and soil properties. We further introduce a standardized evaluation protocol and report extensive baseline results across state-of-the-art hyperspectral foundation models. Together, ChronoEarth and benchmark provide the first large-scale, temporally grounded platform for systematic spatiotemporal hyperspectral representation learning.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
     "applications": []
+  },
+  {
+    "title": "GeoViSTA: Geospatial Vision-Tabular Transformer for Multimodal Environment Representation",
+    "url": "http://arxiv.org/abs/2605.14406v1",
+    "authors": [
+      "Yuhao Liu",
+      "Sadeer Al-Kindi",
+      "Ashok Veeraraghavan",
+      "Guha Balakrishnan"
+    ],
+    "published": "2026-05-14",
+    "abstract": "Large-scale pretraining on Earth observation imagery has yielded powerful representations of the natural and built environment. However, most existing geospatial foundation models do not directly model the structured socioeconomic covariates typically stored in tabular form. This modality gap limits their ability to capture the complete total environment, which is critical for reasoning about complex environmental, social, and health-related outcomes. In this work, we propose GeoViSTA (Geospatial Vision-Tabular Transformer), a vision-tabular architecture that learns unified geospatial embeddings from co-registered gridded imagery and tabular data. GeoViSTA utilizes bilateral cross-attention to exchange spatial and semantic information across modalities, guided by a geography-aware attention mechanism that aligns continuous image patches with irregular census-tract tokens. We train GeoViSTA with a self-supervised joint masked-autoencoding objective, forcing it to recover missing image patches and tabular rows using local spatial context and cross-modal cues. Empirically, GeoViSTA's unified embeddings improve linear probing performance on high-impact downstream tasks, outperforming baselines in predicting disease-specific mortality and fire hazard frequency across held-out regions. These results demonstrate that jointly modeling the physical environment alongside structured socioeconomic context yields highly transferable representations for holistic geospatial inference.",
+    "categories": [
+      "foundation_model",
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Mini-JEPA Foundation Model Fleet Enables Agentic Hydrologic Intelligence",
+    "url": "http://arxiv.org/abs/2605.14120v1",
+    "authors": [
+      "Mashrekur Rahman"
+    ],
+    "published": "2026-05-13",
+    "abstract": "Geospatial foundation models compress multispectral observations into dense embeddings increasingly used in natural-language environmental reasoning systems. A single planetary-scale model, e.g. Google AlphaEarth, handles broad characterization well but may compromise on specialized hydrologic signals. Such generalist models are also often inaccessible, expensive, and require large-scale compute. We propose Mini-JEPAs: a fleet of small sensor-specialized Joint Embedding Predictive Architecture (JEPA) foundation models consulted by a routing agent for specialized questions. We pretrained five 22M-parameter Mini-JEPAs sharing an identical Vision Transformer backbone, JEPA recipe, and 64-d output space, using Sentinel-2 optical, Sentinel-1 SAR, MODIS thermal, multi-temporal Sentinel-2 phenology, and a topography-soil stack. Each Mini-JEPA reconstructs the variable matched to its sensor, with cross-validated $R^2$ reaching 0.97 for elevation, 0.97 for temperature, and 0.81 for precipitation. The five manifolds differ in geometric structure, with global participation ratios from 8.9 to 20.2 and local intrinsic dimensionalities from 2.3 to 9.0. Joint topography-soil and phenology models add predictive value beyond AlphaEarth alone for soil moisture, aridity, and precipitation ($\u0394R^2$ up to 0.031). A router LLM reads per-modality references and selects appropriate sensors with a perfect hit rate over a curated question set. In paired LLM-as-Judge evaluation, dual retrieval over AlphaEarth and the routed fleet outperforms AlphaEarth alone on physics-matched questions (Cohen's $d = 1.10$, $p = 0.031$). Locally-trained Mini-JEPAs can be operationalized for hydrologic intelligence with modest compute.",
+    "categories": [
+      "foundation_model",
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "JEPA",
+      "Transformer",
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "No One Knows the State of the Art in Geospatial Foundation Models",
+    "url": "http://arxiv.org/abs/2605.12678v1",
+    "authors": [
+      "Isaac Corley",
+      "Nils Lehmann",
+      "Caleb Robinson",
+      "Gabriel Tseng",
+      "Anthony Fuller",
+      "Hamed Alemohammad",
+      "Evan Shelhamer",
+      "Jennifer Marcus",
+      "Hannah Kerner"
+    ],
+    "published": "2026-05-12",
+    "abstract": "Geospatial foundation models (GFMs) have been proposed as generalizable backbones for disaster response, land-cover mapping, food-security monitoring, and other high-stakes Earth-observation tasks. Yet the published work about these models does not give reviewers or users enough information to tell which model fits a given task. We argue that nobody knows what the current state of the art is in geospatial foundation models. The methods may be useful, but the GFM literature does not standardize evaluations, training and testing protocols, released weights, or pretraining controls well enough for anyone to compare or rank them. In a 152-paper audit, we find 46 cross-paper disagreements of at least 10 points for the same model, benchmark, and protocol; 94/126 papers with extractable pretraining data use a configuration no other paper uses; and 39% of GFM papers release no model weights. This lack of community standards can be solved. We propose six concrete expectations: named-license weight release, shared core evaluations, copied-versus-rerun baseline annotations, variance reporting, one shared evaluation harness, and data-vs-architecture-vs-algorithm controls. These gaps are a coordination failure, not a fault of any individual lab; the authors of this paper, like many others in the GFM community, have contributed to them. Rather than just critiquing the community, we aim to provide concrete steps toward a shared understanding of how to innovate GFMs.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "NARA: Anchor-Conditioned Relation-Aware Contextualization of Heterogeneous Geoentities",
+    "url": "http://arxiv.org/abs/2605.12276v1",
+    "authors": [
+      "Jina Kim",
+      "Gengchen Mai",
+      "Lingyi Zhao",
+      "Khurram Shafique",
+      "Yao-Yi Chiang"
+    ],
+    "published": "2026-05-12",
+    "abstract": "Geospatial foundation models have primarily focused on raster data such as satellite imagery, where self-supervised learning has been widely studied. Vector geospatial data instead represent the world as discrete geoentities with explicit geometry, semantics, and structured spatial relations, including metric proximity and topological relationships. These relations jointly determine how entities interact within space, yet existing representation learning methods remain fragmented, often restricted to specific geometry types or partial spatial relations, limiting their ability to capture unified spatial context across heterogeneous geoentities. We propose NARA (Neural Anchor-conditioned Relation-Aware representation learning), a self-supervised framework for vector geoentities. NARA learns context-dependent representations by jointly modeling semantics, geometry, and spatial relations within a unified framework and captures relational spatial structure beyond proximity alone, enabling rich contextualized representations across heterogeneous geoentities of points, polylines, and polygons. Evaluation on building function classification, traffic speed prediction, and next point-of-interest recommendation shows consistent improvements over prior methods, highlighting the benefit of unified relational modeling for vector geospatial data.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Much of Geospatial Web Search Is Beyond Traditional GIS",
+    "url": "http://arxiv.org/abs/2605.11336v1",
+    "authors": [
+      "Ilya Ilyankou",
+      "Stefano Cavazzi",
+      "James Haworth"
+    ],
+    "published": "2026-05-11",
+    "abstract": "Web search queries concern place far more often than existing labelling schemes suggest, yet the landscape of geospatial web search queries - what people ask of place, and how often - remains poorly characterised at scale. We apply dense sentence embeddings, a lightweight SetFit classifier, and density-based clustering to the full MS MARCO corpus of 1.01 million real Bing queries without prior filtering for toponyms or spatial keywords, identifying 181,827 geospatial queries (18.0%), nearly threefold the 6.17% labelled as Location in the original annotations. The resulting taxonomy of 88 query categories reveals that geospatial web search is dominated by transactional and practical lookups: costs and prices alone account for 15.3% of geospatial queries, nearly twice the size of the entire physical geography theme. Much of this activity - costs, opening hours, contact details, weather, travel recommendations - falls outside the scope traditional GIS systems and knowledge graphs are built to serve. The categories vary substantially in the kind of answer they admit, from deterministic lookups answerable from spatial databases or knowledge graphs to evaluative or temporally volatile queries that require generative or real-time systems. We discuss implications for hybrid retrieval architectures and for benchmarks of geographic reasoning in large language models. We openly release the labelled dataset, classifier, and taxonomy.",
+    "categories": [
+      "foundation_model",
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "LDGuid: A Framework for Robust Change Detection via Latent Difference Guidance",
+    "url": "http://arxiv.org/abs/2605.15582v1",
+    "authors": [
+      "Jiaxuan Zhao",
+      "Ali Bereyhi"
+    ],
+    "published": "2026-05-15",
+    "abstract": "Modern deep learning models for change detection (CD) often struggle to explicitly represent task-relevant semantic differences. This paper proposes the Latent Difference Guidance (LDGuid) framework that explicitly learns and injects semantic differences into CD models. LDGuid deploys adversarial autoencoding to implement a difference embedding (DE) module. The DE module is pretrained via the information bottleneck method, restricting it to learn only task-relevant differences between pre- and post-event samples. The learned latent difference is then used as an explicit guidance signal in the CD model. We validate LDGuid by integrating it into U-Net, BIT, and AERNet baselines for CD and evaluating it on LEVIR-CD, WHU-CD, SVCD, and CaBuAr datasets. Experimental results show that LDGuid enhances segmentation performance across all benchmarks, with particularly remarkable gains in challenging settings affected by spectral noise. The results further highlight the ability of LDGuid in incorporating domain knowledge, such as task-specific spectral indices. Our findings suggest that semantic difference learning can drastically enhance the robustness of CD in remote sensing.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": [
+      "Segmentation",
+      "Detection"
+    ]
+  },
+  {
+    "title": "TERRA-CD: Multi-Temporal Framework for Multi-class and Semantic Change Detection",
+    "url": "http://arxiv.org/abs/2605.14651v1",
+    "authors": [
+      "Omkar Oak",
+      "Rukmini Nazre",
+      "Rujuta Budke",
+      "Suraj Sawant"
+    ],
+    "published": "2026-05-14",
+    "abstract": "Urban vegetation monitoring plays a vital role in understanding environmental changes, yet comprehensive datasets for this purpose remain limited. To address this gap, we present the Temporal Remote-sensing Repository for Analyzing Change Detection (TERRA-CD), a benchmark dataset comprising 5,221 Sentinel-2 image pairs from 2019 and 2024, covering 232 cities across the USA and Europe. The dataset features three distinct annotation schemes: 4-class land cover mapping masks, 3-class vegetation change masks, and 13-class semantic change masks capturing all possible land cover transitions. Using various deep learning approaches including Siamese networks, STANet variants, Bi-SRNet, Changemask, Post-Classification Comparison, and HRSCD strategies, we evaluated the dataset's effectiveness for both vegetation Multi-class Change Detection as well as Semantic Change Detection. The proposed dataset and methods are available at https://github.com/omkarsoak/TERRA-CD.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "TAR: Text Semantic Assisted Cross-modal Image Registration Framework for Optical and SAR Images",
+    "url": "http://arxiv.org/abs/2605.12064v1",
+    "authors": [
+      "Zhuoyu Cai",
+      "Dou Quan",
+      "Ning Huyan",
+      "Pei He",
+      "Shuang Wang",
+      "Licheng Jiao"
+    ],
+    "published": "2026-05-12",
+    "abstract": "Existing deep learning-based methods can capture shared features from optical and synthetic aperture radar (SAR) images for spatial alignment. However, optical-SAR registration remains challenging under large geometric deformations, because the model needs to simultaneously handle cross-modal appearance discrepancies and complex spatial transformations. To address this issue, this paper proposes a text semantic-assisted cross-modal image registration framework, named TAR, for optical and SAR images. TAR exploits text semantic priors from remote sensing scenes and land-cover categories to alleviate the modality gap and enhance cross-modal feature learning. TAR consists of three components: a multi-scale visual feature learning (MSFL) module, a text-assisted feature enhancement (TAFE) module, and a coarse-to-fine dense matching (CFDM) module. MSFL extracts multi-scale visual features from optical and SAR images. TAFE constructs text descriptors related to remote sensing scenes and land-cover objects, and uses a frozen RemoteCLIP text encoder to extract text features. These text features are introduced through visual-text interaction to enhance high-level visual features for more reliable coarse matching. CFDM then establishes coarse correspondences based on the enhanced high-level features and refines the matched locations using low-level features. Experimental results on cross-modal remote sensing images demonstrate the effectiveness of TAR, which achieves stronger matching performance than several state-of-the-art methods and yields significant gains under large geometric deformations.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Sequential Feature Selection for Efficient Landslide Segmentation from Multi-Spectral Data",
+    "url": "http://arxiv.org/abs/2605.09746v1",
+    "authors": [
+      "Arsalaan Ahmad",
+      "Oktay Karakus",
+      "Paul L. Rosin"
+    ],
+    "published": "2026-05-10",
+    "abstract": "Landslide detection from satellite imagery has advanced through deep learning, yet most models rely on large, highly correlated spectral-topographic inputs whose contributions remain poorly understood. The question of which channels are actually necessary has received surprisingly little attention. This matters: redundant or correlated inputs obscure physical interpretability, inflate computational overhead, and can actively degrade model performance through the Hughes Phenomenon. We present a systematic, explainable channel-selection framework for the Landslide4Sense benchmark, combining Sentinel-2 multispectral and ALOS PALSAR terrain data with 16 engineered spectral and structural indices. Rather than relying on conventional single-band drop tests, which evaluate channels in isolation and miss interaction effects, we apply Sequential Forward Floating Selection (SFFS) to iteratively build and prune a candidate feature pool using a lightweight U-Net++ proxy model. Beyond identifying a compact 8-channel subset that matches or exceeds the segmentation F1 of configurations using up to 30 channels, we use the selection process itself to interrogate which spectral and topographic features landslide models genuinely rely on, and what this reveals about the physical cues driving their predictions. We argue that SFFS represents a principled feature selection approach to input design in Earth observation, in contrast to the prevailing practice of appending every available band and hoping the model learns what to ignore.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": [
+      "Segmentation",
+      "Detection",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "From Expansion to Consolidation: Socio-Spatial Contagion Dynamics in Off-Grid PV Adoption",
+    "url": "http://arxiv.org/abs/2605.09642v2",
+    "authors": [
+      "Roni Blushtein-Livnon",
+      "Tal Svoray",
+      "Itay Fischhendler",
+      "Havatzelet Yahel",
+      "Emir Galilee"
+    ],
+    "published": "2026-05-10",
+    "abstract": "In traditional rural societies, where social ties are embedded in physical space, the diffusion of emerging technologies may be amplified through socio-spatial contagion (SSC). Such processes may play a key role in accelerating residential PV adoption in off-grid regions. Yet empirical evidence on SSC in PV adoption remains largely limited to affluent, grid-connected settings, while off-grid regions often lack systematic installation records. To address these gaps, we use a deep learning segmentation model to extract PV installations from a decade-long series of remote sensing imagery across 507 off-grid settlement clusters (hereafter, communities). This enables data-driven spatio-temporal point pattern inference of SSC in data-scarce contexts. SSC is quantified through the range and intensity of clustering of new installations around prior adopters, and the dynamics of these dimensions are linked to adoption outcomes. We found that SSC is nearly ubiquitous, often spanning most of the community's spatial extent, while exhibiting substantial heterogeneity in intensity. Although SSC intensifies over time, its effects remain temporally concentrated, peaking within 1 to 2 years of nearby installations and weakening thereafter. SSC intensity is positively associated with adoption rates in both cross-sectional and temporal analyses. However, the relationship between SSC range and adoption changes over time - in early diffusion phases, adoption growth is associated with range expansion, whereas in later phases it is associated with range contraction. This shift reflects a transition from clustering to consolidation of installations. These findings highlight the potential of seeding interventions to accelerate PV diffusion in off-grid regions.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "Adaptive 3D Convolution for Remote Sensing Image Fusion",
+    "url": "http://arxiv.org/abs/2605.09455v1",
+    "authors": [
+      "Siran Peng",
+      "Xiangyu Zhu",
+      "Shang-Qi Deng",
+      "Liang-Jian Deng",
+      "Zhen Lei"
+    ],
+    "published": "2026-05-10",
+    "abstract": "Remote sensing image fusion aims to create a high-resolution multi/hyper-spectral image from a high-resolution image with limited spectral information and a low-resolution image with abundant spectral data. Recently, deep learning (DL) techniques have shown significant effectiveness in this area. Most DL-based methods approach image fusion as a 2D problem by encoding spectral information into feature map channels. However, our research suggests that this strategy introduces notable spectral distortions. In contrast, some methods consider spectral data as an additional dimension, utilizing standard 3D convolutions to preserve spectral information. Nevertheless, in a standard 3D convolutional layer, the same set of kernels is applied across all input regions, which we have found to be sub-optimal for image fusion. Furthermore, standard 3D convolutions necessitate substantial computational resources. To address these challenges, we propose a novel convolutional paradigm called Adaptive 3D Convolution (Ada3D) for remote sensing image fusion. Ada3D applies a unique set of 3D kernels to each input voxel, enabling the capture of fine-grained details. These adaptive kernels are generated through a two-step process: (i) spatial and spectral kernels are derived from their respective image sources; (ii) these two types of kernels are then combined to form content-aware 3D kernels that effectively integrate spatial and spectral information. Additionally, adaptive biases are introduced to enhance the convolutional outcome at the voxel level. Furthermore, we incorporate the group convolution technique to reduce computational complexity. As a result, Ada3D offers full adaptivity in an efficient manner. Evaluation results across five datasets demonstrate that our method achieves SOTA performance, underscoring the superiority of Ada3D. The code is available at https://github.com/PSRben/Ada3D.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Masks Can Talk: Extracting Structured Text Information from Single-Modal Images for Remote Sensing Change Detection",
+    "url": "http://arxiv.org/abs/2605.07178v1",
+    "authors": [
+      "Kai Zheng",
+      "Hang-Cheng Dong",
+      "Jiatong Pan",
+      "Zhenkai Wu",
+      "Fupeng Wei",
+      "Wei Zhang"
+    ],
+    "published": "2026-05-08",
+    "abstract": "Remote sensing change detection is pivotal for urban monitoring, disaster assessment, and environmental resource management. Yet, unimodal deep learning methods frequently confuse genuine semantic changes with visually similar but irrelevant variations. Recent multimodal approaches incorporate text as auxiliary supervision, but their descriptions are either semantically coarse and unstructured or model-generated and thus noisy. Critically, all of them overlook a simple fact: fine-grained change semantics are already implicitly encoded in the ground-truth mask labels that come standard with every change detection dataset. These masks know where the change happened, what the land-cover types were before and after, how the transition occurred, and how many objects were involved. In this paper, we propose S2M, a framework that obtains structured textual features directly from change labels at zero additional annotation cost. Specifically, each change region is automatically transcribed into a semantic quadruple (where, what, how, how many) and converted into several fixed-template text descriptions, providing precise, dense, and noise-free multimodal supervision. We adopts a two-stage training strategy to fine-tune on remote sensing imagery firstly for robust domain-specific representation, after which a multimodal decoder with a bi-directional contrastive loss is introduced to achieve deep alignment between visual features and structured textual embeddings. To validate our method, we construct Gaza-Change-v2, a new multi-class change detection (MCD) dataset about the Gaza Strip. On this MCD dataset, S2M achieves a Sek of 17.80\\% and an F$_{\\text{scd}}$ of 66.14\\%, notably surpassing even multimodal methods that leverage large language models. Our work demonstrates that masks can indeed talk. They tell us exactly what, where, how, and how many changes have occurred.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "ArcGate: Adaptive Arctangent Gated Activation",
+    "url": "http://arxiv.org/abs/2605.14518v1",
+    "authors": [
+      "Avik Bhattacharya",
+      "Siddhant Dnyanesh Gole",
+      "Subhasis Chaudhuri",
+      "Alejandro C. Frery",
+      "Biplab Banerjee"
+    ],
+    "published": "2026-05-14",
+    "abstract": "Activation functions are central to deep networks, influencing non-linearity, feature learning, convergence, and robustness. This paper proposes the Adaptive Arctangent Gated Activation (ArcGate) function, a flexible formulation that generates a broad spectrum of activation shapes via a three-stage non-linear transformation. Unlike conventional fixed-shape activations such as ReLU, GELU, or SiLU, ArcGate uses seven learnable parameters per layer, allowing the neural network to autonomously optimize its non-linearity to the specific requirements of the feature hierarchy and data distribution. We evaluate ArcGate using ResNet-50 and Vision Transformer (ViT-B/16) architectures on three widely used remote sensing benchmarks: PatternNet, UC Merced Land Use, and the 13-band EuroSAT MSI multispectral dataset. Experimental results show that ArcGate consistently outperforms standard baselines, achieving a peak overall accuracy of 99.67% on PatternNet. Most notably, ArcGate exhibits superior structural resilience in noisy environments, maintaining a 26.65% performance lead over ReLU under moderate Gaussian noise (standard deviation 0.1). Analysis of the learned parameters reveals a depth-dependent functional evolution, where the model increases gating strength in deeper layers to enhance signal propagation. These findings suggest that ArcGate is a robust and adaptive general node activation function for high-resolution earth observation tasks.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "ResNet",
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "GHGbench: A Unified Multi-Entity, Multi-Task Benchmark for Carbon Emission Prediction",
+    "url": "http://arxiv.org/abs/2605.13743v1",
+    "authors": [
+      "Yifan Duan",
+      "Siyuan Zheng",
+      "Lihuan Li",
+      "Chao Xue",
+      "Flora Salim"
+    ],
+    "published": "2026-05-13",
+    "abstract": "Open datasets and benchmarks for entity-level carbon-emission prediction remain fragmented across access, scale, granularity, and evaluation. We introduce GHGbench, an open dataset and benchmark for company- and building-level greenhouse-gas prediction. The company track contains 32,000+ company-year records from 12,000+ firms with Scope 1+2 and Scope 3 disclosures and financial/sectoral signals; the building track harmonises 491,591 building-year records from 13 open sources into a single schema across 26 metropolitan areas (10 U.S., 15 Australian, 1 Singaporean), with climate covariates and multimodal remote-sensing embeddings. GHGbench defines canonical splits with in-distribution and cross-region/city transfer as primary tasks and temporal hold-out plus short-horizon forecasting as supplementary appendix evidence; headline baselines span gradient-boosted trees, a tabular foundation model, MLP, FT-Transformer, and multimodal fusion, with an LLM panel as auxiliary, all evaluated under multi-seed paired-bootstrap tests. Three benchmark-level findings emerge: (i) building emissions are structurally harder than company emissions; (ii) the in-distribution to out-of-distribution gap dwarfs any within-model gap across both the company track and the building track, and a tabular foundation model is, to our knowledge, the first baseline to open a paired-bootstrap-significant gap over tuned trees on a multi-city building-emissions task; (iii) multimodal remote-sensing embeddings help precisely where tabular generalisation breaks. GHGbench also exposes catastrophic city transfer and the sector-factor lookup ceiling as systematic failure modes. Code and reconstruction recipes are available at GHGbench.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer",
+      "LLM"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Instruct-ICL: Instruction-Guided In-Context Learning for Post-Disaster Damage Assessment",
+    "url": "http://arxiv.org/abs/2605.11439v1",
+    "authors": [
+      "Armin Zarbaft",
+      "Ehsan Karimi",
+      "Nhut Le",
+      "Maryam Rahnemoonfar"
+    ],
+    "published": "2026-05-12",
+    "abstract": "Rapid and accurate situational awareness is essential for effective response during natural disasters, where delays in analysis can significantly hinder decision-making. Training task-specific models for post-disaster assessment is often time-consuming and computationally expensive, making such approaches impractical in time-critical scenarios. Consequently, pretrained multimodal large language models (MLLMs) have emerged as a promising alternative for post-disaster visual question answering (VQA), a task that aims to answer structured questions about visual scenes by jointly reasoning over images and text. While these models demonstrate strong multimodal reasoning capabilities, their responses can be sensitive to prompt formulation, which can limit their reliability in real-world disaster assessment scenarios. In this paper, we investigate whether structured reasoning strategies can improve the reliability of pretrained MLLMs for post-disaster VQA. Specifically, we explore multiple prompting paradigms in which one MLLM is used to generate task-specific instructions that serve as Chain-of-Thought (CoT) guidance for a second MLLM. These instructions are incorporated during answer generation with varying degrees of in-context learning (ICL), enabling the model to leverage both explicit reasoning guidance and contextual examples. We conduct our evaluation on the FloodNet dataset and compare these approaches against a zero-shot baseline. Our results demonstrate that integrating instruction-driven CoT reasoning consistently improves answer accuracy.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "The first global agricultural field boundary map at 10m resolution",
+    "url": "http://arxiv.org/abs/2605.11055v1",
+    "authors": [
+      "Caleb Robinson",
+      "Gedeon Muhawenayo",
+      "Subash Khanal",
+      "Zhanpei Fang",
+      "Isaac Corley",
+      "Ana M. T\u00e1rano",
+      "Lyndon Estes",
+      "Jennifer Marcus",
+      "Nathan Jacobs",
+      "Hannah Kerner",
+      "Inbal Becker-Reshef",
+      "Juan M. Lavista Ferres"
+    ],
+    "published": "2026-05-11",
+    "abstract": "The agricultural field is the natural unit at which crops are planted, managed, regulated, and reported, yet most global remote-sensing products for agriculture are only available at the pixel level. While some high-quality field-level data products exist, they come from parcel registries covering only parts of Europe or from ML-derived products for individual countries. No openly available, globally consistent map of agricultural field boundaries exists to date. Here we present the first global field boundary dataset at 10\\,m resolution for the years 2024 and 2025, comprising 3.17 billion remote-sensing field polygons (1.62 B in 2024 and 1.55 B in 2025) across 241 countries and territories, produced by applying a U-Net segmentation model trained on the Fields of The World dataset to cloud-free Sentinel-2 mosaics. Validated against ground-truth field boundaries in 24 countries, the map achieved a mean pixel-level recall of 0.85 with 14 countries exceeding 0.90. Evaluation against full-country ground-truth datasets in Austria, Latvia, and Finland yielded F1 scores of 0.89, 0.88, and 0.74, respectively. Because reference data for global validation is inherently incomplete, we accompanied the map with a 500 m confidence layer that identifies regions where predictions are reliable. We release the dataset openly as three global maps: the confidence-thresholded default field boundary dataset, the full unfiltered dataset, and the continuous-valued confidence raster. These maps provide the first globally consistent field-level unit of analysis for crop monitoring, food security, and downstream agricultural science.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": [
+      "Segmentation",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "DA-SegFormer: Damage-Aware Semantic Segmentation for Fine-Grained Disaster Assessment",
+    "url": "http://arxiv.org/abs/2605.09864v1",
+    "authors": [
+      "Kevin Zhu",
+      "William Tang",
+      "Raphael Hay Tene",
+      "Zesheng Liu",
+      "Nhut Le",
+      "Maryam Rahnemoonfar"
+    ],
+    "published": "2026-05-11",
+    "abstract": "Rapid and accurate damage assessment following natural disasters is critical for effective emergency response. However, identifying fine-grained damage levels (e.g., distinguishing minor from major roof damage) in UAV imagery remains challenging due to the degradation of texture cues during resizing and extreme class imbalance. We propose DA-SegFormer, a damage-aware adaptation of the SegFormer architecture optimized for high-resolution disaster imagery. Our method introduces a Class-Aware Sampling strategy to guarantee exposure to rare damage features, and it integrates Online Hard Example Mining (OHEM) with Dice Loss to dynamically focus on underrepresented classes. In addition, we employ a resolution-preserving inference protocol that maintains native texture details. Evaluated on the RescueNet dataset, DA-SegFormer achieves 74.61\\% mIoU, outperforming the baseline by 2.55\\%. Notably, our improvements yield double-digit gains in critical damage classes: Minor Damage (+11.7%) and Major Damage (+21.3%).",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Learnability and Competition in High-Dimensional Multi-Component ICA",
+    "url": "http://arxiv.org/abs/2605.08552v1",
+    "authors": [
+      "Eser Ilke Genc",
+      "Samet Demir",
+      "Zafer Dogan"
+    ],
+    "published": "2026-05-08",
+    "abstract": "Independent Component Analysis (ICA) is a foundational tool for unsupervised representation learning, yet its high-dimensional theory remains largely limited to single-component recovery. We develop an asymptotically exact mean-field theory for multi-component online ICA, capturing the coupling induced by simultaneous learning and orthogonalization. In the high-dimensional limit, the joint empirical distribution of learned estimates and ground-truth components converges to a deterministic process, yielding a closed ODE system for the overlap matrix between learned directions and true components. This characterization reveals a genuinely multi-component, initialization-driven phase structure: a decoupled regime, where estimates align with distinct components and evolve nearly independently, and a competition regime, where overlapping initializations induce orthogonality-driven conflicts, slow reorientation, and delayed convergence. Our steady-state analysis gives explicit learnability boundaries and competition conditions linking step size, data moments, and initialization. These conditions show that larger higher-order moments and competition shrink the stable learning-rate window, increase convergence times, and predict a staircase phenomenon in which the number of recoverable components changes discretely with the learning rate. Experiments on synthetic data and hyperspectral remote sensing data validate the predicted trajectories and phase behavior.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Geometric Flood Depth Estimation: Fusing Transformer-Based Segmentation with Digital Elevation Models",
+    "url": "http://arxiv.org/abs/2605.08521v1",
+    "authors": [
+      "Nhut Le",
+      "Ehsan Karimi",
+      "Maryam Rahnemoonfar"
+    ],
+    "published": "2026-05-08",
+    "abstract": "Post-disaster situational awareness relies heavily on understanding both the extent and the volume of floodwaters. While 2D semantic segmentation provides accurate flood masking, it lacks the vertical dimension required to assess navigability and structural risk. This paper presents a geometric \"Water Surface Elevation\" approach for estimating flood depth from monocular aerial imagery. Our pipeline utilizes Mask2Former, a state-of-the-art transformer-based segmentation model, to generate precise 2D flood masks. These masks are fused with Digital Elevation Models (DEMs) to identify the water-land boundary, calculate a global water surface elevation ($Z_{water}$), and compute per-pixel depth based on the principle of local hydrostatic equilibrium. We evaluate this workflow using the FloodNet and CRASAR-U-DROIDS datasets, demonstrating how high-performance segmentation can be leveraged to extract 3D volumetric data from 2D imagery without the latency of hydrodynamic simulations.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "Njord: A Probabilistic Graph Neural Network for Ensemble Ocean Forecasting",
+    "url": "http://arxiv.org/abs/2605.15470v1",
+    "authors": [
+      "Daniel Holmberg",
+      "Joel Oskarsson",
+      "Erik Larsson",
+      "Fredrik Lindsten",
+      "Teemu Roos"
+    ],
+    "published": "2026-05-14",
+    "abstract": "Ocean dynamics are inherently chaotic, yet existing machine learning ocean models produce only deterministic forecasts. We introduce Njord, a probabilistic data-driven model for ocean forecasting, applicable to both global and regional domains. Njord combines a deep latent variable framework with a graph neural network architecture, enabling sampling each forecast step in a single forward pass. We apply Njord globally at 0.25\u00b0 resolution and regionally to the Baltic Sea at 2 km resolution. To scale to these large ocean grids we introduce K-means cluster meshes that adapt to irregular sea surface geometry. Experiments demonstrate strong performance on both domains compared to deterministic machine learning baselines, while also providing uncertainty estimates from the sampled ensemble forecasts. On the global OceanBench benchmark, Njord achieves the lowest errors on average across upper-ocean variables when evaluated against real-world observations, with the largest improvements in surface temperature prediction.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "OceanCBM: A Concept Bottleneck Model for Mechanistic Interpretability in Ocean Forecasting",
+    "url": "http://arxiv.org/abs/2605.12639v1",
+    "authors": [
+      "Sanah Suri",
+      "Kieran Ringel",
+      "Maike Sonnewald"
+    ],
+    "published": "2026-05-12",
+    "abstract": "Extreme ocean phenomena are challenging not only to predict but to diagnose, as accurate forecasts alone do not reveal the underlying physical drivers. While recent machine learning approaches achieve strong predictive skill, they remain largely opaque and provide limited guarantees of fidelity to ground-truth physics. We introduce OceanCBM, the first concept bottleneck model (CBM) for spatiotemporal prediction and mechanistic interrogation of ocean dynamics. OceanCBM uses mixed supervision to predict mixed layer heat content, a key precursor of marine heatwaves, while routing information through an intermediate layer of prescribed concepts derived from geophysical fluid dynamics and a 'free' concept. This design imposes soft physical structure without over-constraining the model, and the free concept both regularizes concept predictions and captures residual physical processes. Across ensemble initializations, we show that mixed supervision yields consistent mechanistic representations, whereas prediction-only and prescription-only baselines learn highly variable latent structures despite similar predictive performance. OceanCBM achieves interpretable, physically grounded representations without sacrificing skill, explicitly characterizing the interpretability-performance trade-off.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "AxiomOcean: Forecasting the Three-Dimensional Structure of the Upper Ocean",
+    "url": "http://arxiv.org/abs/2605.10455v1",
+    "authors": [
+      "Sensen Wu",
+      "Yifan Chen",
+      "Guantao Pu",
+      "Xiaoyao Sun",
+      "Yijun Chen",
+      "Jin Qi",
+      "Ming Kong",
+      "Keyi Yang",
+      "Lichen Xu",
+      "Wenguan Wang",
+      "Xiaofeng Li",
+      "Zhenhong Du"
+    ],
+    "published": "2026-05-11",
+    "abstract": "Short-term ocean forecast skill depends strongly on the three-dimensional ocean structure of the upper ocean, which governs stratification, subsurface heat storage, and the response of the ocean to atmospheric forcing. However, AI ocean forecasting models often fail to preserve this vertical structure, resulting in over-smoothed subsurface features and weak physical consistency under strong forcing. Here, we present AxiomOcean, a global AI ocean forecasting model that explicitly represents vertical hierarchy and cross-layer dependence within the water column. By combining a fully three-dimensional encoder-backbone-decoder architecture with surface atmospheric forcing, AxiomOcean jointly predicts upper-ocean temperature, salinity, and three-dimensional currents at global 1/12\u00b0 resolution down to 643 m depth. In 10-day forecasts, AxiomOcean outperforms an advanced AI comparison model across variables and lead times, reducing day-1 RMSE by approximately 20 to 35% while maintaining higher anomaly correlation. The gain is not achieved through excessive smoothing: AxiomOcean better preserves eddy kinetic energy, temperature and salinity variance. Its advantage also extends through the water column and remains evident across the equatorial Pacific, Kuroshio Extension, and Southern Ocean, yielding a more realistic reconstruction of upper-ocean heat content. These results show that explicitly preserving upper-ocean three-dimensional structure can improve both forecast accuracy and physical fidelity in AI ocean prediction.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "PnP-Corrector: A Universal Correction Framework for Coupled Spatiotemporal Forecasting",
+    "url": "http://arxiv.org/abs/2605.08935v2",
+    "authors": [
+      "Hao Wu",
+      "Fan Xu",
+      "Yuxu Lu",
+      "Penghao Zhao",
+      "Fan Zhang",
+      "Hao Jia",
+      "Yuxuan Liang",
+      "Ruijian Gou",
+      "Qingsong Wen",
+      "Xian Wu",
+      "Xiaomeng Huang",
+      "Yuan Gao"
+    ],
+    "published": "2026-05-09",
+    "abstract": "Coupled spatiotemporal forecasting is important for predicting the future evolution of multiple interacting dynamical systems, such as in climate models. However, existing methods are severely constrained by the persistent bottleneck of compounding errors. In coupled systems, errors from each subsystem simulator propagate and amplify one another, a phenomenon we term Reciprocal Error Amplification, leading to a rapid collapse of long-range predictions. To address this challenge, we propose a universal framework called PnP-Corrector (Plug-and-Play Corrector). The core idea of our framework is to decouple the physical simulation from the error correction process: it freezes pre-trained physics simulation engines and exclusively trains a correction agent to proactively counteract the systematic biases emerging from the coupled system. Furthermore, we design an efficient predictive model architecture, DSLCast, to serve as the backbone of this framework. Extensive experiments demonstrate that our method significantly enhances the long-term stability and accuracy of coupled forecasting systems. For instance, in the challenging task of a 300-day global ocean-atmosphere coupled forecast, our PnP-Corrector framework reduces the prediction error of the baseline model by 29% and surpasses state-of-the-art models on several key metrics.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Can LLM Agents Respond to Disasters? Benchmarking Heterogeneous Geospatial Reasoning in Emergency Operations",
+    "url": "http://arxiv.org/abs/2605.11633v1",
+    "authors": [
+      "Junjue Wang",
+      "Weihao Xuan",
+      "Heli Qi",
+      "Pengyu Dai",
+      "Kunyi Liu",
+      "Hongruixuan Chen",
+      "Zhuo Zheng",
+      "Junshi Xia",
+      "Stefano Ermon",
+      "Naoto Yokoya"
+    ],
+    "published": "2026-05-12",
+    "abstract": "Operational disaster response goes beyond damage assessment, requiring responders to integrate multi-sensor signals, reason over road networks, populations and key facilities, plan evacuations, and produce actionable reports. However, prior work largely isolates remote-sensing perception or evaluates generic tool use, leaving the end-to-end workflows of emergency operations underexplored. In this paper, we introduce Disaster Operational Response Agent benchmark (DORA), the first agentic benchmark for end-to-end disaster response: 515 expert-authored tasks across 45 real-world disaster events spanning 10 types, paired with expert-verified, replayable gold trajectories totaling 3,500 tool-call steps. Tasks span five dimensions that cover the operational disaster-response pipeline: disaster perception, spatial relational analysis, rescue and evacuation planning, temporal evolution reasoning, and multi-modal report synthesis. Agents compose calls from a 108-tool MCP library over heterogeneous geospatial data: optical, SAR, and multi-spectral imagery across single-, bi-, and multi-temporal sequences (0.015-10m GSD), complemented by elevation and social vector layers. We comprehensively evaluate 13 frontier LLMs on our benchmark, revealing three persistent challenges: 1) disaster-domain grounding exposes unique failure modes (damage-semantic grounding, sensor-modality mismatch, and disaster-pipeline composition); 2) agents are doubly bottlenecked by tool selection and argument grounding, where gold tool-order hints improve accuracy by only 1.08-4.40%, and alternative scaffolds yield at most a 3.24% gain; 3) compositional fragility scales with trajectory length, the agent-to-gold gap widening from 7% to 56% on long pipelines. DORA establishes a rigorous testbed for operationally reliable disaster-response agents.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "DiffVAS: Diffusion-Guided Visual Active Search in Partially Observable Environments",
+    "url": "http://arxiv.org/abs/2605.15519v1",
+    "authors": [
+      "Anindya Sarkar",
+      "Srikumar Sastry",
+      "Aleksis Pirinen",
+      "Nathan Jacobs",
+      "Yevgeniy Vorobeychik"
+    ],
+    "published": "2026-05-15",
+    "abstract": "Visual active search (VAS) has been introduced as a modeling framework that leverages visual cues to direct aerial (e.g., UAV-based) exploration and pinpoint areas of interest within extensive geospatial regions. Potential applications of VAS include detecting hotspots for rare wildlife poaching, aiding search-and-rescue missions, and uncovering illegal trafficking of weapons, among other uses. Previous VAS approaches assume that the entire search space is known upfront, which is often unrealistic due to constraints such as a restricted field of view and high acquisition costs, and they typically learn policies tailored to specific target objects, which limits their ability to search for multiple target categories simultaneously. In this work, we propose DiffVAS, a target-conditioned policy that searches for diverse objects simultaneously according to task requirements in partially observable environments, which advances the deployment of visual active search policies in real-world applications. DiffVAS leverages a diffusion model to reconstruct the entire geospatial area from sequentially observed partial glimpses, which enables a target-conditioned reinforcement learning-based planning module to effectively reason and guide subsequent search steps. Extensive experiments demonstrate that DiffVAS excels in searching diverse objects in partially observable environments, significantly surpassing state-of-the-art methods on several datasets.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Geospatial-Temporal Sensemaking of Remote Sensing Activity Detections with Multimodal Large Language Model",
+    "url": "http://arxiv.org/abs/2605.10739v1",
+    "authors": [
+      "David F. Ramirez",
+      "Tim Overman",
+      "Kristen Jaskie",
+      "Andreas Spanias"
+    ],
+    "published": "2026-05-11",
+    "abstract": "We introduce SMART-HC-VQA, a Sentinel-2-based visual question answering dataset derived from the IARPA SMART Heavy Construction dataset, designed for spatiotemporal analysis of human activity. The dataset transforms construction-site annotations, construction-type labels, temporal-phase labels, geographic metadata, and observation relationships into natural language question-answer triplets. This approach redefines the existing dataset as a temporally extended automatic target recognition and visual question answering (VQA) challenge, considering a fixed geospatial site as a target whose attributes and activity states evolve across sparse satellite observations. Currently, SMART-HC-VQA comprises 21,837 accessible Sentinel-2 image chips, 65,511 single-image VQA examples, and approximately 2.3 million two-image temporal comparison examples generated via our novel Image-Pairwise Combinatorial Augmentation. We detail the workflow for retrieving and processing Sentinel-2 imagery, segmenting large satellite tiles into site-centered images, maintaining traceability to SMART-HC annotations, and analyzing the distributions of site size, observation count, temporal coverage, construction type, and phase labels. Additionally, we describe an implemented multi-image MLLM training framework based on LLaVA-NeXT Mistral-7B, adapted to accept multiple dated image inputs and train on metadata-derived VQA examples. This work offers a reproducible foundation for understanding language-guided remote sensing activities, aiming not only to detect change but also to reason about the ongoing processes, their progression, and potential future developments.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": [
+      "Recognition"
+    ]
   }
 ]
