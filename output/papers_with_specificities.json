@@ -27425,7 +27425,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "GeoViSTA: Geospatial Vision-Tabular Transformer for Multimodal Environment Representation",
@@ -27445,7 +27446,8 @@
     "architectures": [
       "Transformer"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Mini-JEPA Foundation Model Fleet Enables Agentic Hydrologic Intelligence",
@@ -27464,7 +27466,8 @@
       "Transformer",
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "No One Knows the State of the Art in Geospatial Foundation Models",
@@ -27486,7 +27489,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "NARA: Anchor-Conditioned Relation-Aware Contextualization of Heterogeneous Geoentities",
@@ -27507,7 +27511,8 @@
     "applications": [
       "Classification",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Much of Geospatial Web Search Is Beyond Traditional GIS",
@@ -27526,7 +27531,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "LDGuid: A Framework for Robust Change Detection via Latent Difference Guidance",
@@ -27546,7 +27552,8 @@
     "applications": [
       "Segmentation",
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "TERRA-CD: Multi-Temporal Framework for Multi-class and Semantic Change Detection",
@@ -27566,7 +27573,8 @@
     "applications": [
       "Detection",
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "TAR: Text Semantic Assisted Cross-modal Image Registration Framework for Optical and SAR Images",
@@ -27585,7 +27593,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Sequential Feature Selection for Efficient Landslide Segmentation from Multi-Spectral Data",
@@ -27607,7 +27616,8 @@
       "Segmentation",
       "Detection",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "From Expansion to Consolidation: Socio-Spatial Contagion Dynamics in Off-Grid PV Adoption",
@@ -27627,7 +27637,8 @@
     "architectures": [],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Adaptive 3D Convolution for Remote Sensing Image Fusion",
@@ -27645,7 +27656,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Masks Can Talk: Extracting Structured Text Information from Single-Modal Images for Remote Sensing Change Detection",
@@ -27668,7 +27680,8 @@
     ],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "ArcGate: Adaptive Arctangent Gated Activation",
@@ -27689,7 +27702,8 @@
       "ResNet",
       "Transformer"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "GHGbench: A Unified Multi-Entity, Multi-Task Benchmark for Carbon Emission Prediction",
@@ -27712,7 +27726,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Instruct-ICL: Instruction-Guided In-Context Learning for Post-Disaster Damage Assessment",
@@ -27731,7 +27746,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "The first global agricultural field boundary map at 10m resolution",
@@ -27761,7 +27777,8 @@
     "applications": [
       "Segmentation",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "DA-SegFormer: Damage-Aware Semantic Segmentation for Fine-Grained Disaster Assessment",
@@ -27780,7 +27797,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Learnability and Competition in High-Dimensional Multi-Component ICA",
@@ -27796,7 +27814,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Geometric Flood Depth Estimation: Fusing Transformer-Based Segmentation with Digital Elevation Models",
@@ -27816,7 +27835,8 @@
     ],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Njord: A Probabilistic Graph Neural Network for Ensemble Ocean Forecasting",
@@ -27836,7 +27856,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "OceanCBM: A Concept Bottleneck Model for Mechanistic Interpretability in Ocean Forecasting",
@@ -27854,7 +27875,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "AxiomOcean: Forecasting the Three-Dimensional Structure of the Upper Ocean",
@@ -27881,7 +27903,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "PnP-Corrector: A Universal Correction Framework for Coupled Spatiotemporal Forecasting",
@@ -27908,7 +27931,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Can LLM Agents Respond to Disasters? Benchmarking Heterogeneous Geospatial Reasoning in Emergency Operations",
@@ -27933,7 +27957,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "DiffVAS: Diffusion-Guided Visual Active Search in Partially Observable Environments",
@@ -27953,7 +27978,8 @@
     "architectures": [],
     "applications": [
       "Reinforcement Learning"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Geospatial-Temporal Sensemaking of Remote Sensing Activity Detections with Multimodal Large Language Model",
@@ -27972,6 +27998,349 @@
     "architectures": [],
     "applications": [
       "Recognition"
+    ],
+    "is_recent": false
+  },
+  {
+    "title": "MetaEarth-MM: Unified Multimodal Remote Sensing Image Generation with Scene-centered Joint Modeling",
+    "url": "http://arxiv.org/abs/2605.20090v1",
+    "authors": [
+      "Zhiping Yu",
+      "Chenyang Liu",
+      "Jinqi Cao",
+      "Qinzhe Yang",
+      "Siwei Yu",
+      "Zhengxia Zou",
+      "Zhenwei Shi"
+    ],
+    "published": "2026-05-19",
+    "abstract": "Multi-modal remote sensing images are vital for Earth observation, yet complete paired observations are often scarce in practice. Existing generative methods commonly address this problem through isolated pairwise modality translation, but their versatility and scalability remain limited as the number of modalities and generation tasks increases. Here, we develop a generative foundation model MetaEarth-MM for multi-modal remote sensing imagery, enabling paired joint generation and any-to-any translation across five modalities within a unified model. Recognizing the intrinsic scene consistency underlying multi-modal observations, we introduce a scene-centered joint modeling paradigm in MetaEarth-MM. Unlike previous methods that rely on direct appearance-level cross-modal mapping, our model organizes the generation around the underlying scene content. Specifically, MetaEarth-MM adopts a decoupled architecture that first infers a latent scene representation from available observations, and then generates target modalities conditioned on this intermediate state. To support training, we further construct EarthMM, a large-scale dataset comprising 2.8 million multi-resolution global images with 2.2 million aligned pairs. Extensive experiments demonstrate that MetaEarth-MM not only exhibits strong generative capability and robust generalization across diverse generation tasks, but also supports downstream tasks at both data and representation levels, highlighting its potential as a general foundation model for cross-modal Earth observation. The code and dataset will be available at https://github.com/YZPioneer/MetaEarth-MM.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "SpectralEarth-FM: Bringing Hyperspectral Imagery into Multimodal Earth Observation Pretraining",
+    "url": "http://arxiv.org/abs/2605.21075v1",
+    "authors": [
+      "Nassim Ait Ali Braham",
+      "Aaron Banze",
+      "Conrad M. Albrecht",
+      "Julien Mairal",
+      "Jocelyn Chanussot",
+      "Xiao Xiang Zhu"
+    ],
+    "published": "2026-05-20",
+    "abstract": "Earth observation (EO) foundation models (FMs) are increasingly trained on multisensor data, spanning multispectral imagery (MSI), synthetic aperture radar (SAR), and derived geospatial layers, but hyperspectral imagery (HSI) remains underrepresented. Conversely, existing hyperspectral FMs are trained on HSI alone, leaving joint pretraining and fusion of HSI with co-located EO sensors unexplored. We introduce SpectralEarth-FM, a hierarchical transformer for multisensor EO input with heterogeneous spectral dimensionality. The architecture combines spectral tokenization for hyperspectral inputs, sensor-specific encoders, a cross-sensor fusion module, and a shared hierarchical encoder, enabling joint processing of HSI and lower-channel observations. To pretrain SpectralEarth-FM, we curate SpectralEarth-MM, a dataset that co-locates HSI from three spaceborne sensors (EnMAP, EMIT, DESIS) with Sentinel-2, Landsat-8/9 optical imagery, Landsat land surface temperature (LST), and Sentinel-1 SAR, over common geographic footprints. It comprises approximately 2M globally distributed locations, 25M georeferenced patches, and over 40TB of data. Pretraining uses a Joint-Embedding Predictive Architecture (JEPA)-style objective that matches representations between global views and single-sensor local views from the same location. We evaluate SpectralEarth-FM on hyperspectral downstream tasks and standard EO benchmarks following the PANGAEA protocol, achieving state-of-the-art results across both evaluation settings.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "JEPA",
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Mapping Tomato Cropping Systems in California Using AlphaEarth Geospatial Embeddings and Deep Learning Analysis",
+    "url": "http://arxiv.org/abs/2605.21804v1",
+    "authors": [
+      "Mohammadreza Narimani",
+      "Alireza Pourreza",
+      "Parastoo Farajpoor"
+    ],
+    "published": "2026-05-20",
+    "abstract": "Field-scale crop maps support supply-chain forecasting and policy, yet statewide crop identification still often depends on retrospective surveys or remote-sensing workflows built around hand-engineered spectral features. Those pipelines can be accurate, but they require repeated preprocessing and often lose robustness across years. This study evaluated whether Google DeepMind's AlphaEarth geospatial embeddings can serve as an analysis-ready alternative for mapping processing tomato systems in California. LandIQ 2018 crop polygons were used to assemble a balanced reference dataset of 4,742 tomato and 4,742 non-tomato fields. For each polygon, 64-band AlphaEarth embedding chips were extracted and aligned with binary masks, then divided into spatially independent training (n = 6,638), validation (n = 1,422), and test (n = 1,424) sets. A U-Net segmentation model was trained on AWS SageMaker using a composite masked binary cross-entropy and soft Dice loss. To complement hard predictions, Monte Carlo dropout was retained at inference and repeated 100 times per chip to estimate predictive mean and variance. On the independent test set, the model achieved 99.19% pixel accuracy, 98.69% precision, 99.40% recall, 99.04% F1 score, 98.11% intersection over union, and 99.02% chip accuracy. Uncertainty maps were consistently highest near field edges and low within field interiors. The results show that AlphaEarth embeddings retain crop-relevant spatial and temporal structure and can support accurate, field-scale tomato mapping without manual feature engineering.",
+    "categories": [
+      "foundation_model",
+      "remote_sensing"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": [
+      "Segmentation",
+      "Forecast"
     ]
+  },
+  {
+    "title": "Bridge: Retrieval-Augmented Spatiotemporal Modeling for Urban Delivery Demand",
+    "url": "http://arxiv.org/abs/2605.19172v1",
+    "authors": [
+      "Yihong Tang",
+      "Tong Nie",
+      "Junlin He",
+      "Qianjun Huang",
+      "Dingyi Zhuang",
+      "Lijun Sun"
+    ],
+    "published": "2026-05-18",
+    "abstract": "Forecasting urban delivery demand becomes substantially more challenging when newly added service regions lack historical records. Existing spatiotemporal forecasters effectively model spatial dependence once sufficient node histories are available. Still, they remain parametric and therefore struggle to recover short-term operational dynamics in cold-start regions. Geospatial embeddings help identify where a region is and what function it serves, yet they do not directly reveal how a similar region behaves under a comparable temporal context. We propose Bridge, a retrieval-augmented spatiotemporal graph framework that combines an inductive contextual graph backbone with a time-aware memory of region-time windows. For each target region, Bridge retrieves future demand patterns from the memory using both regional context and recent dynamics, and refines the backbone forecast through a gated fusion mechanism. To align retrieval with forecasting utility, we further train the retriever with a future-aware objective that favors entries whose future trajectories best match the target. Experiments on four real-world delivery datasets show that Bridge consistently improves over competitive spatiotemporal baselines in both within-city cold-start and cross-city transfer with partial observations. The results show that retrieval augmentation provides a useful operational memory for cold-start urban demand forecasting when parametric graph generalization alone is insufficient.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Vision Transformers and Convolutional Neural Networks for Land Use Scene Classification",
+    "url": "http://arxiv.org/abs/2605.21268v1",
+    "authors": [
+      "Arun D. Kulkarni"
+    ],
+    "published": "2026-05-20",
+    "abstract": "Land Use Scene Classification (LUSC) from remote sensing imagery plays a critical role in environmental monitoring, urban planning, and sustainable resource management. In recent years, deep learning methods have significantly advanced the state of the art, with Convolutional Neural Networks (CNNs) dominating the field because of their strong ability to capture local spatial features. However, the emergence of Vision Transformers (ViTs) has introduced a new paradigm that models long-range dependencies through self-attention mechanisms, potentially enabling improved global context understanding. This paper presents a comparative assessment of Vision Transformers and CNN-based architecture for remote sensing land use scene classification. Representative CNN models, such as AlexNet, is evaluated alongside the Vision Transformer (ViT) using benchmark remote sensing datasets, including the UC Merced Land Use and EuroSAT Land Use datasets. The study examines classification accuracy, precision, recall, F1-score, and computational complexity to provide a comprehensive performance comparison. Experimental results demonstrate that CNNs perform robustly on datasets with limited training samples and strong local texture characteristics, whereas Vision Transformers exhibit superior performance in capturing global spatial relationships in complex scenes when sufficient training data are available. However, ViTs typically require greater computational resources and larger training datasets to achieve optimal performance. The findings of this study provide insights into the strengths and limitations of both architectures and offer guidance for selecting appropriate models for remote sensing land use scene classification applications.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "CryoNet: A Deep Learning Framework for Multi-Modal Debris-Covered Glacier Mapping. A Case Study of the Poiqu Basin, Central Himalaya",
+    "url": "http://arxiv.org/abs/2605.21527v1",
+    "authors": [
+      "Farzaneh Barzegar",
+      "Tobias Bolch",
+      "Norbert Kuehtreiber",
+      "Silvia L. Ullo"
+    ],
+    "published": "2026-05-19",
+    "abstract": "Glaciers play a critical role as freshwater reserves and indicators of climate change, yet their automatic delineation, especially for debris-covered glaciers, remains challenging due to spectral similarity with surrounding terrain. This study introduces CryoNet, a deep learning framework that leverages a rich multi-modal dataset combining Sentinel-2 optical imagery, DEM-derived topographic variables, spectral indices, Principal Component Analysis (PCA), InSAR coherence and phase, tasseled-cap features, and GLCM texture to discriminate clean-ice glaciers, debris-covered glaciers, and glacial lakes. CryoNet is an encoder-decoder CNN with nested skip connections and spatial-channel Squeeze-and-Excitation (scSE) attention, built upon a ResNet101 encoder to capture hierarchical contextual and spatial features. The study is conducted in the Poiqu Basin in the central Himalaya, and transferability is evaluated by applying the trained model to the Mont Blanc Massif in the Alps. We additionally analyse the importance of each data layer in improving glacier mapping performance. The proposed model achieves an overall IoU of 90.52%, mean Recall of 98.08%, and mean Precision of 92.26%. For debris-covered glaciers specifically, CryoNet obtains an IoU of 90.46%, a recall of 95.79%, and a precision of 94.21%. Across both per-class and overall metrics, CryoNet surpasses DeepLabV3+, SegFormer, and U-Net, taken as state-of-the-art (SOTA) references, demonstrating its effectiveness for robust glacier mapping in complex high-mountain environments.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "UNET"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Hybrid Machine Learning Model for Forest Height Estimation from TanDEM-X and Landsat Data",
+    "url": "http://arxiv.org/abs/2605.20997v1",
+    "authors": [
+      "Islam Mansour",
+      "Ronny Haensch",
+      "Irena Hajnsek",
+      "Konstantinos Papathanassiou"
+    ],
+    "published": "2026-05-20",
+    "abstract": "Integrating machine learning (ML) with physical models (PM) has emerged as a promising way of retrieving geophysical parameters from remote sensing data. In this context, a ML model for estimating forest height from TanDEM-X interferometric coherence measurements has recently been proposed, that constrains the learning process through a PM. While the features used for training and inversion where selected to ensure the physical consistency of the solutions, they could not resolve all height / structure and baseline / terrain slope ambiguities in the data. To improve this, the extension of the feature space with optical Landsat data is proposed able to provide complementary information on forest type or structure. The extended model is applied and validated on several TanDEM-X acquisitions over the Gabonese Lop\u00e9 national park site and assessed against airborne LiDAR measurements. Results show a 13.5% reduction in RMSE and a 16.6% reduction in MAE compared to the original hybrid model, confirming the added value of multispectral inputs.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Optimal Reconstruction from Linear Queries",
+    "url": "http://arxiv.org/abs/2605.19625v1",
+    "authors": [
+      "Yuval Filmus",
+      "Shay Moran",
+      "Elizaveta Nesterova"
+    ],
+    "published": "2026-05-19",
+    "abstract": "We study the problem of reconstructing an unknown point in $\\mathbb{R}^d$ from approximate linear queries. This setting arises naturally in applications ranging from low-dimensional remote sensing and signal recovery to high-dimensional data analysis and privacy-sensitive inference. Our main goal is to characterize the optimal reconstruction error as a function of the number of queries $T$, the ambient dimension $d$, and the noise parameter $\u03b4$.\n  We first analyze the limit $T \\to \\infty$ and show that the optimal reconstruction error converges to the explicit value $\\sqrt{2d/(d+1)} \u03b4$, which plays a role analogous to the Bayes optimal error in supervised learning. When the dimension is fixed, we show that the excess error above this limit decays doubly exponentially fast as $T \\to \\infty$, a rate that is significantly faster than those typically encountered in learning curves. When the dimension grows, we show that a number of queries on the order of $\\exp(d)$ is necessary and sufficient to achieve vanishing excess error. Finally, we introduce and analyze an improper variant of the reconstruction problem.\n  From a technical perspective, our main contribution is a generalization of Jung's theorem (1901). The classical theorem bounds the maximum possible radius of a set of diameter 1 and characterizes extremal bodies. Our generalization provides a robust variant that characterizes near-extremal bodies and is proved via geometric and dynamical arguments exploiting symmetry and Lie group actions.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "JointHRRP-Net: A Statistically Constrained Decoupling Network for Joint Target and Jamming Recognition in Composite Jamming",
+    "url": "http://arxiv.org/abs/2605.22857v1",
+    "authors": [
+      "Yunfei Zhao",
+      "Mei Liu",
+      "Shuowei Liu",
+      "Xunzhang Gao",
+      "Yujie Zhou"
+    ],
+    "published": "2026-05-19",
+    "abstract": "High-resolution range profile (HRRP)-based radar automatic target recognition suffers from severe performance degradation in composite jamming environments. Active jamming introduces suppression- and deception-related components into the received range profile. After pulse compression, these components are coupled with target echoes in the HRRP domain, making target-related scattering peaks difficult to distinguish and weakening feature separability. To address this problem, this paper proposes JointHRRP-Net, a unified framework for joint target-jamming recognition. A statistically constrained decoupling module is first developed to generate target-dominant and jamming-dominant latent branches from the mixed HRRP representation. Correlation-guided statistical constraints are imposed to suppress redundant cross-branch information and alleviate target-jamming feature entanglement. A multi-scale temporal encoding module is then designed to model local scattering structures and long-range range-cell dependencies, followed by a dual-expert decision module for single-label target classification and multi-label jamming classification. Experiments under diverse signal-to-jamming ratio (SJR) and signal-to-noise ratio (SNR) levels demonstrate that JointHRRP-Net outperforms representative baseline methods in both target recognition and composite jamming recognition. Open-set evaluation further shows that the learned target representation remains discriminative for unknown-target rejection. These results demonstrate the effectiveness and robustness of JointHRRP-Net in composite jamming scenarios.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification",
+      "Recognition"
+    ]
+  },
+  {
+    "title": "HydroAgent: Closing the Gap Between Frontier LLMs and Human Experts in Hydrologic Model Calibration via Simulator-Grounded RL",
+    "url": "http://arxiv.org/abs/2605.17792v1",
+    "authors": [
+      "Zhi Li",
+      "Songkun Yan",
+      "Jie Cao",
+      "Mofan Zhang",
+      "Anjiang Wei",
+      "Jinwoong Yoo",
+      "Yang Hong"
+    ],
+    "published": "2026-05-18",
+    "abstract": "Calibrating distributed hydrologic models is a critical bottleneck across operational water resources management - streamflow prediction, reservoir operation, drought monitoring, infrastructure design, and flood forecasting all depend on it. Each basin demands an expert to translate hydrograph signatures into adjustments of a high-dimensional parameter vector, and the resulting workflow does not transfer between watersheds. We ask: can frontier large language model (LLM) agents replace the human hydrologic modeler, and if not, what would it take? We benchmark nine frontier LLM agents - Claude Opus 4.6/4.7, Sonnet 4.6, GPT-5/5.4/5.4-pro, and Gemini 2.5-pro/3.1-pro/3-flash - on the operational CREST distributed hydrologic model used by the U.S. National Weather Service for flash-flood forecasting. Best-of-twenty-rounds Nash-Sutcliffe Efficiency (NSE) across four held-out gauges spanning 329-40,792 km2 ranges from -0.16 (GPT-5.4) to 0.75 (Sonnet 4.6); the ceiling reproduces across all three vendors and capability tiers, with the strongest models concentrating in the 0.65-0.75 band, and no model reaches the human-expert reference except Opus-4.7 on one gauge. We argue this gap is not a parameter-count problem but a domain-grounding problem. We then propose HYDROAGENT, fine-tuning open-weight Qwen3-4B with supervised fine-tuning on 2,576 expert calibration trajectories and Group-Relative Policy Optimization using NSE as a verifiable reward from online CREST simulations - reinforcement learning with simulation feedback (RLSF). For Earth system science, a small domain-tuned policy with simulator-in-the-loop RL is a more compute-efficient and physically faithful path than scaling generic frontier models, and the multi-modal richness of Earth data - remote sensing, in-situ time series, and forecaster narrative - makes domain agents a leveraged direction for AI in physical science.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Forecast",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Large-Scale Quantum Kernels for Hyperspectral Data Classification",
+    "url": "http://arxiv.org/abs/2605.17587v1",
+    "authors": [
+      "A. Delilbasic",
+      "A. Miroszewski",
+      "A. Wijata",
+      "J. Nalepa",
+      "J. Mielczarek",
+      "M. Riedel",
+      "G. Cavallaro"
+    ],
+    "published": "2026-05-17",
+    "abstract": "Quantum kernel methods have emerged as a promising approach for leveraging high-dimensional feature spaces in machine learning, particularly in domains where classical kernel methods face scalability limitations. In this work, we present the first large-scale study of fidelity-quantum-kernel support vector machines for hyperspectral data classification without requiring heavy prior feature selection or dimensionality reduction. By simulating quantum kernels using tensor network contraction techniques and GPU acceleration, we overcome the computational bottlenecks traditionally associated with quantum models, achieving quadratic scaling O(n^2) in the number of qubits. Our approach enables the evaluation of quantum kernels on hyperspectral data with hundreds of spectral bands, aligning quantum feature spaces with real-world remote sensing applications. We provide an in-depth analysis of kernel bandwidth optimization, demonstrating its crucial role in mitigating exponential concentration effects and ensuring the model's ability to generalize. Experimental results on binary classification (Indian Pines and Methane Detection) and multiclass classification (Indian Pines) demonstrate that quantum kernels achieve competitive performance compared to a broad range of state-of-the-art classical baselines. As illustrative cases, on four 50-band splits selected from Indian Pines, the quantum model achieved a 78.0 pm6.2% accuracy for a binary classification task compared to 72.0 pm5.0% for the standard radial basis function (RBF) kernel. For a four-class classification task, the quantum kernel reached 83.3 pm3.1% accuracy, outperforming several state-of-the-art baselines. On five 75-band splits selected from the Methane Detection dataset, the quantum approach yielded 58.5\\pm5.0% accuracy versus 55.1\\pm2.5% for the classical counterpart...",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Precipitation diffusion downscaling and application to out-of-distribution simulations with and without stratospheric aerosol injection",
+    "url": "http://arxiv.org/abs/2605.23776v1",
+    "authors": [
+      "Cameron Dong",
+      "James W. Hurrell",
+      "Elizabeth A. Barnes"
+    ],
+    "published": "2026-05-22",
+    "abstract": "Stratospheric aerosol injection (SAI), a possible climate engineering strategy where reflective particles are injected into the stratosphere, has been explored to mitigate global warming and its associated risks, such as the intensification of extreme precipitation events. However, current Earth system models (ESMs) often used to simulate SAI and other climate change scenarios are too coarse to properly assess such risks. Traditional statistical downscaling methods, used to project higher resolution impacts, may be biased and unrealistic. To address this, we train a deep learning diffusion downscaler to generate 0.25\u00b0 contiguous United States (CONUS) daily precipitation using historical and future climate simulations from the Mesoscale Atmosphere-Ocean Interaction in Seasonal-to-Decadal Climate Prediction (MESACLIP) project, then apply the diffusion downscaler to out-of-distribution CESM2 simulations with and without SAI. The diffusion model generates realistic downscaled precipitation using either MESACLIP or CESM2 inputs. It also faithfully recreates the climate change projections of extreme precipitation in MESACLIP. Diffusion-downscaled projections of the future CESM2 SAI scenarios suggest that SAI could nearly cut in half the CONUS-average increase in yearly max precipitation, compared to the non-SAI scenario. However, there is considerable regional variation and internal variability, with SAI modeled to only slightly reduce increases in extreme precipitation frequency in the Mid Atlantic and the Pacific Northwest, but mitigating most intensification in other regions. Future application of diffusion downscaling to a wider variety of SAI scenarios would provide valuable insight into how proposed SAI strategies may affect precipitation variability on fine spatial scales for regional impact assessments.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Deep Learning Surrogates for Emulating Stochastic Climate Tipping Dynamics",
+    "url": "http://arxiv.org/abs/2605.20580v1",
+    "authors": [
+      "Adeline Hillier",
+      "Jennifer Sleeman",
+      "Jay Brett",
+      "Caroline Tang",
+      "Jenelle Millison",
+      "Anand Gnanadesikan"
+    ],
+    "published": "2026-05-20",
+    "abstract": "This work explores a dynamics-informed Temporal Fusion Transformer (TFT) as a data-driven surrogate for computationally intensive Earth system simulations. Focusing on multivariate time series describing global ocean transport, we demonstrate the surrogate's ability to forecast tip events across thousands of time steps. The data involve up to 21 non-stationary time series in addition to static covariates describing free parameters and initial conditions. Modifications to the architecture and objective function yield a surrogate that anticipates the timing of Atlantic and Pacific collapses to high fidelity and captures the stochastic uncertainty in transition timing across ensemble predictions. The learned surrogate achieves a 465x computational speedup over the numerical simulator while maintaining differentiability with respect to parameters and initial conditions.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Take It or Leave It: Intent-Controlled Partial Optimal Transport",
+    "url": "http://arxiv.org/abs/2605.20030v1",
+    "authors": [
+      "Salil Parth Tripathi",
+      "Bertrand Chapron",
+      "Fabrice Collard",
+      "Nicolas Courty",
+      "Ronan Fablet"
+    ],
+    "published": "2026-05-19",
+    "abstract": "While optimal transport (OT) enforces a rigid constraint by requiring two measures to be matched exactly, partial optimal transport relaxes this requirement by allowing mass to remain unmatched through a global budget, scalar rebate, or uniform rejection rule. However, many applications call for more structured, pointwise rejection mechanisms, where the decision to leave mass unmatched depends on side-specific reliability, support geometry, or external information about which components should participate in the comparison. We introduce \\emph{intent-controlled partial optimal transport} (IC-POT), a targeted generalization of partial transport that replaces the global rejection paradigm with pointwise rejection costs over both measures. We show that the resulting optimization problem admits a dual interpretation in terms of local acceptance thresholds and can be solved by recasting it as a balanced Kantorovich OT problem on an augmented support. Beyond theoretical analysis, we demonstrate the practical relevance of IC-POT in settings where rejection is driven by side information. In positive-unlabeled learning and open-partial domain adaptation, incorporating pointwise rejection rules that encode statistical structure improves fixed baseline pipelines. Finally, we motivate the use of IC-POT with a geophysical practical case: multi-modal satellite ocean measurements, for which physical and sensors priors naturally inform the rejection mechanism and define the retrieved comparable signal information.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "GS-QA: A Benchmark for Geospatial Question Answering",
+    "url": "http://arxiv.org/abs/2605.22811v1",
+    "authors": [
+      "Majid Saeedan",
+      "Muhammad Shihab Rashid",
+      "Ahmed Eldawy",
+      "Vagelis Hristidis"
+    ],
+    "published": "2026-05-21",
+    "abstract": "Recent advances in Large Language Models (LLMs) have led to dramatic improvements in question answering (QA). To address the challenge of evaluating QA systems, standardized benchmarks have been introduced. This work focuses on the problem of geospatial QA, where a large collection of geospatial data is available in the form of a spatial database or other forms. Existing work on geospatial QA benchmarks has various limitations, including a small number of questions, limited spatial predicates, narrow output types, and no multi-source reasoning. We present GS-QA, an extensible geospatial QA benchmark with 2,800 question-answer pairs across 28 templates on top of OpenStreetMap and Wikipedia data, covering a wide range of spatial objects, predicates (including directional and towards filtering), and answer types (entity names, locations, distances, directions, counts, and aggregated areas/lengths). A key feature of GS-QA is that some questions require combining information from multiple sources, e.g., geospatial information from OSM and factual information from Wikipedia. GS-QA includes a comprehensive evaluation methodology that combines text-based QA measures with geospatial-specific measures such as distance error and angular error. We implemented nine LLM-based geospatial QA baselines using three LLMs (GPT-4o, Claude Sonnet 4.6, and Ministral-3) with combinations of direct prompting, retrieval-augmented generation, and text-to-SQL. Our results show that existing solutions perform reasonably well on simple spatial predicates with entity name outputs, but accuracy degrades significantly for questions involving complex spatial predicates, numeric output types, and multi-source reasoning, demonstrating that geospatial QA remains a challenging open problem warranting further research.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "GeoX: Mastering Geospatial Reasoning Through Self-Play and Verifiable Rewards",
+    "url": "http://arxiv.org/abs/2605.20006v1",
+    "authors": [
+      "Kyeongjin Ahn",
+      "Seungeon Lee",
+      "Krishna P. Gummadi",
+      "Meeyoung Cha"
+    ],
+    "published": "2026-05-19",
+    "abstract": "Geospatial reasoning requires solving image-grounded problems over the complex spatial structure of a scene. However, developing this capability is hindered by the cost of annotating a vast and combinatorial question space. We propose GeoX, a self-play framework that acquires spatial logic through executable programs that yield verifiable rewards, without relying on large-scale human-curated data Given a satellite or aerial image, our framework employs a single multimodal policy that proposes spatial problems as executable programs and solves them under three reasoning modes-abduction, deduction, and induction-over spatial primitives and an image understanding tool. A verifier executes each program to covert a reward signal that jointly optimizes the two roles via reinforcement learning. GeoX consistently improves its base VLMs by up to 5.5 points on average, matching or exceeding conventional baselines trained on millions of curated data. Along-side the proposed method, we release a benchmark for geospatial understanding accumulated through self-play.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Broadening Access to Transportation Safety Data with Generative AI: A Schema-Grounded Framework for Spatial Natural Language Queries",
+    "url": "http://arxiv.org/abs/2605.21712v1",
+    "authors": [
+      "Mahdi Azhdari",
+      "Eric J. Gonzales"
+    ],
+    "published": "2026-05-20",
+    "abstract": "Transportation safety analysis requires integrating crash records, roadway attributes, and geospatial data through GIS-based workflows, but access remains uneven across agencies and community stakeholders. Technical prerequisites create a gap between analytical tools central to safety planning and the practitioners able to use them. Local agencies, school committees, and residents may have safety concerns but limited capacity to retrieve, filter, map, and analyze relevant data. Generative AI offers a way to narrow this divide, but its public-sector use raises questions about reliability, reproducibility, and governance. This paper presents a schema-grounded natural language interface for transportation safety analysis, using a large language model (LLM) to interpret user intent while preserving deterministic, reviewable execution against an authoritative database. User queries are translated into structured semantic frames, validated by a rule-based layer, compiled into a typed directed acyclic graph of spatial operations, and executed against a PostGIS database. This bounded design separates language interpretation from deterministic execution, keeping results reproducible and schema-grounded while removing access barriers. The framework is evaluated using a statewide Massachusetts transportation safety database integrating crash records, roadway attributes, and geospatial layers including schools, bus stops, crosswalks, and municipal boundaries. All queries executed successfully; the validation layer corrects errors in 29% of evaluation queries, reflecting the gap between flexible natural language and strict schema-grounded requirements. The results suggest that combining natural language accessibility with deterministic execution is a practical direction for broadening access to transportation safety data, with implications for trustworthy AI in public-sector planning.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
   }
 ]
