@@ -28019,7 +28019,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "SpectralEarth-FM: Bringing Hyperspectral Imagery into Multimodal Earth Observation Pretraining",
@@ -28041,7 +28042,8 @@
       "JEPA",
       "Transformer"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Mapping Tomato Cropping Systems in California Using AlphaEarth Geospatial Embeddings and Deep Learning Analysis",
@@ -28063,7 +28065,8 @@
     "applications": [
       "Segmentation",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Bridge: Retrieval-Augmented Spatiotemporal Modeling for Urban Delivery Demand",
@@ -28084,7 +28087,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Vision Transformers and Convolutional Neural Networks for Land Use Scene Classification",
@@ -28103,7 +28107,8 @@
     ],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "CryoNet: A Deep Learning Framework for Multi-Modal Debris-Covered Glacier Mapping. A Case Study of the Poiqu Basin, Central Himalaya",
@@ -28123,7 +28128,8 @@
       "CNN",
       "UNET"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Hybrid Machine Learning Model for Forest Height Estimation from TanDEM-X and Landsat Data",
@@ -28140,7 +28146,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Optimal Reconstruction from Linear Queries",
@@ -28156,7 +28163,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "JointHRRP-Net: A Statistically Constrained Decoupling Network for Joint Target and Jamming Recognition in Composite Jamming",
@@ -28177,7 +28185,8 @@
     "applications": [
       "Classification",
       "Recognition"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "HydroAgent: Closing the Gap Between Frontier LLMs and Human Experts in Hydrologic Model Calibration via Simulator-Grounded RL",
@@ -28202,7 +28211,8 @@
     "applications": [
       "Forecast",
       "Reinforcement Learning"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Large-Scale Quantum Kernels for Hyperspectral Data Classification",
@@ -28225,7 +28235,8 @@
     "applications": [
       "Detection",
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Precipitation diffusion downscaling and application to out-of-distribution simulations with and without stratospheric aerosol injection",
@@ -28243,7 +28254,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Deep Learning Surrogates for Emulating Stochastic Climate Tipping Dynamics",
@@ -28266,7 +28278,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Take It or Leave It: Intent-Controlled Partial Optimal Transport",
@@ -28284,7 +28297,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "GS-QA: A Benchmark for Geospatial Question Answering",
@@ -28303,7 +28317,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "GeoX: Mastering Geospatial Reasoning Through Self-Play and Verifiable Rewards",
@@ -28324,7 +28339,8 @@
     ],
     "applications": [
       "Reinforcement Learning"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Broadening Access to Transportation Safety Data with Generative AI: A Schema-Grounded Framework for Spatial Natural Language Queries",
@@ -28335,6 +28351,310 @@
     ],
     "published": "2026-05-20",
     "abstract": "Transportation safety analysis requires integrating crash records, roadway attributes, and geospatial data through GIS-based workflows, but access remains uneven across agencies and community stakeholders. Technical prerequisites create a gap between analytical tools central to safety planning and the practitioners able to use them. Local agencies, school committees, and residents may have safety concerns but limited capacity to retrieve, filter, map, and analyze relevant data. Generative AI offers a way to narrow this divide, but its public-sector use raises questions about reliability, reproducibility, and governance. This paper presents a schema-grounded natural language interface for transportation safety analysis, using a large language model (LLM) to interpret user intent while preserving deterministic, reviewable execution against an authoritative database. User queries are translated into structured semantic frames, validated by a rule-based layer, compiled into a typed directed acyclic graph of spatial operations, and executed against a PostGIS database. This bounded design separates language interpretation from deterministic execution, keeping results reproducible and schema-grounded while removing access barriers. The framework is evaluated using a statewide Massachusetts transportation safety database integrating crash records, roadway attributes, and geospatial layers including schools, bus stops, crosswalks, and municipal boundaries. All queries executed successfully; the validation layer corrects errors in 29% of evaluation queries, reflecting the gap between flexible natural language and strict schema-grounded requirements. The results suggest that combining natural language accessibility with deterministic execution is a practical direction for broadening access to transportation safety data, with implications for trustworthy AI in public-sector planning.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [],
+    "is_recent": false
+  },
+  {
+    "title": "HQ-JEPA: Hybrid Quantum Joint-Embedding Predictive Architecture for Cross-Modal Remote Sensing Representation Learning",
+    "url": "http://arxiv.org/abs/2605.31068v1",
+    "authors": [
+      "Md Aminur Hossain",
+      "Ayush V. Patel",
+      "Sanjay K. Singh",
+      "Biplab Banerjee"
+    ],
+    "published": "2026-05-29",
+    "abstract": "We introduce HQ-JEPA, a hybrid quantum-classical joint-embedding predictive architecture for cross-modal remote sensing representation learning. The proposed framework extends JEPA-style masked latent prediction to paired Sentinel-1 and Sentinel-2 imagery by predicting masked target representations from visible context regions while aligning heterogeneous modality features in a shared embedding space. To improve representation quality, HQ-JEPA combines four complementary objectives: latent token prediction, cross-modal token alignment, SIGReg-based Gaussian regularization in the fused latent space, and a differentiable SWAP-test-based Fidelity Quantum Similarity (FQS) loss. Unlike pixel reconstruction methods, HQ-JEPA learns semantic representations directly in latent space and uses quantum state-overlap-based similarity as an additional regularization signal. We evaluate the pretrained encoder on GeoBench classification and segmentation tasks under linear probing and fine-tuning settings. Results show that HQ-JEPA achieves competitive and often superior performance over strong self-supervised and remote sensing foundation-model baselines, demonstrating the benefit of integrating predictive self-supervision, cross-modal geometric regularization, and quantum fidelity-based representation learning for remote sensing applications.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "JEPA"
+    ],
+    "applications": [
+      "Segmentation",
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Clustering Guided Domain-Specific Pretrained Foundation Model Very High-Resolution Arctic Remote Sensing",
+    "url": "http://arxiv.org/abs/2605.30467v1",
+    "authors": [
+      "Amal S. Perera",
+      "Chandi Witharana",
+      "Elias Manos",
+      "Michael Pimenta",
+      "Anna K. Liljedahl"
+    ],
+    "published": "2026-05-28",
+    "abstract": "This study introduces a novel Arctic-focused remote sensing foundation model (RSFM) by combining diversity-aware regional-scale image curation with masked autoencoder (MAE) self-supervised pretraining of a Vision Transformer (ViT) encoder for very-high-spatial-resolution (VHSR) satellite image analysis. Spectral and acquisition-metadata descriptors were used in a scalable affinity-propagation clustering workflow to select approximately 3 million chips from 267 TB of Vantor VHSR imagery This curation strategy was designed to reduce oversampling of visually repetitive or low-information areas while preserving broad scene diversity across the study domain. We pretrained a ViT-Large encoder on the curated corpus using a domain-adapted MAE reconstruction objective, producing Arctic-specific transformer weights for downstream feature mapping. The pretrained encoder was integrated into an existing location-aware detection and segmentation framework and evaluated across four hand-labeled Arctic datasets. Compared to ImageNet-initialized ViT-Large baseline, Arctic MAE pretraining produced consistent improvements in foreground mean F1 scores of 0.87, 0.72, 0.93, and 0.87, for infrastructure, IWP, RTS, and TCNs, with approximately 5-8 percentage increase. The proposed model also outperformed Prithvi-EO-2.0 in all downstream comparisons, with the smallest gain corresponding to at least a 15 percentage improvement mean F1, suggesting that domain-specific self-supervised pretraining on curated Arctic VHSR imagery provides more transferable representations for fine-scale Arctic mapping than a general-purpose Earth observation foundation model. These results demonstrate that optimizing the pretraining data distribution at regional scale, while keeping the architecture and MAE objective fixed, can produce a reusable Arctic-domain encoder for multiple VHSR remote sensing applications.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer",
+      "Autoencoder"
+    ],
+    "applications": [
+      "Segmentation",
+      "Detection"
+    ]
+  },
+  {
+    "title": "EarthShift: a benchmark for measuring robustness to real-world distribution shifts in Earth observation",
+    "url": "http://arxiv.org/abs/2605.29330v1",
+    "authors": [
+      "Kelsey Doerksen",
+      "Hannah Kerner"
+    ],
+    "published": "2026-05-28",
+    "abstract": "Current Earth observation benchmarks focus on measuring performance on diverse tasks and applications, typically measuring generalization in-distribution. But when models are deployed, they must generalize to myriad out-of-distribution scenarios, such as new time periods, geographies, scales, and sensors. We introduce EarthShift: the first public testbed for benchmarking robustness across multiple realistic distribution shifts encountered in remote sensing. EarthShift enables users to measure distributional robustness by comparing performance in- and out-of-distribution using datasets from paired datasets from different sources, temporal windows, geographic locations, and sensors. Our experiments on 8 geospatial foundation models (GFMs) and 11 tasks covering 5 shift types show that GFMs consistently perform 15-20% worse out-of-distribution on average regardless of model architecture, size, pre-training or fine-tuning strategy. We show that GFM robustness is similar to that of generic vision foundation models, and even fully-supervised models. This highlights a need for future research to strive for improvements in distributional robustness, not just performance, which can be benchmarked using EarthShift. We release our code and datasets to provide a testbed to guide future work to create foundation models that are robust and reliable in real-world applications. Code and data for EarthShift are available at: https://earthshift.github.io",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "FLORO: A Multimodal Geospatial Foundation Model for Ecological Remote Sensing Across Sensors and Scales",
+    "url": "http://arxiv.org/abs/2605.28174v1",
+    "authors": [
+      "Jorge L. Rodriguez",
+      "Victor Angulo Morales",
+      "Areej Alwahas",
+      "Mariana Elias Lara",
+      "Fida Mohammad Thoker",
+      "Kasper Johansen",
+      "Bernard Ghanem",
+      "Fernando T. Maestre",
+      "Matthew F. McCabe"
+    ],
+    "published": "2026-05-27",
+    "abstract": "Foundation models offer a promising route to transferable remote sensing representations, but many current approaches depend on very large pretraining datasets and fixed sensor configurations, limiting their suitability for ecological and environmental applications, where observations often vary across platforms, spatial and spectral resolutions, and available modalities. We introduce FLORO, a multimodal geospatial foundation model designed to learn transferable representations from a small but highly diverse remote sensing corpus. FLORO is pretrained using masked autoencoding on a heterogeneous combination of Sentinel-1, Sentinel-2, SkySAT imagery, elevation, and UAV-derived data. To accommodate sensor variability, FLORO incorporates availability-aware inputs that indicate which spectral bands and auxiliary modalities are present in each sample, enabling a unified input space across heterogeneous sensor configurations. We evaluated FLORO on the PANGAEA benchmark under a frozen-encoder protocol across scene classification, segmentation, and regression tasks. Despite being pretrained on a smaller corpus than competing foundation models, FLORO achieved strong and stable transfer across optical, optical-SAR, and optical-elevation benchmarks spanning medium-resolution satellite, airborne, and ultra-high-resolution UAV imagery. FLORO obtained the second-best average segmentation performance across six PANGAEA benchmarks, trailing only a recently introduced foundation model pretrained on over two orders of magnitude more images, remained competitive on scene classification, and was robust in regression tasks, while qualitative results showed improved preservation of spatial structure in flood, urban, biomass, and canopy-height prediction settings. In a separate controlled experiment on EuroSAT-MS, geo-positional encoding further improved classification relative to absolute positional encoding.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Classification",
+      "Regression",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "DisDop: Distillation with Domain Priors for Open-Vocabulary Aerial Object Detection",
+    "url": "http://arxiv.org/abs/2605.24639v1",
+    "authors": [
+      "Ruihao Xu",
+      "Yong Liu",
+      "Yansong Tang",
+      "Sule Bai",
+      "Xubing Ye",
+      "Bingyao Yu",
+      "Yutao Guo",
+      "Jiwen Lu",
+      "Jie Zhou"
+    ],
+    "published": "2026-05-23",
+    "abstract": "With the widespread application of drones in recent years, object detection of aerial images has attracted increasing attention, especially open-vocabulary aerial detection which is not restricted to predefined categories. Due to the scarcity of drone's viewpoint images and their significant differences from natural images, it is difficult to achieve satisfying results by directly applying vanilla open-vocabulary detection methods designed for natural scenarios. Some studies propose to transfer knowledge from pre-trained models by using lightweight networks or generating pseudo labels, but they tend to rely on models trained on natural images, neglecting the potential of foundation models specifically tailored for remote sensing and aerial imagery. To address this limitation, we propose DisDop, a unified framework that systematically distills multi-level domain priors from remote sensing foundation models (e.g., RemoteCLIP and DINOv3) into a lightweight detector. Specifically, we first distill visual priors through a teacher fusion strategy that combines RemoteCLIP's cross-modal alignment capability with DINOv3's fine-grained local feature extraction ability, transferring their complementary strengths to the detector's backbone. Second, we distill textual priors embedded in RemoteCLIP's text encoder by explicitly modeling inter-category semantic relationships, while incorporating global contextual priors to enhance local feature representation for small objects. Through this multi-level prior distillation framework, our DisDop achieves new state-of-the-art performance on open-vocabulary aerial detection benchmarks. Extensive ablation analysis also demonstrates the rationality and effectiveness of our proposed modules.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Building and Road Recognition in Dense Urban Informal Settlements: A Dataset and Benchmark",
+    "url": "http://arxiv.org/abs/2605.29856v1",
+    "authors": [
+      "Hongyu Long",
+      "Jiaxuan Liu",
+      "Rui Cao"
+    ],
+    "published": "2026-05-28",
+    "abstract": "As a widespread form of informal settlements, urban villages present significant challenges for sustainable urban development and governance. Precise mapping of their infrastructure is essential, however, existing remote sensing datasets primarily focus on formal urban environments, lacking fine-grained annotated data for the high-density building patterns and narrow road networks typical of urban villages. To address this gap, we introduce the \\textit{DenseUIS} dataset, the first high-resolution remote sensing dataset specifically designed for building and road extraction in extremely dense urban informal settlements, covering 126 urban villages across Shenzhen and Guangzhou in China. Furthermore, we conduct a comprehensive evaluation of state-of-the-art deep learning models on this dataset. Experimental results reveal the limitations of existing methods in handling the unique morphological patterns of dense informal settlements, underscoring the need for specialized approaches. \\textit{DenseUIS} therefore provides a robust benchmark for advancing fine-grained urban mapping in complex and high-density informal environments. The dataset is publicly available at https://github.com/rui-research/DenseUIS.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Coarse-to-Fine Domain Incremental Learning with Attentive Distillation for Mining Footprint Segmentation in Multispectral Imagery",
+    "url": "http://arxiv.org/abs/2605.24460v2",
+    "authors": [
+      "Alif Tri Handoyo",
+      "Vincent C. S. Lee",
+      "Rizka Widyarini Purwanto",
+      "Alex M. Lechner",
+      "Deanna Kemp",
+      "Muhamad Risqi U. Saputra"
+    ],
+    "published": "2026-05-23",
+    "abstract": "Automatically mapping and segmenting global mining footprints using remote sensing and deep learning is critical for monitoring the socio-environmental risks and impacts of mining, yet its progress is hindered by the scarcity of fine-grained annotated data. Although large-scale datasets with coarse boundaries are widely available, leveraging them to improve fine-grained segmentation is challenging due to significant domain shift. To address this, we propose MineC2FNet, a coarse-to-fine domain incremental learning framework that exploits abundant coarse data to enhance fine-grained mining footprint segmentation. MineC2FNet adopts a teacher-student architecture with attentive distillation at both the feature and prediction levels, selectively transferring generalized knowledge from the coarse domain while enabling boundary refinement using limited fine-grained data (fine domain). We further introduce an expertly validated dataset of 219 images with precise boundary annotations across diverse geographies and commodities. Extensive experiments against state-of-the-art approaches, including domain adaptation and domain incremental learning methods, demonstrate that MineC2FNet achieves superior performance while effectively handling domain shift. The dataset and code are publicly available at https://github.com/risqiutama/MineC2FNet.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Learning effective Sargassum transport dynamics from limited drifter observations",
+    "url": "http://arxiv.org/abs/2605.30603v1",
+    "authors": [
+      "F. J. Beron-VEra",
+      "M. J. Olascoaga",
+      "J. Morell",
+      "E. Cruz"
+    ],
+    "published": "2026-05-28",
+    "abstract": "Floating-material transport is influenced by unresolved processes that are often absent from available circulation products. We develop a data-driven transport-learning framework for learning effective transport corrections from limited Lagrangian observations using physically motivated ocean--atmosphere diagnostics and finite-memory representations motivated in part by inertial-particle memory effects. The diagnostic representation is analyzed through predictive and sparse symbolic-discovery approaches under leave-one-trajectory-out validation. Applications to Sargassum-following drifters in the Puerto Rico region and the Gulf Stream show that the diagnostics contain transport-relevant information beyond the baseline circulation products. Multilayer perceptron (MLP) ensembles provide flexible predictive trajectory corrections, while Sparse Identification of Nonlinear Dynamics (SINDy) tests whether instantaneous or delayed sparse symbolic transport structure can be extracted from the diagnostics. The results differ across flow regimes: (i) in Puerto Rico, delayed sparse symbolic corrections provide modest but systematic improvement; (ii) in the Gulf Stream application, dynamically useful sparse symbolic corrections remain primarily instantaneous even though delayed predictive information persists. These results support finite-memory transport effects in coarse-grained floating-material transport while also illustrating the difficulty of obtaining stable delayed sparse symbolic closures.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "A perspective on fluid mechanical environments for challenges in reinforcement learning",
+    "url": "http://arxiv.org/abs/2605.25011v1",
+    "authors": [
+      "Shruti Mishra",
+      "Michael Chang",
+      "Vamsi Spandan",
+      "Shmuel M. Rubinstein"
+    ],
+    "published": "2026-05-24",
+    "abstract": "We consider the challenge of developing agents that efficiently interact with high-dimensional, evolving environments, towards a view of practical reinforcement learning (RL) agents interacting with open worlds, of which they witness and affect only a small part. We argue that canonical fluid mechanics problems, and their simulations, present a compelling testbed for the development of such methods. These problems arise in nonlinear instabilities, where small disturbances can grow to transform the dynamics of a system. Nonlinear instabilities represent several open scientific challenges with industrial applications -- the droplet breakup of a liquid jet, mixing at an interface between two fluids, and the appearance of unusually tall rogue waves in the ocean. In these settings, agents may leverage preserved representations across the changing dynamics to learn efficiently.\n  We present two problem descriptions of agents interacting with a fluid mechanical environment, and describe the state and action spaces, and reward functions, for these agents. For these examples, we specify the aspects of the environment which are nonstationary and the preserved invariances. We note Dedalus and JAX-CFD as open-source simulators that can be used for the development of reinforcement learning methods (Burns et al., 2016; Kochkov et al., 2021)) We demonstrate the use of Dedalus for environment generation by creating RL agents that learn to navigate in a stationary environment that is simulated using Dedalus. This sets the stage for future development of RL agents that learn to meaningfully interact with simulated environments that represent scientific challenges in natural and industrial flows.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Retrieval of Ocean Surface Currents and Vertical Shear from HF Radar Observations",
+    "url": "http://arxiv.org/abs/2605.29581v1",
+    "authors": [
+      "G. Hasson",
+      "S. St\u00f8le-Hentschel",
+      "T. Vre\u0107ica",
+      "V. Shrira",
+      "Y. Toledo"
+    ],
+    "published": "2026-05-28",
+    "abstract": "The upper few meters of the ocean play a key role in air-sea exchanges of momentum and energy. Two important properties of this layer are the vertical shear of current velocity and the surface velocity. Vertical shear reflects momentum transfer, while the surface current velocity is essential for modeling transport processes such as pollutant dispersion. Direct measurements are challenging, and methods that provide continuous, real-time, and spatially extensive observations are highly desirable.\n  This proof-of-concept study presents a new approach for estimating the radial component of surface velocity and the vertical shear of sea surface currents using a single-frequency high-frequency (HF) radar. The method is based on estimating the two first-order Bragg peaks in the backscattered radar spectrum which exhibit asymmetric frequency shifts in the presence of shear. The integral shear is retrieved from the frequency difference between the two peaks, while a new spectral processing technique enables correction of the surface velocity estimate for the effect of shear. The approach was tested using data from a WERA HF radar deployed off Ashkelon (Israel), and validated against simultaneous acoustic Doppler current profiler (ADCP) measurements at lower depths. The retrieved shear magnitudes and surface velocities show consistent trends with ADCP and wind observations, indicating that the method is applicable under strong-wind conditions for HF radar systems providing high-quality Doppler spectra.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Inverse Control Constrained Optimization of Vessel Speed Decisions Under Environmental Risk: Evidence from Arctic Shipping",
+    "url": "http://arxiv.org/abs/2605.27270v1",
+    "authors": [
+      "Mauli Pant",
+      "Linda Fernandez",
+      "Indranil Sahoo"
+    ],
+    "published": "2026-05-26",
+    "abstract": "Understanding how decision makers balance operational efficiency with environmental and ecological risks is central to vessel navigation. We model vessel speed as a control variable in a constrained optimization framework in which vessel operators balance multiple competing objectives, including transit efficiency, ice related navigational risk, and whale related ecological risk. The underlying risk parameters are estimated using over 14 million Automatic Identification System (AIS) observations from the United States Arctic (2010-2019), together with environmental covariates and spatially explicit whale density estimates. The framework incorporates a nonlinear risk objective, vessel heterogeneity, and regularization to ensure stable and interpretable results. The inferred trade offs reveal distinct decision making patterns across vessel groups and navigational statuses. Vessel types such as Tug Tow and Cargo balance operational speed with environmental and ecological considerations. In contrast, several vessel groups, including Fishing, Passenger, and Unspecified vessels, are strongly influenced by ice related risk, while Pleasure Craft and Tankers exhibit higher sensitivity to whale related risk. Across navigational status categories, similar heterogeneity is observed. The dominant status, under way using engine, displays a clear trade off, whereas other statuses, such as aground and undefined, are strongly shaped by ice related constraints. Statuses including restricted maneuverability and engaged in fishing exhibit higher estimated sensitivity to whale related risk, though with substantial uncertainty. Sensitivity analysis indicates that increasing whale-related risk weighting produces limited changes in model-implied optimal speed, whereas increasing ice-related risk leads to more consistent reductions.",
+    "categories": [
+      "ship_trajectories"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "GRAIL: AI translation for scientists application workflow on satellite data",
+    "url": "http://arxiv.org/abs/2605.24784v1",
+    "authors": [
+      "Zhuocheng Shang",
+      "Ahmed Eldawy"
+    ],
+    "published": "2026-05-23",
+    "abstract": "Domain scientists increasingly develop Python scripts to analyze satellite imagery but they lack scalability to large-scale data. This paper demonstrates GRAIL, an agentic translation system that converts Python geospatial workflows into executable Spark-based programs without requiring scientists to learn a new framework. Rather than fine-tuning a specialized LLM model, GRAIL adapts RDPro, a Scala library for satellite data analysis, to make it LLM-ready using structured documentation, API alias functions, and repair-oriented error logs. Translation is structured as a LangGraph pipeline that decomposes code generation into explicit sections with guided inputs and outputs, enabling targeted repair without regenerating the full program. We demonstrate GRAIL on real-world geospatial workflows and showcase the correctness and scalability of the translated code.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "DisasterLex: An Expert Concept-to-Schema Knowledge Graph for Geospatial Reasoning in Disaster Analytics",
+    "url": "http://arxiv.org/abs/2605.30538v1",
+    "authors": [
+      "Yiming Xiao",
+      "Ankit Basu",
+      "Kai Yin",
+      "Sahil Vartak",
+      "Christian Swords",
+      "Ali Mostafavi"
+    ],
+    "published": "2026-05-28",
+    "abstract": "Disasters are inevitable and increasingly costly, and effective response depends on querying structured tabular data: precise, information-dense records of hazard, exposure, vulnerability, and lifeline infrastructure that underpin disaster management. Current text-to-SQL methods enable natural-language access to such tables but transfer poorly to the disaster domain, where queries span heterogeneous geospatial schemas and require reasoning over causal relations. We introduce DisasterLex, a knowledge-graph-mediated framework that inserts an Expert Knowledge Graph (EKG) of curated concepts and typed causal edges between the user query and the database, bridged to schema by concept-to-table links. The orchestration runs four stages (identifying query entities, routing to the operational domain, planning over causal edges, and grounding the SQL), restricting the schema passed to the model at each step. We instantiate it on a disaster-analytics database (36 geospatial tables, 150 columns) with an EKG of 107 concepts, 117 causal edges, and 52 concept-to-schema links, evaluated on a 75-query test set. On all seven base models spanning proprietary and open-weight families, DisasterLex beats four state-of-the-art baselines (LightRAG, HippoRAG 2, ReFoRCE, CHESS) by 1.4x to 2.75x, with absolute scores of 1.65 to 3.56 (of 5.0). Error analysis shows baseline failures cluster in routing and multi-table SQL composition, the operations our orchestration explicitly addresses. Code, data, and the EKG artifact are available at https://github.com/YimingXiao98/DisasterLex and on Zenodo at https://doi.org/10.5281/zenodo.20388029.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "VertiCue-Bench: Diagnosing Whether MLLMs Use Height Cues to Resolve 2D Ambiguity in Remote Sensing Natural Scenes",
+    "url": "http://arxiv.org/abs/2605.25784v1",
+    "authors": [
+      "Jing Huang",
+      "Duanchu Wang",
+      "Junjie Yang",
+      "Zihang Cheng",
+      "Cheng Li",
+      "Lin Cui",
+      "Zhouyi Wu",
+      "Di Wang"
+    ],
+    "published": "2026-05-25",
+    "abstract": "Multimodal Large Language Models (MLLMs) have recently shown promising progress in geospatial reasoning. However, existing remote sensing benchmarks remain largely 2D-centric, evaluating models primarily on optical appearance. In natural environments, this paradigm breaks down due to severe spectral confusion, where ecologically distinct regions share similar textures but differ fundamentally in vertical structure. In such cases, explicit 3D structural data, such as Canopy Height Models (CHMs), become essential geometric evidence for semantic disambiguation. Yet, it remains unclear whether current MLLMs can genuinely leverage vertical cues to resolve appearance-level ambiguity. To address this gap, we introduce VertiCue-Bench, the first diagnostic benchmark for CHM-grounded geospatial reasoning. VertiCue-Bench comprises 1,534 carefully curated instances across 17 tasks, explicitly disentangling low-level height perception from ambiguity-aware semantic reasoning. Evaluations on 14 state-of-the-art general and remote-sensing-specialized MLLMs, combined with counterfactual modality testing, reveal a striking perception-reasoning dissociation. While models exhibit emerging competence in reading raw CHM height cues, they largely fail to translate geometric perception into reliable semantic reasoning, often underperforming RGB-only baselines when joint constraints are required. Overall, VertiCue-Bench exposes a critical geometry-to-semantics gap in natural scene understanding, offering actionable insights for advancing geospatial MLLMs.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "G-DRAGON: Geospatial Reasoning and Dynamic Planning for Retrieval-Augmented Outdoor Navigation",
+    "url": "http://arxiv.org/abs/2605.25646v1",
+    "authors": [
+      "Dongzhihan Wang",
+      "Yi Du",
+      "Jianan Sun",
+      "Yuan Xue",
+      "Yingchen Zhang",
+      "Bing Xiao",
+      "Chen Wang",
+      "Liang Xu"
+    ],
+    "published": "2026-05-25",
+    "abstract": "Autonomous ground robots operating in large-scale outdoor environments require both robust long-range navigation and fine-grained ''last-mile'' exploration. Current advances in visual-language navigation (VLN) work well at short-range tasks, lacking geospatial grounding for long-distance missions. Some OpenStreetMap (OSM)-based methods relying on cloud-based Large Language Models (LLMs) are prone to factual hallucination and cannot conduct ''last-mile'' exploration based on human instruction. To address these challenges, we present G-DRAGON, a retrieval-augmented framework for outdoor, open-world navigation. This framework maps natural-language commands to versioned, local OSM entities via generative retrieval based on lightweight LLM, yielding accurate coordinates for global route planning. A high-level planning module bridges global topological routes with the SLAM system, projecting geospatial waypoints into the robot's navigable frame. For the ''last mile,\" the framework transitions to frontier-based exploration and open-set semantic voxel mapping to localize open-vocabulary targets. Experimental results in simulation demonstrate our framework outperforms state-of-the-art baselines. Furthermore, we validate the system in unseen real-world urban environments on an Unmanned Ground Vehicle (UGV), successfully completing person-search missions with trajectories of up to 500m.",
     "categories": [
       "geo_reasoning"
     ],
