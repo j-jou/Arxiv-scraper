@@ -28381,7 +28381,8 @@
       "Segmentation",
       "Classification",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Clustering Guided Domain-Specific Pretrained Foundation Model Very High-Resolution Arctic Remote Sensing",
@@ -28405,7 +28406,8 @@
     "applications": [
       "Segmentation",
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "EarthShift: a benchmark for measuring robustness to real-world distribution shifts in Earth observation",
@@ -28420,7 +28422,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "FLORO: A Multimodal Geospatial Foundation Model for Ecological Remote Sensing Across Sensors and Scales",
@@ -28447,7 +28450,8 @@
       "Classification",
       "Regression",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "DisDop: Distillation with Domain Priors for Open-Vocabulary Aerial Object Detection",
@@ -28471,7 +28475,8 @@
     "architectures": [],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Building and Road Recognition in Dense Urban Informal Settlements: A Dataset and Benchmark",
@@ -28487,7 +28492,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Coarse-to-Fine Domain Incremental Learning with Attentive Distillation for Mining Footprint Segmentation in Multispectral Imagery",
@@ -28509,7 +28515,8 @@
     "applications": [
       "Segmentation",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Learning effective Sargassum transport dynamics from limited drifter observations",
@@ -28526,7 +28533,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "A perspective on fluid mechanical environments for challenges in reinforcement learning",
@@ -28545,7 +28553,8 @@
     "architectures": [],
     "applications": [
       "Reinforcement Learning"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Retrieval of Ocean Surface Currents and Vertical Shear from HF Radar Observations",
@@ -28563,7 +28572,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Inverse Control Constrained Optimization of Vessel Speed Decisions Under Environmental Risk: Evidence from Arctic Shipping",
@@ -28579,7 +28589,8 @@
       "ship_trajectories"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "GRAIL: AI translation for scientists application workflow on satellite data",
@@ -28596,7 +28607,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "DisasterLex: An Expert Concept-to-Schema Knowledge Graph for Geospatial Reasoning in Disaster Analytics",
@@ -28615,7 +28627,8 @@
       "geo_reasoning"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "VertiCue-Bench: Diagnosing Whether MLLMs Use Height Cues to Resolve 2D Ambiguity in Remote Sensing Natural Scenes",
@@ -28638,7 +28651,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "G-DRAGON: Geospatial Reasoning and Dynamic Planning for Retrieval-Augmented Outdoor Navigation",
@@ -28661,6 +28675,321 @@
     "architectures": [
       "LLM"
     ],
+    "applications": [],
+    "is_recent": false
+  },
+  {
+    "title": "UR-JEPA: Uniform Rectifiability as a Regularizer for Joint-Embedding Predictive Architectures",
+    "url": "http://arxiv.org/abs/2606.01443v1",
+    "authors": [
+      "Triet M. Le"
+    ],
+    "published": "2026-05-31",
+    "abstract": "A central difficulty in training Joint-Embedding Predictive Architectures (JEPAs) is preventing representation collapse. LeJEPA addresses this by enforcing an isotropic Gaussian target on the embeddings via Sketched Isotropic Gaussian Regularization (SIGReg). This target is in tension with the manifold hypothesis, which expects embeddings to concentrate on a low-dimensional subset of the ambient space. We propose \\emph{UR-JEPA}, which targets a uniformly $n$-rectifiable measure of local tangent dimension $n$ at small scales, realized through a Gaussian-kernel smoothed Carleson-type square function $\\mathcal{L}^{\\text{CGLT}}$, with a complementary Jones $\u03b2$-number formulation. On Inet10, UR-JEPA($\\mathcal{L}^{\\text{CGLT}}$) attains $0.9141 \\pm 0.0014$ for a $+0.83$\\,pp gain over LeJEPA($\\mathcal{L}^{\\text{SIGReg}}$) with $\\sim 30\\%$ lower seed standard deviation; on matched-recipe Galaxy10~SDSS, a single-seed ImageNet-$100$ run, and a $3$-seed EuroSAT remote-sensing run, the two methods lie in the same peak-accuracy band at convergence, with UR-JEPA retaining its lower-seed-variance signature. On EuroSAT the in-domain pair is competitive at $96.0$ to $96.1\\%$ with large remote-sensing foundation-model transfer at a $25\\times$ smaller backbone. The distinction is geometric: direct visualization of the projector output distribution shows that on all four datasets UR--JEPA($\\mathcal{L}^{\\text{CGLT}}$) produces a global PCA spectrum with a $4$ to $5$ order-of-magnitude drop at index $\\sim 20$ to $25$ out of $D = 32$, while LeJEPA's spectrum is near-flat (top-to-bottom ratio at most $3.6$). Per-dimension marginals are simultaneously near-Gaussian for both methods (mean Shapiro-Wilk $W \\in [0.992, 0.996]$) as a Diaconis-Freedman consequence. At matched accuracy the two regularizers therefore yield structurally distinct projected representations.",
+    "categories": [
+      "foundation_model",
+      "remote_sensing"
+    ],
+    "architectures": [
+      "JEPA"
+    ],
     "applications": []
+  },
+  {
+    "title": "DarkVesselNet: Multi-Modal Remote Sensing and Trajectory Reasoning for Dark Vessel Detection",
+    "url": "http://arxiv.org/abs/2606.00445v1",
+    "authors": [
+      "Arun Sharma"
+    ],
+    "published": "2026-05-30",
+    "abstract": "Dark vessel detection requires fusing what vessels report through AIS with what satellites observe through radar and optical sensors. DarkVesselNet is a multi-modal remote sensing stack that combines Sentinel-1 SAR, Sentinel-2 optical imagery, geospatial foundation model backbones, AIS trajectory reasoning, TGARD-style gap detection, and a Pi-DPM-inspired anomaly head. The repository exposes the system as a tested Python package and a public Hugging Face Space. The paper presents the sensor stack, backbone abstraction, fusion path, anomaly head, and current validation. The evidence currently available is software-grounded: tests for SAR speckle filtering, optical band ratios, Haversine distance, TGARD gap emission, sensor coregistration, backbone token shapes, and differentiable anomaly scoring.",
+    "categories": [
+      "foundation_model",
+      "remote_sensing",
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Textual Supervision Enhances Geospatial Representations in Vision-Language Models",
+    "url": "http://arxiv.org/abs/2606.07172v1",
+    "authors": [
+      "Marcelo Sartori Locatelli",
+      "Fernando Tonucci",
+      "Jea Kwon",
+      "Luiz Felipe Vecchietti",
+      "Bryan Nathanael Wijaya",
+      "Cheng Yaw Low",
+      "Virgilio Almeida",
+      "Meeyoung Cha"
+    ],
+    "published": "2026-06-05",
+    "abstract": "Geospatial understanding is a critical yet underexplored dimension in the development of machine learning systems for tasks such as image geolocation and spatial reasoning. In this work, we analyze the geospatial representations acquired by three model families: vision-only architectures (e.g., ViT), vision-language models (e.g., CLIP), and large-scale multimodal foundation models (e.g., LLaVA, Qwen, and Gemma). By evaluating across image clusters, including people, landmarks, and everyday objects, grouped based on the degree of localizability, we reveal systematic gaps in spatial accuracy and show that textual supervision enhances the learning of geospatial representations. Our findings suggest the role of language as an effective complementary modality for encoding spatial context and multimodal learning as a key direction for advancing geospatial AI.",
+    "categories": [
+      "foundation_model",
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "Transformer",
+      "LVM",
+      "CLIP"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Spatial Representation Learning Beyond Pixels: Unifying Raster Data and Vector Semantics for Human-Centric Geospatial Foundation Models",
+    "url": "http://arxiv.org/abs/2606.02374v1",
+    "authors": [
+      "Steffen Knoblauch",
+      "Hao Li",
+      "Gengchen Mai",
+      "Konstantin Klemmer",
+      "Song Gao",
+      "WenWen Li"
+    ],
+    "published": "2026-06-01",
+    "abstract": "Earth Observation (EO) has fundamentally transformed the monitoring of environmental processes and human activities up to planetary scale. Recent advances in self-supervised learning have given rise to Earth Observation Foundation Models (EOFMs), which leverage petabyte-scale unlabeled EO data to learn transferable representations across a wide range of downstream geospatial tasks. Despite these advances, current EOFMs remain largely confined to raster modalities, overlooking the rich, structured information encoded in openly-accessible vector data sources such as OpenStreetMap and Overture. Vector data provides explicit and compact representations of geographic entities, including geometry, topology, and semantic relationships, offering critical contextual signals that are often ambiguous or inaccessible in imagery alone. Raster and vector data thus represent complementary views of geographic space: raster data captures continuous physical and spectral patterns, while vector data encodes discrete objects and their relational structure and often represents more of the human rather than the physical systems (e.g. social or demographic data). However, existing geospatial representation learning paradigms treat these modalities in isolation, relying on imperfect and often lossy transformations to bridge them. This perspective paper calls for a paradigm shift toward joint Spatial Representation Learning (SRL) in an unified embedding space that integrate raster perception with vector-based reasoning. Building on emerging efforts in multimodal geospatial learning, we highlight conceptual foundations, technical challenges, and promising directions for aligning heterogeneous spatial data sources. We contend that such integration is essential for developing next-generation geospatial AI systems capable of more accurate, interpretable, and semantically grounded understanding of the Earth.",
+    "categories": [
+      "foundation_model",
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Enhancing the Socioeconomic Understanding of Foundation Models with Urban Mobility",
+    "url": "http://arxiv.org/abs/2606.01745v1",
+    "authors": [
+      "Baoshen Guo",
+      "Donghang Li",
+      "Zhiqing Hong",
+      "Kailai Sun",
+      "Heye Huang",
+      "Alok Prakash",
+      "Shenhao Wang"
+    ],
+    "published": "2026-06-01",
+    "abstract": "Foundation models have recently been applied to urban socioeconomic prediction using POI text, satellite imagery, and geospatial descriptions. However, these models mostly rely on static attributes of individual places, while ignoring the mobility patterns that reveal how places are functionally connected. To address this gap, we explore whether mobility networks can elicit the geospatial capabilities of foundation models by explicitly encoding connectivity among urban entities. We propose \\textit{MobFusion}, a modular mobility-enhanced foundation model fusion paradigm, and instantiate it through three complementary designs: (i) mobility networks as contexts for zero-shot LLM prompting, (ii) as graph connectors for fusing geospatial visual embeddings with textual embeddings, and (iii) as structured tokens for multimodal LLM reasoning. Using anonymized large-scale mobility datasets from three U.S. metropolitan areas, we find that \\textit{MobFusion} improves urban prediction tasks (e.g., median household income, population density, and crime prediction) across three instantiations, demonstrating that incorporating human mobility can effectively improve the socioeconomic understanding of foundation models.",
+    "categories": [
+      "foundation_model",
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Parameter-efficient Dual-encoder Architecture with Differentiable Choquet Integral Fusion for Underwater Acoustic Classification",
+    "url": "http://arxiv.org/abs/2606.02341v1",
+    "authors": [
+      "Amirmohammad Mohammadi",
+      "Joshua Peeples",
+      "Alexandra Van Dine"
+    ],
+    "published": "2026-06-01",
+    "abstract": "Underwater acoustic classification has a wide array of oceanic applications, but faces challenges due to an increasingly complex acoustic environment. Waveform and spectrogram representations have been primarily used as acoustic data features for classification tasks in this domain. Spectrograms model harmonic dependencies, but these reduced representations can filter out acoustic features relevant for discrimination. While phase information from the waveform allows full characterization of the signal, the original waveform can be noisy and complex, rendering this representation difficult for models to process directly. This paper proposes a dual-encoder neural architecture to simultaneously process acoustic waveforms and spectrograms, leveraging pre-trained backbones and parameter-efficient fine-tuning modules, enabling a domain adaptation. To combine these adapted branches, a novel differentiable fuzzy aggregation mechanism based on the Choquet integral is introduced to balance the temporal and spectral representations. This fusion strategy not only yields higher classification accuracy but also provides interpretability. Specifically, by analyzing the learned fuzzy measures, insights are revealed about class-specific shifts in the network's representation reliance. By dynamically shifting attention to the representation least corrupted by potential asymmetric channel distortions, the proposed gating mechanism mitigates the non-stationary challenges of the underwater environment. Evaluations on the DeepShip and ShipsEar datasets demonstrate that the proposed architecture achieves classification improvements over independent single-encoder baselines, while simultaneously restricting the trainable parameter space. This mitigates the risk of overfitting on limited acoustic datasets while alleviating the computational costs associated with fully fine-tuning foundation models.",
+    "categories": [
+      "foundation_model",
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Exploiting In-Sensor Computing for Energy-Efficient Earth Observation",
+    "url": "http://arxiv.org/abs/2606.01271v1",
+    "authors": [
+      "Luigi Capogrosso",
+      "Pietro Bonazzi",
+      "Loris Hoxhaj",
+      "Michele Magno"
+    ],
+    "published": "2026-05-31",
+    "abstract": "The rapid growth of the satellite industry has driven a significant increase in geospatial data acquisition, highlighting a critical bottleneck: the severe disparity between the volume of collected sensor data and the limited downlink bandwidth available to ground stations. While On-Board Computing (OBC) has helped address this by pre-processing data in orbit, this article further advances the paradigm by introducing an in-sensor computing framework. We present an optimized end-to-end Earth Observation (EO) pipeline tailored for strict computational constraints by integrating TinyML techniques with the Sony IMX500 Intelligent Vision Sensor. Specifically, our approach shifts processing directly to the sensor level, offloading the computation from the primary embedded device, and effectively mitigating the downlink transmission of noisy or irrelevant data. We evaluated several efficient Convolutional Neural Networks (ConvNets), i.e., SqueezeNet, ShuffleNetV2, and MCUNetV1, on the EuroSAT dataset. Experimental results show that, despite the optimizations required for deployment on the IMX500 platform, our models maintain a competitive 96.68% accuracy while operating within its 8 MB constraints. Specifically, the models reach an average processing throughput of 17.40 FPS with a latency of 27.43 ms. Furthermore, our system profile exhibits high energy efficiency, with a low energy footprint of 14.19 mJ per inference and an efficiency rating of 42.26 GMAC/J, demonstrating its viability for in-sensor deployment.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Advanced Flood Prediction with Physics-Guided Deep Learning: Combining UNet, FNO, and SAR/Optical Imagery",
+    "url": "http://arxiv.org/abs/2606.06524v1",
+    "authors": [
+      "Tewodros Syum Gebre",
+      "Jagrati Talreja",
+      "Leila Hashemi-Beni"
+    ],
+    "published": "2026-06-02",
+    "abstract": "Accurate and scalable flood mapping remains challenging due to limited ground observations, heterogeneous terrain conditions, and the difficulty of enforcing hydrodynamic consistency within data-driven models. This work introduces a physics-guided deep learning framework that integrates multi-modal remote sensing (Sentinel-1 SAR, Sentinel-2 optical imagery, and DEM-derived terrain features) with constraints from the depth-averaged shallow water equations (SWE). The proposed hybrid architecture combines a UNet to capture fine-scale spatial details with a Fourier Neural Operator (FNO) to model basin-scale hydraulic interactions, while physics-informed residual losses ensure mass and momentum consistency. Evaluated across diverse floodplain settings, the hybrid model achieves an Intersection over Union of 0.82 and an F1 score of 0.90 for flood extent prediction, outperforming UNet-only and FNO-only baselines. Using hydrodynamic simulations as reference data, the model achieves an RMSE of 0.21 m for water depth and 0.15 m/s for flow velocity. Physics consistency is maintained, with low residuals and mass imbalance below 2.1%. Ablation studies confirm that removing physicsbased regularization significantly degrades performance, underscoring the value of physical constraints for stability and generalization. These results demonstrate that embedding hydrodynamic principles into deep learning yields more accurate, reliable, and physically coherent flood predictions, offering strong potential for operational monitoring and large-scale deployment.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "UNET",
+      "PINN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Deep Learning for Remote Sensing to Improve Flood Inundation Mapping",
+    "url": "http://arxiv.org/abs/2606.02310v1",
+    "authors": [
+      "Yogesh Bhattarai",
+      "Vijay Chaudhary",
+      "Wai Lim Kim",
+      "Sanjib Sharma"
+    ],
+    "published": "2026-06-01",
+    "abstract": "Flooding is the most pervasive natural disaster worldwide. Timely and accurate flood inundation mapping are essential for informing disaster risk management. Optical satellite missions provide high-resolution, multispectral observations critical for flood detection and inundation mapping. However, their operational utility is severely constrained by cloud cover during extreme precipitation events. Conventional cloud-removal techniques based on temporal compositing or interpolation often fail to capture inundation dynamics. In this study, we introduce a cloud-removal framework for flood imagery based on Denoising Diffusion Probabilistic Models, leveraging the Masked Diffusion Transformer architecture. The proposed approach exploits self-attention mechanisms to capture wider spatial context and employs masked token modeling to explicitly learn the reconstruction of cloud-obscured regions. Trained on multispectral Sentinel-2B flood scenes with realistic cloud patterns, the model generates cloud-free image realizations that preserve both visual fidelity and hydrological consistency. Reconstruction performance is evaluated using standard image quality metrics alongside flood-specific hydrological measures, demonstrating improved continuity of water bodies and preservation of spectral signatures critical for water detection indices. The results indicate that diffusion-based generative modeling offers a robust and physically consistent alternative for cloud removal in optical flood monitoring, enabling more reliable, continuous observations to support disaster risk management and flood-related decision making.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Intercomparison of Machine Learning Algorithms for Remote Sensing-based In-season Crop Mapping",
+    "url": "http://arxiv.org/abs/2606.05731v1",
+    "authors": [
+      "August Posch",
+      "Jitendra Kumar",
+      "Forrest M. Hoffman",
+      "Auroop R. Ganguly"
+    ],
+    "published": "2026-06-04",
+    "abstract": "In-season crop type mapping is critical for food security in the face of increasingly extreme climate-related threats to crops. Currently, the USDA Cropland Data Layer provides crop type labels at 30m resolution and is available the February after harvest, but no product exists that maps crop types before harvest with satisfactory accuracy that would allow emergency managers to respond to crop threats in near real time. Furthermore, the relative advantages of a wide range of algorithms have not been evaluated in a way that accounts for interannual variability, until this study. Here, Harmonized Landsat-Sentinel surface reflectance imagery time series and crop rotation history information are combined to map corn in Iowa and almonds in California at 30m resolution accurately by early June in unseen years, with robust quantification of uncertainty due to phenology and crop distribution. Thousands of model configurations across ten machine learning algorithms were compared using a year-wise cross-validation and a suite of metrics. Hyperparameter search revealed Support Vector Machines to be the most successful algorithm overall, with a mean F1 score of 0.74 (0.59) across five unseen validation years for almonds by early June in California (corn by early June in Iowa). Interannual variation was a large source of uncertainty, but patterns showed the potential to further improve performance with ensemble approaches or ancillary data. Future work may extend these methods to include multiclass maps of all crop types, CONUS-wide maps, and in-season crop yield forecasting.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Stateful Visual Encoders for Vision-Language Models",
+    "url": "http://arxiv.org/abs/2606.04433v1",
+    "authors": [
+      "Zirui Wang",
+      "Junwei Yu",
+      "Adam Yala",
+      "David M. Chan",
+      "Joseph E. Gonzalez",
+      "Trevor Darrell"
+    ],
+    "published": "2026-06-03",
+    "abstract": "Vision-language models (VLMs) are increasingly used in multi-image, multi-turn agentic settings where decisions depend on visual changes. However, in existing open-weight VLMs, visual comparisons happen only inside the language model, while the visual encoder itself remains stateless: each image is encoded independently, without access to the prior visual context. As a result, small but task-critical changes may be attenuated before the language model has a chance to compare them, especially when those changes do not affect the high-level semantics of the scene. We introduce a Stateful Visual Encoder, which conditions each visual representation on prior visual features. Under supervised finetuning, VLMs equipped with stateful encoders achieve consistent improvements on controlled tasks involving cross-image spatial aggregation, multi-object visual differencing, and visual trajectory behavior cloning. These improvements are consistent across input resolutions, language model sizes, and VLM backbones. Finally, we validate our model on real-world tasks, including longitudinal radiology, fine-grained image comparison, and remote sensing, where stateful encoders consistently improve generalist VLM baselines and can match or surpass specialized models in selected domains. Project page: https://statefulvisualencoders.github.io/",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Leaf Spectral Reflectance Prediction Using Multi-Head Attention Neural Networks",
+    "url": "http://arxiv.org/abs/2606.01432v1",
+    "authors": [
+      "Parastoo Farajpoor",
+      "Alireza Pourreza",
+      "Mohammadreza Narimani",
+      "Ashraf El-Kereamy",
+      "Matthew W. Fidelibus"
+    ],
+    "published": "2026-05-31",
+    "abstract": "Accurate modeling of leaf spectral reflectance from physiological and biochemical traits is essential for advancing remote sensing applications in plant science and precision agriculture. Widely used radiative transfer models, such as PROSPECT-PRO, rely on generalized trait-reflectance relationships developed from a wide range of species, which may not fully capture the spectral behavior of specific crops like grapevines. In this study, we developed a trait-to-spectra prediction model using a multi-head attention neural network trained on a grapevine-specific dataset that includes 16 leaf traits measured across multiple varieties, growth stages, and years. The model was evaluated using stratified 5-fold cross-validation and achieved an average coefficient of determination (R^2) of 0.84 and normalized root mean squared error (NRMSE) of 1.52 percent, demonstrating high accuracy and generalizability. When compared to PROSPECT-PRO in forward mode, the neural network exhibited lower mean absolute error (MAE), especially in the near-infrared (NIR) and shortwave-infrared (SWIR) regions. These results emphasize the importance of species-specific modeling approaches and show that integrating biochemical and structural traits into data-driven architectures can significantly improve spectral prediction. The proposed model provides a robust framework for generating accurate leaf-level reflectance data, with potential applications in canopy trait retrieval, vineyard monitoring, and remote sensing-driven crop management.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "CAFOSat: A Strongly Annotated Dataset for Infrastructure-Aware CAFO Mapping Using High-Resolution Imagery",
+    "url": "http://arxiv.org/abs/2606.00548v1",
+    "authors": [
+      "Oishee Bintey Hoque",
+      "Nibir Chandra Mandal",
+      "Mandy L Wilson",
+      "Samarth Swarup",
+      "Madhav Marathe",
+      "Abhijin Adiga"
+    ],
+    "published": "2026-05-30",
+    "abstract": "Concentrated Animal Feeding Operations (CAFOs) play an important role in agricultural production but are also associated with environmental, public health, and disease surveillance concerns. Large-scale mapping of CAFOs from remote sensing imagery remains challenging due to heterogeneous infrastructure layouts, noisy location records, inconsistent annotations, and incomplete inventories. We introduce CAFOSat, a strongly annotated, infrastructure-aware dataset for CAFO mapping across the United States. CAFOSat integrates high-resolution National Agriculture Imagery Program (NAIP) imagery with multi-source CAFO inventories collected across multiple states and transforms weak geolocation records into refined annotations through a human-in-the-loop pipeline combining AI-assisted annotation, GradCAM-based localization, and geometric clustering. To improve dataset quality, we curate challenging negative samples using land-cover-guided sampling with spatial exclusion constraints and provide infrastructure-level annotations, including barns, manure ponds, and grazing-related features, through manual verification. The resulting dataset contains more than 45,000 image patches spanning 20 states and four major CAFO categories. We benchmark a diverse set of convolutional, transformer-based, and vision-language models, demonstrating the value of refined annotations and curated negative samples for CAFO classification and generalization. In addition, we introduce a synthetic augmentation pipeline that generates infrastructure-aware variations to increase training diversity and improve robustness under distribution shifts. CAFOSat provides a large-scale benchmark for advancing infrastructure-aware agricultural monitoring and CAFO mapping from high-resolution remote sensing imagery.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer",
+      "LVM"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Uncovering Extreme Event Mechanisms for Prediction and Control with Sensitivity-Balanced Projections",
+    "url": "http://arxiv.org/abs/2606.05618v1",
+    "authors": [
+      "Nicholas Zolman",
+      "Sajeda Mokbel",
+      "Samuel E. Otto",
+      "Steven L. Brunton"
+    ],
+    "published": "2026-06-04",
+    "abstract": "Extreme events -- such as earthquakes and coronal mass ejections -- are common in many chaotic dynamical systems, yet are difficult to characterize and predict due to the subtle instability mechanisms that drive them. In this work, we develop an interpretable technique that reveals the underlying mechanisms behind extreme events and uses them to build data-driven forecasts and intuitive event suppression controllers. In particular, we utilize the covariance balancing reduction using adjoint snapshots (CoBRAS) method to identify linear oblique projections that best capture the sensitivity of a quantity of interest and reconstruct the original state. Importantly, we bypass the need for cumbersome adjoint calculations, instead using backpropagation via modern automatically differentiable numerical frameworks. To accommodate spatially localized events, we also introduce a new variant of CoBRAS to obtain local sensitivity-balanced projections. We demonstrate the utility of this approach to characterize extreme events across a diverse set of challenging systems, including turbulent bursts of energy dissipation in the 2D Kolmogorov Flow, spontaneous synchronization in networks of coupled FitzHugh-Nagumo oscillators, and the localized formation of ocean rogue waves from a modified nonlinear Schr\u00f6dinger equation. For each example, we show that our simple forecast models accurately predict extreme events and that the underlying mechanisms may be used to design control laws to prevent these events. Finally, we demonstrate that by learning a neural network surrogate model of the dynamics directly from data, we may extend this approach to experimental systems and systems that are not natively written in an automatically differentiable programming language.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Plan2Map: A Multimodal Benchmark for Document-Grounded Geospatial Boundary Reconstruction from Planning Records",
+    "url": "http://arxiv.org/abs/2606.02747v1",
+    "authors": [
+      "Fabian Degen",
+      "Oishi Deb",
+      "Jindong Gu",
+      "Junchi Yu",
+      "Samuele Marro",
+      "Philip Torr",
+      "Jialin Yu"
+    ],
+    "published": "2026-06-01",
+    "abstract": "Planning records define restrictions over geographic areas, but their source documents often provide only indirect spatial evidence rather than machine-readable boundaries. We introduce Plan2Map, a 208-case multimodal benchmark for document-grounded geospatial boundary reconstruction from UK planning records. Given only a source planning document, systems must reconstruct a valid geospatial boundary from notice text, schedules, map plates, map labels, and boundary annotations; the reference GeoJSON is held out for scoring. We propose GeoPlanAgent, a document-grounded, geospatial-tool-in-the-loop system that decomposes the task into evidence extraction, localisation, map registration, boundary segmentation, projection, and verification. On Plan2Map, GeoPlanAgent achieves 0.736 mean IoU and 0.904 median IoU, with 67.8\\% of predictions at or above 0.8 IoU, substantially outperforming direct VLM-to-GeoJSON baselines. Diagnostic analysis shows that direct VLM prediction remains unreliable, while remaining errors are concentrated in localisation and map registration, and supervised boundary segmentation substantially improves pixel-level mask quality. Plan2Map provides a concrete testbed for multimodal geospatial reconstruction from public planning records. Project page: https://odeb1.github.io/Plan2Map_Project_Page/.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": [
+      "Segmentation",
+      "Forecast"
+    ]
   }
 ]
