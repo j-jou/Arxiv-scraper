@@ -29028,7 +29028,8 @@
       "Classification",
       "Regression",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Spatially Selective Self-Training for Unsupervised Building Change Detection",
@@ -29049,7 +29050,8 @@
     "architectures": [],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "iSAGE: A Human-in-the-Loop Framework for Remote Sensing Semantic Segmentation via Sparse Point Supervision",
@@ -29068,7 +29070,8 @@
     "architectures": [],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "TerraBench: Can Agents Reason Over Heterogeneous Earth-System Data?",
@@ -29094,7 +29097,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "GeoNatureAgent Benchmark: Benchmarking LLM Agents for Environmental Geospatial Analysis Across Frontier and Open-Weight Foundation Models",
@@ -29115,7 +29119,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Emerging Flexible Designs for Geospatial Multimodal Foundation Models",
@@ -29139,7 +29144,8 @@
     "applications": [
       "Segmentation",
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Adapting Prithvi-EO for Fallow Detection for Food-Water Nexus: ViT-Adapter Necks and Parameter-Efficient Backbone tuning of Geospatial Foundation Model",
@@ -29158,7 +29164,8 @@
     ],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Post-Quantum Secure Federated DeFi for Inclusive Banking",
@@ -29175,7 +29182,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "OSMGraphCLIP: Learning Global Location Representations from OpenStreetMap Graphs",
@@ -29198,7 +29206,8 @@
       "Classification",
       "Regression",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "PF-Trans: Physics-Embedded Frequency-Aware Transformer for Spectral Reconstruction",
@@ -29217,7 +29226,8 @@
     "architectures": [
       "Transformer"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Physics-Guided Spatiotemporal Learning for Coastal Wave Peak Period Estimation from Video",
@@ -29241,7 +29251,8 @@
     "applications": [
       "Detection",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "PCA-Enhanced Adaptive NVAR Framework for High-Resolution Sea Surface Temperature Forecasting in the East Sea",
@@ -29261,7 +29272,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Feasibility to detect rapid change and disappearance of seagrass: Lessons from nearly 80 years of vegetation change in the Ako, Seto Inland Sea, Japan",
@@ -29282,7 +29294,8 @@
     "applications": [
       "Segmentation",
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Disentangling the effects of sea surface temperature and CO$_2$ in global machine learned weather-climate emulators",
@@ -29306,7 +29319,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "STELLAR: Spatio-Temporal Environmental Learning with Latent Alignment and Refinement for Long-Tailed Species Distribution Modeling",
@@ -29329,6 +29343,391 @@
     ],
     "architectures": [
       "SDM"
+    ],
+    "applications": [],
+    "is_recent": false
+  },
+  {
+    "title": "A Unified Framework for Efficient Remote Sensing Visual Question Answering: Adapting Dual, Hybrid, and Encoder-Decoder Architectures",
+    "url": "http://arxiv.org/abs/2606.19277v1",
+    "authors": [
+      "Timothy Agboada",
+      "Shikha Chandel",
+      "Yadav Raj Ghimire",
+      "Leila Hashemi-Beni"
+    ],
+    "published": "2026-06-17",
+    "abstract": "Visual Question Answering (VQA) in the Remote Sensing (RS) domain presents unique challenges due to the high resolution, multi scale object distribution, and semantic complexity of aerial imagery. While general domain Foundation Models have achieved remarkable success, their direct application to RSVQA is hindered by massive domain shifts and the computationally prohibitive nature of full fine tuning. This study presents a comparative analysis of RS Adapter, a Parameter Efficient Fine Tuning (PEFT) strategy, applied across three distinct Vision Language Model (VLM) architectures: the Dual Encoder CLIP, the Encoder Decoder BLIP, and the Hybrid FLAVA. We introduce a unified architectural surgery pipeline that injects lightweight bottleneck adapters into the attention and MLP layers of frozen backbones, enabling rapid adaptation with less than 5 percent of trainable parameters. Experimental results on the high resolution RSVQA x dataset demonstrate that while all adapted models achieve convergence, the Hybrid FLAVA architecture offers a superior balance of multimodal reasoning and retrieval capabilities compared to its unimodal counterparts. Our findings establish a new baseline for resource efficient VQA in disaster assessment and urban monitoring.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "LVM",
+      "CLIP"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Geometric Consistency Protocol for Foundation Model Features in Multi-View Satellite Imagery",
+    "url": "http://arxiv.org/abs/2606.17564v1",
+    "authors": [
+      "Qiyan Luo",
+      "Jie Yang",
+      "Yingdong Pi",
+      "Lekang Wen",
+      "Mi Wang"
+    ],
+    "published": "2026-06-16",
+    "abstract": "Standardized evaluation protocols are indispensable for robust benchmarking in remote sensing, particularly as foundation features are increasingly transferred across diverse sensors and complex imaging geometries. In satellite multi-view reconstruction, conventional evaluations relying on unconstrained 2D global matching are often misleading. The Rational Function Model (RFM) and its Rational Polynomial Coefficients (RPC) dictate a curved, height-dependent epipolar geometry that render flat 2D search spaces physically inconsistent. We propose a geometry-faithful and reproducible protocol tailored for the RPC framework. Our approach integrates an RPC-projected 3D consistency metric with a geometry-constrained dense matching proxy, specifically evaluating whether similarity responses remain localized and unique under physically plausible search manifolds. A pivotal finding of our joint reporting strategy is the decoupling of semantic agreement and geometric localization: high cross-view similarity at a projected 3D point does not guarantee reliable matchability in practical inference. Our benchmark demonstrates that incorporating geometric constraints is fundamental to the problem definition in satellite imagery. Furthermore, we show that state-of-the-art 2D backbones remain remarkably competitive against specialized 3D-aware models when subjected to this RPC-consistent evaluation.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "FusionRS: A Large-Scale RGB-Infrared Remote Sensing Dataset for Dual-Modal Vision-Language Foundation Models",
+    "url": "http://arxiv.org/abs/2606.17020v1",
+    "authors": [
+      "Jiaju Han",
+      "Ben Zhang",
+      "Xuemeng Sun",
+      "Qike Zhang",
+      "Yuxian Dong",
+      "Chengyin Hu",
+      "Fengyu Zhang",
+      "Yiwei Wei",
+      "Jiujiang Guo"
+    ],
+    "published": "2026-06-15",
+    "abstract": "Remote sensing vision-language models have advanced Earth observation understanding, but most existing work remains centered on RGB imagery, leaving the complementary information in infrared data underexplored. Infrared images provide distinctive cues, including thermal intensity structures, object boundaries, and illumination-invariant scene features, which can enrich visual-language learning beyond conventional RGB observations. However, a large-scale RGB-infrared-text dataset for remote sensing vision-language modeling is still absent. To address this gap, we introduce FusionRS, the first large-scale RGB-infrared-text dataset designed for dual-modal vision-language learning in remote sensing. FusionRS is constructed by translating diverse public RGB remote sensing images into infrared-style counterparts, forming aligned RGB-IR image pairs. Each pair is associated with conventional scene captions and IR-aware captions that explicitly describe infrared-specific visual properties while preserving semantic content. Based on FusionRS, we train dual-modal vision-language foundation models for RGB-IR joint understanding. We first train CLIP-style models for RGB-IR-text alignment, and then fine-tune generative VLMs for dual-modal RGB-IR captioning. Experiments show that FusionRS improves RGB-IR alignment, infrared-to-text retrieval, and dual-modal captioning over RGB-only and non-IR-aware training settings. Ablation studies further verify that IR-aware captions are crucial for strengthening infrared-language alignment, highlighting the importance of modality-specific textual supervision for more scalable RGB-infrared remote sensing vision-language representation learning.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "LVM",
+      "CLIP"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Training-Free Open-Vocabulary Visual Grounding for Remote Sensing Images and Videos",
+    "url": "http://arxiv.org/abs/2606.16124v1",
+    "authors": [
+      "Ke Li",
+      "Di Wang",
+      "Yongshan Zhu",
+      "Ting Wang",
+      "Weiping Ni",
+      "Tao Lei",
+      "Quan Wang",
+      "Xinbo Gao"
+    ],
+    "published": "2026-06-15",
+    "abstract": "Remote sensing visual grounding (RSVG) aims to localize a referred target in a remote sensing image or video according to a natural language expression. Existing RSVG methods usually rely on task-specific manual annotations, which are costly to collect and inevitably limited in covering the diversity of real-world geospatial scenarios. As a result, they often struggle to generalize to open-vocabulary queries involving novel objects, fine-grained attributes, complex spatial relationships, and functional semantics. In this paper, we propose RSVG-ZeroOV, a training-free framework that leverages frozen generic foundation models for zero-shot open-vocabulary RSVG. RSVG-ZeroOV follows an Overview-Focus-Evolve paradigm, which exploits the distinct yet complementary attention patterns of vision-language models (VLMs) and diffusion models (DMs) to progressively generate precise grounding results. Specifically, (i) Overview utilizes a VLM to extract cross-attention maps that capture semantic correlations between the referring expression and visual regions; (ii) Focus leverages the fine-grained modeling priors of a DM to compensate for object structure and shape information often overlooked by VLM attention; and (iii) Evolve introduces a simple yet effective attention evolution module to suppress irrelevant activations, yielding purified object masks. To handle video inputs, we further present Video RSVG-ZeroOV, which extends image-level grounding to spatio-temporal grounding through a query-relevant key-frame selector and a temporal propagator, enabling efficient and temporally coherent video grounding without video annotations or fine-tuning. Extensive experiments on six image and video grounding benchmarks show that RSVG-ZeroOV consistently outperforms existing zero-shot baselines and achieves competitive or superior performance compared with weakly- and fully-supervised methods.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "LVM",
+      "Diffusion Models"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Clay-CNN Hybrids: Leveraging Geospatial Foundation Models as Auxiliary Context for Landslide Detection",
+    "url": "http://arxiv.org/abs/2606.14081v3",
+    "authors": [
+      "Huong Binh Vu"
+    ],
+    "published": "2026-06-12",
+    "abstract": "Rapid post-event landslide mapping is essential for disaster response but remains difficult to automate due to extreme class imbalance. This study evaluates whether Clay v1.5, a Geospatial Foundation Model (GFM), can improve pixel-level landslide segmentation on the Landslide4Sense (L4S) benchmark, which contains 3,799 training chips with 14 Sentinel-2 and terrain bands and approximately 2% positive pixels. We compare three strategies: Clay as the primary encoder with multi-scale residual terrain fusion, a U-Net backbone augmented with Clay semantic context at the bottleneck, and a standard U-Net baseline. The hybrid U-Net + Clay model with two-stage Low-Rank Adaptation (LoRA) achieved the best test F1 of 64.5 +/- 1.8% over three seeds, surpassing the Clay-only backbone (55.2 +/- 3.6%) and the U-Net baseline (59.9%). Clay as a standalone encoder underperformed the U-Net due to the absence of multi-scale skip connections, but its pretrained representations consistently improved performance when injected as auxiliary context. These findings suggest that GFMs are most effective for landslide detection when they complement spatially detailed convolutional architectures rather than replace them.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": [
+      "Segmentation",
+      "Detection"
+    ]
+  },
+  {
+    "title": "Multi-Modal Contrastive Learning for Implicit Earth Embeddings via Location Tying",
+    "url": "http://arxiv.org/abs/2606.20167v1",
+    "authors": [
+      "Jonathan Hecht",
+      "Lukas Arzoumanidis",
+      "Ziyue Li",
+      "Youness Dehbi"
+    ],
+    "published": "2026-06-18",
+    "abstract": "Spatial prediction tasks are often limited by a lack of high-quality labelled ground-truth observations. To overcome this challenge, self-supervised pre-training is a possible solution, with contrastive learning dominant for location encoders. Those approaches usually align geographic coordinates with just one additional modality. We propose two multimodal contrastive learning architectures: Multimodal Embedding via Location Tying (MELT) and Sequential Alternating Location Training (SALT). These architectures expand this framework beyond two modalities by utilising unpaired geospatial data. Both methods are technically viable and match the performance of the strongest two-modality baseline (SATCLIP) across four downstream tasks. However, increasing the number of modalities does not consistently improve performance, suggesting that the chosen location encoder is the main limitation - the contrastive objective reaches its peak early, regardless of modality diversity or pre-training volume. MELT provides more stable training than SALT and presents a stronger foundation for future scaling.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Intelligent Multimodal Retrieval and Reasoning for Geospatial Knowledge Discovery on the I-GUIDE Platform",
+    "url": "http://arxiv.org/abs/2606.15838v1",
+    "authors": [
+      "Yunfan Kang",
+      "Erick Li",
+      "Furqan Baig",
+      "Wei Hu",
+      "Alexander Michels",
+      "Anand Padmanabhan",
+      "Shaowen Wang"
+    ],
+    "published": "2026-06-14",
+    "abstract": "Geospatial knowledge discovery increasingly requires search across heterogeneous artifacts: datasets, maps, notebooks, software, publications, and the provenance links among them. Conventional geoportals support metadata and spatial filtering, but they rarely provide semantic retrieval, graph-aware provenance traversal, and conversational synthesis in one integrated system. This paper presents I-GUIDE Smart Search, a production multimodal geospatial retrieval-augmented generation (RAG) system embedded in the I-GUIDE Platform, and reports on its design, deployment, and evaluation. The system combines production-maintained OpenSearch keyword, vector, and spatial indexes with a Neo4j knowledge graph and an iterative RAG pipeline for memory-aware query augmentation, reasoning, retrieval-method routing, relevance grading, grounded generation, hallucination and relevance checking. In a single-A100 RAG deployment, I-GUIDE Smart Search supports interactive use up to about 100 concurrent simulated users, reaching 4.4 requests per second with p50 latency near 25 seconds despite 20-50 LLM calls per query. For answer quality, we evaluate a four-category benchmark of 170 unique human-filtered user-facing queries, together with ten intent-specific probe sets generated from the deployed indexes and graph. Smart Search improves retrieved evidence coverage and judged answer quality over non-retrieval and naive-RAG baselines, with the clearest gains on exact-identifier, spatially constrained, simple-recommendation, and domain-specific factual queries requiring current indexed evidence. We distill transferable deployment lessons for spatial RAG systems, covering spatial metadata quality, graph provenance, retrieval routing, interface contracts, refusal-aware evaluation, latency-cost tradeoffs, and the role of the user interface in deployed geospatial cyberinfrastructure.",
+    "categories": [
+      "foundation_model",
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Bridging Spatial And Frequency Views For Disaster Assessment: Benefits And Limitations",
+    "url": "http://arxiv.org/abs/2606.17403v1",
+    "authors": [
+      "Shikha V. Chandel",
+      "Yadav Raj Ghimire",
+      "Timothy Agboada",
+      "Leila Hashemi-Beni"
+    ],
+    "published": "2026-06-16",
+    "abstract": "Rapid assessment of building damage from satellite imagery is essential for effective disaster response and recovery. While most deep learning methods rely on spatial-domain features, frequency-domain representations can capture complementary structural cues such as debris patterns and collapse-induced textures. This study presents a controlled comparison of spatial-domain, frequency-domain, and dual-domain deep learning approaches for multi-class building damage classification using post-disaster imagery from the xView2 (xBD) dataset. To ensure fairness, all models are built on an EfficientNet-B0 backbone and trained under identical settings, differing only in their input representations and fusion strategies. Performance is evaluated using accuracy, macro F1-score, per-class metrics, and confusion matrices. Results show that dual-domain models provide measurable improvements over single-domain approaches. The dual spatial configuration achieves the highest test accuracy (0.4688) and lowest loss, while the spatial-only model attains the best macro F1-score (0.4254), indicating more balanced class performance. In contrast, frequency-only models perform worst and exhibit overfitting, suggesting limited generalization. Despite these gains, all models struggle to detect subtle damage levels, particularly the Minor class, due to class imbalance and fine-grained visual ambiguity. While dual-domain approaches improve detection of severe damage, challenges remain. These findings highlight the benefits and limitations of hybrid representations and motivate future work on data balancing, advanced fusion, and regularization.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Multi-Modal Attention for Automated Disaster Damage Assessment Using Remote Sensing Imagery and Deep Learning",
+    "url": "http://arxiv.org/abs/2606.14963v1",
+    "authors": [
+      "Tewodros Syum Gebre",
+      "Jagrati Talreja",
+      "Leila Hashemi-Beni"
+    ],
+    "published": "2026-06-12",
+    "abstract": "Timely and accurate disaster damage assessment is crucial for effective emergency response, resource allocation, and recovery. Traditional methods, which often rely on manual inspections or sparse data, are typically slow and error-prone. This paper introduces a novel framework leveraging remote sensing imagery and deep learning to automate building damage classification. Using pre- and post-disaster satellite imagery, our model categorizes buildings into four damage levels: no damage, minor damage, major damage, and destroyed. The core innovation is a multi-modal attention mechanism that fuses bi-temporal features to explicitly detect and assess structural changes. We employ a lightweight ConvNeXT-Tiny backbone to ensure efficient processing without compromising performance. Key contributions include: (1) a cross-attention module for multi-modal data fusion, (2) an optimized preprocessing pipeline for large-scale datasets, and (3) robust data augmentation techniques. Experiments on a large-scale disaster dataset demonstrate an overall classification accuracy of 94.90%. The model effectively discriminates between damage categories and remains resilient to incomplete data. This system significantly improves assessment speed and accuracy, aiding emergency responders in prioritizing interventions. This work advances automated disaster damage detection by integrating multi-temporal imagery with deep learning, offering a scalable solution for real-time response.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Integrating national forest inventory, airborne lidar, and satellite imagery for wall-to-wall mapping of forest structure with computer vision",
+    "url": "http://arxiv.org/abs/2606.20291v1",
+    "authors": [
+      "Luke J. Zachmann",
+      "David D. Diaz",
+      "Vincent A. Landau",
+      "Chelsey Walden-Schreiner",
+      "Tony Chang",
+      "Nathan E. Rutenbeck",
+      "Katharyn A. Duffy",
+      "Kiarie Ndegwa",
+      "Andreas Gros",
+      "Scott Conway",
+      "Guy Bayes"
+    ],
+    "published": "2026-06-18",
+    "abstract": "Remote sensing is increasingly relied upon to deliver actionable science for forest and wildfire risk management across large landscapes. Wall-to-wall, annually updated maps are a persistent need for effective forest management. Many planning systems and data collections combine disparate data sources with different purposes, vintages, and prediction quality, which leads to confounding behavior in operational planning systems. We introduce the VibrantForests framework, developed and applied to map forest attributes and provide a coherent foundation for effective forest and wildfire planning. VibrantForests includes a satellite-based forest structure model trained on lidar-derived samples and applied across the contiguous United States to concurrently generate estimates of canopy cover, canopy height, aboveground live tree biomass, basal area, and quadratic mean diameter at 10-meter resolution. We demonstrate predictive capability spanning the full spectrum of forest conditions ranging from sparse-canopy/low-biomass to dense-canopy/high-biomass. Results show that our model extends the range at which saturation is commonly encountered in comparable passive-sensor models, and reduces regression-to-mean behavior that commonly produces overestimation of forest attributes in small/sparse conditions and underestimation in large/dense conditions. The VibrantForests framework addresses a key limitation in large-area forest and wildfire planning by delivering coherent wall-to-wall estimates of management-relevant attributes at annual cadence and 10m resolution.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Regression",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Landsat-Sentinel-2 Algal Bloom Mapping Using Vision Transformers: Model Description, Implementation, and Examples",
+    "url": "http://arxiv.org/abs/2606.17242v1",
+    "authors": [
+      "Thainara Lima",
+      "Vitor Martins"
+    ],
+    "published": "2026-06-15",
+    "abstract": "Coastal algal bloom monitoring requires frequent, spatially detailed, and globally consistent observations, provided by Landsat-8/9 and Sentinel-2 A/B/C. Together, these missions offer over a decade of medium-resolution multispectral imagery with near-global coverage every 2-3 days, enabling the detection of fragmented bloom structures not resolvable by coarse ocean-color sensors. However, their use in aquatic environments remains challenging due to limited spectral coverage and a lack of harmonized reflectance products. As an alternative to traditional bio-optical methods, deep learning-based image classification offers a data-driven approach that can overcome many of these limitations. This study presents the first successful implementation of vision transformer-based coastal algal bloom mapping using 30-m Landsat-Sentinel-2 images. A globally distributed bloom patch dataset was generated across bloom-prone coastal hotspots worldwide. Four transformer-based architectures were compared against a standard convolutional baseline for fine-scale bloom detection, and assessed under different optical water types and atmospheric and surface conditions. All deep learning models showed strong capabilities in detecting floating bloom areas, with omission and commission errors of 8-65%. Under cloud and glint stress in a time series, the Swin Transformer outperformed traditional spectral-index approaches, which produced widespread false positives, effectively avoiding cloud- and glint-affected pixels. Comparisons with MODIS-derived products further highlighted the benefits of higher spatial resolution in detecting fragmented and irregularly affected blooms. Our findings support deep learning as a reliable tool for medium-resolution, consistent monitoring of floating algal blooms in dynamic coastal environments.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "A Differentiable Composite Approximation Framework for Autonomous Underwater Vehicle Maneuvering Modeling from Sea-Trial Data",
+    "url": "http://arxiv.org/abs/2606.19711v1",
+    "authors": [
+      "Aobo Wang",
+      "Aifei Xia",
+      "Zihao Wang",
+      "Lizhu Hao"
+    ],
+    "published": "2026-06-18",
+    "abstract": "Field-based modeling from onboard measurements can produce autonomous underwater vehicle (AUV) maneuvering models that reflect real operating characteristics. From an approximation perspective, conventional maneuvering models use predefined constraint polynomial bases, whereas data-driven models use data-adaptive bases. Motivated by this basis-function view, this paper presents a differentiable composite-approximation formulation, in which the polynomial-basis component and the data-adaptive basis component are treated as differentiable parts of a single predictor and calibrated jointly. A gradient-based co-calibration method is developed for full-scale AUV maneuvering prediction, where a sensitivity-aware mechanism regulates bounded polynomial updates while the neural residual captures remaining nonlinear discrepancies under a shared prediction objective. To account for ocean-current effects in field data, a turning-motion-based current estimation and compensation procedure is incorporated to construct current-compensated learning targets for training and rollout. The framework is evaluated using sea-trial data collected from a 7-meter AUV under multiple maneuvering conditions. Results show that the proposed method improves recursive trajectory and velocity prediction compared with polynomial-only, neural-only, and frozen-prior hybrid baselines, demonstrating its applicability to field-data-based AUV maneuvering modeling.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Topological Flow Matching",
+    "url": "http://arxiv.org/abs/2606.15897v1",
+    "authors": [
+      "Kacper Wyrwal",
+      "\u0130smail \u0130lkan Ceylan",
+      "Alexander Tong"
+    ],
+    "published": "2026-06-14",
+    "abstract": "Flow matching is a powerful generative modeling framework, valued for its simplicity and strong empirical performance. However, its standard formulation treats signals on structured spaces, such as fMRI data on brain graphs, as points in Euclidean space, overlooking the rich topological features of their domains. To address this, we introduce topological flow matching, a topology-aware generalization of flow matching. We interpret flow matching as a framework for solving a degenerate Schr\u00f6dinger bridge problem and inject topological information by augmenting the reference process with a Laplacian-derived drift. This principled modification captures the structure of the underlying domain while preserving the desirable properties of flow matching: a stable, simulation-free objective and deterministic sample paths. As a result, our framework serves as a drop-in replacement for standard flow matching. We demonstrate its effectiveness on diverse structured datasets, including brain fMRIs, ocean currents, seismic events, and traffic flows.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "MoCo-AIS: A Contrastive Learning Framework for Similarity Computation of Vessel Trajectories",
+    "url": "http://arxiv.org/abs/2606.17978v1",
+    "authors": [
+      "Ruixin Song",
+      "Md Mahbub Alam",
+      "Zahra Sadeghi",
+      "Amilcar Soares",
+      "Jos\u00e9 F. Rodrigues-Jr",
+      "Gabriel Spadon"
+    ],
+    "published": "2026-06-16",
+    "abstract": "Trajectory similarity is a fundamental task in analyzing mobility patterns, essential for applications such as route pattern extraction, mobility prediction, and anomaly detection. Traditional distance-based measures for computing similarity incur high computational cost, driving the adoption of lightweight learning-based approaches. Supervised methods rely on extensive labels derived from traditional distance measures and often reproduce these metrics, which limits generalization. While self-supervised learning addresses this issue through contrastive learning, it lacks a unified framework, making it difficult to compare deep learning (DL) models for consistent trajectory representation. Accordingly, this paper presents MoCo-AIS, a unified framework for learning vessel trajectory embeddings based on the Momentum Contrast (MoCo) paradigm, which formulates similarity learning through positive and negative trajectory pairs. Within this framework, we evaluate a diverse set of leading DL models on large-scale, real-world vessel-tracking AIS datasets that capture diverse navigation behaviors and operating conditions. Results demonstrate that our framework significantly improves similarity learning over existing baselines, while providing a benchmarking platform for evaluating trajectory representation models.",
+    "categories": [
+      "ship_trajectories"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Forecast",
+      "Anomaly Detection",
+      "Tracking"
+    ]
+  },
+  {
+    "title": "IUU+DB: Tracking Illegal, Unreported, and Unregulated Fishing, Seafood Fraud, and Labor Abuse through LLM-driven Information Extraction",
+    "url": "http://arxiv.org/abs/2606.18181v1",
+    "authors": [
+      "Henry Bodwell",
+      "Hong Yang",
+      "John C. Simeone",
+      "Kelvin Gorospe",
+      "Bella Sullivan",
+      "Lana Huang",
+      "Jessica Gephart",
+      "Sandy Aylesworth",
+      "Molly Masterton",
+      "Naren Ramakrishnan"
+    ],
+    "published": "2026-06-16",
+    "abstract": "Illegal, unreported, and unregulated fishing (IUU) traditionally refers to fishing activities that violate applicable laws or occur in areas that lack applicable laws. We propose the term IUU+ to capture a broader suite of fisheries sector environmental and associated supply chain trade-related crimes and behaviors. Although IUU+ activity is widely recognized as a serious threat to marine ecosystems, markets, and livelihoods, a quantitative understanding of these incidents, e.g., their frequency, geography, species, actors, and patterns in the type of illicit activity, remains difficult to obtain. We propose IUU+DB, a large language model driven system for building a global incident database of IUU+ activity. The system ingests heterogeneous documents, classifies whether they describe relevant incidents, extracts key data elements such as actors, locations, species, vessels, violations, and enforcement outcomes, and supports deduplication and trend analysis. Case studies and validation results show that IUU+DB can help organize fragmented evidence, surface geographic and behavioral hotspots, support fisheries-domain specific research in academia and non-government organizations, assist source and species risk assessments for industry, and provide support for policy implementation and targeted enforcement efforts to government agencies.",
+    "categories": [
+      "ship_trajectories"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "GeoDisaster: Benchmarking Orchestrated Agents for Operational Disaster Geo-Intelligence",
+    "url": "http://arxiv.org/abs/2606.17246v1",
+    "authors": [
+      "Maram Hasan",
+      "Aman Verma",
+      "Savitra Roy",
+      "Hariseetharam Gunduboina",
+      "Daksh Jain",
+      "Muhammad Haris Khan",
+      "Subhasis Chaudhuri",
+      "Biplab Banerjee"
+    ],
+    "published": "2026-06-15",
+    "abstract": "Remote-sensing vision-language models (RS-VLMs) have advanced Earth-observation analysis toward visual interpretation and instruction-following, yet fall short of operational geo-intelligence, which demands tool-grounded spatial reasoning and structured, evidence-backed decisions. We introduce GeoDisaster, an operational geospatial disaster reasoning benchmark with 2,921 verified instances across 43 question types and five task families: deforestation monitoring, multi-hazard analysis, building-damage assessment, flood-safe routing, and Sentinel-1 SAR flood monitoring. Instances integrate heterogeneous EO/GIS evidence-optical and SAR imagery, raster masks, vector geometries, road networks, and exposure layers-spanning hazard detection, damage assessment, exposure estimation, and diagnostic report generation. Ground-truth answers are grounded in executable geospatial workflows and deterministic consistency checks, removing the need for language-model annotation. We further propose an orchestrated multi-agent framework with 18 disaster-oriented tools, where role-specialized agents coordinate through explicit execution contracts, aligned via Role-Contract Expectation Alignment (RCEA): failure-aware supervised fine-tuning combined with contract-grounded reinforcement learning over dense step-level signals. Experiments show that GeoDisaster challenges existing RS-VLMs and agentic systems, while RCEA improves tool use, evidence grounding, state consistency, and decision generation.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": [
+      "Detection",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Risk-Aware LLM Agents for Geospatial Data Retrieval: Design and Preliminary Adversarial Evaluation",
+    "url": "http://arxiv.org/abs/2606.15077v1",
+    "authors": [
+      "Kyle Gao",
+      "Joel Cumming",
+      "Jonathan Li",
+      "Linlin Xu",
+      "David A. Clausi"
+    ],
+    "published": "2026-06-13",
+    "abstract": "We present an LLM-driven framework for retrieving remote sensing data from cloud-based geospatial catalogues using natural language queries. The system converts user intent into structured API calls, enabling efficient access to satellite imagery and environmental datasets. The architecture integrates three agents: Guardrail for safety and policy enforcement, General-QA for intent interpretation, and Recommender-Analyst for schema-aware API call generation. This coordinated design ensures reliable, semantically aligned interaction with external data services. The modular framework is portable across platforms through API schema substitution and supports applications in environmental monitoring, disaster response, and climate analysis. It establishes a scalable interface between user intent and geospatial infrastructure, enabling streamlined and automated Earth observation workflows. Preliminary experiments under adversarial multi-turn settings show that prompt-level safety instructions improve robustness, although rare high-impact failures persist in API manipulation scenarios and highlight the need for adaptive, system-level defenses that balance safety, usability, and cost efficiency, which motivates the use of our intercept-level Guardrail agent.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Securing Multi-Agent GIS Systems: Risk Evaluation and Prompt Hardening Optimization",
+    "url": "http://arxiv.org/abs/2606.17092v1",
+    "authors": [
+      "Kyle Gao",
+      "Pranavi Kotta",
+      "Linlin Xu",
+      "Jonathan Li",
+      "David A. Clausi"
+    ],
+    "published": "2026-06-13",
+    "abstract": "Agentic systems are increasingly integrated with geographic information systems (GIS), where multi-agent coordination enables complex conversational and spatial analysis but introduces security risks. This work presents a security-oriented framework for risk identification, evaluation, and mitigation in a multi-agent GIS system while maintaining adaptability to broader agentic architectures. We test the agentic system of a commercial geospatial partner while developing a modular state-machine-based orchestration framework that abstracts agent behavior into reusable components. We evaluate robustness using a red-teaming framework with an adaptive attacker LLM and a deterministic judge that produces binary outcomes with supporting rationales across multi-turn attacks. We further improve resilience with a prompt optimization framework that treats prompts as structured signatures and injects adversarial demonstrations, enabling systematic security improvements without degrading task performance.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
     ],
     "applications": []
   }
