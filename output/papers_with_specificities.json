@@ -29365,7 +29365,8 @@
       "LVM",
       "CLIP"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Geometric Consistency Protocol for Foundation Model Features in Multi-View Satellite Imagery",
@@ -29383,7 +29384,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "FusionRS: A Large-Scale RGB-Infrared Remote Sensing Dataset for Dual-Modal Vision-Language Foundation Models",
@@ -29408,7 +29410,8 @@
       "LVM",
       "CLIP"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Training-Free Open-Vocabulary Visual Grounding for Remote Sensing Images and Videos",
@@ -29432,7 +29435,8 @@
       "LVM",
       "Diffusion Models"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Clay-CNN Hybrids: Leveraging Geospatial Foundation Models as Auxiliary Context for Landslide Detection",
@@ -29451,7 +29455,8 @@
     "applications": [
       "Segmentation",
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Multi-Modal Contrastive Learning for Implicit Earth Embeddings via Location Tying",
@@ -29470,7 +29475,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Intelligent Multimodal Retrieval and Reasoning for Geospatial Knowledge Discovery on the I-GUIDE Platform",
@@ -29493,7 +29499,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Bridging Spatial And Frequency Views For Disaster Assessment: Benefits And Limitations",
@@ -29513,7 +29520,8 @@
     "applications": [
       "Detection",
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Multi-Modal Attention for Automated Disaster Damage Assessment Using Remote Sensing Imagery and Deep Learning",
@@ -29532,7 +29540,8 @@
     "applications": [
       "Detection",
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Integrating national forest inventory, airborne lidar, and satellite imagery for wall-to-wall mapping of forest structure with computer vision",
@@ -29559,7 +29568,8 @@
     "applications": [
       "Regression",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Landsat-Sentinel-2 Algal Bloom Mapping Using Vision Transformers: Model Description, Implementation, and Examples",
@@ -29579,7 +29589,8 @@
     "applications": [
       "Detection",
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "A Differentiable Composite Approximation Framework for Autonomous Underwater Vehicle Maneuvering Modeling from Sea-Trial Data",
@@ -29598,7 +29609,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Topological Flow Matching",
@@ -29614,7 +29626,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "MoCo-AIS: A Contrastive Learning Framework for Similarity Computation of Vessel Trajectories",
@@ -29638,7 +29651,8 @@
       "Forecast",
       "Anomaly Detection",
       "Tracking"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "IUU+DB: Tracking Illegal, Unreported, and Unregulated Fishing, Seafood Fraud, and Labor Abuse through LLM-driven Information Extraction",
@@ -29663,7 +29677,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "GeoDisaster: Benchmarking Orchestrated Agents for Operational Disaster Geo-Intelligence",
@@ -29689,7 +29704,8 @@
     "applications": [
       "Detection",
       "Reinforcement Learning"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Risk-Aware LLM Agents for Geospatial Data Retrieval: Design and Preliminary Adversarial Evaluation",
@@ -29709,7 +29725,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Securing Multi-Agent GIS Systems: Risk Evaluation and Prompt Hardening Optimization",
@@ -29729,6 +29746,470 @@
     "architectures": [
       "LLM"
     ],
+    "applications": [],
+    "is_recent": false
+  },
+  {
+    "title": "On-board Remote-Sensing Foundation Models for Unsupervised Change Detection of Disaster Events",
+    "url": "http://arxiv.org/abs/2606.27018v1",
+    "authors": [
+      "S. Ram\u00edrez-Gallego"
+    ],
+    "published": "2026-06-25",
+    "abstract": "Remote Sensing Foundation Models (RSFMs) have emerged as a powerful alternative to supervised models for Earth Observation, allowing satellites to autonomously trigger high-resolution captures or adjust tasking parameters upon detecting an anomaly, thereby maximizing the utility of the mission's limited power and computational resources. RSFMs are versatile, unified encoders that optimize onboard storage for multiple orbital applications while ensuring high-fidelity feature extraction. In particular, unsupervised change detection with RSFMs offers a well-informed and transformative path for disaster monitoring without expensive labels. In this paper, we present a novel unsupervised detection method based on ResNet (RSFM) + FPN which identifies a wide spectrum of anomalies by detecting subtle semantic shifts in the latent space between successive orbital passes. By relying on an untrained FPN architecture and its intrinsic priors, the system achieves efficient image-level generation and higher resolution mapping with minimal effort (training-free) compared to previous proposals (patch-based, trained). And by replacing tailored models with RSFMs, we can achieve comparable results through an approach that eliminates the need for bespoke training and extensive development effort and adds customization, while ensuring high-performance generalization across diverse terrains and sensors.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "ResNet"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Efficient Remote Sensing Instance Segmentation with Linear-Time State Space Distilled Visual Foundation Models",
+    "url": "http://arxiv.org/abs/2606.25324v1",
+    "authors": [
+      "Qinzhe Yang",
+      "Keyan Chen",
+      "Jia Xu",
+      "Zhenwei Shi",
+      "Zhengxia Zou"
+    ],
+    "published": "2026-06-24",
+    "abstract": "The computational complexity of Transformers scales quadratically with the number of tokens, which significantly constrains the efficiency of vision models, particularly recent ViT-based foundation models in dense prediction tasks. Instance segmentation, a typical dense visual prediction task in the remote sensing field, faces similar challenges. In this paper, inspired by the recent advances of knowledge distillation in large language models, we introduce RS4D - a new remote sensing instance segmentation method with linear computational complexity, which addresses the inefficiency of long sequence modeling through distilled state space modeling (SSM). We propose an adaptive noise and masking knowledge distillation training method for pre-training lightweight SSM backbones, which effectively compresses knowledge from the vast self-attention space into a compact, dense linear state space. We also design a remote sensing image instance segmentation architecture based on this lightweight visual encoder, where we explore variants of three different backbones and two segmentation heads. Extensive experiments are conducted on multiple benchmark datasets, including SSDD, WHU, and NWPU. Compared to ViT-based approaches, our proposed SSM backbone achieves an 8x reduction in parameters and a 9x reduction in FLOPs while maintaining comparable or superior accuracy to both ViT- and CNN-based instance segmentation methods. The implementation codes have been publicly available at https://github.com/QinzheYang/RS4D.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer",
+      "LLM"
+    ],
+    "applications": [
+      "Segmentation",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "LEVIRDet: A Million-Scale 159-Category Dataset and Foundation Model for Universal Remote Sensing Object Detection",
+    "url": "http://arxiv.org/abs/2606.25312v1",
+    "authors": [
+      "Qinzhe Yang",
+      "Dongyu Wang",
+      "Haohan Niu",
+      "Jia Xu",
+      "Zhenwei Shi",
+      "Zhengxia Zou"
+    ],
+    "published": "2026-06-24",
+    "abstract": "Remote sensing object detection has advanced rapidly with the development of large-scale benchmarks and modern detection architectures. However, existing datasets and detectors remain fragmented. Most benchmarks focus on limited categories, fixed spatial resolutions, or a single sensor, while detectors still struggle to work across different sensors and categorical systems. In this paper, we introduce LEVIRDet-159, the largest and most comprehensive remote sensing object detection dataset to date, with 159 categories, 2.56 million bounding boxes, and 700k fine-grained annotations under a multi-level taxonomy. In each key scale dimension, LEVIRDet-159 exceeds the corresponding largest existing remote sensing object detection dataset, containing approximately (7x) more images, (6x) more object instances, and (4x) more categories. Based on this dataset, we design LEVIRDetNet, a scale-hierarchy-aware detection foundation model for universal remote sensing object detection. LEVIRDetNet couples online visual Ground Sampling Distance (GSD) prediction, GSD-conditioned query modulation and allocation, and a hierarchy-aware detection head for mixed-granularity remote sensing supervision. Under stringent evaluation settings, LEVIRDetNet demonstrates strong cross-domain generalization. Even without target-domain training or fine-tuning, it achieves state-of-the-art detection performance on 9 external benchmarks, improving the strongest fully supervised competing methods by 5.02 mAP on average under each benchmark's primary metric. We hope this study will facilitate the development of strongly generalizable remote sensing object detection across diverse category systems, spatial resolutions, and sensor platforms. The dataset and trained models will be released at https://qinzheyang.github.io/LEVIRDet/, accompanying the final paper.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Sat2City v2: Native 3D City Asset Generation from a Single Satellite Image",
+    "url": "http://arxiv.org/abs/2606.24138v1",
+    "authors": [
+      "Tongyan Hua",
+      "Dongli Wu",
+      "Jinjing Zhu",
+      "Yinrui Ren",
+      "Zhongcheng Hong",
+      "Ying-Cong Chen",
+      "Hui Xiong",
+      "Wufan Zhao"
+    ],
+    "published": "2026-06-23",
+    "abstract": "Generating explicit 3D city assets from a single satellite image is important for digital twins, urban simulation, and geospatial intelligence. Unlike satellite-to-street-view synthesis, the task requires a reusable textured mesh with plausible geometry and controllable appearance rather than a 3D proxy optimized only for rendering a small set of images or videos. The ICCV Sat2City framework made a first step by conditioning cascaded sparse-voxel latent diffusion on satellite-derived height maps, but its appearance was random, its training data were synthetic, and its task-specific VAE did not scale well to noisy real-world reconstructions. We present Sat2City v2, a journal extension that adapts a pretrained native structured-latent 3D foundation model to weakly aligned satellite images and textured meshes. We build a real-world dataset with 16,241 satellite-mesh pairs across 24 regions in 9 cities. Instead of learning a 3D representation from noisy city meshes, Sat2City v2 encodes each mesh into a pretrained native 3D latent space, fine-tunes a satellite-conditioned geometry flow, and uses the decoded shape to anchor satellite-conditioned texturing. This retains Sat2City's geometry-to-appearance cascade while enabling appearance-controllable generation from the satellite input. Experiments on metric-scale DSM reconstruction and generative city-asset benchmarks for geometry and appearance show that Sat2City v2 achieves the best overall performance among evaluated baselines. Overall, Sat2City v2 advances satellite-to-city generation from rendering-oriented 3D proxies to explicit textured mesh assets, supported by, to the best of our knowledge, the first documented satellite-mesh paired dataset collected from matched geographic crops for this asset-level task. Project page: https://ai4city-hkust.github.io/Sat2City-v2/",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Autoencoder"
+    ],
     "applications": []
+  },
+  {
+    "title": "Tessellating The Earth",
+    "url": "http://arxiv.org/abs/2606.27514v1",
+    "authors": [
+      "Daniel Cher",
+      "Hamza Iqbal",
+      "Eric Xing",
+      "Brian Wei",
+      "Nathan Jacobs"
+    ],
+    "published": "2026-06-25",
+    "abstract": "Geolocation encoders, which map geographic coordinates to learned representations, are emerging as an effective means of capturing visual and non-visual characteristics from a latitude-longitude pair alone. However, existing approaches project coordinates onto fixed bases (e.g., spherical harmonics), allocating representational capacity uniformly and devoting equal resources to the open ocean and to a developing city. We introduce Tessellating the Earth (TTE), a location encoder built from learnable Spherical Voronoi partitions that concentrates representational capacity where it is needed in a fully differentiable, end-to-end manner. Each Voronoi site carries its own embedding and migrates during training toward discriminative areas. To bridge the gap between local spatial structure and global semantic understanding, we introduce \\emph{global semantic tokens}: a set of shared learnable concept tokens that distill semantic knowledge from the satellite imagery into a compact vocabulary the location encoder can reference at inference, enabling geographically distant sites covering similar environments to share semantics. TTE sets a new state of the art for location encoders across a suite of geospatial classification and regression tasks, and achieves the strongest results when used as a geographic prior for fine-grained species classification on iNaturalist-2018. Code, and weights are available at https://github.com/mvrl/TTE.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification",
+      "Regression"
+    ]
+  },
+  {
+    "title": "Retrieval-Grounded Multilingual LLM Assistance for Island Smallholder Farmers",
+    "url": "http://arxiv.org/abs/2606.25647v1",
+    "authors": [
+      "Nikolaos D. Tantaroudas",
+      "Ilias Karachalios",
+      "Andrew J. McCracken"
+    ],
+    "published": "2026-06-24",
+    "abstract": "Smallholder farming communities in remote, depopulating areas have limited access to agricultural advice, and their locally specific agronomic knowledge, often expressed in regional dialect, is poorly represented in the global corpora on which Large Language Models (LLMs) are trained. A general-purpose chatbot therefore answers fluently but unreliably, ungrounded in authoritative local data farmers can trust. This paper presents a conversational AI assistant, Falco eleonorae, embedded in a bilingual (Greek-primary, English-secondary) e-market platform serving farmers and cooperatives of a defined island area of interest. It is a thin Backend-for-Frontend (BFF) proxy in front of a geospatially-aware agronomic agent rather than a self-hosted model. Answer generation and tool selection are delegated to a managed upstream service on OpenAI GPT-5-family models, while one bounded task, describing an uploaded field photograph, is handled directly by a vision-capable model so only text reaches the agent, and voice input is transcribed by a managed EU streaming speech-to-text service. Grounding comes not from a self-hosted vector database but from tool-augmented retrieval: a Model Context Protocol (MCP) tool queries a curated, read-only, bilingual data interface exposing local crops, a seasonal calendar, traditional practices, a dialect glossary, products, agritourism experiences, cooperatives, and training content, each wrapped in a geospatial Well-Known Text envelope anchoring the agent to the area of interest. We detail its multilingual, voice, and image modalities, its progressive-web-application and accessibility design for low-bandwidth field use, and its security and data-protection posture, and argue that for a small, resource-constrained rural deployment a managed, grounded multilingual assistant is more attainable and trustworthy than a self-hosted model.",
+    "categories": [
+      "geo_reasoning",
+      "foundation_model"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "What's in an Earth Embedding? An Explainability Analysis of Location Encoders",
+    "url": "http://arxiv.org/abs/2606.24997v1",
+    "authors": [
+      "Livia Betti",
+      "Sebastian Ricke",
+      "Ivica Obadic",
+      "Adam J. Stewart",
+      "Esther Rolf"
+    ],
+    "published": "2026-06-23",
+    "abstract": "Geographic implicit neural representations (INRs) learn to map any coordinate on Earth to a location embedding, implicitly encoding geospatial data into the weights of a neural network. Location embeddings are widely used off the shelf as general-purpose geospatial representations, yet users lack principled tools to audit what geographic or semantic information these embeddings capture. In this work, we analyze the information content of geographic INRs through their location embeddings. We decompose these embeddings into human-interpretable features$\\unicode{x2014}$namely, (i) sparse latent concepts, (ii) natural language concepts, and (iii) visual features. The latent concept embeddings are learned using sparse autoencoders. To recover natural language concepts, we apply sparse linear concept embeddings (SpLiCE) over a predefined geospatial dictionary. Finally, visual features are extracted using saliency maps derived from CLIP Surgery. We show that location embeddings can be decomposed into human-interpretable representations while retaining high reconstruction capability, revealing interpretable geographic structures such as forests, deserts, and urban features. Across methods, sparse decompositions expose systematic differences in encoded information, ranging from urban structures to broader biome and climate signals, and pretraining-space saliency maps further highlight complementary features such as roads and landmarks. We hope this work provides a first step toward interpretable geospatial representations.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Autoencoder",
+      "CLIP"
+    ],
+    "applications": []
+  },
+  {
+    "title": "One Index for Subsumption and Roll-up across Time, Geography, and Ontology",
+    "url": "http://arxiv.org/abs/2606.24677v1",
+    "authors": [
+      "Madhulatha Mandarapu",
+      "Sandeep Kunkunuru"
+    ],
+    "published": "2026-06-23",
+    "abstract": "Time-series, geospatial, and ontology systems each maintain a hierarchy -- day <= month <= year, zip <= city, is-a / part-of -- and each indexes it in a separate silo. We observe these are all subsumption posets, with one recurring workload: order testing (is x under y?) and hierarchical roll-up (aggregate a measure over everything under y). We present OEH, a single declarable index that, by a cheap structural probe, encodes a hierarchy as a nested-set order-embedding (trees) or a chain decomposition (low-width DAGs), and answers both subsumption and index-resident monoid roll-up from one structure. On five real hierarchies -- Gene Ontology, NCBI Taxonomy (1.3M), GeoNames (330k), a 2.6M-node calendar, and git commit DAGs -- OEH on trees matches a 2-hop index on query latency using about half the space and building 6--7x faster, and adds roll-up that 2-hop cannot. Its roll-up matches TimescaleDB's continuous aggregates exactly and in the same latency regime, while also answering subsumption. On high-width DAGs the chain index is declined and 2-hop dominates. Order-embedding is classical; our contribution is the unification and the structure-selected index over subsumption and index-resident roll-up.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "FireDataForge: A Unified Framework for Multi-Source Wildfire Data Retrieval and Integration",
+    "url": "http://arxiv.org/abs/2606.21198v1",
+    "authors": [
+      "Zeyu Xia",
+      "Lexie Chen",
+      "Ye Liu",
+      "Huilin Huang"
+    ],
+    "published": "2026-06-19",
+    "abstract": "Wildfire research, modeling, and education require geospatial data from multiple sources that vary in formats, coordinate systems, spatial resolutions, and temporal cadences. This preprocessing burden limits reproducible reuse. We present FireDataForge, an open-source Python framework that automates retrieval and harmonization of 11 wildfire-related sources spanning fire behavior, weather, land cover, vegetation, elevation, built environment, wildland-urban interface, fire history, and satellite imagery. Given an MTBS Event ID, FireDataForge retrieves relevant datasets, aligns them to a common grid, and outputs analysis-ready NumPy arrays with embedded metadata. Batch processing of historical fires demonstrates support for fire behavior simulation, educational visualization, machine learning, and AI-assisted wildfire analysis.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "RSICCLLM: A Multimodal Large Language Model for Remote Sensing Image Change Captioning",
+    "url": "http://arxiv.org/abs/2606.28266v1",
+    "authors": [
+      "Yelin Wang",
+      "Zijia Song",
+      "Shuo Ye",
+      "Chuanguang Yang",
+      "Miaoyu Wang",
+      "Yong Xu",
+      "Zhulin An",
+      "Yongjun Xu",
+      "Zitong Yu"
+    ],
+    "published": "2026-06-26",
+    "abstract": "Remote Sensing Image Change Captioning (RSICC) aims to describe changes between bi-temporal remote sensing images and holds significant research and application value. However, most existing methods rely on conventional deep learning architectures, and the limited model capacity constrains performance. Although large-model post-training techniques have achieved great success in general domains, their direct transfer to RSICC remains challenging due to data scarcity and the need for fine-grained change understanding. To address this, we propose RSICCLLM, the first post-training framework for large vision-language models in RSICC. Specifically, we design a data generation paradigm, release the instruction dataset RSICI, and establish a task-specific RSICC benchmark. We further introduce Difference-aware Supervised Fine-tuning to explicitly extract change representations and guide the model in perceiving and understanding temporal differences. In addition, we propose Dual-Negative Preference Optimization (DNPO), which employs two complementary negative-sample construction strategies to construct the preference dataset RSICP and further refine model performance. Extensive experiments validate the superior capability of RSICCLLM, which achieves outstanding results with only 7B parameters, surpassing models of substantially larger scales. The code and dataset will be made publicly available at https://github.com/keaill/RSICCLLM.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Methane-Plume Segmentation From Hyperspectral Satellite Imagery Via Multimodal Deep Learning",
+    "url": "http://arxiv.org/abs/2606.26416v1",
+    "authors": [
+      "Brayan Quintero",
+      "Jeferson Acevedo",
+      "Samuel Traslavi\u00f1a",
+      "Hoover Rueda-Chac\u00f3n"
+    ],
+    "published": "2026-06-24",
+    "abstract": "Efficient detection of methane plumes is crucial for understanding and mitigating global warming, as accurately identifying and segmenting them in earth observation imagery remain essential for large-scale monitoring. In this work, we propose a multimodal deep learning model that integrates a feature-guided methane enhancement (FGME) mechanism which injects physically meaningful methane cues into transformer-based RGB representations at multiple semantic scales. Our method is evaluated on the MPDataset, where it outperforms the state-of-the-art with improvements of +0.92 in MIoU, +0.87 in MPrecision and +1.01 in Recall. Notably, these gains are obtained with a substantially lower computational cost than other high-performing architectures, resulting in a favorable accuracy-efficiency trade-off for large-scale methane monitoring. These results highlight the potential of efficient multimodal fusion strategies for accurate and scalable methane plume segmentation in real-world remote sensing applications.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Segmentation",
+      "Detection"
+    ]
+  },
+  {
+    "title": "Deep Learning for Soil Moisture Estimation: Fusing Satellite Data with Optimally-Lagged Meteorological Features",
+    "url": "http://arxiv.org/abs/2606.21475v1",
+    "authors": [
+      "Adrian Canovas-Rodriguez",
+      "Aurora Gonz\u00e1lez Vidal",
+      "Antonio F. Skarmeta"
+    ],
+    "published": "2026-06-19",
+    "abstract": "Accurate soil moisture estimation in semi-arid agricultural regions requires integrating remote sensing and meteorological information while accounting for the delayed response of soil moisture to atmospheric forcing. This study introduces a Cross-Correlation Function (CCF) methodology to determine optimal temporal lags (0-30 days) between meteorological variables and soil moisture, as well as inter-depth lags (0-15 days) describing vertical moisture propagation from the surface (10 cm) to deeper layers (20-50 cm). The approach was validated across seven agricultural plots in southeastern Spain. Three deep learning architectures, each targeting a distinct prediction granularity, were evaluated under five feature configurations ranging from satellite-only to full satellite-meteorology-depth fusion: a CNN for per-pixel estimation within each plot, an LSTM for frame-level (daily plot-mean) prediction, and a CNN-LSTM hybrid operating on sliding windows with pooled multi-patch training. Models were assessed on held-out data to measure genuine generalisation. Meteorological variables improved performance over the satellite-only baseline, while subsurface depth information proved decisive across all architectures. The per-pixel CNN achieved the strongest single-patch result (R^2 = 0.877, RMSE = 2.28), with a seven-patch average R^2 of 0.535, representing an improvement of +1.00 over the satellite-only baseline. The pooled CNN-LSTM hybrid obtained the highest overall performance (R^2 = 0.930, CVRMSE = 8.0%). These results demonstrate that explicitly modelling atmospheric and vertical subsurface delays substantially improves soil moisture estimation for precision agriculture.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "LSTM"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "DFM: Difference Feature Modeling with Text-Guided Gated Contrastive Loss for Remote Sensing Image Change Captioning",
+    "url": "http://arxiv.org/abs/2606.27410v1",
+    "authors": [
+      "Yelin Wang",
+      "Zijia Song",
+      "Chuanguang Yang",
+      "Miaoyu Wang",
+      "Zhulin An",
+      "Libo Huang",
+      "Yongjun Xu"
+    ],
+    "published": "2026-06-25",
+    "abstract": "The primary goal of Remote Sensing Image Change Captioning (RSICC) is to automatically generate descriptions of changes between remote sensing images captured at different time points. Existing models still rely on a single autoregressive generation paradigm, which tends to prioritize learning easily generated vocabulary over capturing discriminative differences between images. To address this, we reframe the training paradigm and propose a novel Difference Feature Modeling (DFM) framework. Specifically, we introduce a Text-guided Gated Contrastive Loss (TGCL) to guide the vision encoder to extract critical features from a text-modal perspective. Additionally, we incorporate a pre-trained Change Detection model to transfer stable change detection knowledge. In order to further enhance the representation, we design a Joint Feature Modeling (JFM) module to achieve the fusion of multi-scale difference representations, thereby capturing comprehensive spatiotemporal variations between multi-temporal images. Extensive experiments on multiple datasets demonstrate the effectiveness of our approach.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Topology-Informed Neural Networks for Flood Detection in Optical and Synthetic Aperture Radar Imagery",
+    "url": "http://arxiv.org/abs/2606.26204v2",
+    "authors": [
+      "Sophia Li",
+      "Max Zhao",
+      "Raghu G. Raj",
+      "Tianyu Chen"
+    ],
+    "published": "2026-06-24",
+    "abstract": "Floods frequently impact regions around the world. Rapid and accurate flood detection is crucial for emergency response and timely mitigation of human and economic loss. The expanding availability of satellite data and advances in artificial intelligence have enhanced monitoring of environmental hazards, but many flood events remain challenging to detect because cloud cover obscures optical satellite imagery. Rambour et al. introduced the SEN12-FLOOD dataset and extracted per-image features using a ResNet-50 convolutional neural network backbone, then fed these features into a gated recurrent unit network to show that temporal information can substantially improve accuracy compared to single-image baselines. More recently, Chamatidis et al. showed that a vision transformer can achieve strong performance with popular convolutional architectures. However, these models typically function as opaque black boxes, making it difficult to interpret their decision boundaries, learned features, and internal reasoning, especially in safety-critical domains like remote sensing. In contrast, topological data analysis (TDA) provides a mathematically grounded framework for capturing global structural features of data. TDA has emerged as a powerful tool for analyzing complex imagery, especially imagery with geometrically interpretable structures, of which floods are a prime candidate. In this work, we systematically evaluate topological descriptors for flood detection using the open-source SEN12-FLOOD dataset. By extracting topological features from each image and incorporating them into neural networks, we demonstrate that topological descriptors carry meaningful flood signals independently and complement existing networks to yield more robust and interpretable flood detection systems.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "ResNet",
+      "Transformer"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "State Space Models Meet Remote Sensing: A Survey",
+    "url": "http://arxiv.org/abs/2606.25329v1",
+    "authors": [
+      "Qinzhe Yang",
+      "Chenyang Liu",
+      "Jia Xu",
+      "Zhenwei Shi",
+      "Zhengxia Zou"
+    ],
+    "published": "2026-06-24",
+    "abstract": "State Space Models (SSMs), designed for long-range modeling, offer linear computational complexity and strong capabilities in capturing long-range dependencies. In the field of remote sensing, SSMs have gained popularity due to their effectiveness in addressing unique challenges such as dense visual predictions, multi-modal remote sensing data, and temporal remote sensing data, which have also yielded significant advancements in customized architectures. This paper presents a comprehensive review of SSM-based approaches in remote sensing, covering most of the relevant studies since SSMs were first introduced to the field. We offer a multi-dimensional analysis examining SSM applications in remote sensing tasks and discussing advancements in architecture design. This paper not only synthesizes the rapid progress in SSM-based research but also identifies key challenges and future opportunities. By providing a detailed perspective, this paper aims to serve as a foundational resource for remote sensing researchers, offering actionable insights to foster further advancements in this evolving domain. We will keep tracing related works at https://github.com/QinzheYang/Awesome-RS-State-Space-Model.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Hedgementation = Hedgerow Segmentation: A Remote Sensing Benchmark",
+    "url": "http://arxiv.org/abs/2606.23615v1",
+    "authors": [
+      "Nathan Senyard",
+      "Salem Hamdani",
+      "Astrid Zhang",
+      "Derek Wang",
+      "Evan Shelhamer",
+      "Mathias L\u00e9cuyer",
+      "Jos\u00e9phine Gantois"
+    ],
+    "published": "2026-06-22",
+    "abstract": "We propose Hedgementation: a new benchmark to evaluate machine learning models for hedgerow mapping from remote sensing data at country scale and 10m$^2$ spatial resolution. We combine and harmonize multiple remote sensing data products and ground truth labels sourced from a hedgerow inventory in France. We measure the ability of three baseline models to generalize across spatial distance, and across climatic zones, a more explicitly challenging task. Our benchmark tests both supervised and self-supervised learning approaches for remote sensing, applied to tracking fine-scale features of high agricultural importance. The code to reproduce the benchmark and baselines results is available at https://github.com/hedgementation/hedgementation.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Tracking"
+    ]
+  },
+  {
+    "title": "Changing Modalities: Adapting Remote Sensing Models to New Satellites and Sensors",
+    "url": "http://arxiv.org/abs/2606.23356v1",
+    "authors": [
+      "Tim G. Zhou",
+      "Anthony Fuller",
+      "Geoff Pleiss",
+      "Evan Shelhamer"
+    ],
+    "published": "2026-06-22",
+    "abstract": "Machine learning models for remote sensing are trained and deployed on a static set of modalities. However, as we equip newer satellites with novel sensors and retire old ones, practitioners may wish to deploy an existing model on a substitution, superset, or subset of modalities with minimal retraining given data availability or practical computational constraints. We study the setting of updating existing models to changing modalities and identify three main scenarios: Modality Transfer (substitution), Addition (superset), and Peeking (subset). We propose DeluluNet, an architecture with modular components for all three changing modality scenarios. DeluluNet is trained end-to-end, learning a multi-modal model from a unimodal teacher and unlabeled multimodal data via modality hallucination--predicting missing modality representations from those that are present. As a result, DeluluNet can keep predicting even when input modalities change, providing a practical alternative to re-labeling and re-training in a changing world.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Deep learning model emulators for marine biogeochemistry forecasting from days to decades",
+    "url": "http://arxiv.org/abs/2606.27168v1",
+    "authors": [
+      "Jozef Skakala",
+      "Ieuan Higgs",
+      "David Moffat"
+    ],
+    "published": "2026-06-25",
+    "abstract": "Deep-learning emulators have emerged as a promising approach for reducing the computational cost of Earth System Models while potentially improving forecasting skill. Here, we demonstrate the successful emulation of a high-complexity marine biogeochemistry model within a simplified one-dimensional water-column framework. We explore two emulator architectures: Long Short-Term Memory (LSTM) neural networks that emulate a selected subset of variables at daily resolution, and physics-informed one-dimensional Convolutional Neural Networks (1D CNNs) that emulate the full pelagic system throughout the water column also at daily resolution. Using ocean physics simulator inputs, both emulators remain largely stable over multi-decadal timescales and accurately reproduce the parent model in both decadal climate projections and short-range (10-day) forecasting applications. The former includes the ability to predict the timing of phytoplankton Spring blooms several years in advance. When trained on reanalysis data, the emulators substantially outperform the parent model's forecast skill score for several key ecosystem variables, including phytoplankton and zooplankton. If similar performance can be achieved in three-dimensional regional applications, these emulators could provide substantially higher-quality predictions at a fraction of the computational cost. We further apply novel explainability techniques to identify key drivers of emulator behaviour and gain insights into emergent ecosystem dynamics. Performance is evaluated using a range of metrics, including the reproduction of daily variability and extreme events. These approaches have considerable potential for future applications in operational forecasting, climate-scale simulations, and marine autonomous systems.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "CNN",
+      "LSTM",
+      "PINN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Taxonomy-aware deep learning for hierarchical marine species classification in underwater imagery",
+    "url": "http://arxiv.org/abs/2606.25989v1",
+    "authors": [
+      "Dan Zimmerman",
+      "Dimitris A. Pados",
+      "George Sklivanitis"
+    ],
+    "published": "2026-06-24",
+    "abstract": "Automated classification of marine species from underwater imagery is essential for scalable ocean biodiversity monitoring and conservation policy. Existing approaches struggle with severe domain shift across collection platforms, fine-grained visual similarity between closely related species, and uneven annotation granularity, where many specimens can only be identified to genus or a coarser taxonomic rank. We present a taxonomy-aware deep learning framework that aligns both the training loss and the inference rule with the hierarchical structure of biological classification, combining a taxonomy-weighted loss, minimum-risk Bayesian inference, multi-scale feature encoding, and independent per-rank classification heads. Evaluated on the FathomNet 2025 dataset1 (79 marine classes across seven taxonomic ranks), the system achieves a mean taxonomic distance of 1.581, within 3% of the 1st-place solution (1.535), with the largest gains from metric-aligned inference and simple, decoupled components that generalize better than learned dependencies under distribution shift.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "False Positives, False Negatives, and the Detection-Only Problem: A Hierarchical Model for Species Occurrence with Observation Error",
+    "url": "http://arxiv.org/abs/2606.26323v1",
+    "authors": [
+      "Kabiru Abubakari",
+      "Eleni Matechou",
+      "Marie C. Henniges",
+      "Ilia J. Leitch",
+      "Andrew R. Leitch",
+      "Silvia Liverani"
+    ],
+    "published": "2026-06-24",
+    "abstract": "Monitoring species occurrence is essential for understanding biodiversity change, informing conservation decisions, and assessing the impact of environmental pressures on ecosystems. Species occurrence data arise from different survey designs, and the statistical literature has developed distinct corresponding modelling approaches, namely occupancy models, species distribution models, and presence-only methods, whose fundamental connections have remained largely unrecognised. We argue that these are all special cases of a single hierarchical observation process. To make these connections explicit, we introduce a unified terminology centred on two data types: detection/non-detection data with T visits (DN-T) and detection-only data (DO), where DN-T with T>1 corresponds to traditional occupancy modelling, DN-1 to species distribution modelling, and DO to what the literature commonly, but we argue inaccurately, calls presence-only data. Within this framework, we study the identifiability of DO models and propose a novel hierarchical model for DO data that, for the first time, explicitly accounts for both false positive and false negative detection errors. Identifiability is achieved through prior distributions that express the natural belief that a species is more likely to be recorded where it is present than where it is absent.\n  ...",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [
+      "SDM"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "GenWorld: Empirically Grounded Urban Simulation Infrastructure for Scalable LLM-Agent Studies",
+    "url": "http://arxiv.org/abs/2606.27650v1",
+    "authors": [
+      "Gen Li",
+      "Jieyuan Lan",
+      "Pengcheng Xu",
+      "Zongyuan Wu",
+      "Masaki Ogura",
+      "Tao Feng"
+    ],
+    "published": "2026-06-26",
+    "abstract": "LLM-agent simulation faces a joint grounding and scaling problem: agents should act in environments that reflect real urban constraints, yet direct online LLM calls for city-scale populations are computationally prohibitive. We present GenWorld, an empirically grounded urban simulation infrastructure that combines a building-level synthetic city, a structured agent-environment interface, and offline compilation of LLM-derived decision signals into lookup policies for scalable rollout. In a reference instantiation for Higashihiroshima, Japan, GenWorld grounds 196,608 synthetic residents in census and geospatial data, validates demographic consistency against census tabulations, and uses YJMob100K mobile-phone data as a commuting-distance diagnostic. We demonstrate the infrastructure through three reproducible cases: a full-city weekday rollout, a weekday-weekend behavioral contrast, and a warning-response perturbation with auditable replanning traces. These cases support GenWorld as a reproducible platform for grounded and scalable LLM-agent studies, while calibrated forecasting for traffic, evacuation, or policy outcomes remains future work.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "RAPID: A Reproducible Multi-Agent Pipeline for Interpretable Disaster Damage Assessment from Satellite and Street-View Imagery",
+    "url": "http://arxiv.org/abs/2606.21819v1",
+    "authors": [
+      "Yifan Yang",
+      "Wenjing Gong",
+      "Kaili Zhang",
+      "Lei Zou",
+      "Zhengzhong Tu",
+      "Hao Li",
+      "Zongrong Li",
+      "Xinyue Ye"
+    ],
+    "published": "2026-06-20",
+    "abstract": "Due to the increasing frequency and intensity of extreme climate events, there is a clear demand for intelligent, scalable, and autonomous approaches to disaster damage assessment. Existing methods, largely based on supervised learning and task-specific fine-tuning, struggle to generalize under domain shifts, long-tailed data distributions, and heterogeneous geospatial data sources, especially in disaster scenarios. They also often lack the ability to integrate and reason across multimodal geospatial information, such as satellite images and street-view images. In this paper, we introduce RAPID, a reproducible multi-agent pipeline for interpretable disaster damage assessment, including damage-level assessment, damage-type interpretation, and actionable suggestions for response, remediation, and recovery. RAPID coordinates specialized agents to perform cross-view understanding, image restoration, structured damage recognition, and geographical reasoning across heterogeneous data modalities. Without task-specific fine-tuning, RAPID supports zero-shot damage assessment by jointly using complementary information from remote sensing and ground-level perspectives. The system produces fine-grained, interpretable assessments and automatically generates location-specific, decision-relevant disaster reports to support early-stage emergency response. We evaluate RAPID across hurricanes, floods, wildfires, and earthquakes using multiple cross-view imagery inputs, including pre- and post-disaster street-view images, post-disaster remote sensing imagery, and street-view image pairs. Experiments show that RAPID achieves 0.92 overall accuracy for multi-disaster type classification and up to 0.627 for cross-view damage severity prediction, highlighting its potential as a foundational framework for autonomous disaster intelligence.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification",
+      "Recognition",
+      "Forecast"
+    ]
   }
 ]
