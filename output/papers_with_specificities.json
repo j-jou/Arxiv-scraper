@@ -29765,7 +29765,8 @@
     ],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Efficient Remote Sensing Instance Segmentation with Linear-Time State Space Distilled Visual Foundation Models",
@@ -29790,7 +29791,8 @@
     "applications": [
       "Segmentation",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "LEVIRDet: A Million-Scale 159-Category Dataset and Foundation Model for Universal Remote Sensing Object Detection",
@@ -29812,7 +29814,8 @@
     "applications": [
       "Detection",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Sat2City v2: Native 3D City Asset Generation from a Single Satellite Image",
@@ -29835,7 +29838,8 @@
     "architectures": [
       "Autoencoder"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Tessellating The Earth",
@@ -29856,7 +29860,8 @@
     "applications": [
       "Classification",
       "Regression"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Retrieval-Grounded Multilingual LLM Assistance for Island Smallholder Farmers",
@@ -29875,7 +29880,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "What's in an Earth Embedding? An Explainability Analysis of Location Encoders",
@@ -29896,7 +29902,8 @@
       "Autoencoder",
       "CLIP"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "One Index for Subsumption and Roll-up across Time, Geography, and Ontology",
@@ -29911,7 +29918,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "FireDataForge: A Unified Framework for Multi-Source Wildfire Data Retrieval and Integration",
@@ -29928,7 +29936,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "RSICCLLM: A Multimodal Large Language Model for Remote Sensing Image Change Captioning",
@@ -29952,7 +29961,8 @@
     "architectures": [
       "LVM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Methane-Plume Segmentation From Hyperspectral Satellite Imagery Via Multimodal Deep Learning",
@@ -29974,7 +29984,8 @@
     "applications": [
       "Segmentation",
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Deep Learning for Soil Moisture Estimation: Fusing Satellite Data with Optimally-Lagged Meteorological Features",
@@ -29995,7 +30006,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "DFM: Difference Feature Modeling with Text-Guided Gated Contrastive Loss for Remote Sensing Image Change Captioning",
@@ -30017,7 +30029,8 @@
     "architectures": [],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Topology-Informed Neural Networks for Flood Detection in Optical and Synthetic Aperture Radar Imagery",
@@ -30040,7 +30053,8 @@
     ],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "State Space Models Meet Remote Sensing: A Survey",
@@ -30060,7 +30074,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Hedgementation = Hedgerow Segmentation: A Remote Sensing Benchmark",
@@ -30082,7 +30097,8 @@
     "architectures": [],
     "applications": [
       "Tracking"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Changing Modalities: Adapting Remote Sensing Models to New Satellites and Sensors",
@@ -30099,7 +30115,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Deep learning model emulators for marine biogeochemistry forecasting from days to decades",
@@ -30121,7 +30138,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Taxonomy-aware deep learning for hierarchical marine species classification in underwater imagery",
@@ -30139,7 +30157,8 @@
     "architectures": [],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "False Positives, False Negatives, and the Detection-Only Problem: A Hierarchical Model for Species Occurrence with Observation Error",
@@ -30162,7 +30181,8 @@
     ],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "GenWorld: Empirically Grounded Urban Simulation Infrastructure for Scalable LLM-Agent Studies",
@@ -30185,7 +30205,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "RAPID: A Reproducible Multi-Agent Pipeline for Interpretable Disaster Damage Assessment from Satellite and Street-View Imagery",
@@ -30210,6 +30231,161 @@
       "Classification",
       "Recognition",
       "Forecast"
+    ],
+    "is_recent": false
+  },
+  {
+    "title": "Interpretation-Oriented Cloud Removal via Observation-Anchored Residual Flow with Geo-Contextual Alignment",
+    "url": "http://arxiv.org/abs/2607.02471v1",
+    "authors": [
+      "Ziyao Wang",
+      "Maonan Wang",
+      "Yucheng He",
+      "Xianping Ma",
+      "Ziyi Wang",
+      "Hongyang Zhang",
+      "Yirong Cheng",
+      "Man-on Pun"
+    ],
+    "published": "2026-07-02",
+    "abstract": "Cloud removal (CR) is essential for optical remote sensing, serving as a prerequisite for reliable downstream interpretation, such as semantic segmentation and change detection. However, existing CR approaches often prioritize visual realism while overlooking their impact on subsequent analytical tasks, leading to semantic drift and degraded downstream performance. To address this issue, we propose Geo-Anchored Cloud Removal (GACR), a unified framework that jointly ensures faithful reconstruction and robust interpretability. At its core, GACR incorporates Observation-Anchored Residual Flow (OAR-Flow), which reformulates CR as a physically grounded residual inversion process. By anchoring the generative trajectory to the cloudy observation rather than pure noise, OAR-Flow enables fast, stable, and faithful reconstruction. To further preserve semantic structures critical for downstream interpretation, GACR integrates Geo-Contextual Prior Alignment (GCPA) to constrain the reconstruction within a semantic manifold induced by a Vision Foundation Model (VFM). Consequently, GACR strictly maintains the spatial-semantic integrity of complex landscapes. Extensive experiments across six CR datasets and twelve downstream tasks demonstrate that GACR produces superior reconstruction quality while consistently improving downstream task accuracy. The code is available at https://github.com/wzy6055/GACR.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection"
+    ]
+  },
+  {
+    "title": "Uncertainty-aware tree height change regression",
+    "url": "http://arxiv.org/abs/2607.00638v1",
+    "authors": [
+      "Max Gaber",
+      "Dimitri Gominski",
+      "Jaime C. Revenga",
+      "Stefan Oehmcke",
+      "Rasmus Fensholt",
+      "Martin Brandt"
+    ],
+    "published": "2026-07-01",
+    "abstract": "Monitoring canopy height change is essential for understanding carbon sinks and forest dynamics. Remote sensing enables consistent, large-scale observations of such changes, increasingly integrated with deep learning architectures such as Geospatial Foundation Models (GFMs). However, existing methods and datasets frame the problem as binary change detection, which overlooks both the continuous nature of change, especially for vegetation, and the inherent uncertainty in labels. We present the Canopy Height Change (CHC) dataset, providing 3 $\\mathrm{m}$ resolution continuous canopy height differences and associated spatially resolved uncertainties across 10598 $\\mathrm{km}^2$ of northern and western Spain. The dataset is paired with a co-located time series of PlanetScope satellite imagery. Based on the dataset, we introduce the task of uncertainty-aware change regression, associated metrics and strategies for fine-tuning GFMs. Furthermore, we evaluate state-of-the-art GFMs and highlight promising directions and remaining challenges for advancing continuous canopy height change estimation.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Regression"
+    ]
+  },
+  {
+    "title": "EO-VGGT: Orbital Ray-Conditioned 3D Foundation Models for Satellite Multi-View Reconstruction",
+    "url": "http://arxiv.org/abs/2607.00417v1",
+    "authors": [
+      "Qiyan Luo",
+      "Yingdong Pi",
+      "Lekang Wen",
+      "Jie Yang",
+      "Xiaoyu Wang",
+      "Haiming Zhang",
+      "Mi Wang"
+    ],
+    "published": "2026-07-01",
+    "abstract": "In the era of satellite constellations, multi-view optical satellite imagery is pivotal for Earth Observation (EO) and high-quality Digital Surface Model (DSM) reconstruction. Although feed-forward 3D foundation models have transformed computer vision, their deployment in satellite remote sensing is inherently constrained by the structural discrepancy between implicit perspective assumptions and explicit orbital pushbroom geometry. This geometric incongruity is further compounded by pronounced view-set heterogeneity. We present EO-VGGT, a framework that adapts a frozen perspective-driven model to orbital observations via explicit physical geometry embedding.First, the Geometry-Correlation Constrained Selection (GCCS) strategy prunes sub-optimal observations by balancing geometric diversity and radiometric consistency to optimize the input sequence. Second, a Sensor-Ray Encoder (SRE) parameterizes pixel-level pushbroom lines of sight derived from the Rational Function Model (RFM) into high-dimensional space-geometric tokens, reconciling the mathematical discrepancy between central projection and orbital kinematics. Third, a lightweight Ray-Pointing-Aware Adapter (RPAA) employs gated residual blocks to integrate these tokens directly into the frozen transformer backbone. Our findings underscore that integrating explicit physical geometry with optimized view selection is essential for robust feed-forward satellite 3D reconstruction.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Semantic-Driven Scale and Spatial Selection for Efficient Cross-Modal Alignment in Referring Remote Sensing Image Segmentation",
+    "url": "http://arxiv.org/abs/2606.30244v1",
+    "authors": [
+      "Kun Li",
+      "Shengxi Gui",
+      "Francesco Nex",
+      "Michael Ying Yang"
+    ],
+    "published": "2026-06-29",
+    "abstract": "Referring Remote Sensing Image Segmentation (RRSIS) seeks to localize and segment the target object or region specified by a natural language expression in a remote sensing image. While existing RRSIS models have benefited from large-scale foundation models, they predominantly rely on full fine-tuning. These approaches are computationally intensive and may weaken the generalization ability of pre-trained models, as extensive fine-tuning on significantly smaller downstream datasets can distort the well-structured feature representations learned during large-scale pre-training. Although Parameter-Efficient Tuning (PET) offers a potential alternative, existing PET frameworks primarily focus on single-modal optimization, failing to capture the complex cross-modal dependencies required for multimodal reasoning, while simultaneously struggling to bridge the substantial domain gap between natural scenes and aerial imagery. To address these limitations, we propose a novel framework, Semantic-driven Scale and Spatial Selection for Efficient Cross-modal Alignment (S4ECA), which enables effective and efficient cross-modal interaction through parameter-efficient adaptation. Specifically, we design a dual-encoder adapter architecture. The textual adapter employs learnable queries to distill highly semantic language proxies from word-level embeddings, facilitating early grounding. Simultaneously, the visual adapter refines hierarchical feature representations through a multi-scale dense extractor, followed by a language-guided scale and spatial selection mechanism that dynamically emphasizes relevant visual contexts, ensuring precise cross-modal alignment. By updating only 2.4% of the backbone parameters, our proposed model achieves state-of-the-art performance on the RRSIS-D and RefSegRS datasets, demonstrating superior efficiency and precision in complex aerial scenarios.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "Benchmarking Geospatial Foundation Models for Agriculture Applications",
+    "url": "http://arxiv.org/abs/2606.29664v1",
+    "authors": [
+      "Zhuocheng Shang",
+      "Sanmay Das",
+      "Ahmed Eldawy"
+    ],
+    "published": "2026-06-29",
+    "abstract": "Geospatial foundation models pretrained on satellite imagery promise broad generalization across remote sensing tasks and regions, but their geographic transferability has not been systematically tested, especially in agriculture applications. This paper presents a controlled benchmark that evaluates three models, Prithvi, SpectralGPT, and SatMAE, on multi-temporal crop segmentation and change detection across four U.S. states, Iowa, North Carolina, California, and Minnesota. By assigning each train, validation, and test split to a separate region, we measure how well each model transfers to land it has not seen. All three degrade sharply under regional distribution shift, predicting only the most common crops while missing rare ones. We further find that fitting these models to a shared input format affects each one differently, which complicates direct architectural comparison. These results expose key limitations of current geospatial foundation models for agriculture and point to region aware evaluation as a necessary standard.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection"
+    ]
+  },
+  {
+    "title": "A Deep Learning Earth System Model Simulation of Indian Monsoon Intraseasonal and Interannual Variability",
+    "url": "http://arxiv.org/abs/2607.01676v1",
+    "authors": [
+      "Bijit Kumar Banerjee",
+      "Devabrat Sharma",
+      "R. I. Sujith",
+      "Chandrashekar Lakshminarayanan",
+      "Manikandan Narayanan",
+      "Subodh K. Saha",
+      "Anurag Dipankar",
+      "Utpal Sarma",
+      "B. N. Goswami"
+    ],
+    "published": "2026-07-02",
+    "abstract": "With the data-driven artificial intelligence/machine learning (AI/ML) models having demonstrated their ability to extend the prediction horizon of large-scale weather at a fraction of computational cost of numerical weather prediction models, a pertinent question is, could these models do the same for sub-seasonal to seasonal (S2S) prediction? A key challenge in developing a S2S prediction system is the requirement for a coupled ocean-atmosphere Earth system emulator that can stably simulate the observed intraseasonal and interannual variability with fidelity. In the rapidly evolving field of AI/ML weather models, such a deep learning 3D ocean-atmosphere coupled model has become available, called SamudrACE. With our interest in developing an AI/ML S2S model for Indian monsoon, here we examine the extent to which SamudrACE faithfully simulates Indian monsoon intraseasonal and interannual variability. Compared to observation, we found biases in SamudrACE's simulation of monsoon intraseasonal and interannual variability. Our systematic documentation and analyses of these biases provide a useful benchmark for improving not only SamudrACE but also coupled emulators in general and could fast track the development of a deep learning 3D global S2S prediction system.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "TerraDiT-$\u03a9$: Unified Spatial Control for Satellite Image Synthesis with Any Geospatial Primitive",
+    "url": "http://arxiv.org/abs/2606.31029v1",
+    "authors": [
+      "Brian Wei",
+      "Srikumar Sastry",
+      "Daniel Cher",
+      "Eric Xing",
+      "Nathan Jacobs"
+    ],
+    "published": "2026-06-30",
+    "abstract": "Generative models have achieved remarkable progress, yet applying them to satellite imagery remains challenging. Unlike natural imagery, satellite scenes are structured by spatially complex and semantically distinct geometries. Prior work addresses this complexity by adapting natural image frameworks using dense rasters or sparse prompts, trading off annotation cost and fidelity while breaking compatibility with vector primitives commonly used to represent geographic information. We introduce TerraDiT-$\u03a9$, a unified spatial control framework that generates satellite imagery directly from any native geospatial primitive. By jointly leveraging precise annotations (polygons, polylines) and coarser ones (bounding boxes, points), the model supports controllable layouts across varying annotation budgets, broadening applicability to design tasks such as urban planning while remaining naturally compatible with end-to-end GeoAI workflows. To effectively leverage these primitives during generation, we propose Geometry-Aware Local Attention, a conditioning mechanism that injects explicit geometric cues into the attention space. Across all conditioning formats, our approach consistently outperforms both dense-control and sparse-control baselines. Furthermore, this flexibility enables controllable synthetic data augmentation using a single generative model, improving downstream performance on land-cover segmentation, object detection, road graph extraction, and scene classification. Code, data, and weights are available at https://github.com/mvrl/TerraDiT.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection",
+      "Classification"
     ]
   }
 ]
