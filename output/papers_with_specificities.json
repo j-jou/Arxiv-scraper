@@ -30413,7 +30413,8 @@
       "Detection",
       "Classification",
       "Regression"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Predicting Viticulture Potential through an Ensemble of U-Net and a Geospatial Foundation Model",
@@ -30434,7 +30435,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "LUMI: Tokenizer-Agnostic LLM-Based Lossless Image Compression",
@@ -30460,7 +30462,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Scalable and Trustworthy Earth Observation Foundation Models",
@@ -30482,7 +30485,8 @@
     "applications": [
       "Forecast",
       "Reinforcement Learning"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "GeoSAM-Lite: A Lightweight Foundation Model for Onboard Remote Sensing Segmentation",
@@ -30503,7 +30507,8 @@
     "architectures": [],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Moonstone: A Multimodal Foundation Model and Benchmark for Lunar Remote Sensing",
@@ -30526,7 +30531,8 @@
       "Segmentation",
       "Classification",
       "Regression"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "A harmonised dataset for Earth system foundation models",
@@ -30543,7 +30549,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "GeoXplain: On-the-Fly Visual Explanations for Weather Foundation Models",
@@ -30565,7 +30572,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Probing Geospatial SSL Representations with Environmental Signals",
@@ -30580,7 +30588,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "MABLE: Masked Autoencoding with Bi-Lipschitz Decoding for Embeddings and Graph Metric Learning",
@@ -30596,7 +30605,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "LCPNet: Latent Consistent Proximal Unfolding Network for Infrared Small Target Detection",
@@ -30618,7 +30628,8 @@
     "architectures": [],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Phase-Preserving Trimodal Transformer for Tropical Forest Biomass Estimation Using Optical and PolInSAR Data",
@@ -30639,7 +30650,8 @@
       "Transformer",
       "PINN"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "A Survey on the Green Development of Large Models: From Resource-Efficient Architectures to Hardware-Software Co-Design",
@@ -30661,7 +30673,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Persona Cartography: Charting Language Model Personality Traits in Weight Space",
@@ -30683,7 +30696,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "A Self-Supervised Approach for Minimal-Annotation Hydroacoustic Data Exploration",
@@ -30709,7 +30723,8 @@
     ],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Predicting Pseudo-nitzschia harmful algal blooms along the Portuguese Coast using satellite-derived predictors",
@@ -30730,7 +30745,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "ImputeViz: A Visual Analytics Dashboard for Diagnosing Missing Data and Comparing Imputation Methods",
@@ -30747,6 +30763,292 @@
       "geo_reasoning"
     ],
     "architectures": [],
+    "applications": [],
+    "is_recent": false
+  },
+  {
+    "title": "DELUGE: Towards Continental-Scale Daily Pluvial Flood Damage Prediction via Interpretable Conditioning on Foundation Model Embeddings",
+    "url": "http://arxiv.org/abs/2607.16050v1",
+    "authors": [
+      "Yuya Kawakami",
+      "Daniel Cayan",
+      "Dongyu Liu",
+      "Kwan-Liu Ma",
+      "Tom Corringham"
+    ],
+    "published": "2026-07-17",
+    "abstract": "Pluvial (rainfall-driven) flooding accounts for 45% of National Flood Insurance Program (NFIP) claims in the United States and is harder to predict than its riverine and coastal counterparts, with existing approaches limited to coarse resolution, regional domains, or computationally intensive process-based models unsuitable for daily continental-scale use. We present DELUGE, a multimodal deep learning framework for daily pluvial flood damage prediction at ~1 km resolution and national scale, trained on spatially and temporally corrected NFIP claims (2017-2022) and structured around the hazard, exposure, and vulnerability components of disaster risk. Rather than blanket coverage of the Conterminous United States (CONUS), we model the top 100 highest-claim 75 km cells, distributed nationwide and accounting for ~81% of total pluvial flood claims. Our architectural novelty is a pair of parametric modules in the hydrometeorology branch, a Value Modulator and a Temporal Modulator, conditioned on terrain descriptors and AlphaEarth foundation-model embeddings, that expose directly inspectable hydrological response parameters and provide architecture-level interpretability-by-design. Under a spatial block holdout, DELUGE outperforms tuned Random Forest, XGBoost, and LightGBM baselines by 9% to 30% on a dollar-weighted area under the precision-recall curve (PR-AUC), a metric that emphasizes the rare, high-cost claims of greatest operational interest. Beyond DELUGE, we argue this interpretable conditioning scheme is a transferable pattern for integrating foundation-model embeddings into other geospatial prediction tasks.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "The Emerging Paradigm of Geospatial Foundation Models: From Pre-Training to Agentic Reasoning",
+    "url": "http://arxiv.org/abs/2607.12177v1",
+    "authors": [
+      "Shelley Cazares"
+    ],
+    "published": "2026-07-13",
+    "abstract": "The analysis of satellite and aerial imagery has entered a new era with the advent of foundation models. This paper describes the concept of Geospatial Foundation Models (GeoFMs), which are artificial intelligence/machine learning (AI/ML) models pre-trained on massive geospatial datasets through varied methodologies. We first articulate the core paradigm shift that GeoFMs enable: a separation of duties, where large-scale model providers perform the computationally intensive pretraining, allowing domain experts to rapidly fine-tune or prompt these models for specific, mission-critical tasks. This approach democratizes access to state-of-the-art AI/ML while maintaining the security and confidentiality of the downstream task. We then explore the novel capabilities unlocked by different types of GeoFMs, distinguishing between the finetunable vision models produced by self-supervised techniques like masked auto-encoding, and the vision-language models produced by contrastive learning which enable zero-shot tasks like open-vocabulary image analysis. Next, we discuss the practical considerations for operationalizing GeoFMs, from performance-cost analysis to the broader MLOps ecosystem. To that end, we introduce a taxonomy of model adaptation strategies and propose a framework for domain experts to select the most cost-effective adaptation approach for their particular mission set. Finally, we present a forward-looking vision of Agentic Geospatial Reasoning, where Large Language Models act as intelligent orchestrators, leveraging GeoFMs as tools to answer high-level user queries in natural language and automate complex analytical workflows, moving the field from perception to cognition.",
+    "categories": [
+      "foundation_model",
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM",
+      "LVM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "From Continuous Deployment to Queryable Dataset: Terabyte-Scale AIS-Aligned Passive Acoustic Labelling",
+    "url": "http://arxiv.org/abs/2607.13840v1",
+    "authors": [
+      "Wayne Renaud",
+      "Priyanka Aravindan",
+      "Gabriel Spadon"
+    ],
+    "published": "2026-07-15",
+    "abstract": "Long-duration passive acoustic deployments produce large archives of recordings that are not linked to vessel tracks or encounter structure, leaving range and contact conditions unavailable as variables and requiring manual selection for analysis. To address this limitation, we propose a database-native workflow that aligns hydrophone recordings with Automatic Identification System (AIS) position reports to produce distance-resolved data. Fixed-duration recording windows and AIS messages are stored as persistent geospatial tables and associated through an indexed spatiotemporal join, replacing in-memory nested iteration with a single scalable set-based database process capable of handling continuous, multi-year, million-window archival deployments without exhausting available memory. In this study, the approach processes approximately 9.5x10e5 recording windows and 6.9x10e6 AIS position reports, producing a structured table that separates no-contact, single-contact, and two-contact windows, with the closest point of approach computed directly where applicable and background conditions characterized via deterministic spectral ranking. This formulation enables a GeoAI framework in which spatially indexed, queryable data become directly usable for machine learning. The resulting data product reveals predominantly noise-dominated conditions, with vessel contributions emerging mainly at shorter ranges, indicating that the task lies in extracting structure under background-limited regimes. Spectrogram and quantitative analyses show weak tonal signatures embedded in noise and a consistent decay of signal-to-noise ratio with distance, supporting the use of this representation for scalable machine learning, similarity analysis, and predictive acoustic modelling in real maritime environments.",
+    "categories": [
+      "foundation_model",
+      "geo_reasoning",
+      "ship_trajectories"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Physics-Based Deep Spatiotemporal Hyperlocal Radar Nowcasting with a Multi-Variable U-Net for High-Resolution Precipitation Forecasting",
+    "url": "http://arxiv.org/abs/2607.16080v1",
+    "authors": [
+      "Akshay Sunil",
+      "Muhammed Rashid",
+      "Raja Sekhar Sivaraju",
+      "Sushma Nair",
+      "Subimal Ghosh"
+    ],
+    "published": "2026-07-17",
+    "abstract": "Precipitation nowcasting over the immediate 10-90 min period is important for flood management and real-time decision-making in urban regions. Conventional short-range forecasting with high-resolution numerical weather prediction requires frequent data assimilation, model initialization, and spin-up, introducing computational latency. Machine learning provides an alternative by learning storm evolution directly from high-frequency observations and producing forecasts quickly after training. This is particularly relevant for Mumbai, India, where monsoon convection, land-sea interactions, and localized intense rainfall make short-term prediction difficult. Here, we develop a compact radar-only nowcasting framework that combines multi-elevation reflectivity, Doppler radial velocity, and radial-velocity-gradient proxy features within an encoder-decoder U-Net. Using the most recent radar volume scan, the model predicts 12 future composite reflectivity fields at 7.5-min intervals up to 90 min lead time. The derived velocity magnitude, divergence-like, directional-shear, and vorticity-like channels represent kinematic signatures associated with convergence and boundary interactions without requiring full wind-field retrieval. A high-reflectivity attention module improves sensitivity to convective cores, and physics-guided attribution examines whether the learned sensitivities are meteorologically meaningful. The model is trained using Mumbai Doppler radar observations from May to August 2023 and evaluated on temporally independent events. At 90 min lead time, Critical Success Index values are 0.437, 0.332, and 0.193 for $\\geq$10, $\\geq$20, and $\\geq$30 dBZ thresholds, respectively. Compared with persistence, the model gives lower RMSE and higher spatial correlation at longer lead times. Once trained, it runs on a standard computer, generating nowcasts within seconds for real-time use.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": [
+      "Forecast",
+      "Nowcast"
+    ]
+  },
+  {
+    "title": "More with Less: a Large Scale Remote Sensing VLM with a Simple Recipe",
+    "url": "http://arxiv.org/abs/2607.15942v1",
+    "authors": [
+      "Stefan Maria Ailuro",
+      "Mario Markov",
+      "Mohammad Mahdi",
+      "Luc Van Gool",
+      "Danda Pani Paudel"
+    ],
+    "published": "2026-07-17",
+    "abstract": "Remote sensing vision-language models are increasingly expected to support open-ended reasoning over Earth Observation data and a variety of tasks. Most recent progress in this area has been driven by remote-sensing-specific architectural designs, often introducing new encoders, alignment modules, or task-specific fusion mechanisms. In this work, we challenge the necessity of such architectural specialization. We show that a generally capable vision-language model can achieve competitive or state-of-the-art performance at challenging remote sensing benchmarks, provided that it is trained at sufficient scale across diverse data and tasks. Our model uses a single language policy that can either answer directly in text or invoke a localization tool for segmentation and grounding. To train this heterogeneous behaviour, we employ a multi-task reinforcement learning framework with adaptive task rewards covering multiple-choice VQA, free-form VQA, captioning, detection, and segmentation across a large variety of input types. Our approach achieves competitive results across a broad set of benchmarks, including high-resolution, multi-temporal, multi-modal and multi-view tasks. Further, as training data scales, our experiments show consistent improvements across most tasks both in and out of distribution, which correlate with per-task data diversity. These findings suggest that, for remote sensing VLMs, data scale is more important than architectural novelty.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": [
+      "Segmentation",
+      "Detection",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Label-Decoupled Style Augmentation for Domain Generalization in Multi-Label Remote Sensing Scene Classification",
+    "url": "http://arxiv.org/abs/2607.12704v2",
+    "authors": [
+      "Alaa Almouradi",
+      "Erchan Aptoula"
+    ],
+    "published": "2026-07-14",
+    "abstract": "Multi-label classification assigns several co-occurring labels to each aerial scene, yet deployed models often encounter data distributions different from their training. Feature-statistics augmentation such as MixStyle, EFDMix, and correlated style uncertainty improves generalization at low cost but perturbs channel statistics globally, treating each image as a single style; one class can then contaminate the augmentation of another. Domain generalization is understudied for multi-label remote sensing; no prior method or multi-source benchmark targets it. A label-decoupled augmentation framework is therefore proposed, confining style perturbation to label-specific regions. Per-label attention, obtained from a learnable module or from gradient class-activation maps, yields per-label feature statistics; these statistics are mixed with cross-domain samples that share present labels, under independent per-label coefficients, and features are recomposed by attention-weighted normalization. Three operators combined with two attention sources produce six variants, evaluated on a leave-one-domain-out benchmark from multi-label UCM, AID, and DFC15 over six shared labels. Averaged over three splits and five seeds, the best variant attains 71.5% mean average precision, exceeding empirical risk minimization by 5.0 points and the strongest global-statistics baseline by 1.3 points, with the largest gain on the hardest transfer (up to 7.7 points). Ablations indicate that spatial attention and refreshed localization maps are most influential. The framework adds at most 0.35% parameters, leaves inference unchanged, and appears to offer a generic, inexpensive upgrade path for multi-label statistics-based domain generalization. Code is available upon acceptance at https://github.com/Alaa-Almouradi/Style-Augmentation-Upgrade.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Difference-Driven Gating: Adaptive Feature Fusion for U-Net Decoder",
+    "url": "http://arxiv.org/abs/2607.11096v1",
+    "authors": [
+      "Kai Li",
+      "Xuechao Zou",
+      "Jiashen Fu",
+      "Zijun Yan",
+      "Xintong Wang",
+      "Xiaolin Hu"
+    ],
+    "published": "2026-07-13",
+    "abstract": "The U-Net style models have been widely used in many applications. A critical step in these models is to reconstruct the lower-level features using a top-down decoder. This reconstruction requires precise fusion of high-level semantics and low-level details. Existing attention-based fusion methods typically derive attention weights from the top-down decoder features (global) alone or the correlation between the top-down decoder features and the bottom-up encoder features (local), then modulate the encoder features using these weights. In this work, we explore a different paradigm: deriving attention weights from the difference between the two feature streams. To this end, we propose two difference-based gating approaches: Feature-difference gating (FDG), which directly uses the absolute difference between global and local features to generate adaptive gating maps, and Entropy-difference gating (EDG), which measures the representational certainty of each stream via information entropy and uses their signed entropy difference to derive the attention weights. Both methods produce coupled gating maps that simultaneously modulate the global and local features. Experiments on different tasks including medical image segmentation, remote sensing image cloud removal and speech separation showed that both methods outperformed existing attention-based fusion methods, and EDG performed better. The results suggested a new paradigm for multi-scale feature fusion in the U-Net style structures.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "DynaFilter: Cloud-driven Dynamic Filtering for Satellite Edge Intelligence",
+    "url": "http://arxiv.org/abs/2607.10098v1",
+    "authors": [
+      "Ziyang Zhang",
+      "Jie Liu",
+      "Luca Mottola"
+    ],
+    "published": "2026-07-11",
+    "abstract": "Modern satellite edge systems, including those performing remote sensing tasks such object detection and tracking, are characterized by severely limited bandwidth and intermittent connections, making continuous data transmission to the cloud impractical. Existing edge-cloud systems, however, either require heavy pre-processing before analysis, for instance, full decompression of imagery data, or transmit all compressed data regardless of relevance. To address these challenges, we design DynaFilter, a dynamic filtering technique that enables satellite edge devices to perform selective region-of-interest (RoI) inference directly in the compressed-domain, without full decompression. Our key insight is that low-level compression syntax, specifically DC coefficients/AC energy in JPEG images and motion vectors in video streams, exhibits strong correlations with high-level semantic queries. By establishing a precise mapping between cloud query semantics and multimodal compressed-domain features, DynaFilter enables the edge to identify and transmit only relevant data associated to RoIs. Extensive evaluations show that DynaFilter reduces the total volume of pixel data for decoding and subsequent inference by 1.6x-7.1x for images, and achieves 92.0% bandwidth savings for video streams compared to state-of-the-art baselines. Furthermore, it decreases energy consumption by 43.1-88.6% on target devices and achieves a 1.6x-3.0x speedup in inference latency.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Tracking"
+    ]
+  },
+  {
+    "title": "Fine-Tuned Multi-Agent Framework for Detecting OCEAN in Life Narratives",
+    "url": "http://arxiv.org/abs/2607.12215v1",
+    "authors": [
+      "Rasiq Hussain",
+      "Darshil Italiya",
+      "Joshua Oltmanns",
+      "Mehak Gupta"
+    ],
+    "published": "2026-07-13",
+    "abstract": "Accurately assessing personality from text is challenging because traits are latent, context-dependent, and often subtly expressed across long narratives. Large language models (LLMs) offer new opportunities by processing extensive textual contexts, but pretraining of these models can induce latent \"personality-like\" biases, making single-model inferences inconsistent. We propose a fine-tuned multi-agent framework for detecting OCEAN personality traits, in which sub-agents are conditioned to adopt high, low, or neutral perspectives for each trait through masked language modeling (MLM) and psychometric supervision. A judge LLM aggregates and compares sub-agent outputs to generate final trait predictions, capturing multiple complementary perspectives while mitigating individual model biases. We evaluate the framework on life narrative dataset through quantitative and qualitative experiments, including baselines, ablations, and inference quality analyses. Our approach offers a scalable and interpretable method for text-based personality inference, highlighting the benefits of multi-agent reasoning grounded in psychometric supervision.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "AgentFAIR: A Multi-Agent Collaborative Framework for FAIRness Evaluation of Geospatial Datasets",
+    "url": "http://arxiv.org/abs/2607.15781v1",
+    "authors": [
+      "Ming Chen",
+      "Pranav Pai"
+    ],
+    "published": "2026-07-17",
+    "abstract": "Geospatial datasets support applications from urban planning to climate modeling, yet consistent assessment of FAIR compliance is difficult. Existing evaluators use different rubrics and evidence sources and may fail on JavaScript-rendered pages or repository-specific identifiers. For 50 datasets from 10 repositories, the standard deviation of normalized scores across available tools averages 15.0 percentage points and reaches 30.3 for one dataset. Because these outputs are not equivalent measurements, we use them to characterize disagreement and failure modes, not comparative accuracy. We present AgentFAIR, a multi-agent framework combining structured metadata extraction with 13 sub-principle-specific LLM evaluators. Each produces a 0-3 maturity score, cited evidence, and recommendations; a critic checks evidence and consistency and can request targeted re-evaluation. Mean Findability, Accessibility, Interoperability, and Reusability scores are 79.7%, 70.4%, 45.3%, and 72.0%. Rank correlations with four baseline tools range from 0.31 to 0.61; the FAIR-enough comparison is not statistically significant. On a 10-dataset repeated-run subset, sub-principle agreement averages 89% (standard deviation: 3 percentage points), versus 71% without the critic. A preliminary 15-dataset expert study yields Fleiss' kappa of 0.71 and 82% alignment with expert consensus. API cost is approximately USD 0.054 per dataset. These results support auditability and feasibility, while the limited benchmark, incomplete ablations, and single-model-family validation constrain claims about accuracy and generalization.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "TerraLogic: A Benchmark for Hierarchical Geospatial Reasoning in Earth Observation",
+    "url": "http://arxiv.org/abs/2607.12497v1",
+    "authors": [
+      "Yuhang Yan",
+      "Linchao Mou",
+      "Bokang Yang",
+      "Qingyu Li"
+    ],
+    "published": "2026-07-14",
+    "abstract": "Beyond perception, reasoning is essential in remote sensing for advanced interpretation, inference, and decision-making. Recent advances in large language models (LLMs) have enabled tool-augmented agents that leverage external tools to perform complex analytical tasks. However, existing studies in remote sensing primarily focus on perception-oriented tasks, leaving cognitive geospatial reasoning largely underexplored. To address this gap, we introduce TerraLogic, a benchmark for geospatial reasoning. TerraLogic comprises 545 scenario-driven, hierarchy-aware tasks, such as hazard vulnerability assessment, urban heat island analysis, and forest fragmentation dynamics, spanning optical, Synthetic Aperture Radar (SAR), and infrared (IR) imagery. It advances evaluation beyond recognition and monitoring toward cognitive-level geospatial analysis. To facilitate evaluation on TerraLogic, we further propose HieraPlan, a tool-augmented agent that organizes toolkits into functional hierarchies and performs fault-tolerant reasoning. HieraPlan enables structured abstraction, robust recovery from tool failures, and stable long-horizon planning. Extensive experiments demonstrate that current approaches struggle with hierarchical geospatial reasoning, while HieraPlan provides a strong baseline with improved reasoning, cross-modal generalization, and error handling. The dataset and agent code are publicly available at https://github.com/Ireliya/TerraLogic.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Recognition"
+    ]
+  },
+  {
+    "title": "HoloGeo: Mitigating Landmark Bias in Geo-localization via Evidence-Driven Reasoning",
+    "url": "http://arxiv.org/abs/2607.15255v1",
+    "authors": [
+      "Pengcheng Zhou",
+      "Xuanyu Liu",
+      "Yanchen Yin",
+      "Bobo Li",
+      "Shengqiong Wu",
+      "Mong-Li Lee",
+      "Wynne Hsu"
+    ],
+    "published": "2026-07-16",
+    "abstract": "Recent advances in Vision-Language Models (VLMs) have significantly improved image geo-localization, yet existing models remain susceptible to landmark bias, causing them to overlook geographical cues or form spurious correlations, ultimately resulting in inaccurate localization. To systematically investigate this issue, we first design two quantitative metrics, Bias Intensity (BI) and Bias Harmfulness (BH), to characterize the impact of landmarks exerted on model reasoning, and establish a comprehensive benchmark, LandmarkBias-3K. To mitigate landmark bias, we further propose an evidence-driven reasoning framework, HoloGeo, to improve the reliability of geo-localization. HoloGeo is supported by a high-quality dataset, BF-30k, annotated with structured multi-evidence bias-free reasoning chains. By incorporating multi-dimensional rewards, HoloGeo explicitly encourages balanced attention over diverse visual cues and achieves evidence-driven joint reasoning. Extensive experiments demonstrate that HoloGeo not only maintains excellent performance on IM2GPS3K and YFCC4k but also significantly outperforms existing open-source VLMs on LandmarkBias-3K, validating its effectiveness for robust geospatial reasoning.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "DM-KG: A Novel Method for Boosting Spatial Cognition of Vision-Language Models in Street View Imagery",
+    "url": "http://arxiv.org/abs/2607.12319v1",
+    "authors": [
+      "Xinyue Xu",
+      "Zheng Zhang",
+      "Kunyang Ma",
+      "Ge Zhu",
+      "Lianshuai Cao",
+      "Lei Wang",
+      "Zixuan Li",
+      "Yi Cheng"
+    ],
+    "published": "2026-07-14",
+    "abstract": "As vision-language models (VLMs) are increasingly deployed in geospatial question answering and visual scene understanding, improving their spatial cognition capability on street view imagery for complex logical reasoning has emerged as a key research priority. However, existing VLMs frequently suffer from \"spatial semantic hallucinations\" when perceiving object locations, distances, and directions in real-world street view scenes. Furthermore, such errors are often recalcitrant to tracing and calibration, posing a critical bottleneck for their practical deployment in geospatial tasks. To address this pressing challenge, this study proposes DM-KG (Direction-Metric Knowledge Graph), a structurally grounded spatial representation framework for street view imagery. By explicitly extracting directional and metric relationships between entities from a single 2D image, this framework enhances the spatial reasoning accuracy of VLMs through a structured knowledge graph. Specifically, we integrate panoptic segmentation with metric depth estimation to robustly compute entity-level 3D spatial coordinates. Subsequently, we encode the clock azimuths and Euclidean distances of entity pairs into a JSON-formatted knowledge graph, which is injected into the VLM as an explicit geometric prior to guide spatial reasoning. Experimental results on public spatial question-answering (QA) benchmarks demonstrate that DM-KG reduces the mean absolute error (MAE) in distance estimation by 31.1% and the mean angular error in direction judgment by 65.8%, while simultaneously maintaining a high QA success rate. By establishing a complete, augmented reasoning pipeline, this research significantly improves the spatial cognitive capabilities of VLMs in street view scenarios, thereby providing a flexible, generalized, and interpretable framework for geographic visual question answering (GeoVQA) in open environments.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "A Multimodal Dataset for Large Language Model Applications in the Energy Domain",
+    "url": "http://arxiv.org/abs/2607.11459v1",
+    "authors": [
+      "Costas Mylonas",
+      "Magda Foti"
+    ],
+    "published": "2026-07-13",
+    "abstract": "This paper presents the mAIEnergy dataset, an open-access, multimodal corpus developed to support Large Language Model (LLM) applications in the energy sector. The dataset integrates approximately 50,000 textual documents, 20,000 images, 25 million numerical time series records, and 2 million geospatial and relational data entries. It includes policy and regulatory texts, scientific articles and news articles, satellite and contextual imagery, electricity system measurements, weather observations, statistical indicators, and geospatial representations of energy infrastructure and related entities. All data have been harmonized into structured, ready-to-use formats, accompanied by consistent metadata and reproducible data retrieval and preparation workflows. The dataset can serve as a foundational energy knowledge base, allowing energy stakeholders to integrate additional open-source or proprietary data. The mAIEnergy dataset adheres to Findable, Accessible, Interoperable, and Reusable (FAIR) principles, enhancing its applicability for AI-driven energy research, modeling, and decision-making.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
     "applications": []
   }
 ]
