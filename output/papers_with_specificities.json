@@ -30784,7 +30784,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "The Emerging Paradigm of Geospatial Foundation Models: From Pre-Training to Agentic Reasoning",
@@ -30802,7 +30803,8 @@
       "LLM",
       "LVM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "From Continuous Deployment to Queryable Dataset: Terabyte-Scale AIS-Aligned Passive Acoustic Labelling",
@@ -30820,7 +30822,8 @@
       "ship_trajectories"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Physics-Based Deep Spatiotemporal Hyperlocal Radar Nowcasting with a Multi-Variable U-Net for High-Resolution Precipitation Forecasting",
@@ -30843,7 +30846,8 @@
     "applications": [
       "Forecast",
       "Nowcast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "More with Less: a Large Scale Remote Sensing VLM with a Simple Recipe",
@@ -30867,7 +30871,8 @@
       "Segmentation",
       "Detection",
       "Reinforcement Learning"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Label-Decoupled Style Augmentation for Domain Generalization in Multi-Label Remote Sensing Scene Classification",
@@ -30884,7 +30889,8 @@
     "architectures": [],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Difference-Driven Gating: Adaptive Feature Fusion for U-Net Decoder",
@@ -30907,7 +30913,8 @@
     ],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "DynaFilter: Cloud-driven Dynamic Filtering for Satellite Edge Intelligence",
@@ -30926,7 +30933,8 @@
     "applications": [
       "Detection",
       "Tracking"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Fine-Tuned Multi-Agent Framework for Detecting OCEAN in Life Narratives",
@@ -30947,7 +30955,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "AgentFAIR: A Multi-Agent Collaborative Framework for FAIRness Evaluation of Geospatial Datasets",
@@ -30964,7 +30973,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "TerraLogic: A Benchmark for Hierarchical Geospatial Reasoning in Earth Observation",
@@ -30985,7 +30995,8 @@
     ],
     "applications": [
       "Recognition"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "HoloGeo: Mitigating Landmark Bias in Geo-localization via Evidence-Driven Reasoning",
@@ -31007,7 +31018,8 @@
     "architectures": [
       "LVM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "DM-KG: A Novel Method for Boosting Spatial Cognition of Vision-Language Models in Street View Imagery",
@@ -31032,7 +31044,8 @@
     ],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "A Multimodal Dataset for Large Language Model Applications in the Energy Domain",
@@ -31049,6 +31062,375 @@
     "architectures": [
       "LLM"
     ],
+    "applications": [],
+    "is_recent": false
+  },
+  {
+    "title": "LunarFM: A Shared Multimodal Representation of the Moon's Surface",
+    "url": "http://arxiv.org/abs/2607.22408v1",
+    "authors": [
+      "Marc Girona-Mata",
+      "Jakob Gawlikowski",
+      "Sumit Goski",
+      "Gautier Bardi de Fourtou",
+      "Valentin T. Bickel",
+      "Ben Moseley",
+      "Abigail Calzada-Diaz",
+      "Sylvester Kaczmarek",
+      "Ra\u00fal Ramos-Poll\u00e1n"
+    ],
+    "published": "2026-07-24",
+    "abstract": "The renewed global focus on lunar exploration, driven by the prospect of in-situ resource utilization and a sustained human presence on the Moon, has created growing demand for accurate, large-scale characterization of the lunar surface. Although vast quantities of orbital remote-sensing data have been collected, scientific analysis and resource mapping remain fragmented by heterogeneous multiinstrument observations, sparse labels, and bespoke task-specific modelling workflows. Here we introduce LunarFM, a multimodal foundation model that learns a general representation of the lunar surface from diverse orbital measurements. LunarFM assimilates observations from six instruments across three lunar missions, mapping 18 input channels to a shared embedding space. We demonstrate that this embedding space supports a diverse range of downstream applications, including similarity search, few-shot resource mapping, mineral abundance regression, and geological unit classification, enabling efficient scientific investigation and resource-oriented analysis. We provide a machine-learning-ready dataset of co-registered multimodal observations spanning latitudes from 70\u00b0S to 70\u00b0N, a pretrained multimodal masked autoencoder, and a companion embedding dataset providing a joint 768-dimensional representation of lunar surface properties. All code and data are available at https://lunarfm.trillium.tech/",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [
+      "Autoencoder"
+    ],
+    "applications": [
+      "Classification",
+      "Regression"
+    ]
+  },
+  {
+    "title": "HyperImageNet: A Large-Scale High-Spatial Resolution Hyperspectral Imagery Classification Benchmark",
+    "url": "http://arxiv.org/abs/2607.21050v1",
+    "authors": [
+      "Chuguang Zeng",
+      "Jingtao Li",
+      "Yinhe Liu",
+      "Yanfei Zhong"
+    ],
+    "published": "2026-07-23",
+    "abstract": "We present HyperImageNet, a large-scale benchmark for fine-grained hyperspectral land-cover understanding. The dataset contains 26,084 airborne hyperspectral image patches with 224 spectral bands and 138 fine-grained land-cover categories. Unlike existing datasets, HyperImageNet provides raw imagery, pixel-level semantic labels, and object-level instance masks, supporting both semantic and instance segmentation. Furthermore, we establish an open-environment benchmark with strict spatial separation to evaluate representative methods and the HyperFree foundation model. Experimental results demonstrate the effectiveness of HyperImageNet for fine-grained hyperspectral understanding and open-environment remote sensing research.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "RIM: A Retrieval-In-Matching Framework for Cross-Domain Global Visual Localization of UAVs",
+    "url": "http://arxiv.org/abs/2607.20116v1",
+    "authors": [
+      "Xin Li",
+      "Siyuan Duan",
+      "Shang Wang",
+      "Zhimin Mao",
+      "Bingliang Hu",
+      "Geng Zhang"
+    ],
+    "published": "2026-07-22",
+    "abstract": "Global visual localization of unmanned aerial vehicles (UAVs) using remote-sensing reference maps has attracted increasing attention. However, acquisition-time and imaging-platform differences between UAV and reference imagery induce substantial cross-domain appearance and viewpoint shifts, challenging robust six-degree-of-freedom (6-DoF) pose estimation. We address these shifts by sampling UAV-viewpoint reference views from Google 3D Tiles across locations, altitudes, and orientations. A two-stage cross-domain fine-tuning recipe adapts SALAD using pose-near positives and geographically distant hard negatives, while local geometric consistency re-ranks the Top-K candidates. We further propose Retrieval-In-Matching (RIM), which freezes the adapted DINOv2-B retriever and distils a local-descriptor decoder that reuses its token field alongside a shallow VGG19 detail stream. One query-side DINOv2-B forward thus serves both SALAD retrieval and local description, eliminating a second foundation-model backbone while preserving retrieval descriptors by construction. We evaluate RIM zero-shot on the reconstructed EPFL Urbanscape and self-collected Chang'an Park datasets, both geographically disjoint from the training data. RIM outperforms ten recent retrieval baseline families. At 25/50 m under the full 3D distance metric, it improves Recall@1 over SALAD by 8.55/13.77 percentage points on EPFL and 4.45/8.94 points on Park. At Top-K=5, the complete measured localization query, including retrieval, candidate matching, and robust geometric verification, takes 67.9 ms end-to-end: 1.8 times faster than the strongest separate sparse-matching baseline and over 40 times faster than RoMa, while achieving comparable re-ranking accuracy. These results establish an efficient and deployable pipeline for UAV global visual localization in GNSS-challenged environments.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
     "applications": []
+  },
+  {
+    "title": "Foundation-Assisted Active Learning for Object Detection Annotation",
+    "url": "http://arxiv.org/abs/2607.16671v1",
+    "authors": [
+      "Jinchang Zhang",
+      "Arnold Zumbrun",
+      "Jing Lin",
+      "Guoyu Lu"
+    ],
+    "published": "2026-07-18",
+    "abstract": "The annotation cost for remote sensing object detection is high, while existing active learning methods still face several challenges in object detection scenarios, including the coupling of localization and classification uncertainty, severe localization noise in the cold-start stage, and pseudo-diversity caused by high-recall candidate proposals. To address these issues, we propose a foundation-model-collaborative active learning and semi-automatic annotation framework for efficient construction of remote sensing object detection datasets. We build a dual-source mechanism consisting of a reference localization source (SA-source) based on UPN+SAM2 and a detector prediction source (OD-source), and further propose a Foundation-model-enhanced Dual-Source Uncertainty estimation to improve sample selection quality in the cold-start stage by jointly modeling localization consistency and classification confidence. Furthermore, we propose Object-Centric Diversity Sampling, which constructs object-level representations using DINOv2 features and SAM2 masks to improve sample coverage while suppressing pseudo-diversity. To address geometric noise in the semi-automatic annotation stage, we design Dual-Source Box Switching, which replaces noisy detector boxes with matched refined boxes from the SA-source, thereby reducing the manual burden of box refinement. Experiments on DIOR, HRSC2016, DOTAv2, and FAIR1M show that our method achieves superior or comparable results under most annotation budgets, with notably stronger cold-start sample efficiency in the low-budget regime.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Delineate Anything v2: A Global Foundation Model for Field Delineation",
+    "url": "http://arxiv.org/abs/2607.19069v1",
+    "authors": [
+      "Mykola Lavreniuk",
+      "Nataliia Kussul",
+      "Andrii Shelestov",
+      "Yevhenii Salii",
+      "Volodymyr Kuzin",
+      "Charlotte Julia Li-Xing Wang",
+      "Zoltan Szantoi"
+    ],
+    "published": "2026-07-21",
+    "abstract": "Accurate agricultural field boundary delineation at large scale is a foundational task for food security, supply chain transparency, and carbon accounting. While vision foundation models like SAM show remarkable zero-shot capabilities, they frequently fail in geospatial domains due to topological complexity, cropland texturing patterns, and a lack of physical scale awareness. In this work, we introduce Delineate Anything v2, a globally scalable foundation model designed specifically for wide-area field boundary mapping. We construct FBIS-73M, a 73-million-instance multi-resolution dataset spanning 61 countries. To address the pervasive issue of multi-field administrative parcel merging, we introduce a resolution-specific data curation pipeline that leverages topological image-space adaptation to homogenize merged parcels and strengthen weak physical boundaries. Furthermore, we establish a novel, manually curated evaluation benchmark covering 100 countries to assess independent zero-shot generalization. Our results show that Delineate Anything v2 surpasses the current state-of-the-art, including the Delineate Anything framework, by 0.284 mAP@0.5 (+103.3% relative gain), while maintaining execution speeds suitable for rapid national- and global-scale deployment, as demonstrated by nationwide mapping of Ukraine (603,000 km^2) in 5.4 hours on a consumer-grade workstation. Code, pre-trained weights, the FBIS-73M dataset, and ready-to-use national-scale vector boundary products are publicly available at https://github.com/Lavreniuk/Delineate-Anything.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Now We Know? A Systematic Comparison of TerraMind and THOR",
+    "url": "http://arxiv.org/abs/2607.18504v2",
+    "authors": [
+      "Frederick Schindlegger",
+      "Kenzo Bounegta",
+      "Eva Gmelich Meijling",
+      "Johannes Jakubik",
+      "Arnt-B\u00f8rre Salberg",
+      "Theodor Forgaard",
+      "Nicolas Longepe",
+      "Valerio Marsocci"
+    ],
+    "published": "2026-07-20",
+    "abstract": "Benchmarks for Geospatial Foundation Models (GFMs) increasingly rank models by aggregate score, but such rankings obscure why models differ: how much of the gap is architecture, how much is decoder capacity, and how much is a use-case-specific artefact? This study addresses that gap through a controlled comparison of two GFMs developed under European Space Agency's $\u03a6$-lab with contrasting design philosophies: THOR, which introduces a compute-adaptive architecture supporting variable patch sizes and unifies Sentinel-1, -2, and -3 data at their native resolutions; and TerraMind, a multimodal generative GFM pretrained with a dual-scale token/pixel objective that enables any-to-any cross-modal generation (Thinking-in-Modalities) to infer missing sensors at inference time. Rather than reporting a single leaderboard, we investigate the axes along which the two architectures actually differ - patch size, decoder complexity, finetuning regime, input modality, and model scale - across ten use cases spanning segmentation and regression in diverse domains, including climate disaster response, methane leak detection, snow monitoring, or sea ice mapping. We find that architectural design choices - patch size and decoder type in particular - explain more performance variance than model identity itself, that the two models embody complementary investment strategies (pretraining-time scale for TerraMind versus inference-time tokenisation for THOR), and that correctly interpreting results requires dataset-level characterisation. The resulting picture is not a single winner but a set of hypotheses and a diagnostic ablation methodology that we expect to generalise to future GFMs beyond THOR and TerraMind.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection",
+      "Regression"
+    ]
+  },
+  {
+    "title": "Tensor Network Machine Learning for Wildfire Susceptibility Mapping: from Grokking Dynamics to Quantum Mixedness of Class Representations",
+    "url": "http://arxiv.org/abs/2607.19503v1",
+    "authors": [
+      "Domenico Pomarico",
+      "Alessandra Costantino",
+      "Gabriel Ramirez Sanchez",
+      "Loredana Bellantuono",
+      "Davide D' Al\u00f2",
+      "Mario Elia",
+      "Alessandro Fania",
+      "Francesco Giordano",
+      "Niloofar Kheirkhahan",
+      "Raffaele Lafortezza",
+      "Ester Pantaleo",
+      "Sabina Tangaro",
+      "Roberto Bellotti",
+      "Alfonso Monaco",
+      "Nicola Amoroso"
+    ],
+    "published": "2026-07-21",
+    "abstract": "A quantum-inspired tensor network framework for wildfire susceptibility classification in the Gargano region is introduced, leveraging AlphaEarth embeddings and Matrix Product State models. The approach combines scalable geospatial representations with an interpretable quantum mask, enabling both binary and multiclass classification of wildfire susceptibility. Beyond predictive performance, the study reveals a pronounced grokking transition in the binary case and provides a detailed analysis of inter-class confusion in the multiclass setting. By introducing level-resolved mixedness diagnostics based on reduced density matrices, we show that the MPS classifier naturally encodes a hierarchy of class distinguishability, with non-adjacent categories becoming more separable than neighboring ones. These results demonstrate that tensor network models not only achieve competitive classification accuracy but also offer a physically grounded framework to quantify and interpret class separability in complex environmental datasets.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Demodulation of chaotic signals using convolutional neural network",
+    "url": "http://arxiv.org/abs/2607.16788v1",
+    "authors": [
+      "Mykola Kozlenko",
+      "Emrullah Demiral",
+      "Anton Yudhana"
+    ],
+    "published": "2026-07-18",
+    "abstract": "Chaotic modulation is an effective communication technique that exploits deterministic chaos to produce pseudo-random signals. A widely adopted approach involves modulation of the chaotic bifurcation parameter. This paper introduces a deep learning-based demodulation method for keying of the bifurcation parameter. It describes the architecture of the convolutional neural network and evaluates performance metrics for signals generated using the chaotic logistic map. The study assesses the bit error rate for binary signals and reports a bit error rate of 0.0819 for a bifurcation parameter deviation of 1.34% under additive white Gaussian noise at a signal-to-noise ratio of -13 dB (corresponding to a normalized signal-to-noise ratio of +20 dB). The results demonstrate the capability to detect chaotic patterns even when the specific patterns were not included in the training dataset.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Early Yield Prediction for Sugar Beet Fields using Satellite Data -- Learnings from Specialized Vision Transformers",
+    "url": "http://arxiv.org/abs/2607.17661v1",
+    "authors": [
+      "Philipp Vaeth",
+      "Bhumika Laxman Sadbhave",
+      "Denise Dejon",
+      "Gunther Schorcht",
+      "Magda Gregorova"
+    ],
+    "published": "2026-07-20",
+    "abstract": "Remote sensing has become an increasingly valuable tool for agricultural monitoring, particularly through the use of publicly available satellite imagery. However, effectively integrating domain knowledge into machine learning methods remains challenging. This study presents a real-world example of early sugar beet harvest yield forecasting from purely optical Sentinel-2 imagery, demonstrating how a tight integration of domain knowledge and machine learning can lead to synergistic gains. We empirically find that using very small vision transformer patch sizes and all available Sentinel-2 spectral bands improves our model despite being uncommon design choices in the domain. As a practical contribution, we were able to identify a large fraction of low-yield fields in a different year early on in the growth cycle through a modified training setup and a ranking-based detection of underperforming fields.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Detection",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "A Unified Multisensor Machine-Learning Framework for Live Fuel Moisture Content Retrieval",
+    "url": "http://arxiv.org/abs/2607.16714v1",
+    "authors": [
+      "Valerio Pampanoni",
+      "Emilio Chuvieco",
+      "Alvise Ferrari",
+      "Giovanni Laneve",
+      "Simone Saquella"
+    ],
+    "published": "2026-07-18",
+    "abstract": "Live fuel moisture content controls vegetation flammability and is a high-importance variable in fire management. Nevertheless, it remains difficult to estimate and map over large areas due to the concentration of field observations in specific regions. We develop a unified machine-learning framework that estimates live fuel moisture content from satellite vegetation indices, meteorological variables, topography and seasonal predictors. GlobeLFMC 2.0 measurements are matched to Terra and Aqua MODIS, VIIRS, Landsat 8/9, Sentinel-2 and Sentinel-3 surface-reflectance products, combining the long MODIS record with finer-resolution recent observations. To account for differences among sensors, optical predictors are restricted to a common red, near-infrared and shortwave-infrared feature space; site--product combinations and field time series are screened for remote-sensing suitability; and spectral response function diagnostics are combined with target-independent empirical reflectance calibration toward a Sentinel-2 reference domain. Preliminary single-product experiments show that weather, topography and cyclic day-of-year provide most of the predictive gain beyond vegetation indices, whereas optional product-specific predictors do not justify their additional dependencies. Separate Grass, Shrub and Tree models are trained with Random Forest and XGBoost regressors. Under the primary validation design, which withholds observation dates from sites represented in training, the best models achieve pooled R2 values of 0.715, 0.693 and 0.700 for Grass, Shrub and Tree, respectively. The framework can incorporate additional optical sensors when compatible reflectance bands, documented spectral responses and sufficient overlap observations are available for calibration and validation.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Spatial Generalization Tests for Machine Learning-based Weather Models to Assess Physical Consistency",
+    "url": "http://arxiv.org/abs/2607.20716v1",
+    "authors": [
+      "Maren H\u00f6ver",
+      "Milan Kl\u00f6wer",
+      "Christian Schroeder de Witt",
+      "Hannah M. Christensen"
+    ],
+    "published": "2026-07-22",
+    "abstract": "Machine learning-based weather prediction is revolutionizing weather forecasting by learning from weather data in present-day climate. However, generalization to other climates remains a major challenge. With melting sea ice, land-use change, and increasing ocean temperatures, boundary conditions are changing. Therefore, generalization in time depends on generalization in space. Here, we present three test cases to evaluate whether machine learning-based weather and climate models generalize in space and apply them to GraphCast and NeuralGCM. We reverse or rotate the planet in longitude or latitude under the model's coordinate system and adapt all boundary conditions and forcings accordingly. Physics-based general circulation models simulate a rotated/reversed planet with only rounding errors, but GraphCast and NeuralGCM fail these tests. The analyses furthermore revealed unphysical variable mappings based on correlation rather than causation. We argue that machine learning-based climate models should be designed to pass generalization tests to prevent overfitting on present-day regional climate.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Incomplete Observations Boost Evolutionary Performance in Ocean Modeling",
+    "url": "http://arxiv.org/abs/2607.19147v1",
+    "authors": [
+      "Yangyang Kong",
+      "Yutong Jiang",
+      "Yanhai Gan",
+      "Junyu Dong",
+      "Feng Gao",
+      "Xiaopei Lin"
+    ],
+    "published": "2026-07-21",
+    "abstract": "Data-driven methods have revolutionized ocean modeling, yet current approaches rely heavily on complete reanalysis datasets, imposing computational constraints and limiting model performance to that of the training data. Here, we present a generative state-space model and an optimization framework that enable learning directly from sparse and noisy observations. The model is essentially a hidden Markov model with a continuous state space, where oceanic physical quantities are treated as hidden states and measurements as observations, enabling a unified representation of ocean fields and observational data. Both the initial-state and state-transition modules are implemented as neural networks to capture the complexity and temporal evolution of ocean states, while the emission module is formulated as a masked Gaussian distribution. To train the model from sparse observations, we derive an optimization framework based on the expectation-maximization (EM) algorithm. The framework alternately reconstructs high-fidelity ocean fields via Langevin dynamics and optimizes deep neural networks to capture temporal evolution. Theoretical analysis shows that the framework maximizes the likelihood of observations under the generative model. For efficiency, we assume that ocean-state evolution follows a stationary, ergodic, and Markovian stochastic process and adopt only length-two state sequences during optimization. Experiments on CMIP6 simulation data and FY-3D satellite data demonstrate high-fidelity reconstruction and accurate prediction, showing that sparse observations can directly improve the model's representation of ocean-state dynamics. This work offers a scalable pathway for next-generation Earth system models to learn directly from sparse, incomplete real-world observations.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Deep Neural Network"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "BG4Sea: Biogeochemical Seasonal Forecastability via Progressive Information Scaling",
+    "url": "http://arxiv.org/abs/2607.16731v1",
+    "authors": [
+      "Gabriela Martinez Balbontin",
+      "Anastase Charantonis",
+      "Dominique Bereziat",
+      "Stefano Ciavatta"
+    ],
+    "published": "2026-07-18",
+    "abstract": "Marine biogeochemical forecasting is increasingly important for managing marine ecosystems and the carbon cycle, yet global, seasonal forecast products lag far behind physical oceanography, held back by the complexity of the processes involved and by data scarcity. We introduce BG4Sea, which to our knowledge is the first global, data-driven system to produce multivariate seasonal forecasts of the marine biogeochemical state. BG4Sea is a modular architecture with a column autoencoder that compresses the vertical column into a low-dimensional latent space, a latent forecaster propagates this representation forward in time, a surface-forcing conditioner that injects physical boundary information via Feature-wise Linear Modulation (FiLM), and a horizontal-coupling module that incorporates neighboring-column context through cross-attention. The model is trained and evaluated on the global ocean reanalysis BIORYS4 (NEMO/PISCES), and produces six-month forecasts at 1/4 degree, monthly resolution for dissolved chemistry, biology, and carbon-pool variables, outperforming persistence and climatology across most variables and lead times. We position BG4Sea as an interpretable baseline for future, more expressive approaches, and discuss predictability attribution to each component, alongside the model's structural limitations.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Autoencoder"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "STS-NET: Spatio-Temporal Stress Network for Self-Supervised Crop Stress Detection using Satellite Image Time Series",
+    "url": "http://arxiv.org/abs/2607.18791v1",
+    "authors": [
+      "Pradeep Dalal",
+      "Rajiv Ranjan",
+      "Sushil Ghildiyal",
+      "Shashank Tamaskar",
+      "Neeraj Goel"
+    ],
+    "published": "2026-07-21",
+    "abstract": "Early and accurate detection of crop stress is essential to improve agricultural productivity and ensure global food security. However, collecting a large labeled crop stress dataset is a challenging task. To address this challenge, we introduce a novel spatial-temporal stress network (STS-NET), built on a self-supervised 3D-convolutional autoencoder (3D-CAE), designed to utilize Satellite Image Time Series (SITS) data for crop stress detection. STS-NET exploits four vegetation indices: Normalized Difference Vegetation Index (NDVI), Normalized Difference Vegetation Index (GNDVI), Red-Edge Chlorophyll Index (RECI) and Normalized Difference Red-Edge Index (NDRE) obtained from high resolution Planetscope imagery to capture spatiotemporal stress patterns. The model is trained on our BSPT (Barnala Spatial-Temporal) dataset and evaluated on a real-world sugarcane dataset collected over a year from a 2.5-acre test plot located in Lakhimpur-Kheri (LK) district in Uttar Pradesh in India. STS-NET achieved a precision of 97. 98\\% for water stress, 85.08\\% for nitrogen stress, and 83.47\\% for combined stress. The results demonstrate the potential of STS-NET in effectively detecting stress in sugarcane crops with minimal reliance on labeled data. Furthermore, STS-NET can serve as a robust feature extractor for simpler models.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [
+      "Autoencoder"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "From biodiversity modelling to conservation action: a spatial indicator for prioritising tropical forest protection, restoration, and management",
+    "url": "http://arxiv.org/abs/2607.21690v1",
+    "authors": [
+      "Ma\u00efri Souza Oliveira",
+      "Maxime Lenormand",
+      "Sandra Luque"
+    ],
+    "published": "2026-07-23",
+    "abstract": "Tropical forests harbour exceptional biodiversity but are increasingly threatened by anthropogenic pressures, making their conservation central to achieving the Convention on Biological Diversity targets. However, national conservation planning is often constrained by heterogeneous monitoring frameworks and limited integration of biodiversity and anthropogenic pressures. We develop a synthetic spatial indicator that combines open-access biodiversity and land-use data to identify refuge and conflict areas between ecological potential and anthropogenic pressure. Using Costa Rica as a national-scale demonstrator, we assess its capacity to support conservation prioritisation and evaluate the current conservation network. Ecological potential was estimated using multi-species distribution models for 254 dominant canopy tree species, serving as an operational proxy for tropical forest biodiversity and ecological structure. We quantified anthropogenic pressure from land-use patterns and combined it with ecological potential to identify refuge and conflict areas. We then tested the spatial significance of these areas and evaluated their representation within the national conservation network. The indicator reveals a clear spatial organisation of biodiversity-pressure interactions: refuge areas coincide with large, continuous forest cores, whereas conflict areas are concentrated in fragmented landscapes and may extend into protected areas. Flexible and transferable, the framework distinguishes areas requiring strict protection from those where restoration, sustainable management, or pressure mitigation should be prioritised. Rather than prescribing conservation actions, the refuge-conflict indicator provides a practical decision-support tool to assess conservation networks, strengthen ecological connectivity, and guide national biodiversity planning.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [
+      "SDM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Treatment Geometry and Causal Identification with Earth Observation Data",
+    "url": "http://arxiv.org/abs/2607.19908v1",
+    "authors": [
+      "Jeffrey D. Michler",
+      "Anna Josephson",
+      "Elinor Benami",
+      "Patrick Behrer",
+      "Michael J. Cecil",
+      "Sydney Gourlay",
+      "Robert Heilmayr",
+      "Ella Kirchner",
+      "Gina Maskell",
+      "Kunwar Singh"
+    ],
+    "published": "2026-07-22",
+    "abstract": "A central task in conducting impact evaluations is determining who or what was exposed to a treatment, when, and to what degree. These questions can be especially complex in geospatial settings, where many reasonable definitions of exposure may exist. This chapter introduces treatment geometry as a core concept in geospatial impact evaluation (GIE): the spatial and temporal footprint of a treatment as represented in data. How this footprint is defined shapes identification strategies and the credibility of causal inference. Drawing on cases spanning the air pollution, wildfire, forest policy, infrastructure, pest, and food security literature, the chapter provides practical guidance on navigating key tradeoffs (including spatial resolution, temporal alignment, spillovers, and boundary uncertainty) that arise when translating real-world interventions into analyzable data. Rather than prescribing a single best approach, the chapter equips researchers with a framework for diagnosing which geometry decisions may matter most in their context, closing with synthesis questions to help readers navigate these decisions.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Physics-Aware Complex-Valued State Space Model with Scattering-Prior Feature Modulation for PolSAR Image Classification",
+    "url": "http://arxiv.org/abs/2607.19787v1",
+    "authors": [
+      "Fangyan Zhang",
+      "Fan Zhang",
+      "Shiqi Zhou",
+      "Jun Ni",
+      "Carlos L\u00f3pez-Mart\u00ednez",
+      "Qiang Yin"
+    ],
+    "published": "2026-07-22",
+    "abstract": "Polarimetric synthetic aperture radar (PolSAR) image classification is a representative task for physics-aware GeoAI, where land-cover semantics are closely coupled with electromagnetic scattering mechanisms. Many existing complex-valued networks can preserve amplitude-phase information, but they are often limited in long-range spatial dependency modeling and usually incorporate polarimetric priors only as input-level or shallow auxiliary features. As a result, physical knowledge is insufficiently used to guide deep feature evolution. To address this issue, this paper proposes CV-SSMNet, a physics-aware complex-valued state-space network with scattering-aware feature modulation for PolSAR image classification. The proposed method builds a complex-valued state-space model (CV-SSM) in the original complex domain to capture long-range spatial dependencies while preserving polarimetric amplitude-phase coupling. Meanwhile, seven physically meaningful scattering priors, are encoded as FiLM-style modulation signals to adaptively recalibrate complex-valued representations during feature evolution. CV-SSMNet further integrates multi-scale complex convolutions, branch-wise CV-SSM encoding, prior-guided recalibration, and lightweight global context aggregation, enabling physically guided representation learning from local scattering structures to global spatial context. Experiments on three L-band benchmark datasets and an additional P-band BIOMASS evaluation demonstrate that CV-SSMNet achieves competitive accuracy, improved regional consistency, and better boundary preservation, supporting the effectiveness of embedding polarimetric scattering mechanisms into complex-valued long-range GeoAI representation learning.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
   }
 ]
