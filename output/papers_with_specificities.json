@@ -31091,7 +31091,8 @@
     "applications": [
       "Classification",
       "Regression"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "HyperImageNet: A Large-Scale High-Spatial Resolution Hyperspectral Imagery Classification Benchmark",
@@ -31110,7 +31111,8 @@
     "architectures": [],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "RIM: A Retrieval-In-Matching Framework for Cross-Domain Global Visual Localization of UAVs",
@@ -31129,7 +31131,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Foundation-Assisted Active Learning for Object Detection Annotation",
@@ -31150,7 +31153,8 @@
       "Detection",
       "Classification",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Delineate Anything v2: A Global Foundation Model for Field Delineation",
@@ -31170,7 +31174,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Now We Know? A Systematic Comparison of TerraMind and THOR",
@@ -31195,7 +31200,8 @@
       "Segmentation",
       "Detection",
       "Regression"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Tensor Network Machine Learning for Wildfire Susceptibility Mapping: from Grokking Dynamics to Quantum Mixedness of Class Representations",
@@ -31225,7 +31231,8 @@
     "architectures": [],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Demodulation of chaotic signals using convolutional neural network",
@@ -31243,7 +31250,8 @@
     "architectures": [
       "CNN"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Early Yield Prediction for Sugar Beet Fields using Satellite Data -- Learnings from Specialized Vision Transformers",
@@ -31266,7 +31274,8 @@
     "applications": [
       "Detection",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "A Unified Multisensor Machine-Learning Framework for Live Fuel Moisture Content Retrieval",
@@ -31284,7 +31293,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Spatial Generalization Tests for Machine Learning-based Weather Models to Assess Physical Consistency",
@@ -31303,7 +31313,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Incomplete Observations Boost Evolutionary Performance in Ocean Modeling",
@@ -31326,7 +31337,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "BG4Sea: Biogeochemical Seasonal Forecastability via Progressive Information Scaling",
@@ -31347,7 +31359,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "STS-NET: Spatio-Temporal Stress Network for Self-Supervised Crop Stress Detection using Satellite Image Time Series",
@@ -31369,7 +31382,8 @@
     ],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "From biodiversity modelling to conservation action: a spatial indicator for prioritising tropical forest protection, restoration, and management",
@@ -31387,7 +31401,8 @@
     "architectures": [
       "SDM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Treatment Geometry and Causal Identification with Earth Observation Data",
@@ -31410,7 +31425,8 @@
       "geo_reasoning"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Physics-Aware Complex-Valued State Space Model with Scattering-Prior Feature Modulation for PolSAR Image Classification",
@@ -31431,6 +31447,308 @@
     "architectures": [],
     "applications": [
       "Classification"
+    ],
+    "is_recent": false
+  },
+  {
+    "title": "Locally Consistent Transductive Information Maximization for Few-Shot Remote Sensing Scene Classification",
+    "url": "http://arxiv.org/abs/2607.29192v1",
+    "authors": [
+      "Karim El Khoury",
+      "Beno\u00eet G\u00e9rin",
+      "Beno\u00eet Macq",
+      "Christophe De Vleeschouwer"
+    ],
+    "published": "2026-07-31",
+    "abstract": "Remote sensing scene classification is increasingly relying on foundation models pre-trained on large-scale Earth-observation data. Moreover, transductive inference, which exploits the collective statistical structure of the entire unlabeled query set, appears to naturally match remote sensing pipelines where large images are routinely split into patches and inferred as a batch. In this work, we introduce LC-TIM (Locally Consistent Transductive Information Maximization), which extends the state-of-the-art Transductive Information Maximization for Few-Shot CLIP (TIM++) objective with a local consistency regularizer that enforces prediction agreement between each query sample and its $\u03ba$ nearest feature-space neighbors. The regularizer enters as a single multiplicative factor in the closed-form $q$-update, adding negligible computational overhead. We further propose a multi-source extension that fuses the affinity graph from multiple remote sensing foundation model, further boosting classification accuracy. To assess these methods, we establish the first comprehensive, open-source benchmark for transductive few-shot RS scene classification, evaluating LP++, TransCLIP, TIM++, and LC-TIM across ten diverse datasets, two remote sensing vision-language models, and across various few-shot settings. Our experiments show that transductive methods consistently outperform zero-shot baselines, and that LC-TIM achieves state-of-the-art accuracy, with the largest gains in the low-shot regime where neighborhood cues are most informative. Code is publicly available at: https://github.com/elkhouryk/LC-TIM",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "LVM",
+      "CLIP"
+    ],
+    "applications": [
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "TerraNova: A Foundation Model for the Anthropocene",
+    "url": "http://arxiv.org/abs/2607.29527v1",
+    "authors": [
+      "Carlos Rodriguez-Pardo",
+      "Massimo Tavoni"
+    ],
+    "published": "2026-07-31",
+    "abstract": "A defining problem of the Anthropocene is to model the physical Earth and human societies as one coupled system, yet no learned representation spans their observational breadth. We argue the obstacle is geometric: the physical Earth is measured as continuous fields that ignore political borders, whereas societies are reported for administrative units. Earth-system foundation models serve the first geometry; coupling it to the second has required lossy averaging over borders. We introduce TerraNova, a foundation model trained on 1,024 physical and societal records in their native geometries: 512 gridded Earth-system fields and 512 national indicators. Dedicated encoders represent location, country, time and task, cross-modal transformers fuse them into a shared spatiotemporal state, and a hypernetwork generates a per-query decoder whose evidential head returns a predictive distribution. Two contrastive objectives couple the representation: a population-weighted alignment between each country and coordinates in its territory, and one to pretrained geospatial embeddings carrying image-derived semantics. Read out through that decoder, the representation is competitive with purpose-built geospatial encoders while spanning axes they do not represent (time, oceans and uncertainty) and supporting country-level capabilities. The frozen backbone reconstructs dense fields from sparse observations and adapts to unseen variables in minutes on consumer hardware.",
+    "categories": [
+      "ocean",
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Embeddings based Anomaly Detection for Cleaning Global Crop Type Reference Datasets",
+    "url": "http://arxiv.org/abs/2607.23908v1",
+    "authors": [
+      "Syed Roshaan Ali Shah",
+      "Kristof Van Tricht",
+      "Christina Butsko",
+      "Jeroen Degerickx",
+      "Zoltan Szantoi"
+    ],
+    "published": "2026-07-27",
+    "abstract": "High quality reference data remain a critical bottleneck for crop-type mapping at any spatial and temporal scale. Operational systems such as WorldCereal aggregate labels from heterogeneous sources such as parcel registers, national databases, field surveys, and map-derived products, each with their own biases, coverage gaps and unknown label noise. Simple global rules are inadequate, since crop phenology and observation conditions vary strongly across regions and seasons.\n  In this study, we focus on a single, operationally relevant question: whether embeddings produced through geospatial foundation models are a viable basis for cleaning the reference data. We propose a practical, locality-aware, embedding-based anomaly (EBA) detection framework that operates on the embeddings of a pretrained Earth-observation encoder. We score each labelled sample against other samples of the same crop in the same area using a pretrained embedding, flag the ones that stand out, and test whether removing or down-weighting them before training yields a better model.\n  We establish that the flagged points are genuinely mislabelled or misplaced in two independent ways: against synthetic ground truth, the detector concentrates injected label errors 2.5-5x above chance in its flagged set (detection AUROC up to 0.84); and on real data, a model-independent test shows that removing or confidence-weighting the flagged held-out points raises measured accuracy in trained models, for both crop type and land cover. Acting on the flags then improves the WorldCereal crop-type model across five macro-regions, evaluated on a fixed held-out split under three views. We find conservative cleaning helps while over-cleaning hurts.\n  The EBA detector approach is designed to be reproducible and extensible, and can serve as a template for cleaning large, noisy Earth observation reference datasets beyond crop mapping.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Large scale cross-regional remote sensing flood monitoring framework for operative mapping and impact analysis",
+    "url": "http://arxiv.org/abs/2607.28401v1",
+    "authors": [
+      "Ilya Novikov",
+      "Svetlana Illarionova",
+      "Ruslan Dzharkinov",
+      "Maria Smirnova",
+      "Ayrat Abdullin",
+      "Anna Korotkova",
+      "Mariia Ulianova",
+      "Dmitrii Shadrin",
+      "Evgeny Burnaev"
+    ],
+    "published": "2026-07-30",
+    "abstract": "Effective flood monitoring is critical for minimizing the impacts of flood disasters on populations and infrastructure. Yet reliable remote sensing across extensive and environmentally diverse regions remains challenging, as most segmentation algorithms lack the generalisation capacity required for large-scale application, while annotated flood data are scarce and unevenly distributed.\n  This study presents an end-to-end multimodal framework for Russian Federation territories sustainable flood monitoring and damage assessment based on synthetic aperture radar data, multispectral imagery, and digital elevation models with their derivatives, forming a 21-channel input. Using a self-collected multimodal dataset covering seven Russian regions, two strategies for water surface detection under limited data conditions were compared: a supervised U-Net++ model and the self-supervised AnySat architecture pre-trained and fine-tuned for the segmentation task. Under the data conditions of this study, supervised learning proved more effective, while the AnySat-based approach offered greater stability and retains advantages for settings where larger unlabelled data or missing modalities at inference are expected.\n  The best flood area predictions were used to estimate flood impact in urban areas in terms of the area affected, material damage, casualties, and ecological and agricultural impact. The estimations were conducted following the official methodology of the Russian Ministry of Emergency Situations. Applied to the 2019 Tulun flood, the obtained results closely matched official assessments, except for material damage, due to the open-source databases usage. The results demonstrate the potential of deep learning and multimodal satellite data integration for scalable, reliable flood monitoring across diverse environmental and data-limited conditions.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": [
+      "Segmentation",
+      "Detection",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "OpenPVMapper: A Multi-source, Nationwide Database of Rooftop Photovoltaic Systems in France",
+    "url": "http://arxiv.org/abs/2607.25153v1",
+    "authors": [
+      "Gabiel Kasmi"
+    ],
+    "published": "2026-07-27",
+    "abstract": "Rooftop photovoltaic (PV) systems account for the vast majority of PV grid connections, yet no open, comprehensive, installation-level dataset of these systems exists: public registries aggregate data only above a capacity threshold, and remote sensing-based detection efforts, while extensive, are typically confined to a single method, a limited geographic scope, or a single point in time. We introduce OpenPVMapper, a nationwide, multi-source database of rooftop PV installations in mainland France, built by aggregating and reconciling complementary sources: a deep learning-based detection pipeline deployed on nationwide aerial imagery, OpenStreetMap and a probabilistic building-level detection dataset. The resulting database contains 1,135,850 installations, totaling approximately 15.01~GWp of installed capacity, each documented with its provenance, detection method, and, where available, a manual validation flag. Manual review of a stratified sample of 1,862 installations places the database's overall precision at approximately 74--75\\%, with corroboration across independent sources bringing a substantial, quantified precision gain. By aggregating independent sources rather than relying on any single detection method, OpenPVMapper reaches a level of confidence beyond what any one source could provide on its own, while remaining extensible to further sources as they become available. It is released under an open (CC-BY) license alongside the full source code used to build it.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Monitoring Post-Disaster Urban Recovery Using High-Resolution SAR Time Series and Unsupervised Learning: Evidence from the 2023 T\u00fcrkiye-Syria Earthquake",
+    "url": "http://arxiv.org/abs/2607.24180v1",
+    "authors": [
+      "Luigi Russo",
+      "Deodato Tapete",
+      "Silvia Liberata Ullo",
+      "Paolo Gamba"
+    ],
+    "published": "2026-07-27",
+    "abstract": "Monitoring post-disaster recovery is essential for understanding how urban systems rebuild and progressively return to functionality. However, tracking reconstruction remains difficult because reliable ground-truth information is often scarce and recovery processes evolve over time. This paper proposes an unsupervised framework for recovery monitoring based on multi-temporal synthetic aperture radar (SAR) observations and deep-learning anomaly detection. COSMO-SkyMed time series are used to identify persistent temporal anomalies associated with reconstruction activities and to generate spatially explicit recovery maps. The framework is applied to four cities severely affected by the 2023 Turkiye-Syria earthquakes, revealing heterogeneous reconstruction dynamics across different urban contexts. The results show spatially structured patterns of persistent anomalies related to reconstruction over damaged and cleared areas, temporary container settlements, and new residential districts. Comparison with nighttime-light recovery indicators derived from SDGSAT-1 data highlights the complementary nature of the two modalities: nighttime lights reflect the restoration of electricity supply and nighttime socioeconomic activity, whereas SAR anomalies capture structural changes in the built environment and may reveal reconstruction at earlier stages. The results demonstrate that multi-temporal SAR data combined with unsupervised learning provide an effective and scalable approach for monitoring post-disaster reconstruction when labeled recovery datasets are unavailable.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Anomaly Detection",
+      "Tracking"
+    ]
+  },
+  {
+    "title": "When Less Is More: A Controlled Benchmark of Lightweight CNNs for Satellite Land-Cover Segmentation on DeepGlobe",
+    "url": "http://arxiv.org/abs/2607.23024v1",
+    "authors": [
+      "Atiq Ur Rehman",
+      "Joseph Michael Donovan"
+    ],
+    "published": "2026-07-25",
+    "abstract": "High-resolution satellite imagery is the backbone of good land-cover classification, and without that, environmental monitoring, urban planning, and sustainable resource management all fall short. Deep learning architectures perform well in semantic segmentation, but the efficiency-accuracy trade-off across classical convolutional encoders is not well quantified under controlled, reproducible conditions. This study compares five architectures VGG16, MobileNetV2, InceptionV3, AlexNet, and CNN on the DeepGlobe Land Cover Classification dataset using three progressively optimized iterations to isolate regularisation, transfer learning, and architectural depth. To ensure performance differentials reflect architectural properties, all experiments used identical preprocessing, hyperparameter, and training protocols without data augmentation or class-imbalance correction. At 24.98 MB, MobileNetV2_v1 had the highest overall accuracy (0.7906) and mean Intersection over Union (0.4625), outperforming deeper alternatives like InceptionV3_v2 (125.17 MB, accuracy 0.7610) and VGG16_v2 (71.13 MB, accuracy 0.7653). Class-wise analysis showed strength in urban, agricultural, and water categories, but rangeland-barren confusion showed that architectural optimization alone cannot optimize spectrally similar minority classes. Strong spatial generalization and crisp boundary delineation were confirmed on held-out test imagery, validating operational applicability. These results show that lightweight, transfer-learned models can match or outperform deeper models in resource-constrained remote-sensing environments, enabling scalable land-cover mapping.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": [
+      "Segmentation",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Physics-Aligned Self-Supervised Learning for Scientific Imaging",
+    "url": "http://arxiv.org/abs/2607.28868v1",
+    "authors": [
+      "Bashir Kazimi",
+      "Stefan Sandfeld"
+    ],
+    "published": "2026-07-30",
+    "abstract": "Data augmentations define the invariances learned by self-supervised learning (SSL). Standard augmentation pipelines were designed for natural images, yet scientific imaging modalities are governed by physical measurement processes with distinct symmetry and acquisition constraints. Enforcing invariances that contradict these constraints can distort learned representations and limit downstream performance, but practitioners moving from machine learning into a new scientific modality currently have little guidance beyond transferring natural-image pipelines unexamined. We address this gap with a principled, reproducible procedure for augmentation design in scientific SSL: we formalise the physics-aligned augmentation set as a union of measurement-consistent symmetries and acquisition-driven perturbations, and we give a concrete, largely label-free workflow---enumerate candidates, label each by the measurement operator, validate with representation-geometry diagnostics, and confirm by single-factor ablation---for selecting them. We instantiate the procedure for real-space electron microscopy and reciprocal-space 4D-STEM diffraction, and evaluate it across five SSL paradigms (DINOv2, SimCLR, MAE, VICRegL, I-JEPA) on classification and crystal-orientation regression. Physics-aligned augmentations substantially improve downstream performance for objectives relying on cross-view consistency, reduce geodesic error and improve robustness under realistic acquisition variability (detector gain, resolution loss), and systematically reshape representation geometry. While our experiments use electron microscopy, the procedure is modality-agnostic and applies to other measurement-driven domains such as medical and remote-sensing imaging. These results position augmentation design as a primary, and controllable, source of inductive bias in scientific self-supervised learning.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "JEPA"
+    ],
+    "applications": [
+      "Classification",
+      "Regression"
+    ]
+  },
+  {
+    "title": "Context-Informed Ship Trajectory Prediction via Conditional Attention",
+    "url": "http://arxiv.org/abs/2607.27418v1",
+    "authors": [
+      "Yuan Guan",
+      "Chandler Squires",
+      "Timothy Hu",
+      "Pradeep Ravikumar"
+    ],
+    "published": "2026-07-29",
+    "abstract": "Long-term ship trajectory prediction is a fundamental capability for maritime safety and autonomous navigation. While recent Transformer-based architectures have improved forecasting horizons, they predominantly rely on historical kinematic states, treating vessel motion as an isolated system. In reality, maritime navigation is profoundly modulated by extrinsic factors like weather and constrained by static vessel characteristics. Existing multimodal approaches fundamentally model the joint distribution over states and contexts, treating environmental variables as peer features rather than encoding the directional physical dependence of vessel dynamics on environmental conditions.\n  In this work, we propose the Conditional Informer, a novel encoder-decoder architecture that formulates trajectory prediction as a conditional generation task. We employ a dedicated Conditional Attention mechanism where the vessel state explicitly queries environmental contexts through cross-attention, encoding the physical prior that weather modulates - but is not generated by - vessel dynamics. Furthermore, to address the intermittency of real-world data, we introduce a Modality Masking training strategy to prevent catastrophic degradation during sensor fallback. Extensive experiments on AIS and ERA5 data demonstrate that our approach outperforms kinematic and concatenation-based baselines by 15.4% in prediction accuracy when context is available. Crucially, Modality Masking prevents shortcut learning, reducing fallback error by nearly an order of magnitude compared to unconstrained models.",
+    "categories": [
+      "ship_trajectories"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Polaris: a flexible stellarator demonstration experiment with simple modular coils",
+    "url": "http://arxiv.org/abs/2607.25409v1",
+    "authors": [
+      "Simon P. H. Vincent",
+      "Joaquim Loizu",
+      "Matthieu Toussaint",
+      "R\u00e9my Jacquier",
+      "J\u00e9r\u00e9my Salm",
+      "Philippe Guittienne",
+      "Matias Habib",
+      "Idil Sonmez",
+      "Christopher B. Smiet",
+      "Erol Balkovic",
+      "Rogerio Jorge",
+      "Alan G. Goodman",
+      "Ivo Furno",
+      "Christian Moura",
+      "William Matthey-Dorey",
+      "Steve Couturier",
+      "Fr\u00e9d\u00e9ric Dolizy"
+    ],
+    "published": "2026-07-28",
+    "abstract": "We present the design, construction, and first plasma experiments of Polaris, a new small-scale stellarator experiment (major radius R ~ 0.4 m) located at the Swiss Plasma Center. Polaris consists of a relatively large vacuum vessel (~0.5 m^3) predominantly made of glass windows and inside which different sets of magnetic coils can be installed. A first modular coil configuration has been designed with six identical, circular, water-cooled copper coils toroidally arranged in an optimal way so that they generate a large volume of magnetic surfaces and rotational transform in vacuum (iota ~ 0.3). The total current in each coil goes up to ~ 5 kA, producing a magnetic field on-axis of B ~ 0.03 T. An RF antenna specifically designed to operate in vacuum delivers up to 2.5 kW of power to produce plasma via inductive coupling and electron-impact ionization. We present the engineering solutions adopted for the design of Polaris and illustrate the great experimental flexibility it enables. Time-averaged values and fluctuations of plasma density, electron temperature, and floating potential are measured at various toroidal locations, providing insights into the plasma equilibrium, electrostatic turbulence, and associated transport. The glass vacuum chamber of Polaris additionally provides unprecedented optical access to the entire plasma volume. With its original, flexible design, Polaris is a 'stellarator fish-tank', allowing interchangeable coil sets and exploration of various magnetic configurations. Furthermore, its low-temperature, low-density, high-neutral-pressure plasmas are relevant to stellarator edge physics, making Polaris a first-of-kind testbed for the fundamental investigation of stellarator edge-relevant physics.",
+    "categories": [
+      "ship_trajectories"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "MARS: Multi-Agent Re-ranking for Repeat-Order Food Delivery Recommendation",
+    "url": "http://arxiv.org/abs/2607.25420v1",
+    "authors": [
+      "Jiahao Tian",
+      "Zhenkai Wang"
+    ],
+    "published": "2026-07-28",
+    "abstract": "Large language models (LLMs) are increasingly used in recommender systems, but it is often unclear how much performance can be obtained from strong pre-trained backbones alone when they are placed inside a structured recommendation pipeline. In this paper, we present MARS, a modular multi-agent re-ranking framework for repeat-order food delivery recommendation. MARS serves as a controlled hybrid framework for studying how far pre-trained LLMs can go in this setting when combined with lightweight collaborative retrieval and contextual filtering. MARS performs coarse-to-fine recommendation in two stages: cuisine prediction followed by vendor ranking. The framework combines LightGCN-based global preference signals, Swing-based local peer evidence, geospatial filtering, and prompt-driven LLM reasoning over behavioral, temporal, and geographic context. We evaluate MARS on two real-world Delivery Hero benchmarks, DHRD-SE and DHRD-SG, and compare it against heuristic, sequential, graph-based, and food-delivery-specific baselines. We also provide detailed implementation and evaluation protocols, including prompting and decoding. Our study makes three contributions. First, it presents a modular multi-agent framework for repeat-order food delivery recommendation that integrates collaborative signals and LLM-based re-ranking in a transparent pipeline. Second, it shows that strong pre-trained backbones can already be competitive in repeat-order recommendation when paired with lightweight collaborative retrieval. Third, it establishes a reproducible evaluation setting for hybrid LLM recommenders in food delivery.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Anticipatory Data Governance in the Age of AI: Emerging Signals in Data Access, Reuse, and Sovereignty",
+    "url": "http://arxiv.org/abs/2607.27029v1",
+    "authors": [
+      "Adam Zable",
+      "Stefaan Verhulst"
+    ],
+    "published": "2026-07-29",
+    "abstract": "This paper reports findings from a structured participatory foresight study comprising two expert forecasting studios convened by The GovLab between 2025 and 2026. The studios brought together nineteen senior practitioners spanning official statistics, digital and trade policy, open science, AI governance, geospatial systems, and public-sector innovation across multiple jurisdictions. Applying a qualitative signal-scanning methodology grounded in the horizon-scanning and anticipatory-governance traditions, we elicited, clustered, and thematically synthesized emerging developments in data access, governance,and reuse, and stress-tested them against practitioner experience. We identify seven convergent signals: (1) the open-data paradigm is under strain; (2) data ecosystems are becoming machine-centric and AI-mediated; (3) inference is reshaping the foundations of data governance;(4) data infrastructure is becoming harder to sustain; (5) governance is fragmenting across institutions and jurisdictions; (6) sovereignty and security are driving a turn toward strategic control; and (7) data-sharing models require stronger incentives and benefit-sharing mechanisms. We further map the reinforcing feedback loops that couple these signals, showing how interventions in one domain propagate risks and opportunities across the wider ecosystem. We argue that data governance is becoming inseparable from AI governance, digital public infrastructure, economic strategy, democratic resilience, and geopolitical competition, and we outline an agenda for anticipatory data governance capable of adapting before dependencies, risks, and missed opportunities become locked in. The contribution is diagnostic rather than predictive: the signals offer an evidence-informed framework for reasoning about structural shifts already underway, not a forecast of specific technological outcomes.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "OVEarth-Bench: Evaluating Category Breadth and Query Diversity for Open-Vocabulary Earth Observation",
+    "url": "http://arxiv.org/abs/2607.27278v1",
+    "authors": [
+      "Kaiyu Li",
+      "Zepeng Xin",
+      "Zixuan Jiang",
+      "Jing Fu",
+      "Lanxuan Xue",
+      "Lingyu Zhang",
+      "Xiangyong Cao"
+    ],
+    "published": "2026-07-29",
+    "abstract": "Open-vocabulary Earth observation (EO) aims to localize geospatial concepts specified in natural language rather than a fixed label set. Existing benchmarks, however, usually cover narrow category vocabularies or limited query forms. To fill this gap, we introduce OVEarth-Bench, which extends existing evaluation in two directions: category breadth, through broad hierarchical category coverage with positive and negative expressions, and query diversity, through vocabulary, referring, and reasoning queries. The benchmark supports mask and box localization under a unified zero-shot protocol. We evaluate a broad set of general and EO-specific methods. The evaluation reveals that: (1) the performance of current methods remains limited, while broader category coverage yields more stable model rankings; (2) MLLM-based methods achieve the strongest overall performance; and (3) EO-specific methods generally underperform general models and rarely match the strongest methods. These findings provide guidance for future open-vocabulary EO method design and highlight the importance of developing more realistic, diverse, high-quality, and large-scale benchmarks for reliable evaluation. Our data and evaluation package are released at https://earth-insights.github.io/OVEarth-bench.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Beyond Zooming: Learning Multi-Tool Visual Reasoning for Ultra-High-Resolution Remote Sensing",
+    "url": "http://arxiv.org/abs/2607.25993v1",
+    "authors": [
+      "Fengxiang Wang",
+      "Jiangnan Huang",
+      "Mingshuo Chen",
+      "Yueying Li",
+      "Yang Shi",
+      "Junwei Luo",
+      "Haoyu Wang",
+      "Yansheng Li",
+      "Jing Zhang",
+      "Haiyan Zhao",
+      "Wenjing Yang"
+    ],
+    "published": "2026-07-28",
+    "abstract": "Ultra-high-resolution (UHR) remote-sensing (RS) imagery provides fine-grained Earth-observation evidence over city-scale scenes, but poses a fundamental challenge for multimodal large language models (MLLMs): task-relevant evidence is often sparse, local, and spatially dispersed across extremely large visual contexts. A natural solution is to equip MLLMs with zoom-in tools for active local inspection. However, through a pilot study on XLRS-Bench, we find that zoom-in is only partially effective: it resolves easy and medium-level tasks with locally recoverable evidence, but saturates on hard cases requiring global search, multi-region comparison, path planning, or dispersed-evidence reasoning. Motivated by this finding, we move beyond single-tool zoom-in and introduce GeoMTVR, a large-scale Geospatial Multi-Tool Visual Reasoning dataset built from wide-area satellite imagery. GeoMTVR contains 13K UHR VQA samples with interleaved reasoning trajectories, diverse visual tool calls, and returned visual observations, enabling models to learn question decomposition, tool selection, regional inspection, object-level grounding, auxiliary visual reasoning, and cross-tool evidence integration. Beyond supervised fine-tuning, we propose a tool-attention-focused reinforcement learning algorithm that concentrates optimization on critical tool-use decisions, including when to invoke tools, which tool to select, where to apply it, and how to interpret tool outputs. By combining SFT on GeoMTVR with our RL algorithm, we develop GeoLens, a multi-tool visual reasoning MLLM for UHR RS. Experiments show that GeoLens consistently outperforms direct reasoning and single-tool zoom-in baselines, achieving stronger accuracy, better evidence grounding, and more efficient tool-use trajectories.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Reinforcement Learning"
     ]
   }
 ]
