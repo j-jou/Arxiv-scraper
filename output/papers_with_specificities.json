@@ -31471,7 +31471,8 @@
     "applications": [
       "Classification",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "TerraNova: A Foundation Model for the Anthropocene",
@@ -31489,7 +31490,8 @@
     "architectures": [
       "Transformer"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Embeddings based Anomaly Detection for Cleaning Global Crop Type Reference Datasets",
@@ -31509,7 +31511,8 @@
     "architectures": [],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Large scale cross-regional remote sensing flood monitoring framework for operative mapping and impact analysis",
@@ -31537,7 +31540,8 @@
       "Segmentation",
       "Detection",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "OpenPVMapper: A Multi-source, Nationwide Database of Rooftop Photovoltaic Systems in France",
@@ -31553,7 +31557,8 @@
     "architectures": [],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Monitoring Post-Disaster Urban Recovery Using High-Resolution SAR Time Series and Unsupervised Learning: Evidence from the 2023 T\u00fcrkiye-Syria Earthquake",
@@ -31574,7 +31579,8 @@
       "Detection",
       "Anomaly Detection",
       "Tracking"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "When Less Is More: A Controlled Benchmark of Lightweight CNNs for Satellite Land-Cover Segmentation on DeepGlobe",
@@ -31594,7 +31600,8 @@
     "applications": [
       "Segmentation",
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Physics-Aligned Self-Supervised Learning for Scientific Imaging",
@@ -31614,7 +31621,8 @@
     "applications": [
       "Classification",
       "Regression"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Context-Informed Ship Trajectory Prediction via Conditional Attention",
@@ -31635,7 +31643,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Polaris: a flexible stellarator demonstration experiment with simple modular coils",
@@ -31665,7 +31674,8 @@
       "ship_trajectories"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "MARS: Multi-Agent Re-ranking for Repeat-Order Food Delivery Recommendation",
@@ -31684,7 +31694,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Anticipatory Data Governance in the Age of AI: Emerging Signals in Data Access, Reuse, and Sovereignty",
@@ -31701,7 +31712,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "OVEarth-Bench: Evaluating Category Breadth and Query Diversity for Open-Vocabulary Earth Observation",
@@ -31721,7 +31733,8 @@
       "geo_reasoning"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Beyond Zooming: Learning Multi-Tool Visual Reasoning for Ultra-High-Resolution Remote Sensing",
@@ -31749,6 +31762,429 @@
     ],
     "applications": [
       "Reinforcement Learning"
+    ],
+    "is_recent": false
+  },
+  {
+    "title": "Overcoming Attention Drift: Homogeneity-Heterogeneity Guided Feature Aggregation for Low-Light Remote Sensing Image Enhancement",
+    "url": "http://arxiv.org/abs/2608.05843v1",
+    "authors": [
+      "Yaozi Zhong",
+      "Xingxing Yang",
+      "Shaohui Mei",
+      "Mingyang Ma"
+    ],
+    "published": "2026-08-06",
+    "abstract": "Restoring high-fidelity remote sensing imagery from extreme low-light degradation is indispensable for reliable Earth observation and downstream machine vision. However, under severe noise and illumination corruption, existing methods suffer from attention drift, erroneously aggregating features across distinct physical boundaries and causing severe structural blurring and color distortion. To address this, we propose HALO, a dual-prior-driven enhancement framework that formulates enhancement as a guided feature aggregation problem driven by foundation model priors. Specifically, an illumination-invariant semantic prior provides regional homogeneity as a positive bias for content-consistent aggregation, while a pseudo-3D topological prior provides boundary heterogeneity as a negative penalty to strictly prevent cross-boundary confusion. To cooperatively incorporate these two priors, we propose a Homogeneity-Heterogeneity Cooperative Attention Module (H2CAM) to resolve feature conflicts during cross-modal prior fusion. Extensive experiments demonstrate that HALO achieves state-of-the-art performance across 8 challenging synthetic and real-world remote sensing benchmarks, significantly improving physical boundary sharpness and color fidelity while maximizing the preservation of discriminative features for downstream Earth observation tasks.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "LoRetta: A Foundation Model and Extensive Dataset for Global-Scale Remote Sensing Dense Image Matching",
+    "url": "http://arxiv.org/abs/2608.04106v1",
+    "authors": [
+      "Siwei Yu",
+      "Han Guo",
+      "Zhenwei Shi",
+      "Zhengxia Zou"
+    ],
+    "published": "2026-08-04",
+    "abstract": "Dense image matching establishes pixel-wise correspondences and underpins broad applications in computer vision and photogrammetry. However, extending dense matching to global-scale remote sensing remains challenging because image pairs may differ in acquisition time, season, viewpoint, spatial resolution, and land-cover state. The resulting large geometric offsets, partial overlap, and intrinsically unmatchable regions make direct dense correspondence prediction unreliable and inefficient. We thus reformulate dense matching as localization-and-registration: first localizing the matchable overlap and affine geometry, then refining dense residuals within the aligned frame. Based on this formulation, we propose LoRetta, a foundation model coupling matchability-aware affine localization with guided dense registration. We also introduce LEVIR-GM, a global-scale multi-temporal optical matching benchmark with dataset-native matchability labels (103K aligned, 827K augmented pairs, six continents, five years, 0.5-1024 m resolution). We further establish a unified evaluation protocol for sparse, semi-dense, and dense matchers. On LEVIR-GM, LoRetta achieves an area under the curve (AUC) of 83.3%, outperforming the strongest baseline RoMa v2 by 1.6 points, with larger percentage of correct keypoints (PCK) gains of 6.5 and 8.2 points at 1 and 2 pixels, while reducing inference latency by 47.8%. Astronaut-to-satellite and unmanned aerial vehicle (UAV)-to-satellite geolocalization experiments further demonstrate its transferability as a reusable geometric aligner.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
     ]
+  },
+  {
+    "title": "Multi-Year Geospatial Reasoning using Interannually-Consistent Historical Predictions as a Free Input Modality",
+    "url": "http://arxiv.org/abs/2608.05979v1",
+    "authors": [
+      "Syed Roshaan Ali Shah",
+      "Kasper Bonte",
+      "David Bekaert",
+      "Kristof Van Tricht",
+      "Dieter Wens"
+    ],
+    "published": "2026-08-06",
+    "abstract": "Machine learning, and deep networks in particular, are increasingly used to derive higher-level Earth observation (EO) products such as annual land-cover and crop-type maps. Many are generated operationally: each year a new acquisition is processed, typically with the same model, extending a multi-year archive. In the process these systems accumulate two kinds of useful signal that are almost never fed back into the model: the system's own archive of past predictions, and ancillary layers produced by other partners in a processing consortium. Both are normally used outside the network, as rule-based post-processing or a fixed input mask. Using the Copernicus Land Monitoring Service High Resolution Layer (HRL) Croplands crop-type product as a testbed, we show that bringing both signals inside the model turns a single-year, single-task pixel classifier into one that reasons across years. We introduce a Crop Type (CTY) embedding encoder that represents each past prediction as a confidence-scaled, time-ordered categorical token and attends over the year axis, and we study how the externally provided Base Vegetation Layer (BVL) mask should be represented in the model's inputs and outputs. To compare designs fairly when they relabel non-crop pixels, we evaluate on the 18 crop classes only and report precision and recall separately. On a pan-European dataset of about 5.4M labelled pixels, adding the prediction history raises crop-only F1 by 1.6 percentage points (pp) and, more importantly, corrects a recall-skewed error profile, with the largest gains on perennial and tree crops (olives +4.6, fruits +3.7, nuts +3.2 pp). Representing the BVL mask consistently in both the history and the target year adds about 2.5 pp on the crop classes. The approach is a low-cost recipe for any recurring geospatial or foundation model that emits class maps.",
+    "categories": [
+      "foundation_model",
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Above-ground Biomass Estimation with Geospatial Foundation Models",
+    "url": "http://arxiv.org/abs/2608.04792v1",
+    "authors": [
+      "Ghjulia Sialellia",
+      "Linus Scheibenreif",
+      "Jan Dirk Wegner",
+      "Konrad Schindler"
+    ],
+    "published": "2026-08-05",
+    "abstract": "Accurate estimation of Above-Ground Biomass (AGB) from satellite imagery is essential for the large-scale monitoring of carbon stocks, yet it remains a challenging regression task at global scale. Geospatial Foundation Models (GFMs) have recently emerged as a promising machine learning paradigm to derive general-purpose representations from Earth observation data, but their utility for quantitative regression tasks like biomass estimation remains largely unexplored, as most benchmarks emphasize classification and segmentation. Here, we present a comprehensive benchmark of GFMs for global-scale AGB estimation using the AGBD dataset, a machine learning-ready benchmark spanning diverse biomes and geographies. We distinguish two ways in which GFMs reach practitioners: (i) models distributed as weights to be run by the user, which we evaluate as frozen encoders within the PANGAEA benchmarking framework; and (ii) models distributed as ready-to-use, pre-computed embedding products, for which we evaluate AlphaEarth Foundations (AEF) and TESSERA. We compare 11 GFMs available on PANGAEA and both embedding products against a fully supervised state-of-the-art (SOTA) model, assess their geographical and temporal generalization abilities, as well as agreement with the ESA CCI biomass product on independent reference data. Our results show that GFMs run as frozen encoders substantially underperform with respect to the supervised SOTA model, whereas pre-computed embedding products prove highly effective. An MLP trained on AEF embeddings outperforms the supervised SOTA model trained on AGBD features, and the same SOTA model trained on AEF embeddings (optionally augmented with selected raw features) achieves the best overall result, while also generalizing better across space and time.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Classification",
+      "Regression"
+    ]
+  },
+  {
+    "title": "How Usable Are Geospatial Foundation Models? A Systematic Evaluation of 89 Models",
+    "url": "http://arxiv.org/abs/2608.03804v1",
+    "authors": [
+      "Robin Young",
+      "Artyom Gabtraupov",
+      "Kenzy Soror",
+      "Srinivasan Keshav"
+    ],
+    "published": "2026-08-04",
+    "abstract": "Geospatial foundation models (GeoFMs) offer transformative potential for environmental monitoring, yet adoption among ecologists is uneven. Most evaluations are model-centric, focusing on architecture and benchmark accuracy, which overlooks whether the systems are usable by their intended audiences. To address this gap, we first conducted a pilot expert elicitation survey with ecology and conservation scientists that helped us identify misalignments between current GeoFM development priorities and their needs. Informed by these findings and based on HCI theory, we created a seven-dimension evaluation covering Access & Deployment, Interaction & Customization, Trust & Transparency, Community & Support, Scientific Permanence, Multilingual Support, and Offline Usability. Then, two raters applied this rubric to 89 GeoFMs. We found distinct accessibility gaps where nearly a third provide no support to practitioners beyond their source code. Dimensions along which ratings were highly consistent function as field-level diagnostics, revealing where there is room for improvement for current GeoFMs.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "GEOID-Flood: A Large-Scale Multi-Modal Benchmark Dataset for Flood Segmentation",
+    "url": "http://arxiv.org/abs/2608.02315v1",
+    "authors": [
+      "Gaetano Chiriaco",
+      "Luca Barco",
+      "Andrea Bragagnolo",
+      "Claudio Rossi",
+      "Edoardo Arnaudo"
+    ],
+    "published": "2026-08-03",
+    "abstract": "Geospatial foundation models aim to learn representations that transfer across regions and sensors, yet evaluating them on specific tasks requires large, high-quality, multi-modal benchmarks that measure how well such models extract value from data. Concerning flood mapping, existing datasets rarely combine bi-temporal SAR and co-registered optical imagery at scale, leaving the value of foundation models for this downstream task largely untested. We introduce GEOID-Flood, a large-scale multi-modal flood segmentation benchmark, derived from Copernicus Emergency Management Service activations, spanning 219 events across 65 countries over ten years. The dataset provides more than 14,000 tiles with co-registered pre- and post-event Sentinel-1, in GRD and RTC format, pre-event Sentinel-2 composite, and DEM, including manually validated labels that separate background from permanent water and flooded water. Using this benchmark, we evaluate foundation models against conventional encoders across single-image, multi-temporal, and multi-modal protocols. We report three main findings: foundation models offer a consistent but modest advantage; optical-SAR fusion with finetuning best resolves transient flooding; and models trained on GEOID-Flood transfer to unseen events better than those trained on existing datasets. Dataset and code available at https://github.com/links-ads/geoid-flood.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "GeoCore-9B: Towards Geo-Aware Generative Foundation Models in Earth Observation",
+    "url": "http://arxiv.org/abs/2608.01896v1",
+    "authors": [
+      "Jeonghyeok Do",
+      "Munchurl Kim"
+    ],
+    "published": "2026-08-03",
+    "abstract": "Existing generative models for earth observation (EO) predominantly rely on fine-tuning natural image priors, which limits their scalability and introduces perspective biases that conflict with geospatial constraints. To address this, we introduce GeoCore-9B, a 9-billion-parameter generative foundation model, which is the first of its scale to be trained from scratch exclusively on EO data. Unlike previous EO foundation models, GeoCore-9B is built upon a Flow Matching-based Diffusion Transformer (DiT) and natively conditions generation on text descriptions and continuous geospatial metadata, including ground sample distances, latitudes, and longitudes. To overcome the convergence and spatial disorientation challenges of training at this scale, we propose a Geospatial Semantic Alignment loss. This objective distills structural Earth surface priors (e.g., terrain and urban areas) from a frozen specialist teacher network, constraining the diffusion latent trajectory during training without adding inference overhead. Pre-trained on the global-scale Git-10M dataset, GeoCore-9B demonstrates strong downstream versatility. Beyond standard proxy generative tasks, we show that GeoCore-9B can be effectively adapted for practical EO applications, including highly challenging tasks such as cloud removal and SAR-to-optical cross-modal translation. Extensive evaluations confirm that GeoCore-9B establishes new state-of-the-art performance in both visual fidelity and geographic structural accuracy.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "SPECTRA: Band-Routed Embedding and Stage-Wise LoRA for Cross-Sensor Fine-Tuning of Geospatial Foundation Models",
+    "url": "http://arxiv.org/abs/2608.01751v1",
+    "authors": [
+      "Xingyan Li",
+      "Jordan A. Caraballo-Vega",
+      "Jie Gong",
+      "Mark L. Carroll",
+      "Jianwu Wang"
+    ],
+    "published": "2026-08-03",
+    "abstract": "Geospatial foundation models (GeoFMs), pretrained on large-scale geospatial data such as Earth observation (EO), climate, and weather data, have shown promising performance when fine-tuned on diverse downstream tasks. However, there are two challenges of adapting EO-pretrained GeoFMs to practical downstream datasets. The first challenge is how to handle spectral mismatch: pretrained patch embeddings expect a fixed set of input bands, whereas downstream sensors may provide different channels. The second challenge is how to reduce fine-tuning cost and make it efficient. While existing work has made efforts on these challenges individually, jointly improving fine-tuning performance under spectral mismatch while reducing adaptation cost remains underexplored. We propose SPECTRA, a parameter-efficient fine-tuning framework that addresses both spectral mismatch and adaptation cost. To handle spectral mismatch, SPECTRA introduces Band-Routed Embedding (BRE), which maps all available downstream bands into the band space expected by the pretrained GeoFM. By using BRE, all available bands in the downstream dataset are utilized to improve the selected-band input without changing the pretrained patch embedding interface. To reduce adaptation cost, SPECTRA further introduces a Stage-wise Transferability-aware LoRA (ST-LoRA) fine-tuning. ST-LoRA estimates stage-wise transferability before fine-tuning and assigns stage-specific LoRA ranks, concentrating trainable parameters on the stages with high transferability for the target task. Across three EO-pretrained GeoFMs and four downstream segmentation datasets, experiments show that BRE improves performance by utilizing all spectral bands, while ST-LoRA reduces trainable parameters compared with full fine-tuning and standard LoRA. Code is available at https://github.com/big-data-lab-umbc/SPECTRA.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "Earth Embeddings",
+    "url": "http://arxiv.org/abs/2608.03410v1",
+    "authors": [
+      "Adam J. Stewart",
+      "Heng Fang",
+      "Isaac A. Corley",
+      "Xiao Xiang Zhu"
+    ],
+    "published": "2026-08-04",
+    "abstract": "Earth observation is moving from foundation models that users must run themselves toward embedding products that package model feature outputs as reusable data without needing to download and process the imagery used to generate them. Earth embeddings are vectors that summarize locations, image patches, or pixels, letting users analyze compact features instead of repeatedly training or running large models on raw satellite imagery. This chapter explains the main types of Earth embeddings, from implicit location encoders to explicit patch and pixel products, and compares their coverage, resolution, dimensionality, storage cost, licenses, and reproducibility. We review their use in land cover and crop mapping, ecological and hazard modeling, socioeconomic prediction, and semantic search, with evidence on when embeddings improve on conventional features and when pooling, fusion, or spatial transfer limit performance. Two case studies show practical workflows for similarity search and land cover mapping. We close with guidance for choosing, evaluating, storing, compressing, and publishing embeddings, and with open problems in oceanic and atmospheric coverage, uncertainty, and benchmarking.",
+    "categories": [
+      "ocean",
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "SLED: Scalable Location Encoding via Distillation",
+    "url": "http://arxiv.org/abs/2608.06612v1",
+    "authors": [
+      "Kevin Lane",
+      "Zhongying Wang",
+      "Esther Rolf",
+      "Morteza Karimzadeh"
+    ],
+    "published": "2026-08-06",
+    "abstract": "The plethora of readily available geospatial data offers exciting opportunities to learn high quality representations of the planet, but the sheer size of the Earth Observations (EO), differing modalities, and different sensor types pose significant challenges in doing so. Location encoders have emerged as an efficient way of compressing EOs into location-specific embeddings. However, current state-of-the-art location encoders rely on computationally expensive CLIP-style frameworks that require large batch sizes in the 16K--32K range, suffer from false negative samples, and scale poorly with additional modalities. We introduce the Scalable Location Encoder via Distillation (SLED), a distillation-based location encoder that uses geospatial location as a binding modality to pretrain location encoders with any modality of geospatial data. The resulting location encoder framework is lightweight, modular, and can flexibly incorporate multiple modes, while eliminating the need for spatiotemporal coregistration of samples. SLED is performant with batch sizes as small as 128, enabling pretraining at a fraction of the runtime and compute costs of current state-of-the-art models. We demonstrate our approach by pretraining unimodal and multimodal SLED models on Sentinel-1, Sentinel-2, and Landsat imagery. We show that both unimodal and multimodal SLED models keep pace with or outperform existing approaches on a diverse set of 19 human-centric benchmark tasks and explore the benefits of using additional modes in pretraining.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "CLIP"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Geo-Embed: Towards Unified Multimodal Embeddings for Urban Understanding",
+    "url": "http://arxiv.org/abs/2608.03826v1",
+    "authors": [
+      "Jiapeng Li",
+      "Yong Li",
+      "Junjie Zhou",
+      "Fan Zhang",
+      "Yu Liu"
+    ],
+    "published": "2026-08-04",
+    "abstract": "Geospatial and urban applications increasingly require models to compare heterogeneous evidence across street-view imagery, remote-sensing observations, text descriptions, region proposals, and temporal change cues. However, existing multimodal embedding models and benchmarks are still largely designed and evaluated around general-purpose image-text matching, leaving unclear whether unified embedding space can support heterogeneous geospatial tasks involving spatial relationships, fine-grained semantics, and temporal changes. To address this gap, we make three key contributions. First, we introduce GeoMEB, a large-scale multimodal embedding benchmark that standardizes 45 urban evaluation tasks across retrieval, visual question answering, change detection, classification, and visual grounding, together with training collections comprising 1.32M examples and 286K evaluation queries. Second, we present Geo-Embed, a unified embedding model that adapts a shared vision-language backbone to instruction-conditioned query-target matching over heterogeneous geospatial inputs, including single images, multiple images, text, regions, and masks. On GeoMEB, Geo-Embed achieves the strongest overall performance among representative multimodal embedders, with a 15.3% relative improvement over the strongest baseline. These results motivate future geospatial embedders that organize training and evaluation around explicit query-target relations, including semantic, cross-view, region-level, and temporal correspondence.",
+    "categories": [
+      "foundation_model",
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "On the Effectiveness of Adaptation Strategies for VLM-Based Federated Learning in Remote Sensing",
+    "url": "http://arxiv.org/abs/2608.04791v1",
+    "authors": [
+      "Simon L\u00f6sche",
+      "Bar\u0131\u015f B\u00fcy\u00fckta\u015f",
+      "Mathis Adler",
+      "Angelos Zavras",
+      "Ioannis Papoutsis",
+      "Beg\u00fcm Demir"
+    ],
+    "published": "2026-08-05",
+    "abstract": "Federated learning (FL) enables collaborative training of deep learning models across decentralized image archives without requiring data centralization. This paradigm is particularly relevant in remote sensing (RS), where legal regulations, privacy concerns, and bandwidth constraints restrict data sharing. However, the presence of training data heterogeneity across clients (known as non-IID data) can impede convergence and limit the generalization capability of the aggregated global model. To mitigate the adverse effects of training data heterogeneity, vision-language models (VLMs) can be leveraged in FL due to their transferable representations, which have demonstrated robustness under distribution shifts. However, their large parameter size may substantially increase communication overhead and local computational complexity in federated settings. Therefore, it is crucial to select an appropriate VLM adaptation strategy that balances the generalization ability with the communication and computational constraints. To address this issue, in this paper, we present the first comparative study of VLM adaptation strategies for FL in the context of RS image classification. We investigate full fine-tuning, encoder-specific fine-tuning, prompt learning, and low-rank adaptation (LoRA) tuning, and analyze them with respect to three criteria: 1) generalization capability under non-IID data, 2) communication overhead, and 3) local computational complexity. Experiments on BigEarthNet-S2, EuroSAT, RESISC45, and ImageNet reveal distinct trade-offs between task specialization, cross-domain generalization, and efficiency. Based on our findings, we derive a guideline for the selection of an appropriate VLM adaptation strategy in FL for RS image classification under different operational constraints. The code of this work is publicly available at https://git.tu-berlin.de/rsim/FL-RS-VLM.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Design Choices That Matter: A Functional ANOVA Analysis for Remote Sensing Multi-Label Classification",
+    "url": "http://arxiv.org/abs/2608.04702v1",
+    "authors": [
+      "Maryam Gholami Shiri",
+      "Eva Tuba",
+      "Sa\u0161o D\u017eeroski",
+      "Tome Eftimov",
+      "Ana Nikolikj"
+    ],
+    "published": "2026-08-05",
+    "abstract": "Benchmarking deep learning (DL) models for multi-label classification (MLC) of remote sensing images (RSI) typically yields rankings that do not generalize beyond the evaluated datasets. In this work, we move beyond rankings by employing functional analysis of variance (fANOVA) to systematically quantify the contributions of individual design choices and their interactions to performance variability. We conduct two empirical analyses covering 48 and 20 DL models, respectively, spanning design choices such as network architecture, fine-tuning strategy, learning strategy, and initialization. By applying fANOVA across seven MLC RSI datasets, we construct dataset meta-representations that capture design-choice sensitivity profiles. Hierarchical clustering of these meta-representations reveals that datasets naturally group according to how they respond to design decisions, with patterns strongly linked to intrinsic dataset properties such as scale, spatial resolution, and label space complexity. Our findings show that for large-scale datasets, fine-tuning strategy and architecture are dominant factors, while in data-limited regimes, initialization becomes decisive. For intermediate regimes, the interaction between architecture and learning strategy governs performance.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Global-Scale Self-Supervised Spatiotemporal Learning for NDVI Time-Series Reconstruction",
+    "url": "http://arxiv.org/abs/2608.02322v1",
+    "authors": [
+      "Ang Li",
+      "Menghui Jiang",
+      "Xiaobin Guan",
+      "Dong Chu",
+      "Huanfeng Shen"
+    ],
+    "published": "2026-08-03",
+    "abstract": "Accurate and efficient reconstruction of cloud-contaminated and noise-corrupted NDVI time series remains a challenge in remote sensing. Deep learning provides a promising solution for modeling complex spatiotemporal dependencies; however, its application is often limited by the difficulty of obtaining paired clear-sky and degraded NDVI data for identical spatiotemporal locations. To address this issue, we propose GloSSR, a Global-scale Self-supervised Spatiotemporal framework for NDVI Reconstruction. The framework constructs supervisory signals by artificially degrading relatively clean NDVI observations with realistic cloud contamination patterns, producing self-supervised training pairs that closely mimic real-world degradation. It further introduces an end-to-end spatiotemporal learning network that jointly captures long-range temporal dependencies and short-term spatiotemporal correlation through a bidirectional Transformer with a ConvLSTM architecture. A temporal-channel attention-based reconstruction module is incorporated to enhance informative features, while a spatiotemporal prior constraint is designed to preserve both fine-scale structures and long-term phenological trends during optimization. Extensive evaluations on MODIS NDVI data demonstrate the effectiveness of the proposed framework across both artificial and real-world scenarios. In artificial degraded-pixel reconstruction experiments, GloSSR consistently outperforms the comparison methods. Time-series analyses based on real observations further demonstrate that the proposed framework can accurately characterize vegetation dynamics and capture the key phenological states. Long-term vegetation trend analysis and the transferability analysis to AVHRR data validate the scalability of the framework and illustrate its broad applicability for large-scale environmental monitoring.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Breaking Diversity Collapse in Spiking Pseudo-Ensembles for Efficient OOD Detection in Remote Sensing",
+    "url": "http://arxiv.org/abs/2608.01090v1",
+    "authors": [
+      "Srinivas Anumasa",
+      "Rushi Shah",
+      "Qiran Zou",
+      "Dianbo Liu"
+    ],
+    "published": "2026-08-02",
+    "abstract": "Spiking Neural Networks (SNNs) are attractive for resource-constrained remote-sensing systems, but reliable out-of-distribution (OOD) detection remains challenging. Deep ensembles provide strong predictive uncertainty, yet require multiple complete models and backbone evaluations. We propose an efficient spiking pseudo-ensemble that attaches multiple lightweight classification heads to a frozen SNN backbone. Naively training these heads with cross-entropy can lead to diversity collapse, where independently parameterized heads may produce correlated predictions. To address this, we introduce an agree--disagree objective that preserves correct predictions on clean in-distribution samples while encouraging diversity on structured, uncertainty-inducing transformations of the same inputs. This provides a diversity-promoting training signal without requiring external OOD data. Experiments with Spikformer and ResNet19-SNN on EuroSAT demonstrate consistent improvements over conventionally trained pseudo-ensembles. Using three backbones with five heads each matches or improves upon a five-model deep ensemble on UCM and AID, while requiring approximately 38% fewer parameters and 40% fewer backbone evaluations. These results show that explicit diversity promotion can recover useful ensemble-style uncertainty at substantially lower deployment cost.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "GeoArbiter: Verifiability-Guided Grounding for Remote-Sensing Multimodal LLMs",
+    "url": "http://arxiv.org/abs/2608.00877v1",
+    "authors": [
+      "Xuechen Li"
+    ],
+    "published": "2026-08-01",
+    "abstract": "Remote-sensing multimodal large language models (MLLMs) often assert facts that imagery cannot establish, such as a facility's identity or function. Coordinate-keyed geographic retrieval can supply this missing knowledge, improving fMoW land-use accuracy by 12.06--17.19 points across three open MLLMs. However, retrieved records can also contradict visible evidence, and we find that models frequently follow the records even when the image is decisive. We argue that source trust should therefore depend on \\emph{cross-modal verifiability}: geographic records are most useful for attributes the image cannot verify and most dangerous when they dispute visually verifiable attributes. We introduce GeoArbiter, a training-free pipeline that operationalizes this principle by injecting only image-unverifiable geographic facts. Unlike arbitration prompts, which leak across attribute types and bias yes/no responses, content-level filtering preserves 84.69--87.15\\% of the full-retrieval accuracy gain, reduces claim-level hallucination by 9.58--26.34\\% under a source-blinded judge, and improves robustness to conflicting records across all three models. These results identify verifiability-guided content selection as a simple, effective mechanism for grounding remote-sensing MLLMs in fallible geographic knowledge.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Transferable Dual-Stream Representations for Mesoscale-Preserving Sea Surface Temperature Downscaling",
+    "url": "http://arxiv.org/abs/2608.04230v1",
+    "authors": [
+      "Parth Doshi",
+      "Priyanka Aravindan",
+      "Vaishnav Vaidheeswaran",
+      "Md Mahbub Alam",
+      "Gabriel Spadon"
+    ],
+    "published": "2026-08-04",
+    "abstract": "Deep learning models for scientific spatio-temporal downscaling often minimize reconstruction error while failing to preserve physically meaningful multi-scale structure. For sea surface temperature prediction, this can yield outputs that are numerically plausible yet overly smooth, missing mesoscale variability critical to regional ocean dynamics. Existing methods often focus on pixel-wise objectives or single-context conditioning, which limits their ability to preserve spectral fidelity and generalize across regions. To address this, we propose EddyFlow, a representation learning framework for kilometer-scale sea surface temperature downscaling that balances predictive accuracy, scale-dependent structure, and regional generalization. EddyFlow is trained on the Gulf of St.~Lawrence and evaluated in zero-shot and few-shot settings on the Bay of Fundy and the Gulf of Mexico. EddyFlow demonstrates that physics-informed representation learning reduces zero-shot RMSE by 21%, achieves up to 85.6% skill relative to persistence on unseen domains, and maintains near-ideal spectral fidelity with a PSD ratio of $\\approx 1.00$.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "PINN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "FESOM2-JAX v1.0: a differentiable shadow of the ocean-sea-ice model FESOM2, cast onto GPUs",
+    "url": "http://arxiv.org/abs/2608.01546v1",
+    "authors": [
+      "Nikolay V. Koldunov",
+      "Sergey Danilov",
+      "Suvarchal Cheedela",
+      "Dmitry Sidorenko",
+      "Sebastian Beyer",
+      "Patrick Scholz",
+      "Ivan Kuznetsov",
+      "Jan Streffing",
+      "Aleksei Koldunov",
+      "Dmitrii Pantiukhin",
+      "Svetlana N. Loza",
+      "Thomas Jung"
+    ],
+    "published": "2026-08-02",
+    "abstract": "We present FESOM2-JAX, a Python re-implementation of the Finite-volumE Sea ice-Ocean Model (FESOM2) in JAX. The model retains the unstructured-mesh, cell-vertex finite-volume formulation of the original, runs unchanged from a laptop CPU to 256 GPUs, and is end-to-end differentiable. FESOM2-JAX is a code shadow of the Fortran model: a projection onto the Python ecosystem, translated with large language models and verified kernel by kernel against the original. It is built to lower the barrier to experimentation, from new numerics and parameterizations to gradient-based calibration and hybrid physics-machine-learning components, while remaining close enough to the original so that what is developed in the shadow can be transferred back. In a 1958-2019 hindcast at 1$^{\\circ}$ equivalent resolution with identical physics and forcing, the mean states of the JAX and Fortran versions differ from each other by two orders of magnitude less than either differs from observations, and the two runs agree for six decades in global temperature, salinity, heat content, and sea ice. The complete 1$^{\\circ}$ configuration fits on a single GPU, a node of four GH200 superchips integrates $\\sim$113 simulated years per wall-clock day, and meshes of up to 7.4 million surface vertices ($\\sim$5 km) scale to 128 GPUs. What limits the model is communication rather than arithmetic. What the shadow adds to the original is the gradient: a single reverse-mode pass through the full time loop returns the sensitivity of a model diagnostic to a parameter at every mesh vertex, verified against finite differences. To our knowledge, FESOM2-JAX is the first global ocean-sea-ice model of CMIP-class complexity written natively in a differentiable framework, and the first on an unstructured mesh.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "LMM Modality Transfer: A Pre-requisite for Autonomous GIS Agents",
+    "url": "http://arxiv.org/abs/2608.06948v1",
+    "authors": [
+      "Ivan Majic",
+      "Zexian Huang",
+      "Franziska H\u00fcbl",
+      "Krzysztof Janowicz",
+      "Meilin Shi",
+      "Mina Karimi",
+      "Zilong Liu",
+      "Alexandra Fortacz-Lazan"
+    ],
+    "published": "2026-08-07",
+    "abstract": "AI models are becoming increasingly adept at understanding and processing spatial information, thereby facilitating agentic problem-solving in spatial tasks and workflows. However, most of the research on their spatial capabilities (e.g., spatial reasoning) has focused on the textual modality as input and output. This contrasts with the human approach to GIS workflows, where text and visual modalities are often used together, interchangeably, and in a complementary manner. Thus, to truly achieve an automated GIS analysis pipeline or carry out human-designed GIS workflows, AI models --- Large Multimodal Models (LMMs) in particular --- need to be able to seamlessly transition between image- and text-based modalities that are traditionally used in such workflows. We present a modality transfer task that (1) asks an LMM to first describe an input image of colored squares in a regular grid, and (2) asks a new LMM instance to re-generate an image of the original spatial scene using the textual description output by the former model. This task quantifies the ability of LMMs to transfer spatial information between image and text modalities. Ultimately, by examining the modality transfer capability of LMMs through the lens of spatial information theory, this work highlights a critical bottleneck: achieving strong and robust geospatial understanding in LMMs requires rigorous, multi-modal alignment. Our results indicate that recent LMMs (here from OpenAI) still struggle with modality transfer, when tasked with re-generating an image of a simple spatial grid of color squares.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "MultiGlobeQA: A Multilingual and Globally Diverse Benchmark for Geospatial Reasoning",
+    "url": "http://arxiv.org/abs/2608.03882v1",
+    "authors": [
+      "Martin B\u00f6ckling",
+      "Elizaveta Nosova",
+      "Heiko Paulheim",
+      "Andreea Iana"
+    ],
+    "published": "2026-08-04",
+    "abstract": "Geospatial reasoning, i.e., computing distances, containment, and other spatial relations over real-world entities, is central to navigation and logistics, yet large language models (LLMs) struggle with the required geometric and topological computation despite storing considerable geographic knowledge. Existing benchmarks localize these failures only partially: they are synthetic or smallscale, largely monolingual, and offer limited control over geographic coverage. We introduce MultiGlobeQA, a multilingual benchmark of 46,060 question-answer pairs spanning 14 spatial-function families and 15 answer formats, with execution-based ground truth over three knowledge graphs. It covers 201 countries and territories via income- and density-stratified sampling, with parallel questions in English and 16 additional high- and low-resource languages. Across parametric, reasoning, and agentic settings, LLMs collapse on tasks requiring grid indexing and shape computation, while topological relations and directions fare best. Retrieval and tool use yield considerable gains, yet performance plateaus below two thirds even when gold facts are supplied, indicating that computation, not access to knowledge, is the bottleneck. Models also underperform on low-income regions, a gap that gold facts widen rather than close.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "GISAgentBench: A Practitioner-Sourced Benchmark for Evaluating LLM Agents on GIS Tasks",
+    "url": "http://arxiv.org/abs/2608.01645v1",
+    "authors": [
+      "Abhinav Pothuri",
+      "Zhe Jiang",
+      "Zelin Xu",
+      "Di Yang"
+    ],
+    "published": "2026-08-03",
+    "abstract": "Geographic Information System (GIS) professionals rely on multi-step spatial analysis workflows to support decision-making in urban planning, disaster response, and environmental monitoring. The process is tedious, time-consuming, and error-prone. While recent large language model (LLM) agents equipped with external tools have the potential to automate geospatial analysis, their ability to perform realistic GIS workflows remains largely unexplored. Existing GIS agent benchmarking datasets are mostly drawn from textbooks, tutorials, or LLM-generated seeds and remain limited in size and trajectory depth. More importantly, none provides ground truth outputs. They therefore rely on surrogate signals such as code similarity, trajectory matching, or LLM and VLM judges, which can conflate workflow resemblance with task correctness. To address this gap, we introduce GISAgentBench, a benchmark of 349 multi-step GIS tasks curated from GIS Stack Exchange and instantiated on real public data across six selected geographic areas of interest. Each task ships with an executable reference trajectory and an exact ground truth output file, enabling strict, deterministic, tolerance-aware output matching beyond LLM judging. Evaluations of six LLM models reveal that realistic GIS workflows remain challenging: the best agent completes only 32.7% of tasks under strict tolerance-aware scoring, although most models produce outputs that are close to the ground truth.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM",
+      "LVM"
+    ],
+    "applications": []
   }
 ]
