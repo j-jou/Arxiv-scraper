@@ -31780,7 +31780,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "LoRetta: A Foundation Model and Extensive Dataset for Global-Scale Remote Sensing Dense Image Matching",
@@ -31799,7 +31800,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Multi-Year Geospatial Reasoning using Interannually-Consistent Historical Predictions as a Free Input Modality",
@@ -31820,7 +31822,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Above-ground Biomass Estimation with Geospatial Foundation Models",
@@ -31841,7 +31844,8 @@
       "Segmentation",
       "Classification",
       "Regression"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "How Usable Are Geospatial Foundation Models? A Systematic Evaluation of 89 Models",
@@ -31858,7 +31862,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "GEOID-Flood: A Large-Scale Multi-Modal Benchmark Dataset for Flood Segmentation",
@@ -31878,7 +31883,8 @@
     "architectures": [],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "GeoCore-9B: Towards Geo-Aware Generative Foundation Models in Earth Observation",
@@ -31895,7 +31901,8 @@
     "architectures": [
       "Transformer"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "SPECTRA: Band-Routed Embedding and Stage-Wise LoRA for Cross-Sensor Fine-Tuning of Geospatial Foundation Models",
@@ -31915,7 +31922,8 @@
     "architectures": [],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Earth Embeddings",
@@ -31935,7 +31943,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "SLED: Scalable Location Encoding via Distillation",
@@ -31954,7 +31963,8 @@
     "architectures": [
       "CLIP"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Geo-Embed: Towards Unified Multimodal Embeddings for Urban Understanding",
@@ -31976,7 +31986,8 @@
     "applications": [
       "Detection",
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "On the Effectiveness of Adaptation Strategies for VLM-Based Federated Learning in Remote Sensing",
@@ -31999,7 +32010,8 @@
     ],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Design Choices That Matter: A Functional ANOVA Analysis for Remote Sensing Multi-Label Classification",
@@ -32019,7 +32031,8 @@
     "architectures": [],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Global-Scale Self-Supervised Spatiotemporal Learning for NDVI Time-Series Reconstruction",
@@ -32039,7 +32052,8 @@
     "architectures": [
       "Transformer"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Breaking Diversity Collapse in Spiking Pseudo-Ensembles for Efficient OOD Detection in Remote Sensing",
@@ -32060,7 +32074,8 @@
       "Detection",
       "Classification",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "GeoArbiter: Verifiability-Guided Grounding for Remote-Sensing Multimodal LLMs",
@@ -32076,7 +32091,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Transferable Dual-Stream Representations for Mesoscale-Preserving Sea Surface Temperature Downscaling",
@@ -32098,7 +32114,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "FESOM2-JAX v1.0: a differentiable shadow of the ocean-sea-ice model FESOM2, cast onto GPUs",
@@ -32125,7 +32142,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "LMM Modality Transfer: A Pre-requisite for Autonomous GIS Agents",
@@ -32146,7 +32164,8 @@
       "geo_reasoning"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "MultiGlobeQA: A Multilingual and Globally Diverse Benchmark for Geospatial Reasoning",
@@ -32165,7 +32184,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "GISAgentBench: A Practitioner-Sourced Benchmark for Evaluating LLM Agents on GIS Tasks",
@@ -32184,6 +32204,421 @@
     "architectures": [
       "LLM",
       "LVM"
+    ],
+    "applications": [],
+    "is_recent": false
+  },
+  {
+    "title": "Zero-OVCD: Bridging Training-Free Foundation Models and Pseudo-Label Learning for Open-Vocabulary Change Detection",
+    "url": "http://arxiv.org/abs/2608.11663v1",
+    "authors": [
+      "Daifeng Peng",
+      "Yuanke Peng",
+      "Haiyan Guan"
+    ],
+    "published": "2026-08-12",
+    "abstract": "Open-vocabulary change detection (OVCD) enables the identification of user-specified land-cover changes in bitemporal remote sensing images, but existing training-free pipelines remain vulnerable to inaccurate candidate masks, ambiguous semantic assignments, and accumulated inference errors. To address these issues, we propose Zero-OVCD, a two-stage framework that requires no pixel-level annotations from the target domain. In the first stage, high-quality change pseudo-labels are generated through complementary candidate-mask refinement, multiscale semantic similarity fusion with margin-based reliability filtering, and response-guided mask correction and completion. These components jointly suppress noisy candidates, enhance mask-level semantic discrimination, and recover missed change regions. In the second stage, a change detector is trained using the generated pseudo-labels, while checkpoint voting and high-agreement sample selection are introduced to mitigate residual pseudo-label noise. On LEVIR-CD, WHU-CD, and S2Looking, Stage I achieves F1 scores of 86.25%, 85.82%, and 50.48%, while Stage II further improves them to 88.65%, 88.85%, and 57.96%, respectively. On SECOND, the macro-average F1 across six category-wise one-vs-rest tasks increases from 47.91% to 50.92%. These results demonstrate that bridging training-free foundation-model inference with noise-aware pseudo-label learning provides an effective solution for open-vocabulary change detection without target-domain pixel-level annotations. Code will be available at https://github.com/1321663019/Zero-OVCD.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "SAR2Agri: Learning SAR Intensity Representations for Agricultural Monitoring",
+    "url": "http://arxiv.org/abs/2608.11142v1",
+    "authors": [
+      "Moti Rattan Gupta",
+      "Anupam Sobti"
+    ],
+    "published": "2026-08-11",
+    "abstract": "Agricultural monitoring faces unique challenges, arising from the landscape's complex temporal, phenological, and climate dynamics, yet monitoring them is critical for ensuring food security. Synthetic Aperture Radar (SAR) satellites offer all-weather day-night imaging capability supporting key monitoring tasks including crop type mapping, yield prediction and phenological event detection. Existing multimodal remote sensing foundation models including TerraMind and CopernicusFM learn SAR representations by grounding them in optical imagery using joint encoding and contrastive learning techniques, while SAR-specific foundation models such as SAR-JEPA, SARMAE, and SAR-W-MixMAE primarily focus on target detection, flood mapping, and land cover classification applications. Recent work has introduced phenology inspired temporal pretext tasks with optical imagery which has shown strong performance on agricultural downstream tasks. In this work, we propose the first self-supervised learning pipeline focused on using only SAR intensity imagery for agricultural applications. We improve the temporal pretext tasks through masking and curriculum learning to enhance the pretraining pipeline's ability to capture phenological features from SAR. On the SICKLE benchmark, our final model achieves 84.9% IoU on crop type mapping, outperforming optical baselines (by 15.3 pt) and existing SAR baselines (by 2.2 pt), demonstrating the effectiveness of our proposed pipeline for pretraining SAR intensity encoders for agricultural monitoring.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "JEPA"
+    ],
+    "applications": [
+      "Detection",
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Evaluating Semantic and Spatial Guidance for Foundation Model Segmentation of Small-Scale PV in Remote Sensing Imagery",
+    "url": "http://arxiv.org/abs/2608.10801v1",
+    "authors": [
+      "Roni Blushtein-Livnon",
+      "Tal Svoray",
+      "Osher Rafaeli",
+      "Michael Dorman",
+      "Itay Fischhendler",
+      "Havazelet Yahel",
+      "Emir Galilee"
+    ],
+    "published": "2026-08-11",
+    "abstract": "Spatio-temporal PV data are essential for understanding adoption processes in off-grid regions, yet such data remain largely unavailable. Automated segmentation of remote sensing (RS) imagery offers a promising solution; yet, residential PV systems remain challenging targets because of their small size and sparse distribution, resulting in severe target-background imbalance. Vision-language foundation models (FMs) provide a data-efficient paradigm through prompt-based semantic and spatial guidance, but the relative contribution of different prompt types remains unclear. We systematically evaluate SAM3 for small-scale PV segmentation in RS imagery by comparing textual, geometric, and hybrid prompting, under varying supervision levels, training strategies, spatial resolutions, and imaging conditions. Multi-temporal aerial imagery from a large off-grid rural region serves as a study site, with findings validated across three additional datasets. Prompting strategy emerged as the dominant factor governing model behavior. Textual prompting consistently produced the lowest performance and showed the greatest sensitivity to supervision and imaging conditions. In contrast, spatial guidance substantially improved both segmentation accuracy and robustness. Hybrid prompting achieved the highest accuracy and stability, indicating that semantic and spatial guidance provide complementary information. Most performance gains were achieved with only a few hundred annotated samples, demonstrating strong data efficiency. Transfer learning had limited overall impact, with only modest improvements observed for textual prompting under limited supervision. Overall, our findings establish prompting strategy as a key determinant of SAM3 adaptation, robustness, and generalization, highlighting the potential of promptable FMs for scalable PV mapping in data-constrained off-grid regions.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "GeoSeg-OV: Bridging Geospatial Gaps with Structural Guidance for Open-Vocabulary Remote Sensing Segmentation",
+    "url": "http://arxiv.org/abs/2608.10426v1",
+    "authors": [
+      "Ruizhong Liu",
+      "Tingzhang Luo",
+      "Zaiyan Zhang",
+      "Jundong Chen",
+      "Hongruixuan Chen",
+      "Shaoguang Huang",
+      "Hongyan Zhang"
+    ],
+    "published": "2026-08-11",
+    "abstract": "Open-vocabulary remote sensing segmentation has recently emerged as a promising paradigm that enables pixel-level recognition of arbitrary categories specified by natural language, including classes unseen during training. However, geospatial domain shifts caused by heterogeneous regions, spatial resolutions, and acquisition platforms weaken visual-text matching and limit cross-dataset generalization. Recent attempts have begun to incorporate auxiliary vision foundation models (VFMs), typically coupling their features with text embeddings as additional matching evidence. However, this strategy may introduce inconsistent matching signals while leaving the structure-sensitive representations of VFMs insufficiently exploited. We therefore propose GeoSeg-OV, which decouples auxiliary VFM features from visual-text matching and repurposes them as structural guidance for cost aggregation and decoding. GeoSeg-OV constructs an orientation-robust cost volume from multi-rotation CLIP features, while a frozen VFM extracts multi-scale structure-sensitive features in parallel. We propose Structure-Guided Aggregation (SGA), which integrates cost tokens and CLIP semantic guidance with VFM-derived pairwise structural biases for coherent spatial propagation, followed by text-conditioned class-wise reasoning. We further introduce Cost-Aware Decoding (CAD) to adaptively refine and fuse multi-scale semantic and structural guidance based on the current decoder context. On the global High-Resolution Land Cover (HRLC) benchmark spanning seven datasets across six continents, GeoSeg-OV outperforms the state-of-the-art by +2.5 and +2.7 average mIoU under two training settings. A large-scale zero-shot case study further demonstrates its generalization across geographic domains and category systems without target-domain annotations or retraining.",
+    "categories": [
+      "geo_reasoning",
+      "foundation_model"
+    ],
+    "architectures": [
+      "CLIP"
+    ],
+    "applications": [
+      "Segmentation",
+      "Recognition"
+    ]
+  },
+  {
+    "title": "AdaDINO: Pair-Aware In-Backbone Adaptation of Frozen DINO for Efficient Remote Sensing Change Detection",
+    "url": "http://arxiv.org/abs/2608.07982v1",
+    "authors": [
+      "Xu Zhang",
+      "Xinqing Li",
+      "Jianpeng Xie",
+      "Zeshuai Zhu",
+      "Xin He",
+      "Yun Liu"
+    ],
+    "published": "2026-08-08",
+    "abstract": "Vision foundation models (VFMs) such as DINO are pretrained for single-image representation, whereas remote sensing change detection requires reasoning over a bi-temporal pair. Existing VFM-based methods usually encode the two images independently and compare them only afterward, leaving the VFM backbone unaware of cross-temporal relations. To bridge this mismatch, we present AdaDINO, a pair-aware in-backbone adaptation framework that equips a frozen DINO encoder with bi-temporal interaction for efficient change detection. Its core component, Change-aware Gated Local Adaptation (CGLA), couples the two streams after selected frozen blocks and injects a shared temporal residual into them with opposite signs, enhancing genuine change responses while preserving the pair midpoint. Batch-Shared Chunk Selection (BSCS) further reduces feed-forward network (FFN) computation by retaining a batch-shared subset of channel chunks that can be executed as a compact dense FFN. A CGLA-Prior-Guided Refinement (CPGR) decoder reuses encoder-side change responses for coarse-to-fine prediction. Experiments on four remote sensing change detection benchmarks show that AdaDINO achieves competitive or superior performance against VFM-based baselines, with the largest gain on the category-agnostic SYSU-CD dataset. With 62.5% of the FFN hidden width removed, AdaDINO still achieves an F1 score of 85.29% on SYSU-CD while delivering a 1.41$\\times$ throughput speedup. The code will be released.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Evaluating AlphaEarth Foundations Embeddings for Wildfire Susceptibility Mapping",
+    "url": "http://arxiv.org/abs/2608.12663v1",
+    "authors": [
+      "Yuan Zhuang",
+      "Sanaa Hobeichi",
+      "Peng Shi",
+      "Fei Huang"
+    ],
+    "published": "2026-08-12",
+    "abstract": "Wildfire susceptibility mapping typically relies on physical variables assembled from multiple remote-sensing, climate, and geospatial products. AlphaEarth Foundations (AEF) provides analysis-ready geospatial embeddings that may reduce this dependence on heavy harmonisation and task-specific feature engineering, but their value for wildfire susceptibility mapping has not been systematically evaluated. Using Victoria, Australia (2017-2025), as a case study, we show that AEF embeddings can reconstruct commonly used variables in wildfire susceptibility analysis with high accuracy. In downstream susceptibility models trained on satellite-derived fire occurrence data, embedding-based susceptibility models achieve ROC-AUC values above 0.92 and consistently identify high wildfire susceptibility across eastern Victoria, particularly Gippsland and the north-eastern uplands, with additional localized hotspots in central and northwestern Victoria. A key feature of AEF embeddings is their strong near-region transferability within climatically similar regions. When embedding-based models trained in Victoria are applied to Canberra and Western Sydney-Blue Mountains, ROC-AUC improves by around 4% at Canberra and declines by around 2% at Western Sydney-Blue Mountains, compared with a mean decrease of approximately 25% for physical-variable models. These findings provide practical guidance for using AEF embeddings and lay a foundation for scalable wildfire susceptibility mapping workflows for downstream users such as government agencies and (re)insurers.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Learning to Forecast Crop Growth from Earth Observation Data",
+    "url": "http://arxiv.org/abs/2608.14281v1",
+    "authors": [
+      "Dominik Senti",
+      "Mehmet Ozgur Turkoglu",
+      "Michele Volpi",
+      "Helge Aasen"
+    ],
+    "published": "2026-08-14",
+    "abstract": "Forecasting crop growth across agricultural landscapes is important for improving the productivity, resilience, and operational management of farming systems. In this work, we investigate whether Earth observation time series and meteorological drivers can be used to predict future canopy development at country scale. We focus on winter wheat and formulate crop growth prediction as forecasting future leaf area index (LAI) trajectories beyond the last available Sentinel-2 observation. We evaluate this task on a multi-year dataset which spans the entire country of Switzerland, containing over 20 million pixel-level Sentinel-2-derived LAI time series paired with meteorological variables. Because cloud cover and revisit gaps leave LAI supervision sparse, models fit the few valid (cloud-free) LAI observations yet oscillate implausibly between them, producing trajectories no real canopy could follow. We introduce a lightweight unimodal shape regulariser which improves trajectory plausibility with negligible loss in accuracy. We compare deep learning sequence-to-sequence (Seq2Seq) models with classic machine learning baselines and show that Seq2Seq models generalise well across years, achieving $\\mathrm{R}^2$ above 0.8 and consistently outperforming conventional approaches. Together, these results demonstrate that remote sensing and weather-driven sequence modelling can learn crop growth dynamics at landscape scale. S",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Connected Subspace Clustering: Hardness, a Scalable Heuristic, and an Application to Sea Level Geodesy",
+    "url": "http://arxiv.org/abs/2608.14215v1",
+    "authors": [
+      "Johanna Hillebrand",
+      "Jan H\u00f6ckendorff",
+      "J\u00fcrgen Kusche",
+      "Kelin Luo",
+      "Heiko R\u00f6glin",
+      "Melanie Schmidt",
+      "Christian Sohler",
+      "Bernd Uebbing"
+    ],
+    "published": "2026-08-14",
+    "abstract": "Constrained optimization extends classical optimization by integrating side information, making it widely applicable across scientific and engineering domains. Consider a setting where we measure variables at different physical locations. When grouping these measurements, we often want clusters that are both internally similar and physically coherent. Thus, we have a constrained clustering problem where the constraint models coherence. Motivated by an application in geodesy, where contiguous regions of the sea surface must be identified for principal component analysis, we introduce the Connected Subspace Clustering problem: given high-dimensional points and a connectivity graph, partition them into $k$ connected clusters, minimizing their total squared distance to the clusters' best-fit $m'$-dimensional affine subspaces. We prove that, even for $m' = 0$ and a grid graph with holes, the problem is NP-hard to approximate within $\u03a9(n^{1/2-\\varepsilon})$ for every $\\varepsilon>0$, where $n$ is the number of measurements. We then introduce an efficient Lloyd-style heuristic that alternates subspace fitting with an iterative merging procedure to enforce connectivity. Our method returns exactly $k$ connected regions by construction, whereas unconstrained methods leave up to $1{,}966$ disconnected fragments at higher cost. In a study of 160 configurations on global sea level time series, our merging-based repair is the strongest of four strategies in $73.75\\%$ of cases, and consistently outperforms competitors such as (connected) Ward's method across all tested cluster counts. The resulting regions isolate signals aligning with climate indices such as the El Nino-Southern Oscillation and Indian Ocean Dipole. Although developed for geodesy, the approach applies to other spatially embedded multivariate time series, such as climate fields, remote sensing, neuroimaging, and sensor networks.",
+    "categories": [
+      "remote_sensing",
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Remote Sensing and Machine Learning-Based Analysis of Land Use and Vegetation Change in Dhaka District, Bangladesh",
+    "url": "http://arxiv.org/abs/2608.12001v1",
+    "authors": [
+      "Muhammad Masud Tarek",
+      "Md. Alamgir Hossain",
+      "Md. Samiul Islam",
+      "Muntasir Hasan Kanchan"
+    ],
+    "published": "2026-08-12",
+    "abstract": "Rapid urbanization in Dhaka District, Bangladesh has triggered substantial alterations in land use and environmental conditions, necessitating systematic monitoring for informed urban planning and ecological sustainability. This study employs remote sensing data and machine learning techniques to analyze spatiotemporal changes in land cover and vegetation dynamics between 2019 and 2024. High-resolution satellite imagery from Sentinel-2 MSI and Landsat 8 was utilized to classify land cover types and compute spectral indices including the Normalized Difference Vegetation Index (NDVI), Normalized Difference Built-up Index (NDBI), and Normalized Difference Water Index (NDWI). A supervised machine learning approach incorporating Decision Tree, K-Nearest Neighbors (KNN), and Random Forest classifiers was applied using labeled geospatial training points within Google Earth Engine. Accuracy assessments were conducted using confusion matrices and kappa statistics. Results indicate a 59.5% increase in urban built-up areas and a significant decline in vegetation (-8.46%) and water bodies (-7.77%) over the five-year period. Land conversion from vegetated and aquatic areas to urban infrastructure was identified as a dominant trend. Among the models, Random Forest demonstrated the highest classification accuracy. These findings underscore the growing environmental pressures driven by unregulated urban expansion in Dhaka. The study highlights the potential of remote sensing and machine learning tools in providing timely, actionable data to support sustainable urban development, land-use regulation, and ecosystem conservation policies.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Hardware-Aware Deployment of Joint SAR Compression and Despeckling on FPGA",
+    "url": "http://arxiv.org/abs/2608.11271v1",
+    "authors": [
+      "C\u00e9dric L\u00e9onard",
+      "Francescopaolo Sica",
+      "Martin Schulz"
+    ],
+    "published": "2026-08-11",
+    "abstract": "Next-generation Synthetic Aperture Radar (SAR) missions will generate data far faster than they can downlink, making onboard data reduction essential for near-real-time Earth observation. Learned Image Compression (LIC) offers better rate-distortion performance than handcrafted codecs used operationally today, and recent work shows that simultaneously despeckling and compressing SAR imagery enables better representation capacity while unlocking higher compression rates. These methods, however, have yet to be confronted with the strict power, compute, and operational constraints of spaceborne systems. In this work, we bridge this gap by deploying a joint SAR Despeckling and Data Compression (DDC) framework on an embedded ZCU102 FPGA-based platform, introducing model adaptations that respect the accelerator's fixed-point arithmetic and limited set of supported operations. We evaluate four model topologies across precision levels and across CPU, GPU, and FPGA platforms, revealing several findings with direct design implications. We find that replacing conventional GDN activation functions with plain ReLU improves quality on SAR, suggesting that design principles established for compression of natural images do not necessarily transfer to SAR imagery. In addition, we demonstrate that residual blocks offer little representational benefit for ten times the compute, and show that the FPGA is the most energy-efficient of the platforms tested. Together, these results set a functioning edge deployment workflow and an evidence-based starting point for onboard SAR compression. The code is available at https://github.com/CedricLeon/SAR_DDC_FPGA.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "FedOrbit: Adaptive Personalized Federated Learning for Non-IID LEO Satellite Constellations",
+    "url": "http://arxiv.org/abs/2608.09687v1",
+    "authors": [
+      "Satwat Bashir",
+      "Tasos Dagiuklas",
+      "Muddesar Iqbal"
+    ],
+    "published": "2026-08-10",
+    "abstract": "Federated learning (FL) in Low Earth Orbit (LEO) satellite constellations is affected by non-IID data and irregular ground-station visibility, both driven by orbital geometry. Global aggregation performs poorly when orbit-level class distributions are disjoint, while strong personalisation can be excessive when these distributions overlap. We present FedOrbit, which combines continuous orbit-level training over inter-satellite links, class-aware hierarchical aggregation, quality-weighted feature aggregation with return-rate dampening, and adaptive feature decomposition based on inter-orbit class similarity. Across three remote-sensing benchmarks and two non-IID partitions, FedOrbit achieves the highest accuracy in five of six settings and is within $0.9$ percentage points of the best result in the sixth. The gains over the strongest baseline reach $16.1$ percentage points under Dirichlet partitioning and $8.6$ under pathological partitioning, with the smallest per-orbit accuracy spread in five of six settings.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "XFeat Revisited: Reproducibility and Evaluation of a Lightweight Image Matcher",
+    "url": "http://arxiv.org/abs/2608.09519v1",
+    "authors": [
+      "Lazar \u0110okovi\u0107",
+      "Aimee Lin"
+    ],
+    "published": "2026-08-10",
+    "abstract": "We present a reproducibility study of XFeat, a lightweight local feature extractor and matcher designed to identify corresponding points across images efficiently on resource-constrained hardware. We re-implement the architecture based on the paper and supplementary material, re-evaluate the authors' released checkpoint alongside our re-implementation, and conduct additional architectural ablations to examine design choices that were not fully justified in the original work. This distinction between re-evaluation and reproduction is important, as the paper, supplement, and public code differ in several implementation details, including the backbone layout, fusion block, and training losses. Empirically, our reproduced models closely match and, in some cases, outperform the re-evaluated original checkpoint on MegaDepth-1500 and ScanNet-1500, supporting the main claim that XFeat provides a strong accuracy-efficiency trade-off for standard image-matching benchmarks. Our ablations provide a more nuanced view of two architectural arguments from the original paper. In particular, the parallel keypoint branch is important for semi-dense matching, but its benefit is less pronounced than originally claimed, while the evidence for the specific placement of the single skip-connection remains inconclusive. Finally, we reproduce the original downstream evaluations and find close agreement for homography estimation, while Aachen visual localization remains below the reported results, even for the released checkpoint, suggesting sensitivity to underspecified evaluation details. We then extend the analysis to zero-shot out-of-distribution and cross-modal matching across retinal, thermal-visible, and multimodal remote-sensing imagery, where XFeat remains effective in some settings but degrades sharply under severe modality shifts.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Contrastive Mask Fidelity: Reference-Free Auditing of Ground-Truth Masks in Remote Sensing Semantic Segmentation",
+    "url": "http://arxiv.org/abs/2608.09101v1",
+    "authors": [
+      "Shuaishuai Cao",
+      "Shuwei Peng",
+      "Meng Tang",
+      "Min Huang",
+      "Youjin Wang",
+      "Jie Chen",
+      "Jing Ouyang",
+      "Zhiwei Zhai"
+    ],
+    "published": "2026-08-10",
+    "abstract": "Semantic segmentation models are trained and evaluated against human-drawn masks, yet remote-sensing annotations are often coarse, incomplete, or misaligned; high overlap scores may then reflect agreement with imperfect labels rather than faithfulness to the image, creating an evaluation paradox. We introduce Contrastive Mask Fidelity (CMF), a training-free, reference-free metric that scores competing class masks directly against image evidence. CMF composites keep and erase counterfactual views of each mask and asks a frozen vision-language judge whether class evidence is concentrated inside the mask and absent outside. We validate CMF on controlled mask corruptions, then audit 10,731 image-class pairs across ten remote-sensing benchmarks using candidate masks from Seg-Probe, a training-free open-vocabulary probe built on SegEarth-OV3 that outperforms prior baselines on nine of ten datasets. The audit reveals systematic, class-dependent annotation distortion: man-made classes such as buildings, roads, and cars favor the candidate mask on 62-85% of pairs, whereas ambiguous land cover more often favors human annotations. On a blinded three-annotator consensus, CMF matches expert judgment on 81% of pairs, exceeding keep-only scoring, model confidence, and a trained label-quality baseline. Finally, conservative class-wise arbitration yields supervision that improves cross-domain transfer over raw annotations and matched replacement controls, positioning CMF as a scalable tool for auditing ground truth rather than presuming it infallible.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "DLESyM-Ocean: A Deep Learning Probabilistic Global Model for Simulating Present-Day Upper Ocean and Sea Ice",
+    "url": "http://arxiv.org/abs/2608.11545v1",
+    "authors": [
+      "Zachary I Espinosa",
+      "Nathaniel Cresswell-Clay",
+      "William Yik",
+      "Cecilia M. Bitz",
+      "Edward Blanchard-Wrigglesworth",
+      "Peter Harrington",
+      "David Pruitt",
+      "Michael S. Pritchard",
+      "Dale R. Durran"
+    ],
+    "published": "2026-08-12",
+    "abstract": "While AI has shown remarkable promise in atmospheric and meteorological forecasting, accurately simulating other components of the Earth system with AI remains an active frontier. We present DLESyM-Ocean, a Deep Learning Earth System Model that simulates global present-day sea ice and upper ocean conditions. Unlike conventional probabilistic models optimized via diffusion objectives or losses such as continuous-ranked probability score, DLESyM-Ocean is trained using a patch energy score loss. When driven by atmospheric forcing, DLESyM-Ocean produces a well-calibrated, spatially coherent, and skillful ensemble of sea ice and upper ocean conditions with minimal bias relative to reanalysis products. DLESyM-Ocean is stable when autoregressively run for multi-year simulations and produces a climatology and variability with minimal bias compared with reanalysis. We evaluate case studies including a recent sea ice extreme, a severe marine heatwave, the 2023 El Ni\u00f1o transition, and the 2023 spike in global mean temperature. In all of these case studies, DLESyM-Ocean produces realistic surface and subsurface trajectories and ample ensemble diversity in response to common atmospheric forcing, suggestive of learned autoregressive ocean dynamics. When coupled with other Earth system components, such as the atmosphere, the computational efficiency of DLESyM-Ocean makes it a promising tool for subseasonal to seasonal forecasting.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Deep Learning-Based Statistical Downscaling of Sea Surface Temperature Using a Residual Corrective Neural Network",
+    "url": "http://arxiv.org/abs/2608.10022v1",
+    "authors": [
+      "Onkar Jadhav",
+      "Tim French",
+      "Ivica Janekovic",
+      "Nicole L. Jones",
+      "Matthew Rayson"
+    ],
+    "published": "2026-08-09",
+    "abstract": "The large-scale oceanic and atmospheric forecasts provided by global climate models typically lack sufficient resolution to accurately capture the response of the coastal ocean to atmospheric forcing and coastal circulation that drive fine-scale SST variability. Dynamical downscaling is computationally prohibitive, when applied to extensive coastlines, predictive ensembles, or long time periods. Therefore, this work presents a statistical downscaling of sea surface temperature (SST) from the seasonal coupled ocean-atmosphere forecast system (ACCESS-S2) using machine learning techniques. This study proposes a novel deep learning framework that uses a U-Net to generate an initial high-resolution SST estimate, which is subsequently refined using a residual corrective approach. The target SST fields are derived from the Regional Ocean Modeling System (ROMS). This two step approach called Residual Corrective Neural Network (RCNN) progressively refines initial U-Net predictions by incorporating dynamically scaled residuals at each step, enabling accurate capture of broad patterns and fine-grained features such as eddies and fronts. We also introduce a custom loss-assisted RCNN variant to improve performance during extreme events, which may be absent from training data due to climate-driven shifts in SST extremes. The framework efficiently downscales SST along the west coast of Australia. A 2011 marine heatwave case study shows that the RCNN improves ACCESS-S2 SST predictions by increasing horizontal resolution from 25 km to 2 km, enabling identification of fine-scale anomalies unresolved in the ACCESS-S2 dataset. This balance between computational efficiency and accuracy supports applications in coastal impact assessment and marine ecosystem studies.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "High-resolution Calibrated Probabilistic Hourly Precipitation from a Deterministic Forecast",
+    "url": "http://arxiv.org/abs/2608.12685v1",
+    "authors": [
+      "Thomas M Hamill"
+    ],
+    "published": "2026-08-13",
+    "abstract": "An ``Attention Residual U-Net'' method is described for probabilistic quantitative precipitation forecasting (PQPF) that predicts the hourly probability of no precipitation plus the distribution of positive precipitation from a weighted mixture of two Gamma distributions. The neural network is trained on patches of numerical weather prediction (NWP) hourly precipitation from The Weather Company's convection-permitting GRAF (Global high-Resolution Atmospheric Forecasting) model along with terrain information and column-average relative humidity from the National Oceanic and Atmospheric Administration's (NOAA's) Global Forecast System (GFS). The target data are NOAA's Multi-Radar, Multi-Sensor (MRMS) gauge-corrected, quality controlled radar data sampled to the same grid as the GRAF data. The network outputs distributional parameters for each model grid point. Training uses negative log-likelihood as a proper scoring rule, with climatological initialization for stable convergence. Inference is performed as a single forward pass over the contiguous United States (CONUS) domain, with edge-replication padding to satisfy the network's spatial-divisibility requirement. The subsequent forecasts are spatially detailed, highly reliable, and skillful with respect to climatology and a simpler reference forecast method. The method is particularly useful for estimating probabilities in regions with large terrain variation.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Multi-AUV Ad-hoc network-based Target Tracking: A Value Gradient Guidance Multi-Agent Diffusion Reinforcement Learning Approach",
+    "url": "http://arxiv.org/abs/2608.12436v1",
+    "authors": [
+      "Jiaao Ma",
+      "Chuan Lin",
+      "Guangjie Han",
+      "Shengchao Zhu",
+      "Qian Zhu",
+      "Ying Liu",
+      "Zhenyu Wang"
+    ],
+    "published": "2026-08-12",
+    "abstract": "Multi-AUV ad-hoc network-based target tracking requires networked autonomous underwater vehicles (AUVs) to cooperatively track maneuvering targets under constrained acoustic communication, dynamic topology, and uncertain ocean disturbances. Although multi-agent reinforcement learning (MARL) enables decentralized coordination through centralized training, existing methods suffer from high-dimensional joint state-action modeling, noise-sensitive policy generation, leading to unstable training and degraded tracking. To address these issues, we propose VGG-MADiffRL, a value-gradient-guided multi-agent diffusion RL algorithm, and MDCA, a diffusion?based hierarchical control architecture. Leveraging underwater mission characteristics, we model sonar detection mechanisms and ocean current disturbances, formulating cooperative tracking for multi-AUV ad-hoc networks as an MDP. The proposed MDCA constitutes a three-tier closed-loop control framework: a global intelligent control layer, a local online training layer, and a physical action execution layer. This structure enables synergistic optimization across task allocation, local decision processes, and execution feedback. Within MDCA, the local online training layer is the policy learning framework; VGG-MADiffRL builds on diffusion policies and incorporates value gradients to guide action generation in the reverse denoising process, steering the generated actions towards higher expected returns. It employs twin value networks with joint optimization and soft target updates to mitigate overestimation and training oscillations, promoting more stable convergence. Experimental results show that VGG-MADiffRL consistently achieves faster convergence, higher tracking accuracy, and smoother training dynamics in cooperative tracking scenarios, validating its effectiveness and practical engineering value in dynamic underwater settings.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "VGG"
+    ],
+    "applications": [
+      "Detection",
+      "Reinforcement Learning",
+      "Tracking"
+    ]
+  },
+  {
+    "title": "Stochastic Emulation of a Fully Coupled Preindustrial E3SMv3 Simulation",
+    "url": "http://arxiv.org/abs/2608.10277v1",
+    "authors": [
+      "Elynn Wu",
+      "James P. C. Duncan",
+      "Troy Arcomano",
+      "Jeremy McGibbon",
+      "Oliver Watt-Meyer",
+      "Christopher S. Bretherton",
+      "Naser Mahfouz",
+      "Claudia Tebaldi",
+      "Luke Van Roekel",
+      "Andrew Roberts",
+      "Wuyin Lin",
+      "Finn Rebassoo",
+      "Jean-Christophe Golaz",
+      "Peter M. Caldwell"
+    ],
+    "published": "2026-08-10",
+    "abstract": "We present a stochastic coupled emulator of E3SM version 3, built on the SamudrACE framework, which couples an atmosphere emulator (ACE2) with a full-depth ocean emulator (Samudra). We replace the deterministic atmosphere emulator with its stochastic counterpart, ACE2S, and fine-tune the coupled system with a probabilistic objective, so that the atmosphere acts as a source of internal variability for the ocean. Trained on 105 years of a pre-industrial control simulation and evaluated on an independent 400 years, the emulator reproduces E3SMv3's mean climate state with biases much smaller than existing model-to-observation differences. Relative to a deterministic baseline, stochastic training maintains internal variability across timescales, most notably in the ENSO power spectrum, eddy-rich SST anomalies, and sea ice variability in the marginal ice zone. The emulator captures daily precipitation accurately up to the 99.99th percentile, but underestimates the rarest tropical extremes. These results show that stochastic coupled emulators can reproduce long-timescale variability with high fidelity, while extrapolation to unseen extremes remains a key challenge.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Deep Learning based Detection of Fishing Vessels and Fishing Monitoring using Nightlight Images",
+    "url": "http://arxiv.org/abs/2608.09360v1",
+    "authors": [
+      "Shantakar Mohanty",
+      "Prasun Kumar Gupta",
+      "Raian Vargas Maretto"
+    ],
+    "published": "2026-08-10",
+    "abstract": "The demand for maritime surveillance has given rise to the need for monitoring fishing vessel activities, particularly in addressing the challenge of \"dark vessels\" that operate without Automatic Identification System (AIS) transmission. This study presents a novel approach for detecting small-scale fishing vessels using nighttime light (NTL) imagery from the SDGSAT-1 satellite, combined with deep learning techniques to enhance fishing monitoring awareness along the western coast of India. A dual-branch YOLO11 architecture was developed to exploit both the 10-meter panchromatic and 40-meter RGB imagery from SDGSAT-1. The custom model architecture was specifically optimized for small object detection in NTL imagery, featuring parallel convolutional backbones that process both modalities before concatenation for enhanced feature extraction. The dual-branch YOLO11 model demonstrated optimal performance with a precision of 0.99, recall of 0.93, F1-score of 0.96, and mAP@50 of 0.96, significantly outperforming single-branch implementations of YOLOv5s, YOLOv8s, and standard YOLO11s architectures. When applied to the western coast of India, the model detected 31525 vessel instances across the temporal dataset spanning 2022-23. Cross-matching analysis with AIS data revealed that only 7146 (22.7%) of detected vessels had corresponding AIS transmissions, while 24379 (77.3%) were identified as potential dark vessels. Spatio-temporal analysis showed peak fishing activity during January-April, with a primary activity corridor parallel to the coastline within 50-100 km, corresponding to productive continental shelf areas. This research contributes to maritime surveillance capabilities by highlighting the effectiveness of nighttime lights satellite imagery for fishing vessel detection and provides valuable insights into fishing patterns and potential regulatory compliance issues in Indian waters.",
+    "categories": [
+      "ship_trajectories"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "GeoForge: Non-Parametric Self-Evolving Agents for Earth-Observation Reasoning",
+    "url": "http://arxiv.org/abs/2608.10494v1",
+    "authors": [
+      "Xin Xiao",
+      "Jiang Zhong",
+      "Junnan Zhu",
+      "Yingchao Feng",
+      "Peijin Wang",
+      "Yidan Zhang",
+      "Kaiwen Wei"
+    ],
+    "published": "2026-08-11",
+    "abstract": "Earth observation (EO) agents construct scientifically valid tool workflows and ground their conclusions in current geospatial evidence. This is challenging because EO workflows are constrained by sensing semantics, product dependencies, spatial and temporal compatibility, and parameter requirements. Existing agents often search a broad operation space for each query, while recent self-evolving systems do not fully organize heterogeneous EO trajectories into reusable knowledge across different decision levels. To solve this problem, we present GeoForge, a training-free, self-evolving framework that transforms completed trajectories into a structured nonparametric execution state. GeoForge constrains the operation space according to the sensing context, then retrieves a task-conditioned prior from three complementary memories. Workflow Graph Memory captures global operation order, Action-Level Experiences provide local corrections, and the Adapted Skill Standard Operating Procedure preserves procedural and data constraints. The retrieved prior guides tool execution, while current observations remain the basis of the final answer. After each task, a safety-gated distillation process converts grounded trajectories into reusable execution knowledge for future retrieval. This execution, distillation, and reuse loop improves planning without updating the backbone LLM. Experiments on multiple geospatial benchmarks demonstrate that GeoForge consistently improves both task accuracy and tool-use trajectory quality across diverse LLM backbones, while substantially reducing tool-planning and reasoning errors for most LLMs.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
     ],
     "applications": []
   }
