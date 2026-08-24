@@ -32224,7 +32224,8 @@
     "architectures": [],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "SAR2Agri: Learning SAR Intensity Representations for Agricultural Monitoring",
@@ -32245,7 +32246,8 @@
       "Detection",
       "Classification",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Evaluating Semantic and Spatial Guidance for Foundation Model Segmentation of Small-Scale PV in Remote Sensing Imagery",
@@ -32267,7 +32269,8 @@
     "architectures": [],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "GeoSeg-OV: Bridging Geospatial Gaps with Structural Guidance for Open-Vocabulary Remote Sensing Segmentation",
@@ -32293,7 +32296,8 @@
     "applications": [
       "Segmentation",
       "Recognition"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "AdaDINO: Pair-Aware In-Backbone Adaptation of Frozen DINO for Efficient Remote Sensing Change Detection",
@@ -32315,7 +32319,8 @@
     "applications": [
       "Detection",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Evaluating AlphaEarth Foundations Embeddings for Wildfire Susceptibility Mapping",
@@ -32333,7 +32338,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Learning to Forecast Crop Growth from Earth Observation Data",
@@ -32352,7 +32358,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Connected Subspace Clustering: Hardness, a Scalable Heuristic, and an Application to Sea Level Geodesy",
@@ -32374,7 +32381,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Remote Sensing and Machine Learning-Based Analysis of Land Use and Vegetation Change in Dhaka District, Bangladesh",
@@ -32393,7 +32401,8 @@
     "architectures": [],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Hardware-Aware Deployment of Joint SAR Compression and Despeckling on FPGA",
@@ -32409,7 +32418,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "FedOrbit: Adaptive Personalized Federated Learning for Non-IID LEO Satellite Constellations",
@@ -32425,7 +32435,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "XFeat Revisited: Reproducibility and Evaluation of a Lightweight Image Matcher",
@@ -32440,7 +32451,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Contrastive Mask Fidelity: Reference-Free Auditing of Ground-Truth Masks in Remote Sensing Semantic Segmentation",
@@ -32463,7 +32475,8 @@
     "architectures": [],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "DLESyM-Ocean: A Deep Learning Probabilistic Global Model for Simulating Present-Day Upper Ocean and Sea Ice",
@@ -32487,7 +32500,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Deep Learning-Based Statistical Downscaling of Sea Surface Temperature Using a Residual Corrective Neural Network",
@@ -32509,7 +32523,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "High-resolution Calibrated Probabilistic Hourly Precipitation from a Deterministic Forecast",
@@ -32527,7 +32542,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Multi-AUV Ad-hoc network-based Target Tracking: A Value Gradient Guidance Multi-Agent Diffusion Reinforcement Learning Approach",
@@ -32553,7 +32569,8 @@
       "Detection",
       "Reinforcement Learning",
       "Tracking"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Stochastic Emulation of a Fully Coupled Preindustrial E3SMv3 Simulation",
@@ -32580,7 +32597,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Deep Learning based Detection of Fishing Vessels and Fishing Monitoring using Nightlight Images",
@@ -32598,7 +32616,8 @@
     "architectures": [],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "GeoForge: Non-Parametric Self-Evolving Agents for Earth-Observation Reasoning",
@@ -32620,6 +32639,353 @@
     "architectures": [
       "LLM"
     ],
+    "applications": [],
+    "is_recent": false
+  },
+  {
+    "title": "Bridging the Gap between Labeled and Unlabeled Data via Unified Flow with Feature Memory Bank",
+    "url": "http://arxiv.org/abs/2608.16681v1",
+    "authors": [
+      "Shanwen Wang",
+      "Xin Sun",
+      "Danfeng Hong",
+      "Junyu Dong",
+      "Patrick Le Callet"
+    ],
+    "published": "2026-08-17",
+    "abstract": "Although semi-supervised semantic segmentation ($\\text{S}^4$) utilizes abundant unlabeled data to reduce manual labeling burdens, independent training of labeled and unlabeled data causes the former to dominate, which severely degrades pseudo-label quality. To address this challenges, we propose a novel remote sensing (RS) $\\text{S}^4$ method via unified flow with feature memory bank (UFFM). Specifically, UFFM comprises two key innovations: unified flow (UF) and feature memory bank (FMB). The UF is a new training flow that generates less biased pseudo-labels by combining an external visual foundation model (VFM) with an RS domain teacher, and jointly optimizes labeled and pseudo-labeled data under a unified training objective. The FMB is a novel memory module for $\\text{S}^4$ that dynamically updates class-specific features during training and reduces the feature discrepancy between labeled and unlabeled data through class-feature alignment. To verify the effectiveness of our model, we conduct extensive experiments on RS datasets. The experimental results show the superiority of our method over SOTA $\\text{S}^4$ methods. Moreover, the results demonstrate the effectiveness of our contributions in bridging the optimization and feature representation gap between labeled and unlabeled data. Our code is released at \\href{https://github.com/wangshanwen001/RS-UFFM}{https://github.com/wangshanwen001/RS-UFFM}.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "AlignJEPA: Predictive Vision-Language Alignment for Remote Sensing Foundation Models",
+    "url": "http://arxiv.org/abs/2608.15456v1",
+    "authors": [
+      "Md Aminur Hossain",
+      "Omkumar Vaghasiya",
+      "Rajeev Ranjan Dwivedi",
+      "Vinod Kurmi",
+      "Biplab Banerjee"
+    ],
+    "published": "2026-08-16",
+    "abstract": "Remote sensing (RS) foundation models provide transferable Earth observation representations across sensors, resolutions, and geographies, yet most remain weakly aligned with natural language, limiting natural-language archive search, image-text retrieval, and question-conditioned analysis. We propose AlignJEPA, a JEPA-inspired predictive vision-language alignment framework for remote sensing foundation models. AlignJEPA uses a pretrained AnySat visual encoder and a RemoteCLIP text encoder while training only a lightweight predictive alignment network. Instead of relying on global image--text contrastive alignment alone, the framework predicts remote-sensing text embeddings from masked visual foundation-model tokens. Its mask-aware multi-scale predictive aligner aggregates visible tokens at fine, regional, and global scales, jointly models them with a cross-scale Transformer, and projects the resulting representation into the text space using learned query pooling. Training combines semantic prediction with bidirectional contrastive retrieval. We train and evaluate AlignJEPA on BigEarthNet.txt for natural-language Sentinel retrieval, evaluate cross-dataset adaptation on RSICD, and use RSVQA only as a closed-set representation probe. AlignJEPA provides a parameter-efficient route for aligning Earth observation foundation models with language.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "JEPA",
+      "Transformer"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "MoRAX: Mobility-based Representation Augmentation for Geospatial Foundation Models",
+    "url": "http://arxiv.org/abs/2608.17848v1",
+    "authors": [
+      "Ya Wen",
+      "Jixuan Cai",
+      "Yulun Zhou",
+      "Alec Kirkley"
+    ],
+    "published": "2026-08-18",
+    "abstract": "Geospatial Foundation Models (GFMs) are emerging as a powerful paradigm for learning semantically rich and geographically consistent visual and physical representations. However, their reliance on Earth-observation (EO) data leaves information about human activity largely underrepresented. Human mobility data reveals the functional and relational structure between regions that is missing from EO data, but is often limited only to the city where it is observed, making it challenging to use for transferable urban representation learning. We introduce MoRAX, a lightweight framework for augmenting geospatial embeddings with functional structure derived from human mobility. MoRAX preserves the coverage and consistency of a GFM while providing information about the functional connectivity among urban regions, permitting zero-shot deployment in unseen cities with or without available mobility data. Across four target cities spanning two countries, the MoRAX teacher model, which observes mobility, consistently outperforms GFMs and strong urban representation baselines in eight socioeconomic and environmental prediction tasks. Meanwhile, the student model, which never takes mobility data as input, approaches the teacher in performance on most tasks. Transfer results across countries further demonstrate that modulation conditioned on mobility flows provides a general mechanism for grounding geospatial foundations in the human dimension of cities.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Beyond Accuracy: Assessing Calibration of Geospatial Foundation Models and Their Sensitivity to Distribution Shifts",
+    "url": "http://arxiv.org/abs/2608.16614v1",
+    "authors": [
+      "Nils Lehmann",
+      "Jakob Gawlikowski",
+      "Burak Ekim",
+      "Isaac Corley",
+      "Xiao Xiang Zhu"
+    ],
+    "published": "2026-08-17",
+    "abstract": "Geospatial Foundation Models (GeoFMs) are most commonly ranked and selected by accuracy on standard benchmark conditions via averaged ranks. We show that this protocol is too narrow: the promised deployment in critical EO tasks requires further angles of analysis, mainly calibration, the agreement between a model's confidence and its correctness. Across 16 frozen encoders, four classification and five segmentation datasets, and two orthogonal stress axes, every encoder degrades as corruption intensifies, and the ranking changes as well. Across the four classification benchmarks, EO-pretrained and ImageNet-pretrained encoders are indistinguishable on clean accuracy and clean calibration, and EO pretraining provides no more stability under shift than ImageNet pretraining. Under shift the GeoFMs drift further into overconfidence than the ImageNet-pretrained encoders, at every grade and in every corruption family. A centered kernel alignment (CKA) analysis ties this to representational rigidity: EO-pretrained embeddings move less under corruption while losing just as much task information and remaining overconfident. We apply three commonly explored uncertainty quantification methods and find that temperature scaling and deep ensembles cannot counteract the degradation, while a Gaussian-process probe roughly halves ECE under severe cloud only by tripling it on clean data. In selective prediction experiments, we find that confidence-based abstention cannot defer around confidently wrong predictions, and advocate that benchmark rankings and evaluations should therefore operate across a multitude of conditions and metrics to more holistically evaluate model development progress and close the gap to real world deployment scenarios.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Toward AI-Friendly Cartography: Understanding How Color Design Influences Foundation Model Spatial Reasoning on Sequential Choropleth Maps",
+    "url": "http://arxiv.org/abs/2608.15736v1",
+    "authors": [
+      "Yonghe Sun",
+      "Zhenjia Liu",
+      "Hua Liao",
+      "Wenjia Xu",
+      "Nai Yang",
+      "Weihua Dong",
+      "Zhiwei Wei"
+    ],
+    "published": "2026-08-16",
+    "abstract": "Foundation models (FMs) increasingly support multimodal and geospatial reasoning, yet it remains unclear whether cartographic principles designed for human perception are equally effective for machines. Focusing on sequential choropleth maps, we examine how hue palette, color ordering, and lightness contrast influence FM spatial reasoning. We construct a controlled benchmark of 5,760 maps and 28,800 questions spanning Attribute Identify, Spatial Recognition, Compare, Rank, and Pattern Delineate, and evaluate 21 open-source and proprietary multimodal FMs. Results show that hue choice has limited and inconsistent effects, whereas disrupting sequential color ordering substantially reduces performance, especially for comparison and ranking. Reduced lightness contrast also consistently impairs reasoning, while increasing contrast beyond sufficient separability provides only marginal gains. LoRA fine-tuning improves overall accuracy but preserves these relative sensitivities. Additional factorial experiments further indicate that errors arise from color-and-legend decoding, spatial reasoning, and the integration of thematic attributes with spatial structure. These findings show that conventional sequential ordering and sufficient contrast remain important for machine map understanding and provide empirical guidance for AI-friendly cartographic design.",
+    "categories": [
+      "foundation_model",
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": [
+      "Recognition"
+    ]
+  },
+  {
+    "title": "Electronic Navigational Chart Change Classification",
+    "url": "http://arxiv.org/abs/2608.20218v1",
+    "authors": [
+      "Jacob Arndt",
+      "Abhishek Potnis",
+      "Alexandre Sorokine"
+    ],
+    "published": "2026-08-20",
+    "abstract": "Electronic Navigational Charts (ENCs) are geospatial vector datasets used in maritime navigation systems that represent hydrographic and navigational information such as depths, navigational aids, traffic schemes, and hazards. A major challenge for hydrographic offices is determining whether a given chart change poses a critical or non-critical risk to maritime safety. Existing workflows rely heavily on manual review and verification, which is labor-intensive, scales poorly with the volume of incoming chart updates, and introduces inter-analyst inconsistencies. To address this challenge, we propose a method for automated classification of ENC changes. We establish a baseline encoding scheme to translate complex vector data changes into a structured tabular format for classification models. The two crucial components of the encoding scheme include a spatial context encoder to enrich the change representations with surrounding geographic features, and an ENC attribute encoder to represent nuanced attribute-value descriptions of the modified objects. We evaluate the proposed approach across two distinct operational datasets, comprising 1,308 chart pairs containing over 100,000 individual chart modifications. Tuned gradient-boosted trees leveraging the proposed encoding schemes achieve accuracies of 90% and 94% on the two datasets, yielding a 5-7% improvement over default hyperparameterized models trained on encodings without spatial context and attribute embeddings. These results demonstrate the viability of integrating machine learning into operational geospatial pipelines to improve ENC maintenance and enhance maritime safety. Finally, our experiments demonstrate the effectiveness of simple location and spatial aggregation methods, providing a foundation for evaluating more sophisticated spatial representation learning techniques for this application.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Far from the Crowd: Scalable Self-Supervised Learning via Geographic Isolation",
+    "url": "http://arxiv.org/abs/2608.19766v1",
+    "authors": [
+      "Daniele Rege Cambrin",
+      "Francesco Rossi",
+      "Mattia Varile"
+    ],
+    "published": "2026-08-20",
+    "abstract": "Self-supervised pretraining on remote sensing imagery typically treats all samples as equally informative, despite large variability in geographic and visual structure. We propose a curriculum learning strategy for self-supervised Earth observation that ranks samples by geographic isolation, a label-free proxy derived entirely from geolocation metadata already present in geospatial datasets, requiring no image decoding, no model feedback, and no manual annotation. Unlike visual complexity proxies, it scales as O(D log D) with dataset size D and is well-defined for both contrastive and reconstructive objectives. We integrate the proposed measure into MoCoV2 and MAE pretraining and evaluate across three downstream tasks from CopernicusBench (BigEarthNet, DFC-2020, LCZ). Our curriculum reaches baseline final-epoch performance using as few as 20% of the training budget (MAE) and at most 40% (MoCo) of the training budget, and improves final downstream performance by up to +5 mAP on BigEarthNet, with gains of 1-5 points across benchmarks, matching visual-complexity curricula while reducing pre-computation cost by more than 140x (4 s vs. 568 s on SSL4EO). A CKA and effective-rank analysis further reveals that curriculum-trained encoders develop higher-dimensional, more uniformly utilized embedding spaces throughout training.",
+    "categories": [
+      "foundation_model",
+      "remote_sensing"
+    ],
+    "architectures": [],
     "applications": []
+  },
+  {
+    "title": "SAGE-XGBoost: Spatially Augmented Graph Embeddings--Machine Learning Framework for Natural Hazards Susceptibility Mapping under Data Scarcity",
+    "url": "http://arxiv.org/abs/2608.19672v1",
+    "authors": [
+      "Mohammad H. Vahidnia",
+      "Ali Pourkarimi"
+    ],
+    "published": "2026-08-20",
+    "abstract": "Natural hazard susceptibility mapping is often constrained by limited labeled data, reducing the generalizability of conventional machine learning and limiting the applicability of complex deep learning models. This study proposes SAGE (Spatially Augmented Graph Embeddings), a structurally informed feature-engineering framework that combines controlled noise-based data augmentation with neighborhood-based graph embeddings to improve prediction under data-scarce conditions. A K-nearest neighbor graph is constructed to derive local spatial statistics, which are reduced using principal component analysis and integrated with environmental covariates and spatial coordinates. The resulting features are used with XGBoost to develop the SAGE-XGBoost model. The framework was evaluated for landslide and wildfire susceptibility mapping. SAGE-XGBoost consistently outperformed conventional and spatially explicit machine learning models. Compared with Spatial XGBoost, it achieved an absolute improvement of above 33 percentage points across the two case studies. The model reached AUC values of approximately 0.97 for landslide susceptibility and 0.95 for wildfire susceptibility. Feature importance analysis confirmed the contribution of graph embeddings to prediction, while their integration improved spatial coherence and reduced local noise amplification. Overall, SAGE-XGBoost provides an efficient and transferable alternative to deep representation learning for environmental hazard assessment and other geospatial prediction tasks under limited supervision.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "GOES-East full-disk AI nowcasting of cloud evolution in observation space",
+    "url": "http://arxiv.org/abs/2608.20540v1",
+    "authors": [
+      "Dhamma Kimpara",
+      "Omid Bagheri",
+      "Ivette Hernandez Banos",
+      "Byoung-Joo Jung",
+      "Chris Snyder"
+    ],
+    "published": "2026-08-20",
+    "abstract": "Clouds affect aviation, solar energy, remote sensing, and storm prediction, yet they remain among the hardest atmospheric features to forecast, particularly at convective scales. Because clouds are shaped by processes spanning a wide range of space and time scales, numerical weather prediction, extrapolation methods, and existing machine learning (ML) approaches are each limited by some combination of accuracy, domain size, and temporal resolution. We present DOP+, an ML approach for clouds that forecasts GOES-East full-disk infrared brightness temperatures by extending direct observation prediction (DOP) with conditioning on meteorological fields. The domain covers tropical, midlatitude, and marine regimes across $\\sim 10^8 ~ km^2$, roughly a fifth of Earth's surface. DOP+ forecasts cloud evolution at 10-minute resolution and outperforms persistence, synoptic-scale NWP, and a pure DOP baseline across 0-6 h lead times in fractions skill score and mean absolute error skill score. Convective structure is retained out to 2-3 h. DOP+ thus achieves a state-of-the-art combination of accuracy, temporal resolution, and spatial coverage. Our work lays the foundation for fully global cloud nowcasting at convective timescales.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Scalable Geospatial Machine Learning for Power-Line Asset Risk: Integrating Remote Sensing for Lightning and Vegetation Risk Modelling",
+    "url": "http://arxiv.org/abs/2608.18611v1",
+    "authors": [
+      "Artur Sokolovsky",
+      "Bhavik Merai",
+      "Moe Jafari",
+      "Muen Chen"
+    ],
+    "published": "2026-08-19",
+    "abstract": "Electric power networks are increasingly exposed to weather-sensitive failure mechanisms that require asset-level, spatially explicit risk modelling for effective intervention planning. This study contributes a modular, robust, and explainable probability-of-failure (PoF) modelling framework for utility asset management. The central contribution is an asset-level architecture that can be scaled to new environmental data sources and additional PoF types without reworking the underlying pipeline. This is particularly relevant for industry settings, where risk models must remain operationally maintainable while adapting to changing data availability, asset-management priorities, and climate-driven hazard conditions. We demonstrate the framework for vegetation-related and lightning-related failure modes using a harmonised geospatial machine-learning pipeline. The implementation integrates multi-source predictors, including topography (SRTM), vegetation condition (MODIS Normalised Difference Vegetation Index - NDVI), lightning climatology (LIS VHRMC), OpenStreetMap-derived proximity features, and utility operational records. The resulting architecture is computationally efficient, operationally extensible, and suitable for utility-scale deployment. It provides actionable asset-level risk stratification for inspection prioritisation, vegetation management, asset hardening, and resilience planning, supporting earlier intervention and more climate-resilient network operations.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "CrevasseSeg: A Label-Efficient UAV Crevasse Segmentation Framework",
+    "url": "http://arxiv.org/abs/2608.15790v2",
+    "authors": [
+      "Steven Wallace",
+      "William D. Harcourt",
+      "Richard Hann",
+      "Aiden Durrant",
+      "Somayajulu Sripada",
+      "Georgios Leontidis"
+    ],
+    "published": "2026-08-16",
+    "abstract": "Crevasse mapping from uncrewed aerial vehicle (UAV) imagery matters for glaciological research and for field safety in glaciated terrain. Yet, pixel-level annotation of glacier surfaces is costly and requires domain experts. We introduce CrevasseSeg, a framework for binary segmentation over the terminus of Borebreen, Svalbard, comprising 1,938 unlabelled UAV orthomosaic tiles for self-supervised/unsupervised fine-tuning, 24 labelled tiles for validation and 176 labelled tiles for testing. Using CrevasseSeg, we benchmark five self-supervised objectives -- BYOL, a Jensen-Shannon Divergence (JSD) objective, Barlow-Twins, VICReg, and a combined BYOL-JSD objective -- across three architectures: O-Net, O-Net++, and a DINOv3-initialised O-Net. Each configuration is evaluated under two frozen-feature readouts that differ only in the form of their decision boundary: a linear probe and a non-linear XGBoost classifier fit only on the 24 labelled validation images. Our central finding is a consistent inversion between the two readouts: DINOv3 features are the weakest under linear probing but the strongest under a non-linear readout. A UMAP analysis of the learned feature space shows that DINOv3 fragments pixels into many small clusters in which the classes are locally interleaved, whereas the convolutional architectures (O-Net and O-Net++) embed them onto a single class-sorted manifold. Satellite-pretrained DINOv3 improves over natural-image initialisation across objectives, and our label-efficient DINOv3-ViT-L-Sat-O-Net-BYOL-JSD pipeline reaches 75.33 mDSC / 61.28 mIoU, outperforming standard machine learning baselines fit on the same 24 labelled images with the RGB pixel values used as features. We release CrevasseSeg to support label-efficient segmentation research in remote sensing.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "Tianmu-TC: Physics-constraints Generative Artificial Intelligence for Global Tropical Cyclone Forecasting",
+    "url": "http://arxiv.org/abs/2608.18500v1",
+    "authors": [
+      "Shiqi Zhang",
+      "Pan Mu",
+      "Cheng Huang",
+      "Hanting Yan",
+      "Yuchao Zhu",
+      "Jinglin Zhang",
+      "Shengyong Chen",
+      "Shoujuan Shu",
+      "Cong Bai"
+    ],
+    "published": "2026-08-19",
+    "abstract": "Tropical cyclones (TCs) pose severe risks from strong winds and heavy rainfall. However, forecasting their track and intensity remains challenging due to chaotic atmosphere and the rapid amplification of initial condition errors, leading to growing forecast uncertainty. While numerical weather prediction (NWP) and deep learning models have made progress, they remain computationally demanding and often fail under complex meteorological scenarios. Here, we present Tianmu-TC, a physics-constraints generative framework for global TC forecasting. Trained on Western North Pacific data, Tianmu-TC leverages physics-constraints to generate controllable outputs with reduced uncertainty thus improving forecast reliability. Experiments show Tianmu-TC outperforms deterministic and ensemble meteorological artificial intelligence models and authoritative NWP systems such as ECMWF in global ocean basins, with significantly lower computational cost. We further show Tianmu-TC performs well in challenging scenarios such as data sparsity, anomaly tracks, rapid intensification and weakening. These findings suggest physics-constraints generative AI offers a promising approach for reliable, efficient global TC forecasting.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Decadal wave reconstruction in the Mediterranean Sea with graph neural networks",
+    "url": "http://arxiv.org/abs/2608.16449v1",
+    "authors": [
+      "Federica Benassi",
+      "Lorenzo Mentaschi",
+      "Salvatore Causio",
+      "Daniel Holmberg",
+      "Ivan Federico",
+      "Nadia Pinardi"
+    ],
+    "published": "2026-08-17",
+    "abstract": "Accurate simulation and prediction of ocean waves are essential for coastal risk management and climate studies. Deep learning has shown promising results for wave modeling, but most approaches still operate on regular grids and on forecasting time scales, and do not generalize to unstructured discretization or to long time horizons. Here we present WaveGraph, a model based on Graph Neural Networks (GNNs) that emulates basin-scale wave dynamics directly on unstructured meshes with high resolution along the coasts (up to 2-3 km). Trained on bias-corrected simulation data over the Mediterranean Sea, WaveGraph uses a multiscale architecture combining the unstructured model mesh with a uniform graph, allowing simultaneous representation of local coastal interactions and large-scale wave dynamics. The model reconstructs the evolution of significant wave height, mean period, and mean direction, and is applied autoregressively for a continuous 17-year period without reinitialization or drift. Validation against buoy and satellite observations shows skill comparable to the input data set, and ablation experiments indicate that wind forcing drives most of the long-term stability while wave history improves swell-driven and basin-scale dynamics. These results show that GNNs can provide stable and efficient emulators of spectral wave models on unstructured domains, enabling decadal wave reconstructions.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "GNN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "OceanLight: Efficient Global Ocean Forecasting via Geometry-Adaptive Unstructured Mesh Representation",
+    "url": "http://arxiv.org/abs/2608.16070v1",
+    "authors": [
+      "Wei Wu",
+      "Xiang Wang",
+      "Hongze Leng",
+      "Qingye Min",
+      "Junxing Zhu",
+      "Junqiang Song"
+    ],
+    "published": "2026-08-17",
+    "abstract": "Reliable global ocean forecasting is critical for climate monitoring, marine navigation, and extreme event early warning. Physics-based ocean forecasting models impose prohibitive computational costs, while existing deep learning approaches predominantly rely on structured-grid architectures, incurring unnecessary computation on masked land cells and enforcing uniform resolution across dynamically heterogeneous ocean regions regardless of local flow complexity. Here we present OceanLight, an efficient global ocean forecasting framework innovatively combining geometry-adaptive unstructured mesh tokenization with a graph neural network (GNN) backbone. OceanLight achieves pointwise forecast accuracy and kinetic energy spectral fidelity exceeding both operational numerical analyses and state-of-the-art AI-based models, while surpassing all AI-based ocean models in geostrophic balance consistency. Furthermore, OceanLight demonstrates reliable mesoscale eddy representation, capturing coherent ocean structures beyond pointwise statistical optimization. These capabilities are delivered with a 62% reduction in GPU memory consumption and 70\\% reduction in FLOPs relative to structured-grid baselines. Our unstructured mesh representation establishes a generalizable paradigm for scalable data-driven oceanography.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "GNN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Generative data assimilation highlights fronts as key regulators of ocean energy cascade",
+    "url": "http://arxiv.org/abs/2608.14955v1",
+    "authors": [
+      "Scott A. Martin",
+      "Georgy E. Manucharyan",
+      "Patrice Klein"
+    ],
+    "published": "2026-08-15",
+    "abstract": "Mesoscale eddies are fundamental to the ocean circulation, yet the extent to which submesoscale motions, a few kilometers across, influence mesoscale eddy energetics through a kinetic energy cascade remains uncertain. High-resolution simulations predict that submesoscale fronts are key regulators of the cascade, transferring energy both downscale towards dissipation and upscale to sustain and shape the seasonality of mesoscale eddies. Testing these predictions has remained difficult because existing observations and state estimates cannot resolve submesoscale currents over sufficiently broad domains. Here we map the ocean's submesoscale energy cascade by combining multi-source satellite observations with a generative deep learning framework, reconstructing gap-free, kilometer-scale surface currents with physically plausible dynamics learned from simulations. Applying this to the eddy-rich Agulhas Current system, we find that submesoscales energize the mesoscale through an upscale energy cascade above 10 km, contributing to the seasonality of mesoscale eddies. Below 10 km, convergence at submesoscale fronts drives a downscale cascade towards dissipation. Both upscale and downscale pathways concentrate within fronts, where cross-scale transfer is up to an order of magnitude more efficient. Despite their limited extent, fronts account for a substantial fraction of the domain-integrated cascade, establishing them as key regulators of the cascade and targets for next-generation eddy parameterizations.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "The impact of feature engineering and an optimisation framework for ocean colour machine learning",
+    "url": "http://arxiv.org/abs/2608.19899v1",
+    "authors": [
+      "Edson Silva",
+      "Julien Brajard",
+      "Simon Cappe",
+      "Lasse H. Pettersson",
+      "Fran\u00e7ois Counillon"
+    ],
+    "published": "2026-08-20",
+    "abstract": "Machine learning (ML) is widely used for the development of ocean colour algorithms, but most studies focus on model parameter training and hyperparameter tuning. The optimisation of the data that feeds the models - i.e., Feature Engineering (FE) - is not fully explored. We assess the impact of FE in ocean colour machine learning models and we propose an optimisation framework that includes seven sequenced levels of data transformation: i. band choice, ii. log scaling, iii. spectral shape normalisation, iv. index extraction, v. principal component analysis, vi. feature scaling, and vii. zero-to-one scaling. We demonstrate the application for Multi-layer perceptron, Support Vector Machines, and eXtreme Gradient Boosting Trees on Sentinel-3 OLCI observations in the Norwegian coastal waters. The models are trained to estimate Chlorophyll-a concentration [Chl-a] and Secchi disk depth (Zsd). Results show that accuracy is highly variable among FE found in six studies using Sentinel-3 OLCI and the ones that we optimise. The R range from 0.01 to 0.55 for [Chl-a] and from 0.15 to 0.68 for Zsd, where the optimised FE shows the top results. The ML models with optimised FE could also improve by two times the R and reduce up to 63% of the mean absolute error when compared to CHL_OC4ME and CHL_NN standard algorithms. Nevertheless, no common optimised FE is found for all target variables and ML models, suggesting that FE optimisation is necessary for each application. Therefore, our proposed framework can be key for improving the accuracy of water quality monitoring in coastal waters.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "OceanDepths: A Global Dataset of Paired Subsurface and Surface Ocean Observations",
+    "url": "http://arxiv.org/abs/2608.16373v2",
+    "authors": [
+      "Simon Donike",
+      "Ruben Cartuyvels",
+      "Antonino Ian Ferola",
+      "Elisa Carli",
+      "Diego Fernandez Prieto",
+      "Marie-Helene Rio"
+    ],
+    "published": "2026-08-17",
+    "abstract": "Despite comprising over 70% of its surface, the world's oceans are critically underobserved compared to the land surface or the atmosphere. Understanding the global ocean requires jointly observing its surface and subsurface structure, yet no standardized, high-resolution dataset couples satellite surface fields to co-located in situ depth profiles in an AI-ready format. Existing resources either consist of model-reconstructed gridded products rather than observations, cover only a single variable or basin, or operate at resolutions too coarse for mesoscale dynamics. We introduce OceanDepths, the first open, global, regridded AI-ready dataset that pairs satellite-derived sea surface temperature (SST), sea surface salinity (SSS), and sea surface height (SSH) L4 products with co-located EN4 subsurface temperature and salinity profiles, complemented by matched GLORYS12 ocean reanalysis data to support comparisons or multi-stage learning. The dataset spans 2000-2024 at 0.1 degrees x 0.1 degrees spatial resolution and at weekly temporal resolution, covering the entire globe's sea surface and with over 9.5 million paired profiles interpolated to 50 standardized depth levels. We provide a configurable system to split the globe in equally sized spatial patches. The 4D multivariate structure, high resolution, long temporal extent, and extreme sparsity of subsurface observations (approximately 0.01% per depth level) make OceanDepths a challenging testbed for novel AI methods. We demonstrate subsurface state reconstruction as an example task with simple baseline models, but also envision OceanDepths to support the development of observation-based forecast methods and other related tasks. Available at: https://huggingface.co/datasets/ESA-philab/OceanDepths.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
   }
 ]
