@@ -32660,7 +32660,8 @@
     "architectures": [],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "AlignJEPA: Predictive Vision-Language Alignment for Remote Sensing Foundation Models",
@@ -32683,7 +32684,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "MoRAX: Mobility-based Representation Augmentation for Geospatial Foundation Models",
@@ -32702,7 +32704,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Beyond Accuracy: Assessing Calibration of Geospatial Foundation Models and Their Sensitivity to Distribution Shifts",
@@ -32724,7 +32727,8 @@
       "Segmentation",
       "Classification",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Toward AI-Friendly Cartography: Understanding How Color Design Influences Foundation Model Spatial Reasoning on Sequential Choropleth Maps",
@@ -32747,7 +32751,8 @@
     "architectures": [],
     "applications": [
       "Recognition"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Electronic Navigational Chart Change Classification",
@@ -32765,7 +32770,8 @@
     "architectures": [],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Far from the Crowd: Scalable Self-Supervised Learning via Geographic Isolation",
@@ -32782,7 +32788,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "SAGE-XGBoost: Spatially Augmented Graph Embeddings--Machine Learning Framework for Natural Hazards Susceptibility Mapping under Data Scarcity",
@@ -32799,7 +32806,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "GOES-East full-disk AI nowcasting of cloud evolution in observation space",
@@ -32819,7 +32827,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Scalable Geospatial Machine Learning for Power-Line Asset Risk: Integrating Remote Sensing for Lightning and Vegetation Risk Modelling",
@@ -32836,7 +32845,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "CrevasseSeg: A Label-Efficient UAV Crevasse Segmentation Framework",
@@ -32859,7 +32869,8 @@
     ],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Tianmu-TC: Physics-constraints Generative Artificial Intelligence for Global Tropical Cyclone Forecasting",
@@ -32883,7 +32894,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Decadal wave reconstruction in the Mediterranean Sea with graph neural networks",
@@ -32906,7 +32918,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "OceanLight: Efficient Global Ocean Forecasting via Geometry-Adaptive Unstructured Mesh Representation",
@@ -32929,7 +32942,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Generative data assimilation highlights fronts as key regulators of ocean energy cascade",
@@ -32947,7 +32961,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "The impact of feature engineering and an optimisation framework for ocean colour machine learning",
@@ -32965,7 +32980,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "OceanDepths: A Global Dataset of Paired Subsurface and Surface Ocean Observations",
@@ -32986,6 +33002,427 @@
     "architectures": [],
     "applications": [
       "Forecast"
+    ],
+    "is_recent": false
+  },
+  {
+    "title": "Object Counting Across Modalities: Taxonomies, Benchmarks, Applications, and Open Challenges",
+    "url": "http://arxiv.org/abs/2608.23845v1",
+    "authors": [
+      "Joana Konadu Owusu",
+      "Shivanand Venkanna Sheshappanavar"
+    ],
+    "published": "2026-08-24",
+    "abstract": "Object-counting methods have rapidly shifted from class-specific density regression to open-vocabulary, foundation-model-backed counters. These methods now enumerate instances from various visual and textual prompts. While this shift marks major conceptual progress, our survey argues that claims of universal generality have outpaced the evaluative infrastructure. Most progress metrics rely on a few saturated benchmarks that models exploit for statistical regularities. Newly introduced diagnostic datasets reveal systematic failures in semantic grounding, temporal identity, and spatial reasoning with occlusion. To address these failures, we introduce a five-axis taxonomy (modality, mechanism, prompting, supervision level, and generalization setting). We use this taxonomy to audit the literature across application domains, including microscopy, remote sensing, crowd counting, and agriculture. This formalizes prevailing challenges into six structural contradictions. From these, we propose a roadmap for compositional scene understanding, active counting agents, and unified multimodal evaluation protocols. The main imperative is to build a robust evaluation infrastructure to distinguish open-world generalization from benchmark-specific optimization, rather than simple incremental engineering.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Regression"
+    ]
+  },
+  {
+    "title": "GeBDA: Building Damage Assessment as Text-Based Sequence Prediction",
+    "url": "http://arxiv.org/abs/2608.28567v1",
+    "authors": [
+      "Olivier Dietrich",
+      "Krishna Sapkota",
+      "Konrad Schindler",
+      "Genady Beryozkin"
+    ],
+    "published": "2026-08-28",
+    "abstract": "Conventionally, Building Damage Assessment (BDA) is tackled either with dedicated network architectures or by fine-tuning geospatial image foundation models. In this work, we ask whether a general-purpose Vision-Language Model (VLM) can localize buildings and grade their damage through autoregressive sequence generation alone. We cast BDA as predicting a variable-length set of bounding boxes, each specified by its coordinates and a damage label. Our preliminary implementation, based on the open Gemma model, achieves promising damage mapping results from only bi-temporal satellite images and a suitable text prompt.",
+    "categories": [
+      "geo_reasoning",
+      "foundation_model"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Planetary Prediction Engine: Autonomous Geospatial Prediction via Intelligent Data Selection and Foundation Model Embeddings",
+    "url": "http://arxiv.org/abs/2608.26088v1",
+    "authors": [
+      "Evelyn Ma",
+      "Rama Kumar Pasumarthi",
+      "Kishwar Shafin",
+      "Mandar Sharma",
+      "Mimi Sun",
+      "Hamed Sadeghi",
+      "Dav M. Ebengo",
+      "Mbulayi Onesime",
+      "Rouslan Solomakhin",
+      "John Wamburu",
+      "William Ogallo",
+      "Aisha Walcott-Bryant",
+      "Sanxing Chen",
+      "Arbaaz Muslim",
+      "Yael Mayer",
+      "Ronald Ho",
+      "Roy Lee",
+      "Ruth Alcantara",
+      "Abdoulaye Diack",
+      "Monica Bharel",
+      "Lambert Rosique",
+      "Jeremy Amez-Droz",
+      "Christopher Haire",
+      "James Manyika",
+      "Yossi Matias",
+      "Niv Efron",
+      "Gautam Prasad",
+      "Shravya Shetty"
+    ],
+    "published": "2026-08-26",
+    "abstract": "Addressing critical global challenges, from food security and disaster risk to disease outbreaks and socio-economic vulnerability, demands high-fidelity geospatial modeling. However, building predictive planetary models remains bottlenecked by a fragmented data ecosystem, requiring manual data retrieval, multimodal data curation and fusion along with iterative model selection. We present the Planetary Prediction Engine (PPE), an autonomous AI system that executes this end-to-end workflow directly from natural-language queries. PPE synthesizes multimodal datasets on the fly, retrieving spatiotemporally relevant covariates across open-web and Earth observation platforms (Data Commons, Google Earth Engine) and fusing them with geospatial foundation model embeddings (PDFM, AlphaEarth). Simultaneously, it searches over task-tailored model architecture families with automated overfitting guards. Across diverse tasks, geographies, and scientific domains, PPE consistently outperforms state-of-the-art or manually tuned expert baselines. For US spatial regression, PPE improves mean $R^2$ across 21 CDC health indicators (76.8% vs. 60.0%), FEMA national risk indices (64.9% vs. 60.0%), and the Social Vulnerability Index (66.2% vs. 58.6%). For spatial downscaling in data-scarce settings, PPE integrates localized proxies to double baseline accuracy in Nigerian food security indicators ($R^2$ of 66.1% vs. 31.5%). For epidemiological nowcasting of the 2026 DRC Bundibugyo Ebola outbreak, PPE achieves a Recall@10 of 83.3% (identifying 15 of 18 newly invaded health zones across five weekly forecasts), a +10.3 percentage-point improvement over the public state-of-the-art modeling (~73%). By combining autonomous multimodal planetary data discovery with targeted model optimization, PPE lowers the technical barrier to planetary-scale analytics, enabling rapid, customized, expert-level deployment.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Regression",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Texture Image Classification Using DWT AlexNet Feature Fusion and Deep Neural Networks",
+    "url": "http://arxiv.org/abs/2608.28524v1",
+    "authors": [
+      "Arun D. Kulkarni"
+    ],
+    "published": "2026-08-28",
+    "abstract": "Texture image classification plays a significant role in computer vision applications, including industrial inspection, medical image analysis, remote sensing, and object recognition. Handcrafted features can capture local texture characteristics but may have limited capability to represent complex visual patterns. In contrast, deep learning models automatically learn discriminative representations but may not fully exploit the multiscale spatial-frequency information inherent in texture images. This paper proposes a hybrid feature fusion framework, termed DWT_AlexNet_DNN, which combines Discrete Wavelet Transform (DWT) features with deep features extracted using AlexNet for texture image classification.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification",
+      "Recognition"
+    ]
+  },
+  {
+    "title": "Detection of Christmas tree plantations from high-resolution aerial imagery. A case study in the French Morvan",
+    "url": "http://arxiv.org/abs/2608.27290v1",
+    "authors": [
+      "Francesca Razzano",
+      "Emanuele Dalsasso",
+      "Adrien Baysse-Lain\u00e9",
+      "Silvia Liberata Ullo",
+      "Gilda Schirinzi",
+      "Jocelyn Chanussot"
+    ],
+    "published": "2026-08-27",
+    "abstract": "Christmas tree plantations are economically relevant, yet a largely unexplored application domain in Remote Sensing (RS). Their delineation is challenging because of high planting density, short rotation cycles, visual confusion with surrounding vegetation, the availability of dense labels for one reference year only, and severe class imbalance at the landscape scale. Although Deep Learning (DL) methods have shown strong potential for vegetation mapping, existing approaches are typically designed for forests, generic plantation systems, or orchards, and do not explicitly address the structural specificity and hard-negative confusion that characterize Christmas tree plantations. In response to these challenges, this work makes three main contributions: (i) it frames Christmas tree plantation mapping as a distinct rare-target semantic segmentation problem; (ii) it introduces a Hard Negative Mining (HNM) strategy to improve discrimination against confusing background patterns; and (iii) it evaluates the proposed framework across complementary levels, including supervised testing, temporal transfer, and large-scale validation. On the 2020 test set held out, the best model, DeepLabV3 with a ResNet-34 encoder, achieves an IoU of 0.733 and an F1-score of 0.846. HNM substantially improves precision-recall behavior, increasing the area under the precision-recall curve from 0.204 to 0.913. Temporal inference further shows meaningful transferability, reaching IoU/F1 values of 0.751/0.858 on 2017/2018 and 0.691/0.817 on 2023. Large-scale validation further highlights the intrinsic difficulty of the task, as Christmas tree plantations occupied only a very small fraction of the extent of the common evaluation, corresponding to 1,498.4 ha (1.72\\%) in 2017/2018 and 1,782.2 ha (2.04\\%) in 2023 out of 87,309.4 ha in total.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "ResNet"
+    ],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "Learning Woody Clearing With Loss Alignment for Zero-Shot Regrowth and Woody Segmentation",
+    "url": "http://arxiv.org/abs/2608.26489v1",
+    "authors": [
+      "Kal Backman",
+      "Jared Wood",
+      "Adam Roff"
+    ],
+    "published": "2026-08-27",
+    "abstract": "Detecting woody clearing is vital for managing biodiversity. Deep learning models can detect change in woody vegetation from bitemporal remote sensing imagery, however generated products may not meet end-user specifications due to unaligned loss definitions. Further limitations of deep learning models are the reliance on large datasets which can be difficult to attain for spatially rare and ambiguous events such as regrowth detection. In this work we train a model to detect woody change using bitemporal Sentinel-2 imagery consisting of 7 years' worth of annual imagery across the state of New South Wales, Australia. To align the objective of the model with end-user metrics, we introduce the loss scaling coefficient $\u03b1$ which transforms the objective to optimize for specific $F_\u03b2$ scores. Introducing $\u03b1$ was found to increase precision by 1.85x or recall by 1.12x. We propose input imagery augmentation and generation techniques that allow the woody change detection model to zero-shot transfer to regrowth and woody segmentation tasks. For woody segmentation, image generation techniques using activation maximization with low $\u03b1$ values for stability and image generation techniques derived from handcrafted features utilizing a mosaic of clearing patches and artificial trees for contextual grounding were found to outperform prior woody segmentation works of the study area, reducing the overall error by up to 18.2%. For zero-shot woody regrowth, creating pseudo-post and prior images resulted in the model achieving an F1 score of 0.845, creating a foundation for future regrowth detection work.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection",
+      "Image Generation"
+    ]
+  },
+  {
+    "title": "Mapping Woody Vegetation from Multi-Source Imagery and Prediction Fusion for Enhanced Data Efficiency and Accuracy",
+    "url": "http://arxiv.org/abs/2608.26471v1",
+    "authors": [
+      "Kal Backman",
+      "Jared Wood",
+      "Adam Roff"
+    ],
+    "published": "2026-08-26",
+    "abstract": "Tree cover maps are a fundamental remote sensing product, used to derive ecological insights about the landscape and are essential to change detection, vegetation mapping and fire monitoring programs. However, comprehensive tree cover mapping requires reliable and high-quality imagery, free of cloud and weather defects to ensure accurate model outputs. Deep learning approaches can generate high quality maps with minimal human intervention but require large amounts of human annotated data to be successful. In this work we propose a framework consisting of methods that aim to improve the data efficiency and robustness of deep learning models using data fusion techniques to segment woody vegetation defined as vegetation over the height of 2m across the state of New South Wales, Australia. To improve robustness against varying image quality, we propose an image composition method that normalizes the imagery and removes defects, whilst also minimizing the reliance on individual image quality by proposing a prediction fusion method. The two methods resulted in an error reduction of 38.2% and 53.6% respectively compared to single-source imagery. To address deep learning approaches' limitation of requiring large amounts of data, we apply label transfer to multiple sources of imagery as a form of data augmentation to improve data efficiency. Learning from multiple image sources was shown to be the biggest improvement in performance, resulting in an error reduction between 28.1% to 76.2% across the different validation experiments, whilst reducing the standard deviation of performance across image dates by a factor of 13.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Deep Learning Super Resolution for Satellite Cloud Mask Downscaling",
+    "url": "http://arxiv.org/abs/2608.24715v1",
+    "authors": [
+      "Angelos Georgakis",
+      "Valentina Kanaki",
+      "Giorgos Giannopoulos",
+      "Stella Girtsou",
+      "Ioannis Kontogiorgakis",
+      "Charalampos Kontoes",
+      "Kostas Philippopoulos"
+    ],
+    "published": "2026-08-25",
+    "abstract": "A vast amount of optical satellite data is being transmitted to Earth-based servers every day, and more than half of this data is affected by haze or clouds. Additionally, this data suffers from the fundamental trade-off between spatial and temporal resolution, which remains largely unresolved, making the acquisition of continuous high-resolution satellite observations of clouds an ongoing challenge. This work addresses this challenge by proposing two Deep Learning super-resolution methods for the accurate downscaling of SEVIRI cloud mask products, as well as a novel cross-sensor cloud mask dataset called SEVMOD-CM, created by spatially and temporally matching MODIS and SEVIRI satellite observations. The two proposed models are a CNN-based (SpatialCNN) and a GAN-based (SpatialGAN) Neural Network. Trained on the SEVIRI spectral and cloud mask products, the proposed methods predict the corresponding MODIS Cloud masks, achieving a 4x spatial enhancement across sensor domains. Both approaches are evaluated experimentally, and compared against the standard bicubic interpolation upsampling technique. The experimental results demonstrate the value of the proposed models and dataset for the remote sensing community, highlighting the benefits of applying super-resolution techniques to geostationary-derived cloud mask products for applications such as atmospheric monitoring, weather forecasting, disaster risk reduction, solar energy forecasting, and climate research.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "GAN"
+    ],
+    "applications": [
+      "Super-Resolution",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Hyperspectral Diffusion Equivariant Imaging (HyDiff-EI): A Self-supervised Framework for Hyperspectral Image Inpainting",
+    "url": "http://arxiv.org/abs/2608.26812v1",
+    "authors": [
+      "Shuo Li",
+      "Mike Davies",
+      "Mehrdad Yaghoobi"
+    ],
+    "published": "2026-08-27",
+    "abstract": "A novel Hyperspectral diffusion Equivariant Imaging (HyDiff-EI) framework for solving the hyperspectral image (HSI) inpainting problem has been presented here. Unlike conventional diffusion-based methods that rely on large-scale pretraining, HyDiff-EI is a test-time optimization framework that learns directly from a single corrupted HSI acquisition. This makes it flexible for different sensor configurations and particularly well-suited for practical remote sensing scenarios where large annotated hyperspectral datasets are limited. To address the ill-posed nature of unsupervised inpainting, we embed equivariant consistency constraints within the diffusion process. By leveraging the inherent geometric symmetries and intrinsic characteristics of HSIs, HyDiff-EI bridges the gap between generative diffusion modeling and self-consistent physical priors. We empirically show that coupling diffusion modeling with equivariant priors substantially enhances noise robustness and generalizability. Extensive experiments on real-world datasets including Chikusei, Botswana, and EMIT demonstrate that HyDiff-EI offers remarkable inpainting quality over existing self-supervised and diffusion-based algorithms in both noiseless and noisy cases.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Dandelion: A Spherical Flower for Neural Simulation of Planetary Dynamics",
+    "url": "http://arxiv.org/abs/2608.27521v1",
+    "authors": [
+      "Till Muser",
+      "Giovanni Abati",
+      "Ivan Dokmani\u0107"
+    ],
+    "published": "2026-08-27",
+    "abstract": "Many dynamical processes unfold on the sphere but the default scientific machine learning architectures are Euclidean. Applying these architectures on a regular lat-lon grid causes problems: Cartesian convolutions become distorted at high latitude; 2D FFTs in Fourier neural operators incorrectly assume double periodicity; Cartesian positional encodings in ViTs distort spherical geodesic distances. Recent work moves towards natively spherical primitives, including spherical convolutions (e.g., DeepSphere or DISCO), Spherical Fourier Neural Operators (SFNOs), and geodesic attention. Here we propose Dandelion, a spherical version of Flower, a warp-based neural PDE solver. Layers of Dandelion predict a tangent-plane displacement and transport features along great circles. We obtain a U-Net-like structure by implementing hierarchical pooling entirely in the spherical-harmonic domain. There are thus no convolutions: spatial mixing is achieved only through spherical coordinate changes, or warps. To compare Dandelion with existing spherical architectures, we release an evolving benchmark suite of challenging, natively-spherical PDE datasets including a modified Galewsky jet, anomalous chained turbulence, Cahn-Hilliard decomposition, spherical Riemann shocks, Held-Suarez dry atmospheric transport and global ocean dynamics. This new benchmark fills the gap in existing spherical datasets which are either too small and stylized, or much too large (ERA5) for model iteration. Dandelion is best or second-best on every dataset, and the gap to non-warp baselines widens with resolution: at $256\\times 512$, Dandelion and Flower2D occupy the top two slots in both single-step prediction and rollout.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "UNET",
+      "Transformer"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Bridging short- and medium-range weather forecasting with machine learning",
+    "url": "http://arxiv.org/abs/2608.26822v1",
+    "authors": [
+      "Timothy A. Smith",
+      "Mariah Pope",
+      "Sergey Frolov",
+      "Brett Basarab",
+      "Daniel Abdi",
+      "Paul Madden",
+      "Isidora Jankov"
+    ],
+    "published": "2026-08-27",
+    "abstract": "The National Oceanic and Atmospheric Administration (NOAA) employs independent prediction systems for distinct forecast products. While some separation is practical, we argue that combining short- and medium-range weather into a single prediction system would provide the public with a useful distillation of global weather and its impacts. To this end, we present Nested-EAGLE (Experimental Artificial intelligence Global and Limited-area Ensemble): a 0.25\u00b0 global weather model with a 6 km refinement over the Contiguous United States (CONUS). The model achieves significantly lower mean-squared error in near-surface and low-level quantities over CONUS compared to NOAA's Global Forecast System and High-Resolution Rapid Refresh (HRRR), while remaining competitive throughout the rest of the global atmosphere. We show that the skill gains for near-surface fields stem from incorporating high-resolution regional analysis data into training through the nesting process. Forecasts of precipitation amounts are less skillful than those from HRRR, owing to deterministic training. However, we show that Nested-EAGLE provides the most accurate forecasts of storm locations at longer leads, despite blurred extrema. Our results motivate future work to extend the skill gains beyond CONUS and improve precipitation representation.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "TRACE: Retrospective Streaming Generation of Physical Fields under Sparse Structured Sensing",
+    "url": "http://arxiv.org/abs/2608.26219v1",
+    "authors": [
+      "Xinyu Zhang",
+      "Lihao Chen",
+      "Panqi Chen",
+      "Lei Cheng",
+      "Ting Zhang",
+      "Jianlong Li",
+      "Shikai Fang"
+    ],
+    "published": "2026-08-26",
+    "abstract": "Reconstructing continuous physical fields from sparse measurements is central to scientific monitoring, inverse modeling, and digital-twin construction. Generative reconstruction has recently emerged as a promising paradigm for this task by learning data-driven physical priors that complete plausible full fields from limited observations. However, existing methods largely assume fixed, batch conditioning, whereas real sensing systems often produce structured streams: probes scan local regions, instruments observe moving fields of view, and communication constraints may leave entire frames missing. We propose TRACE, a retrospective streaming generative reconstruction framework for physical fields under structured sensing. TRACE performs approximate Bayesian inference in a learned continuous-coordinate latent space, converting sparse off-grid measurements into generative latent evidence, fusing it with a state-space temporal prior through Kalman-style filtering, and refining under-observed past frames via retrospective smoothing. Experiments on active matter, ocean sound-speed fields, and supernova simulations show that TRACE matches or surpasses frame-wise generative reconstructors, offline spatiotemporal methods, and streaming data-assimilation baselines in reconstruction quality under temporally sparse and spatially localized sensing protocols.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Beyond chlorophyll: machine learning estimates of diagnostic phytoplankton pigments from multispectral ocean colour data",
+    "url": "http://arxiv.org/abs/2608.23348v1",
+    "authors": [
+      "David Moffat",
+      "Angus Laurenson",
+      "Victor Martinez-Vicente",
+      "Gemma Kulk",
+      "Xuerong Sun",
+      "Robert J. W. Brewin",
+      "Shubha Sathyendranath"
+    ],
+    "published": "2026-08-24",
+    "abstract": "Phytoplankton play a central role in marine ecosystems and the global carbon cycle, with different groups contributing differently to ocean biogeochemical processes. While standard techniques exist for monitoring phytoplankton concentration from ocean-colour data, their community composition remains difficult to observe at large scales. Chlorophyll-a, widely available from satellite ocean-colour observations, is commonly used as a measure of phytoplankton biomass but provides limited information on taxonomic composition. Accessory pigments, some of which are diagnostic of important phytoplankton groups, offer additional information on community structure, but their retrieval from ocean-colour data is challenging because of limited spectral resolution and strong covariance with chlorophyll-a. In this study, we evaluate machine learning methods for estimating diagnostic pigment concentrations from multispectral satellite observations. Using a global dataset of 33,640 High Performance Liquid Chromatography (HPLC) measurements matched with ESA Ocean Colour Climate Change Initiative (OC-CCI) reflectance data, we compare Random Forest and TabPFN models trained on multispectral reflectance with baseline models using chlorophyll-a alone. A temporally stratified validation scheme is employed to reduce the effects of autocorrelation. Results show that multispectral models consistently outperform approaches based solely on satellite-derived chlorophyll-a, demonstrating that ocean-colour reflectance contains additional information relevant to pigment discrimination. Improvements vary by pigment, with those strongly correlated with chlorophyll-a showing limited gains, while others exhibit substantial improvement. These findings highlight the potential of machine learning to extract ecologically relevant information from satellite data beyond conventional chlorophyll-based approaches.",
+    "categories": [
+      "ocean",
+      "fish_plankton"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
+    "url": "http://arxiv.org/abs/2608.27456v1",
+    "authors": [
+      "Tianjie Ju",
+      "Zheng Wu",
+      "Yueqing Sun",
+      "Yuhan Cui",
+      "Bobo Li",
+      "Shengqiong Wu",
+      "Pengzhou Cheng",
+      "Haodong Zhao",
+      "Zongru Wu",
+      "Xinbei Ma",
+      "Doris Zhang",
+      "Kunling Li",
+      "Mong-Li Lee",
+      "Wynne Hsu",
+      "Hao Fei",
+      "Qi Gu",
+      "Gongshen Liu",
+      "Zhuosheng Zhang"
+    ],
+    "published": "2026-08-27",
+    "abstract": "Multimodal large language models (MLLMs) can interpret a street view, but urban agency depends on whether such local evidence remains useful after the agent starts to move. In this paper, we investigate how far current MLLM agents can turn local urban perception into reliable action in a complicated real-scale city. We propose UrbanGround, the first sandbox to make this question testable in a physically constrained replica of Hong Kong built from territory-wide 3D geospatial data. UrbanGround supports closed-loop interaction from a first-person view and provides an interactive map for navigation. Agents can directly enter the 3D city and explore from a first-person view. Our analysis follows the growth of the spatial problem through three research questions. We first test whether an agent can ground a local scene well enough to answer spatial questions after active observation. Then we ask whether that grounding supports navigation as destinations become farther away and less explicit. Finally, we examine whether the resulting behavior survives changes in route availability and pedestrian motion. Contemporary MLLM agents usually show useful atomic abilities in visual recognition and short-range spatial reasoning, while orientation and pedestrian-aware movement remain unreliable. Their central failure emerges over extended exploration, where local abilities do not compose into sustained goal-directed behavior and errors accumulate without effective correction. We hope UrbanGround will support broader study of how far current MLLM agents can explore reliably in complex, open-ended urban environments.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Recognition"
+    ]
+  },
+  {
+    "title": "LifePlanner: Evaluating LLM Agents for Geo-spatial Planning with Social Media Data",
+    "url": "http://arxiv.org/abs/2608.25039v1",
+    "authors": [
+      "Zhen Dong",
+      "Yuning Peng",
+      "Yutao Shi",
+      "Lei Zhong",
+      "Yongsen Mao",
+      "Yuan Liu",
+      "Haiping Wang"
+    ],
+    "published": "2026-08-25",
+    "abstract": "Geo-spatial planning, like trip design, is a realistic testbed for LLM agents because it requires grounded tool use, noisy evidence retrieval, and multi-constraint reasoning. Most benchmarks, however, only provide clean geospatial data and tools, missing the open-ended social signals that people use in daily planning. We introduce LifePlanner, a benchmark that enriches map data with large-scale local social media posts and provides access through an MCP toolset. LifePlanner provides an evaluation suite spanning four task categories and three difficulty levels. Experiments show frontier LLMs perform well on simple retrieval but degrade sharply on complex planning, with the Pass Rate dropping to 40.2%. Results show that failures mainly stem from incomplete evidence acquisition from such a large multimodal database, imprecise tool use, and weak constraint integration rather than model size or reasoning length, suggesting that future progress requires effective grounded planning instead of scaling alone.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "GeoRisk-RAG: A Hierarchy-Aware Risk Framework for Improving RAG Reliability through Selective Answering",
+    "url": "http://arxiv.org/abs/2608.22634v1",
+    "authors": [
+      "Meenu Ravi",
+      "Shailik Sarkar",
+      "Lulwah AlKulaib",
+      "Yordanos Tessema",
+      "Chang-Tien Lu"
+    ],
+    "published": "2026-08-23",
+    "abstract": "Current work on improving reliability in large language model (LLM)- generated answers has primarily leveraged Retrieval-Augmented Generation (RAG), knowledge-graph augmentation, and reinforcement learning. While these methods are adept at enhancing and measuring reliability through semantic similarity and faithfulness, they often struggle to distinguish semantic similarity from geographic validity. This is especially critical in natural hazard management domains where geographic granularity (i.e., town vs. city vs. state) is significant for decision-making, as responses valid in one municipality may not transfer to another. In such domains, a confidently wrong answer carries greater risk than abstaining. We present GeoRisk-RAG, a novel hierarchy-aware framework that addresses this geographic-validity gap through selective answering. This framework explicitly estimates geographic applicability using a Directed Acyclic Graph (DAG)-based distance for context retrieval before response generation. Experiments on a novel held-out wildfire-related question-answering (QA) dataset show that GeoRisk-RAG significantly reduces false confidence rates for location-dependent questions, lowering the rate to 0.009 compared with ~0.090 for standard semantic similarity and reranking baselines, while consistently achieving higher human preference alignment. This work provides a more comprehensive assessment of end-to-end RAG pipelines by integrating geographic validity and selective-answering behavior for safer decision-making in geospatial domains.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Data Leakage Inflates Generalizability of Power Outage Prediction Models",
+    "url": "http://arxiv.org/abs/2608.24665v1",
+    "authors": [
+      "Yamil Essus",
+      "Ranga Raju Vatsavai",
+      "Benjamin Rachunok"
+    ],
+    "published": "2026-08-25",
+    "abstract": "Power outage prediction models are increasingly used in assessments of climate-driven infrastructure risk, yet current evaluation practices obscure whether these models generalize to the novel conditions such applications require. We identify three common methodological choices in power outage prediction models that influence their ability to generalize across spatial, temporal, and event-based settings. We compare the predictive performance impacts of different methodological decisions using publicly available data for the U.S. East Coast from 2018 to 2023 and feature sets derived from weather reanalysis and land-cover data, and embeddings from a GeoAI foundation model (Prithvi WxC). Specifically, we assess model performance under multiple test selection strategies, including unfiltered random splits, leave-one-state-out, and leave-one-event-out designs, which increasingly approximate real-world deployment conditions. While random train-test splits yield strong performance, we show that these results are inflated by spatial and temporal autocorrelation. Under spatial and temporal holdout experiments, predictive accuracy degrades substantially, with models often failing to outperform a simple null baseline. Incorporating GeoAI foundation model embeddings yields limited and inconsistent improvements, primarily for spatial generalization, and does not resolve poor event-level transferability. These findings suggest that, given current data availability and evaluation practices, publicly trained outage prediction models offer limited and uncertain operational value. Progress will likely require improved data coverage, more realistic evaluation protocols, and a shift in focus from marginal modeling advances toward addressing structural data constraints.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "The spatial anatomy of urban wildfire vulnerability: a spatially validated GeoAI framework reveals the roles of building density and vegetation moisture in structure loss during the 2025 Palisades Fire",
+    "url": "http://arxiv.org/abs/2608.22293v1",
+    "authors": [
+      "Parastoo Farajpoor",
+      "Mohammadreza Narimani"
+    ],
+    "published": "2026-08-23",
+    "abstract": "Urban wildfire resilience depends on interactions among built form, vegetation condition, and extreme fire weather, yet city-scale risk models often overlook whether predictive skill transfers across neighborhoods. We developed a spatially validated GeoAI workflow for the January 2025 Palisades Fire, linking 12,081 CAL FIRE damage inspections to pre-fire Sentinel-2 vegetation indices, Landsat surface temperature, LANDFIRE fuels, terrain, and OpenStreetMap buildings and roads. Among 9,883 inspected residential structures, 5,566 were destroyed. Random cross-validation yielded ROC-AUC 0.92 for the integrated XGBoost model, but 1 km spatial block validation reduced performance to 0.75; logistic regression performed similarly and was better calibrated. Building count within 100 m was the strongest predictor, with destruction odds increasing 4.12-fold per standard deviation. Vegetation moisture and greenness showed opposing conditional associations: NDMI at 100-300 m was protective (OR 0.52), whereas NDVI at 30-100 m was positively associated with destruction after accounting for moisture (OR 1.74). Predictive information was concentrated at the 100-300 m neighborhood scale. A separate post-fire track mapped burn severity and vegetation recovery without leakage. The results support neighborhood-scale susceptibility screening, moisture-aware vegetation management, and spatial block validation as a minimum standard for single-event urban wildfire modeling.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": [
+      "Regression"
+    ]
+  },
+  {
+    "title": "Quantifying geographic domain shift to decouple the geospatial transferability of human mobility flow generation models",
+    "url": "http://arxiv.org/abs/2608.21567v2",
+    "authors": [
+      "Zhiyong Zhou",
+      "Song Gao",
+      "Qianheng Zhang",
+      "Feng Zhang",
+      "Zhenhong Du"
+    ],
+    "published": "2026-08-21",
+    "abstract": "Human mobility serves as an essential proxy for understanding social, economic, and environmental dynamics in urban systems. Geospatial transferability, which measures a model's capability in a new location or unseen region, is a critical dimension for comparing different human mobility generation models. However, few studies have studied the intrinsic characteristics of geospatial transferability. To this end, this study systematically investigates the geospatial transferability of four representative human mobility generation models using a large-scale benchmark dataset of census tract level commuting flows across 2265 counties in the United States. Inspired by the domain adaptation theory in machine learning, we introduce geographic domain shift to describe the intrinsic differences in geographic feature distributions and spatial structures between source and target regions, which may jointly affect model transferability. Moreover, we propose two metrics, mutual information and spatial shift, to quantify the geographic domain shift. To examine their associations with model transferability, we employ linear mixed-effects regression to analyze the associations between geographic domain shifts and transferability. Our results reveal substantial spatial heterogeneity and asymmetry in transfer performance across regions. Both information shift and spatial shift exhibit statistically significant and complementary explanatory power. This indicates that geospatial transferability depends not only on model design but also on intrinsic geographic differences. These findings provide a novel methodological framework for evaluating and improving the geospatial transferability of human mobility generation models and support more robust and fair human mobility data synthesis across diverse regions. It also offers insights on spatial transferability for GeoAI model development.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": [
+      "Regression"
     ]
   }
 ]
