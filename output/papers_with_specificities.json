@@ -33020,7 +33020,8 @@
     "architectures": [],
     "applications": [
       "Regression"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "GeBDA: Building Damage Assessment as Text-Based Sequence Prediction",
@@ -33040,7 +33041,8 @@
     "architectures": [
       "LVM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Planetary Prediction Engine: Autonomous Geospatial Prediction via Intelligent Data Selection and Foundation Model Embeddings",
@@ -33084,7 +33086,8 @@
     "applications": [
       "Regression",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Texture Image Classification Using DWT AlexNet Feature Fusion and Deep Neural Networks",
@@ -33101,7 +33104,8 @@
     "applications": [
       "Classification",
       "Recognition"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Detection of Christmas tree plantations from high-resolution aerial imagery. A case study in the French Morvan",
@@ -33124,7 +33128,8 @@
     ],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Learning Woody Clearing With Loss Alignment for Zero-Shot Regrowth and Woody Segmentation",
@@ -33144,7 +33149,8 @@
       "Segmentation",
       "Detection",
       "Image Generation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Mapping Woody Vegetation from Multi-Source Imagery and Prediction Fusion for Enhanced Data Efficiency and Accuracy",
@@ -33163,7 +33169,8 @@
     "applications": [
       "Detection",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Deep Learning Super Resolution for Satellite Cloud Mask Downscaling",
@@ -33189,7 +33196,8 @@
     "applications": [
       "Super-Resolution",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Hyperspectral Diffusion Equivariant Imaging (HyDiff-EI): A Self-supervised Framework for Hyperspectral Image Inpainting",
@@ -33205,7 +33213,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Dandelion: A Spherical Flower for Neural Simulation of Planetary Dynamics",
@@ -33226,7 +33235,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Bridging short- and medium-range weather forecasting with machine learning",
@@ -33248,7 +33258,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "TRACE: Retrospective Streaming Generation of Physical Fields under Sparse Structured Sensing",
@@ -33268,7 +33279,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Beyond chlorophyll: machine learning estimates of diagnostic phytoplankton pigments from multispectral ocean colour data",
@@ -33289,7 +33301,8 @@
       "fish_plankton"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
@@ -33324,7 +33337,8 @@
     ],
     "applications": [
       "Recognition"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "LifePlanner: Evaluating LLM Agents for Geo-spatial Planning with Social Media Data",
@@ -33346,7 +33360,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "GeoRisk-RAG: A Hierarchy-Aware Risk Framework for Improving RAG Reliability through Selective Answering",
@@ -33368,7 +33383,8 @@
     ],
     "applications": [
       "Reinforcement Learning"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Data Leakage Inflates Generalizability of Power Outage Prediction Models",
@@ -33386,7 +33402,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "The spatial anatomy of urban wildfire vulnerability: a spatially validated GeoAI framework reveals the roles of building density and vegetation moisture in structure loss during the 2025 Palisades Fire",
@@ -33403,7 +33420,8 @@
     "architectures": [],
     "applications": [
       "Regression"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Quantifying geographic domain shift to decouple the geospatial transferability of human mobility flow generation models",
@@ -33423,6 +33441,355 @@
     "architectures": [],
     "applications": [
       "Regression"
+    ],
+    "is_recent": false
+  },
+  {
+    "title": "Foundation Models Meet Agriculture: Challenges Beyond Pretraining",
+    "url": "http://arxiv.org/abs/2608.30392v1",
+    "authors": [
+      "Vishal Nedungadi",
+      "Xingguo Xiong",
+      "Marc Ru\u00dfwurm",
+      "Ioannis N. Athanasiadis"
+    ],
+    "published": "2026-08-31",
+    "abstract": "Global food security and sustainable climate action increasingly rely on robust, scalable agricultural monitoring. Earth observation foundation models have emerged as powerful, label-efficient tools across general remote sensing domains, yet early attempts to deploy them for agricultural applications have yielded surprisingly poor results. We hypothesize that this performance gap stems from the extreme heterogeneity of agricultural landscapes and the inherent inability of current earth observation foundation models to adapt to task-specific nuances. In this work, we systematically evaluate two critical bottlenecks hindering the deployment of foundation models in agricultural tasks, benchmarking two earth observation foundation models, a foundation model designed for tabular data, and conventional supervised baselines across seven real-world agricultural datasets spanning yield prediction, phenology estimation, and crop classification. First, we identify a pretraining-deployment modality gap: agricultural downstream tasks frequently require diverse, non-imagery data modalities that earth observation foundation models are architecturally unequipped to ingest, while a foundation model built for tabular data handles this heterogeneity more naturally. Second, we formalize the agricultural task space across five structural axes to demonstrate why current models fail to generalize reliably, resulting in highly unstable model rankings across evaluation settings. By characterizing these structural and modal gaps, our insights highlight the friction between general-purpose architectures and specialized agricultural downstream data, providing a strategic roadmap for developing the next generation of domain-aware foundation models.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Tree species mapping in Denmark: A comparison of spectral-temporal features with geospatial foundation model embeddings",
+    "url": "http://arxiv.org/abs/2609.03480v2",
+    "authors": [
+      "Alkiviadis Koukos",
+      "Spyros Kondylatos",
+      "Thomas Nord-Larsen",
+      "Lotte Nyborg",
+      "Christian T\u00f8ttrup",
+      "Kenneth Grogan"
+    ],
+    "published": "2026-09-03",
+    "abstract": "We map tree species across Denmark using National Forest Inventory plots and EO data, while evaluating the potential of foundation models for large-scale forest characterization. We compare two alternative input representations for tree species classification: (i) manually engineered spectral-temporal features (STF) derived from multi-temporal Sentinel-1 and Sentinel-2 observations, and (ii) embeddings generated by the EO FMs TESSERA and AlphaEarth. Both representations are complemented with canopy height information. Random forest, XGBoost, and Multi-Layer Perceptron (MLP) classifiers are evaluated for all input representations, with separate assessments for pure and mixed forest stands. The STF-based MLP achieves the highest classification performance, yielding macro F1 scores of 0.843 and 0.653 for pure and mixed stands, respectively. The MLP trained on TESSERA embeddings delivers competitive performance for pure stands, achieving results within 1.1 percentage points of the best-performing model. TESSERA consistently outperforms STF-based models when fewer than approximately 25% of training plots are available, demonstrating a substantial advantage under limited training data. Multi-year observations systematically improve classification accuracy relative to single-year inputs, while ablation experiments reveal the complementary contributions of Sentinel-1 backscatter, spectral indices, and canopy height data. The best-performing model is subsequently applied at the national scale to generate a 10 m tree species map of Denmark. Area-adjusted validation indicates an overall map accuracy of 79.9%. The resulting map, released as an open-access product, is the first high-resolution national tree species map of Denmark and provides a valuable resource for forest monitoring, ecological research, and land management applications.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "A Composition-Aware Pretraining Framework for Geospatial Foundation Models",
+    "url": "http://arxiv.org/abs/2608.30817v1",
+    "authors": [
+      "Aryan Kashyap Naveen",
+      "Abhishek Srinivas",
+      "Pranav Moothedath",
+      "Shrutilipi Bhattacharjee"
+    ],
+    "published": "2026-08-31",
+    "abstract": "Geospatial foundation models have emerged as state-of-the-art methods for downstream Earth observation tasks. However, existing pretraining methodologies process imagery through a single-concept lens, failing to capture the highly compositional nature of complex satellite scenes. We propose a composition-aware pretraining framework that explicitly encodes fractional land-cover mixtures. Each satellite image cell is mapped to a histogram representing its fractional land-cover distribution, which we term the \"composition target\". These targets serve as the primary prediction objective and are distilled into the backbone using Earth Mover's Distance. Experimental evaluation shows that composition-aware pretraining yields substantial gains on region-level understanding tasks requiring semantic similarity judgment, including zero-shot image retrieval and scene classification, while remaining competitive on tasks requiring fine-grained spatial precision, such as segmentation and object detection. With a 36.8M-parameter backbone, our framework outperforms SatMAE and Prithvi-EO-2.0, which contain 303M and 600M parameters, respectively, in most retrieval and scene classification settings. On the fine-grained ForestNet-12 dataset, a rigorous testbed for compositional discrimination, our method boosts baseline mAP@10 from 0.279 to 0.434, a 55.6% relative improvement, providing direct evidence for the effectiveness of explicit composition modeling. The code implementation can be found at https://github.com/05kashyap/GFM_Composition_Pretraining",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection",
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "BEACON: Behavioral and Semantic Enrichment of AlphaEarth Embeddings through Tri-Modal Contrastive Learning",
+    "url": "http://arxiv.org/abs/2608.29553v1",
+    "authors": [
+      "Hao Tian",
+      "Heng Cai",
+      "Yifan Yang"
+    ],
+    "published": "2026-08-30",
+    "abstract": "Geospatial foundation models such as the AlphaEarth Foundation produce compact and globally consistent representations of the Earth's surface that transfer effectively to a wide range of downstream tasks. However, because these models are trained primarily on Earth-observation imagery, their embeddings mainly capture physical and spectral characteristics while encoding human activity and urban function only weakly. To address this limitation, we propose BEACON, a tri-modal contrastive learning framework that aligns three complementary views of urban space: physical representations from AE embeddings, semantic representations from point-of-interest (POI) text, and human behavioral representations from hourly POI visitation, while keeping the deployed representation image-only. Using the Houston Metropolitan Area as a case study area, we evaluated the performance of the BEACON framework on nine downstream tasks, including seven regression and two classification tasks against six baselines (raw coordinates, Space2Vec, SatCLIP, TESSERA, Clay and AlphaEarth), using frozen linear and MLP probes over five seeds. Under a linear probe, BEACON improves relative R^2 over AlphaEarth by up to 43% for obesity prevalence, 34% for poor mental health, and 22% for median household income, while remaining competitive in the prediction of physical and environmental variables. These findings highlight the value of augmenting geospatial foundation models with semantic and behavioral signals, extending their applicability from physical Earth observation to human-centered urban analytics.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification",
+      "Regression",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "SPAR: Enhancing Industrial-Scale Generative POI Recommendation via Real-World Spatial Perception",
+    "url": "http://arxiv.org/abs/2609.02062v1",
+    "authors": [
+      "Fangye Wang",
+      "Yunjin Gu",
+      "Haowen Lin",
+      "Yifang Yuan",
+      "Song Yang",
+      "Xiaojiang Zhou",
+      "Pengjie Wang"
+    ],
+    "published": "2026-09-02",
+    "abstract": "Generative Point-of-Interest (POI) recommendation, autoregressively generating a target POI's semantic ID (SID), holds great promise for Location-Based Services, where a recommendation helps only if the user can reach it. Yet, existing methods operate within an interest space defined by behavior sequences and collaborative signals, where geography enters only as a textual attribute of the SID, leaving no explicit mechanism to learn or preserve how urban places are related by distance, direction, and reachability; their predictions are thus behaviorally plausible yet far from the user's real-time location. We argue that such services require injecting real urban spatial knowledge into the interest space, rather than inferring geography from behavior alone. Hence, we propose SPAR, a unified framework whose three synergistic stages jointly construct, cultivate, and preserve urban spatial knowledge: (1) at the tokenization level, Spatially-Intrinsic SID (SI-SID) explicitly encodes longitude--latitude coordinates into a sinusoidal geospatial embedding and fuses it with the textual semantic embedding, producing identifiers via RQ-Kmeans that are simultaneously semantically and geographically consistent; (2) at the cognition level, Multi-Granular Geospatial CPT (MG-CPT) continually pre-trains the base LLM on 25 curated geospatial datasets organized into three tiers of basic attributes, pairwise relations, and city-scale navigation, so that scattered POIs cohere into a connected urban space; and (3) at the adaptation level, Task-Vector Anchored SFT (TV-SFT) anchors the acquired spatial knowledge as a frozen parameter-space task vector to prevent its catastrophic forgetting during behavioral fine-tuning, thereby fusing the two spaces. Extensive quantitative and visualization experiments on two public and four industrial-scale datasets demonstrate the effectiveness of SPAR.",
+    "categories": [
+      "geo_reasoning",
+      "foundation_model"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "From Open Standards to Openly Governed: Standards-Setting Organizations as Stewards of Openness amid Platformization and Digital Sovereignty",
+    "url": "http://arxiv.org/abs/2609.01773v1",
+    "authors": [
+      "Bego\u00f1a G. Otero",
+      "Stefaan G. Verhulst"
+    ],
+    "published": "2026-09-01",
+    "abstract": "Open geospatial standards let data, services, and systems work across platforms. But openness is not just a property of specifications. It also depends on the institutions that produce them and the infrastructures in which they operate. Standards may function as digital public goods and, once embedded in public systems, as digital public infrastructure. Those roles can diverge. This paper asks when open geospatial standards remain public infrastructure rather than becoming channels of enclosure. It makes two claims. First, standards-setting governance matters: institutional design shapes whether open specifications retain their public-good character. Second, geospatial coordination is shifting toward proprietary location stacks, APIs, and cloud platforms, where roadmaps, pricing, and service terms increasingly set the rules. Sovereign-cloud and sovereign-AI strategies relocate this power rather than remove it. These dynamics reinforce each other. Weak governance pushes coordination toward the implementation layer; platformization, in turn, reduces incentives to invest in open standardization, weakening portability and FAIR reuse. Standards bodies cannot reverse platformization, but they still control the specification layer. Where legal safeguards are limited, internal governance becomes key. We frame this through four dimensions: Purpose, Principles, People and Processes, and Policies and Practices (the 4Ps framework) while stressing the limit that internal governance cannot solve alone an external structural problem.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Perceptually Regularized Diffusion Model for Image Super-Resolution",
+    "url": "http://arxiv.org/abs/2609.02016v1",
+    "authors": [
+      "Chuxiangbo Wang",
+      "Pavithra Venkatachalapathy",
+      "Ying Liang",
+      "Min Wang",
+      "Jing Qin",
+      "Yifei Lou",
+      "Weihong Guo"
+    ],
+    "published": "2026-09-02",
+    "abstract": "Image super-resolution, which aims to reconstruct high-resolution images from their low-resolution observations, is fundamental to medical imaging, remote sensing, surveillance, microscopy, and scientific visualization. Traditional model-based methods formulate super-resolution as an inverse problem with hand-crafted regularization priors. While interpretable and theoretically grounded, they rely on fixed assumptions and require computationally intensive iterative solvers. Deep learning methods offer data-driven flexibility by learning nonlinear mappings from low- to high-resolution images, among which diffusion models have achieved particularly impressive perceptual quality. However, the standard diffusion training objective is a pixel-domain noise-prediction loss that does not explicitly enforce perceptual fidelity, which can lead to oversmoothing and loss of fine image structure. To address these limitations, we propose a perceptually regularized diffusion framework that incorporates prior knowledge through perceptual-loss-based regularization, improving training convergence and encouraging the recovery of meaningful image features. Experiments on benchmark datasets demonstrate improved perceptual quality and competitive distortion metrics, highlighting the effectiveness of regularization for diffusion-based super resolution.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Diffusion Models"
+    ],
+    "applications": [
+      "Super-Resolution",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Evaluating Graph Neural Networks for Change-Criticality Classification in Maritime Navigation Charts",
+    "url": "http://arxiv.org/abs/2609.02996v1",
+    "authors": [
+      "Abhishek Potnis",
+      "Jacob Arndt"
+    ],
+    "published": "2026-09-02",
+    "abstract": "Graph neural networks (GNNs) are a class of neural networks suitable for learning on graph-structured data. Their application to spatial data is a natural extension, however its relatively unclear which message-passing operations, architectural configurations, and graph representation is best suited for classifying changes to objects in electronic navigational charts (ENCs)--geospatial vector datasets used for marine navigation. Maintaining these datasets is a challenge, and categorizing changes to objects in the ENC based on their significance to navigational safety is of particular importance. Here, we propose to represent these vector navigation datasets as a graph structure where the spatial objects serve as nodes and their spatial and semantic relationships form edges. We encode both the old ENC dataset and new ENC dataset into a pair of graphs and frame the task as a graph-pair classification problem. Building on this representation, we investigate the use of GNN architectures to classify whether the encoded graphs constitutes a critical or non-critical risk to navigational safety. We train and evaluate several GNN architectures and model configurations on ENC changes reviewed by maritime experts. Our results demonstrate that graph-based representations improve the classification of ENC updates, providing a scalable approach for automating or improving ENC maintenance workflows.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "GNN"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Minerals in the Wild: A Hyperspectral-XRF Dataset for Elemental Composition Estimation",
+    "url": "http://arxiv.org/abs/2608.30537v1",
+    "authors": [
+      "Eleftheria Tetoula-Tsonga",
+      "George Arvanitakis",
+      "Theodoros Giannakas"
+    ],
+    "published": "2026-08-31",
+    "abstract": "Rapid mineral characterization is essential for applications ranging from mineral exploration to industrial ore processing. To this end, Hyperspectral Imaging (HSI) has emerged as a promising sensing modality thanks to its fine spectral resolution, enabling mineral discrimination in both close-range and remote sensing settings. However, the scarcity of publicly available datasets with reliable ground-truth labels hinders the development and evaluation of HSI-based mineral identification methods. We release Minerals in the Wild, a multi-purpose dataset comprising 1,132 rock specimens collected across Europe. For each specimen, we provide an HSI acquisition together with an elemental characterization obtained via an XRF sensor. We define the task of elemental characterization on our dataset and propose a pruning mechanism that removes distant signatures from the USGS dictionary prior to a convex optimization approach for matching HSI pixels with USGS spectral signatures. Finally, we empirically show that our approach outperforms simpler baselines.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Towards Continual Test-Time Adaptation of Vision-Language Models in Open-Vocabulary Semantic Segmentation",
+    "url": "http://arxiv.org/abs/2608.29923v1",
+    "authors": [
+      "Chandler Timm C. Doloriel",
+      "Yunbei Zhang",
+      "Sarthak Kumar Maharana",
+      "Muhammad Salman Siddiqui",
+      "Tor Kristian Stevik",
+      "Fadi Al Machot",
+      "Kristian Hovde Liland",
+      "Habib Ullah"
+    ],
+    "published": "2026-08-30",
+    "abstract": "Open-vocabulary semantic segmentation (OVSS) relies on vision-language alignment to recognize arbitrary text-defined categories, yet this alignment is fragile under continual test-time distribution shift. Our diagnostic analysis reveals that entropy minimization drives patch-level class collapse, continual updates erode vision-language alignment, and redundant gradients from low-shift samples waste computation. We propose Diversify, Anchor, and Filter (DAF), a stabilization framework that augments entropy-based adaptation with a marginal diversity loss that resists collapse, a cross-modal anchor consistency loss that constrains feature drift relative to a frozen source model, and feature salience filtering that skips low-value backward passes to offset part of the source-anchor overhead. We evaluate on five datasets spanning natural scenes, autonomous driving, underwater imagery, and remote sensing with their corrupted variants. Across the evaluated continual shifts, DAF remains stable where entropy minimization collapses, improving mIoU by over 8 points on Pascal VOC20-C, over 9 points on LoveDA, and over 3 points on Foggy Cityscapes compared to the source model, and is robust to aggressive adaptation and learning rate choices.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "FiLM-GPNet: Geometry-Aware Pseudo-Supervised Phase Restoration with Zero-Shot Generalization for Large Temporal InSAR Stacks",
+    "url": "http://arxiv.org/abs/2608.29384v1",
+    "authors": [
+      "Getnet Demil",
+      "Muhammad Farhan Humayun",
+      "Tomi Westerlund",
+      "Jukka Heikkonen",
+      "Mourad Oussalah"
+    ],
+    "published": "2026-08-29",
+    "abstract": "The growing availability of dense commercial Synthetic Aperture Radar (SAR) time series enables temporal Interferometric SAR (InSAR) analysis, but fixed classical filters fail under heterogeneous acquisition geometries, degrading phase quality and temporal consistency. We propose FiLM-GPNet, a geometry-conditioned network for wrapped-phase restoration that explicitly adapts to acquisition differences using Feature-wise Linear Modulation (FiLM) and a 7D per-pair geometry descriptor. The model is trained with pseudo-supervision from Goldstein-filtered interferograms and regularized by interferometric physics via triplet-closure consistency, while also estimating per-pixel aleatoric uncertainty. Experiments on three Capella Spotlight stacks from the IEEE GRSS 2026 Data Fusion Contest show that FiLM-GPNet reduces temporal residual by 68% (Hawaii) and 66% (Western Australia) relative to the Goldstein baseline, alongside closure error reductions of 10% and 13%, respectively. In Western Australia, it further improves unwrapping success rate by 7.7 percentage points and Digital Elevation Model (DEM) Normalized Median Absolute Deviation (NMAD) by 31%. The model also shows strong zero-shot generalization to a geographically and geometrically distinct third stack (Los Angeles) without retraining, supporting geometry-conditioned restoration as an effective alternative to fixed classical filtering across heterogeneous stacks.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "T(r)opical Islands: Visualizing & Understanding Socio-Technical Artifacts",
+    "url": "http://arxiv.org/abs/2609.05254v1",
+    "authors": [
+      "Adam \u0160t\u011bp\u00e1nek",
+      "Marco Raglianti",
+      "V\u00edt Rus\u0148\u00e1k",
+      "Jan By\u0161ka",
+      "Barbora Kozl\u00edkov\u00e1",
+      "Michele Lanza"
+    ],
+    "published": "2026-09-04",
+    "abstract": "Projects hosted on collaborative software development platforms, such as GitHub, include many non-code artifacts documenting the project's lifecycle, with its challenges, plans, design, and even community. These socio-technical artifacts include, for example, bug reports, feature requests, and forum posts, offering a useful prospect on the project's evolution. However, these artifacts are dispersed over multiple communication channels and written in natural language, making their analysis difficult, as they are fragmented and with considerable noise.\n  We present a 3D visualization approach mapping topics found across a project's socio-technical artifacts onto vegetation-covered islands, where the individual artifacts are depicted as trees of various types. The topic islands rise out of the ocean as they become discussed, to sink again when they are no longer so. We built a prototype implementing the entire visualization pipeline, from data mining to interactive rendering, leveraging machine learning techniques to cluster the artifacts and extract their topics. We present, through several case studies, the insights that our approach elicits about discussions of development topics throughout a project's history. The user study we conducted (N=34) further strengthens our conclusions about its suitability for understanding socio-technical artifacts and their evolution.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Too Rare to Learn: Prescribed Cyclone Tracks Degrade a Bay of Bengal Ocean Emulator",
+    "url": "http://arxiv.org/abs/2609.04635v1",
+    "authors": [
+      "Sumaiya Islam"
+    ],
+    "published": "2026-09-04",
+    "abstract": "Neural ocean emulators are being proposed for regional forecasting in cyclone-exposed coastal seas, and a natural design choice is to hand the network the cyclone as a prescribed input. We test that choice in the Bay of Bengal and find it harmful. We withhold 15 whole cyclones spanning 65 to 150 kt from GLORYS12 reanalysis and compare two U-Nets that are identical except for four prescribed cyclone-track channels. Across three seeds the ocean-only model beats persistence in every run and the storm-conditioned model loses to it in every run, with the two skill ranges disjoint (p = 3.1e-5, paired across storms). The cause is exposure frequency rather than signal content: the channels are non-zero on only 7.9% of training days, so they are out of distribution the moment they activate. The extra error falls inside the prescribed storm footprint, and replacing the real cyclone map with a no-storm map at inference improves held-out storm forecasts by 7.5 to 16.4% in every seed. The conditioned network has learned a response to a rare signal that is confidently wrong.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "How well is surface ocean carbon represented in observations and ocean models?",
+    "url": "http://arxiv.org/abs/2609.00133v1",
+    "authors": [
+      "Viviana Acquaviva",
+      "Romina Wild",
+      "Alessandro Laio",
+      "Amanda R. Fay",
+      "Thea H. Heimdal",
+      "Galen A. McKinley"
+    ],
+    "published": "2026-08-31",
+    "abstract": "We introduce a general framework for quantifying the information content and representation quality of complex geophysical datasets based on the intrinsic dimension and differentiable information imbalance of data manifolds. We use it to derive and compare optimal representations of surface ocean carbon in the SOCAT database of observations and in global ocean biogeochemistry models (GOBMs) and to assess the robustness of the information we can extract from existing data. We find that within the most widely used feature set, the complexity of the data space of SOCAT observations is not fully captured by GOBMs, but the ranking and relative importance of variables learned through GOBMs are substantially correct. We observe that the learned representation of ocean carbon is less accurate in some regions, including the Southern Ocean, but doesn't appear to have evolved significantly over the last two decades. Finally, we show how the optimal representations can be used to improve the skill of distance-based machine learning models and demonstrate it for ocean carbon, and we propose two new metrics to compare models and observations that can be used to build more accurate weighted ensembles of estimates.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "MariSat: A Maritime Dataset for Instance Segmentation of Objects in Satellite and Aerial Images",
+    "url": "http://arxiv.org/abs/2608.29852v1",
+    "authors": [
+      "Amir Abbes",
+      "Ines Harrabi",
+      "Lucas Justin Yirepoa Kinda",
+      "Rim Trabelsi",
+      "Adnane Cabani",
+      "Fatma Abdelkefi"
+    ],
+    "published": "2026-08-30",
+    "abstract": "Automated maritime surveillance from satellite and aerial imagery requires large, precisely annotated datasets, which remain scarce for the instance-segmentation task, particularly for small vessels in cluttered port environments. We present MariSat, a new benchmark dataset of 1260 aerial and satellite images covering diverse port and coastal scenes, annotated at the pixel level for eight maritime object classes (sailboat, yacht, jet-ski, fishing boat, cruise ship, military vessel, tugboat and cargo ship). The dataset was produced through a semi-automatic annotation pipeline combining the textpromptable segmentation model SAM 3 with a cascade of geometric and colorimetric post-processing filters, followed by a manual correction and quality-control pass performed with the CVAT annotation platform. We describe the image-collection methodology, the annotation and correction process, and the resulting data organization. We also report class-wise statistics for the training, validation, and test splits. MariSat has already been used to fine-tune and benchmark segmentation and detection models (SAM 3 and YOLO11) for real-time maritime monitoring. We report detailed quantitative and per-class results for both tasks. The MariSat dataset is publicly available on GitHub : https://github.com/amirabbes/P2M-Maritime-Segmentation",
+    "categories": [
+      "ship_trajectories"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection"
+    ]
+  },
+  {
+    "title": "Neural-Network Maxent: a general extension with learned nonlinearity, applied to time-series for Desert Locust distribution modelling",
+    "url": "http://arxiv.org/abs/2609.03603v1",
+    "authors": [
+      "Alessandro Grassi",
+      "Edoardo Kimani Bellotto",
+      "Wassim El Azami",
+      "Sabrina Outmani",
+      "Maximilien Houel"
+    ],
+    "published": "2026-09-03",
+    "abstract": "Species Distribution Modelling (SDM) is essential for understanding how environmental conditions shape biodiversity, particularly for destructive pests such as the Desert Locust (Schistocerca gregaria), whose breeding dynamics are tightly coupled to rapidly evolving environmental conditions. Maxent has become the dominant method for presence-only data, but its reliance on a linear combination of hand chosen feature transforms limits its ability to capture the nonlinear, temporal relationships common in ecological monitoring, where covariates such as precipitation, soil moisture, and vegetation indices evolve meaningfully over time. Standard implementations flatten time-series covariates into independent features, discarding sequential structure that carries critical signal. We introduce RNN Maxent, an extension of the Maxent framework that replaces the fixed feature dictionary with a neural network, specifically a Gated Recurrent Unit (GRU), trained end to end via backpropagation. The approach preserves Maxent's presence only statistical foundations, background normalization, and probability calibration, differing only in that the nonlinearity is learned from data rather than fixed in advance. We apply RNN Maxent to map suitable habitat for the Desert Locust using 50 day environmental time series derived from ERA5 Land, MODIS, and Sentinel 3, maintaining a 7 day gap between covariates and presence records to yield forecasting behavior. Compared against standard Maxent, RNN Maxent improves performance across metrics (ROC AUC 0.862 std 0.036 vs. 0.792; F1 0.671 std 0.056 vs. 0.590).",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [
+      "RNN",
+      "SDM"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "GeoAgent: Evaluating VLM Geolocalization Through Embodied Navigation",
+    "url": "http://arxiv.org/abs/2608.29483v1",
+    "authors": [
+      "Arka Mukherjee",
+      "Soham Roy",
+      "Kartikeya Trivedi",
+      "Shreya Ghosh"
+    ],
+    "published": "2026-08-30",
+    "abstract": "Modern Vision-Language Models (VLMs) perform well above the human baseline in image geolocalization, a task critically important in disaster response, OSINT verification, and location privacy. However, most efforts to study AI behavior on the task remain limited to static image-based retrieval, classification, and predictions. We argue that faithful recreation of the task should involve embodied navigation, where a multimodal agent autonomously explores its surroundings to gather observations before submitting a prediction. To this end, we introduce \\textbf{GeoAgent}, an agentic environment-based benchmark that requires agents to navigate Street View environments to refine their geolocalization through sequential reasoning. Our analysis shows that modern VLMs struggle to discern regional patterns while succeeding at country- and continent-level predictions. When compared to static image-based baselines, agentic navigation significantly improves accuracy across established metrics. We also note severe bias in a developed/developing region context across frontier model architectures and poor self-improvement capabilities given incorrect priors. Overall, our work establishes the challenges of embodied navigation and geospatial reasoning. We publicly release our code and the GeoAgent environment: https://geoagent-benchmark.github.io",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": [
+      "Classification",
+      "Forecast"
     ]
   }
 ]
