@@ -33463,7 +33463,8 @@
     "applications": [
       "Classification",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Tree species mapping in Denmark: A comparison of spectral-temporal features with geospatial foundation model embeddings",
@@ -33484,7 +33485,8 @@
     "architectures": [],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "A Composition-Aware Pretraining Framework for Geospatial Foundation Models",
@@ -33506,7 +33508,8 @@
       "Detection",
       "Classification",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "BEACON: Behavioral and Semantic Enrichment of AlphaEarth Embeddings through Tri-Modal Contrastive Learning",
@@ -33526,7 +33529,8 @@
       "Classification",
       "Regression",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "SPAR: Enhancing Industrial-Scale Generative POI Recommendation via Real-World Spatial Perception",
@@ -33551,7 +33555,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "From Open Standards to Openly Governed: Standards-Setting Organizations as Stewards of Openness amid Platformization and Digital Sovereignty",
@@ -33566,7 +33571,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Perceptually Regularized Diffusion Model for Image Super-Resolution",
@@ -33591,7 +33597,8 @@
     "applications": [
       "Super-Resolution",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Evaluating Graph Neural Networks for Change-Criticality Classification in Maritime Navigation Charts",
@@ -33610,7 +33617,8 @@
     ],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Minerals in the Wild: A Hyperspectral-XRF Dataset for Elemental Composition Estimation",
@@ -33626,7 +33634,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Towards Continual Test-Time Adaptation of Vision-Language Models in Open-Vocabulary Semantic Segmentation",
@@ -33649,7 +33658,8 @@
     "architectures": [],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "FiLM-GPNet: Geometry-Aware Pseudo-Supervised Phase Restoration with Zero-Shot Generalization for Large Temporal InSAR Stacks",
@@ -33667,7 +33677,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "T(r)opical Islands: Visualizing & Understanding Socio-Technical Artifacts",
@@ -33686,7 +33697,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Too Rare to Learn: Prescribed Cyclone Tracks Degrade a Bay of Bengal Ocean Emulator",
@@ -33704,7 +33716,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "How well is surface ocean carbon represented in observations and ocean models?",
@@ -33723,7 +33736,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "MariSat: A Maritime Dataset for Instance Segmentation of Objects in Satellite and Aerial Images",
@@ -33745,7 +33759,8 @@
     "applications": [
       "Segmentation",
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Neural-Network Maxent: a general extension with learned nonlinearity, applied to time-series for Desert Locust distribution modelling",
@@ -33768,7 +33783,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "GeoAgent: Evaluating VLM Geolocalization Through Embodied Navigation",
@@ -33790,6 +33806,232 @@
     "applications": [
       "Classification",
       "Forecast"
+    ],
+    "is_recent": false
+  },
+  {
+    "title": "Geospatial Foundation Models Capture Health-Relevant Dimensions of Place Beyond Conventional Social Risk Indices",
+    "url": "http://arxiv.org/abs/2609.11689v1",
+    "authors": [
+      "Nathaniel Hendrix",
+      "Carl Y. Zhang",
+      "Chris Heitzig",
+      "Andrew Bazemore",
+      "David H. Rehkopf"
+    ],
+    "published": "2026-09-10",
+    "abstract": "Area-based social risk indices summarize residents' socioeconomic conditions but incompletely capture physical features of place that may affect health. We evaluated whether numerical representations of physical place produced by four geospatial foundation model families from 2022 satellite data explained residual variance in tract-level associations between the Area Deprivation Index, Social Deprivation Index, and Social Vulnerability Index with health outcomes. We used LightGBM to predict variables from the American Community Survey and 40 chronic disease and health-behavior outcomes from CDC PLACES across 82,646 census tracts in the contiguous United States, evaluating performance across 10 held-out states. Among survey variables, models were moderately predictive of some variables including housing type (R-squared up to 0.54) but weak for disability, unemployment, and income disparity. For health outcomes, models explained up to 54% of variance left unexplained by social risk indices, with the largest gains for annual checkups, arthritis, and high blood pressure. Mean total variance explained by geospatial foundation models across the 40 health-related outcomes increased from 0.31 in the smallest tract-size decile to 0.39 in the largest. Geospatial foundation models capture health-relevant features of place not represented by conventional social risk indices and may usefully augment them in epidemiological analyses.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Applying foundation model embeddings towards urban livability evaluation",
+    "url": "http://arxiv.org/abs/2609.09429v1",
+    "authors": [
+      "Ayush Khot",
+      "Wen Zhou",
+      "Shaowen Wang"
+    ],
+    "published": "2026-09-08",
+    "abstract": "While accurate measurement of socioeconomic indicators remains challenging in data-scarce regions, which limits policy interventions and resource allocation, high-resolution geospatial data is widely available and can contain information on various livability statistics. We investigate which physical features are encoded within foundation model embeddings, such as AlphaEarth, AnySat, and TerraMind, and provide a systematic framework for identifying the most predictive geospatial indicators. By analyzing how different types of geospatial data influence urban livability predictions, our approach enables researchers to prioritize the most informative features for their specific applications. Additionally, we demonstrate how to leverage foundation model embeddings to enhance prediction performance for these outcomes. This work contributes a principled methodology for extracting actionable information from satellite imagery while accounting for complex spatial dependencies, with applications in predicting urban livability in regions with limited observation data.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
     ]
+  },
+  {
+    "title": "AquaCubeAI-Powered Monitoring Turbidity on-board \u03a6sat-2",
+    "url": "http://arxiv.org/abs/2609.12744v1",
+    "authors": [
+      "Pietro Di Stasio",
+      "Francesca Razzano",
+      "Elisa Liparulo",
+      "Gabriele Meoni",
+      "Nicolas Long\u00e9p\u00e9",
+      "Deodato Tapete",
+      "Paolo Gamba",
+      "Gilda Schirinzi",
+      "Silvia Liberata Ullo"
+    ],
+    "published": "2026-09-11",
+    "abstract": "Timely monitoring of coastal water quality is critical for environmental protection, yet conventional satellite workflows rely on downlink and ground processing, introducing latency that can limit responsiveness to rapidly evolving turbidity events. To address this limitation, we propose AquaCubeAI, a lightweight machine-learning approach for onboard estimation of coastal water turbidity from \u03a6sat-2 multispectral imagery. By shifting inference from the ground segment to the satellite, AquaCubeAI aims to enable lower-latency, more responsive, and more operationally useful turbidity monitoring under the strict compute and bandwidth constraints of spaceborne platforms. The model is trained on simulated \u03a6sat-2 acquisitions spatially aligned with Copernicus Marine Service (CMEMS) High-Resolution Ocean Color (HR-OC) turbidity products over selected localized coastal sites spanning four European marine macro-regions. To provide a realistic evaluation of generalization in the presence of spatial correlation, we adopt a spatial block splitting protocol that mitigates data leakage between training and evaluation subsets. The main contributions of this work are: (i) a scalable dataset generation pipeline pairing simulated \u03a6sat-2 multispectral patches with CMEMS HR-OC turbidity labels across selected localized European coastal sites; (ii) a compact Multi-Layer Perceptron (MLP)-based turbidity regressor trained under a leakage-aware geospatial split and tailored to embedded constraints; and (iii) a reformulation for dense spatial prediction via parameter sharing, enabling turbidity mapping and simple threshold-based anomaly masks for onboard decision logic. Embedded deployment on an Intel Myriad Vision Processing Unit (VPU) further confirms the feasibility of low-power hardware and supports low-latency inference from multispectral inputs.",
+    "categories": [
+      "foundation_model",
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "TempTPI: Informer-Based trajectory prediction for maritime vessels",
+    "url": "http://arxiv.org/abs/2609.09840v1",
+    "authors": [
+      "Kevin Ferneding",
+      "Veronika Lietavcova",
+      "Aleksandra M. Blachowiak",
+      "Peder Heiselberg"
+    ],
+    "published": "2026-09-09",
+    "abstract": "Accurate long-term trajectory prediction for maritime vessels is essential for safety and logistical efficiency. While deep learning models, particularly Transformers, have shown promise in processing Automatic Identification System (AIS) data, they often struggle with the quadratic computational complexity of self-attention and the loss of accuracy over extended forecasting horizons. This study proposes TempTPI, a novel prediction framework that integrates an Informer-based encoder with a multi-channel temporal encoding mechanism. The Informer architecture leverages a ProbSparse self-attention mechanism to reduce computational overhead and focus on the most significant dependencies, while the temporal encoder utilizes Fourier-like frequency expansions to capture cyclic patterns (hourly, daily, and seasonal) in vessel behavior. We evaluate our model against the state-of-the-art TPTrans architecture using AIS data from Danish waters. Experimental results demonstrate that TempTPI consistently outperforms existing methods across prediction windows of 1 to 5 hours. Notably, at a 5-hour horizon, the proposed model achieves a 55% improvement in Mean Squared Error (MSE), offering a robust solution for long-range maritime situational awareness.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "DPSF-Net: A Dual-Prior Spatial-Frequency Network for Real-World Remote Sensing Image Dehazing",
+    "url": "http://arxiv.org/abs/2609.06962v1",
+    "authors": [
+      "Mei Lu",
+      "Shangliang Shao",
+      "Shanliang Yao"
+    ],
+    "published": "2026-09-07",
+    "abstract": "Real-world remote sensing image dehazing (RSID) remains challenging because atmospheric scattering, spatially non-uniform haze and colour distortion jointly degrade structural and spectral information. Most deep learning methods rely on RGB inputs and spatial-domain feature extraction, which limits their ability to separate global background haze from local surface details. Here, we propose DPSF-Net, a dual-prior spatial-frequency network built on MCAF-Net for real-world RSID. The network uses hazy RGB images and dark channel prior (DCP) maps as joint inputs, allowing physical degradation cues to guide end-to-end feature learning. A spatial-frequency residual interaction block introduces a FourierUnit branch into multi-directional spatial interaction to model large-scale haze components. A prior-guided feature attention module adaptively fuses prior and attention features to reduce colour shift and structural distortion. A selective kernel complementary fusion module screens multi-scale skip features through bidirectional residual complementary gating and selective kernel fusion. Extensive experiments demonstrate that DPSF-Net achieves state-of-the-art performance on the real-world RRSHID remote sensing image dehazing benchmark and remains competitive across multiple synthetic datasets. Moreover, the proposed method strikes a favourable balance among restoration quality, parameter count and computational complexity, supporting the effectiveness of dual-prior spatial-frequency modelling.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "JEDI: JEPA-to-Edge Distillation for Efficient Cropland Segmentation from Satellite Imagery",
+    "url": "http://arxiv.org/abs/2609.07915v1",
+    "authors": [
+      "Kishor Kumar Bhaumik",
+      "Nicolas Roque dos Santos",
+      "Jia Chen",
+      "Evangelos E. Papalexakis"
+    ],
+    "published": "2026-09-07",
+    "abstract": "Large vision models provide useful representations for remote-sensing segmentation but are often too expensive for deployment at the satellite or field edge. Existing feature-level distillation methods also tend to assume similar teacher and student architectures and often stop feature alignment when task training begins. We introduce JEDI (JEPA-to-Edge Distillation), a two-stage framework that transfers representations from a large I-JEPA Vision Transformer teacher to a compact SegFormer student. First, JEDI aligns the student's terminal representation with the teacher's token space using cross-architecture projection and spatial alignment. It then jointly optimizes supervised segmentation, temperature-scaled response distillation, and persistent feature alignment throughout task adaptation. On CalCROP21, JEDI-B0 achieves 68.0 mean Intersection-over-Union (mIoU) with 4.04M parameters, improving over the standalone student by 16.0 points and coming within 2.0 points of the 70.0 mIoU achieved by the 639M-parameter teacher. We evaluate SegFormer B0, B1, and B2 students with 4.04M, 14.33M, and 28M parameters, respectively. Across all three variants, JEDI consistently outperforms response-, structure-, channel-, and relational-distillation baselines under the same teacher-student setting. These results show that persistent representation alignment is especially valuable under aggressive compression, substantially reducing model size and computation while preserving segmentation performance.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "JEPA",
+      "Transformer"
+    ],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "AGSA-Net: Abundance-Guided Self-Attention Network for Spectral Unmixing-Aware Hyperspectral Remote Sensing Image Classification",
+    "url": "http://arxiv.org/abs/2609.06359v1",
+    "authors": [
+      "Nafisa Anjum",
+      "Satavisa Dey Borno",
+      "Ananna Saha",
+      "Mir Faiyaz Hossain",
+      "Sifat Momen",
+      "Nabeel Mohammed",
+      "Shafin Rahman"
+    ],
+    "published": "2026-09-06",
+    "abstract": "Hyperspectral image (HSI) classification plays a vital role in remote sensing applications, including agriculture, environmental monitoring, and urban analysis. However, its performance remains challenged by high spectral redundancy, noise sensitivity, and the difficulty of jointly modeling local material composition and long-range spectral dependencies. To address this, we propose AGSA-Net, an abundance-guided self-attention network that explicitly integrates spectral unmixing priors into the classification process. AGSA Net first estimates physically meaningful subpixel abundance maps subject to non-negativity and sum-to-one constraints, regularized by hybrid linear-nonlinear reconstruction decoder. The learned abundances are then used to construct an abundance affinity prior that guides a spectral transformer to emphasize class-discriminative interactions, and the resulting transformer features are fused with compact abundance descriptors for final prediction; in contrast to existing approaches that use abundance as auxiliary or concatenated features. Experiments on Indian Pines, Augsburg, and Berlin demonstrate the benefit of incorporating abundance- guided contextual modeling, particularly in heterogeneous urban scenes. The source code and trained models are available at: https://github.com/nnuvi/AGSA-Net",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "WIND-Bench: A Benchmark Dataset for In-Situ Near-Surface Wind Speed Observations Across the Conterminous United States",
+    "url": "http://arxiv.org/abs/2609.12228v1",
+    "authors": [
+      "Kyla Bazlen",
+      "Grant Buster",
+      "Brandon Benton",
+      "Lauren North",
+      "Ansley Baring",
+      "David D. Turner",
+      "Emily Wells",
+      "Laura Vimmerstedt"
+    ],
+    "published": "2026-09-10",
+    "abstract": "Accurate wind forecasts are essential for operational decision-making and public safety, yet forecasts tend to miss near-surface high wind speeds in complex terrain. In response, advances in machine learning (ML) weather prediction methods have demonstrated the ability to improve forecast skill beyond traditional numerical weather prediction (NWP) models. However, the absence of a benchmark dataset to evaluate NWP and ML models with sufficient, quality-controlled wind speed observations in complex terrain poses challenges to the development and intercomparison of high-quality surface wind forecasts across the Conterminous United States (CONUS). We develop the Wind IN-situ Data Benchmark (WIND-Bench), a benchmark dataset from in-situ observations in the Meteorological Assimilation Data Ingest System (MADIS) observational network. WIND-Bench integrates multiple sensor networks with quality control that distinguishes sensor failures from high-wind conditions, using a framework that validates observations against forecasts from the National Oceanic and Atmospheric Administration (NOAA) High-Resolution Rapid Refresh (HRRR) model. WIND-Bench provides a standardized benchmark for evaluating ML and NWP models and for quantifying forecast skill, accelerating the development, evaluation, and operational deployment of skilled near-surface wind forecasts.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Earth-Projected Clustering of Historical Optical Transients in the Palomar Observatory Sky Survey-I (POSS-I)",
+    "url": "http://arxiv.org/abs/2609.09461v1",
+    "authors": [
+      "Stephen Bruehl",
+      "Beatriz Villarroel",
+      "Hichem Guergouri",
+      "Brian Doherty",
+      "Alina Streblyanska"
+    ],
+    "published": "2026-09-08",
+    "abstract": "Palomar Observatory Sky Survey-I (POSS-I) images obtained before the launch of Sputnik contain star-like point sources consistent with sub-second flashes that are absent from all subsequent observations. The nature and origin of these transients remain poorly understood. Based on models suggesting they are in geosynchronous orbit, we estimated the latitude/longitude over which POSS-I transients appeared. From a dataset of 107,875 POSS-I transients, we selected a subset with high probability of representing real objects based on a machine learning model. Two independent approaches were used to test whether transients non-randomly grouped over specific locations (hotspots). Based on comparing transient numbers in discrete 5\u00b0 x 5\u00b0 Earth-projected regions to numbers randomly expected in these same regions, 16 statistically-significant hotspots were identified. Separately, two-step cluster analysis identified 6 highly-distinct hotspots (silhouette value = 0.70). The two methods identified several similar hotspots not attributable to POSS-I survey biases: 1) Pacific ocean west of southern Mexico/Central America, 2) southern Gulf of Mexico, 3) southwestern US (Sedona, AZ, White Sands, NM regions). Transients accounting for reported transient-nuclear testing associations displayed location specificity, with exclusively Pacific transient locations during Pacific nuclear testing and primarily southwestern US locations during Nevada testing. Findings hint at intriguing POSS-I transient characteristics.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "An Autonomous GeoAI Agent for Arctic Eco-Navigation",
+    "url": "http://arxiv.org/abs/2609.09374v1",
+    "authors": [
+      "Samira Alkaee Taleghan",
+      "Younghyun Koo",
+      "Farnoush Banaei-Kashani"
+    ],
+    "published": "2026-09-08",
+    "abstract": "Arctic maritime navigation is becoming increasingly important as changing sea-ice conditions expand seasonal accessibility while simultaneously introducing substantial operational, environmental, and community risks. Arctic route planning is inherently a multi-criteria problem: routes that improve vessel safety or efficiency may increase exposure to sea ice, sensitive ecosystems, or nearby communities. Existing routing methods prioritize travel time, fuel use, and navigational risk, often overlooking ecological and community impacts. We introduce a human-in-the-loop, multi-agent GeoAI system for Arctic eco-navigation that integrates operational, physical, ecological, and community-related criteria within a unified routing framework. Multiple specialized agents coordinate geospatial data acquisition and preparation, multi-objective route generation, and skyline-based decision support. The ecological criteria explicitly account for exposure to sensitive areas, including Essential Fish Habitat and seal critical habitat. By considering these ecosystem impacts and potential community burdens while keeping consequential value judgments under human control, the framework supports safer, more transparent, and socially responsible Arctic navigation. Project page and code are publicly available. https://samiraat.github.io/Arctic-Eco-Navigation-Agent/, https://github.com/samiraat/Arctic-Eco-Navigation-Agent",
+    "categories": [
+      "geo_reasoning",
+      "ship_trajectories"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Physico-Geospatial Grounded Scene Interpretation for Mobile Robotics",
+    "url": "http://arxiv.org/abs/2609.06629v1",
+    "authors": [
+      "Nicolas Schuler",
+      "Janik Kurtz",
+      "Lea Dewald",
+      "Marcel Sauber",
+      "F\u00e9licia Teferle",
+      "J\u00fcrgen Graf"
+    ],
+    "published": "2026-09-06",
+    "abstract": "Recent advancements in deep learning allow robotic agents to interact with dynamic and unstructured environments. Of special interest is the integration of physico-geospatial world knowledge into such systems, either by using physics-aware machine learning models, knowledge graphs to model relationships or spatio-temporal and logical reasoning. In the present work, we introduce an approach to augment the output of pre-trained, unmodified VLMs used for scene interpretation by integrating semantic descriptions, OpenStreetMap building data and street information with positional, temporal and metric information obtained from our sensory systems, fusing this information using LLMs. We apply this concept to an outdoor recording within a university campus, achieving an F1-Score of 0.83 in the task of grounding buildings and 0.64 for path surface grounding on our pilot evaluation set. The results demonstrate the conceptual capability of the proposed solution to deliver physico-geospatial grounded natural language descriptions. Code and results are available at https://datahub.rz.rptu.de/hstr-csrl-public/publications/physico-geospatial-grounded-scene-interpretation",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM",
+      "LVM"
+    ],
+    "applications": []
   }
 ]
