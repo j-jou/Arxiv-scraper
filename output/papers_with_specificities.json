@@ -33825,7 +33825,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Applying foundation model embeddings towards urban livability evaluation",
@@ -33843,7 +33844,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "AquaCubeAI-Powered Monitoring Turbidity on-board \u03a6sat-2",
@@ -33868,7 +33870,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "TempTPI: Informer-Based trajectory prediction for maritime vessels",
@@ -33889,7 +33892,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "DPSF-Net: A Dual-Prior Spatial-Frequency Network for Real-World Remote Sensing Image Dehazing",
@@ -33905,7 +33909,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "JEDI: JEPA-to-Edge Distillation for Efficient Cropland Segmentation from Satellite Imagery",
@@ -33927,7 +33932,8 @@
     ],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "AGSA-Net: Abundance-Guided Self-Attention Network for Spectral Unmixing-Aware Hyperspectral Remote Sensing Image Classification",
@@ -33952,7 +33958,8 @@
     "applications": [
       "Classification",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "WIND-Bench: A Benchmark Dataset for In-Situ Near-Surface Wind Speed Observations Across the Conterminous United States",
@@ -33975,7 +33982,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Earth-Projected Clustering of Historical Optical Transients in the Palomar Observatory Sky Survey-I (POSS-I)",
@@ -33993,7 +34001,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "An Autonomous GeoAI Agent for Arctic Eco-Navigation",
@@ -34010,7 +34019,8 @@
       "ship_trajectories"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Physico-Geospatial Grounded Scene Interpretation for Mobile Robotics",
@@ -34031,6 +34041,466 @@
     "architectures": [
       "LLM",
       "LVM"
+    ],
+    "applications": [],
+    "is_recent": false
+  },
+  {
+    "title": "Earth Surface Immune System for Rapid Monitoring of Unknown Anomalies",
+    "url": "http://arxiv.org/abs/2609.20662v1",
+    "authors": [
+      "Jingtao Li",
+      "Qian Zhu",
+      "Xinyu Wang",
+      "Deren Li",
+      "Liangpei Zhang",
+      "Yanfei Zhong"
+    ],
+    "published": "2026-09-17",
+    "abstract": "Earth surface anomalies, driven by escalating climate change, and expanding human activities, are increasing in both frequency and diversity, yet their limited historical data and unpredictability make them fundamentally different from conventional remote sensing targets. Existing methods address specific anomaly categories or stop at localization, leaving a gap between detection and actionable information. Here we present ESIA, an Earth Surface Immune System whose architecture is constrained by three principles from the biological immune system, refined over millions of years against equally diverse and uncertain threats. A non-specific innate immune stage treats anomalies as unobserved changes in time-series satellite imagery, generating binary localization maps at 14.51 km2/s without assuming any anomaly category, surpassing the strongest general baseline by 37% in F1. A specific adaptive immune stage applies negative selection to filter text prompts and matches surviving prompts with localized image patches through a multi-modal foundation model, enabling open-vocabulary recognition of unknown anomaly attributes including category, affected area, and damage severity, with recognition F1 exceeding 80%. A mutation mechanism tunes minimal embeddings at test time, adapting to each scene in 3.26s using a single reference image pair. We validate ESIA on a global-scale dataset covering 19,801.60 km2 across six anomaly categories, comparing against 22 models, and further apply it to quantify degraded farmland in the Dnipro Delta following the Kakhovka Dam collapse and assess burn severity from 2025 Palisades Fire in Los Angeles. This unprecedented flexibility in handling unknown anomalies opens new avenues for real-time disaster response and environmental surveillance.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Recognition"
+    ]
+  },
+  {
+    "title": "Cross-Architecture Foundation-Model Distillation for Edge Flood Segmentation",
+    "url": "http://arxiv.org/abs/2609.20441v1",
+    "authors": [
+      "Fabian Schmalstieg",
+      "Karsten Mueller",
+      "Wojciech Samek"
+    ],
+    "published": "2026-09-17",
+    "abstract": "Geospatial foundation models can provide strong flood-segmentation performance, but their size limits deployment on memory-constrained edge hardware. We distill a 300-million-parameter Prithvi-EO-2.0 teacher, fine-tuned on the 252 manually labeled Sen1Floods11 training scenes, into a 0.7-million-parameter EfficientViT-B0 student. The teacher supervises additional unlabeled Sentinel-2 imagery, allowing the student training set to grow without new manual annotations. At the matched budget of 252 scenes, teacher-supervised training is competitive with direct training and improves STURM-Flood performance across tested configurations; a geometry-matched control shows that label source alone does not explain the difference. Scaling the teacher-supervised pool to 2,500 scenes narrows the remaining student--teacher gap: the float student reaches 0.787 water intersection over union on the Sen1Floods11 test split against 0.822 for the teacher, matches the teacher on STURM-Flood under our evaluation protocol, and remains below it on WorldFloods-v2. After activation replacement and quantization-aware training, the student runs as a 1.5-megabyte 8-bit integer (INT8) TensorRT engine on a Jetson Xavier NX at 5.57 milliseconds of graphics processing unit (GPU) compute per 512-by-512 image, with approximately 14 megabytes of runtime device memory. A fixed modified normalized difference water index (MNDWI) threshold is competitive with both models on the two clean external benchmarks, so we interpret those benchmarks as generalization tests rather than as evidence of learned-model superiority over a spectral rule. The results support the conclusion: foundation-model supervision can amplify a fixed manual annotation budget into a substantially larger training set and yield a compact, deployable edge model.",
+    "categories": [
+      "foundation_model",
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "MambaMPD: A Mamba-Driven Segmentation Framework for Marine Pollution Detection from Remote Sensing Imagery",
+    "url": "http://arxiv.org/abs/2609.15676v1",
+    "authors": [
+      "Shuaiyu Chen",
+      "Wei Han",
+      "Peng Ren",
+      "Chunbo Luo",
+      "Zeyu Fu"
+    ],
+    "published": "2026-09-14",
+    "abstract": "Accurate marine pollution detection (MPD) is essential for protecting coastal ecosystems and marine biodiversity. Vision Mamba models have shown promise in remote-sensing semantic segmentation by efficiently capturing long-range dependencies and global context, yet their potential for MPD remains underexplored. MPD is particularly challenging because of low signal-to-noise ratios, fragmented pollution patterns, and indistinct boundaries caused by the visual similarity between pollutants and the surrounding sea. To address these issues, we propose MambaMPD, an enhanced Mamba-based framework incorporating two complementary structural priors: Frequency-Aware Augmentation (FAA) and multi-scale Edge-Guided Attention (EGA). FAA integrates wavelet transforms into the encoder to decompose features into multi-scale frequency subbands, enabling the model to capture low-frequency contextual semantics and high-frequency structural details needed to identify small, low-contrast, and irregular pollution patterns. EGA adaptively fuses hierarchical, Laplacian-derived boundary cues with deep semantic representations, refining encoder features before decoding to sharpen boundaries and reduce ambiguity in visually confusing, spatially fragmented scenes. Together, these modules improve sensitivity to subtle pollution signals while preserving fine boundary structures. A U-Net-style decoder with squeeze-and-excitation attention and deep supervision progressively restores and refines semantic and spatial information across scales. Extensive experiments on two benchmark MPD datasets show that MambaMPD achieves higher mIoU than competing methods while requiring substantially less computation than foundation-model-based approaches. On MADOS, it improves F1 by 3.6% over OSDMamba; on M4D, it raises Oil Spill IoU by 6.82% over TransOilSeg.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": [
+      "Segmentation",
+      "Detection"
+    ]
+  },
+  {
+    "title": "Multimodal Foundation Models Adaptation based on Domain-Aware Relaxed Orthogonal Subspace for Remote Sensing",
+    "url": "http://arxiv.org/abs/2609.13654v1",
+    "authors": [
+      "Han Luo",
+      "Ruoyu Yang",
+      "Yinhe Liu",
+      "Yanfei Zhong"
+    ],
+    "published": "2026-09-12",
+    "abstract": "Pretrained foundation models (FMs) have achieved remarkable success in computer vision, yet their high fine-tuning cost limits practical deployment. Parameter-efficient fine-tuning (PEFT) methods such as Low-Rank Adaptation (LoRA) improve efficiency by constraining updates to a predefined low-rank subspace. However, when applied to remote sensing tasks with substantial domain shifts, the fixed subspace is constructed without observing the downstream activation distribution and can therefore provide a poor coordinate system for adaptation, a phenomenon herein termed subspace mismatch. To address this issue, a unified framework is introduced, termed Domain-aware Relaxed Orthogonal Subspace adaptation (DROS), which reformulates low-rank adaptation as data-conditioned subspace learning and flexible subspace adaptation. Specifically, the weight decomposition is conditioned on second-order activation statistics estimated from the downstream training distribution, so that the initialization reflects the feature geometry actually induced by the remote-sensing data, followed by flexible geometric transformations enabled by a relaxed orthogonal parameterization. Furthermore, the framework is extended to multimodal settings (MM-DROS) by sharing transformation structures across modality-specific subspaces, facilitating efficient cross-modal interaction. Extensive experiments on multiple remote sensing benchmarks demonstrate that DROS achieves state-of-the-art performance, even surpassing full fine-tuning, without additional inference overhead.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "From Foundation Embeddings to Cropland Maps: Label Efficiency, Temporal Transferability and Independent Human Validation",
+    "url": "http://arxiv.org/abs/2609.17138v1",
+    "authors": [
+      "Mohammad Ammar Mughees",
+      "Giovanni Montefoschi",
+      "Zhongxin Chen",
+      "Maria Antonia Brovelli"
+    ],
+    "published": "2026-09-15",
+    "abstract": "Geospatial foundation models provide reusable representations of satellite imagery that support downstream mapping with limited task-specific modelling. We evaluate whether annual AlphaEarth embeddings support binary cultivated-versus-non-cultivated mapping in Maine, USA, using 192 spatially separated patches and labels derived from the USDA Cropland Data Layer (CDL). Without fine-tuning the foundation model, a lightweight classifier reaches 93.7% overall accuracy and 90.8% balanced accuracy on held-out patches. Logistic regression is within 0.3 percentage points of a gradient-boosted ensemble, while a nearest-class-centroid rule, which uses class centroids but fits no parameters, reaches 90.2%. A balanced sample of 60,000 labelled pixels is within 1.3 percentage points of the full pool of 8.6 million pixels; because pixels are spatially autocorrelated, this result concerns pixel-sample efficiency rather than 60,000 independent annotation sites. In a same-region transfer experiment, classifiers trained in one year remain accurate across 2018 to 2023. Against a blind, two-interpreter consensus at 385 randomly sampled points in one contiguous 2023 block, the AlphaEarth-plus-random-forest map agrees at 95.3% ($\u03ba=0.82$), compared with 91.7% for the CDL ($\u03ba=0.72$; exact two-sided McNemar $p=0.0161$). This local result is consistent with partial smoothing of CDL label noise, but it does not establish statewide correction of the reference product. On the same points, the difference from a fine-tuned TerraMind segmentation model is not statistically significant (95.3% versus 93.5%; $p=0.14$), and the experiment is not a controlled comparison of computational cost. These results support frozen geospatial embeddings as a low-compute candidate for regional cropland mapping, subject to the limits of a single-state study, a 30 m-derived training reference, and a one-block human validation.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Regression"
+    ]
+  },
+  {
+    "title": "Towards foundation models for insurance risk modelling",
+    "url": "http://arxiv.org/abs/2609.14576v1",
+    "authors": [
+      "Christopher Blier-Wong"
+    ],
+    "published": "2026-09-13",
+    "abstract": "Claim narratives, images and sensor data contain information about insured risks that is difficult to use through existing actuarial models. Foundation models learn patterns from large datasets before being adapted to particular tasks. By turning these high-dimensional sources into variables or numerical representations, they could help insurers use more of the information they already collect, potentially reducing the experience needed to develop each application. For example, a language model could identify a worsening injury in a new claim note, allowing a reserving model to recognise the change in expected cost before the payments reveal the deterioration. In this paper, we review language, vision, geospatial, time series, tabular and scientific models, explaining existing insurance applications and potential future uses. Scientific models extend this approach to future weather and climate conditions: their simulations can inform loss estimates once local hazards are linked to asset damage, repair costs and insurance coverage. We propose a process to connect these model outputs to actuarial calculations and to assess their predictive contribution, stability and compliance with rules on information use. Evaluating these applications is difficult when final claim costs become known only after long delays, large losses are rare or patterns learned elsewhere fail to transfer to the target portfolio. Richer data can reveal private information and support finer risk classification, which can change access to insurance. Reusing the same models across insurers also creates dependence on shared predictions and providers.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Physically Typed and Geometry-Aware Representations for Earth Foundation Models",
+    "url": "http://arxiv.org/abs/2609.13868v1",
+    "authors": [
+      "Rajiv Ranjan"
+    ],
+    "published": "2026-09-12",
+    "abstract": "Earth-observation (EO) foundation models have become exceptionally effective at learning se mantic, high-dimensional geospatial embeddings, while modern weather and climate models have demonstrated that Earth-specific geometry, spherical operators, meshes, and hybrid physical solvers can materially improve prediction. Yet these two advances are not equivalent. A conventional latent embedding has no inherent physical transformation law, whereas scalar fields, tangent polar-vector fields, axial/pseudovector quantities, covectors, and higher-order tensors transform differently under rotations, reflections, and changes of local coordinate frame. This proposal asks whether a general purpose Earth foundation model should preserve those distinctions explicitly, or whether standard embeddings plus augmentation already learn everything that matters. The central contribution is therefore not a more complicated architecture by assumption, but a staged falsification program. A compute-conscious ERA5 dry run first compares conventional, augmentation-matched, typed equivariant, and Hodge/Helmholtz variants under spatial, temporal, orientation, and low-data shifts. Only if explicit geometric typing yields reproducible improvements does the program advance toward a multimodal Earth foundation model in which semantic embeddings coexist with physically typed fields. The proposed gap is narrower and more defensible than claiming that current models ignore geometry entirely: several systems already respect spherical domain geometry, and emerging work explicitly learns scalar/vector fields on spheres. The unresolved question is whether foundation-scale, multimodal, parity-aware field typing produces practical gains beyond those existing approaches.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Geospatial Metadata Improves Discoverability by Connecting Datasets Across Scientific Disciplines",
+    "url": "http://arxiv.org/abs/2609.16498v2",
+    "authors": [
+      "Daniel Ebanks",
+      "Devika Jain"
+    ],
+    "published": "2026-09-15",
+    "abstract": "Research data repositories are essential infrastructure for scientific inquiry and for ensuring that datasets follow FAIR (Findable, Accessible, Interoperable, and Reusable) principles. However, repository reuse depends on the quality and completeness of geospatial and thematic metadata, which researchers generally provide voluntarily. Given limited curation resources, it is unsurprising that even Harvard Dataverse, the world's largest general-purpose research repository, contains many incomplete metadata records. Missing fields represent lost information and reduce interoperability. We find that datasets with more missing metadata receive fewer downstream citations and have fewer resolvable connections to other datasets. The implications are particularly important for geospatial datasets: only 0.3% of research datasets include a bounding box, and most represent archival points rather than complete geographic shapes. Our analysis shows that geospatial metadata helps connect concepts across disciplines. After embedding Harvard Dataverse datasets in a metadata knowledge graph, we find that datasets are twice as likely to connect across scientific disciplines through shared geospatial metadata as through keywords. This suggests that geographic metadata is a more reliable basis for cross-disciplinary interoperability than keyword vocabularies, which often remain discipline-specific. We train and fine-tune a small language model using datasets from Harvard Dataverse. Through geospatial metadata enrichment, we increase the share of datasets from different disciplines connected through metadata elements from 58.5% to 63.2%.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "The Role of Radiometric Features in Cross-Site Leaf-Wood Segmentation of LiDAR Point Clouds",
+    "url": "http://arxiv.org/abs/2609.21903v1",
+    "authors": [
+      "Roman Kaharlytskyi",
+      "Derek T. Robinson",
+      "Roberto Guglielmi"
+    ],
+    "published": "2026-09-18",
+    "abstract": "Leaf-wood segmentation of individual trees from LiDAR point clouds is essential for quantitative structure models (QSMs) used in non-destructive biomass estimation. Existing segmentation methods typically exclude radiometric features (e.g., intensity, return number) to maximize cross-sensor compatibility. We challenge this design choice by evaluating cross-site and cross-platform generalization: training on the public Heidelberg dataset (terrestrial TLS, 1550nm) and testing on a novel dataset from Ontario, Canada (RPA-LS, 905nm). Results show that geometry-only methods - including state-of-the-art deep learning models trained on high-density LiDAR datasets - fail to generalize to the sparse, top-down geometry of aerial scans, achieving F1 scores <= 0.56. Incorporating radiometric features (intensity, return number, number of returns) improves F1 to 0.61, but more critically, increases wood recall by 119% from 0.16 to 0.35. Furthermore, geometry-only approaches often result in fragmented stem and branch components. We find that leveraging radiometric features preserves greater structural connectivity, resulting in more coherent architectures that are better suited for QSM reconstruction. We demonstrate that while geometric patterns are view-dependent and prone to overfitting scan patterns, radiometric features encode physical material properties that generalize across disparate sensors and environments.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "Modular Deep Learning Mechanisms for Auditable Next-Day Wildfire Spread Prediction",
+    "url": "http://arxiv.org/abs/2609.17763v2",
+    "authors": [
+      "Miguel Esparza",
+      "Aydin Ayanzadeh",
+      "Ahmad Mousavi",
+      "Ali Mostafavi"
+    ],
+    "published": "2026-09-15",
+    "abstract": "Next-day wildfire prediction requires models whose forecasts can be evaluated alongside the assumptions and historical evidence used in their computation. Although deep learning can learn spatial patterns from remote-sensing data, predictive performance alone does not establish physical fidelity or operational trustworthiness. This study investigates three modular augmentations for next-day active-fire prediction: wind- and slope-conditioned attention biases, physics-feature retrieval-augmented output correction, and fire conditioned dual-stream gating. The attention biases expose prescribed directional preferences, while the retrieval module selects historical tiles using a nine-dimensional environmental and fire-state descriptor and applies a learned correction to a frozen model's logits. The modules are evaluated across five backbones on the Next Day Wildfire Spread benchmark, using staged ablations, directional audits, retrieval perturbations, calibration measures, and computational comparisons. The three-seed mean F1 score and area under the precision--recall curve (AUC-PR) of a SwinUNETR model with all three augmentations are 0.4216 and 0.3673. Then, a mixed ensemble (two augmented architectures and one non-augmented architecture) model achieves 0.4292 and 0.3790. Benefits vary across architectures, and retrieval-related improvements in AUC-PR do not consistently translate into higher F1. The constructed wind bias aligns closely with input wind, but its alignment with observed next-day fire displacement is much weaker, distinguishing prior inspectability from predictive physical fidelity. The study contributes a framework for exposing and evaluating selected domain-informed components within wildfire prediction models. Together, the results presented show that predictive performance, operational trustworthiness, and computational practicality need not be competing objectives.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Signal-Centric Remote Sensing via Alternative Preprocessing and Acoustic Processing for ML-Driven Applications",
+    "url": "http://arxiv.org/abs/2609.21123v1",
+    "authors": [
+      "Logan Luna",
+      "Sirio Jansen-S\u00e1nchez",
+      "Ilteris Demirkiran",
+      "Leo Ghelarducci"
+    ],
+    "published": "2026-09-17",
+    "abstract": "The dominant method of processing sonar data is using image-based representations, requiring the preprocessing of image data on autonomous systems. We propose an alternative data processing method for remote sensing applications via the use of data in Comma-Seperated Value format. Experimentation on our alternative approach shows a reduction of processing time by 91.18%, an improvement in accurate object detection by Machine Learning, and an increase in SNR (Signal-to-noise ratio), PSNR (Peak signal-to-noise ratio), and other evaluation metrics.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Task-Oriented Semantic Feature Transmission for Multi-Task Satellite Remote Sensing over Low-SNR Channels",
+    "url": "http://arxiv.org/abs/2609.20150v1",
+    "authors": [
+      "Shuoyuan Sun",
+      "Hongyu Wang",
+      "Mugen Peng",
+      "Wenjia Xu"
+    ],
+    "published": "2026-09-17",
+    "abstract": "Conventional satellite remote sensing transmission follows a reconstruct-then-infer paradigm that optimizes pixel-level fidelity, creating an objective mismatch with downstream tasks such as classification and detection, especially at low SNR. This paper investigates a task-oriented framework that bypasses image reconstruction and directly transmits semantic features extracted by a multitask-pretrained backbone. A lightweight channel adaptation module (CAM) compresses feature dimensionality for bandwidth reduction, and a feature restorer recovers task-relevant structure after channel corruption. With the backbone frozen, the CAM and task-specific downstream heads are jointly optimized with task and feature-level supervision under random-SNR training. Under the adopted AWGN setting, experiments on scene classification and object detection show consistent gains over reconstruction-oriented JSCC baselines across different SNR conditions, with the largest improvements in the low-SNR regime.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Nationally Consistent, Locally Incomplete: A Bayesian Remote-Sensing Audit of Rooftop Photovoltaic Registries",
+    "url": "http://arxiv.org/abs/2609.16294v1",
+    "authors": [
+      "Gabriel Kasmi",
+      "Yves-Marie Saint-Drenan",
+      "Laurent Dubus",
+      "Philippe Blanc"
+    ],
+    "published": "2026-09-14",
+    "abstract": "Tracking the energy transition requires reliable statistics on renewable deployment. Rooftop photovoltaics (PV) are especially hard to track, owing to their decentralised nature, and the resulting inaccuracies in official statistics are known but not quantified. Remote sensing offers an independent way to identify rooftop PV systems. We introduce a Bayesian framework to estimate the ground-truth rooftop PV capacity from remote sensing detections, turning an imperfect detector into an uncertainty-aware measurement instrument. Applied to France, the corrected detections estimate a capacity of 4.03 GWp [3.96--4.11] (99% credible interval) of rooftop PV below 36 kWp, matching the transmission system operator's connection data within 3.3% nationally, while identifying local under-reports of up to 61% of local capacity. We also document and quantify a significant truncation bias in French rooftop PV open data. Beyond France, the approach paves the way for more reliable estimates of rooftop PV capacity worldwide.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Tracking"
+    ]
+  },
+  {
+    "title": "Drift Field Net: Learning Ocean Lagrangian advection fields from in-situ and satellite observations",
+    "url": "http://arxiv.org/abs/2609.16288v1",
+    "authors": [
+      "Th\u00e9o Archambault",
+      "Pierre Garcia",
+      "Mattia Romero",
+      "Anastase Charantonis",
+      "Dominique B\u00e9r\u00e9ziat"
+    ],
+    "published": "2026-09-14",
+    "abstract": "The North Pacific Subtropical Gyre (NPSG) is a major accumulation zone for floating plastic debris, resulting from basin-scale convergent ocean circulation. Effective cleanup strategies in this region rely on accurate forecasts of Lagrangian particle drift. Here, we introduce Drift Field Net (DFN), a deep neural network that predicts ocean surface flow fields from operational satellite observations. DFN is trained using a novel two-stage strategy that combines pretraining on simulated data with Lagrangian fine-tuning based on an advection-consistent loss function. This physics-informed optimization directly improves the accuracy of particle trajectory predictions. We evaluate DFN against an operational physics-based forecasting system and demonstrate the potential of deep learning for ocean surface flow prediction. On in situ drifter trajectories, DFN reduces the mean positioning error by 20 km after a 7-day forecast compared with the operational model. Furthermore, Lagrangian fine-tuning with the proposed advection loss further reduces the positioning error by 10 km, highlighting the benefits of incorporating Lagrangian constraints into the training process.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Deep Neural Network",
+      "PINN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "OceanMoE: Structured Conditional Sparse Computation for Long-Horizon Multivariate Ocean Forecasting",
+    "url": "http://arxiv.org/abs/2609.19768v1",
+    "authors": [
+      "Yishun Zhu",
+      "Jian Wang"
+    ],
+    "published": "2026-09-17",
+    "abstract": "Multivariate ocean forecasting must exploit shared evolution in a coupled ocean system while adapting to the heterogeneous statistical and dynamical characteristics of different prediction variables and locations. Fully shared models may lack the flexibility to handle this heterogeneity, whereas fully independent models discard the common ocean context shared across variables. The key question is how to retain shared context in a unified model while allowing computation to specialize according to the prediction target and local state. We propose OceanMoE, a structured conditional sparse Mixture-of-Experts framework that combines sharing and specialization for multivariate ocean forecasting. OceanMoE fuses cross-variable information to construct target-specific local representations and uses them to perform content-conditioned sparse routing at each spatial location, with the number of active experts adapted to router confidence. In the decoder, routing is augmented with a learned geographic bias parameterized by spherical-harmonic spatial bases, while shared residual and seasonal pathways provide common cross-variable and month-dependent context. Experiments on long-horizon autoregressive ORAS5 forecasting show that OceanMoE lowers aggregate forecasting error in both evaluated settings and maintains lower geometric-mean normalized RMSE than the corresponding baselines over most later rollout months. Routing analyses further show that expert allocation varies with prediction targets and spatial locations. These results support structured conditional computation as a modeling strategy for balancing shared ocean context with adaptive specialization.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "UniqueShip: Mitigating Data Leakage in Acoustic Ship Classification Benchmark Datasets",
+    "url": "http://arxiv.org/abs/2609.13659v1",
+    "authors": [
+      "Connor Hashemi",
+      "Trevor Stout",
+      "Anthony Hoogs",
+      "Jason Parham"
+    ],
+    "published": "2026-09-12",
+    "abstract": "Underwater Acoustic Target Recognition (UATR) of ships is well-suited for machine learning, yet its progress is hindered by the lack of large, diverse, and publicly available labeled datasets. In this work, we introduce UniqueShip, a machine learning-ready benchmark dataset for UATR applications sourced from the open Ocean Networks Canada (ONC) repository. Unlike previous datasets, we explicitly control for \"data leakage\" between the training and evaluation sets to ensure more reliable and generalizable model evaluation that does not encourage the model to memorize individual ships. We demonstrate that typical, random data partitioning in two prominent UATR datasets leads to falsely optimistic test performance, increasing accuracy by 10-48 percentage points compared to our more careful partitioning. Ablations on UniqueShip further show that doubling the number of unique vessels improves accuracy by 2.4-2.6 percentage points, while doubling total audio duration improves only by 0.8-1.3 points, indicating that vessel diversity should drive dataset curation more than total hours. We provide baselines with convolutional and transformer backbones, and analyze how ship metadata correlates with classification performance, finding that individual vessel characteristics predict classification difficulty far better than distance to the hydrophone alone. Overall, UniqueShip contains 2,460 hours of ship-radiated audio from 4,218 unique vessels (3,437 hours including background). We publish the dataset, code, and easy-to-download splits at uniqueshipdata.org to foster further UATR research.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Classification",
+      "Recognition"
+    ]
+  },
+  {
+    "title": "CatchMonitor: a machine learning system for automated fish discard quantification",
+    "url": "http://arxiv.org/abs/2609.15484v1",
+    "authors": [
+      "Geoff French",
+      "Michal Mackiewicz",
+      "Mark Fisher",
+      "Helen Holah",
+      "Rebecca Lamb"
+    ],
+    "published": "2026-09-14",
+    "abstract": "We report on the continued development of CatchMonitor, resulting in a prototype computer vision system designed to automatically quantify discarded fish from video footage collected from Remote Electronic Monitoring (REM) systems on fishing trawlers. The analysis of trawler surveillance footage is a challenging problem due to the real-world conditions on board fishing vessels. Building on our prior work we improve the accuracy of species identification through the application of semi-supervised learning. We utilise a simple and robust object tracking approach, upon which we build our prototype discard quantification system. Finally we analyse the variability of manual discard quantification performed by multiple expert human analysts, using it as a benchmark against which we compare the performance of our system.",
+    "categories": [
+      "ship_trajectories"
+    ],
+    "architectures": [],
+    "applications": [
+      "Tracking"
+    ]
+  },
+  {
+    "title": "How Much Hyperspectral Information Does Chlorophyll Retrieval Really Need?",
+    "url": "http://arxiv.org/abs/2609.18531v1",
+    "authors": [
+      "Abed Hammoud",
+      "Xuerong Sun",
+      "Bianca Champenois",
+      "Robert J. W. Brewin"
+    ],
+    "published": "2026-09-16",
+    "abstract": "Satellite ocean color algorithms translate water-leaving radiance into ecological information at spatial and temporal scales that cannot be achieved by field sampling alone. One important variable derived from water-leaving radiance is chlorophyll-a concentration ($\\mathrm{CHL\\text{-}a}$), a widely used indicator of phytoplankton biomass and physiology. Empirical retrieval algorithms are commonly used for $\\mathrm{CHL\\text{-}a}$ estimation, but their performance can vary across sensors and optically diverse waters. The Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) mission provides unprecedented spectral resolution, expanding the visible spectral information available for ocean color retrievals and raising a practical algorithm design question: how can this fine resolution spectrum be used to derive the next generation of interpretable $\\mathrm{CHL\\text{-}a}$ retrieval algorithms? We use symbolic regression to identify sparse equations that estimate $\\log_{10}(\\mathrm{CHL\\text{-}a})$ from multi- and hyperspectral remote sensing reflectances. The analysis first tests the standard multispectral ocean color algorithm (OC3--OC6) inputs to ask whether symbolic regression recovers standard band ratio structure, then extends the search to hyperspectral PACE-like reflectances. The best expression discovered achieved a held out root mean square deviation of 0.253 in log$_{10}$ $\\mathrm{CHL\\text{-}a}$, compared with 0.307 for a fitted OC6 polynomial on the same split. Ablations showed that the predictive skill of hyperspectral models is almost 12\\% better than the best standard ocean color retrieval models in root mean squared deviation against held out data. When evaluated by environmental regime, differences were larger for high-chlorophyll samples, which often represent turbid water conditions.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [],
+    "applications": [
+      "Regression"
+    ]
+  },
+  {
+    "title": "Toward Governance-Aware Autonomous GIS: A Narrative Review of Ethical and Privacy Risks in LLM-Enabled GeoAI",
+    "url": "http://arxiv.org/abs/2609.16232v1",
+    "authors": [
+      "Maya Subramanian",
+      "Devika Jain"
+    ],
+    "published": "2026-09-14",
+    "abstract": "Geospatial artificial intelligence (GeoAI) powered by large language models (LLMs) is expanding the capacity to query, generate, and interpret spatial information through natural-language interfaces and agentic autonomous GIS workflows. This capability creates governance challenges that general AI ethics discussions do not fully capture, including passive location inference from mobility traces, spatially structured bias amplification driven by spatial autocorrelation and scale effects, hallucinated spatial facts, and uncertainty compounding across multimodal geospatial inputs. This narrative review identifies eight recurring issues in LLM-enabled GeoAI: data provenance and consent, spatial privacy and inference risk, algorithmic bias and spatial inequity, spatial mechanisms as structural risk (spatial autocorrelation, the modifiable areal unit problem, and scale effects), LLM-specific technical risks, explainability, policy and regulatory gaps, and public enablement and workforce development. For each issue, we characterize the underlying mechanism, ground it in an illustrative example from the literature, and assess the current state of technical or institutional responses, ranging from largely unaddressed to actively debated or subject to emerging policy. Building on this synthesis, we propose a governance-aware architecture for LLM-enabled autonomous GIS that maps each issue to enforceable controls and auditable artifacts across the geospatial data lifecycle, illustrated through a worked flood-response routing scenario. The review highlights a persistent evidence gap: proposed responses remain largely conceptual, and field-tested evaluations of governance controls for LLM-enabled GeoAI remain limited. We close by outlining a research agenda emphasizing empirical validation, spatially specific interpretability tools, and workforce training aligned with these emerging risks.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "ANASSA: An Agentic AI Orchestration Framework for Spatial Intelligence",
+    "url": "http://arxiv.org/abs/2609.14824v1",
+    "authors": [
+      "Constantinos Papantoniou",
+      "Brian Hilton"
+    ],
+    "published": "2026-09-13",
+    "abstract": "The emergence of large language models (LLMs) and large multimodal models (LMMs) has enabled a new class of agentic systems capable of integrating natural language understanding with tool-based execution. In geographic information systems (GIS), this shift is transforming traditional, expert-driven workflows into semiautonomous systems that can interpret user intent, construct spatial workflows, and execute geospatial analysis tasks. However, existing approaches remain limited by fragmented integration of reasoning, execution, and evaluation, particularly in complex, real-world environments. This study synthesizes recent advances in agentic GIS frameworks, benchmarks, and surveys to identify limitations in spatial reasoning, execution robustness, validation, governance, and evaluation. Building on these insights, it introduces ANASSA (Autonomous Neural Agents for Spatial Systems Architecture), an agentic AI orchestration framework that integrates structured spatial reasoning, multi-agent workflow orchestration, execution feedback, authoritative spatial validation, provenance, uncertainty handling, and human decision authority within a unified system design. The contribution is an architecture-level specification: eleven components across four layers, a six-step Geospatial AI Cognitive Loop, cross-component contracts, and governance mechanisms intended to make agentic geospatial workflows traceable, reproducible, and accountable. Empirical performance evaluation is reserved for implementation and deployment studies.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "GeoSkill:Experience-Driven Hierarchical Skill Learning with Collaborative Revision forGeospatialAgents",
+    "url": "http://arxiv.org/abs/2609.13667v1",
+    "authors": [
+      "Han Luo",
+      "Xian Xu",
+      "Yinhe Liu",
+      "Yanfei Zhong"
+    ],
+    "published": "2026-09-12",
+    "abstract": "Geospatial agents are increasingly expected to support recurring and evolving analytical tasks rather than execute isolated workflows. In such settings, effective agents must distill prior execution experience into reusable geospatial procedural knowledge to guide future planning and tool use. However, existing memory-augmented paradigms struggle to summarize both long-horizon tool-chain orchestration experience and tool-level invocation constraints in geospatial analysis, while directly relying on LLM self-reflection to update experience often leads to misattribution and unreliable revisions. To address these challenges, we propose GeoSkill, an experience-driven hierarchical skill learning framework for geospatial agents. GeoSkill comprises two core components: (i) a Hierarchical Skill Bank (HSB), consisting of a Planning Skill Bank and a Tool Skill Bank, which respectively distill high-level task-planning experience and tool usage constraints, enabling structured representation and cross-task reuse of historical execution experience; and (ii) a Collaborative Trace-driven Skill Revision (CTSR) mechanism, where Judge, Critic, and Refiner collaboratively perform error identification, skill-level defect localization, and targeted modification, preventing misattributed and unreliable revisions from polluting the skill bank. GeoSkill learns and validates skills from historical executions during development, and freezes the skill bank for retrieval-only guidance on unseen tasks during deployment. Extensive experiments on EarthBench and ThinkGeo demonstrate that GeoSkill effectively transforms historical execution experience into reusable hierarchical skills, improving both end-to-end task accuracy and tool-execution reliability in geospatial tasks.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Geography as the Organizing Grammar of Geospatial Models",
+    "url": "http://arxiv.org/abs/2609.19621v1",
+    "authors": [
+      "Rajiv Ranjan",
+      "Shashank Tamaskar"
+    ],
+    "published": "2026-09-17",
+    "abstract": "GeoAI increasingly produces reusable Earth representation s, physical forecasts, multimodal systems, and reasoning a gents. Their progress exposes two distinct limitations. Geo graphic completeness asks whether the represented world ex tends beyond readily observed land surfaces and atmospher ic fields to oceans, biogeography, economies, institutions, and human agency. Geographic intelligence asks whether model outputs preserve place, scale, relations, process, un certainty, and the limits of valid inference. The first con cerns what exists in a model; the second concerns what may responsibly be claimed about it. This critical integrative review argues that geography provides the organizing gram mar that connects these dimensions. Seven structural gaps, propositions, and corresponding review questions translate the argument into testable requirements. The resulting re search agenda advances Living Geospatial Models as federat ed, continually updated systems that couple specialist Earth and human-domain models through shared geographic iden tity, support, relations, provenance, and uncertainty. The objective is not a single universal network, but geospatial intelligence that can explain connections and change, antic ipate plausible futures, and support accountable decisions across places and scales.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Quantifying Organizational Environmental Action from Web Data and Large Language Models",
+    "url": "http://arxiv.org/abs/2609.16627v1",
+    "authors": [
+      "Quinn Reynolds",
+      "Daniel Shore",
+      "Vianey Leos Barajas",
+      "Tanhum Yoreh",
+      "Meredith Franklin"
+    ],
+    "published": "2026-09-15",
+    "abstract": "Quantifying organizational environmental action from publicly available web content remains a challenging environmental data science problem because relevant information can be dispersed across multiple webpages and is primarily communicated through unstructured text. We present a scalable computational framework for transforming organizational web content into structured measures of environmental action and demonstrate the approach using Jewish congregations in the United States. We constructed a national database of 4,964 congregations by integrating multiple geospatial, knowledge-base, directory, and manually reviewed sources. Of these, 2,657 had active websites that were successfully crawled, producing a corpus of 154,454 webpages. We compared three approaches for detecting environmental actions: keyword retrieval followed by large language model (LLM) classification, semantic vector retrieval followed by LLM classification, and direct LLM classification classification without preliminary retrieval. Agreement with an expert human reviewer was lowest for keyword retrieval ($\u03ba$ = 0.26), higher for semantic vector retrieval ($\u03ba$ = 0.42), and similar for direct LLM classification ($\u03ba$ = 0.40). Although semantic retrieval achieved the highest agreement, its retrieval recall was 0.87, indicating loss of relevant content before classification. Applied to the complete corpus, direct LLM classification identified at least one environmental action at 1,398 congregations (53%), providing greater coverage than either retrieval-based approach. These results demonstrate that preliminary retrieval can reduce computational cost but may exclude relevant information before it reaches the classifier. The framework provides a reproducible approach for extracting organization-level environmental information from unstructured web content that can be adapted to other institutions.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Speak to the City: Multimodal Resolution for Outside-the-Vehicle References",
+    "url": "http://arxiv.org/abs/2609.14691v1",
+    "authors": [
+      "Alireza Parchami",
+      "Artin Saberpour",
+      "Robin Connor Schramm",
+      "J\u00fcrgen Steimle",
+      "Ulrich Schwanecke"
+    ],
+    "published": "2026-09-13",
+    "abstract": "As autonomous vehicles and Extended Reality (XR) headsets enable novel in-car interactions, seamlessly querying physical landmarks, known as Outside-the-Vehicle Referencing (OVR), remains challenging due to ego-motion and referential ambiguity. We present a robust, multimodal OVR framework fusing user gaze and natural language to identify Points of Interest (POIs). To address the scarcity of dynamic vehicular data, we developed a VR-based pipeline synchronizing 360-degree transit videos with vehicle GNSS telemetry. Through a user study (N=46) mapping passenger head orientation into a 3D geospatial Digital Twin, we captured authentic gaze-speech behaviors. We subsequently trained a lightweight Transformer network, leveraging LLMs to dynamically align continuous spatial gaze vectors with discrete verbal context. Experimental results demonstrate high accuracy and low computational overhead, achieving an 83.33% Top-1 accuracy (87.72% Top-2) and an average inference time of 24.3 milliseconds. This real-time paradigm effectively resolves referential ambiguity, enabling context-aware spatial retrieval for passengers within the vehicle.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "Transformer",
+      "LLM"
     ],
     "applications": []
   }
