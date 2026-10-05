@@ -34543,7 +34543,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "SatOV: Restoring Spatial Priors for Training-Free Open-Vocabulary Segmentation in Remote Sensing Imagery",
@@ -34564,7 +34565,8 @@
     "applications": [
       "Segmentation",
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Geospatial embeddings detect old-growth forests but buffered spatial validation narrows their advantage over Sentinel features",
@@ -34587,7 +34589,8 @@
       "Detection",
       "Classification",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "MIND the Gap: A Geographic Implicit Neural Representation with Adjustable Spatial Scale",
@@ -34614,7 +34617,8 @@
       "Classification",
       "Regression",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Climate Variability Modulates the Impact of Price Spikes on Food Insecurity",
@@ -34633,7 +34637,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Decision-Centered Evaluation of Machine Learning Poverty Maps Using Mobile Phone and Satellite Data",
@@ -34654,7 +34659,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "A multi-temporal dataset for mapping burned areas in the Brazilian Cerrado using time series of remote sensing imagery",
@@ -34671,7 +34677,8 @@
     "architectures": [],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "On the Limits of Univariate Deep Learning for Significant Wave Height Forecasting",
@@ -34692,7 +34699,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Efficient Continuous DEM Reconstruction under Limited Target-Resolution Supervision",
@@ -34711,7 +34719,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "HClimRep-Ocean: A Global Ocean Emulator on an Unstructured Mesh",
@@ -34736,7 +34745,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "An Exactly Solvable Ekman Layer with a Fractional-Order Stress Closure",
@@ -34755,7 +34765,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Full-frequency GW from Cayley-transformed self-energy moments",
@@ -34770,7 +34781,8 @@
       "fish_plankton"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "SAGE: A sampling-aware global evaluation benchmark for species distribution modeling",
@@ -34796,7 +34808,8 @@
     "architectures": [
       "SDM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language Navigation from Satellite Imagery",
@@ -34820,7 +34833,8 @@
     ],
     "applications": [
       "Tracking"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Agentic Building-Aware Satellite Gaussian Splatting for Auditable Urban DSM Reconstruction",
@@ -34838,7 +34852,8 @@
       "geo_reasoning"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Structured World-State Reasoning for Agentic Robotic Search",
@@ -34856,7 +34871,8 @@
       "geo_reasoning"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Electric Vehicle Charging Station Location Selection using Geospatial Artificial Intelligence (GeoAI)",
@@ -34873,6 +34889,339 @@
     "architectures": [
       "Autoencoder"
     ],
+    "applications": [],
+    "is_recent": false
+  },
+  {
+    "title": "HyperSAM: A Promptable Foundation Model for Hyperspectral Remote Sensing",
+    "url": "http://arxiv.org/abs/2609.37340v1",
+    "authors": [
+      "Li Pang",
+      "Xinqiao Wu",
+      "Jing Yao",
+      "Pedram Ghamisi",
+      "Jun Zhou",
+      "Zhengchao Chen",
+      "Deyu Meng",
+      "Xiangyong Cao"
+    ],
+    "published": "2026-09-29",
+    "abstract": "Hyperspectral remote sensing provides dense spectral measurements that are indispensable for material-level Earth observation, yet the construction of a general-purpose hyperspectral foundation model remains difficult. Two bottlenecks are especially limiting. First, large hyperspectral corpora rarely provide high spatial resolution together with reliable dense annotations. Second, many hyperspectral models are still trained almost from scratch, so the geometric and interactive priors learned by modern vision foundation models are not fully reused. To alleviate these issues, we \\highlight{present} \\textbf{HyperSAM}, a promptable hyperspectral foundation model that couples a data-centric hyperspectral synthesis pipeline with a spectral adaptation architecture based on Segment Anything Model 3 (SAM3). On the data side, HyperSAM synthesizes full-spectrum hyperspectral cubes from high-resolution SpaceNet multispectral imagery through a physics-informed abundance-transfer generator, while SAM3-derived pseudo-masks provide object-centric supervision. On the model side, the latest implementation uses a frozen SAM3 RGB image branch, a trainable hyperspectral side encoder initialized from the RGB vision transformer (ViT), ControlNet-style zero-initialized feature injection, and a lightweight mixture-of-experts mask refiner. To enhance training robustness against noisy pseudo-labels, Cross-modal Sample Selection (CromSS)-style confidence selection is incorporated for noisy-label weighting. Extensive experiments show that HyperSAM obtains strong generalization on diverse hyperspectral tasks (e.g., classification, anomaly detection, change detection, target detection, and airborne oil-spill mapping) and that high-quality synthetic hyperspectral data can be more effective than simply scaling noisy hyperspectral supervision.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer",
+      "PINN"
+    ],
+    "applications": [
+      "Detection",
+      "Classification",
+      "Anomaly Detection"
+    ]
+  },
+  {
+    "title": "PolyTopoBench: A Benchmark for Complex Vector Polygon Generation from Remote Sensing Imagery",
+    "url": "http://arxiv.org/abs/2609.32856v1",
+    "authors": [
+      "Zeping Liu",
+      "Ni Lao",
+      "Weiwei Sun",
+      "Gil Wolff",
+      "Yiqun Xie",
+      "Liang Zhao",
+      "Junfeng Jiao",
+      "Gengchen Mai"
+    ],
+    "published": "2026-09-26",
+    "abstract": "Vector polygon generation converts visual inputs, e.g., remote sensing (RS) images, into vectorized polygonal geometries, supporting applications such as autonomous driving, vector map construction, and remote sensing. Early pipelines predict raster masks and post-process them into polygons, which prevents end-to-end optimization and may miss small objects or introduce inaccurate vertices. Recent methods directly generate vector polygons, but most focus on simple exterior contours, while they either cannot represent complex polygons with holes or fail to preserve their topology. In this paper, we propose PolyTopoBench, a unified evaluation framework for vector polygon generation from RS images with explicit emphasis on complex polygons. PolyTopoBench evaluates both exterior and interior rings, and benchmarks 11 representative methods, including segmentation-based polygonization pipelines, vision foundation model baselines, and specialized vector polygon generators, on two RS-image datasets covering buildings, roads, vegetation, and unvegetated regions. Experiments show that existing methods often recover simple exterior boundaries but degrade substantially on polygons with holes or multiple rings. These results reveal complex polygon generation as an unresolved challenge and motivate topology-aware benchmarks and model designs. Code and data are available at https://github.com/seai-lab/PolyTopoBench.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation"
+    ]
+  },
+  {
+    "title": "A PyTorch Library for Hyperspectral Image Models: Technical Report",
+    "url": "http://arxiv.org/abs/2609.39871v2",
+    "authors": [
+      "Tanishq Rachamalla",
+      "Aryan Das",
+      "Srishti Kaushik",
+      "Swalpa Kumar Roy"
+    ],
+    "published": "2026-09-30",
+    "abstract": "Hyperspectral remote sensing has advanced across diverse deep learning paradigms, including spectral spatial CNNs, Vision Transformers, Mamba, graph neural networks, Kolmogorov Arnold networks, and self supervised masked autoencoding. Yet progress remains hindered by fragmented repositories, incompatible tensor conventions, and non standardized evaluation. Hyperspectral Image Models addresses these challenges through a modular framework unifying 55 representative models across six paradigms with a common registry, automatic 4D/5D tensor adaptation, and standardized constructors. It integrates 24 benchmark scenes from Airborne, Spaceborne, UAV, and Mars CRISM sensors, with caching, label remapping, PCA, explicit band selection or raw spectra, optional spatial max pooling, and arbitrary PxP patch extraction. To prevent inflated accuracy from overlapping windows, it supports class balanced random partitioning and spatially disjoint regional blocking with Chebyshev guard bands that eliminate train test pixel overlap. Experiments use a single config with deterministic seeds and complete provenance, generating LaTeX benchmark tables and classification maps. Across 1,320 model scene evaluations and 6,600 seeded runs, scene difficulty dominates architecture, with mean accuracy ranging from 96.40% on Botswana to 56.70% on Houston 2018, versus a 15 point spread across paradigm means. No paradigm universally dominates, while sub 1 M parameter models can match architectures two orders of magnitude larger. Code is publicly available at https://github.com/Tanishq251/Hyperspectral-Image-Models.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer",
+      "GNN"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Determining Vertical Displacement of Agricultural Areas Using UAV-Photogrammetry and a Heteroscedastic Deep Learning Model",
+    "url": "http://arxiv.org/abs/2609.39756v1",
+    "authors": [
+      "Wojciech Gruszczy\u0144ski",
+      "Edyta Puniach",
+      "Pawe\u0142 \u0106wi\u0105ka\u0142a",
+      "Wojciech Matwij"
+    ],
+    "published": "2026-09-30",
+    "abstract": "This article introduces an algorithm that uses a U-Net architecture to determine vertical ground surface displacements from unmanned aerial vehicle (UAV)-photogrammetry point clouds, offering an alternative to traditional ground filtering methods. Unlike con-ventional ground filters that rely on point cloud classification, the proposed approach em-ploys heteroscedastic regression. The U-Net model predicts the conditional expected val-ues of the elevation corrections, aiming to reduce the impact of vegetation on determined ground surface elevations. Concurrently, it estimates the logarithm of the elevation cor-rection variance, allowing for direct quantification of the uncertainty associated with each elevation correction value. The algorithm was evaluated using three metrics: the root mean square error (RMSE) of vertical displacements, the percentage of nodes with deter-mined displacement values, and the percentage of outliers among those values. Perfor-mance was assessed using the technique for order of preference by similarity to ideal so-lution (TOPSIS) method and compared against several ground-filter-based algorithms across four datasets, each including at least two time intervals. In most cases, the U-Net-based approach demonstrated a slight performance advantage over traditional ground filtering techniques. For example, for the U-Net-based algorithm, for one of the test da-tasets, the RMSE of the determined subsidences was 6.1 cm, the percentage of nodes with determined subsidences was 80.5%, and the percentage of outliers was 0.2%. For the same case, the algorithm based on the next best model (SMRF) allowed an RMSE of 7.7 cm to be obtained; for 77.3% of nodes, the subsidences were determined; and the percentage of outliers was 0.3%.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": [
+      "Classification",
+      "Regression"
+    ]
+  },
+  {
+    "title": "A Dual-Track Curation-and-Classification Framework for Resolving Ground-Truth Label Noise in Operational Sentinel-2 Wheat Area Estimation",
+    "url": "http://arxiv.org/abs/2609.36975v1",
+    "authors": [
+      "Kasimali Agharia",
+      "Ujjwal Kumar Gupta"
+    ],
+    "published": "2026-09-29",
+    "abstract": "Operational estimation of wheat-cultivated area is persistently constrained by discordance between administrative record-keeping and remotely sensed classification products. We address this administrative reference discordance for the 2022 Rabi season in Patiala district, Punjab, India, using a thirteen-timestep Sentinel-2 NDVI time series. A curated 849-sample reference dataset, developed through an iterative rule-based bootstrapping procedure, underpins both a feature sensitivity analysis and an operational classifier. Feature sensitivity independently assessed via Cohen's d and gradient-boosted information gain converges on the February-to-March grain-fill window as most discriminative. Four classifiers (1D-CNN, LSTM, hybrid CNN-LSTM, and XGBoost) were benchmarked on an identical 679/170 sample split. XGBoost achieved the highest overall accuracy (78.82%) against deep-learning baselines (64-66%), consistent with tree-based ensembles' favourable parameter-to-sample ratio in low-sample regimes. At full-population deployment across 36.25 million valid district pixels, the operational classifier attained 86.31% precision and 71.05% recall. The predicted wheat extent deviated by only +2.99% from the official tabular target, whereas the government's spatial reference mask exhibited a +25.11% positive area bias against the identical target. This asymmetry indicates that a classifier trained on an auditor-curated reference set reconciles more closely with the official tabular area than the spatial product conventionally used to validate it. We present this dual-track curation-and-classification framework as a methodological reference for crop-area reconciliation in label-noisy administrative settings.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN",
+      "LSTM"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Spectral Super-Resolution using Spatial-Spectral Residual Operator Networks",
+    "url": "http://arxiv.org/abs/2609.35410v1",
+    "authors": [
+      "Seokhyun Chin"
+    ],
+    "published": "2026-09-28",
+    "abstract": "Spectral super-resolution of multispectral satellite images can enable high temporal- and spatial-resolution hyperspectral satellite imagery at a modest cost, significantly increasing the applicability of hyperspectral remote sensing. This task is inherently ill-posed, making it well-suited for deep learning-based methods. In this study, the spectral super-resolution task is framed as an operator learning problem, and SSRON is proposed as a Deep Operator Network that effectively learns function-to-function mappings from downsampled spectra to continuous spectra. The model is trained to super-resolve Sentinel-2A-like multispectral imagery to EMIT images. Compared to baseline models, SSRON achieves superior performance across all metrics. The model also demonstrates zero-shot spectral super-resolution capability by predicting bands unseen during training. Furthermore, its continuous-output formulation suggests the potential to estimate spectra at finer wavelength intervals than the native sensor. These results suggest the potential of SSRON and establishes operator learning as a promising direction for spectral super-resolution.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Super-Resolution"
+    ]
+  },
+  {
+    "title": "A Two-Stage Cascade for Near-Real-Time Forest Anomaly Detection from Sentinel-1 SAR Time Series",
+    "url": "http://arxiv.org/abs/2610.02763v1",
+    "authors": [
+      "Pann Thinzar Seint",
+      "Subas Chhatkuli",
+      "Bryan Atwood"
+    ],
+    "published": "2026-10-02",
+    "abstract": "Tropical forest monitoring is essential for global climate stability and biodiversity preservation. To address the urgent need for rapid, reliable detection of forest loss which is essential for timely intervention against illegal logging, supply chain transparency, land-use governance and carbon market standards, we introduce a two-stage statistics-encoder cascade for near-real-time anomaly detection using Sentinel-1 time series. Our system is designed to overcome two fundamental challenges in remote sensing: the cloud-cover limitations that restrict optical monitoring and seasonal backscatter variation that causes SAR systems to mistake natural moisture changes for forest loss. The architecture integrates two distinct analytical engines to ensure high-fidelity detection: (1) an adaptive, robust-statistics z-score test on co-registered Sentinel-1 VH backscatter, same-season historical baseline and (2) a learned confirmation gate based on the latent-space structural similarity (SSIM) of a convolutional autoencoder trained on stable-forest patches. A candidate disturbance is confirmed as an alert only when both stages agree, and is assigned a confidence score and a Low/Medium/High risk tier from its repeat-occurrence history. The system produces per-alert auditable confidence scores and area-in-hectares estimates directly compatible with Monitoring, Reporting and Verification (MRV) workflows, sustainable forestry management, operational field checks and environmental risk assessments. Beyond its primary application, the model's flexibility allows for critical environmental applications ranging from selective logging to large-scale agricultural encroachment mapping, flood mapping and so on.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Autoencoder"
+    ],
+    "applications": [
+      "Detection",
+      "Anomaly Detection"
+    ]
+  },
+  {
+    "title": "FedMAD: Modulation-Aware Directional Aggregation for Federated Learning in Remote Sensing Image Classification",
+    "url": "http://arxiv.org/abs/2610.00693v1",
+    "authors": [
+      "Bar\u0131\u015f B\u00fcy\u00fckta\u015f",
+      "Beg\u00fcm Demir"
+    ],
+    "published": "2026-09-30",
+    "abstract": "Federated learning (FL) has recently attracted increasing attention in remote sensing (RS) since it enables collaborative model training across decentralized RS image archives without requiring direct access to local data. However, FL performance significantly degrades when the data distributions between clients are heterogeneous, which often occurs due to geographical differences, seasonal changes, and varying image acquisition and atmospheric conditions. To address this challenge, in this letter, we propose a novel personalized FL framework (denoted as FedMAD) for RS image classification problems. The proposed framework separates globally shared representation parameters from client-specific adaptation parameters to preserve client-specific features while maintaining globally transferable representations. This is achieved by integrating lightweight modulation modules and local batch normalization layers into the backbone network. Although globally shared parameters are collaboratively optimized between clients, client-specific parameters remain local to preserve domain-specific feature characteristics. In addition, FedMAD introduces a modulation-aware directional aggregation strategy that dynamically adjusts the importance of aggregation for each client according to the alignment of local modulation updates. This allows the global optimization process to suppress conflicting client updates originating from heterogeneous data distributions while enhancing the contribution of clients with consistent adaptation behaviors. The experimental results obtained on the BigEarthNet-S2 and EuroSAT datasets demonstrate the effectiveness of FedMAD compared to state-of-the-art FL algorithms under heterogeneous RS data distributions. The code of the proposed framework will be publicly available at https://git.tu-berlin.de/rsim/fedmad.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "USAI-Quant: A Quantitative Reasoning Benchmark for Vision-Language Models in Built Environments",
+    "url": "http://arxiv.org/abs/2609.32813v1",
+    "authors": [
+      "Dongdong Wang",
+      "Qingqi Song",
+      "Yuzhou Chen",
+      "Deepak Balakrishnan",
+      "Ravi Shankar Srinivasan",
+      "Shenhao Wang"
+    ],
+    "published": "2026-09-26",
+    "abstract": "Large vision-language models (VLMs) have emerged as a powerful paradigm for urban and spatial AI. However, current state-of-the-art large VLMs still struggle with quantitative reasoning on remote sensing imagery. Existing benchmarks and algorithms are predominantly based on qualitative Visual Question Answering (VQA), providing limited insights into the quantitative reasoning capabilities of VLMs for built environment metrics. To address this gap, we develop Quantitative Urban and Spatial AI benchmark (USAI-Quant), the first benchmark designed to quantitatively evaluate VLM's reasoning capabilities on built environment metrics via remote sensing imagery. USAI-Quant is curated from the 335 largest U.S. cities, aligning high-resolution remote sensing images with quantitative built environment metrics. We then evaluate both general-purpose and remote sensing VLMs (RS-VLMs) by applying VQAs to tens of built environment metrics across three complexity levels. Our results reveal that current state-of-the-art models consistently fall short on numeric reasoning tasks. We further conduct in-depth analyses across models, question types, and geographic locations, uncovering insights into performance variability and task-specific challenges.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "LVM"
+    ],
     "applications": []
+  },
+  {
+    "title": "Toward Enhanced Water Detection in SWOT Pixel Clouds using Dynamic Graph Neural Networks",
+    "url": "http://arxiv.org/abs/2609.34954v1",
+    "authors": [
+      "Christoph Baumann",
+      "Junyang Gou",
+      "Christian Schwatke",
+      "Mohammad J. Tourian",
+      "Florian Seitz",
+      "Benedikt Soja"
+    ],
+    "published": "2026-09-28",
+    "abstract": "The Surface Water and Ocean Topography (SWOT) mission offers unprecedented freshwater monitoring capabilities through its innovative wide-swath measurement system, which generates several data products, including the high-resolution pixel cloud (PIXC) product. However, the native PIXC water classification remains prone to systematic misclassification in urban environments, where strong radar returns from non-water surfaces are the predominant error sources. We present a deep learning approach that enhances land-water classification directly on SWOT PIXC data based on a dynamic graph convolutional neural network that simultaneously exploits spatial proximity and feature similarity to derive binary land-water class labels. The model is trained on a full year of PIXC data for the Dallas-Fort Worth metropolitan area using pixel-level ground-truth class labels derived from the DSWx-HLS product, which provides water-class labels based on Landsat and Sentinel-2 at a 30\\,m spatial resolution. Against the DSWx-derived reference, the proposed method increases the mean scene-level F1 score against the DSWx-derived reference from 0.52 to 0.86 on the temporally independent test set and from 0.43 to 0.74 on the spatiotemporal test set, relative to the native PIXC classification. These results demonstrate that dynamic graph neural networks are well-suited to the irregular, point-cloud-like structure of PIXC data and offer a scalable path toward more reliable urban flood monitoring and freshwater mapping at the high spatial resolution provided by the SWOT PIXC product.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "CNN",
+      "GNN"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Simulation-Free Learning of Population Dynamics with Wasserstein Lagrangian Residuals",
+    "url": "http://arxiv.org/abs/2610.03679v1",
+    "authors": [
+      "Fedor Sergeev",
+      "Markus Heinonen",
+      "Daniel Waxman",
+      "Tim Cooijmans",
+      "Ricardo Baptista",
+      "Dmitry Batenkov",
+      "Eli Bingham"
+    ],
+    "published": "2026-10-02",
+    "abstract": "The dynamics of cells, organisms, and fluids are often modeled as probability distributions evolving over time. Reconstructing and extrapolating this evolution from unpaired snapshots requires assumptions about the underlying process. Wasserstein gradient flows are a common choice, but they cannot describe conservative or periodic dynamics. Lagrangian mechanics in Wasserstein space covers both, but existing methods for learning it are simulation-based: they run a numerical solver at every training step, which makes training expensive. We propose Double-Stitch, a simulation-free method that learns these mechanics by penalizing the residual of the equation of motion along a learned population path. We derive this equation from a Clebsch variational principle that does not require gradient velocities, and show that the residual vanishes exactly when the equation holds. We test Double-Stitch on synthetic, single-cell and ocean vortex datasets and find that it matches or outperforms gradient-flow methods and simulation-based WLM on most tasks, while training $4$-$14$ times faster than WLM. We provide a JAX implementation of Double-Stitch at https://github.com/BasisResearch/stitching.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Generalized Engression Models",
+    "url": "http://arxiv.org/abs/2610.01823v1",
+    "authors": [
+      "Xinwei Shen",
+      "Zijian Guo",
+      "Francis Bach"
+    ],
+    "published": "2026-10-01",
+    "abstract": "We consider estimating the conditional distribution of a multivariate outcome given covariates when its coordinates may be continuous, binary, categorical, ordinal or rankings, and are conditionally dependent on one another. Different statistical methods have been developed for each outcome type, and most of them target a summary of the conditional distribution, such as the mean of each coordinate, rather than the joint distribution of the outcome vector. We develop generalized engression models, a unified nonparametric distributional regression framework for outcomes of any type. The proposed method builds upon engression, a scoring-rule-based deep generative model, and introduces a data-type-specific link function and a stochastic perturbation that smooths the loss, enabling gradient-based training even with discontinuous links. We establish universal representation results for continuous, discrete and mixed outcomes. In simulations and in two applications, 242 species in a community ecology benchmark and a 17-dimensional mixed-type health outcome, the method matches type-specific models on marginal scores, improves on them on the joint distribution, and matches or exceeds purpose-built state-of-the-art joint species distribution models. Software is available in Python.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [
+      "SDM"
+    ],
+    "applications": [
+      "Regression"
+    ]
+  },
+  {
+    "title": "From Pixels to Policy: A Multi-Agent System for Intervention and Geo-Spatial Decision Support",
+    "url": "http://arxiv.org/abs/2610.01870v1",
+    "authors": [
+      "Hosam Elgendy",
+      "Utkarsh Mall"
+    ],
+    "published": "2026-10-01",
+    "abstract": "Urban environments are shaped by design choices with long-term implications for health, safety, and quality of life, yet evaluating proposed interventions remains costly, time-consuming, and often impractical. Existing geospatial vision methods largely focus on monitoring urban indicators from aerial and street-view imagery, rather than proposing interventions and estimating their effects on such indicators. Moving beyond recognition, we introduce the problem of discovering interventions that improve target indicators for a given aerial or street-view image. We argue that a black-box indicator model, combined with a generative editing model, can serve as an implicit digital twin for testing intervention hypotheses. We present VIDA-Geo , a multi-agent system that explores this intervention space by coordinating segmentation, diffusion-based inpainting, and indicator scoring models to produce interventions that are both perceptually realistic and aligned with real-world policies. We evaluate our system on 8 indicators across aerial and street-view imagery, measuring changes in factors such as perceived safety and greenery. Our approach outperforms existing baselines in many cases, achieving up to 2X higher perceptual quality and policy alignment scores. Finally, our model provides users with multiple candidate interventions, supporting an expert city-planner-in-the-loop workflow.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Recognition"
+    ]
+  },
+  {
+    "title": "Decoding the Disaster: Multi-Task Geospatial Reasoning with Vision-Language Models and Crowdsourced Imagery for Disaster Mapping",
+    "url": "http://arxiv.org/abs/2610.00302v1",
+    "authors": [
+      "Wenping Yin",
+      "Fabian Desuer",
+      "Ziqi Liu",
+      "Naixia Mou",
+      "Weijia Li",
+      "Pedram Ghamisi",
+      "Xiao Xiang Zhu",
+      "Hao Li"
+    ],
+    "published": "2026-09-28",
+    "abstract": "Crowdsourced imagery provides timely, fine-grained, street-level observations for disaster mapping, complementing conventional remote sensing imagery (RSI) during emergency response. However, such imagery is often unstructured, spatially ambiguous, and lacks reliable geographic metadata, making manual geolocalization and interpretation labor-intensive and difficult to scale. This work proposes a multi-task Geospatial Reasoning Disaster mapping framework, namely GRDisaster, to examine the potential of vision-language models (VLMs) in understanding, geolocalizing, and reasoning over crowdsourced disaster imagery. GRDisaster is built on a newly curated benchmark dataset derived from PhotoMappers, comprising 26,340 images organized into human-validated volunteered geographic information (VGI), street-view imagery (SVI), RSI cross-view triplets covering multiple disaster events from 2018 to 2024. The framework combines deterministic and probabilistic cross-view geolocalization with multi-view fusion to associate VGI images with georeferenced SVI and RSI. It introduces two sets of spatial reasoning indicators for cross-view geolocalization validation and disaster damage assessment. These indicators use structural, environmental, and global-scene cues to validate cross-view correspondences and visually observable damage evidence with expert-verified annotations to assess disaster severity, improving the interpretability of VLM outputs. To our knowledge, this study provides the first systematic investigation and unified evaluation framework for examining how VLM-based spatial reasoning can transform crowdsourced disaster imagery into actionable geospatial artificial intelligence (GeoAI) through cross-view geolocalization validation, interpretable spatial reasoning, and damage-aware severity assessment.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Gradient-Guided Decoupled Adaptation for Geospatial Vision-Language Models",
+    "url": "http://arxiv.org/abs/2609.32737v1",
+    "authors": [
+      "Dongdong Wang",
+      "Deepak Balakrishnan",
+      "Ravi Srinivasan",
+      "Shenhao Wang"
+    ],
+    "published": "2026-09-26",
+    "abstract": "Existing geospatial vision-language models (Geo-VLMs) typically optimize diverse geospatial tasks through a unified multi-task adaptation paradigm without explicitly accounting for the heterogeneous optimization characteristics. Our empirical observations reveal heterogeneous gradient characteristics across tasks, including vision-language differences, intra-branch gradient relationships, and task interference, which hinder effective multi-task optimization. Motivated by these observations, we propose Gradient-Guided Decoupled Adaptation (G2DA), a gradient-aware optimization framework for multi-task Geo-VLM learning. G2DA first partitions tasks into vision- and language-centric groups through gradient-guided cross-modal decoupling. It then constructs modality-specific curricula based on task gradient similarity and employs bidirectional rehearsal to mitigate the recency effects introduced by sequential optimization. We evaluate G2DA on three Geo-VLM benchmarks using six InternVL3 and Qwen3.5-VL variants, along with GeoChat and GeoLLaVA. Across all 24 benchmark-model combinations, G2DA consistently outperforms representative baselines, improving over the strongest competitor by 3.08, 4.30, and 2.81 percentage points on UrBench-MCQ, XLRS-Bench-Lite, and VRS-Bench-VQA, respectively. These results demonstrate the effectiveness of gradient-guided task organization for Geo-VLM adaptation.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "From Wildfire Severity to Snow Persistence: A Multisource GeoAI Study of the 2020 Creek Fire",
+    "url": "http://arxiv.org/abs/2609.36345v1",
+    "authors": [
+      "Parastoo Farajpoor",
+      "Mohammadreza Narimani"
+    ],
+    "published": "2026-09-28",
+    "abstract": "Accurate prediction of post-fire snow conditions does not necessarily establish how wildfire changed those conditions. We developed an explainable geospatial artificial intelligence framework combining multisource Earth observations, meteorological information, and matched before-after comparisons to examine seasonal snow persistence following the 2020 Creek Fire in California's Sierra Nevada. Harmonized Landsat Sentinel-2 observations were used to estimate the fraction of clear-sky observations containing snow during October-July for eleven water years, 2016-2026, on a 500 m analysis grid. We matched 3,778 snow-zone cells inside the fire perimeter to comparable unburned controls using terrain and pre-fire snow conditions; absolute standardized mean differences after matching were no greater than 0.047. HLS persistence agreed closely with MODIS, with a mean annual spatial correlation of 0.947. The landscape-average before-after control-impact contrast was +0.0017, with a year-level 95% confidence interval of -0.023 to +0.027. A stronger response emerged in the highest burn-severity class, where observed persistence increased by 0.026 relative to matched controls, equivalent to 2.6 percentage points. Under 5 km spatial cross-validation, XGBoost predicted raw post-fire persistence with an out-of-fold coefficient of determination of 0.811, whereas predictive skill for the fire-adjusted anomaly reached 0.046. Elevation and temperature together accounted for 65.7% of mean absolute model attribution. These findings distinguish a severity-associated optical snow response from the terrain-climate relationships that dominate predictive skill. Combining matched comparisons with explainable GeoAI provides a practical framework for forest monitoring that separates accurate environmental mapping from inference about disturbance effects.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
   }
 ]
