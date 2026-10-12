@@ -34918,7 +34918,8 @@
       "Detection",
       "Classification",
       "Anomaly Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "PolyTopoBench: A Benchmark for Complex Vector Polygon Generation from Remote Sensing Imagery",
@@ -34941,7 +34942,8 @@
     "architectures": [],
     "applications": [
       "Segmentation"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "A PyTorch Library for Hyperspectral Image Models: Technical Report",
@@ -34964,7 +34966,8 @@
     ],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Determining Vertical Displacement of Agricultural Areas Using UAV-Photogrammetry and a Heteroscedastic Deep Learning Model",
@@ -34986,7 +34989,8 @@
     "applications": [
       "Classification",
       "Regression"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "A Dual-Track Curation-and-Classification Framework for Resolving Ground-Truth Label Noise in Operational Sentinel-2 Wheat Area Estimation",
@@ -35006,7 +35010,8 @@
     ],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Spectral Super-Resolution using Spatial-Spectral Residual Operator Networks",
@@ -35022,7 +35027,8 @@
     "architectures": [],
     "applications": [
       "Super-Resolution"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "A Two-Stage Cascade for Near-Real-Time Forest Anomaly Detection from Sentinel-1 SAR Time Series",
@@ -35043,7 +35049,8 @@
     "applications": [
       "Detection",
       "Anomaly Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "FedMAD: Modulation-Aware Directional Aggregation for Federated Learning in Remote Sensing Image Classification",
@@ -35060,7 +35067,8 @@
     "architectures": [],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "USAI-Quant: A Quantitative Reasoning Benchmark for Vision-Language Models in Built Environments",
@@ -35081,7 +35089,8 @@
     "architectures": [
       "LVM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Toward Enhanced Water Detection in SWOT Pixel Clouds using Dynamic Graph Neural Networks",
@@ -35105,7 +35114,8 @@
     ],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Simulation-Free Learning of Population Dynamics with Wasserstein Lagrangian Residuals",
@@ -35125,7 +35135,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Generalized Engression Models",
@@ -35145,7 +35156,8 @@
     ],
     "applications": [
       "Regression"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "From Pixels to Policy: A Multi-Agent System for Intervention and Geo-Spatial Decision Support",
@@ -35163,7 +35175,8 @@
     "applications": [
       "Segmentation",
       "Recognition"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Decoding the Disaster: Multi-Task Geospatial Reasoning with Vision-Language Models and Crowdsourced Imagery for Disaster Mapping",
@@ -35186,7 +35199,8 @@
     "architectures": [
       "LVM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Gradient-Guided Decoupled Adaptation for Geospatial Vision-Language Models",
@@ -35205,7 +35219,8 @@
     "architectures": [
       "LVM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "From Wildfire Severity to Snow Persistence: A Multisource GeoAI Study of the 2020 Creek Fire",
@@ -35222,6 +35237,436 @@
     "architectures": [],
     "applications": [
       "Forecast"
+    ],
+    "is_recent": false
+  },
+  {
+    "title": "Revisiting the Task of Building Damage Assessment by Satellite Imaging",
+    "url": "http://arxiv.org/abs/2610.13857v1",
+    "authors": [
+      "Anthony Cioppa",
+      "Virgile Blua",
+      "S\u00e9bastien Pi\u00e9rard",
+      "Pietro Ceccato",
+      "Marc Van Droogenbroeck"
+    ],
+    "published": "2026-10-09",
+    "abstract": "Natural disasters such as earthquakes, tropical storms, and floods cause extensive damage to buildings, and rapid, reliable damage maps are essential to guide emergency response. Automating this task, referred to as building damage assessment (BDA), from satellite imagery, has become an active research topic at the intersection of remote sensing, computer vision, and machine learning, particularly since supervised deep learning methods were shown to outperform earlier handcrafted approaches. Yet, despite a decade of intense activity and the release of several large-scale datasets, the field lacks a shared foundation. This chapter revisits the task of BDA from first principles, organized around three pillars: data, evaluation, and methods. We first clarify the candidate task for- mulations and argue for a sensor-agnostic, instance-based definition that tolerates missing pre-event imagery. We then review existing datasets along the axes of sensing modality, temporal configuration, and geographic coverage. On the evaluation side, we show that prevailing practices, largely based on a single aggregate score, are theoretically fragile, and we lay the foundations of a more informative, ranking-based, multi-score protocol. We further review methods ranging from task-specific deep networks to recent Earth observation foundation models, noticing that generalization to unseen events and regions remains an open difficulty. Finally, we discuss how these elements can inform the organization of a BDA challenge, including cross-validation, challenge, and private data-sharing setups designed to build trust between developers and users.",
+    "categories": [
+      "remote_sensing",
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "FairRSFM: A Biome-Aware Benchmark and Debiasing Framework for Remote Sensing Foundation Models",
+    "url": "http://arxiv.org/abs/2610.05790v1",
+    "authors": [
+      "Md Aminur Hossain",
+      "Omkumar Vaghasiya",
+      "Rajeev Ranjan Dwivedi",
+      "Vinod Kurmi",
+      "Biplab Banerjee"
+    ],
+    "published": "2026-10-05",
+    "abstract": "Remote sensing foundation models (RSFMs) are commonly evaluated using aggregate metrics, which can hide systematic performance disparities across ecological regions. We introduce FairRSFM, a biome-aware benchmark for evaluating ecological group robustness in RSFMs. FairRSFM maps georeferenced samples from 14 terrestrial biome classes into six ecologically meaningful macro-groups and evaluates models under a unified frozen-backbone evaluation protocol. The benchmark covers four downstream datasets: m-EuroSAT, m-BigEarthNet, m-SA-Crop-Type, and MMEarth20K with Dynamic World label maps. Using Prithvi-EO-2.0, SatMAE, and DOFA across three random seeds, we show that aggregate performance consistently masks biome-dependent disparities across architectures and tasks. For example, Prithvi-EO-2.0 reaches 90.98% overall macro-F1 on m-EuroSAT but a mean worst-group score of only 83.72%, while m-SA-Crop-Type drops from 27.30% overall mIoU to 18.47% in the Xeric and Mineralogical group. We further evaluate Biome-Orthogonal Linear Probing (BOLP), Dynamic Biome Reweighting (DBR), and GroupDRO as complementary mitigation baselines. Their effectiveness is model- and task-dependent; for example, BOLP improves Prithvi-EO-2.0 worst-group F1@opt on m-BigEarthNet from 46.12% to 50.27% without updating the RSFM backbone. FairRSFM provides a reusable protocol for diagnosing and mitigating ecological robustness gaps in remote sensing foundation models. Code and datasets are available at: https://github.com/aminurhossain/FairRSFM.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "T-JEPA: A Temporal Joint-Embedding Predictive Architecture for Learning Better Remote Sensing Representations",
+    "url": "http://arxiv.org/abs/2610.05731v1",
+    "authors": [
+      "Bowen Peng",
+      "Li Liu",
+      "Yongxiang Liu",
+      "Weijie Li",
+      "Jie Zhou",
+      "Zhen Liu"
+    ],
+    "published": "2026-10-05",
+    "abstract": "Earth observation (EO) data provide rich temporal supervision, yet existing remote sensing foundation models mainly exploit sequential observations through imposing predefined pairwise relations or aggregating holistic reconstruction context. We seek to further exploit the sparse and nonuniform temporal sampling inherent in EO sequences as supervisory signals. To this end, we propose T-JEPA, a temporal joint-embedding predictive architecture that learns time-gap-conditioned latent transitions. A shared single-frame encoder processes each observation, while a temporal predictor estimates the complete target latent field from a masked source latent representation and the actual elapsed time. Across multiple temporal intervals, these predictive constraints organize observed states into structured latent trajectories. Asymmetric metadata injection mitigates shortcut learning, and direct supervision across multiple temporal scales proves more effective than recursively rolling out intermediate states. In parallel, masked pixel reconstruction provides complementary supervision for preserving spatial details. Under matched pre-training data and throughput, T-JEPA achieves leading transfer performance on both static and temporal tasks. Analyses further reveal that T-JEPA learns representations with time-gap-dependent transition predictability and coherent latent dynamics, while maintaining strong cross-period consistency, representation diversity, and semantic discriminability.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "JEPA"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Shortcut Learning in Geospatial Foundation Model Embeddings for Cross-Disaster Damage Assessment",
+    "url": "http://arxiv.org/abs/2610.13766v1",
+    "authors": [
+      "Ali Shibli",
+      "Andrea Nascetti",
+      "Yifang Ban"
+    ],
+    "published": "2026-10-09",
+    "abstract": "Geospatial foundation models can support disaster damage assessment, but high accuracy on familiar disasters may hide shortcut learning: prediction from event or scene characteristics rather than evidence that transfers to a new disaster. We study embeddings from TerraMind, Prithvi-EO-2.0, DOFA, and DINOv3 on the multi-disaster datasets xView2 and BRIGHT. Holding out an entire disaster, instead of randomly splitting image tiles, reduces mean balanced accuracy from 0.807 to 0.638 on xView2 and from 0.818 to 0.568 on BRIGHT. Four sets of tests examine what information supports prediction: event and acquisition context, before/after image inputs, building count, and correct image pairing. Pre-event images remain predictive, and a classifier given only the annotated number of buildings reaches balanced accuracy of 0.629 and 0.653. Combining before/after features performs best on average on xView2, but does not improve over pre-only features on BRIGHT. Shuffling image pairs within the same disaster and damage class causes modest losses. Motivated by these findings, we test whether feature transformations learned only from training disasters improve generalization to unseen disasters. These transformations improve performance, with supervised contrastive learning performing best on xView2 and PCA on BRIGHT. Our results highlight the importance of evaluation on unseen domains for assessing model robustness and show that simple feature-level transformations can improve generalization. Code and experiments can be found at https://github.com/alishibli97/gfm-shortcut-learning.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
     ]
+  },
+  {
+    "title": "PlacePulse: Learning Transferable Place Representations from Structural Geographic Data",
+    "url": "http://arxiv.org/abs/2610.13390v1",
+    "authors": [
+      "Luc\u00eda Garc\u00eda-Duarte",
+      "Miguel \u00c1lvarez",
+      "Diego Vicente",
+      "Javier P\u00e9rez Trufero",
+      "Javier de la Torre"
+    ],
+    "published": "2026-10-09",
+    "abstract": "Geospatial machine learning often depends on task-specific feature engineering over large collections of sociodemographic, business, and environmental variables. Geospatial foundation models offer reusable representations of place, but leading approaches typically encode dynamic signals, such as mobility and search activity, or visual signals from satellite imagery. Few models represent the static structural composition of places (who lives and works there, which businesses operate there, and which risks they face) as transferable embeddings at fine spatial resolution. We introduce PlacePulse, a structural geospatial foundation model that compresses 572 attributes, expanded to 2,288 inputs through H3 neighborhood aggregates, into 256-dimensional unit-norm embeddings for 1,055,537 H3 resolution-7 cells in the United States. We also introduce a reusable two-axis benchmark that separates intrinsic representation quality from downstream predictive utility across multiple targets and spatial supports. Intrinsically, the embeddings reconstruct standardized inputs with mean $R^2 = 0.853$, use 251 of 256 approximately decorrelated dimensions, and show strong spatial organization, with Moran's $I = 0.93$ on the leading principal component and autocorrelation persisting beyond the input radius. Extrinsically, across 74 held-out targets from 12 external sources and four spatial supports, PlacePulse outperforms a dimensionality-matched feature-selection baseline on targets unrelated to the training inputs and is competitive with Google's Population Dynamics Foundation Model, leading on health, economic, election, economic-mobility and social-vulnerability outcomes, with relative strengths that vary by domain. These findings position structural composition as a distinct and complementary modality for geospatial foundation models, not simply a fallback where behavioral or imagery data are unavailable.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Planetary Geospatial Foundation Models: A New Paradigm for Global Public Health",
+    "url": "http://arxiv.org/abs/2610.05699v1",
+    "authors": [
+      "Arbaaz Muslim",
+      "Aviv Slobodkin",
+      "Katherine Wheeler-Martin",
+      "Eric Zhou",
+      "John Brittain",
+      "Martin Frasch",
+      "Hamsa Subramaniam",
+      "Jacob Bien",
+      "Hamed Sadeghi",
+      "Sarah Conderino",
+      "Stone Jiang",
+      "Ben Spoer",
+      "Daniel Neill",
+      "Mimi Sun",
+      "Joydeep Paul",
+      "Yun Liu",
+      "Tomer Shekel",
+      "Amy Chung-Yu Chou",
+      "Anna Carter",
+      "Charles Elliott",
+      "Aaron Bell",
+      "Reuven Sayag",
+      "Avinatan Hassidim",
+      "Niv Efron",
+      "Yossi Matias",
+      "Kasumi Widner",
+      "Eduardo Lopez Ortiz",
+      "Jos\u00e9 Alberto D\u00edaz-Qui\u00f1onez",
+      "Moritz U. G. Kraemer",
+      "John Brownstein",
+      "Isaias Fernandes Co",
+      "Etien Luc Koua",
+      "Monica Bharel",
+      "Benjamin Rader",
+      "Lorna Thorpe",
+      "Marc Gourevitch",
+      "Shravya Shetty",
+      "Gautam Prasad"
+    ],
+    "published": "2026-10-05",
+    "abstract": "The efficacy of traditional disease prediction is limited by spatial gaps and temporal lags, which impact the timing and targets of resource deployments. Outbreaks escalate undetected, chronic disease burdens are quantified years later, and at-risk populations in data-sparse regions remain unaddressed. Planetary geospatial foundation models complement existing epidemiological workflows to provide operational improvements, encoding multimodal search, mobility, and environmental signals into generalizable place representations. As illustrations of this complementarity, we present independent global health case studies of Google Earth AI's Population Dynamics Foundation Model (PDFM) -- a foundation model for geospatial inference -- across four domains (vaccine-preventable, communicable, noncommunicable, maternal mental health), five tasks (spatial extrapolation, interpolation/nowcasting, probabilistic forecasting, prospective forecasting, risk stratification), and four countries (USA, Canada, Mexico, and the Democratic Republic of the Congo). Across these case studies, PDFM addresses critical surveillance gaps across domains: improving US-Canada border MMR vaccination coverage predictions by capturing cross-border behavioral spillovers domestic models miss; nowcasting cardiovascular disease to accelerate data availability; enhancing short-term municipal Mexican dengue forecasts for timely outbreak vector control; improving forecasts of cholera hotspots; and adding a transferable signal to individual-level postpartum-depression risk prediction in US states the model had never seen, while not replacing individual socioeconomic data or closing demographic screening gaps. Together, these results showcase capabilities of geospatial foundation models for public health surveillance.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "H2CE: Modeling Geo-Semantic Interactions for POI Reranking with Heterogeneous Two-Stage Cross-Encoders",
+    "url": "http://arxiv.org/abs/2610.11277v1",
+    "authors": [
+      "Zhengwei Bai",
+      "Moreno D'Inc\u00e0",
+      "Danielle Class",
+      "Alessandro Moschitti"
+    ],
+    "published": "2026-10-08",
+    "abstract": "Point-of-Interest (POI) reranking in local search must model query-conditioned tradeoffs among lexical semantics, geospatial proximity, and numerical quality signals such as rating and review count, while remaining practical under real-time serving constraints. A close POI may only partially satisfy the query intent, while a farther one may offer stronger semantic and quality evidence. We present H2CE, a Heterogeneous Two-stage Cross-Encoder for latency-bounded POI reranking. H2CE represents numerical attributes in two complementary ways: bucketized natural-language descriptors are inserted into the cross-encoder input to support semantic--numeric attention, while exact scalar values are processed by dedicated MLPs to preserve magnitude information. The resulting semantic and numerical embeddings are fused through latent-space aggregation, enabling nonlinear interactions beyond scalar weighted sums. H2CE then applies a two-stage architecture: Stage 1 scores all candidates pointwise for scalable filtering, and Stage 2 performs head-to-head pairwise comparison among the top-$K$ candidates with Copeland aggregation, making fine-grained relative tradeoffs explicit while reducing pairwise cost from O(N^2) to O(N+K(K-1)). On a 5,743-query local search test set, H2CE achieves 67.48% NDCG@5, improving over XGBoost LTR by +22.82% absolute and over a zero-shot LLM reranker by +35.89%. The pairwise stage adds +1.98% NDCG@5 over the pointwise model alone. Ablations confirm the value of numerical features, latent aggregation, top-K pairwise reranking, and aligned training.",
+    "categories": [
+      "geo_reasoning",
+      "foundation_model"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "LEON: Location Embeddings from OSM Neighborhoods via Hexagonal Graph Masked Autoencoders",
+    "url": "http://arxiv.org/abs/2610.05497v1",
+    "authors": [
+      "Szymon Soltysiak",
+      "Radoslaw Malek",
+      "Jedrzej Kusnierz",
+      "Milosz Chojecki",
+      "Piotr Szymanski",
+      "Aleksandra Kawala-Sterniuk"
+    ],
+    "published": "2026-10-04",
+    "abstract": "Geographic information systems increasingly rely on sophisticated spatial representation learning techniques to extract meaningful patterns from complex geospatial data. This paper introduces LEON, a novel self-supervised framework that adapts Graph Masked Autoencoders (GraphMAE) for geospatial region representation learning. Our method leverages the inherent spatial structure of geographic data by constructing hexagonal grid graphs using H3 indexing and applying masked autoencoding techniques to learn robust spatial embeddings from OpenStreetMap (OSM) amenity distribution patterns. We evaluate LEON on multiple real-world datasets including EuroSAT satellite imagery classification and various geographic prediction tasks (housing prices, crime prediction, and urban analytics). Experimental results demonstrate that LEON achieves significant improvements in spatial understanding, with up to 1.87% accuracy improvement on EuroSAT classification and consistent performance gains across geographic prediction benchmarks. The learned embeddings exhibit highly structured and distinct properties, making them particularly suitable for downstream spatial analysis tasks. Our findings suggest that self-supervised learning provides an effective paradigm for geospatial region representation learning using widely available crowdsourced data.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Autoencoder"
+    ],
+    "applications": [
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Multimodal Remote Sensing Image Registration: A Comprehensive Review, Challenges and Prospects",
+    "url": "http://arxiv.org/abs/2610.11176v1",
+    "authors": [
+      "Zhiqiang Han",
+      "Yuanxin Ye",
+      "Qiuyun Wu",
+      "Jinhao Chen",
+      "Bai Zhu",
+      "Siyuan Hao"
+    ],
+    "published": "2026-10-08",
+    "abstract": "Multimodal remote sensing image registration is a crucial prerequisite for the collaborative processing and downstream application of remote sensing data, such as image fusion, change detection, and target recognition. However, significant variations in radiometry, geometry, scale, viewpoint, and time often exist between multimodal images. These differences, driven by varying sensor geometries, physical radiation mechanisms, imaging platforms, and environmental disturbances, pose severe challenges to achieving high-precision, robust registration. This paper systematically reviews the progress of mainstream multimodal remote sensing image registration methods. Based on their registration pipelines, existing approaches are categorized into three main types: region-based, feature-based, and deep learning-based methods. We detail the core principles, representative algorithms, advantages, and limitations of each category. Additionally, we summarize publicly available multimodal image datasets in the remote sensing domain, analyzing their specific characteristics and applicable scenarios. Finally, we highlight current bottlenecks in high-precision registration research and outline future development trends. This review aims to provide a comprehensive reference and valuable insights for researchers in related fields.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Recognition"
+    ]
+  },
+  {
+    "title": "Anaximander: Interactively Running Geospatial Deep Learning Models on Any Compute Backend",
+    "url": "http://arxiv.org/abs/2610.09085v1",
+    "authors": [
+      "Satej S. Soman",
+      "Akram Zaytar",
+      "Girmaw A. Tadesse",
+      "Gilles Q. Hacheme",
+      "Muhammad S. Danish",
+      "Inbal Becker-Reshef",
+      "Rahul Dodhia",
+      "Juan Lavista Ferres"
+    ],
+    "published": "2026-10-06",
+    "abstract": "Applying deep learning models to satellite imagery from within geographic information systems (GIS) remains high-friction for remote sensing practitioners. Models arrive in incompatible formats and target different compute environments, from local workstations to serverless cloud services. As a result, every evaluation demands custom deployment, tiling, and georeferencing code before a single prediction reaches the analyst's map. This friction discourages systematic comparison in a domain where model choice directly affects operational outcomes such as field delineation, crop monitoring, and disaster response. We present Anaximander, an open-source system that unifies model source and compute location choice behind one interactive interface. The system's backend is an inference server that loads models from multiple commonly-used sources and serves them on any accessible compute backend. The server provides session management and model caching, and streams results back per tile. The backend is paired with a QGIS plugin that drives tiling, result reassembly, georeferencing, and real-time per-tile status visualization. An additional user-interface path injects layer legends as prompts into vision-language models. We demonstrate the system in a code-free side-by-side comparison of three heterogeneous models on an agricultural field delineation task: gpt-image-1 via a cloud API, Segment Anything Model 3 (SAM3) on a remote GPU, and DelineateAnything on a local CPU. The inference backend and protocol are open-source and available at https://github.com/microsoft/nxmndr.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "DeepTopoClustering: Unsupervised Derivation of Surface Process Taxonomy from 4D Point Clouds for Topographic Monitoring",
+    "url": "http://arxiv.org/abs/2610.09860v1",
+    "authors": [
+      "Jiapan Wang",
+      "Daan Hulskemper",
+      "Mathilde Letard",
+      "Roderik Lindenbergh",
+      "Katharina Anders"
+    ],
+    "published": "2026-10-07",
+    "abstract": "4D point clouds acquired by permanent laser scanning (PLS) enable accurate high-frequency monitoring of surface change in dynamic topographic environments. However, existing methods remain limited in organizing detected surface activities into meaningful process types. We propose DeepTopoClustering (DTC), an unsupervised framework for deriving a hierarchical process taxonomy from object-based surface activities, so-called 4D objects-by-change (4D-OBCs). We transform each 4D-OBC into a GeoMorphogram, a distributional sequence representing the temporal evolution of topographic change within a spatially bounded surface activity. A convolutional autoencoder learns latent embeddings from GeoMorphograms, which are jointly optimized using a hierarchical deep clustering objective to organize surface activities into a hierarchy. We evaluate the learned hierarchy using expert annotations on two 4D datasets of sandy beach sites and their combination. DTC with GeoMorphograms achieves the highest agreement with expert judgment at the taxonomy level comprising eight major process types ($F_1=0.78$, match accuracy $=0.92$), outperforming dimensionality reduction and conventional flat clustering. The learned taxonomy separates major erosion- and deposition-dominated activities and distinguishes finer subtypes based on change magnitude, duration, compactness, and temporal evolution. DTC thus provides a scalable and interpretable route from 4D change detection to a data-driven, expert-supported surface process taxonomy, advancing automated knowledge derivation for understanding surface dynamics in topographic monitoring.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "Autoencoder"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "How Many Independent Samples Does a Satellite Image Contain? Generalization Bounds for Spatially Dependent Data",
+    "url": "http://arxiv.org/abs/2610.08227v1",
+    "authors": [
+      "Robin Young"
+    ],
+    "published": "2026-10-06",
+    "abstract": "Machine learning classifiers for remote sensing imagery are typically evaluated as though every pixel were an independent sample. Spatial autocorrelation violates this assumption, since neighboring pixels carry redundant information which inflates sample sizes. How many independent samples does a satellite image actually contain? For an $n \\times n$ image whose spatial correlation persists over a range of $r$ pixels, the effective sample size is $\u0398(n^2/r^2)$, not $n^2$. We prove this as a finite-sample upper bound for classifiers on spatially correlated data, and show via a matching lower bound that the rate is tight, and no algorithm can do better. We extend the results to images with directional correlation and spatially varying correlation structure. Our result justifies spatial cross-validation since block holdout with separation proportional to the correlation range achieves optimal generalization guarantees, while random holdout can underestimate confidence interval widths by a factor proportional to $r$. We validate the theory on synthetic data and satellite image tiles from three sensors (Landsat 8, Sentinel-2, and Sentinel-1).",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "TIRMamba: A Thermal-Prior-Modulated State-Space Network for Sub-Million-Parameter Infrared Image Super-Resolution",
+    "url": "http://arxiv.org/abs/2610.05182v1",
+    "authors": [
+      "Chun-An Lin",
+      "Tsung-Jung Liu",
+      "Yen-Chieh Ouyang"
+    ],
+    "published": "2026-10-04",
+    "abstract": "Infrared image super-resolution is currently led by Mamba-based networks with 26 to 37 million parameters, which are difficult to deploy on the airborne and handheld platforms where thermal imaging is most needed. This paper presents TIRMamba, a network with 896K to 910K parameters for single-channel thermal imagery. A Thermal Prior Highway computes gradient, local-contrast and spectral cues once at the input and, through one adapter per residual group, modulates a weight-tied bidirectional state-space trunk and gates its dual-scale detail branch; a tri-path reconstruction adds the learned residual to a bicubic radiometric baseline. Because the standard benchmark provides only 265 infrared training images and evaluates fusion products on full images, we train with a replay strategy: grayscale DIV2K pre-training followed by fine-tuning on 64-pixel patches drawn with equal probability from the infrared and natural corpora. At scale factor 4, TIRMamba matches the strongest protocol-trained methods on both official test sets with 29 to 40 times fewer parameters and 2.8 to 9.4 times lower latency; at scale factor 2 it gives the highest SSIM on both. A variant with prior-conditioned selectivity, TIRMamba-Rad, corrects a 3 dB raw-thermal failure of an intermediate size-invariant design and gives the best results at scale factor 4 on raw-thermal, unmanned-aerial-vehicle and independent-sensor test sets. Code and trained models will be released at https://github.com/julian135707/TIRMamba upon acceptance.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Super-Resolution"
+    ]
+  },
+  {
+    "title": "A Physics-Constrained Implicit Profile Network for Continuous Reconstruction of Tropical Cyclone Near-Surface Wind Profiles",
+    "url": "http://arxiv.org/abs/2610.11405v1",
+    "authors": [
+      "Jian Ma",
+      "Yilin Yang",
+      "Robert Rogers",
+      "Jun A. Zhang",
+      "Jie Tang"
+    ],
+    "published": "2026-10-08",
+    "abstract": "Near the ocean surface, tropical cyclone winds change rapidly with height, but direct measurements are limited because aircraft dropsondes provide only sparse and irregular observations. Continuous wind profiles are important for understanding hurricane boundary-layer processes, improving storm-surge prediction, supporting offshore engineering, and assessing coastal hazards. In this study, we developed an artificial intelligence model that combines machine learning with physical principles to reconstruct continuous wind profiles from sparse observations. The model is designed to preserve the observed surface winds while generating realistic changes in wind speed and direction with height. Tests using more than two decades of NOAA hurricane observations show that the method accurately reproduces the vertical structure of tropical cyclone winds over a wide range of storm intensities. The framework can also extend satellite-derived surface wind measurements into three-dimensional near-surface wind fields, providing new opportunities for hurricane research, operational forecasting, and engineering applications.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Detecting Nighttime Anomalies from NASA Black Marble Using a Generalized Spatio-Temporally Robust Framework of Machine Leaning Ensembles",
+    "url": "http://arxiv.org/abs/2610.06674v1",
+    "authors": [
+      "Srija Chakraborty"
+    ],
+    "published": "2026-10-05",
+    "abstract": "Nighttime lights from NASA's Black Marble product suite capture thermal and light emission signals from anomalous events including fires, volcanic eruptions, and gas flaring. Existing detection approaches rely primarily on thermal bands, limiting sensitivity to weaker signals. We propose a novel machine learning framework that jointly models Black Marble M-band and Day/Night Band (DNB) signals to derive a generalized, spatio-temporally robust ensemble of anomaly detectors. The framework iteratively builds detectors that scale across regions, seasons, anomaly classes, and extends over land and ocean. Detection sets at varying confidence levels are derived based on relevant bands and detector agreement. The approach improves true detection rate while reducing spurious detections and results demonstrate strong generalizability with applications in natural hazard monitoring and energy extraction.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Probabilistic Ship Trajectory Forecasting using Transformer Models on AIS Data",
+    "url": "http://arxiv.org/abs/2610.13557v1",
+    "authors": [
+      "Frederik E. T. Sch\u00f6ller"
+    ],
+    "published": "2026-10-09",
+    "abstract": "Anticipation of vessel trajectories is an essential task when navigating at sea. This applies to both human navigators and autonomous surface vessels. Trajectory forecasting enables sub-routines such as collision avoidance to assess the situation and react accordingly in time. This paper investigates Transformer and Performer models for trajectory prediction of surface vessels in confined waters. Using widely available position data from the Automatic Identification System (AIS), candidate models are trained and evaluated. Historical information on how other vessels have moved in the local area surrounding each agent is conveyed using positional heat maps. The heat maps are generated using Kernel Density Estimation (KDE) and encoded with a Convolutional Neural Network (CNN) before entering the Transformer models. The models are trained with quantile loss to efficiently obtain a model-aware prediction interval, as this is crucial for timely collision avoidance. The proposed model architectures are shown to greatly outperform previous work while the inclusion of local heat maps enables the prediction of vessel movement that is not otherwise indicated from the previous positions.",
+    "categories": [
+      "ship_trajectories"
+    ],
+    "architectures": [
+      "CNN",
+      "Transformer"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Multi-Modal Graph Neural Network-Inspired Vessel Identification and Tracking for UAV-Based Maritime Surveillance",
+    "url": "http://arxiv.org/abs/2610.13220v1",
+    "authors": [
+      "Chenjie Zhao",
+      "Jiangtian Nie",
+      "Jiawen Kang",
+      "Yuxu Lu",
+      "Ryan Wen Liu"
+    ],
+    "published": "2026-10-09",
+    "abstract": "The unmanned aerial vehicle (UAV)-based maritime surveillance is becoming an important part of maritime Internet of Things (IoT) and intelligent transportation systems. It provides a flexible and cost-effective way to large-scale maritime traffic monitoring. However, achieving robust situational awareness remains challenging in practical maritime environments. The main challenges arise from heterogeneous sensing modalities, adverse imaging conditions, and spatial misalignment caused by UAV motion. To address these problems, this paper proposes an airborne multi-modal graph learning-driven framework, termed AMGT, for vessel identification and tracking in UAV-assisted maritime IoT. Specifically, visible and infrared images are first aligned and fused through a multi-parameter perspective transformation model. This improves visual perception under low visibility and complex illumination conditions. Automatic identification system (AIS) messages are then temporally synchronized using interpolation and linear prediction. To detect small and oriented vessels, we develop a mixed-modality MAir-YOLOv8-OBB detector, followed by the MAir-SORT algorithm for stable vessel tracking. We further design a graph learning-driven association network to model temporal dynamics and spatial dependencies among vessels and between vessels and UAVs. A motion-aware coordinate unification (MCU) strategy is also introduced to reduce nonlinear misalignment caused by UAV motion. Experiments on the MAP-M2UAV50 dataset show that AMGT achieves high accuracy and efficiency. The results demonstrate its potential for UAV-assisted maritime IoT applications, including vessel monitoring, traffic situational awareness, and intelligent maritime transportation services. The dataset and code will be available at https://github.com/MAPGroup/AMGT.",
+    "categories": [
+      "ship_trajectories"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast",
+      "Tracking"
+    ]
+  },
+  {
+    "title": "GeoNatureAgent (GNA): A Framework and Benchmark for Pre-Production Evaluation of Tool-Using Agents on Geospatial and Environmental Tasks",
+    "url": "http://arxiv.org/abs/2610.09112v1",
+    "authors": [
+      "Gabriel Diaz-Ireland",
+      "Diego Prieto-Herr\u00e1ez",
+      "Mario Garc\u00eda Peces",
+      "Javier Vel\u00e1zquez",
+      "Benjamin Zaitchik",
+      "Devika Jain"
+    ],
+    "published": "2026-10-06",
+    "abstract": "Before tool-using LLM agents are deployed in environmental and geospatial workflows, teams need evidence that an agent reliably selects the right operations against real APIs. We introduce GeoNatureAgent (GNA), a framework for pre-production evaluation of tool-using agents: a fixed sixteen-tool geospatial interface published as a Model Context Protocol (MCP) server, so the agent under test is the only variable, scored against an identical tool layer, task suite, and deterministic scorer. Its flagship instance is a 103-task benchmark (a 93-task main suite across 18 categories plus a ten-task comparison expansion) evaluated against an open, self-hostable geospatial API serving three environmental indicators across Spain and Portugal. We evaluate nine LLMs under three temperature-1.0 seeds, reporting capability and per-case cost as orthogonal axes. (1) Claude Sonnet 4 achieves the highest capability (61.7% +/- 0.7% on all 103 tasks; 60.8% on the main suite), followed closely by DeepSeek V3.2 (57.9%), while no other model exceeds 53%; (2) the cost-accuracy Pareto frontier is mostly open-weight, with DeepSeek V3.2 offering 93% of Claude's capability at 11.3x lower list-price cost; (3) under strict all-checks scoring the best model sits 24-36 points below the 85-97% reported on general-purpose GIS benchmarks, whereas per-check partial credit for the top four models (86-90%) is comparable, so much of that gap reflects scoring strictness rather than task difficulty alone. The MCP server, evaluation harness, benchmark, and API are publicly available; swapping the tool executors and task suite instantiates an equivalent benchmark for any geospatial domain.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Mind the Spatial Gap: A Benchmark for Geospatial Reasoning and Constrained Spatial Editing",
+    "url": "http://arxiv.org/abs/2610.12881v1",
+    "authors": [
+      "Zheng Ren",
+      "Yanning Wang",
+      "Ziheng Huang",
+      "Fei Huang",
+      "Shiqi Wang",
+      "Ziqian Ye",
+      "Yang Yue"
+    ],
+    "published": "2026-10-09",
+    "abstract": "Understanding and manipulating spatial relations is fundamental to AI systems that reason about physical environments and construct grounded world models. However, existing evaluations of multimodal large language models (MLLMs) for spatial reasoning rely predominantly on static question-answering (QA) over small-scale or synthetic scenes, rarely probing whether models can modify spatial configurations while satisfying explicit geometric constraints. We introduce GeoSpatialBench, a benchmark designed to evaluate an escalating progression of spatial cognition, ranging from spatial relation understanding and geometric reasoning to constrained spatial editing. Grounded in real-world urban data across six geographically diverse cities, GeoSpatialBench evaluates a comprehensive taxonomy of 28 topological, directional, metric, and ordering relations across structured GeoJSON and map image modalities, with ground-truth references and constraints verified via GIS operations. Our empirical evaluation across frontier MLLMs uncovers a stark spatial gap: structured GeoJSON consistently outperforms map images, with multimodal combinations offering no reliable gain over GeoJSON alone, and while models show reasonable competence on qualitative topological and ordering, performance drops on quantitative metric relations. Crucially, editing performance on ordering relations declines relative to QA, and most failed edits violate at least one specified spatial constraint. These results highlight a gap between passively recognizing spatial relations and actively manipulating geometric configurations. GeoSpatialBench provides an open, rigorous diagnostic testbed to benchmark these spatial limitations, laying essential empirical groundwork for physically grounded world models and embodied spatial AI.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "GeoFitBench-LLM: A Benchmark for Assessing Large Language Models' Capabilities in Geospatial Data Requirements Elicitation for Geo-Analytic Tasks",
+    "url": "http://arxiv.org/abs/2610.12669v1",
+    "authors": [
+      "Amirhossein Vahdat",
+      "Thierry Badard",
+      "Luc Lamontagne"
+    ],
+    "published": "2026-10-08",
+    "abstract": "Large language models are becoming central to GeoAI systems, yet their evaluation rarely considers the elicitation of geospatial data requirements. This omission is critical as retrieval oriented geo-analytic tasks cannot be supported reliably without first identifying the necessary datasets and constraints. GeoFitBench-LLM is introduced as a benchmark for assessing whether LLMs can infer the datasets, the supporting resources and the constraints required by geo-analytic requests in natural language. The benchmark is structured around two reasoning dimensions, Spatio-Temporal Relational and Semantic Grounding, reflecting long-standing challenges in geospatial information retrieval and related natural language tasks. Ground truth requirements are encoded in a fixed, provider-independent schema for reproducible evaluation of resource identification and attribute-level specification. Experiments on seven models under minimal prompting indicate that identifying the necessary resources is often achievable, with GPT-5.4 Thinking achieving the best result by recovering the complete set of resources in 66.67% of benchmark requests. Results further indicate that accurate fitness-for-use specification remains more difficult as inferential demands increase.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
   }
 ]
