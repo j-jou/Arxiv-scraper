@@ -35257,7 +35257,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "FairRSFM: A Biome-Aware Benchmark and Debiasing Framework for Remote Sensing Foundation Models",
@@ -35275,7 +35276,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "T-JEPA: A Temporal Joint-Embedding Predictive Architecture for Learning Better Remote Sensing Representations",
@@ -35296,7 +35298,8 @@
     "architectures": [
       "JEPA"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Shortcut Learning in Geospatial Foundation Model Embeddings for Cross-Disaster Damage Assessment",
@@ -35314,7 +35317,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "PlacePulse: Learning Transferable Place Representations from Structural Geographic Data",
@@ -35332,7 +35336,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Planetary Geospatial Foundation Models: A New Paradigm for Global Public Health",
@@ -35385,7 +35390,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "H2CE: Modeling Geo-Semantic Interactions for POI Reranking with Heterogeneous Two-Stage Cross-Encoders",
@@ -35405,7 +35411,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "LEON: Location Embeddings from OSM Neighborhoods via Hexagonal Graph Masked Autoencoders",
@@ -35429,7 +35436,8 @@
     "applications": [
       "Classification",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Multimodal Remote Sensing Image Registration: A Comprehensive Review, Challenges and Prospects",
@@ -35451,7 +35459,8 @@
     "applications": [
       "Detection",
       "Recognition"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Anaximander: Interactively Running Geospatial Deep Learning Models on Any Compute Backend",
@@ -35476,7 +35485,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "DeepTopoClustering: Unsupervised Derivation of Surface Process Taxonomy from 4D Point Clouds for Topographic Monitoring",
@@ -35498,7 +35508,8 @@
     ],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "How Many Independent Samples Does a Satellite Image Contain? Generalization Bounds for Spatially Dependent Data",
@@ -35512,7 +35523,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "TIRMamba: A Thermal-Prior-Modulated State-Space Network for Sub-Million-Parameter Infrared Image Super-Resolution",
@@ -35530,7 +35542,8 @@
     "architectures": [],
     "applications": [
       "Super-Resolution"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "A Physics-Constrained Implicit Profile Network for Continuous Reconstruction of Tropical Cyclone Near-Surface Wind Profiles",
@@ -35550,7 +35563,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Detecting Nighttime Anomalies from NASA Black Marble Using a Generalized Spatio-Temporally Robust Framework of Machine Leaning Ensembles",
@@ -35566,7 +35580,8 @@
     "architectures": [],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Probabilistic Ship Trajectory Forecasting using Transformer Models on AIS Data",
@@ -35585,7 +35600,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Multi-Modal Graph Neural Network-Inspired Vessel Identification and Tracking for UAV-Based Maritime Surveillance",
@@ -35606,7 +35622,8 @@
     "applications": [
       "Forecast",
       "Tracking"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "GeoNatureAgent (GNA): A Framework and Benchmark for Pre-Production Evaluation of Tool-Using Agents on Geospatial and Environmental Tasks",
@@ -35627,7 +35644,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Mind the Spatial Gap: A Benchmark for Geospatial Reasoning and Constrained Spatial Editing",
@@ -35649,7 +35667,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "GeoFitBench-LLM: A Benchmark for Assessing Large Language Models' Capabilities in Geospatial Data Requirements Elicitation for Geo-Analytic Tasks",
@@ -35666,6 +35685,355 @@
     ],
     "architectures": [
       "LLM"
+    ],
+    "applications": [],
+    "is_recent": false
+  },
+  {
+    "title": "Google Earth AI Geospatial Reasoning Agent: Capabilities and a Systematic Evaluation",
+    "url": "http://arxiv.org/abs/2610.15750v1",
+    "authors": [
+      "Noam Slonim",
+      "Aviv Slobodkin",
+      "Gil Fidel",
+      "Gal Moshitch",
+      "Mimi Sun",
+      "Lily Mihalkova",
+      "Joydeep Paul",
+      "Per Bjornsson",
+      "Sydney Lin",
+      "Jamie McPike",
+      "Samapriya Roy",
+      "Utkarsh Patel",
+      "Gia Jung",
+      "Zachary Luna",
+      "Allison Berman",
+      "William Cai",
+      "Xiao Wu",
+      "Mohit Agarwal",
+      "Mandar Sharma",
+      "Aliza Hoffman",
+      "Mark Young",
+      "Rama Pasumarthi",
+      "Roy Lee",
+      "Ruth Alcantara",
+      "Luke Barrington",
+      "Aaron Bell",
+      "Reuven Sayag",
+      "Avinatan Hassidim",
+      "Yossi Matias",
+      "Tyler McHenry",
+      "Ronald Ho",
+      "Christopher Haire",
+      "Oliver Guinan",
+      "Niv Efron",
+      "Tim Thelin",
+      "Gautam Prasad",
+      "Shravya Shetty"
+    ],
+    "published": "2026-10-11",
+    "abstract": "Google Earth AI is a family of geospatial AI models, together with an agent that orchestrates them. We present this agent, Google Earth AI's Geospatial Reasoning agent (GRA), a Gemini-powered research system that combines geospatial data sources, foundation models, and tools to answer questions about our planet. GRA organizes these into modular domain skills and pairs them with upfront geospatial planning to decompose complex queries into multi-stage workflows. Evaluating such systems is hard: real-world problems admit multiple valid workflows, require data discovery across large catalogs, and rely on evolving ground truth. We introduce two benchmarks and release their development splits. GeoExpertQueries poses complex analytical problems grounded in practitioner use cases and refined by geospatial experts; each is paired with a consensus golden workflow from three independent experts and scored by a human-validated, tool-agnostic autorater. GeoKTools consists of templated queries with deterministic reference solvers that systematically vary the number of required tool types. We also use two external benchmarks, CBGB and UnivEARTH; the latter we find to be saturated. To isolate the contribution of GRA's tools and its agentic orchestration, we compare four configurations, each with Gemini 3.1 Pro and 3.8 Flash: a standalone LLM, the LLM with basic tools, the LLM with GRA's skills and tools but without its upfront planning and execution guidance, and GRA itself. With at most basic tools, an advanced model recovers much of the answer on templated queries but satisfies only a small fraction of the expert workflows on open-ended problems; GRA performs well on both. The largest step comes from GRA's skills and tools; on open-ended problems, its planning and execution guidance add a further gain with Gemini 3.8 Flash, letting Flash match or exceed Pro at lower cost.",
+    "categories": [
+      "geo_reasoning",
+      "foundation_model"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "EarthAlign: Learning Language-Aligned Representations of Earth System Data",
+    "url": "http://arxiv.org/abs/2610.14624v1",
+    "authors": [
+      "Fadillah Adamsyah Maani",
+      "Numan Saeed",
+      "Jiaqi Ma",
+      "Dat Tien Nguyen",
+      "Youssef Wehbe",
+      "Duncan Watson-Parris",
+      "Salman Khan"
+    ],
+    "published": "2026-10-10",
+    "abstract": "Interpreting Earth system conditions is central to understanding environmental risks and informing decisions across weather- and climate-sensitive sectors. Existing multimodal weather systems primarily target task-specific prediction, generation, or question answering, while general-purpose alignment between Earth system data and language remains underexplored due to the limited availability of diverse language supervision grounded in meteorological conditions. To fill this gap, we introduce EarthAlign, a large-scale dataset with broad geographic coverage spanning 2000-2024 that combines 10 expert-curated natural event and disaster data sources with climatology-derived normal-weather samples. Each sample includes temporal and geospatial information and four grounded caption styles aligned with 63-variable ERA5 meteorological data. Building on EarthAlign, we introduce MeteoLIP, a dual-encoder framework for learning aligned meteorology-language representations. MeteoLIP incorporates MetTok, which uses a geolocation- and time-conditioned query to aggregate variable-specific patch embeddings into a compact sequence of meteorology tokens. To comprehensively assess Earth system multimodal representations, we introduce three downstream tasks: cross-modal retrieval, weather-condition classification, and physical variable estimation. Our experiments show that MeteoLIP improves upon the corresponding CLIP and SigLIP baselines across these tasks. Further analyses highlight the importance of meteorological input, temporal and geospatial conditioning, and multi-style supervision for meteorology-language alignment. Thus, EarthAlign and MeteoLIP provide a foundation for learning and evaluating language-aligned representations of Earth system data. Our code, dataset, and weights are publicly available at https://github.com/mbzuai-oryx/EarthAlign.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "CLIP"
+    ],
+    "applications": [
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Data-Efficient ConvNeXt Pretraining for High-Resolution Sentinel-1 GRD SAR Representation Learning",
+    "url": "http://arxiv.org/abs/2610.21993v1",
+    "authors": [
+      "Yuki Natsume",
+      "Sang-Ho Yun",
+      "Chai Kiat Yeo"
+    ],
+    "published": "2026-10-15",
+    "abstract": "Labeled Sentinel-1 Ground Range Detected (S1GRD) datasets remain scarce, limiting supervised deep learning for land-surface remote sensing, while self-supervised pretraining for this domain has been dominated by Vision Transformer (ViT)-based masked image modeling requiring substantial data and compute. We propose SparK-SAR, a sparse convolutional masked pretraining framework built on SparK and ConvNeXt, designed to exploit convolutional inductive biases for S1GRD imagery under constrained compute. SparK-SAR makes three core technical contributions: (i) ConvNeXt-RS, a domain-adapted encoder that halves the stem stride (4x to 2x) to produce 14x14 feature maps at stride 16x, providing 4x more spatial tokens at identical parameter count; (ii) a lightweight ConvNeXt-512 reconstruction decoder with PixelShuffle upsampling that reduces pretraining VRAM by 7.5-8.5% per GPU relative to a UNet-128 baseline while matching its accuracy; and (iii) an empirical characterization of FP16 mixed-precision pretraining instability in the standard SparK UNet-768 decoder on S1GRD data, complemented by a finding that finetuning with layer-wise learning rate decay (LLRD) improves downstream performance of pretrained encoders. On four Copernicus-Bench S1GRD tasks, our finetuned 27.8M-parameter ConvNeXt-RS encoder improves over a non-pretrained baseline by +4.7, +5.0, +5.8, and +1.4 pp on EuroSAT-S1, BigEarthNet-S1, DFC2020-S1, and Flood-S1 respectively, and outperforms the Copernicus-FM ViT (139M parameters, frozen) on three of four tasks at roughly 5x fewer parameters. A pretraining data-scaling study reveals task-dependent data efficiency: classification saturates with as little as 10-25% of the SSL4EO-S12 v1.1 corpus, while dense prediction continues to improve significantly up to 25-50%. The study also includes a CKA representation analysis and a geographic de-collision experiment.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "UNET",
+      "Transformer"
+    ],
+    "applications": [
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Deep Learning for Forest Plantation Mapping in Godavari Districts of Andhra Pradesh, India",
+    "url": "http://arxiv.org/abs/2610.22415v1",
+    "authors": [
+      "Snehal More",
+      "Anuj Karpatne",
+      "Valerie A. Thomas",
+      "Randolph H. Wynne"
+    ],
+    "published": "2026-10-14",
+    "abstract": "Small-area forest plantations play a vital role in the socioeconomic well-being of farmers in Southeast Asia. Most plantations are established on former agricultural land, often on land less suitable for agriculture. Plantations that are converted from natural forest have adverse impacts on biodiversity. Mapping small-area plantations is thus important to understand the dynamics of forest cover in Southeast Asia and to study the social, economic, and ecological effects of this important land cover and land use change. While the small size of forest plantations makes it difficult to detect them using moderate resolution satellite sensors, the problem is exacerbated by the high degree of mixing between plantations, surrounding vegetation, and other land covers, which often show variegated responses in satellite signals across space and time. In this paper, we study the problem of mapping small-area forest plantations in East and West Godavari districts of Andhra Pradesh, India using deep learning methods. Remotely sensed cloud-free data from the Harmonized Landsat Sentinel-2 S10 product were classified using a pixel-level neural network and training data labeled using a field-based survey in concert with expert aerial photo interpretation. We compare the performance of deep learning methods with a baseline random forest classifier in our study region of 21543 sq. km over a period of 3 years and analyze the differences in the results across land cover classes and seasons.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Exploring Interpretability in Deep Learning-Based Forest Classification - Separating Similar Forest Classes using Sentinel-2 Time Series",
+    "url": "http://arxiv.org/abs/2610.19270v1",
+    "authors": [
+      "Maximilian Kirsch",
+      "Christine Preisach"
+    ],
+    "published": "2026-10-13",
+    "abstract": "The ecological insurance theory posits that diverse forests are more resilient and better able to adapt to changing environmental conditions. Increasing drought and heat stress in Central Europe promotes mixed forests for maintaining ecosystem services. However, a diverse species distribution complicates remote sensing-based species mapping, as distinguishing pure from mixed species compositions at the pixel level remains challenging. We evaluated the potential of recurrent neural networks (RNNs) for tree-species classification from Sentinel-2 time series and investigated the spectral-temporal features underlying class discrimination, with particular emphasis on separating pure from mixed Norway spruce pixels. We compared RNN classification models with Random Forest (RF) and Extreme Gradient Boosting (XGBoost) and used Integrated Gradients (IG) to quantify feature attributions across spectral bands and time. The best-performing RNN achieved a Macro-F1 score of 0.851 on the test data, outperforming XGBoost by 0.012 and Random Forest by 0.103. Beyond classification performance, the attribution analysis revealed distinct spectral-temporal patterns associated with the separation of pure and mixed Norway spruce pixels. Attribution values increased particularly after approximately day of year (DOY) 125, while B11 showed the strongest contribution during periods of increasing spectral divergence between the two classes. These findings show that recurrent models can provide competitive classification performance while also revealing the phenological periods and spectral regions that are most relevant for distinguishing closely related forest compositions. Combining time-series classification with explainability therefore provides additional insight into the spectral-temporal mechanisms underlying tree-species discrimination and may support more detailed mapping of mixed forest structures.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "RNN"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Building age estimation based on widely available multi-source1 geospatial data",
+    "url": "http://arxiv.org/abs/2610.16320v1",
+    "authors": [
+      "Jialu Sui",
+      "Hongsheng Zhang",
+      "Rui Liu",
+      "Jing Ling",
+      "Ruisheng Wang",
+      "Hao Wu",
+      "Gang Chen"
+    ],
+    "published": "2026-10-12",
+    "abstract": "Building age is fundamental for urban infrastructure safety, operation, and planning, as it directly affects structural safety, and sustainable development. Existing methods mostly rely on detailed building information such as street view, function, or materials, which are harder to obtain than geospatial data like satellite imagery and Digital Surface Models (DSMs). However, existing methods based on those geospatial data mainly rely on optical imagery and local texture features, limiting their ability to capture structural information and distinguish buildings from different periods. Moreover, the inherent temporal ordering among building age categories is often overlooked. To address these limitations, we propose the first deep-learning framework for multi-building age estimation using widely available multi-source geospatial data, including remote sensing data and their derived products, as well as building footprint information that estimates age at both pixel and instance levels within a unified pipeline. Specifically, a large pretrained backbone with fine-tuning adapters extracts representative features, and raster-derived and property-derived fusion modules support pixel-wise and instance-wise predictions. Pixel-level estimation employs a pyramid decoder with Cosine-guided Mixture-of-Experts (CMoE) to fuse multi-source raster data across scales, capturing fine-grained building age differences, while instance-level prediction uses attention pooling and Property-Conditional Adaptive Instance Normalization (PCAdaIN) to extract instance-level representations and integrate property attributes. A Temporal Ordinal Constraint Loss (TOCL) enforces the sequential ordering of predicted ages. We also construct a building age benchmark for Hong Kong to enable comprehensive evaluation. The source code and datasets are available at https://github.com/littlebeen/RS-buildingAge.git.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "A Gated Catchment Hydrology Model (GCHM) for Physically-Interpretable Rainfall-Evapotranspiration-Runoff Simulation Across Diverse Hydroclimatic Regimes",
+    "url": "http://arxiv.org/abs/2610.14493v1",
+    "authors": [
+      "M Jawad",
+      "HV Gupta",
+      "MA Farmani",
+      "A Behrangi",
+      "GY Niu"
+    ],
+    "published": "2026-10-10",
+    "abstract": "Recent advances in machine learning have improved rainfall-runoff prediction, yet most data-driven models remain difficult to interpret and do not explicitly enforce physical conservation laws. We present the Gated Catchment Hydrology Model (GCHM), a mass-conserving architecture based on the Mass-Conserving Perceptron (MCP). GCHM uses five storage states representing canopy interception, snow, soil moisture, groundwater, and streamflow generation. Constrained gates govern precipitation partitioning, evapotranspiration, infiltration, seepage, runoff, and baseflow while learning context-dependent process relationships.\n  We evaluate GCHM across 50 CAMELS catchments spanning snowmelt-dominated, recent-rainfall, historical-rainfall, and arid regimes, using NOAA AORC meteorological forcing and remotely sensed vegetation and land-surface data. Performance is assessed using the Jawad-Kling-Gupta Efficiency (JKGE) metric, which accounts for stationary and non-stationary hydrologic behavior. We compare the full architecture with ablated variants and recurrent neural network benchmarks.\n  GCHM reproduces streamflow dynamics across diverse hydroclimatic regimes, including arid catchments, while maintaining interpretable states and fluxes. Ablation experiments show that simplified architectures may perform adequately under wet conditions but struggle to represent flow persistence and recession during dry periods, when groundwater storage sustains low flows. Learned gates recover hydrologically plausible relationships governing snowmelt, runoff, seepage, and evapotranspiration. GCHM combines competitive predictive performance with mass conservation and interpretability, providing a foundation for hydrologic modeling and counterfactual analysis.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "From Signals to Evidence: Interpretable Underwater Acoustic Target Sensing with Large Language Models - Part I: Framework and Recognition",
+    "url": "http://arxiv.org/abs/2610.22064v1",
+    "authors": [
+      "Yuge Zhang",
+      "Jie Chen",
+      "Zhengqiao Zhao",
+      "Xiling Yao",
+      "Lingji Xu",
+      "Jingdong Chen",
+      "Yixin Yang"
+    ],
+    "published": "2026-10-15",
+    "abstract": "Underwater acoustic target detection and recognition are essential to marine surveillance and intelligent ocean sensing. Despite substantial advances in deep learning, existing systems typically produce binary detection decisions, categorical labels, or scalar confidence scores, offering limited insight into the physical evidence underlying their outputs. Large language models (LLMs) offer an opportunity to move underwater acoustic sensing toward interpretable, evidence-grounded understanding; however, generic audio encoders struggle to capture the distinctive physical characteristics of underwater acoustics, and physically annotated data are scarce. In this paper, the first of a two-part series, we propose a from-signals-to-evidence framework that integrates physics-aware acoustic encoding with a pretrained LLM, organized around a unified feature-evidence-decision chain with a shared reasoning core. An open input layer accommodates heterogeneous information-raw waveforms, time-frequency representations, environmental and geographic data, and textual physical priors-unifying detection and recognition within a common formulation. In Part I, we instantiate this framework for target recognition through an Underwater Acoustic Physics-aware Transformer (UPT), which tokenizes complementary acoustic representations and learns task-disentangled physical representations through four physics-oriented learning tasks. We develop a physics-parameterized data engine that provides traceable supervision at two levels of granularity and introduce an attribute-level evaluation protocol to assess the physical fidelity of generated descriptions. Experiments on simulated recordings of four vessels demonstrate accurate vessel recognition and reliable estimation of shaft frequency, blade-passing frequency, and machinery-related attributes.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Transformer",
+      "LLM"
+    ],
+    "applications": [
+      "Detection",
+      "Recognition"
+    ]
+  },
+  {
+    "title": "ONCship: A Large-Scale Underwater Acoustic Corpus for Ship Recognition",
+    "url": "http://arxiv.org/abs/2610.19722v1",
+    "authors": [
+      "Zhe Cao",
+      "Jichao Zhang",
+      "Xiao-Lei Zhang"
+    ],
+    "published": "2026-10-14",
+    "abstract": "Recent advances in deep learning have significantly improved underwater acoustic vessel recognition. However, existing publicly available datasets are typically limited in scale, hindering large-scale representation learning and downstream task evaluation. To address this limitation, we introduce ONCship, a large-scale underwater acoustic dataset comprising 4521 hours of curated recordings from Ocean Networks Canada (ONC) hydrophones and Automatic Identification System (AIS) data. We evaluate the proposed dataset across three tasks: self-supervised representation learning, vessel-type classification, and MMSI-Level Vessel Classification. Experiments on DeepShip and ShipsEar demonstrate the effectiveness of ONCship for acoustic representation learning, with joint pre-training on ONCship and AudioSet achieving a classification accuracy of 62.45% on DeepShip through linear probing. Furthermore, incorporating ONCship as auxiliary training data improves downstream vessel-type classification performance. Beyond conventional vessel-type classification, we further investigate MMSI-Level Vessel Classification, treating each vessel as a distinct identity. Experimental results show that models fine-tuned with different loss functions achieve Top-1 accuracies exceeding 53% and Top-5 accuracies approaching 69%, demonstrating the feasibility of distinguishing individual vessels through MMSI-Level Vessel Classification. Overall, ONCship provides a valuable resource for underwater acoustic representation learning and vessel recognition, while its rich vessel-level metadata enables further exploration of MMSI-Level Vessel Classification.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification",
+      "Recognition"
+    ]
+  },
+  {
+    "title": "Identifying Arctic states vulnerable to rapid ice loss with a convolutional neural network",
+    "url": "http://arxiv.org/abs/2610.16584v1",
+    "authors": [
+      "Matthew Patterson",
+      "Ioana Colfescu",
+      "Nathan Kirk",
+      "Graeme MacGhilchrist"
+    ],
+    "published": "2026-10-12",
+    "abstract": "This work investigates the incidence of rapid ice-loss events in the Arctic, in which a substantial fraction of September sea-ice is lost in only a few years. Such events are seen to occur in climate model simulations forced with increasing greenhouse gas concentrations, but not as yet in the relatively short observational record. We train a convolutional neural network (CNN) using six large climate model ensembles to diagnose vulnerability to rapid ice-loss events. The trained model is shown to separate higher and lower risk states in out-of-sample climate models via a leave-one-out cross-validation. The model emphasises the role of persistently thin sea-ice, remaining sea-ice extent and sustained high upper ocean heat content as predictors of rapid ice-loss. The CNN is applied to observational data over the satelite-era showing a signal for rapid ice-loss prior to a drop around 2007 and an increasing risk from around 2015 to present. Such rapid-ice loss events would likely have dramatic consequences for Arctic ecosystems, coastal communities and global shipping.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": []
+  },
+  {
+    "title": "OceanFlow: Coherent Flow Matching for Probabilistic Ocean Modeling",
+    "url": "http://arxiv.org/abs/2610.15518v1",
+    "authors": [
+      "Yuan Gao",
+      "Fan Xu",
+      "Hao Wu",
+      "Xiaomeng Huang"
+    ],
+    "published": "2026-10-11",
+    "abstract": "Probabilistic ocean modeling is essential for risk-aware marine operations, climate analysis, and scientific decision-making, where downstream decisions depend on the conditional distribution of future ocean states rather than a single deterministic trajectory. Recent data-driven ocean models have made deterministic global ocean modeling increasingly accurate and efficient, but probabilistic ocean modeling remains underdeveloped. Specifically, perturbation-driven ensembles can create spread without explicitly optimizing the joint distribution of their members, often yielding poor calibration and physical inconsistency. To address these issues, we propose OceanFlow, a coherent flow matching framework for probabilistic global ocean modeling. OceanFlow first establishes a sharp, stable mean anchor for the conditional ensemble. Flow matching then learns a coherent state-conditioned pathwise law that jointly reshapes the residual distribution around this anchor at each transition, preserving the predictive center while refining state-dependent uncertainty. We further introduce a Factorized Dynamics Operator (FDO), which combines factorized transitions with a learned state-conditioned response to parameterize the mean anchor and residual-flow velocity. Extensive experiments show that OceanFlow improves ensemble-mean accuracy, probabilistic reliability, and physical-consistency diagnostics over competitive baselines, supporting coherent flow matching as an effective route toward data-driven probabilistic ocean modeling. Code is available at https://github.com/YuanGao-YG/OceanFlow.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Domain-specific language alignment of multimodal embeddings towards explainable predictions",
+    "url": "http://arxiv.org/abs/2610.23110v1",
+    "authors": [
+      "Gabriel\u0117 Tij\u016bnaityt\u0117",
+      "Thijs L. van der Plas",
+      "Mohamed-Bachir Belaid",
+      "Rob Knapen",
+      "Maciej J. Soja",
+      "Ioannis N. Athanasiadis"
+    ],
+    "published": "2026-10-16",
+    "abstract": "Multimodal data are commonly fused into latent representations that improve downstream task performance but are not interpretable, limiting their application in domains that require explainable model decisions. Vision-language alignment has made image embeddings interpretable through language, but requires vast image-caption training data. However, captioned data are typically not available for multimodal embeddings, as relevant features cannot directly be observed and annotated from embeddings alone. Here, we propose a framework to language-align any embedding space that can be linked to interpretable auxiliary data. Captioning functions convert auxiliary data into partial captions; a soft contrastive loss weights pairs by the similarity of their properties that each caption describes; and a rank-based concept retrieval task evaluates alignment against the auxiliary data rather than the captions. We apply this framework to multimodal Earth embeddings to facilitate explainable predictions for two species distribution modelling tasks: S2BMS and SatBird. AlphaEarth embeddings beat previous state-of-the-art models on 6/7 metrics, while our framework language-aligns domain-specific concepts of the embedding space, outperforming previous Earth observation vision-language models on average concept retrieval for both datasets. Finally, aligned concepts recover species-habitat associations ($\u03c1$=0.44) and relate habitat descriptions to species predictions, showing that abstract embeddings can be interrogated in the language of domain experts.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "ISW-Agent: Integrating LLM-Driven Dialogue with n8n Workflow for Internal Solitary Wave Remote Sensing Image Processing",
+    "url": "http://arxiv.org/abs/2610.21502v1",
+    "authors": [
+      "Hao Zhang",
+      "Hengrui Liu",
+      "Lina Sun",
+      "Junmin Meng"
+    ],
+    "published": "2026-10-15",
+    "abstract": "Internal solitary wave (ISW) remote sensing requires task parameters and spatial information to be transferred across image acquisition, detection, stripe extraction, and propagation prediction. Here, we present ISW-Agent, which integrates large language model (LLM) interpretation with n8n workflows and independent scientific models through structured task constraints, geospatial transformations, and stage-specific output validation. In tests of 120 Chinese instructions per backend, GPT-5.6 Sol and DeepSeek both achieved a strict task-match rate of 94.2%, with all intents and execution decisions matching the reference. Sentinel-1 cases demonstrated continuous processing from dialogue requests to wavefront prediction for the specified scene. Of 50 timed scenes, 39 completed detection, extraction, and prediction with a median turnaround time of 48.04 s; 11 stopped after empty extraction. Across 3,408 controlled fault-injection runs, retries recovered 234 transient-failure conditions and output validation rejected 234 structural defects, while 61 provenance or completeness errors indicated the need for content-consistency checks. Overall, ISW-Agent thus connects natural-language requests to traceable spatial processing chains for multimodel ISW analysis.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Detection",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Geospatial Vector Geometry as a Native Spatial Modality for Vision-Language Models",
+    "url": "http://arxiv.org/abs/2610.16769v1",
+    "authors": [
+      "Huang Fei",
+      "Boyi Chen",
+      "Hao Xue",
+      "Yang Yue",
+      "Yehong Xu",
+      "Xiaofang Zhou"
+    ],
+    "published": "2026-10-12",
+    "abstract": "Geospatial reasoning links VLMs to real-world action and decision making. Reliable reasoning requires accurate spatial information and effective spatial representations. However, current VLMs obtain this information mainly from language and vision. At larger geographic scales, limited visual observations make it difficult to establish accurate spatial references and recover precise spatial relations. This leads to a bottleneck for VLM spatial perception and reasoning. This paper proposes that geospatial vector geometry can become a native spatial modality within a VLM and introduces GeoVec-VLM. First, we develop a structured geometry representation that preserves the spatial structure and arrangement of vector objects, building an explicit spatial basis. Second, we introduce a geometry interaction strategy that brings this basis into multimodal computation, where it interacts with visual content and language references according to the queried spatial relations. Together, these designs allow perception and reasoning to operate on shared geometric references. Across five spatial reasoning tasks, GeoVec-VLM improves mean accuracy by about 11\\% relative to the strongest baseline, maintains its gains under geographic transfer, and shows greater geometric consistency. Our results show that geospatial vector geometry offers a promising internal spatial basis for VLM spatial reasoning. https://github.com/TXFR/GeoVector-VLM",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "A Decade of PhotoMappers: A Longitudinal Study of Crowdsourced Disaster Photos Geolocalization with Vision-Language Models and Geospatial Reasoning",
+    "url": "http://arxiv.org/abs/2610.15403v1",
+    "authors": [
+      "Hao Li",
+      "Wenping Yin",
+      "Fabian Deuser",
+      "Jia Jia",
+      "Ziqi Liu",
+      "Levente Juh\u00e1sz",
+      "Fan Zhang",
+      "Filip Biljecki"
+    ],
+    "published": "2026-10-11",
+    "abstract": "Crowdsourced disaster imagery provides timely, ground-level observations when conventional disaster mapping is delayed or incomplete, yet its geographic value depends on where observations are produced, how they are interpreted, and whether they can be reliably located as actionable Geospatial Intelligence (GEOINT). Using more than a decade of PhotoMappers, a crowdsourced disaster-mapping initiative, this study examines the changing geography of disaster information and asks how emerging GeoAI models compare with human geographic interpretation. We combine longitudinal spatial analysis with cross-view geolocalization using street view imagery (SVI) and remote sensing imagery (RSI), and evaluate vision-language models (VLMs) reasoning through 30 indicators spanning geographic cues and reasoning evidence. The results reveal a geographically and temporally uneven archive shaped by changing disaster types, Community Lifelines, and operational priorities. Integrating VGI, SVI, and RSI with Sinkhorn re-ranking achieves 40.90% R@1, 61.10% R@5, and 69.45% R@10, while yearly R@1 varies markedly from 25.00% to 65.07%. Geographic reasoning is similarly uneven: Qwen3.6-27B achieves an overall agreement of 67% compared with 51% for InternVL3-8B, with both models showing greater difficulty with localized and place-specific evidence than broad spatial configurations. We argue that the value of GeoAI lies less in replacing volunteered geographic interpretation than in complementing it, scaling candidate retrieval while retaining human judgment for ambiguous and consequential cases. This provides a pathway toward more human-centered and responsible GeoAI for disaster mapping. All data and code are openly available at https://github.com/bobleegogogo/PhotoMappers-VLM.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LVM"
     ],
     "applications": []
   }
