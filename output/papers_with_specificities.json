@@ -35740,7 +35740,8 @@
     "architectures": [
       "LLM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "EarthAlign: Learning Language-Aligned Representations of Earth System Data",
@@ -35765,7 +35766,8 @@
     "applications": [
       "Classification",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Data-Efficient ConvNeXt Pretraining for High-Resolution Sentinel-1 GRD SAR Representation Learning",
@@ -35787,7 +35789,8 @@
     "applications": [
       "Classification",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Deep Learning for Forest Plantation Mapping in Godavari Districts of Andhra Pradesh, India",
@@ -35804,7 +35807,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Exploring Interpretability in Deep Learning-Based Forest Classification - Separating Similar Forest Classes using Sentinel-2 Time Series",
@@ -35823,7 +35827,8 @@
     ],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Building age estimation based on widely available multi-source1 geospatial data",
@@ -35845,7 +35850,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "A Gated Catchment Hydrology Model (GCHM) for Physically-Interpretable Rainfall-Evapotranspiration-Runoff Simulation Across Diverse Hydroclimatic Regimes",
@@ -35865,7 +35871,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "From Signals to Evidence: Interpretable Underwater Acoustic Target Sensing with Large Language Models - Part I: Framework and Recognition",
@@ -35891,7 +35898,8 @@
     "applications": [
       "Detection",
       "Recognition"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "ONCship: A Large-Scale Underwater Acoustic Corpus for Ship Recognition",
@@ -35910,7 +35918,8 @@
     "applications": [
       "Classification",
       "Recognition"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Identifying Arctic states vulnerable to rapid ice loss with a convolutional neural network",
@@ -35929,7 +35938,8 @@
     "architectures": [
       "CNN"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "OceanFlow: Coherent Flow Matching for Probabilistic Ocean Modeling",
@@ -35946,7 +35956,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Domain-specific language alignment of multimodal embeddings towards explainable predictions",
@@ -35969,7 +35980,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "ISW-Agent: Integrating LLM-Driven Dialogue with n8n Workflow for Internal Solitary Wave Remote Sensing Image Processing",
@@ -35991,7 +36003,8 @@
     "applications": [
       "Detection",
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Geospatial Vector Geometry as a Native Spatial Modality for Vision-Language Models",
@@ -36012,7 +36025,8 @@
     "architectures": [
       "LVM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "A Decade of PhotoMappers: A Longitudinal Study of Crowdsourced Disaster Photos Geolocalization with Vision-Language Models and Geospatial Reasoning",
@@ -36035,6 +36049,274 @@
     "architectures": [
       "LVM"
     ],
+    "applications": [],
+    "is_recent": false
+  },
+  {
+    "title": "Reuse, Don't Retrain: Efficient, Modality-Versatile Geospatial Foundation Models through Feature Distillation",
+    "url": "http://arxiv.org/abs/2610.32566v1",
+    "authors": [
+      "Mario Hamon",
+      "Pierre Adorni",
+      "Minh-Tan Pham"
+    ],
+    "published": "2026-10-23",
+    "abstract": "Geospatial foundation models (GeoFMs) are costly to pretrain, yet model families often repeat this process across backbone scales and sensing modalities. We investigate feature distillation as a more efficient way to reuse existing representations. First, we distill frozen CROMA and TerraMind teachers into smaller Vision Transformers through patch-level feature matching. Across nine PANGAEA tasks, distilled TerraMind Tiny, Small, and Base outperform their scale-matched released counterparts by 2.76, 3.02, and 1.87 mean IoU points, respectively; each also matches or exceeds the next-larger released model. Distilled CROMA-Base gains 2.05 points. TerraMind-Base required only 43 A6000 GPU-hours, approximately 0.5\\% of the reported cost of independent pretraining. Second, we introduce TEDI, an unpaired multi-expert approach combining TerraMind for multispectral imagery and DINOv3 for high-resolution RGB. Separate patch embeddings route unpaired inputs into a shared Transformer trunk, removing the need for co-registered data. TEDI-Large achieves the highest single-model mean in our PANGAEA-9 comparison (62.51 mIoU), outperforming both teachers overall while retaining their modality-specific strengths. TEDI-Base reaches 61.75 mIoU with 72\\% fewer parameters. These results show that distillation improves the GeoFM accuracy-compute frontier while consolidating complementary experts into a single versatile backbone.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Towards Consistent Geospatial Representations: Aligning One Encoder to Many Foundation Models",
+    "url": "http://arxiv.org/abs/2610.28313v1",
+    "authors": [
+      "Arthur Ouaknine",
+      "David Rolnick"
+    ],
+    "published": "2026-10-20",
+    "abstract": "Geospatial foundation models (GFMs) differ widely in pretraining objective, modality and resolution, and none leads across benchmarks. We ask whether their representations are complementary, and whether a single encoder can inherit that complementarity. We introduce Pangaea-Latents, an extension of the Pangaea benchmark providing frozen embeddings of $5$ GFMs over its $11$ datasets, along with reproduced baselines, and find GFM embeddings to be neither redundant nor disjoint. We then propose GeoMixture, a preliminary framework to align a ViT to several GFMs per dataset through a multi-representation alignment (mREPA) objective. Our encoder ties the best GFM in average rank across nine Pangaea datasets, trading peak performance for cross-task consistency.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "YingLan: A Multimodal Ocean Foundation Model for Unified Representation Learning from Heterogeneous Observations",
+    "url": "http://arxiv.org/abs/2610.29313v1",
+    "authors": [
+      "Sen Jia",
+      "Siqi Wei",
+      "Junyu Wang",
+      "Zijun Lv",
+      "Pan Liu",
+      "Meng Xu",
+      "Xiyou Fu",
+      "Yuxi Sun",
+      "Qiang Liu",
+      "Shuyu Zhang",
+      "Lin Mu"
+    ],
+    "published": "2026-10-21",
+    "abstract": "Multimodal ocean modeling remains challenging due to substantial heterogeneity in data structures, physical semantics, and spatiotemporal characteristics across satellite imagery, gridded oceanographic fields, and buoy observations. Existing approaches largely focus on task-specific ocean modeling, while learning transferable representations from heterogeneous observations remains an open problem. To address this challenge, we propose YingLan, a multimodal ocean foundation model that integrates physics-attribute-conditioned dynamic encoding, Spatiotemporal Increment Coupling (STIC), and ocean-state evolution-aware pretraining. Specifically, the dynamic encoding mechanism generates adaptive input projections conditioned on physical semantics and observation characteristics, enabling flexible representation of heterogeneous ocean variables. STIC models multiscale spatiotemporal dependencies through cross-scale interactions of latent temporal increments. The pretraining strategy further combines masked observation reconstruction with temporal evolution objectives to facilitate the learning of coherent ocean-state representations across different prediction horizons. YingLan is implemented using MindSpore and trained on Huawei Ascend 910B NPUs, demonstrating its compatibility with domestic AI computing infrastructure. In a seven-day sea surface salinity (SSS) forecasting task conducted in the Shenzhen coastal waters, YingLan achieves an average RMSE of 0.687508 PSU, corresponding to relative error reductions of 0.58%, 5.31%, and 12.42% compared with LangYa, XiHe, and GloNet2, respectively. These results provide initial evidence of the model's effectiveness in regional ocean forecasting, while broader cross-task and cross-regional evaluations remain necessary to assess its generalization capabilities.",
+    "categories": [
+      "foundation_model",
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "LoCA: Enabling Multi-Modality in Geospatial Location Encoders",
+    "url": "http://arxiv.org/abs/2610.32894v1",
+    "authors": [
+      "Panagiotis Koromilas",
+      "Eleanna Vali",
+      "Diogenis Antonopoulos",
+      "Eleni Saka",
+      "Dimitris Christofis",
+      "Nikolaos Ioannis Bountos",
+      "Konstantin Klemmer",
+      "Ioannis Papoutsis",
+      "Yannis Panagakis",
+      "Mihalis A. Nicolaou"
+    ],
+    "published": "2026-10-23",
+    "abstract": "Location encoders map geographic coordinates to high-dimensional descriptors through contrastive alignment with paired Earth Observation imagery. We prove that this construction is structurally limited: any Lipschitz location encoder produces an output of intrinsic dimension at most 2, regardless of architecture or bandwidth, which forces the contrastive loss to strictly exceed its asymptotic optimum. Empirically, joint training also collapses the encoder's embedding covariance to low rank. Although dimension-limited, current location encoders sidestep this spectral collapse by training against a frozen image encoder, which we reinterpret as a covariance regularizer that supplies a high-rank target for the location encoder to fold onto. However, extending this approach to multimodal inputs is challenging, as location encoders should simultaneously map a single location to multiple, potentially incompatible, descriptors. We identify two requirements a regularizer must satisfy for location encoding in multimodal regimes: co-alignment across modalities, since adapters alone cannot align independently pretrained encoders; and high effective rank, since the location encoder inherits its target's spectrum. We propose LoCA (Location Contrastive Alignment), a two-stage pipeline that satisfies both. Stage 1 jointly trains Sentinel-1 and Sentinel-2 encoders with contrastive learning, producing a co-aligned, high-rank multimodal target. Stage 2 freezes the image encoders and trains a location and a tabular metadata encoder as projection adapters with multi-view contrastive learning. Against five state-of-the-art encoders on 17 tasks ranging from land cover and wildfire forecasting to geophysical, socio-economic, biodiversity and climate applications, LoCA achieves the most task wins, is the only model to outperform every other on a majority of tasks, and wins 68.8% of all per-task comparisons.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "GeoLEON-CLIP: Graph-Anchored Multimodal Contrastive Learning for Geographic Region Representation",
+    "url": "http://arxiv.org/abs/2610.32311v1",
+    "authors": [
+      "Radoslaw Malek",
+      "Szymon Soltysiak",
+      "Aleksandra Kawala-Sterniuk",
+      "Piotr Szymanski"
+    ],
+    "published": "2026-10-23",
+    "abstract": "Geographic regions are multimodal: satellite imagery captures visual morphology, text conveys human-interpretable semantics, and map structures describe urban context. Existing geospatial contrastive methods typically align image-text or image-location pairs, underusing structured map data. We introduce GeoLEON-CLIP, a graph-anchored contrastive framework that aligns three views of each H3-indexed region: an OpenStreetMap-derived graph embedding, a satellite image crop, and a textual description. Frozen pretrained LEON graph embeddings provide a semantic anchor between vision and language. Frozen graph, image, and text encoders are connected by trainable residual projection heads and trained with a symmetric tri-modal contrastive objective. Experiments show strong graph-image and graph-text alignment; graph-image retrieval achieves the best cross-modal performance in a mixed-resolution pool. To evaluate the anchoring hypothesis, we propose chained cross-modal recall $\\mathrm{R}@A@B$, which routes retrieval through the graph modality and compares it with direct retrieval under a matched candidate budget. At $\\mathrm{R}@1@1$, image$\\rightarrow$graph$\\rightarrow$text and text$\\rightarrow$graph$\\rightarrow$image outperform direct image-text retrieval by 4.8 and 4.4 points, respectively, despite using a single intermediate cell. Downstream probes show task-dependent gains, with the largest improvements on Airbnb and Beijing housing. These results indicate that OpenStreetMap graph structure can anchor multimodal representations combining maps, imagery, and language.",
+    "categories": [
+      "foundation_model",
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "CLIP"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Data-Driven Vision-Language Models for Remote Sensing: A Survey",
+    "url": "http://arxiv.org/abs/2610.31304v1",
+    "authors": [
+      "Yue Zhou",
+      "Shujun Zhao",
+      "Xue Yang",
+      "Ruigang Li",
+      "Tianwen Zhang",
+      "Mengcheng Lan",
+      "Chaofeng Chen",
+      "Lingfei Ma",
+      "Hongjie He",
+      "Jonathan Li"
+    ],
+    "published": "2026-10-22",
+    "abstract": "During the deep learning era, innovations in remote sensing (RS) vision models primarily focused on optimizing network architectures for specific tasks and conducting end-to-end training. However, with the advent of the Vision-Language Models (VLMs) era, constrained by substantial computational resource demands, the mainstream research paradigm has shifted towards adapting general-purpose VLMs using RS vertical domain data for fine-tuning, rather than modifying their core architectures. This transition marks a change in the innovation pathway from model-centric to data-centric. Despite the increasing importance of data, the academic community still lacks a systematic, data-centric survey to guide researchers in constructing high-quality RS vision-language datasets for various application scenarios and in conducting effective model fine-tuning and performance evaluation based on these datasets. To address this gap, this paper presents a systematic review of the development status of RS datasets tailored for VLMs. It further provides a comprehensive practical guide for RS researchers in the large model era, covering the entire pipeline from data construction to fine-tuning and evaluation. This paper aims to encourage the academic community to build more diverse and higher-quality vision-language datasets for specialized RS sub-fields. Ultimately, the goal is to converge these efforts into a comprehensive RS vision-language corpus that offers extensive task coverage and a wide geographical distribution, thereby laying a solid data foundation for advancing towards general artificial intelligence in RS.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Key Findings for Small UAS for Post-Disaster Damage Assessment from the CURSE'26 Exercise",
+    "url": "http://arxiv.org/abs/2610.29777v1",
+    "authors": [
+      "Thomas Manzini",
+      "Stephen Johnson",
+      "Priyankari Perali",
+      "David Merrick",
+      "Robin Murphy"
+    ],
+    "published": "2026-10-21",
+    "abstract": "The CLARKE building and road damage assessment AI classifier was incorporated into the Catastrophic Unmanned Remote Sensing Exercise (CURSE) 2026, which trained 23 small uncrewed aerial systems (sUAS) teams from state and local agencies and non-governmental organizations in Florida and Missouri on how to collect imagery for an incident command Remote Sensing Cell. Although CLARKE has been operationally deployed to two hurricanes (Debby and Helene), CURSE'26 presented an opportunity to evaluate the machine learning model with a larger set of never-before-seen orthomosaics. The results show that building and road damage assessment together ran in 3.5 minutes on average, and that building damage assessment achieved a Micro F1 of 0.834 with no manual adjustments to correct spatial misalignment and delivered that performance in both Florida and Missouri, demonstrating good geographic transfer. It also showed that road damage assessment performed poorly due to sensitivity to misalignment between road maps and the images, and to lighting and environmental conditions in an urban setting. The analysis of CURSE'26 presents five other findings of value to the sUAS community: that the use of sUAS and machine learning is now operationally normalized and accepted, sUAS teams in the field can improve classification accuracy by timing their flights, exercises are good operational tests but their value for evaluating learning models is less clear, edge computing is needed to overcome the wireless upload barrier, and the application of sUAS and AI to disaster response has ethical and legal ramifications for pilots and data managers.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "AutoMIL: Automated Multiple Instance Learning for Whole-Slide Image Classification",
+    "url": "http://arxiv.org/abs/2610.32452v1",
+    "authors": [
+      "Jonas Waibel",
+      "Frank Kramer",
+      "Dominik M\u00fcller"
+    ],
+    "published": "2026-10-23",
+    "abstract": "Developing multiple instance learning pipelines for the classification of whole-slide images involves many interdependent design decisions and expertise in both pathology and machine learning. We present AutoMIL, an open-source framework that applies principles from the field of automated machine learning to tackle this task by automating integral pipeline steps, such as preprocessing, training and evaluation. In a benchmark evaluation with default settings, AutoMIL reached ROC-AUC scores of 0.94 on UBC-OCEAN, 0.99 on PCam and 0.93-0.96 on a TCGA-NSCLC subset, comparable to specialised pipelines in related work. Ensembling mainly improved performance on imbalanced data, showing that an automated pipeline must adapt to dataset characteristics. AutoMIL thus provides an accessible baseline for whole-slide image classification without manual pipeline configuration.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "HypoNet Nankai PS: rapid hypocenter determination for the Nankai Trough using physics-informed neural networks with three-dimensional P- and S-wave velocity models",
+    "url": "http://arxiv.org/abs/2610.27561v1",
+    "authors": [
+      "Ryoichiro Agata",
+      "Ayako Nakanishi",
+      "Dan Bassett",
+      "Satoru Baba",
+      "Yasuyuki Nakamura",
+      "Gou Fujie"
+    ],
+    "published": "2026-10-20",
+    "abstract": "Rapid and accurate hypocenter determination based on three-dimensional (3D) seismic velocity models is essential for seismic monitoring in subduction zones, yet it remains computationally demanding. HypoNet Nankai, a hypocenter determination package that uses physics-informed neural network (PINN) travel-time inference for a realistic 3D P-wave velocity model of the Nankai Trough subduction zone, was designed to address this problem, but supported only P-wave arrival times. Here, we present HypoNet Nankai PS, which extends the framework to both P- and S-wave travel times. We first constructed an S-wave velocity model from the existing P-wave model using empirical conversion relations for marine sediments and the crust. Because the resulting S-wave velocity structure has lower velocities and therefore considerably steeper travel-time gradients, the original PINN training procedure designed for the P-wave velocity structure was insufficient. We therefore revised the training procedure by reconsidering the distribution of collocation points, the NN architecture, and the optimizer. Benchmark comparisons with the fast marching method showed that the revised approach substantially reduced the root-mean-square deviations for both P- and S-waves compared with the original algorithm. Recovery tests using synthetic earthquakes were also performed. When applied to 223 earthquakes recorded by DONET stations off the Kii Peninsula, the system yielded hypocenters generally consistent with the JMA catalog beneath the network, suggesting that the 3D velocity model captures travel-time variations accommodated by JMA's 1D model and station corrections. Farther seaward, the estimated hypocenters were substantially shallower than those in the JMA catalog and were located in the oceanic crust and uppermost mantle, consistent with previous relocations that used DONET data and 3D velocity models.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "PINN"
+    ],
+    "applications": []
+  },
+  {
+    "title": "OceanTensorCube and ST-MMT: A Multimodal Data and Transformer System for Seven-Day Forecasting of Pyropia Bleaching",
+    "url": "http://arxiv.org/abs/2610.26209v1",
+    "authors": [
+      "Gwangjin Kim",
+      "Cheolyoung Jang",
+      "Yosep Jo"
+    ],
+    "published": "2026-10-19",
+    "abstract": "Bleaching of cultured Pyropia (laver) causes losses in Korean seaweed farming. We present a system that forecasts bleaching seven days ahead for farm clusters. OceanTensorCube aligns 32 channels from public marine, meteorological, ocean-model and satellite sources on a 30 m grid, and ST-MMT, a 9.2-million-parameter spatiotemporal transformer with hub-style multi-head cross-attention between variable groups, maps a 14-day input window to a seven-day-ahead bleaching probability. On the validation set, a six-seed ensemble detects every reported positive at a false-alarm rate of at most 3.5%, an upper bound because the report-based labels are positive-unlabeled. A same-date control on separately trained models indicates that the architecture discriminates between clusters when the calendar is held fixed. We also report the system's weaknesses: skill falls steeply as the quarterly nutrient survey ages (ROC-AUC 0.94 at 30 days, 0.53 at 129 days), and a single LSTM on cluster-average series outperforms a single ST-MMT, with only the ensemble leading at the operating point. We describe the labeling procedure, the evaluation protocol and the operational gate that withholds forecasts when inputs are stale. The forecasting service is operated at https://oceantensor.ai.kr.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Transformer",
+      "LSTM"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Bayesian Downscaling of Satellite-Derived Solar-Induced Chlorophyll Fluorescence",
+    "url": "http://arxiv.org/abs/2610.30508v1",
+    "authors": [
+      "Russell Goebel",
+      "Leeza Moldavchuk",
+      "Taylor S. Jones",
+      "Jonathan Dooley",
+      "Lucy R. Hutyra",
+      "Luis Carvalho"
+    ],
+    "published": "2026-10-21",
+    "abstract": "We present an extendable Bayesian framework for spatial downscaling of satellite-derived measurements with coarse, irregular footprints. Motivated by measurements of solar-induced chlorophyll fluorescence (SIF) from the earth-observing OCO-2 satellite, we model coarse-resolution observations as noisy, weighted averages over an underlying fine-resolution spatial field. The latent process is defined over a regular grid and regularized using a Simultaneous Autoregressive (SAR) prior, yielding a sparse precision structure that enforces spatial smoothness. This formulation enables efficient posterior inference including uncertainty quantification and naturally accommodates land cover information through modified neighborhood structures or covariates. To assess accuracy, we conduct a semi-synthetic validation using albedo data derived from Sentinel-2 satellite surface reflectance, finding strong correspondence between posterior means and the synthetic generating field (R2 = 0.72 when including the proportion of water as a covariate and 0.57 without any covariates). We apply our method to a high-density OCO-2 target mode SIF observations over Boston, demonstrating that it produces fine-resolution posterior maps that reflect heterogeneity in urban environments and align with greenness, with a moderate relationship with the Normalized Difference Vegetation Index (NDVI) (R2 = 0.417 for pixels with 20+ overlapping soundings, 0.323 overall). Our approach achieves high-resolution recovery of satellite measurements with principled uncertainty quantification.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Using Temporal Replication and Partial Pooling to Improve Practical Identifiability in Presence-Only Poisson Point Process Models",
+    "url": "http://arxiv.org/abs/2610.29365v1",
+    "authors": [
+      "Camille Mottier",
+      "Iris Lang",
+      "Justine Nicolas",
+      "Olivier Gimenez"
+    ],
+    "published": "2026-10-21",
+    "abstract": "Species distribution models based on thinned point processes are now commonly used in ecology to analyze presence-only data collected through citizen science, including in spatio-temporal frameworks. A key challenge in these models is the separation of the ecological process from the observation process, which raises identifiability issues. Here, we investigate the theoretical and practical identifiability of a thinned Poisson point process model. We show that, with a log link for ecological intensity and a logit link for observation probability, the model can be structurally identifiable under simple conditions, provided that observation probability varies spatially. We then evaluate the benefits of using temporal replication within a spatio-temporal framework to improve estimation when ecological intensity and observation probability are weakly separated. We quantify these benefits through simulations. The results highlight persistent practical identifiability problems affecting the ecological and observation intercepts, especially when observation probabilities are low. However, in a spatio-temporal model with partial pooling, these parameters are estimated more accurately than in a single-year model, even when only a short time period is considered. Temporal replication also improves estimation of parameters shared across years. Finally, we illustrate the use of such a spatio-temporal model through a study of coypu (Myocastor coypus) distribution in Occitanie, France. Overall, our results show that temporal replication can partially alleviate practical identifiability problems in presence-only point process models when independent data sources are unavailable.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [
+      "SDM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "A Topology-Guided GeoAI Agentic Framework for Urban Flood Screening",
+    "url": "http://arxiv.org/abs/2610.30660v1",
+    "authors": [
+      "Yutian Tao",
+      "Haoan Feng",
+      "Xin Xu",
+      "Leila De Floriani"
+    ],
+    "published": "2026-10-22",
+    "abstract": "Open-world geographic artificial intelligence (GeoAI) agents can transform public geospatial data into accessible decision support for real-world challenges, but must balance autonomous reasoning with reliable spatial analysis and human oversight. We present a topology-guided GeoAI agentic framework for urban flood screening that takes a place name, drawn region, or uploaded boundary and returns ranked candidate basins with an interactive map and report. A deterministic controller retrieves public elevation, rainfall, soil, land-cover, exposure, and infrastructure layers, extracts terrain depressions with discrete Morse theory, and ranks basins with a relative flood-priority score. The language model acts only at recorded decision points: selecting a persistence threshold from a precomputed candidate table, drafting recommendations from computed evidence, and reviewing each recommendation against the same evidence. Three human-in-the-loop checkpoints let users revise the threshold, factor weights, or recommendation. In a College Park, Maryland case study, the selected threshold reduced 278 raw terrain minima to 70 basins, with 77% of these basins' lowest points also identified as sinks by a separately computed eight-direction (D8) flow-routing model. Across four further study areas, agreement ranged from 61% to 83%. By combining open data, explicit spatial reasoning, traceable evidence, and human oversight, the framework enables transparent first-pass flood screening while keeping consequential recommendations inspectable and user-controlled.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
     "applications": []
   }
 ]
