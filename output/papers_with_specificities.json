@@ -36068,7 +36068,8 @@
     "architectures": [
       "Transformer"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Towards Consistent Geospatial Representations: Aligning One Encoder to Many Foundation Models",
@@ -36085,7 +36086,8 @@
     "architectures": [
       "Transformer"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "YingLan: A Multimodal Ocean Foundation Model for Unified Representation Learning from Heterogeneous Observations",
@@ -36112,7 +36114,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "LoCA: Enabling Multi-Modality in Geospatial Location Encoders",
@@ -36137,7 +36140,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "GeoLEON-CLIP: Graph-Anchored Multimodal Contrastive Learning for Geographic Region Representation",
@@ -36157,7 +36161,8 @@
     "architectures": [
       "CLIP"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Data-Driven Vision-Language Models for Remote Sensing: A Survey",
@@ -36182,7 +36187,8 @@
     "architectures": [
       "LVM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Key Findings for Small UAS for Post-Disaster Damage Assessment from the CURSE'26 Exercise",
@@ -36202,7 +36208,8 @@
     "architectures": [],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "AutoMIL: Automated Multiple Instance Learning for Whole-Slide Image Classification",
@@ -36220,7 +36227,8 @@
     "architectures": [],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "HypoNet Nankai PS: rapid hypocenter determination for the Nankai Trough using physics-informed neural networks with three-dimensional P- and S-wave velocity models",
@@ -36241,7 +36249,8 @@
     "architectures": [
       "PINN"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "OceanTensorCube and ST-MMT: A Multimodal Data and Transformer System for Seven-Day Forecasting of Pyropia Bleaching",
@@ -36262,7 +36271,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Bayesian Downscaling of Satellite-Derived Solar-Induced Chlorophyll Fluorescence",
@@ -36281,7 +36291,8 @@
       "fish_plankton"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Using Temporal Replication and Partial Pooling to Improve Practical Identifiability in Presence-Only Poisson Point Process Models",
@@ -36300,7 +36311,8 @@
     "architectures": [
       "SDM"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "A Topology-Guided GeoAI Agentic Framework for Urban Flood Screening",
@@ -36313,6 +36325,294 @@
     ],
     "published": "2026-10-22",
     "abstract": "Open-world geographic artificial intelligence (GeoAI) agents can transform public geospatial data into accessible decision support for real-world challenges, but must balance autonomous reasoning with reliable spatial analysis and human oversight. We present a topology-guided GeoAI agentic framework for urban flood screening that takes a place name, drawn region, or uploaded boundary and returns ranked candidate basins with an interactive map and report. A deterministic controller retrieves public elevation, rainfall, soil, land-cover, exposure, and infrastructure layers, extracts terrain depressions with discrete Morse theory, and ranks basins with a relative flood-priority score. The language model acts only at recorded decision points: selecting a persistence threshold from a precomputed candidate table, drafting recommendations from computed evidence, and reviewing each recommendation against the same evidence. Three human-in-the-loop checkpoints let users revise the threshold, factor weights, or recommendation. In a College Park, Maryland case study, the selected threshold reduced 278 raw terrain minima to 70 basins, with 77% of these basins' lowest points also identified as sinks by a separately computed eight-direction (D8) flow-routing model. Across four further study areas, agreement ranged from 61% to 83%. By combining open data, explicit spatial reasoning, traceable evidence, and human oversight, the framework enables transparent first-pass flood screening while keeping consequential recommendations inspectable and user-controlled.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [],
+    "applications": [],
+    "is_recent": false
+  },
+  {
+    "title": "Evaluating AlphaEarth Embeddings for Crop Classification: Separability, Temporal Dynamics, and Cross-Regional Transferability",
+    "url": "http://arxiv.org/abs/2610.36857v2",
+    "authors": [
+      "Priyanka Goyal",
+      "Maitreyee Sar",
+      "Adway Mitra",
+      "Manjira Sinha"
+    ],
+    "published": "2026-10-27",
+    "abstract": "Earth Observation (EO)-based agricultural monitoring is shifting from pixel-level spectral analysis toward representation-driven modeling, yet systematic evaluation of learned representations remains limited. Geospatial foundation models (FMs) generate high-dimensional embeddings encoding complex spatio-temporal land-surface properties, but their utility and interpretability for agricultural applications remain insufficiently understood. This study presents a representation-agnostic framework evaluating a 64-dimensional AlphaEarth embedding space against Sentinel-2 reflectance, NDVI phenology, and harmonic features across geometric separability, temporal dynamics, spatial robustness, and cross-regional generalisation using field-scale data from the Conterminous United States (CONUS; 2017-2023) and Northern India (2021).\n  Traditional features achieve strong linear separability (Fisher ratio), while embeddings provide superior distribution-aware separation - Bhattacharyya and Mahalanobis distances up to an order of magnitude higher for spectrally similar pairs (e.g. Corn/Soybeans: 3.9 vs. 0.10). Embeddings uniquely capture multi-year crop rotation dynamics, yielding a separability ratio of 1.784, versus a maximum of 1.003 for all engineered features. Under spatially explicit validation, embeddings exhibit lower residual spatial autocorrelation of errors (mean Moran's $I \\approx 0.17$), reducing reliance on geographic proximity. However, harmonic features show stronger cross-continental transferability (US $\\to$ India Macro F1: 0.493 vs. 0.326 for embeddings), with NDVI showing a similar advantage. The combined feature space yields balanced performance. These findings reveal a trade-off between representational richness and cross-region transferability, providing a framework for feature selection in large-scale crop classification.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "NeurEO: dissecting Earth observation embeddings with computational neuroscience",
+    "url": "http://arxiv.org/abs/2610.40137v1",
+    "authors": [
+      "Thijs L van der Plas",
+      "Jacob JW Bakermans",
+      "Ioannis N Athanasiadis"
+    ],
+    "published": "2026-10-29",
+    "abstract": "Earth embeddings are compressed representations of rich Earth observation data that enable downstream models to tackle a wide range of complex geospatial tasks. Yet, this increase in performance comes at the cost of decreased interpretability, as the semantic meaning of Earth embeddings is unknown. To address this challenge, we borrow methods from the field of computational neuroscience, which aim to interpret activity in (biological) neurons. Here, we adapt and apply these methods to assign meaning to AlphaEarth embeddings. We analyse embedding features both as stand-alone data, equivalent to spontaneous neural activity, and in relation to land cover and elevation correlates, equivalent to stimulus-response neural activity. We demonstrate correlational and multi-scale structure in the embedding features. Embedding features can display highly specific and directional tuning to land cover and elevation, such as a `North vs South woodland edge' response. When we remove the main trends of combined land cover responses (like water versus land tuning), we discover fine-grained representational details with increased effective dimensionality. Together, our analyses start to unravel what these Earth embeddings represent, which is critical for developing trustworthy downstream applications.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Causal-prior-constrained deep learning for rapid-intensification warning of western North Pacific tropical cyclones",
+    "url": "http://arxiv.org/abs/2610.40304v1",
+    "authors": [
+      "Xinrui Li",
+      "Yijun Jin",
+      "Yifan Dong",
+      "Shoujuan Shu"
+    ],
+    "published": "2026-10-29",
+    "abstract": "Rapid intensification (RI) is one of the most dangerous and unpredictable phases of tropical cyclones, and its environmental and structural drivers are difficult to identify and separate in observations. Here we introduce CausalVisionRI, a causal-prior-constrained deep-learning system for 24-h RI warning in the western North Pacific. It integrates infrared remote sensing imagery, atmospheric and oceanic fields, and an observationally discovered causal graph into a unified model. The graph and eight sign-verified effects on 24-h intensity change provide an auditable causal prior for training. Discovered from 522 cyclones in 2000-2017, it identifies causal pathways linking atmospheric and oceanic conditions, the cyclone's dynamical and structural state, and its 24-h intensity change. On a forward holdout covering 2020-2024 and 3,004 records, the five-member ensemble achieves a Brier skill score (BSS) of 0.259 relative to a fixed development climatology, significantly exceeding four reference systems; the three LDA baselines reach at most 0.105. It also attains higher detection rates than a published knowledge-block scheme and a reconstructed contrastive-learning scheme at matched false-detection rates under our USA 30-kt standard and the published RITCF standard. Ablations show that the graph pathway adds 0.032 BSS across the holdout and 0.063 over 2020-2021, with a significant contribution in one ensemble member. A deep-learning model constrained by observationally discovered causal structure thus offers a new route to physically informed RI warning.",
+    "categories": [
+      "remote_sensing",
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Quantum-Inspired Convolutional Networks for High-Resolution Pseudo-Label Generation from Multimodal Earth Observation Data",
+    "url": "http://arxiv.org/abs/2610.39773v1",
+    "authors": [
+      "Abhishek Singh",
+      "Giovanni Cuozzo",
+      "Alexander Jacob",
+      "Claudia Notarnicola"
+    ],
+    "published": "2026-10-29",
+    "abstract": "Accurate land-cover mapping from multimodal Earth observation (EO) data remains a challenge in regions where high-resolution annotations are scarce or costly to obtain. This work introduces a quantum convolutional encoder-decoder network for pseudo-label generation using Sentinel-1 SAR and Sentinel-2 multispectral imagery, guided only by coarse MODIS-derived land-cover maps. The proposed framework uses quantum-inspired convolutional blocks to enhance feature extraction and cross-sensor fusion, enabling the model to infer a fine-scale semantic structure from heterogeneous inputs. Experiments were conducted on the DFC2020 dataset, which provides a quadruple of Sentinel-1 SAR, Sentinel-2 multispectral, low-resolution MODIS labels and high-resolution reference land-cover maps. The proposed training framework first learns a robust representation of multimodal inputs through the reconstruction branch before any supervision from low-resolution labels is applied. This self-supervised stage enables the model to capture a fine-scale spectral-spatial structure, which is then used to generate high-resolution pseudo-labels. These pseudo-labels are subsequently evaluated through classification metrics on the test data, demonstrating that the proposed approach produces more spatially coherent and class-consistent compared to classical baselines. The results highlight the potential of quantum-inspired deep learning to improve label generation in low-annotation remote sensing scenarios, offering a scalable path towards high-quality land-cover products for EO applications.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Spectral Haar Binarizer: Compact Boolean Contrast Representations for Hyperspectral Classification",
+    "url": "http://arxiv.org/abs/2610.41478v1",
+    "authors": [
+      "Micha\u0142 Romaszewski",
+      "Przemys\u0142aw G\u0142omb"
+    ],
+    "published": "2026-10-30",
+    "abstract": "Tsetlin Machines offer an interpretable, hardware-friendly alternative to conventional machine learning models, but applying them to continuous hyperspectral measurements requires converting spectral signals into Boolean representations. Standard binarisation methods typically discretise each spectral band independently, potentially discarding important relationships between neighbouring wavelengths. In this paper, we introduce the Spectral Haar Binarizer (SHB), a contrast-based spectral representation method that constructs Boolean predicates from differences between selected spectral intervals. Inspired by Haar-like contrast features, the method uses an AdaBoost-style selection procedure to obtain a compact set of discriminative spectral predicates. We evaluate SHB on five heterogeneous hyperspectral datasets covering forensic blood detection, agricultural and urban remote sensing, and rainforest tree-species classification. Across binary and multiclass tasks, SHB consistently outperforms standard per-band binarisation strategies and provides the strongest or near-strongest results across classifiers. In binary tasks, TM-SHB achieves the best average performance, while RF-SHB is strongest in multiclass settings. Bayesian and rank-based analyses confirm that SHB's advantage is robust across datasets and not driven by isolated cases. The results show that representing continuous hyperspectral measurements is a central processing step for efficient classification. That contrast-based Boolean features provide an effective bridge between information-rich sensor measurements and compact, logic-based processing.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Differential rank preservation manifold learning",
+    "url": "http://arxiv.org/abs/2610.41107v1",
+    "authors": [
+      "Henry Han",
+      "Luyu Niu",
+      "Diane Li",
+      "Jiacun Wang"
+    ],
+    "published": "2026-10-30",
+    "abstract": "Manifold learning methods like t-SNE and UMAP preserve local neighborhoods, but they do not preserve the ranking of the neighbors inside them. Two embeddings can return the same neighbor set while disagreeing on which point is closest. This loss of order degrades downstream applications that value the order in the embedding. We propose Smooth Rank t-SNE (SR-tSNE), which adds a differentiable rank term to the standard t-SNE loss. To enable efficient training, this term uses a sigmoid rank approximation to explicitly force a point's true high-dimensional neighbors to outrank unrelated intruders and retain their original order. We also introduce Ordinal DLP (O-DLP), an extension of the Degree of Locality Preservation (DLP) metric that credits a neighbor only when it returns at its original rank. Across eight benchmarks spanning image, text, speech, remote-sensing and single-cell data, SR-tSNE outperforms 12 baselines in rank preservation and neighborhood overlap. Ablation studies demonstrate our rank term alone boosts O-DLP by 5% to 28%, a gain not achievable using standard pairwise loss. This advantage transfers to downstream applications. SR-tSNE achieves the best label-transfer performance across seven vision datasets. For cell-type discovery across six single-cell datasets, it ranks first in 17 of 18 dataset-metric combinations, whether clustering resolution is selected with or without cell-type labels. In intraday trading, SR-tSNE achieves higher returns, lower risk, and lower turnover than the baselines. To our knowledge, SR-tSNE is the first t-SNE-family method with explicit order preservation.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "DAC-Loop: Distillation-Aware Compression for Remote Sensing CNN",
+    "url": "http://arxiv.org/abs/2610.35175v1",
+    "authors": [
+      "Rico Staedeli",
+      "Lorena Raichle",
+      "Konstantinos Tzevelekakis",
+      "Aron Asefaw",
+      "Damian Borth"
+    ],
+    "published": "2026-10-26",
+    "abstract": "While large-scale models achieve strong results in remote sensing scene classification, deploying them on edge devices remains difficult due to limited compute, memory, and energy budgets. Compact CNN backbones are therefore a practical choice in many real-world settings, offering efficient inference with well-optimized implementations on embedded hardware. To push this efficiency further, we investigate how far a knowledge-distilled student model can be compressed while preserving high accuracy. We propose a Distillation-Aware Compression Loop (DAC-Loop) that integrates (i) knowledge distillation applied both before and after structured channel pruning, and (ii) an iterative compression schedule that alternates structured pruning with unstructured sparsification. Across EuroSAT and NWPU-RESISC45, the DAC-Loop consistently improves the accuracy-compression trade-off relative to standard one-shot pruning and single-stage KD recovery, maintaining strong accuracy even beyond 90% parameter reduction. These results demonstrate that combining distillation and pruning in a unified iterative loop offers an effective path toward compact remote sensing models.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": [
+      "Classification"
+    ]
+  },
+  {
+    "title": "Robust Active Learning for More Efficient and Reliable Paths to Optimal Design",
+    "url": "http://arxiv.org/abs/2610.38582v1",
+    "authors": [
+      "Hayriye Pehlivan Solak",
+      "Francesco Di Fiore",
+      "Jeroen Wackers",
+      "Riccardo Pellegrini",
+      "Andrea Serani",
+      "Matteo Diez",
+      "Laura Mainini"
+    ],
+    "published": "2026-10-28",
+    "abstract": "Simulation-driven design optimization requires active learning strategies that efficiently combine models with different computational costs and levels of fidelity. We introduce Multifidelity Cost-Aware Screening (MF-CAS), which enables the joint selection of sampling location and fidelity using a surrogate that provides decomposed uncertainty intervals rather than a complete predictive probability distribution. MF-CAS exploits the contribution of each fidelity to the high-fidelity uncertainty together with its computational cost to determine whether a candidate should first be evaluated at low fidelity or directly progressed towards high fidelity. The method is assessed on the constrained 14-dimensional hydrodynamic optimization of the DTMB 5415 hull under a deliberately limited computational budget. MF-CAS achieves an approximately 9.0% resistance reduction, compared with 6.7% for the best baseline optimisation method, demonstrating that incorporating fidelity-resolved uncertainty directly into the joint location-fidelity decision can substantially improve multifidelity active learning efficiency.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "An Input Skip Can Reparameterize a VAE Without Improving the Generator",
+    "url": "http://arxiv.org/abs/2610.37456v1",
+    "authors": [
+      "Kevin Lee"
+    ],
+    "published": "2026-10-27",
+    "abstract": "An input skip can reduce reconstruction error while leaving a model's distribution of new samples unchanged. For a Gaussian variational autoencoder (VAE) with constant input skip $0\\leq\u03b1<1$, a model without a skip can be written in skip form by multiplying its decoder output by $b=1-\u03b1$ and its noise variance by $b^2$. The distribution of observations and latent variables and its exact generative scores stay the same, while reconstruction mean squared error (MSE) is multiplied by $b^2$. Separate training can produce different generators because optimization depends on the parameter coordinates. In a Gaussian experiment with known density, changing skip and observation variance together reduces MSE but worsens energy score and the estimate of negative log density from importance sampling. On seven annual Deep-ocean Assessment and Reporting of Tsunamis (DART) records, energy score differences at the same observation variance have both signs on four original records and favor the skip on three records from 2018. Probabilistic principal component analysis (PPCA) has lower mean energy scores than every neural DART fit. With the encoder and decoder kept the same, estimating observation variance from training reconstruction error can also worsen energy score. Assessing generation requires more than reconstruction error.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Autoencoder"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure",
+    "url": "http://arxiv.org/abs/2610.37731v1",
+    "authors": [
+      "Exauc\u00e9 Luweh Adjim Ngarti",
+      "\u00c9lise Arnaud",
+      "L\u00e9o Nicoletti",
+      "Victor Trappler",
+      "Arthur Vidard"
+    ],
+    "published": "2026-10-27",
+    "abstract": "Model discrepancy may prevent a single calibration parameter from reproducing a physical response across the context domain. In addition, uncertainties in observations and contexts affect calibration and must be accounted for and quantified. We construct a family of localized posteriors by weighting observation likelihoods according to their proximity to a target context. Gaussian localization weights incorporate context uncertainty through covariance inflation, with reflection at domain boundaries and an optional correction for uneven context sampling. A conditional normalizing flow approximates the family of posteriors through amortized variational inference. Integrating the localized posteriors under a prescribed context measure gives the marginalized parameter distribution. In a twin experiment with the Branin-Hoo model, we compare global and localized inference under uniform and skewed context distributions. Localization reduces the reported aggregate predictive errors relative to the global posterior. An application to the k-$\u03b5$ turbulence closure in a single-column ocean model, with atmospheric surface forcing as context, shows that localized posterior calibration reduces temperature and zonal-velocity errors relative to deterministic and global-posterior calibration. Both twin experiments are constructed to admit local compensation.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "FASST: A Compact Stateless Atmosphere Model for Long-Term Ocean Coupling",
+    "url": "http://arxiv.org/abs/2610.36297v2",
+    "authors": [
+      "Pratham Aggarwal",
+      "Duncan Watson-Parris",
+      "William E. Chapman"
+    ],
+    "published": "2026-10-26",
+    "abstract": "Coupled climate simulations are computationally expensive, largely because of the atmosphere. We introduce FASST, a coupled climate model that retains the prognostic POP2 ocean while replacing the atmosphere and sea ice with lightweight U-Net emulators. The atmospheric emulator is diagnostic, predicting surface fluxes from the evolving ocean-ice state every $6$ simulated hours, while the sea-ice emulator advances the ice state monthly. For $140$ years of unforced integration, FASST maintains a stable global-mean climate without SST restoring, with post-transient global-mean SST of $291.30 \\pm 0.22\\mathrm{K}$ compared with $291.25 \\pm 0.10\\mathrm{K}$ in CESM$2$ piControl. FASST also captures interannual Ni\u00f1o-$3.4$ variability, although with weaker amplitude than CESM ($0.62\\mathrm{K}$ versus $1.02\\mathrm{K}$). These results demonstrate that a stateless learned atmosphere can sustain stable, free-running coupled climate simulations over century-scale integrations.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": []
+  },
+  {
+    "title": "GNN-VIEW: Visual Inspection and Explanation of Graph-based Earth-System Models",
+    "url": "http://arxiv.org/abs/2610.35693v1",
+    "authors": [
+      "Alessandro Lucatelli",
+      "Ferdinand Unterhuber",
+      "Katharina Krenzer",
+      "Mennatallah El-Assady",
+      "Benedikt Soja",
+      "Christina Humer",
+      "Joel Oskarsson"
+    ],
+    "published": "2026-10-26",
+    "abstract": "Machine learning Earth-system models are becoming increasingly important, and so is their development. Graph-based models, one of the most prominent approaches, allow developers to constrain the learning process before training via graph connectivity. Yet, developing these models remains challenging: the graph is built algorithmically with little intuition about the final result beyond static plotting, which requires extra work and is often not detailed enough. Even after successful training, how the model arrives at forecasts remains obscure. We present GNN-VIEW, an interactive browser-based tool that supports the development of such systems. GNN-VIEW exposes the graph's information pathways, allowing model developers to debug the graph structure before training. After training, GNN-VIEW uses attribution-based explainability to reveal which input features are used by the trained model for a given forecast. This helps developers understand why a model fails. We showcase the usefulness of GNN-VIEW in the construction stage of a graph for an ocean forecasting model, and in explaining poorly predicted precipitation of a trained weather forecasting model during Hurricane Laura.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "GNN"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "From Stochastic Transport Models to High-Dimensional Bayesian Inference",
+    "url": "http://arxiv.org/abs/2610.35352v1",
+    "authors": [
+      "Dan Crisan",
+      "Oana Lang"
+    ],
+    "published": "2026-10-26",
+    "abstract": "The Stochastic Transport in Upper Ocean Dynamics project introduced a new paradigm for representing uncertainty in geophysical fluid dynamics through stochastic transport models calibrated from data. This paper provides a synthesis of the principal theoretical and data assimilation developments achieved as part of the project.\n  The central theme of the paper is the transformation of stochastic transport models from a modelling paradigm into a mathematically rigorous framework equipped with analytical, variational, calibration and Bayesian data assimilation methodologies suitable for geophysical fluid dynamics. We describe the development of the theory of stochastic transport equations, including well-posedness, regularity and approximation results, together with their geometric foundations based on stochastic variational principles, rough paths and fractional transport models.\n  We further review methodologies for calibrating stochastic transport structures from observational and high-resolution simulation data, ranging from reduced-order stochastic models to modern generative approaches. Finally, we discuss Bayesian inference and high-dimensional data assimilation techniques developed for stochastic transport models, including particle filter methodologies and machine learning uncertainty quantification.\n  Taken together, these developments establish a coherent framework linking stochastic transport modelling, rigorous analysis, calibration and Bayesian inference, thereby providing a foundation for uncertainty quantification and forecasting in geophysical fluid dynamics.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Surface Conditioning for Zero-Shot Multivariate Correction in a Marine Biogeochemistry Emulator",
+    "url": "http://arxiv.org/abs/2610.39777v1",
+    "authors": [
+      "Gabriela Mart\u00ednez Balbont\u00edn",
+      "Anastase Charantonis",
+      "Dominique B\u00e9r\u00e9ziat",
+      "Stefano Ciavatta"
+    ],
+    "published": "2026-10-29",
+    "abstract": "Bias correction in process-based models usually means iterative data assimilation with explicit covariance modelling. We propose a lightweight alternative based on a neural emulator of marine biogeochemistry (BGC), showing that the conditioning pathway of its autoencoder can serve as an observation injection point. The decoder is conditioned on surface variables via Feature-wise Linear Modulation (FiLM), originally designed to incorporate physical boundary forcings. We extend these inputs to include surface chlorophyll-a and replace the simulated field with satellite observations at inference time. The surface substitution propagates through the water column, improving agreement with depth-resolved observations at all depths, and spreads to other output variables in a pattern consistent with expected trophic relationships.",
+    "categories": [
+      "fish_plankton"
+    ],
+    "architectures": [
+      "Autoencoder"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Beyond Trial-and-Error: A Geospatial-Guided Active Reasoning Framework for Robust Aerial Vision-and-Language Navigation",
+    "url": "http://arxiv.org/abs/2610.41446v1",
+    "authors": [
+      "Jiawei Ge",
+      "Wenkang Gong",
+      "Jiuxin Cao",
+      "Bo Liu",
+      "Lei Cui",
+      "Haoran Wang",
+      "Xuelin Zhu",
+      "Biwei Cao",
+      "Chang Liu",
+      "Chen Feng",
+      "Ioannis Patras"
+    ],
+    "published": "2026-10-30",
+    "abstract": "Aerial Vision-and-Language Navigation (VLN) requires UAVs to locate language-specified goals in large-scale urban environments, where objects often appear small and visually ambiguous from high-altitude viewpoints. Existing methods largely follow a reactive paradigm common in indoor VLN, repeatedly updating navigation states from local observations while underutilizing the geospatial structure that remains stable during navigation. As a result, visually similar distractors can cause a reactive goal search to repeatedly reinforce locally plausible goal hypotheses based on passively accumulated evidence, leading to unreliable localization. To address this, we propose GeoReasoner, a robust framework that shifts the paradigm of Aerial VLN from reactive trial-and-error to geospatial-guided active reasoning. Specifically, GeoReasoner first performs pre-search geospatial reasoning to derive region-level priors and constrain the goal hypothesis space. Building on these, it further conducts hypothesis-driven exploration to actively acquire discriminative evidence and refine competing goal hypotheses. Finally, consistency-aware goal verification adversarially assesses complementary evidence sources before stopping, hence reducing premature or erroneous goal confirmations. Experiments on the real-world CityNav benchmark demonstrate that GeoReasoner sets a new SOTA among zero-shot Aerial VLN methods while competing favorably with supervised approaches.",
     "categories": [
       "geo_reasoning"
     ],
