@@ -36349,7 +36349,8 @@
     "architectures": [],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "NeurEO: dissecting Earth observation embeddings with computational neuroscience",
@@ -36365,7 +36366,8 @@
       "foundation_model"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Causal-prior-constrained deep learning for rapid-intensification warning of western North Pacific tropical cyclones",
@@ -36385,7 +36387,8 @@
     "architectures": [],
     "applications": [
       "Detection"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Quantum-Inspired Convolutional Networks for High-Resolution Pseudo-Label Generation from Multimodal Earth Observation Data",
@@ -36404,7 +36407,8 @@
     "architectures": [],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Spectral Haar Binarizer: Compact Boolean Contrast Representations for Hyperspectral Classification",
@@ -36422,7 +36426,8 @@
     "applications": [
       "Detection",
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Differential rank preservation manifold learning",
@@ -36439,7 +36444,8 @@
       "remote_sensing"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "DAC-Loop: Distillation-Aware Compression for Remote Sensing CNN",
@@ -36461,7 +36467,8 @@
     ],
     "applications": [
       "Classification"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Robust Active Learning for More Efficient and Reliable Paths to Optimal Design",
@@ -36481,7 +36488,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "An Input Skip Can Reparameterize a VAE Without Improving the Generator",
@@ -36497,7 +36505,8 @@
     "architectures": [
       "Autoencoder"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure",
@@ -36515,7 +36524,8 @@
       "ocean"
     ],
     "architectures": [],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "FASST: A Compact Stateless Atmosphere Model for Long-Term Ocean Coupling",
@@ -36533,7 +36543,8 @@
     "architectures": [
       "UNET"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "GNN-VIEW: Visual Inspection and Explanation of Graph-based Earth-System Models",
@@ -36557,7 +36568,8 @@
     ],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "From Stochastic Transport Models to High-Dimensional Bayesian Inference",
@@ -36574,7 +36586,8 @@
     "architectures": [],
     "applications": [
       "Forecast"
-    ]
+    ],
+    "is_recent": false
   },
   {
     "title": "Surface Conditioning for Zero-Shot Multivariate Correction in a Marine Biogeochemistry Emulator",
@@ -36593,7 +36606,8 @@
     "architectures": [
       "Autoencoder"
     ],
-    "applications": []
+    "applications": [],
+    "is_recent": false
   },
   {
     "title": "Beyond Trial-and-Error: A Geospatial-Guided Active Reasoning Framework for Robust Aerial Vision-and-Language Navigation",
@@ -36617,6 +36631,454 @@
       "geo_reasoning"
     ],
     "architectures": [],
+    "applications": [],
+    "is_recent": false
+  },
+  {
+    "title": "Towards Label-Efficient Geospatial Foundation Model Adaptation via Positive-Unlabeled Learning for Building Damage Mapping",
+    "url": "http://arxiv.org/abs/2611.08561v1",
+    "authors": [
+      "Hengwei Zhao",
+      "Qirui Wang",
+      "Zhuo Zheng",
+      "Xiaoyan Lu",
+      "Rusty Feagin",
+      "Wenzhe Jiao"
+    ],
+    "published": "2026-11-05",
+    "abstract": "Geospatial foundation models (GFMs) are reshaping remote sensing by shifting the field from task-specific modeling toward general-purpose geospatial intelligence. Mapping the damage to buildings stands to benefit substantially from this shift, as GFMs pretrained on large-scale Earth observation data provide generalizable geospatial representations that can facilitate effective responses to sudden-onset disasters. Although parameter-efficient fine-tuning (PEFT) facilitates GFM adaptation, parameter efficiency does not necessarily translate into label efficiency. Building damage mapping remains challenging due to scarce pre-existing labeled data or limited time for annotation. When weak supervision is introduced to alleviate the labeling bottleneck, we identify the difficulty of learning sufficiently discriminative representations as a key challenge for label-efficient GFM adaptation. To address this challenge, we propose a Positive-Unlabeled GFM Adaptation (PUMA) framework that requires annotations for only a small number of damaged buildings. More specifically, PUMA integrates non-contrastive weakly supervised representation refinement to mitigate the impact of noisy supervision on representation learning from a gradient perspective, and latent-state-based label disambiguation to enable reversible supervision refinement without requiring class prior estimation. Extensive experiments on disaster benchmark datasets from around the world demonstrated the effectiveness and robustness of PUMA. A real-world application to the 2025 Los Angeles wildfires further highlighted its potential to accurately map damage under highly limited supervision. More broadly, these findings suggest that weakly supervised PEFT offers a label-efficient pathway from GFMs to real-world applications.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "When GeoFMs Meet VHR: Benchmarking Foundation Models on Very High Resolution Earth Observation Imagery",
+    "url": "http://arxiv.org/abs/2611.08003v1",
+    "authors": [
+      "Kshitij Raj Sharma",
+      "Pierre Adorni",
+      "Minh-Tan Pham",
+      "Dirk Tiede",
+      "S\u00e9bastien Lef\u00e8vre"
+    ],
+    "published": "2026-11-05",
+    "abstract": "Geospatial foundation models are a widely adopted starting point for remote sensing tasks. Most are pretrained on Sentinel-1/2 and Landsat imagery at a ground sampling distance (GSD) of 10m or coarser. Many applications instead rely on very high resolution (VHR) imagery, where individual buildings, roads, and amenities are resolved. We study which pretraining regimes transfer well to this scale. We introduce VHR-Bench, a benchmark suite of ten datasets at 1.5m GSD or finer spanning five task families, eight application domains, and both satellite and aerial platforms. We evaluate twelve encoders in three pretraining tiers with frozen backbones at two training-data fractions. We find that both pretraining on large natural-image collections and VHR-specific pretraining transfer effectively to VHR tasks, with complementary strengths. SkySense leads when labels are scarce; at the full label fraction the web-pretrained DINOv3 ViT-L edges ahead, with the two close together there. Encoders pretrained only on Sentinel-scale imagery transfer least well under RGB input. Guided by these complementary results, we continue the self-supervised pretraining of DINOv3 ViT-L on 1.02 million held-out VHR tiles and evaluate the resulting encoder without changing the downstream protocol. The continued model gives a clear improvement over the released backbone when labels are scarce and a modest one at the full fraction, at no increase in inference parameters or compute. These findings support a generalize-then-specialize strategy: already strong, broad natural-image pretraining can be further improved by a short VHR continuation stage while preserving its general visual features.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": []
+  },
+  {
+    "title": "ASCoR: Asymmetric Semantic-Spatial Learning for Remote Sensing Domain Generalization",
+    "url": "http://arxiv.org/abs/2611.03382v1",
+    "authors": [
+      "Zitong Wang",
+      "Shuchang Lyu",
+      "Meng Li",
+      "Qiang Wang",
+      "Guangliang Cheng",
+      "Zhenwei Shi"
+    ],
+    "published": "2026-11-02",
+    "abstract": "Source-only domain generalization (DG) for remote sensing semantic segmentation seeks reliable predictions in unseen domains without target-domain data during training. Although vision foundation models offer transferable knowledge, category recognition remains sensitive to source-specific visual cues, while task-specific adaptation may weaken pretrained transferability. We propose ASCoR, an asymmetric semantic-spatial framework built on SAM3. Its text-conditioned semantic branch uses class-name prompts to provide explicit category guidance. Probe-Once Dynamic Adaptive LoRA distributes a fixed adaptation budget across encoder blocks to limit source-specific specialization. A complementary task-specific dense branch learns multi-scale spatial representations using a separate frozen SAM3 image encoder. A lightweight reliability router integrates the two branches through bounded spatial correction based on local prediction reliability. All components are trained using source-domain supervision only. Experiments on the ISPRS, LoveDA, and OpenEarthMap benchmarks cover nine cross-domain transfers. ASCoR achieves a state-of-the-art mean IoU of 68.61% across six ISPRS transfers, outperforming the previous best method by 2.69 percentage points. It also achieves the best results on all three LoveDA/OpenEarthMap transfers, with 59.07%, 47.95%, and 49.38% mIoU on Rural-to-Urban, Urban-to-Rural, and Urban-to-OpenEarthMap, respectively. Ablation studies, feature visualizations, and spatial reliability analyses support the effectiveness and complementarity of the proposed components. Code: https://github.com/WangZitong42/ASCoR.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Recognition",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Forecasting Earth Surface Change in Embedding Space",
+    "url": "http://arxiv.org/abs/2611.02211v1",
+    "authors": [
+      "Jingtao Li",
+      "Sadiq Jaffer",
+      "Anil Madhavapeddy",
+      "Pedro Sousa",
+      "Anthony Ortiz",
+      "Kyle Gao",
+      "Zhengpeng Feng",
+      "Yanfei Zhong",
+      "Kevin White",
+      "Srinivasan Keshav"
+    ],
+    "published": "2026-11-01",
+    "abstract": "Repeated satellite imagery permits understanding of how our planet changes over time, letting us predict its future and plan mitigating actions. Most existing studies that rely on a time series of satellite observations forecast the spectral values at each pixel for a future target date. However, clouds, shadows, and sensor noise often corrupt these observations, so that spectral forecasters waste much of their capacity on low-level features or noise rather than real change. With the advent of Earth foundation models, we argue that forecasting in embedding space is a feasible and more effective alternative. To this end, we design a token space that handles irregular histories from different sensors and foundation models and supports forecasts at any query date. Tokens from this space are inputs to our proposed forecaster, E$^2$Forecast, which is a transformer with two branches: a Gaussian branch that directly predicts a mean point forecast and per-dimension standard deviations, and a rectified-flow branch that generates forecast ensembles. On Sentinel-1 and Sentinel-2 benchmarks, forecasting embeddings instead of spectral values halves the cosine distance (from 0.20 to 0.10) and greatly reduces overconfidence, lowering the z-score standard deviation from 2.63 to 1.22. By comparing new observations with its forecasts, E$^2$Forecast can also detect anomalous changes without labels or retraining, raising F$_1$ from 41.58 to 48.70 on a global benchmark. This consistent superiority is validated on nine remote sensing foundation models. Beyond change detection, we believe our approach advances the field by permitting effective reuse of diverse pretrained task heads. Our code is publicly available at https://github.com/ucam-eo/e2forecast.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Detection",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Fusing Earth observation embeddings and spaceborne terrain with meteorological forcing for flood peak depth prediction from high-water marks",
+    "url": "http://arxiv.org/abs/2611.05220v1",
+    "authors": [
+      "Wen Zhou",
+      "Shaowen Wang",
+      "Upmanu Lall",
+      "Venkatesh Merwade",
+      "Dingqi Ye"
+    ],
+    "published": "2026-11-03",
+    "abstract": "Flood peak depth on normally dry land governs damage and risk to life, but is observed only sparsely, by post-event high-water mark (HWM) surveys, and depth derived from satellite flood extent is produced after the event and inherits the vertical error of the digital elevation model (DEM) it is computed from. Deep-learning flood models have in turn been trained on hydrodynamic simulations rather than on observed depths. We ask whether flood peak depth can be learned from field observations and predicted before the peak from spaceborne terrain, geospatial foundation-model embeddings and antecedent meteorological forcing. We assembled 5689 USGS HWM surveys from 39 events (2011-2025) in 24 U.S. states and Puerto Rico, assigned each a peak time from nearby sensors, paired each with a rain-free window at the same site, and linked them to Copernicus GLO-30 terrain, AlphaEarth embeddings and 144 h of hourly forcing masked to the lead time. A cross-modal fusion network trained on these observations predicts depth at the surveyed marks with a mean absolute error of 0.39 m 6 h ahead of the peak. Supervision by surveyed depth corrects the DEM error implicitly: differencing the measured peak water level with the same DEM gives 0.93 m at the same marks, 2.4 times larger, although it uses the measured water level and the model does not. Forcing accounts for 77% of the attributed reduction in depth error; terrain and the embeddings are statistically equivalent to each other and contribute the remaining 23%. On eleven held-out events the model still separates flooded from rain-free conditions but no longer resolves depth at the marks (R2 = 0.03), so the skill reported here is confined to the events and regions sampled. Field-surveyed depths can thus supervise flood depth prediction and correct terrain error that extent-based estimation cannot, while transfer to unseen storms remains the open problem.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Global Solar Siting from Geospatial Embeddings",
+    "url": "http://arxiv.org/abs/2611.08831v1",
+    "authors": [
+      "Abdullah Rehman",
+      "Quentin Paletta",
+      "Rui Song"
+    ],
+    "published": "2026-11-06",
+    "abstract": "Global solar photovoltaic (PV) capacity is rapidly growing, helping decrease our emissions and dependence on fossil fuels. However, optimally siting a solar plant remains challenging, requiring anticipation of geographical, urban, and infrastructure needs. Current methods rely on multi-criteria decision analysis (MCDA) using hand-picked geophysical layers and solar-resource products, however these strategies are not geographically transferable and do not capture the practical requirements of solar sites. We use geospatial embeddings, dense vectors representing geophysical properties of a location, to analyse 38,591 existing solar sites and the land they were built on to learn the latent solar suitability signal. We assess a set of linear and non-linear models and select a soft-voting ensemble of a random forest and a multilayer perceptron (RF+MLP ensemble), chosen for accuracy and large scale deployability. Validated against future installations in thirteen countries, the ensemble separates existing solar sites from random land with a median ROC-AUC of 0.90. Compared with published MCDA strategies, the ensemble increases ROC-AUC by 0.06-0.30 in every country. The ranking also concentrates real deployment: the most-suitable 20% of land holds 84% of estimated generation (annual energy yield) and 67% of installed capacity (potential power output). After applying standard siting constraints, 5.6% of global land (9.8% if cropland is permitted) remains highly suited to solar. The global 10 m resolution solar suitability dataset and code can be found here: https://github.com/Abdullahr29/Global-Solar-Siting.",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Basin2Vec: Learning Basin-Centric Embeddings for Scalable Hydrological Modeling",
+    "url": "http://arxiv.org/abs/2611.05164v1",
+    "authors": [
+      "Muhammad Talha",
+      "Xiaofeng Liu",
+      "Yuan Yang",
+      "Pang-Ning Tan",
+      "A. Pouyan Nejadhashemi"
+    ],
+    "published": "2026-11-03",
+    "abstract": "Reliable streamflow prediction across time and in ungauged basins requires representations that capture hydrologically relevant basin characteristics. Existing methods rely on either fixed handcrafted attributes or general-purpose Earth observation embeddings not tailored to basin structure. We introduce \\textbf{Basin2Vec}, a self-supervised framework that learns compact basin representations from hydroclimatic and physiographic data without observed streamflow. Basin2Vec organizes representation learning around basin scale and relationships across space and time. Across multiple forecasting architectures, it consistently outperforms predefined attributes and general-purpose geospatial embeddings in temporal generalization and zero-shot spatial transfer. Basin2Vec provides average relative gains of up to 8.3% temporally and achieves 3.5x the median predictive performance of the strongest baselines on unseen basins. These results demonstrate the effectiveness of basin-centric pretraining for transferable hydrologic prediction. Code is available at https://github.com/Muhammad-Talha-MT/basin2vec",
+    "categories": [
+      "foundation_model"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "National-scale mapping of tree species composition in Switzerland from high-resolution aerial imagery and multimodal data",
+    "url": "http://arxiv.org/abs/2611.08095v1",
+    "authors": [
+      "Yixin Zhou",
+      "Luca Ferrari",
+      "Verena C. Griess",
+      "Nataliia Rehush",
+      "Konrad Schindler",
+      "Mirela Beloiu"
+    ],
+    "published": "2026-11-05",
+    "abstract": "Tree-species composition shapes forest productivity and how forests respond to climate disturbances such as drought, windthrow and insect outbreaks. Yet most national forest maps assign each pixel a single dominant species and cannot show the share of accompanying species. We mapped the basal-area shares of ten main tree species and a residual Other class across Switzerland at 30 m resolution. A deep-learning model combining 0.1 m aerial RGB imagery, airborne laser scanning (ALS), annual AlphaEarth satellite embeddings, and climate variables was trained on basal-area observations from 3,992 Swiss National Forest Inventory (NFI) sites. In spatial cross-validation, the model reached a macro-$R^2$ of 0.485 across the 11 classes. On an independent forest-reserve dataset, the map reached a macro-$R^2$ of 0.552 for individual 30 m pixels and 0.733 for plots, and identified the dominant class in 73.2% of pixels and 81.1% of plots. The map shows maple and ash as widespread minor components that dominant-class maps omit. It also reproduces the elevational sequence from broadleaved lowland stands through spruce to larch and Arolla pine near the treeline. By resolving the species mixture within each 30 m pixel, the map complements field inventory statistics with spatially continuous information that can support forest monitoring, the management of mixed stands, and climate-adaptation planning across Switzerland.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "MP-DualNet: A Dual-Branch Deep Learning Approach for Magnetopause Boundary Detection Using Simulated SXI Images",
+    "url": "http://arxiv.org/abs/2611.07433v1",
+    "authors": [
+      "Cheng Zhong",
+      "Zhongwei Yang",
+      "Tianran Sun",
+      "Chengyan Huang",
+      "Jiajia Liu",
+      "Jingnan Guo",
+      "Yuming Wang",
+      "Chi Wang"
+    ],
+    "published": "2026-11-05",
+    "abstract": "The Earth's magnetopause is a key boundary governing solar wind-magnetosphere coupling. The Solar wind Magnetosphere Ionosphere Link Explorer (SMILE) mission will provide global soft X-ray imaging of the magnetosphere through solar wind charge exchange (SWCX) emission, offering a new opportunity for remote sensing of magnetopause dynamics. However, the limited field of view (FOV) and variable observation geometry of the Soft X-ray Imager (SXI) pose challenges for reliable magnetopause detection. In this study, we develop MP-DualNet, an end-to-end dual-branch deep learning framework for automated magnetopause detection from simulated SXI observations. The framework jointly performs coarse localization to determine magnetopause visibility and relative position within the FOV, and fine-scale boundary localization through pixel-level segmentation. The model is trained and evaluated using line-of-sight magnetopause envelope maps derived from global hybrid simulations under different solar wind and interplanetary magnetic field conditions. The results demonstrate stable and consistent performance, with a classification accuracy exceeding 0.94 and a segmentation IoU above 0.97. For the test set, the mean absolute angular displacement from the reference boundary was 0.488 degrees. The model maintains robust performance across a wide range of noise levels and generalizes well, as demonstrated by its application to an independent storm event. These results indicate that MP-DualNet provides a reliable and generalizable approach for magnetopause detection in SXI observations, supporting future 3D reconstruction and space weather studies in the context of the SMILE mission.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Detection",
+      "Classification"
+    ]
+  },
+  {
+    "title": "Vision-based Sensing of Urban Environment using Hardware-Software co-design at Scale",
+    "url": "http://arxiv.org/abs/2611.00699v1",
+    "authors": [
+      "Akshit Gupta",
+      "R Venkatesha Prasad"
+    ],
+    "published": "2026-10-31",
+    "abstract": "Urban environmental monitoring is crucial for climate-adaptive cities, yet current approaches rely heavily on human inspection, overhead remote sensing, or limited terrestrial RGB imagery, thereby lacking comprehensive multispectral perspectives at street level. To bridge this gap, this paper introduces UrbanScapes, an adaptable and flexible hardware-software co-design platform for large-scale, vision-based sensing of urban environments. Built on a modular architecture, UrbanScapes seamlessly integrates multispectral imaging channels, including Red, Green, Blue (RGB), Near-Infrared, and Thermal, to capture multispectral street-level imagery. The system is designed for both opportunistic deployment on bicycles, vehicles, or pedestrians and targeted deployments on municipal fleets, ensuring high spatio-temporal scalability without requiring hardware redesigns. Crucially, the platform utilizes on-device deep learning models to automatically remove personally identifiable information (PII) at the edge, addressing privacy concerns inherent in street-level data collection. By combining this multispectral street-level imagery with overhead multispectral remote sensing imagery, UrbanScapes enables scalable calculation of physics-based environmental indices, providing a foundational tool for advanced citywide analysis.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Evaluation of a Multi-Link Machine Learning Approach for Rainfall Detection Using Satellite Microwave Links",
+    "url": "http://arxiv.org/abs/2611.09156v1",
+    "authors": [
+      "Mostafa Ftouni",
+      "Margherita Spalla",
+      "Matteo Colli",
+      "Andrea Randazzo",
+      "Christian Gianoglio"
+    ],
+    "published": "2026-11-06",
+    "abstract": "The impacts of climate change have increased the need for reliable real-time rainfall monitoring systems. This study investigates rainfall detection using a network of opportunistic sensors based on satellite microwave links (SMLs) combined with machine learning (ML) classifiers. Two models, a random forest (RF) and a convolutional neural network (CNN), were trained on aggregated SML data, including information from neighboring links. The results demonstrate that leveraging information from multiple links substantially enhances the detection of both wet and dry periods compared to single-link approaches. Moreover, the RF model consistently provides a more stable and reliable trade-off than CNN, improving rainfall detection and reducing misclassifications overall, with particularly strong performance during harsh weather conditions. The study spanned up to 32 rainy days between 2021 and 2024.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [
+      "CNN"
+    ],
+    "applications": [
+      "Detection"
+    ]
+  },
+  {
+    "title": "Role-based Effectiveness of an Epistemic Uncertainty Estimate in Training Models for Semantic Segmentation of 3D LiDAR Point Clouds",
+    "url": "http://arxiv.org/abs/2611.05569v1",
+    "authors": [
+      "Krishnakumar N",
+      "Jaya Sreevalsan-Nair"
+    ],
+    "published": "2026-11-03",
+    "abstract": "Point cloud segmentation is a fundamental task in 3D data analysis, with applications across robotics, augmented and virtual reality, and remote sensing. However, the inherent sparsity, noise, and unordered nature of point clouds introduce significant challenges, particularly in achieving reliable classification. While the state-of-the-art rely on training models for explicit modeling of uncertainty, there is a gap in exploring different roles that estimated uncertainty using generative approaches can play. This work investigates the impact of deterministic uncertainty in point cloud segmentation by explicitly modeling epistemic uncertainty and using it in different roles, namely, as a feature and in loss function. We evaluate a baseline artificial neural network (ANN) and two uncertainty-aware variants (uncertainty as an additional input feature and as a per-sample confidence weight in the training loss) on four large-scale LiDAR benchmarks spanning airborne and mobile acquisition, namely ISPRS Vaihingen, AHN3, Paris-Lille-3D, and Toronto-3D, together with PointNet++ and RandLA-Net references and their uncertainty-augmented counterparts under canonical spatially disjoint train and test splits. Under this protocol, uncertainty-aware modeling improves mean Intersection over Union, recovers minority classes that the baseline ANN never predicts at all, and in half of the configurations improves the alignment between prediction error and estimated uncertainty as measured by Patch Accuracy versus Patch Uncertainty. Our findings indicate that uncertainty can play multiple roles in the segmentation pipeline rather than as a device for improving accuracy alone.",
+    "categories": [
+      "remote_sensing"
+    ],
+    "architectures": [],
+    "applications": [
+      "Segmentation",
+      "Classification",
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Stable probabilistic emulation of partially observed dynamical systems",
+    "url": "http://arxiv.org/abs/2611.09317v1",
+    "authors": [
+      "Mario Massy",
+      "Sara Shamekh",
+      "Fabrizio Falasca",
+      "Matthieu Blanke"
+    ],
+    "published": "2026-11-06",
+    "abstract": "Predicting the long-term behavior of partially observed dynamical systems such as the coupled atmosphere-ocean system is central to societal decision-making. Motivated by the success of deep learning emulators in weather forecasting, data-driven climate models represent a promising approach. However, climate emulation poses distinct challenges: models must account for unresolved fast variables introduced by unavoidable coarse-graining, reproduce long-term statistics, and remain stable over arbitrarily long rollouts and under external perturbations. These requirements motivate stochastic data-driven emulators, but modern generative models lack stability guarantees. We introduce forced-dissipative stochastic interpolants, a generative framework for learning stochastic reduced dynamics. Its architecture uses structural constraints inspired by turbulent dynamics, which provide stability by design while retaining the flexibility of stochastic interpolants to represent complex probabilistic dynamics. Building on the theory of Markov-chain stability, we establish a Foster--Lyapunov drift condition and prove geometric ergodicity for our emulator, together with stability under steady external forcing. We evaluate the framework on the two-timescale Lorenz-96 system, a prototype of partially observed multiscale turbulence. The resulting emulator remains stable over long integrations and under finite-amplitude forcing, with accurate prediction of forced responses of both the mean and variance.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "A Deep-Learning Framework for the Generalized Emulation of Atmospheric Radiative Transfer at Microwave Frequencies",
+    "url": "http://arxiv.org/abs/2611.07094v1",
+    "authors": [
+      "Spencer R. Jones",
+      "Simon Pfreundschuh",
+      "Christian D. Kummerow"
+    ],
+    "published": "2026-11-04",
+    "abstract": "This paper presents an application of machine learning to the problem of the computational expense of atmospheric radiative transfer calculations from physics-based models. While in recent studies individual emulators have been created that emulate certain radiative transfer schemes for different sensors, we show that a general framework can be applied to emulate the radiative transfer method itself. A fully connected deep neural network has been trained to predict top-of-atmosphere microwave radiances in all-sky conditions over various land, ocean and sea ice surfaces at all frequencies from 1 to 300 GHz, and for all incidence angles from 0 to 65 degrees. The reference models against which the emulator has been trained include an Eddington two-stream radiative transfer model for one-dimensional and pseudo-three-dimensional microwave brightness temperature simulations. This neural network architecture has also been separately trained to reproduce the explicit calculations of the Community Radiative Transfer Model (CRTM) for a single microwave imager. In all cases, the model architecture is successfully able predict microwave brightness temperatures by being trained directly on the optical properties of the atmosphere and surface and therefore directly emulating the radiative transfer method. Compared to the explicit schemes used to produce the training data, the GPU-enabled emulator is able to produce brightness temperature simulations more than three orders of magnitude faster and with a root-mean-squared-error less than 0.0348 K, 0.0531 K, and 0.0246 K against the independent test data for the two Eddington models and CRTM, respectively. Additionally, preliminary training using a full 3D Monte Carlo scheme for high-resolution simulations shows promising results for the application of this method to \"exact\" radiative transfer methods, and these results are discussed in Section IV.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Deep Neural Network"
+    ],
+    "applications": []
+  },
+  {
+    "title": "From Sea Surface Height to Velocity - A Machine Learning Approach",
+    "url": "http://arxiv.org/abs/2611.04270v1",
+    "authors": [
+      "Yaswanth Reddy Yaradoddi",
+      "Jinbo Wang",
+      "Elyes Serghine"
+    ],
+    "published": "2026-11-03",
+    "abstract": "Inferring upper-ocean velocity from altimetric sea surface height (SSH) remains challenging below 50~km, scales now resolved by the Surface Water and Ocean Topography (SWOT) mission. Conventional methods rely on geostrophic or cyclogeostrophic balance. Here, we demonstrate that deep learning can predict the full velocity vector from SSH and environmental data and recover derivative-based diagnostics, including spectral energy flux. We trained a U-Net encoder--decoder on hourly fields from the pre-SWOT Cape Basin extraction of the LLC4320 ocean simulation, with 1.5-km grid spacing ($11.8$--$15.8^\\circ$E, $41$--$45^\\circ$S). Inputs were SSH, sea surface temperature (SST), and wind stress; targets were horizontal velocities at the surface and 50~m, where wind influence is weaker. At 50~m, the best model achieves a speed RMSE of $0.049\\,\\mathrm{m\\,s^{-1}}$, 29% lower than the geostrophic approximation. Predicted relative vorticity has a correlation of 0.93, compared with 0.75 for the geostrophic approximation. The model also recovers divergence with a correlation of 0.66, whereas geostrophic velocity is nondivergent by definition. Tests of training strategies yield four findings: SSH gradients outperform raw SSH as inputs; wind stress is the most useful covariate for total velocity prediction; SST benefits vary seasonally; and including vorticity and divergence in the loss improves accuracy. These results offer a path for transferring high-fidelity simulation physics to SWOT applications, where kilometer-scale SSH snapshots contain superposed balanced and unbalanced signals.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "UNET"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Improving Hydrofoil Efficiency Through Simulation-Driven Design Optimization",
+    "url": "http://arxiv.org/abs/2611.06183v1",
+    "authors": [
+      "Ante Sikirica",
+      "Ivana Lu\u010din",
+      "Marta Alvir",
+      "Tin Matulja"
+    ],
+    "published": "2026-11-04",
+    "abstract": "Foil windsurfing is a sport in which competitors fine-tune their setup to optimize performance under varying environmental conditions. However, such adjustments are typically guided by intuition. This paper presents a methodology for improving hydrofoil design using computational fluid dynamics. First, structured light scanning was used to obtain the geometry of a conventional hydrofoil. Subsequently, five derived designs have been explored, inspired by advancements in airplane wing design. Following this, a preliminary design was selected, and a design of experiments approach was implemented. Generated simulation data were used to train a machine learning surrogate, which is ultimately used in the multi-objective design optimization. While the surrogate-based approach yielded promising results, it was limited to exploring a restricted set of design parameters. To overcome this constraint, additional improvements were attained through adjoint optimization, demonstrating that comparable performance can be achieved with a distinctly different hydrofoil design. Finally, the conventional design was refined through adjoint optimization. Notably, adjoint optimization yielded a 15% increase in efficiency. The results suggest that both proposed approaches can produce novel hydrofoil designs capable of outperforming the original configuration under specific conditions; however, due to its inherent flexibility, the adjoint approach with realistic constraints offers more freedom in the design exploration process.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "Fault-tolerant shallow recurrent decoders for sparse sensing with missing sensor measurements",
+    "url": "http://arxiv.org/abs/2611.04893v1",
+    "authors": [
+      "Matteo Romilio Pasqual",
+      "Matteo Tomasetto",
+      "J. Nathan Kutz",
+      "Andrea Manzoni"
+    ],
+    "published": "2026-11-03",
+    "abstract": "Real-world sensing systems are inherently imperfect: sensors may fail, intermittently disconnect, operate with asynchronous sampling rates, and be subject to noise, leading to measurement streams that are irregular, incomplete, and heterogeneous. Nevertheless, sensing strategies for real-time state reconstruction typically assume synchronous and continuously active sensors, a constraint that substantially limits their applicability in operational environments. In this work, we introduce fault-tolerant sparse sensing strategies in the context of shallow recurrent decoders (SHRED) to enable high-dimensional state estimation from sparse, asynchronous, and missing sensor measurements. Specifically, we consider naive imputation strategies, fault-tolerant recurrent temporal encoders, and we introduce four different transformer-based masking mechanisms to make SHRED explicitly aware of sensor availability through the binary data-availability mask. Moreover, we further introduce a multi-step decoding training objective for SHRED, resulting in smoother latent trajectories and more robust predictions. Throughout a synthetic benchmark and three real-world problems in hydrodynamic and ocean modeling, we show that (i) transformer-based masking mechanisms outperform standard imputation techniques and fault-tolerant recurrent architectures, (ii) the multi-step decoding training objective enhances reconstruction fidelity and robustness in the presence of heterogeneous missing-data patterns, while (iii) the computational efficiency of SHRED is preserved, with no additional inference-time overhead.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "Transformer"
+    ],
+    "applications": [
+      "Forecast"
+    ]
+  },
+  {
+    "title": "Wave Physics as Representation: Tensor-Structured Neural Reconstruction for Ocean Acoustic Fields",
+    "url": "http://arxiv.org/abs/2611.01680v2",
+    "authors": [
+      "Yifan Sun",
+      "Panqi Chen",
+      "Weifeng Shi",
+      "Xiao Fu",
+      "Lei Cheng"
+    ],
+    "published": "2026-11-01",
+    "abstract": "Reconstructing three-dimensional (3D) complex ocean acoustic fields from sparse measurements is challenging due to highly oscillatory wave structures and restricted sensing patterns/routes. Learning-based approaches fall into two categories. First, purely data-driven models can learn complex field patterns, but do not explicitly exploit wave physics that may enhance interpretability and reduce training costs. Second, physics-informed methods impose a specified physical equation as a reconstruction constraint, but often require environment-dependent parameters that are difficult to acquire. As a result, practical 3D acoustic field reconstruction that is both physically grounded and robust to uncertain environmental information remains largely unexplored. This work takes an alternative route: instead of solving a fully specified wave equation, it extracts a structured representation from wave physics and learns its components from data. From the Helmholtz equation and normal mode propagation, we derive a structured spatial-angular tensor representation, termed the S/c representation. Under a low-rank specialization, it takes the form of a rank-(L,L,1) block-term tensor decomposition, which connects structured sampling patterns/routes used in ocean sensing to sufficient conditions for field recovery. Building on this tensor representation, we propose TIDAL, a neural reconstructor that uses the S/c representation as an inductive bias for structured decoding and aligns information aggregation with the sampling geometry. The neural learner removes the need for known model parameters required by conventional physics-based recovery methods. Experiments across three structured sampling geometries show that TIDAL achieves the best reconstruction performance and fastest inference among baselines, with benefits from the physics-derived representation under limited data and model capacity.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [
+      "PINN"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Sampling Design and Confidence Tubes for Integral Curves on Riemannian Manifolds",
+    "url": "http://arxiv.org/abs/2611.00771v2",
+    "authors": [
+      "Xiaotian Chang",
+      "Qirui Hu",
+      "Cyrus Mostajeran"
+    ],
+    "published": "2026-10-31",
+    "abstract": "We estimate the integral curve of an unknown vector field from noisy tangent vector field on a known compact Riemannian manifold. We consider two sampling settings: independent observations at random locations that have already been collected, and a fixed response budget that allows subsequent locations to be chosen using pilot information. Under suitable regularity assumptions, the passive kernel estimator has curve error of order $n^{-2/(d+3)}$ in probability, with sample size $n$ and manifold dimension $d$. Its functional central limit theorem has a limit characterized by a linear stochastic differential equation. For active sampling, an independent pilot directs one new batch of measurements to neighborhoods of the target curve. Under localization, smoothness and design conditions, this concentration yields expected maximum curve error of order $N^{-1/2}$, including the pilot in the total response budget $N$. Both methods provide simultaneous geodesic confidence tubes with asymptotically exact coverage under mild conditions. Simulations show narrower active tubes in most reported settings, with improved small-sample coverage in some three-dimensional examples. Ocean-drifter observations illustrate mean-flow reconstruction on the sphere, and a canopy-flow LDA application uses retrospective active sampling to quantify lateral and vertical departures of local mean streamlines.",
+    "categories": [
+      "ocean"
+    ],
+    "architectures": [],
+    "applications": []
+  },
+  {
+    "title": "GeoFaham: Domain-Specialized Multi-Agent Geospatial Analytics for Disaster Response",
+    "url": "http://arxiv.org/abs/2611.04977v1",
+    "authors": [
+      "Muhammad Sohail Danish",
+      "Gilles Q. Hacheme",
+      "Akram Zaytar",
+      "Satej S. Soman",
+      "Inbal Becker-Reshef",
+      "Juan Lavista Ferres",
+      "Salman Khan",
+      "Girmaw Abebe Tadesse"
+    ],
+    "published": "2026-11-03",
+    "abstract": "Real-world geospatial decision support requires more than single-step retrieval or code generation. Disaster-response questions often involve multi-source workflows that combine spatial databases, map-derived features, satellite imagery, raster products, and reusable geospatial artifacts, where correctness depends on preserving spatial scope, temporal context, and intermediate execution state. While large language models and coding agents offer a promising interface for such workflows, they struggle with geospatial-specific failure modes, including handling large artifacts, selecting the wrong evidence source, losing spatial or temporal metadata, and applying invalid geometric operations. We introduce GeoFaham, a domain-specialized multi-agent system for geospatial disaster analytics. GeoFaham decomposes workflows into specialist agents for vector operations, map feature retrieval, imagery discovery, and raster analysis, coordinated by an Orchestrator with a dual-ledger control loop for dependency-aware planning, progress tracking, validation, and replanning. To support artifact-centric collaboration, GeoFaham uses a Response Store that persists full geospatial outputs and typed metadata outside the LLM context window while agents exchange compact identifiers and summaries. We also introduce GeoFaham-Bench, a 40-task benchmark grounded in 17 real-world disaster records, designed to evaluate multi-step geospatial reasoning, cross-source integration, raster-vector computation, artifact generation, and recovery under non-rigid ground truth. We evaluate GeoFaham on GeoFaham-Bench against strong general-purpose coding-agent baselines, including Codex, Claude Code, and OpenCode. GeoFaham achieves the best overall performance, scoring 0.940 versus the next-best 0.879, while using 7.5 times fewer tokens. Our code and benchmark are publicly available at https://github.com/microsoft/GeoFaham.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LLM"
+    ],
+    "applications": [
+      "Tracking"
+    ]
+  },
+  {
+    "title": "GeoDIVE: Geospatial Descent Informed by Value Estimation",
+    "url": "http://arxiv.org/abs/2611.05697v1",
+    "authors": [
+      "Hamza Iqbal",
+      "Dan Cher",
+      "Eric Xing",
+      "Pranavi Kolouju",
+      "Abby Stylianou",
+      "Robert Pless",
+      "Nathan Jacobs"
+    ],
+    "published": "2026-11-03",
+    "abstract": "Finding specific objects, structures, and spatial patterns supports critical work in agriculture, infrastructure planning, environmental monitoring, and disaster response. These features, however, are often dispersed across very large regions and span dramatically different spatial scales, which defines a search space that is costly to embed, maintain, and search naively. We introduce GeoDIVE, a model that treats a multiresolution satellite image gallery as a forest and uses best-first traversal to determine which tiles to encode. At each visited node, a lightweight model then predicts an optimistic estimate of the best query similarity hidden among its descendants using the query and subtree representations. In evaluations with image and open-vocabulary text queries, GeoDIVE matches exhaustive search at 10% of the encoding cost for image queries and leads all tested baselines at every budget in both modalities. To support future evaluation of multiscale geospatial search, we also release object-level image and text queries for Git-10M, constructed from Microsoft building footprints and OpenStreetMap polygons with VLM-generated captions. Source code and models will be made publicly available.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "LVM"
+    ],
+    "applications": []
+  },
+  {
+    "title": "Using GeoAI and machine learning tools for consistent high-resolution land cover mapping based on time-series NAIP imagery",
+    "url": "http://arxiv.org/abs/2611.04470v1",
+    "authors": [
+      "Jie Liu",
+      "Xusheng Tang",
+      "Chao Wang",
+      "Zhengxiao Yan",
+      "Yuchen Dai",
+      "Qi Zhang",
+      "Conghe Song"
+    ],
+    "published": "2026-11-03",
+    "abstract": "High-resolution land-cover maps support ecological monitoring, but consistent historical time series remain scarce because aerial imagery varies across years and sensors. We developed a dual-track workflow to produce temporally coherent 1-m land-cover maps from National Agricultural Imagery Program (NAIP) imagery without historical training samples. For higher-quality imagery from 2009-2017, we used a pretrained U-Net/ResNet-34 model and refined boundaries with the Segment Anything Model (SAM). For lower-quality imagery from 2004-2008, we reconstructed land cover through an NLCD-based spatiotemporal bridging and label back-casting pipeline. Evaluation across six counties in North Carolina and Pennsylvania yielded overall accuracies of 0.887 (2014), 0.886 (2017), and 0.733 (2004). Structure, Water, Wetland, and Cropland consistently achieved high F1-scores. The workflow integrates GeoAI and multiple data sources to address temporal heterogeneity in historical aerial imagery, supporting high-resolution land-change analysis and landscape planning across the conterminous United States.",
+    "categories": [
+      "geo_reasoning"
+    ],
+    "architectures": [
+      "UNET",
+      "ResNet"
+    ],
     "applications": []
   }
 ]
